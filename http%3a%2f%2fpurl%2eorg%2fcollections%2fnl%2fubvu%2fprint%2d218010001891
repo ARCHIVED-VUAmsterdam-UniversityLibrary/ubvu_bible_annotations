@@ -35,6 +35,17 @@ nl:id_294cdf591046d2bea2d5c176f8deb1163ceea715 oa:hasTarget target:target_913828
 nl:id_294cdf591046d2bea2d5c176f8deb1163ceea715 oa:hasTarget ubvu:print-218010001891 .
 nl:id_294cdf591046d2bea2d5c176f8deb1163ceea715 oa:motivatedBy oa:tagging .
 
+nl:id_8ebda1f69cb2f17e763c2328710567868520cf6a a oa:Annotation .
+nl:id_8ebda1f69cb2f17e763c2328710567868520cf6a terms:title "Kleopas" .
+nl:id_8ebda1f69cb2f17e763c2328710567868520cf6a ui:annotationField bible:BibleCharacter .
+nl:id_8ebda1f69cb2f17e763c2328710567868520cf6a ui:typingTime 0 .
+nl:id_8ebda1f69cb2f17e763c2328710567868520cf6a oa:annotatedAt "2016-04-04T15:10:23+02:00"^^xsd:dateTime .
+nl:id_8ebda1f69cb2f17e763c2328710567868520cf6a oa:annotatedBy user:hogguer .
+nl:id_8ebda1f69cb2f17e763c2328710567868520cf6a oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Kleopas" ] .
+nl:id_8ebda1f69cb2f17e763c2328710567868520cf6a oa:hasTarget target:target_94f9d674811934fb590bf903f5f0e855520aa4b2 .
+nl:id_8ebda1f69cb2f17e763c2328710567868520cf6a oa:hasTarget ubvu:print-218010001891 .
+nl:id_8ebda1f69cb2f17e763c2328710567868520cf6a oa:motivatedBy oa:tagging .
+
 nl:id_b30300d6a066207efd1b031534493d6f28813061 a oa:Annotation .
 nl:id_b30300d6a066207efd1b031534493d6f28813061 terms:title "Petrus" .
 nl:id_b30300d6a066207efd1b031534493d6f28813061 ui:annotationField bible:BibleCharacter .
