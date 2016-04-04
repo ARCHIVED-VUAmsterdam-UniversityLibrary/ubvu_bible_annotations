@@ -11,6 +11,17 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_34a0d9b1250bb305c2c6a40351008698f6b1f7da a oa:Annotation .
+nl:id_34a0d9b1250bb305c2c6a40351008698f6b1f7da terms:title "Eutychus" .
+nl:id_34a0d9b1250bb305c2c6a40351008698f6b1f7da ui:annotationField bible:BibleCharacter .
+nl:id_34a0d9b1250bb305c2c6a40351008698f6b1f7da ui:typingTime 0 .
+nl:id_34a0d9b1250bb305c2c6a40351008698f6b1f7da oa:annotatedAt "2016-04-04T16:15:53+02:00"^^xsd:dateTime .
+nl:id_34a0d9b1250bb305c2c6a40351008698f6b1f7da oa:annotatedBy user:dick .
+nl:id_34a0d9b1250bb305c2c6a40351008698f6b1f7da oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Eutychus" ] .
+nl:id_34a0d9b1250bb305c2c6a40351008698f6b1f7da oa:hasTarget target:target_6691ae6ece14a7a6d57ef54e8e24ab681fc14b43 .
+nl:id_34a0d9b1250bb305c2c6a40351008698f6b1f7da oa:hasTarget ubvu:print-218010001937 .
+nl:id_34a0d9b1250bb305c2c6a40351008698f6b1f7da oa:motivatedBy oa:tagging .
+
 nl:id_49d5201b828ee191744d196f25f3539b5aab144c a oa:Annotation .
 nl:id_49d5201b828ee191744d196f25f3539b5aab144c terms:title "Paulus" .
 nl:id_49d5201b828ee191744d196f25f3539b5aab144c ui:annotationField bible:BibleCharacter .
