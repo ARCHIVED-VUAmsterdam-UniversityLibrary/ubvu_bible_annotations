@@ -1,23 +1,37 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_474f5a174b84613968b665d8c6e15b7c5de62dae> a oa:Annotation .
-<http://accurator.nl/id_474f5a174b84613968b665d8c6e15b7c5de62dae> terms:title "Jezus Christus" .
-<http://accurator.nl/id_474f5a174b84613968b665d8c6e15b7c5de62dae> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_474f5a174b84613968b665d8c6e15b7c5de62dae> ui:typingTime 0 .
-<http://accurator.nl/id_474f5a174b84613968b665d8c6e15b7c5de62dae> oa:annotatedAt "2016-04-04T15:28:53+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_474f5a174b84613968b665d8c6e15b7c5de62dae> oa:annotatedBy user:hrmurris .
-<http://accurator.nl/id_474f5a174b84613968b665d8c6e15b7c5de62dae> oa:hasBody resource:Jesus .
-<http://accurator.nl/id_474f5a174b84613968b665d8c6e15b7c5de62dae> oa:hasTarget target:target_3e1553b8553e717bc745f864f1d5ee368c7ad5e5 .
-<http://accurator.nl/id_474f5a174b84613968b665d8c6e15b7c5de62dae> oa:hasTarget ubvu:print-218010001887 .
-<http://accurator.nl/id_474f5a174b84613968b665d8c6e15b7c5de62dae> oa:motivatedBy oa:tagging .
+nl:id_474f5a174b84613968b665d8c6e15b7c5de62dae a oa:Annotation .
+nl:id_474f5a174b84613968b665d8c6e15b7c5de62dae terms:title "Jezus Christus" .
+nl:id_474f5a174b84613968b665d8c6e15b7c5de62dae ui:annotationField bible:BibleCharacter .
+nl:id_474f5a174b84613968b665d8c6e15b7c5de62dae ui:typingTime 0 .
+nl:id_474f5a174b84613968b665d8c6e15b7c5de62dae oa:annotatedAt "2016-04-04T15:28:53+02:00"^^xsd:dateTime .
+nl:id_474f5a174b84613968b665d8c6e15b7c5de62dae oa:annotatedBy user:hrmurris .
+nl:id_474f5a174b84613968b665d8c6e15b7c5de62dae oa:hasBody resource:Jesus .
+nl:id_474f5a174b84613968b665d8c6e15b7c5de62dae oa:hasTarget target:target_3e1553b8553e717bc745f864f1d5ee368c7ad5e5 .
+nl:id_474f5a174b84613968b665d8c6e15b7c5de62dae oa:hasTarget ubvu:print-218010001887 .
+nl:id_474f5a174b84613968b665d8c6e15b7c5de62dae oa:motivatedBy oa:tagging .
+
+nl:id_625385e9b947ddb80ce9ce9af44d92b200f0b21d a oa:Annotation .
+nl:id_625385e9b947ddb80ce9ce9af44d92b200f0b21d terms:title "Chrisus verschijnt (als \"tuinman') aan Maria (Johannes 20:14-15)" .
+nl:id_625385e9b947ddb80ce9ce9af44d92b200f0b21d ui:annotationField bible:ICBibleTheme .
+nl:id_625385e9b947ddb80ce9ce9af44d92b200f0b21d ui:typingTime 0 .
+nl:id_625385e9b947ddb80ce9ce9af44d92b200f0b21d oa:annotatedAt "2016-04-04T15:30:34+02:00"^^xsd:dateTime .
+nl:id_625385e9b947ddb80ce9ce9af44d92b200f0b21d oa:annotatedBy user:hrmurris .
+nl:id_625385e9b947ddb80ce9ce9af44d92b200f0b21d oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Chrisus verschijnt (als \"tuinman') aan Maria (Johannes 20:14-15)" ] .
+nl:id_625385e9b947ddb80ce9ce9af44d92b200f0b21d oa:hasTarget ubvu:print-218010001887 .
+nl:id_625385e9b947ddb80ce9ce9af44d92b200f0b21d oa:motivatedBy oa:tagging .
 
 target:selector_3e1553b8553e717bc745f864f1d5ee368c7ad5e5 a oa:FragmentSelector .
 target:selector_3e1553b8553e717bc745f864f1d5ee368c7ad5e5 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
