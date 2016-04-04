@@ -34,6 +34,16 @@ nl:id_545a8af110a0421c95c258900a6c0c9db364dd6e oa:hasTarget target:target_f726a0
 nl:id_545a8af110a0421c95c258900a6c0c9db364dd6e oa:hasTarget ubvu:print-218010001033 .
 nl:id_545a8af110a0421c95c258900a6c0c9db364dd6e oa:motivatedBy oa:tagging .
 
+nl:id_f34bfa70c9744b274a378ad02975ed988a86c27f a oa:Annotation .
+nl:id_f34bfa70c9744b274a378ad02975ed988a86c27f terms:title "Kain kills Abel" .
+nl:id_f34bfa70c9744b274a378ad02975ed988a86c27f ui:annotationField bible:ICBibleTheme .
+nl:id_f34bfa70c9744b274a378ad02975ed988a86c27f ui:typingTime 0 .
+nl:id_f34bfa70c9744b274a378ad02975ed988a86c27f oa:annotatedAt "2016-04-04T16:44:18+02:00"^^xsd:dateTime .
+nl:id_f34bfa70c9744b274a378ad02975ed988a86c27f oa:annotatedBy user:jbn415 .
+nl:id_f34bfa70c9744b274a378ad02975ed988a86c27f oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Kain kills Abel" ] .
+nl:id_f34bfa70c9744b274a378ad02975ed988a86c27f oa:hasTarget ubvu:print-218010001033 .
+nl:id_f34bfa70c9744b274a378ad02975ed988a86c27f oa:motivatedBy oa:tagging .
+
 target:selector_de8bbd6432ae013e8e8b8a05091704ba9bc1f0af a oa:FragmentSelector .
 target:selector_de8bbd6432ae013e8e8b8a05091704ba9bc1f0af terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_de8bbd6432ae013e8e8b8a05091704ba9bc1f0af ui:h "0.4649423246263214"^^xsd:float .
