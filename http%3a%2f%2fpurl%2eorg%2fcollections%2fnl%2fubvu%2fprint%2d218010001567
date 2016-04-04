@@ -1,23 +1,47 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_9f13548b4a1c74a23270f98342253732d127b83c> a oa:Annotation .
-<http://accurator.nl/id_9f13548b4a1c74a23270f98342253732d127b83c> terms:title "Jesaja" .
-<http://accurator.nl/id_9f13548b4a1c74a23270f98342253732d127b83c> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_9f13548b4a1c74a23270f98342253732d127b83c> ui:typingTime 0 .
-<http://accurator.nl/id_9f13548b4a1c74a23270f98342253732d127b83c> oa:annotatedAt "2016-04-04T15:25:36+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_9f13548b4a1c74a23270f98342253732d127b83c> oa:annotatedBy user:jbn415 .
-<http://accurator.nl/id_9f13548b4a1c74a23270f98342253732d127b83c> oa:hasBody resource:Isaiah .
-<http://accurator.nl/id_9f13548b4a1c74a23270f98342253732d127b83c> oa:hasTarget target:target_f9da9f3687af442c2213f72dab1e9d20e52137c0 .
-<http://accurator.nl/id_9f13548b4a1c74a23270f98342253732d127b83c> oa:hasTarget ubvu:print-218010001567 .
-<http://accurator.nl/id_9f13548b4a1c74a23270f98342253732d127b83c> oa:motivatedBy oa:tagging .
+nl:id_5cd75f7ff8e73312d3601b3d7c331c3a634a4c0f a oa:Annotation .
+nl:id_5cd75f7ff8e73312d3601b3d7c331c3a634a4c0f terms:title "God" .
+nl:id_5cd75f7ff8e73312d3601b3d7c331c3a634a4c0f ui:annotationField bible:BibleCharacter .
+nl:id_5cd75f7ff8e73312d3601b3d7c331c3a634a4c0f ui:typingTime 0 .
+nl:id_5cd75f7ff8e73312d3601b3d7c331c3a634a4c0f oa:annotatedAt "2016-04-04T15:27:00+02:00"^^xsd:dateTime .
+nl:id_5cd75f7ff8e73312d3601b3d7c331c3a634a4c0f oa:annotatedBy user:jbn415 .
+nl:id_5cd75f7ff8e73312d3601b3d7c331c3a634a4c0f oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "God" ] .
+nl:id_5cd75f7ff8e73312d3601b3d7c331c3a634a4c0f oa:hasTarget target:target_51f76e148d0bf6a1a3a05df57da9f84dd42e06a1 .
+nl:id_5cd75f7ff8e73312d3601b3d7c331c3a634a4c0f oa:hasTarget ubvu:print-218010001567 .
+nl:id_5cd75f7ff8e73312d3601b3d7c331c3a634a4c0f oa:motivatedBy oa:tagging .
+
+nl:id_9f13548b4a1c74a23270f98342253732d127b83c a oa:Annotation .
+nl:id_9f13548b4a1c74a23270f98342253732d127b83c terms:title "Jesaja" .
+nl:id_9f13548b4a1c74a23270f98342253732d127b83c ui:annotationField bible:BibleCharacter .
+nl:id_9f13548b4a1c74a23270f98342253732d127b83c ui:typingTime 0 .
+nl:id_9f13548b4a1c74a23270f98342253732d127b83c oa:annotatedAt "2016-04-04T15:25:36+02:00"^^xsd:dateTime .
+nl:id_9f13548b4a1c74a23270f98342253732d127b83c oa:annotatedBy user:jbn415 .
+nl:id_9f13548b4a1c74a23270f98342253732d127b83c oa:hasBody resource:Isaiah .
+nl:id_9f13548b4a1c74a23270f98342253732d127b83c oa:hasTarget target:target_f9da9f3687af442c2213f72dab1e9d20e52137c0 .
+nl:id_9f13548b4a1c74a23270f98342253732d127b83c oa:hasTarget ubvu:print-218010001567 .
+nl:id_9f13548b4a1c74a23270f98342253732d127b83c oa:motivatedBy oa:tagging .
+
+target:selector_51f76e148d0bf6a1a3a05df57da9f84dd42e06a1 a oa:FragmentSelector .
+target:selector_51f76e148d0bf6a1a3a05df57da9f84dd42e06a1 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_51f76e148d0bf6a1a3a05df57da9f84dd42e06a1 ui:h "0.2082128044909449"^^xsd:float .
+target:selector_51f76e148d0bf6a1a3a05df57da9f84dd42e06a1 ui:w "0.28205128205128205"^^xsd:float .
+target:selector_51f76e148d0bf6a1a3a05df57da9f84dd42e06a1 ui:x "0.4752136752136752"^^xsd:float .
+target:selector_51f76e148d0bf6a1a3a05df57da9f84dd42e06a1 ui:y "0.3581260915020424"^^xsd:float .
+target:selector_51f76e148d0bf6a1a3a05df57da9f84dd42e06a1 rdf:value "#xywh=percent:48,36,28,21" .
 
 target:selector_f9da9f3687af442c2213f72dab1e9d20e52137c0 a oa:FragmentSelector .
 target:selector_f9da9f3687af442c2213f72dab1e9d20e52137c0 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -26,6 +50,10 @@ target:selector_f9da9f3687af442c2213f72dab1e9d20e52137c0 ui:w "0.306837606837606
 target:selector_f9da9f3687af442c2213f72dab1e9d20e52137c0 ui:x "0.01282051282051282"^^xsd:float .
 target:selector_f9da9f3687af442c2213f72dab1e9d20e52137c0 ui:y "0.5142856860450404"^^xsd:float .
 target:selector_f9da9f3687af442c2213f72dab1e9d20e52137c0 rdf:value "#xywh=percent:1,51,31,30" .
+
+target:target_51f76e148d0bf6a1a3a05df57da9f84dd42e06a1 a oa:SpecificResource .
+target:target_51f76e148d0bf6a1a3a05df57da9f84dd42e06a1 oa:hasSelector target:selector_51f76e148d0bf6a1a3a05df57da9f84dd42e06a1 .
+target:target_51f76e148d0bf6a1a3a05df57da9f84dd42e06a1 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/608> .
 
 target:target_f9da9f3687af442c2213f72dab1e9d20e52137c0 a oa:SpecificResource .
 target:target_f9da9f3687af442c2213f72dab1e9d20e52137c0 oa:hasSelector target:selector_f9da9f3687af442c2213f72dab1e9d20e52137c0 .
