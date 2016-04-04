@@ -23,6 +23,16 @@ nl:id_1a1ba712a41462bb4ab4211baab03db2c30a5a45 oa:hasBody [ a content:ContentAsT
 nl:id_1a1ba712a41462bb4ab4211baab03db2c30a5a45 oa:hasTarget ubvu:print-218010002035 .
 nl:id_1a1ba712a41462bb4ab4211baab03db2c30a5a45 oa:motivatedBy oa:tagging .
 
+nl:id_1f2bd0e731c8d043e11a432dbf4d58cf02b98823 a oa:Annotation .
+nl:id_1f2bd0e731c8d043e11a432dbf4d58cf02b98823 terms:title "Jesus curses the fig tree" .
+nl:id_1f2bd0e731c8d043e11a432dbf4d58cf02b98823 ui:annotationField bible:ICBibleTheme .
+nl:id_1f2bd0e731c8d043e11a432dbf4d58cf02b98823 ui:typingTime 0 .
+nl:id_1f2bd0e731c8d043e11a432dbf4d58cf02b98823 oa:annotatedAt "2016-04-04T15:51:10+02:00"^^xsd:dateTime .
+nl:id_1f2bd0e731c8d043e11a432dbf4d58cf02b98823 oa:annotatedBy user:jbn415 .
+nl:id_1f2bd0e731c8d043e11a432dbf4d58cf02b98823 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jesus curses the fig tree" ] .
+nl:id_1f2bd0e731c8d043e11a432dbf4d58cf02b98823 oa:hasTarget ubvu:print-218010002035 .
+nl:id_1f2bd0e731c8d043e11a432dbf4d58cf02b98823 oa:motivatedBy oa:tagging .
+
 nl:id_3d367cbddf231241719a26b170b9c86192279d24 a oa:Annotation .
 nl:id_3d367cbddf231241719a26b170b9c86192279d24 terms:title "Jezus Christus" .
 nl:id_3d367cbddf231241719a26b170b9c86192279d24 ui:annotationField bible:BibleCharacter .
