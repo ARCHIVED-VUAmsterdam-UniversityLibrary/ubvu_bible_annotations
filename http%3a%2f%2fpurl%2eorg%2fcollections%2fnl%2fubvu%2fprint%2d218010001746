@@ -7,17 +7,29 @@
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_3152f3086a2213ef245e6a0490081db625604cdc> a oa:Annotation .
-<http://accurator.nl/id_3152f3086a2213ef245e6a0490081db625604cdc> terms:title "Jezus Christus" .
-<http://accurator.nl/id_3152f3086a2213ef245e6a0490081db625604cdc> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_3152f3086a2213ef245e6a0490081db625604cdc> ui:typingTime 0 .
-<http://accurator.nl/id_3152f3086a2213ef245e6a0490081db625604cdc> oa:annotatedAt "2016-04-04T16:09:08+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_3152f3086a2213ef245e6a0490081db625604cdc> oa:annotatedBy user:jbn415 .
-<http://accurator.nl/id_3152f3086a2213ef245e6a0490081db625604cdc> oa:hasBody resource:Jesus .
-<http://accurator.nl/id_3152f3086a2213ef245e6a0490081db625604cdc> oa:hasTarget target:target_612ce8ec3221fd5151752e8a9b9fa8691ccf1593 .
-<http://accurator.nl/id_3152f3086a2213ef245e6a0490081db625604cdc> oa:hasTarget ubvu:print-218010001746 .
-<http://accurator.nl/id_3152f3086a2213ef245e6a0490081db625604cdc> oa:motivatedBy oa:tagging .
+nl:id_10d74971a3320637f8640654f9659c9064b4aa57 a oa:Annotation .
+nl:id_10d74971a3320637f8640654f9659c9064b4aa57 terms:title "Christ healing possessed people" .
+nl:id_10d74971a3320637f8640654f9659c9064b4aa57 ui:annotationField bible:ICBibleTheme .
+nl:id_10d74971a3320637f8640654f9659c9064b4aa57 ui:typingTime 0 .
+nl:id_10d74971a3320637f8640654f9659c9064b4aa57 oa:annotatedAt "2016-04-04T16:10:16+02:00"^^xsd:dateTime .
+nl:id_10d74971a3320637f8640654f9659c9064b4aa57 oa:annotatedBy user:jbn415 .
+nl:id_10d74971a3320637f8640654f9659c9064b4aa57 oa:hasBody <http://iconclass.org/73C43> .
+nl:id_10d74971a3320637f8640654f9659c9064b4aa57 oa:hasTarget ubvu:print-218010001746 .
+nl:id_10d74971a3320637f8640654f9659c9064b4aa57 oa:motivatedBy oa:tagging .
+
+nl:id_3152f3086a2213ef245e6a0490081db625604cdc a oa:Annotation .
+nl:id_3152f3086a2213ef245e6a0490081db625604cdc terms:title "Jezus Christus" .
+nl:id_3152f3086a2213ef245e6a0490081db625604cdc ui:annotationField bible:BibleCharacter .
+nl:id_3152f3086a2213ef245e6a0490081db625604cdc ui:typingTime 0 .
+nl:id_3152f3086a2213ef245e6a0490081db625604cdc oa:annotatedAt "2016-04-04T16:09:08+02:00"^^xsd:dateTime .
+nl:id_3152f3086a2213ef245e6a0490081db625604cdc oa:annotatedBy user:jbn415 .
+nl:id_3152f3086a2213ef245e6a0490081db625604cdc oa:hasBody resource:Jesus .
+nl:id_3152f3086a2213ef245e6a0490081db625604cdc oa:hasTarget target:target_612ce8ec3221fd5151752e8a9b9fa8691ccf1593 .
+nl:id_3152f3086a2213ef245e6a0490081db625604cdc oa:hasTarget ubvu:print-218010001746 .
+nl:id_3152f3086a2213ef245e6a0490081db625604cdc oa:motivatedBy oa:tagging .
 
 target:selector_612ce8ec3221fd5151752e8a9b9fa8691ccf1593 a oa:FragmentSelector .
 target:selector_612ce8ec3221fd5151752e8a9b9fa8691ccf1593 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
