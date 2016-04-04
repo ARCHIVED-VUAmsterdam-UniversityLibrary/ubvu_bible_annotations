@@ -1,0 +1,17 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix user: <http://accurator.nl/user#> .
+
+<http://accurator.nl/id_33dedc1c67c0197ade2401ef843cfea05b5fc3ae> a oa:Annotation .
+<http://accurator.nl/id_33dedc1c67c0197ade2401ef843cfea05b5fc3ae> terms:title "the meeting of Abraham and Melchizedek, the high priest and king of Salem, who brings bread and wine (Genesis 14:18-20)" .
+<http://accurator.nl/id_33dedc1c67c0197ade2401ef843cfea05b5fc3ae> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
+<http://accurator.nl/id_33dedc1c67c0197ade2401ef843cfea05b5fc3ae> ui:typingTime 0 .
+<http://accurator.nl/id_33dedc1c67c0197ade2401ef843cfea05b5fc3ae> oa:annotatedAt "2016-04-04T16:39:48+02:00"^^xsd:dateTime .
+<http://accurator.nl/id_33dedc1c67c0197ade2401ef843cfea05b5fc3ae> oa:annotatedBy user:joan .
+<http://accurator.nl/id_33dedc1c67c0197ade2401ef843cfea05b5fc3ae> oa:hasBody <http://iconclass.org/71C117> .
+<http://accurator.nl/id_33dedc1c67c0197ade2401ef843cfea05b5fc3ae> oa:hasTarget ubvu:print-218010001071 .
+<http://accurator.nl/id_33dedc1c67c0197ade2401ef843cfea05b5fc3ae> oa:motivatedBy oa:tagging .
