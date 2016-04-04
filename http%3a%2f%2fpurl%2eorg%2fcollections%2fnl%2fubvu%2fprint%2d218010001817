@@ -23,6 +23,16 @@ nl:id_2703a703594bcf9506cbc31ed839f815046ff932 oa:hasTarget target:target_97f839
 nl:id_2703a703594bcf9506cbc31ed839f815046ff932 oa:hasTarget ubvu:print-218010001817 .
 nl:id_2703a703594bcf9506cbc31ed839f815046ff932 oa:motivatedBy oa:tagging .
 
+nl:id_5f9e8004f30d015fb097468c7ac9db758f6327dd a oa:Annotation .
+nl:id_5f9e8004f30d015fb097468c7ac9db758f6327dd terms:title "Christ (in the temple) in debate with Pharisees about the tribute to Caesar (Matthew 22:15-22; Mark 12:13-17; Luke 20:20-26)" .
+nl:id_5f9e8004f30d015fb097468c7ac9db758f6327dd ui:annotationField bible:ICBibleTheme .
+nl:id_5f9e8004f30d015fb097468c7ac9db758f6327dd ui:typingTime 0 .
+nl:id_5f9e8004f30d015fb097468c7ac9db758f6327dd oa:annotatedAt "2016-04-04T15:44:23+02:00"^^xsd:dateTime .
+nl:id_5f9e8004f30d015fb097468c7ac9db758f6327dd oa:annotatedBy user:everhoeff .
+nl:id_5f9e8004f30d015fb097468c7ac9db758f6327dd oa:hasBody <http://iconclass.org/73C72473> .
+nl:id_5f9e8004f30d015fb097468c7ac9db758f6327dd oa:hasTarget ubvu:print-218010001817 .
+nl:id_5f9e8004f30d015fb097468c7ac9db758f6327dd oa:motivatedBy oa:tagging .
+
 nl:id_777c61be75723391e3458ac2dde97040a004c04d a oa:Annotation .
 nl:id_777c61be75723391e3458ac2dde97040a004c04d terms:title "the tribute money" .
 nl:id_777c61be75723391e3458ac2dde97040a004c04d ui:annotationField bible:ICBibleTheme .
