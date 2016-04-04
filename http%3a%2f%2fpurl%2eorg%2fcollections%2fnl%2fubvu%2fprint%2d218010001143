@@ -56,6 +56,17 @@ nl:id_9a329041df0f8d97966a77b664e1cfa64bbc0a23 oa:hasTarget target:target_dd1147
 nl:id_9a329041df0f8d97966a77b664e1cfa64bbc0a23 oa:hasTarget ubvu:print-218010001143 .
 nl:id_9a329041df0f8d97966a77b664e1cfa64bbc0a23 oa:motivatedBy oa:tagging .
 
+nl:id_a838b93cfaac217ddd077d1ac43a56b222f82e37 a oa:Annotation .
+nl:id_a838b93cfaac217ddd077d1ac43a56b222f82e37 terms:title "jacob" .
+nl:id_a838b93cfaac217ddd077d1ac43a56b222f82e37 ui:annotationField bible:BibleCharacter .
+nl:id_a838b93cfaac217ddd077d1ac43a56b222f82e37 ui:typingTime 0 .
+nl:id_a838b93cfaac217ddd077d1ac43a56b222f82e37 oa:annotatedAt "2016-04-04T15:42:47+02:00"^^xsd:dateTime .
+nl:id_a838b93cfaac217ddd077d1ac43a56b222f82e37 oa:annotatedBy user:everhoeff .
+nl:id_a838b93cfaac217ddd077d1ac43a56b222f82e37 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "jacob" ] .
+nl:id_a838b93cfaac217ddd077d1ac43a56b222f82e37 oa:hasTarget target:target_f8cd296c94dec58746d2ec01aef12b49699069bc .
+nl:id_a838b93cfaac217ddd077d1ac43a56b222f82e37 oa:hasTarget ubvu:print-218010001143 .
+nl:id_a838b93cfaac217ddd077d1ac43a56b222f82e37 oa:motivatedBy oa:tagging .
+
 nl:id_c6861eb452eb66f16d84b1abde23c678cf2533c7 a oa:Annotation .
 nl:id_c6861eb452eb66f16d84b1abde23c678cf2533c7 terms:title "Jacob and the angel (Genesis 32:24-32)" .
 nl:id_c6861eb452eb66f16d84b1abde23c678cf2533c7 ui:annotationField bible:ICBibleTheme .
@@ -109,6 +120,14 @@ target:selector_dd1147c9fd5f0fa565acb0829784e367fcb68a24 ui:x "0.056410256410256
 target:selector_dd1147c9fd5f0fa565acb0829784e367fcb68a24 ui:y "0.3855202414772727"^^xsd:float .
 target:selector_dd1147c9fd5f0fa565acb0829784e367fcb68a24 rdf:value "#xywh=percent:6,39,51,45" .
 
+target:selector_f8cd296c94dec58746d2ec01aef12b49699069bc a oa:FragmentSelector .
+target:selector_f8cd296c94dec58746d2ec01aef12b49699069bc terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_f8cd296c94dec58746d2ec01aef12b49699069bc ui:h "0.37518069882513005"^^xsd:float .
+target:selector_f8cd296c94dec58746d2ec01aef12b49699069bc ui:w "0.12923077966412927"^^xsd:float .
+target:selector_f8cd296c94dec58746d2ec01aef12b49699069bc ui:x "0.39196579109909185"^^xsd:float .
+target:selector_f8cd296c94dec58746d2ec01aef12b49699069bc ui:y "0.453099663390779"^^xsd:float .
+target:selector_f8cd296c94dec58746d2ec01aef12b49699069bc rdf:value "#xywh=percent:39,45,13,38" .
+
 target:target_79852ad7f7d973207c6647ba6010b4c734dba2b0 a oa:SpecificResource .
 target:target_79852ad7f7d973207c6647ba6010b4c734dba2b0 oa:hasSelector target:selector_79852ad7f7d973207c6647ba6010b4c734dba2b0 .
 target:target_79852ad7f7d973207c6647ba6010b4c734dba2b0 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/184> .
@@ -124,3 +143,7 @@ target:target_c9f1df98cb4804d001e1798358ca909d69760ecc oa:hasSource <http://imag
 target:target_dd1147c9fd5f0fa565acb0829784e367fcb68a24 a oa:SpecificResource .
 target:target_dd1147c9fd5f0fa565acb0829784e367fcb68a24 oa:hasSelector target:selector_dd1147c9fd5f0fa565acb0829784e367fcb68a24 .
 target:target_dd1147c9fd5f0fa565acb0829784e367fcb68a24 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/184> .
+
+target:target_f8cd296c94dec58746d2ec01aef12b49699069bc a oa:SpecificResource .
+target:target_f8cd296c94dec58746d2ec01aef12b49699069bc oa:hasSelector target:selector_f8cd296c94dec58746d2ec01aef12b49699069bc .
+target:target_f8cd296c94dec58746d2ec01aef12b49699069bc oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/184> .
