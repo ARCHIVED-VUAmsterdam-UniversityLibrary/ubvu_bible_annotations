@@ -32,6 +32,16 @@ nl:id_40ea2bda2cc58e278cbfa6263e23823e5f102bee oa:hasTarget target:target_e80ec3
 nl:id_40ea2bda2cc58e278cbfa6263e23823e5f102bee oa:hasTarget ubvu:print-218010001396 .
 nl:id_40ea2bda2cc58e278cbfa6263e23823e5f102bee oa:motivatedBy oa:tagging .
 
+nl:id_fbc1c3aa4cb5e4062d32da9a9469dd1b3e151fd4 a oa:Annotation .
+nl:id_fbc1c3aa4cb5e4062d32da9a9469dd1b3e151fd4 terms:title "The Philistines put out Samsons eyes" .
+nl:id_fbc1c3aa4cb5e4062d32da9a9469dd1b3e151fd4 ui:annotationField bible:ICBibleTheme .
+nl:id_fbc1c3aa4cb5e4062d32da9a9469dd1b3e151fd4 ui:typingTime 0 .
+nl:id_fbc1c3aa4cb5e4062d32da9a9469dd1b3e151fd4 oa:annotatedAt "2016-04-04T16:04:47+02:00"^^xsd:dateTime .
+nl:id_fbc1c3aa4cb5e4062d32da9a9469dd1b3e151fd4 oa:annotatedBy user:jbn415 .
+nl:id_fbc1c3aa4cb5e4062d32da9a9469dd1b3e151fd4 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The Philistines put out Samsons eyes" ] .
+nl:id_fbc1c3aa4cb5e4062d32da9a9469dd1b3e151fd4 oa:hasTarget ubvu:print-218010001396 .
+nl:id_fbc1c3aa4cb5e4062d32da9a9469dd1b3e151fd4 oa:motivatedBy oa:tagging .
+
 target:selector_e80ec33c6631bae48af57fae599374396559bdcc a oa:FragmentSelector .
 target:selector_e80ec33c6631bae48af57fae599374396559bdcc terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_e80ec33c6631bae48af57fae599374396559bdcc ui:h "0.3509501187648456"^^xsd:float .
