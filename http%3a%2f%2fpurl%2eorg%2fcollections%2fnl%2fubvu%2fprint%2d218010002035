@@ -131,6 +131,16 @@ nl:id_eff2022da53fbb62cdd9532eb36faeaa81bd1673 oa:hasTarget target:target_cb2d06
 nl:id_eff2022da53fbb62cdd9532eb36faeaa81bd1673 oa:hasTarget ubvu:print-218010002035 .
 nl:id_eff2022da53fbb62cdd9532eb36faeaa81bd1673 oa:motivatedBy oa:tagging .
 
+nl:id_fefbcd3a28b6817756e2042cff2f80e71607aaed a oa:Annotation .
+nl:id_fefbcd3a28b6817756e2042cff2f80e71607aaed terms:title "the high priest rips his clothes\\" .
+nl:id_fefbcd3a28b6817756e2042cff2f80e71607aaed ui:annotationField bible:ICBibleTheme .
+nl:id_fefbcd3a28b6817756e2042cff2f80e71607aaed ui:typingTime 0 .
+nl:id_fefbcd3a28b6817756e2042cff2f80e71607aaed oa:annotatedAt "2016-04-04T16:27:40+02:00"^^xsd:dateTime .
+nl:id_fefbcd3a28b6817756e2042cff2f80e71607aaed oa:annotatedBy user:jbn415 .
+nl:id_fefbcd3a28b6817756e2042cff2f80e71607aaed oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "the high priest rips his clothes\\" ] .
+nl:id_fefbcd3a28b6817756e2042cff2f80e71607aaed oa:hasTarget ubvu:print-218010002035 .
+nl:id_fefbcd3a28b6817756e2042cff2f80e71607aaed oa:motivatedBy oa:tagging .
+
 target:selector_17e228ca14d7c971ab75e24d2aa0d7513b99f450 a oa:FragmentSelector .
 target:selector_17e228ca14d7c971ab75e24d2aa0d7513b99f450 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_17e228ca14d7c971ab75e24d2aa0d7513b99f450 ui:h "0.06398104265402843"^^xsd:float .
