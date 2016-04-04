@@ -7,18 +7,32 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_760d2b14cc19064488065f3b71edbbb119090a62> a oa:Annotation .
-<http://accurator.nl/id_760d2b14cc19064488065f3b71edbbb119090a62> terms:title "Christ" .
-<http://accurator.nl/id_760d2b14cc19064488065f3b71edbbb119090a62> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_760d2b14cc19064488065f3b71edbbb119090a62> ui:typingTime 0 .
-<http://accurator.nl/id_760d2b14cc19064488065f3b71edbbb119090a62> oa:annotatedAt "2016-04-04T13:31:19+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_760d2b14cc19064488065f3b71edbbb119090a62> oa:annotatedBy user:test .
-<http://accurator.nl/id_760d2b14cc19064488065f3b71edbbb119090a62> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Christ" ] .
-<http://accurator.nl/id_760d2b14cc19064488065f3b71edbbb119090a62> oa:hasTarget target:target_de48211b0f617eb465f9eabb37a0a39951a60a40 .
-<http://accurator.nl/id_760d2b14cc19064488065f3b71edbbb119090a62> oa:hasTarget ubvu:print-218010001675 .
-<http://accurator.nl/id_760d2b14cc19064488065f3b71edbbb119090a62> oa:motivatedBy oa:tagging .
+nl:id_5d897c1256ebc2167a87fb5b06f00b50cf8c1cd5 a oa:Annotation .
+nl:id_5d897c1256ebc2167a87fb5b06f00b50cf8c1cd5 terms:title "Jesus" .
+nl:id_5d897c1256ebc2167a87fb5b06f00b50cf8c1cd5 ui:annotationField bible:BibleCharacter .
+nl:id_5d897c1256ebc2167a87fb5b06f00b50cf8c1cd5 ui:typingTime 0 .
+nl:id_5d897c1256ebc2167a87fb5b06f00b50cf8c1cd5 oa:annotatedAt "2016-04-04T13:31:24+02:00"^^xsd:dateTime .
+nl:id_5d897c1256ebc2167a87fb5b06f00b50cf8c1cd5 oa:annotatedBy user:test .
+nl:id_5d897c1256ebc2167a87fb5b06f00b50cf8c1cd5 oa:hasBody resource:Jesus .
+nl:id_5d897c1256ebc2167a87fb5b06f00b50cf8c1cd5 oa:hasTarget target:target_de48211b0f617eb465f9eabb37a0a39951a60a40 .
+nl:id_5d897c1256ebc2167a87fb5b06f00b50cf8c1cd5 oa:hasTarget ubvu:print-218010001675 .
+nl:id_5d897c1256ebc2167a87fb5b06f00b50cf8c1cd5 oa:motivatedBy oa:tagging .
+
+nl:id_760d2b14cc19064488065f3b71edbbb119090a62 a oa:Annotation .
+nl:id_760d2b14cc19064488065f3b71edbbb119090a62 terms:title "Christ" .
+nl:id_760d2b14cc19064488065f3b71edbbb119090a62 ui:annotationField bible:BibleCharacter .
+nl:id_760d2b14cc19064488065f3b71edbbb119090a62 ui:typingTime 0 .
+nl:id_760d2b14cc19064488065f3b71edbbb119090a62 oa:annotatedAt "2016-04-04T13:31:19+02:00"^^xsd:dateTime .
+nl:id_760d2b14cc19064488065f3b71edbbb119090a62 oa:annotatedBy user:test .
+nl:id_760d2b14cc19064488065f3b71edbbb119090a62 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Christ" ] .
+nl:id_760d2b14cc19064488065f3b71edbbb119090a62 oa:hasTarget target:target_de48211b0f617eb465f9eabb37a0a39951a60a40 .
+nl:id_760d2b14cc19064488065f3b71edbbb119090a62 oa:hasTarget ubvu:print-218010001675 .
+nl:id_760d2b14cc19064488065f3b71edbbb119090a62 oa:motivatedBy oa:tagging .
 
 target:selector_de48211b0f617eb465f9eabb37a0a39951a60a40 a oa:FragmentSelector .
 target:selector_de48211b0f617eb465f9eabb37a0a39951a60a40 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
