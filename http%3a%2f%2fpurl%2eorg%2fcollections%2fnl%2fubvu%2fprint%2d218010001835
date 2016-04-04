@@ -4,14 +4,41 @@
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_9eed276062c1dd0aa99c565991b5da3bb3a43469> a oa:Annotation .
-<http://accurator.nl/id_9eed276062c1dd0aa99c565991b5da3bb3a43469> terms:title "Christ and his apostles on the Mount of Olives" .
-<http://accurator.nl/id_9eed276062c1dd0aa99c565991b5da3bb3a43469> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
-<http://accurator.nl/id_9eed276062c1dd0aa99c565991b5da3bb3a43469> ui:typingTime 0 .
-<http://accurator.nl/id_9eed276062c1dd0aa99c565991b5da3bb3a43469> oa:annotatedAt "2016-04-04T16:10:53+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_9eed276062c1dd0aa99c565991b5da3bb3a43469> oa:annotatedBy user:spaapen1 .
-<http://accurator.nl/id_9eed276062c1dd0aa99c565991b5da3bb3a43469> oa:hasBody <http://iconclass.org/73E4> .
-<http://accurator.nl/id_9eed276062c1dd0aa99c565991b5da3bb3a43469> oa:hasTarget ubvu:print-218010001835 .
-<http://accurator.nl/id_9eed276062c1dd0aa99c565991b5da3bb3a43469> oa:motivatedBy oa:tagging .
+nl:id_9eed276062c1dd0aa99c565991b5da3bb3a43469 a oa:Annotation .
+nl:id_9eed276062c1dd0aa99c565991b5da3bb3a43469 terms:title "Christ and his apostles on the Mount of Olives" .
+nl:id_9eed276062c1dd0aa99c565991b5da3bb3a43469 ui:annotationField bible:ICBibleTheme .
+nl:id_9eed276062c1dd0aa99c565991b5da3bb3a43469 ui:typingTime 0 .
+nl:id_9eed276062c1dd0aa99c565991b5da3bb3a43469 oa:annotatedAt "2016-04-04T16:10:53+02:00"^^xsd:dateTime .
+nl:id_9eed276062c1dd0aa99c565991b5da3bb3a43469 oa:annotatedBy user:spaapen1 .
+nl:id_9eed276062c1dd0aa99c565991b5da3bb3a43469 oa:hasBody <http://iconclass.org/73E4> .
+nl:id_9eed276062c1dd0aa99c565991b5da3bb3a43469 oa:hasTarget ubvu:print-218010001835 .
+nl:id_9eed276062c1dd0aa99c565991b5da3bb3a43469 oa:motivatedBy oa:tagging .
+
+nl:id_ab572ae572a0419effadad1a2523eec38791de4c a oa:Annotation .
+nl:id_ab572ae572a0419effadad1a2523eec38791de4c terms:title "Jezus Christus" .
+nl:id_ab572ae572a0419effadad1a2523eec38791de4c ui:annotationField bible:BibleCharacter .
+nl:id_ab572ae572a0419effadad1a2523eec38791de4c ui:typingTime 0 .
+nl:id_ab572ae572a0419effadad1a2523eec38791de4c oa:annotatedAt "2016-04-04T16:11:49+02:00"^^xsd:dateTime .
+nl:id_ab572ae572a0419effadad1a2523eec38791de4c oa:annotatedBy user:spaapen1 .
+nl:id_ab572ae572a0419effadad1a2523eec38791de4c oa:hasBody resource:Jesus .
+nl:id_ab572ae572a0419effadad1a2523eec38791de4c oa:hasTarget target:target_e7f2a7ef98a56eb29c87ec6f621fd274eeb6b8b4 .
+nl:id_ab572ae572a0419effadad1a2523eec38791de4c oa:hasTarget ubvu:print-218010001835 .
+nl:id_ab572ae572a0419effadad1a2523eec38791de4c oa:motivatedBy oa:tagging .
+
+target:selector_e7f2a7ef98a56eb29c87ec6f621fd274eeb6b8b4 a oa:FragmentSelector .
+target:selector_e7f2a7ef98a56eb29c87ec6f621fd274eeb6b8b4 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_e7f2a7ef98a56eb29c87ec6f621fd274eeb6b8b4 ui:h "0.3857302118171683"^^xsd:float .
+target:selector_e7f2a7ef98a56eb29c87ec6f621fd274eeb6b8b4 ui:w "0.4287179180699536"^^xsd:float .
+target:selector_e7f2a7ef98a56eb29c87ec6f621fd274eeb6b8b4 ui:x "0.0494017087496244"^^xsd:float .
+target:selector_e7f2a7ef98a56eb29c87ec6f621fd274eeb6b8b4 ui:y "0.40821625742492335"^^xsd:float .
+target:selector_e7f2a7ef98a56eb29c87ec6f621fd274eeb6b8b4 rdf:value "#xywh=percent:5,41,43,39" .
+
+target:target_e7f2a7ef98a56eb29c87ec6f621fd274eeb6b8b4 a oa:SpecificResource .
+target:target_e7f2a7ef98a56eb29c87ec6f621fd274eeb6b8b4 oa:hasSelector target:selector_e7f2a7ef98a56eb29c87ec6f621fd274eeb6b8b4 .
+target:target_e7f2a7ef98a56eb29c87ec6f621fd274eeb6b8b4 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/874> .
