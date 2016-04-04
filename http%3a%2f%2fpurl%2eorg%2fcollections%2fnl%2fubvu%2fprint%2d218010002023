@@ -97,6 +97,16 @@ nl:id_bfcb1b20e17d2269deb400a5e0ba601a8dce229d oa:hasTarget target:target_9d2b91
 nl:id_bfcb1b20e17d2269deb400a5e0ba601a8dce229d oa:hasTarget ubvu:print-218010002023 .
 nl:id_bfcb1b20e17d2269deb400a5e0ba601a8dce229d oa:motivatedBy oa:tagging .
 
+nl:id_ccf704b904fe06ec7a542b987ac979fafb1e1115 a oa:Annotation .
+nl:id_ccf704b904fe06ec7a542b987ac979fafb1e1115 terms:title "Ahasuerus has the most attractive maidens of his kingdom put into his harem in order to select a new queen from among them ~ story of Esther" .
+nl:id_ccf704b904fe06ec7a542b987ac979fafb1e1115 ui:annotationField bible:ICBibleTheme .
+nl:id_ccf704b904fe06ec7a542b987ac979fafb1e1115 ui:typingTime 0 .
+nl:id_ccf704b904fe06ec7a542b987ac979fafb1e1115 oa:annotatedAt "2016-04-04T15:52:54+02:00"^^xsd:dateTime .
+nl:id_ccf704b904fe06ec7a542b987ac979fafb1e1115 oa:annotatedBy user:hogguer .
+nl:id_ccf704b904fe06ec7a542b987ac979fafb1e1115 oa:hasBody <http://iconclass.org/71Q22> .
+nl:id_ccf704b904fe06ec7a542b987ac979fafb1e1115 oa:hasTarget ubvu:print-218010002023 .
+nl:id_ccf704b904fe06ec7a542b987ac979fafb1e1115 oa:motivatedBy oa:tagging .
+
 nl:id_e54df17da0686e0bf278b0ce7cad9bb71786bfd6 a oa:Annotation .
 nl:id_e54df17da0686e0bf278b0ce7cad9bb71786bfd6 terms:title "Ester (dochter van Abichaïl)" .
 nl:id_e54df17da0686e0bf278b0ce7cad9bb71786bfd6 ui:annotationField bible:BibleCharacter .
