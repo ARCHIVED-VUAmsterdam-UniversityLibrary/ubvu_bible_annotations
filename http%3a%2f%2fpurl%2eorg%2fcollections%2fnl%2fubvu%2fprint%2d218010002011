@@ -10,6 +10,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_2024005db4f8582372f33b031c0db42a9fe42fa2 a oa:Annotation .
+nl:id_2024005db4f8582372f33b031c0db42a9fe42fa2 terms:title "Eli unjustfull judgmen and the terrible life of his sons" .
+nl:id_2024005db4f8582372f33b031c0db42a9fe42fa2 ui:annotationField bible:ICBibleTheme .
+nl:id_2024005db4f8582372f33b031c0db42a9fe42fa2 ui:typingTime 0 .
+nl:id_2024005db4f8582372f33b031c0db42a9fe42fa2 oa:annotatedAt "2016-04-04T16:07:08+02:00"^^xsd:dateTime .
+nl:id_2024005db4f8582372f33b031c0db42a9fe42fa2 oa:annotatedBy user:hrmurris .
+nl:id_2024005db4f8582372f33b031c0db42a9fe42fa2 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Eli unjustfull judgmen and the terrible life of his sons" ] .
+nl:id_2024005db4f8582372f33b031c0db42a9fe42fa2 oa:hasTarget ubvu:print-218010002011 .
+nl:id_2024005db4f8582372f33b031c0db42a9fe42fa2 oa:motivatedBy oa:tagging .
+
 nl:id_2736b538db6aec29c849b6179223b25caafcd60f a oa:Annotation .
 nl:id_2736b538db6aec29c849b6179223b25caafcd60f terms:title "Naomi sends away her daughters-in-law: Orpah returns home, Ruth stays" .
 nl:id_2736b538db6aec29c849b6179223b25caafcd60f ui:annotationField bible:ICBibleTheme .
