@@ -1,0 +1,32 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix resource: <http://bibleontology.com/resource/> .
+@prefix user: <http://accurator.nl/user#> .
+
+<http://accurator.nl/id_b7e29cd441f1197640a4b609d1b1adca391ade3a> a oa:Annotation .
+<http://accurator.nl/id_b7e29cd441f1197640a4b609d1b1adca391ade3a> terms:title "Simson" .
+<http://accurator.nl/id_b7e29cd441f1197640a4b609d1b1adca391ade3a> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
+<http://accurator.nl/id_b7e29cd441f1197640a4b609d1b1adca391ade3a> ui:typingTime 0 .
+<http://accurator.nl/id_b7e29cd441f1197640a4b609d1b1adca391ade3a> oa:annotatedAt "2016-04-04T15:05:49+02:00"^^xsd:dateTime .
+<http://accurator.nl/id_b7e29cd441f1197640a4b609d1b1adca391ade3a> oa:annotatedBy user:joan .
+<http://accurator.nl/id_b7e29cd441f1197640a4b609d1b1adca391ade3a> oa:hasBody resource:Samson .
+<http://accurator.nl/id_b7e29cd441f1197640a4b609d1b1adca391ade3a> oa:hasTarget target:target_c4d4a73b49307657d293d3e39c8f979931744dd2 .
+<http://accurator.nl/id_b7e29cd441f1197640a4b609d1b1adca391ade3a> oa:hasTarget ubvu:print-218010001405 .
+<http://accurator.nl/id_b7e29cd441f1197640a4b609d1b1adca391ade3a> oa:motivatedBy oa:tagging .
+
+target:selector_c4d4a73b49307657d293d3e39c8f979931744dd2 a oa:FragmentSelector .
+target:selector_c4d4a73b49307657d293d3e39c8f979931744dd2 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_c4d4a73b49307657d293d3e39c8f979931744dd2 ui:h "0.1410105757931845"^^xsd:float .
+target:selector_c4d4a73b49307657d293d3e39c8f979931744dd2 ui:w "0.11794871794871795"^^xsd:float .
+target:selector_c4d4a73b49307657d293d3e39c8f979931744dd2 ui:x "0.5871794871794872"^^xsd:float .
+target:selector_c4d4a73b49307657d293d3e39c8f979931744dd2 ui:y "0.6897767332549941"^^xsd:float .
+target:selector_c4d4a73b49307657d293d3e39c8f979931744dd2 rdf:value "#xywh=percent:59,69,12,14" .
+
+target:target_c4d4a73b49307657d293d3e39c8f979931744dd2 a oa:SpecificResource .
+target:target_c4d4a73b49307657d293d3e39c8f979931744dd2 oa:hasSelector target:selector_c4d4a73b49307657d293d3e39c8f979931744dd2 .
+target:target_c4d4a73b49307657d293d3e39c8f979931744dd2 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/446> .
