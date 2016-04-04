@@ -1,0 +1,17 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix user: <http://accurator.nl/user#> .
+
+<http://accurator.nl/id_9eed276062c1dd0aa99c565991b5da3bb3a43469> a oa:Annotation .
+<http://accurator.nl/id_9eed276062c1dd0aa99c565991b5da3bb3a43469> terms:title "Christ and his apostles on the Mount of Olives" .
+<http://accurator.nl/id_9eed276062c1dd0aa99c565991b5da3bb3a43469> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
+<http://accurator.nl/id_9eed276062c1dd0aa99c565991b5da3bb3a43469> ui:typingTime 0 .
+<http://accurator.nl/id_9eed276062c1dd0aa99c565991b5da3bb3a43469> oa:annotatedAt "2016-04-04T16:10:53+02:00"^^xsd:dateTime .
+<http://accurator.nl/id_9eed276062c1dd0aa99c565991b5da3bb3a43469> oa:annotatedBy user:spaapen1 .
+<http://accurator.nl/id_9eed276062c1dd0aa99c565991b5da3bb3a43469> oa:hasBody <http://iconclass.org/73E4> .
+<http://accurator.nl/id_9eed276062c1dd0aa99c565991b5da3bb3a43469> oa:hasTarget ubvu:print-218010001835 .
+<http://accurator.nl/id_9eed276062c1dd0aa99c565991b5da3bb3a43469> oa:motivatedBy oa:tagging .
