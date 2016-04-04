@@ -1,0 +1,17 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix user: <http://accurator.nl/user#> .
+
+<http://accurator.nl/id_5749a5f00c88c523309e6a0a64daf56127508a1a> a oa:Annotation .
+<http://accurator.nl/id_5749a5f00c88c523309e6a0a64daf56127508a1a> terms:title "the Flood and destruction of mankind ~ story of Noah (Genesis 7:10 - 8:17)" .
+<http://accurator.nl/id_5749a5f00c88c523309e6a0a64daf56127508a1a> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
+<http://accurator.nl/id_5749a5f00c88c523309e6a0a64daf56127508a1a> ui:typingTime 0 .
+<http://accurator.nl/id_5749a5f00c88c523309e6a0a64daf56127508a1a> oa:annotatedAt "2016-04-04T15:52:41+02:00"^^xsd:dateTime .
+<http://accurator.nl/id_5749a5f00c88c523309e6a0a64daf56127508a1a> oa:annotatedBy user:joan .
+<http://accurator.nl/id_5749a5f00c88c523309e6a0a64daf56127508a1a> oa:hasBody <http://iconclass.org/71B33> .
+<http://accurator.nl/id_5749a5f00c88c523309e6a0a64daf56127508a1a> oa:hasTarget ubvu:print-218010001050 .
+<http://accurator.nl/id_5749a5f00c88c523309e6a0a64daf56127508a1a> oa:motivatedBy oa:tagging .
