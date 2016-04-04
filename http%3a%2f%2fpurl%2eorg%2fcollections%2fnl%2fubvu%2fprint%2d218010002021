@@ -6,6 +6,7 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
@@ -30,6 +31,17 @@ nl:id_8241d29bc5559bcaedf2a9bfcddd99582cb647b9 oa:hasBody <http://iconclass.org/
 nl:id_8241d29bc5559bcaedf2a9bfcddd99582cb647b9 oa:hasTarget ubvu:print-218010002021 .
 nl:id_8241d29bc5559bcaedf2a9bfcddd99582cb647b9 oa:motivatedBy oa:tagging .
 
+nl:id_c165348bc65779889ef7b9623b01bd6410b4bcf8 a oa:Annotation .
+nl:id_c165348bc65779889ef7b9623b01bd6410b4bcf8 terms:title "Cyrus" .
+nl:id_c165348bc65779889ef7b9623b01bd6410b4bcf8 ui:annotationField bible:BibleCharacter .
+nl:id_c165348bc65779889ef7b9623b01bd6410b4bcf8 ui:typingTime 0 .
+nl:id_c165348bc65779889ef7b9623b01bd6410b4bcf8 oa:annotatedAt "2016-04-04T16:01:34+02:00"^^xsd:dateTime .
+nl:id_c165348bc65779889ef7b9623b01bd6410b4bcf8 oa:annotatedBy user:spaapen1 .
+nl:id_c165348bc65779889ef7b9623b01bd6410b4bcf8 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Cyrus" ] .
+nl:id_c165348bc65779889ef7b9623b01bd6410b4bcf8 oa:hasTarget target:target_28f4f50d879f4ac1559984041edcfca292877bf2 .
+nl:id_c165348bc65779889ef7b9623b01bd6410b4bcf8 oa:hasTarget ubvu:print-218010002021 .
+nl:id_c165348bc65779889ef7b9623b01bd6410b4bcf8 oa:motivatedBy oa:tagging .
+
 nl:id_ebfab7ffefa5494c7649187f83b644f94dacdb83 a oa:Annotation .
 nl:id_ebfab7ffefa5494c7649187f83b644f94dacdb83 terms:title "Cyrus proclaims the end of the Babylonian Captivity and orders a temple to be built in Jerusalem" .
 nl:id_ebfab7ffefa5494c7649187f83b644f94dacdb83 ui:annotationField bible:ICBibleTheme .
@@ -49,3 +61,15 @@ nl:id_feb2d60c81bf52c0e5f8baa620ecb22892dede04 oa:annotatedBy user:spaapen1 .
 nl:id_feb2d60c81bf52c0e5f8baa620ecb22892dede04 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Ezra 1,1-7;2,1" ] .
 nl:id_feb2d60c81bf52c0e5f8baa620ecb22892dede04 oa:hasTarget ubvu:print-218010002021 .
 nl:id_feb2d60c81bf52c0e5f8baa620ecb22892dede04 oa:motivatedBy oa:tagging .
+
+target:selector_28f4f50d879f4ac1559984041edcfca292877bf2 a oa:FragmentSelector .
+target:selector_28f4f50d879f4ac1559984041edcfca292877bf2 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_28f4f50d879f4ac1559984041edcfca292877bf2 ui:h "0.13373568896867455"^^xsd:float .
+target:selector_28f4f50d879f4ac1559984041edcfca292877bf2 ui:w "0.10188035231370192"^^xsd:float .
+target:selector_28f4f50d879f4ac1559984041edcfca292877bf2 ui:x "0.4357264852931357"^^xsd:float .
+target:selector_28f4f50d879f4ac1559984041edcfca292877bf2 ui:y "0.5968919660790397"^^xsd:float .
+target:selector_28f4f50d879f4ac1559984041edcfca292877bf2 rdf:value "#xywh=percent:44,60,10,13" .
+
+target:target_28f4f50d879f4ac1559984041edcfca292877bf2 a oa:SpecificResource .
+target:target_28f4f50d879f4ac1559984041edcfca292877bf2 oa:hasSelector target:selector_28f4f50d879f4ac1559984041edcfca292877bf2 .
+target:target_28f4f50d879f4ac1559984041edcfca292877bf2 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/20> .
