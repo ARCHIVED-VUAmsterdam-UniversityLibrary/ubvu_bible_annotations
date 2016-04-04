@@ -89,6 +89,17 @@ nl:id_9e46230609cde1e7b2e7c49a25743c10ce41d4e2 oa:hasBody [ a content:ContentAsT
 nl:id_9e46230609cde1e7b2e7c49a25743c10ce41d4e2 oa:hasTarget ubvu:print-218010002032 .
 nl:id_9e46230609cde1e7b2e7c49a25743c10ce41d4e2 oa:motivatedBy oa:tagging .
 
+nl:id_ac0cd69e74daa53acd14ae5df7418c9dc5795248 a oa:Annotation .
+nl:id_ac0cd69e74daa53acd14ae5df7418c9dc5795248 terms:title "Jezus Christus" .
+nl:id_ac0cd69e74daa53acd14ae5df7418c9dc5795248 ui:annotationField bible:BibleCharacter .
+nl:id_ac0cd69e74daa53acd14ae5df7418c9dc5795248 ui:typingTime 0 .
+nl:id_ac0cd69e74daa53acd14ae5df7418c9dc5795248 oa:annotatedAt "2016-04-04T16:20:02+02:00"^^xsd:dateTime .
+nl:id_ac0cd69e74daa53acd14ae5df7418c9dc5795248 oa:annotatedBy user:jbn415 .
+nl:id_ac0cd69e74daa53acd14ae5df7418c9dc5795248 oa:hasBody resource:Jesus .
+nl:id_ac0cd69e74daa53acd14ae5df7418c9dc5795248 oa:hasTarget target:target_2e847476e1b4608d684d5ac6237139aea4303560 .
+nl:id_ac0cd69e74daa53acd14ae5df7418c9dc5795248 oa:hasTarget ubvu:print-218010002032 .
+nl:id_ac0cd69e74daa53acd14ae5df7418c9dc5795248 oa:motivatedBy oa:tagging .
+
 nl:id_b0ac27e6abeaff897ed9c2670d93d175d2beb773 a oa:Annotation .
 nl:id_b0ac27e6abeaff897ed9c2670d93d175d2beb773 terms:title "Satan withdrawing from Christ ~ temptation of Christ in the wilderness" .
 nl:id_b0ac27e6abeaff897ed9c2670d93d175d2beb773 ui:annotationField bible:ICBibleTheme .
@@ -181,6 +192,14 @@ target:selector_2717b43770ef4a3cc6852a3be74a6e18bc494e60 ui:x "0.344444444444444
 target:selector_2717b43770ef4a3cc6852a3be74a6e18bc494e60 ui:y "0.24349334875650666"^^xsd:float .
 target:selector_2717b43770ef4a3cc6852a3be74a6e18bc494e60 rdf:value "#xywh=percent:34,24,11,13" .
 
+target:selector_2e847476e1b4608d684d5ac6237139aea4303560 a oa:FragmentSelector .
+target:selector_2e847476e1b4608d684d5ac6237139aea4303560 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_2e847476e1b4608d684d5ac6237139aea4303560 ui:h "0.09318102984982739"^^xsd:float .
+target:selector_2e847476e1b4608d684d5ac6237139aea4303560 ui:w "0.07882048778044871"^^xsd:float .
+target:selector_2e847476e1b4608d684d5ac6237139aea4303560 ui:x "0.5533247988448183"^^xsd:float .
+target:selector_2e847476e1b4608d684d5ac6237139aea4303560 ui:y "0.12280509070622017"^^xsd:float .
+target:selector_2e847476e1b4608d684d5ac6237139aea4303560 rdf:value "#xywh=percent:55,12,8,9" .
+
 target:selector_3a0fca0f5ac26a41cd44cd9d7dcae1e48228462e a oa:FragmentSelector .
 target:selector_3a0fca0f5ac26a41cd44cd9d7dcae1e48228462e terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_3a0fca0f5ac26a41cd44cd9d7dcae1e48228462e ui:h "0.11451706188548294"^^xsd:float .
@@ -268,6 +287,10 @@ target:target_0dbd9147eef4938b8f32343b760a875420f7ce53 oa:hasSource <http://imag
 target:target_2717b43770ef4a3cc6852a3be74a6e18bc494e60 a oa:SpecificResource .
 target:target_2717b43770ef4a3cc6852a3be74a6e18bc494e60 oa:hasSelector target:selector_2717b43770ef4a3cc6852a3be74a6e18bc494e60 .
 target:target_2717b43770ef4a3cc6852a3be74a6e18bc494e60 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/31> .
+
+target:target_2e847476e1b4608d684d5ac6237139aea4303560 a oa:SpecificResource .
+target:target_2e847476e1b4608d684d5ac6237139aea4303560 oa:hasSelector target:selector_2e847476e1b4608d684d5ac6237139aea4303560 .
+target:target_2e847476e1b4608d684d5ac6237139aea4303560 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/31> .
 
 target:target_3a0fca0f5ac26a41cd44cd9d7dcae1e48228462e a oa:SpecificResource .
 target:target_3a0fca0f5ac26a41cd44cd9d7dcae1e48228462e oa:hasSelector target:selector_3a0fca0f5ac26a41cd44cd9d7dcae1e48228462e .
