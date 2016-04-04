@@ -7,13 +7,25 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_d7c60eadcffb3abfd650166d22a7bcf2f3e8f56f> a oa:Annotation .
-<http://accurator.nl/id_d7c60eadcffb3abfd650166d22a7bcf2f3e8f56f> terms:title "Solomon builds the temple" .
-<http://accurator.nl/id_d7c60eadcffb3abfd650166d22a7bcf2f3e8f56f> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
-<http://accurator.nl/id_d7c60eadcffb3abfd650166d22a7bcf2f3e8f56f> ui:typingTime 0 .
-<http://accurator.nl/id_d7c60eadcffb3abfd650166d22a7bcf2f3e8f56f> oa:annotatedAt "2016-04-04T15:37:07+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_d7c60eadcffb3abfd650166d22a7bcf2f3e8f56f> oa:annotatedBy user:jbn415 .
-<http://accurator.nl/id_d7c60eadcffb3abfd650166d22a7bcf2f3e8f56f> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Solomon builds the temple" ] .
-<http://accurator.nl/id_d7c60eadcffb3abfd650166d22a7bcf2f3e8f56f> oa:hasTarget ubvu:print-218010002017 .
-<http://accurator.nl/id_d7c60eadcffb3abfd650166d22a7bcf2f3e8f56f> oa:motivatedBy oa:tagging .
+nl:id_5d343ef8d0dc4f9722704acdc305f4d1c670041d a oa:Annotation .
+nl:id_5d343ef8d0dc4f9722704acdc305f4d1c670041d terms:title "burning and plundering of the temple" .
+nl:id_5d343ef8d0dc4f9722704acdc305f4d1c670041d ui:annotationField bible:ICBibleTheme .
+nl:id_5d343ef8d0dc4f9722704acdc305f4d1c670041d ui:typingTime 0 .
+nl:id_5d343ef8d0dc4f9722704acdc305f4d1c670041d oa:annotatedAt "2016-04-04T15:37:59+02:00"^^xsd:dateTime .
+nl:id_5d343ef8d0dc4f9722704acdc305f4d1c670041d oa:annotatedBy user:jbn415 .
+nl:id_5d343ef8d0dc4f9722704acdc305f4d1c670041d oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "burning and plundering of the temple" ] .
+nl:id_5d343ef8d0dc4f9722704acdc305f4d1c670041d oa:hasTarget ubvu:print-218010002017 .
+nl:id_5d343ef8d0dc4f9722704acdc305f4d1c670041d oa:motivatedBy oa:tagging .
+
+nl:id_d7c60eadcffb3abfd650166d22a7bcf2f3e8f56f a oa:Annotation .
+nl:id_d7c60eadcffb3abfd650166d22a7bcf2f3e8f56f terms:title "Solomon builds the temple" .
+nl:id_d7c60eadcffb3abfd650166d22a7bcf2f3e8f56f ui:annotationField bible:ICBibleTheme .
+nl:id_d7c60eadcffb3abfd650166d22a7bcf2f3e8f56f ui:typingTime 0 .
+nl:id_d7c60eadcffb3abfd650166d22a7bcf2f3e8f56f oa:annotatedAt "2016-04-04T15:37:07+02:00"^^xsd:dateTime .
+nl:id_d7c60eadcffb3abfd650166d22a7bcf2f3e8f56f oa:annotatedBy user:jbn415 .
+nl:id_d7c60eadcffb3abfd650166d22a7bcf2f3e8f56f oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Solomon builds the temple" ] .
+nl:id_d7c60eadcffb3abfd650166d22a7bcf2f3e8f56f oa:hasTarget ubvu:print-218010002017 .
+nl:id_d7c60eadcffb3abfd650166d22a7bcf2f3e8f56f oa:motivatedBy oa:tagging .
