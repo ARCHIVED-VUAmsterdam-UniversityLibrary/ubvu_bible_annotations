@@ -12,6 +12,17 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_4f74d19fdd44d818d05b13c3082f68d696f5d436 a oa:Annotation .
+nl:id_4f74d19fdd44d818d05b13c3082f68d696f5d436 terms:title "vissers" .
+nl:id_4f74d19fdd44d818d05b13c3082f68d696f5d436 ui:annotationField bible:BibleCharacter .
+nl:id_4f74d19fdd44d818d05b13c3082f68d696f5d436 ui:typingTime 0 .
+nl:id_4f74d19fdd44d818d05b13c3082f68d696f5d436 oa:annotatedAt "2016-04-04T15:25:47+02:00"^^xsd:dateTime .
+nl:id_4f74d19fdd44d818d05b13c3082f68d696f5d436 oa:annotatedBy user:dick .
+nl:id_4f74d19fdd44d818d05b13c3082f68d696f5d436 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "vissers" ] .
+nl:id_4f74d19fdd44d818d05b13c3082f68d696f5d436 oa:hasTarget target:target_d880a327cfd7776e0c093f7758c1cdea9587ec96 .
+nl:id_4f74d19fdd44d818d05b13c3082f68d696f5d436 oa:hasTarget ubvu:print-218010001727 .
+nl:id_4f74d19fdd44d818d05b13c3082f68d696f5d436 oa:motivatedBy oa:tagging .
+
 nl:id_7a991178cc8a792cdaeda9311aae2fdbb14f15b4 a oa:Annotation .
 nl:id_7a991178cc8a792cdaeda9311aae2fdbb14f15b4 terms:title "De wonderbare visvangst (Lucas 5:5-7)" .
 nl:id_7a991178cc8a792cdaeda9311aae2fdbb14f15b4 ui:annotationField bible:ICBibleTheme .
