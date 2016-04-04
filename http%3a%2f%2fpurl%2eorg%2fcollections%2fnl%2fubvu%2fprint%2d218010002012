@@ -23,6 +23,16 @@ nl:id_8347dab9d0fea94d81e178f9ca9c45d37cb57cbc oa:hasTarget target:target_70537d
 nl:id_8347dab9d0fea94d81e178f9ca9c45d37cb57cbc oa:hasTarget ubvu:print-218010002012 .
 nl:id_8347dab9d0fea94d81e178f9ca9c45d37cb57cbc oa:motivatedBy oa:tagging .
 
+nl:id_99c49e8eb71c5272991a95e245e062be1de6ae6f a oa:Annotation .
+nl:id_99c49e8eb71c5272991a95e245e062be1de6ae6f terms:title "the statue of Dagon in Ashdod falls down" .
+nl:id_99c49e8eb71c5272991a95e245e062be1de6ae6f ui:annotationField bible:ICBibleTheme .
+nl:id_99c49e8eb71c5272991a95e245e062be1de6ae6f ui:typingTime 0 .
+nl:id_99c49e8eb71c5272991a95e245e062be1de6ae6f oa:annotatedAt "2016-04-04T16:05:44+02:00"^^xsd:dateTime .
+nl:id_99c49e8eb71c5272991a95e245e062be1de6ae6f oa:annotatedBy user:everhoeff .
+nl:id_99c49e8eb71c5272991a95e245e062be1de6ae6f oa:hasBody <http://iconclass.org/71F83511> .
+nl:id_99c49e8eb71c5272991a95e245e062be1de6ae6f oa:hasTarget ubvu:print-218010002012 .
+nl:id_99c49e8eb71c5272991a95e245e062be1de6ae6f oa:motivatedBy oa:tagging .
+
 nl:id_fd04341c50f4ef95b50e549b4c052b018554b6e3 a oa:Annotation .
 nl:id_fd04341c50f4ef95b50e549b4c052b018554b6e3 terms:title "The ark of convenant put on a cart" .
 nl:id_fd04341c50f4ef95b50e549b4c052b018554b6e3 ui:annotationField bible:ICBibleTheme .
