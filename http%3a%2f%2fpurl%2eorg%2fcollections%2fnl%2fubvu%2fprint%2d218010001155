@@ -7,17 +7,29 @@
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_f696c6a62e886632c5601116bca661da160ac110> a oa:Annotation .
-<http://accurator.nl/id_f696c6a62e886632c5601116bca661da160ac110> terms:title "Josech" .
-<http://accurator.nl/id_f696c6a62e886632c5601116bca661da160ac110> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_f696c6a62e886632c5601116bca661da160ac110> ui:typingTime 0 .
-<http://accurator.nl/id_f696c6a62e886632c5601116bca661da160ac110> oa:annotatedAt "2016-04-04T13:21:52+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_f696c6a62e886632c5601116bca661da160ac110> oa:annotatedBy user:beer .
-<http://accurator.nl/id_f696c6a62e886632c5601116bca661da160ac110> oa:hasBody resource:Josech .
-<http://accurator.nl/id_f696c6a62e886632c5601116bca661da160ac110> oa:hasTarget target:target_d912b3c14a97db236aa981f9ca244ae5a30beab2 .
-<http://accurator.nl/id_f696c6a62e886632c5601116bca661da160ac110> oa:hasTarget ubvu:print-218010001155 .
-<http://accurator.nl/id_f696c6a62e886632c5601116bca661da160ac110> oa:motivatedBy oa:tagging .
+nl:id_71a65cd4da19570f157a669976e267be55977302 a oa:Annotation .
+nl:id_71a65cd4da19570f157a669976e267be55977302 terms:title "the ark ~ story of Noah" .
+nl:id_71a65cd4da19570f157a669976e267be55977302 ui:annotationField bible:ICBibleTheme .
+nl:id_71a65cd4da19570f157a669976e267be55977302 ui:typingTime 0 .
+nl:id_71a65cd4da19570f157a669976e267be55977302 oa:annotatedAt "2016-04-04T13:29:45+02:00"^^xsd:dateTime .
+nl:id_71a65cd4da19570f157a669976e267be55977302 oa:annotatedBy user:beer .
+nl:id_71a65cd4da19570f157a669976e267be55977302 oa:hasBody <http://iconclass.org/71B33111> .
+nl:id_71a65cd4da19570f157a669976e267be55977302 oa:hasTarget ubvu:print-218010001155 .
+nl:id_71a65cd4da19570f157a669976e267be55977302 oa:motivatedBy oa:tagging .
+
+nl:id_f696c6a62e886632c5601116bca661da160ac110 a oa:Annotation .
+nl:id_f696c6a62e886632c5601116bca661da160ac110 terms:title "Josech" .
+nl:id_f696c6a62e886632c5601116bca661da160ac110 ui:annotationField bible:BibleCharacter .
+nl:id_f696c6a62e886632c5601116bca661da160ac110 ui:typingTime 0 .
+nl:id_f696c6a62e886632c5601116bca661da160ac110 oa:annotatedAt "2016-04-04T13:21:52+02:00"^^xsd:dateTime .
+nl:id_f696c6a62e886632c5601116bca661da160ac110 oa:annotatedBy user:beer .
+nl:id_f696c6a62e886632c5601116bca661da160ac110 oa:hasBody resource:Josech .
+nl:id_f696c6a62e886632c5601116bca661da160ac110 oa:hasTarget target:target_d912b3c14a97db236aa981f9ca244ae5a30beab2 .
+nl:id_f696c6a62e886632c5601116bca661da160ac110 oa:hasTarget ubvu:print-218010001155 .
+nl:id_f696c6a62e886632c5601116bca661da160ac110 oa:motivatedBy oa:tagging .
 
 target:selector_d912b3c14a97db236aa981f9ca244ae5a30beab2 a oa:FragmentSelector .
 target:selector_d912b3c14a97db236aa981f9ca244ae5a30beab2 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
