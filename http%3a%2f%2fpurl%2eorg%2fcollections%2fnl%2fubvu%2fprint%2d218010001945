@@ -8,17 +8,29 @@
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_079832feeac649afae9593cd6aeeeffca73b0935> a oa:Annotation .
-<http://accurator.nl/id_079832feeac649afae9593cd6aeeeffca73b0935> terms:title "Paulus" .
-<http://accurator.nl/id_079832feeac649afae9593cd6aeeeffca73b0935> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_079832feeac649afae9593cd6aeeeffca73b0935> ui:typingTime 0 .
-<http://accurator.nl/id_079832feeac649afae9593cd6aeeeffca73b0935> oa:annotatedAt "2016-04-04T15:23:51+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_079832feeac649afae9593cd6aeeeffca73b0935> oa:annotatedBy user:jbn415 .
-<http://accurator.nl/id_079832feeac649afae9593cd6aeeeffca73b0935> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Paulus" ] .
-<http://accurator.nl/id_079832feeac649afae9593cd6aeeeffca73b0935> oa:hasTarget target:target_b782c6aaadfb724bacb3d81e721239307abbceec .
-<http://accurator.nl/id_079832feeac649afae9593cd6aeeeffca73b0935> oa:hasTarget ubvu:print-218010001945 .
-<http://accurator.nl/id_079832feeac649afae9593cd6aeeeffca73b0935> oa:motivatedBy oa:tagging .
+nl:id_079832feeac649afae9593cd6aeeeffca73b0935 a oa:Annotation .
+nl:id_079832feeac649afae9593cd6aeeeffca73b0935 terms:title "Paulus" .
+nl:id_079832feeac649afae9593cd6aeeeffca73b0935 ui:annotationField bible:BibleCharacter .
+nl:id_079832feeac649afae9593cd6aeeeffca73b0935 ui:typingTime 0 .
+nl:id_079832feeac649afae9593cd6aeeeffca73b0935 oa:annotatedAt "2016-04-04T15:23:51+02:00"^^xsd:dateTime .
+nl:id_079832feeac649afae9593cd6aeeeffca73b0935 oa:annotatedBy user:jbn415 .
+nl:id_079832feeac649afae9593cd6aeeeffca73b0935 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Paulus" ] .
+nl:id_079832feeac649afae9593cd6aeeeffca73b0935 oa:hasTarget target:target_b782c6aaadfb724bacb3d81e721239307abbceec .
+nl:id_079832feeac649afae9593cd6aeeeffca73b0935 oa:hasTarget ubvu:print-218010001945 .
+nl:id_079832feeac649afae9593cd6aeeeffca73b0935 oa:motivatedBy oa:tagging .
+
+nl:id_b1f598138e7e9c7fff27c067f2621e2c1a1793e4 a oa:Annotation .
+nl:id_b1f598138e7e9c7fff27c067f2621e2c1a1793e4 terms:title "Paulus is bitten by the viper, but felt no harm" .
+nl:id_b1f598138e7e9c7fff27c067f2621e2c1a1793e4 ui:annotationField bible:ICBibleTheme .
+nl:id_b1f598138e7e9c7fff27c067f2621e2c1a1793e4 ui:typingTime 0 .
+nl:id_b1f598138e7e9c7fff27c067f2621e2c1a1793e4 oa:annotatedAt "2016-04-04T15:24:46+02:00"^^xsd:dateTime .
+nl:id_b1f598138e7e9c7fff27c067f2621e2c1a1793e4 oa:annotatedBy user:jbn415 .
+nl:id_b1f598138e7e9c7fff27c067f2621e2c1a1793e4 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Paulus is bitten by the viper, but felt no harm" ] .
+nl:id_b1f598138e7e9c7fff27c067f2621e2c1a1793e4 oa:hasTarget ubvu:print-218010001945 .
+nl:id_b1f598138e7e9c7fff27c067f2621e2c1a1793e4 oa:motivatedBy oa:tagging .
 
 target:selector_b782c6aaadfb724bacb3d81e721239307abbceec a oa:FragmentSelector .
 target:selector_b782c6aaadfb724bacb3d81e721239307abbceec terms:conformsTo <http://www.w3.org/TR/media-frags/> .
