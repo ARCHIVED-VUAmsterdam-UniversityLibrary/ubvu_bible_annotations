@@ -79,6 +79,16 @@ nl:id_7aee128aa1b87b15b314976ab56ca2558f1438ad oa:hasTarget target:target_9d7f44
 nl:id_7aee128aa1b87b15b314976ab56ca2558f1438ad oa:hasTarget ubvu:print-218010002032 .
 nl:id_7aee128aa1b87b15b314976ab56ca2558f1438ad oa:motivatedBy oa:tagging .
 
+nl:id_9e46230609cde1e7b2e7c49a25743c10ce41d4e2 a oa:Annotation .
+nl:id_9e46230609cde1e7b2e7c49a25743c10ce41d4e2 terms:title "Christ baptized by John the Baptist" .
+nl:id_9e46230609cde1e7b2e7c49a25743c10ce41d4e2 ui:annotationField bible:ICBibleTheme .
+nl:id_9e46230609cde1e7b2e7c49a25743c10ce41d4e2 ui:typingTime 0 .
+nl:id_9e46230609cde1e7b2e7c49a25743c10ce41d4e2 oa:annotatedAt "2016-04-04T15:43:25+02:00"^^xsd:dateTime .
+nl:id_9e46230609cde1e7b2e7c49a25743c10ce41d4e2 oa:annotatedBy user:jbn415 .
+nl:id_9e46230609cde1e7b2e7c49a25743c10ce41d4e2 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Christ baptized by John the Baptist" ] .
+nl:id_9e46230609cde1e7b2e7c49a25743c10ce41d4e2 oa:hasTarget ubvu:print-218010002032 .
+nl:id_9e46230609cde1e7b2e7c49a25743c10ce41d4e2 oa:motivatedBy oa:tagging .
+
 nl:id_d35d023f5bb9a95014522616a4a0ea497e6bad26 a oa:Annotation .
 nl:id_d35d023f5bb9a95014522616a4a0ea497e6bad26 terms:title "Johannes de Doper" .
 nl:id_d35d023f5bb9a95014522616a4a0ea497e6bad26 ui:annotationField bible:BibleCharacter .
