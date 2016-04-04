@@ -1,0 +1,32 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix resource: <http://bibleontology.com/resource/> .
+@prefix user: <http://accurator.nl/user#> .
+
+<http://accurator.nl/id_45ceb8ca810ee4b33fdca41c2bbe6302c60b7afd> a oa:Annotation .
+<http://accurator.nl/id_45ceb8ca810ee4b33fdca41c2bbe6302c60b7afd> terms:title "Jezus Christus" .
+<http://accurator.nl/id_45ceb8ca810ee4b33fdca41c2bbe6302c60b7afd> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
+<http://accurator.nl/id_45ceb8ca810ee4b33fdca41c2bbe6302c60b7afd> ui:typingTime 0 .
+<http://accurator.nl/id_45ceb8ca810ee4b33fdca41c2bbe6302c60b7afd> oa:annotatedAt "2016-04-04T15:10:07+02:00"^^xsd:dateTime .
+<http://accurator.nl/id_45ceb8ca810ee4b33fdca41c2bbe6302c60b7afd> oa:annotatedBy user:vubieb .
+<http://accurator.nl/id_45ceb8ca810ee4b33fdca41c2bbe6302c60b7afd> oa:hasBody resource:Jesus .
+<http://accurator.nl/id_45ceb8ca810ee4b33fdca41c2bbe6302c60b7afd> oa:hasTarget target:target_e7ccdaa44a35cb19a4dfe700d78f2d12383dae5a .
+<http://accurator.nl/id_45ceb8ca810ee4b33fdca41c2bbe6302c60b7afd> oa:hasTarget ubvu:print-218010002031 .
+<http://accurator.nl/id_45ceb8ca810ee4b33fdca41c2bbe6302c60b7afd> oa:motivatedBy oa:tagging .
+
+target:selector_e7ccdaa44a35cb19a4dfe700d78f2d12383dae5a a oa:FragmentSelector .
+target:selector_e7ccdaa44a35cb19a4dfe700d78f2d12383dae5a terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_e7ccdaa44a35cb19a4dfe700d78f2d12383dae5a ui:h "0.07717075973080793"^^xsd:float .
+target:selector_e7ccdaa44a35cb19a4dfe700d78f2d12383dae5a ui:w "0.27863247863247864"^^xsd:float .
+target:selector_e7ccdaa44a35cb19a4dfe700d78f2d12383dae5a ui:x "0.29572649572649573"^^xsd:float .
+target:selector_e7ccdaa44a35cb19a4dfe700d78f2d12383dae5a ui:y "0.5899310032480952"^^xsd:float .
+target:selector_e7ccdaa44a35cb19a4dfe700d78f2d12383dae5a rdf:value "#xywh=percent:30,59,28,8" .
+
+target:target_e7ccdaa44a35cb19a4dfe700d78f2d12383dae5a a oa:SpecificResource .
+target:target_e7ccdaa44a35cb19a4dfe700d78f2d12383dae5a oa:hasSelector target:selector_e7ccdaa44a35cb19a4dfe700d78f2d12383dae5a .
+target:target_e7ccdaa44a35cb19a4dfe700d78f2d12383dae5a oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/30> .
