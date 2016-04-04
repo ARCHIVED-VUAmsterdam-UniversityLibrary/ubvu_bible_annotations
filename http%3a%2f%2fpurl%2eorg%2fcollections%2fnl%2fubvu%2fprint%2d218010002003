@@ -8,9 +8,21 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
+
+nl:id_52e963953ba94ce60dae46010047c03ecd894be3 a oa:Annotation .
+nl:id_52e963953ba94ce60dae46010047c03ecd894be3 terms:title "Farao" .
+nl:id_52e963953ba94ce60dae46010047c03ecd894be3 ui:annotationField bible:BibleCharacter .
+nl:id_52e963953ba94ce60dae46010047c03ecd894be3 ui:typingTime 0 .
+nl:id_52e963953ba94ce60dae46010047c03ecd894be3 oa:annotatedAt "2016-04-04T14:58:39+02:00"^^xsd:dateTime .
+nl:id_52e963953ba94ce60dae46010047c03ecd894be3 oa:annotatedBy user:jbn415 .
+nl:id_52e963953ba94ce60dae46010047c03ecd894be3 oa:hasBody resource:Pharaoh .
+nl:id_52e963953ba94ce60dae46010047c03ecd894be3 oa:hasTarget target:target_754a61516716080142c5e852e5eb328f1e55408d .
+nl:id_52e963953ba94ce60dae46010047c03ecd894be3 oa:hasTarget ubvu:print-218010002003 .
+nl:id_52e963953ba94ce60dae46010047c03ecd894be3 oa:motivatedBy oa:tagging .
 
 nl:id_628e83ff276b41da52b39dc5772e6937f0d8108d a oa:Annotation .
 nl:id_628e83ff276b41da52b39dc5772e6937f0d8108d terms:title "Egyptische prinses" .
@@ -42,6 +54,14 @@ target:selector_36dc66fcc077b9d71e12db4e37b76538090c3662 ui:x "0.165811965811965
 target:selector_36dc66fcc077b9d71e12db4e37b76538090c3662 ui:y "0.5018691303574037"^^xsd:float .
 target:selector_36dc66fcc077b9d71e12db4e37b76538090c3662 rdf:value "#xywh=percent:17,50,10,9" .
 
+target:selector_754a61516716080142c5e852e5eb328f1e55408d a oa:FragmentSelector .
+target:selector_754a61516716080142c5e852e5eb328f1e55408d terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_754a61516716080142c5e852e5eb328f1e55408d ui:h "0.12733644859813084"^^xsd:float .
+target:selector_754a61516716080142c5e852e5eb328f1e55408d ui:w "0.19401709401709402"^^xsd:float .
+target:selector_754a61516716080142c5e852e5eb328f1e55408d ui:x "0.36153846153846153"^^xsd:float .
+target:selector_754a61516716080142c5e852e5eb328f1e55408d ui:y "0.5585280088620765"^^xsd:float .
+target:selector_754a61516716080142c5e852e5eb328f1e55408d rdf:value "#xywh=percent:36,56,19,13" .
+
 target:selector_deed4fd547f7abac7394fda090835e978f3a4435 a oa:FragmentSelector .
 target:selector_deed4fd547f7abac7394fda090835e978f3a4435 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_deed4fd547f7abac7394fda090835e978f3a4435 ui:h "0.10689252336448599"^^xsd:float .
@@ -53,6 +73,10 @@ target:selector_deed4fd547f7abac7394fda090835e978f3a4435 rdf:value "#xywh=percen
 target:target_36dc66fcc077b9d71e12db4e37b76538090c3662 a oa:SpecificResource .
 target:target_36dc66fcc077b9d71e12db4e37b76538090c3662 oa:hasSelector target:selector_36dc66fcc077b9d71e12db4e37b76538090c3662 .
 target:target_36dc66fcc077b9d71e12db4e37b76538090c3662 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/2> .
+
+target:target_754a61516716080142c5e852e5eb328f1e55408d a oa:SpecificResource .
+target:target_754a61516716080142c5e852e5eb328f1e55408d oa:hasSelector target:selector_754a61516716080142c5e852e5eb328f1e55408d .
+target:target_754a61516716080142c5e852e5eb328f1e55408d oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/2> .
 
 target:target_deed4fd547f7abac7394fda090835e978f3a4435 a oa:SpecificResource .
 target:target_deed4fd547f7abac7394fda090835e978f3a4435 oa:hasSelector target:selector_deed4fd547f7abac7394fda090835e978f3a4435 .
