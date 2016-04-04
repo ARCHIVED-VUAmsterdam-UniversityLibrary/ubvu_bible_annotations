@@ -120,6 +120,16 @@ nl:id_b03c3510dfb85d032232170f66f1ef521222f6ec oa:hasTarget target:target_4a9fa3
 nl:id_b03c3510dfb85d032232170f66f1ef521222f6ec oa:hasTarget ubvu:print-218010002010 .
 nl:id_b03c3510dfb85d032232170f66f1ef521222f6ec oa:motivatedBy oa:tagging .
 
+nl:id_dfb9bc59174ba22a88e8bb089c883d7459fe380e a oa:Annotation .
+nl:id_dfb9bc59174ba22a88e8bb089c883d7459fe380e terms:title "Samson takes the doors of the city-gate" .
+nl:id_dfb9bc59174ba22a88e8bb089c883d7459fe380e ui:annotationField bible:ICBibleTheme .
+nl:id_dfb9bc59174ba22a88e8bb089c883d7459fe380e ui:typingTime 0 .
+nl:id_dfb9bc59174ba22a88e8bb089c883d7459fe380e oa:annotatedAt "2016-04-04T16:18:05+02:00"^^xsd:dateTime .
+nl:id_dfb9bc59174ba22a88e8bb089c883d7459fe380e oa:annotatedBy user:jbn415 .
+nl:id_dfb9bc59174ba22a88e8bb089c883d7459fe380e oa:hasBody <http://iconclass.org/71F363> .
+nl:id_dfb9bc59174ba22a88e8bb089c883d7459fe380e oa:hasTarget ubvu:print-218010002010 .
+nl:id_dfb9bc59174ba22a88e8bb089c883d7459fe380e oa:motivatedBy oa:tagging .
+
 nl:id_eb77c589752ee91fb3569ef77c463fb340aec4ab a oa:Annotation .
 nl:id_eb77c589752ee91fb3569ef77c463fb340aec4ab terms:title "Simson" .
 nl:id_eb77c589752ee91fb3569ef77c463fb340aec4ab ui:annotationField bible:BibleCharacter .
