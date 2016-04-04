@@ -34,6 +34,16 @@ nl:id_59b5c1c63be2941cc9a616d26c49956b1c710fe5 oa:hasTarget target:target_a3da1b
 nl:id_59b5c1c63be2941cc9a616d26c49956b1c710fe5 oa:hasTarget ubvu:print-218010001687 .
 nl:id_59b5c1c63be2941cc9a616d26c49956b1c710fe5 oa:motivatedBy oa:tagging .
 
+nl:id_6da141e5c3ca1d5c393c29b93c7771402f72d939 a oa:Annotation .
+nl:id_6da141e5c3ca1d5c393c29b93c7771402f72d939 terms:title "Joseph and Maria and Jesus escape to Egypt" .
+nl:id_6da141e5c3ca1d5c393c29b93c7771402f72d939 ui:annotationField bible:ICBibleTheme .
+nl:id_6da141e5c3ca1d5c393c29b93c7771402f72d939 ui:typingTime 0 .
+nl:id_6da141e5c3ca1d5c393c29b93c7771402f72d939 oa:annotatedAt "2016-04-04T15:29:11+02:00"^^xsd:dateTime .
+nl:id_6da141e5c3ca1d5c393c29b93c7771402f72d939 oa:annotatedBy user:joan .
+nl:id_6da141e5c3ca1d5c393c29b93c7771402f72d939 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Joseph and Maria and Jesus escape to Egypt" ] .
+nl:id_6da141e5c3ca1d5c393c29b93c7771402f72d939 oa:hasTarget ubvu:print-218010001687 .
+nl:id_6da141e5c3ca1d5c393c29b93c7771402f72d939 oa:motivatedBy oa:tagging .
+
 nl:id_8345fbafee5b7955487bfeaae631d15b624fbe70 a oa:Annotation .
 nl:id_8345fbafee5b7955487bfeaae631d15b624fbe70 terms:title "Jezus Christus" .
 nl:id_8345fbafee5b7955487bfeaae631d15b624fbe70 ui:annotationField bible:BibleCharacter .
