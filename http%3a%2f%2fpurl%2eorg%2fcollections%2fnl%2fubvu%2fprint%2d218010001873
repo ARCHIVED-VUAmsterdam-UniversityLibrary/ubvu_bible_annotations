@@ -66,6 +66,16 @@ nl:id_c094403c2b25b536eb74113193a3578573ad0667 oa:hasBody <http://iconclass.org/
 nl:id_c094403c2b25b536eb74113193a3578573ad0667 oa:hasTarget ubvu:print-218010001873 .
 nl:id_c094403c2b25b536eb74113193a3578573ad0667 oa:motivatedBy oa:tagging .
 
+nl:id_ca11825017f76c23eb6c07964488f2ac85f6939a a oa:Annotation .
+nl:id_ca11825017f76c23eb6c07964488f2ac85f6939a terms:title "Jesus Christ buried" .
+nl:id_ca11825017f76c23eb6c07964488f2ac85f6939a ui:annotationField bible:ICBibleTheme .
+nl:id_ca11825017f76c23eb6c07964488f2ac85f6939a ui:typingTime 0 .
+nl:id_ca11825017f76c23eb6c07964488f2ac85f6939a oa:annotatedAt "2016-04-04T15:41:59+02:00"^^xsd:dateTime .
+nl:id_ca11825017f76c23eb6c07964488f2ac85f6939a oa:annotatedBy user:joan .
+nl:id_ca11825017f76c23eb6c07964488f2ac85f6939a oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jesus Christ buried" ] .
+nl:id_ca11825017f76c23eb6c07964488f2ac85f6939a oa:hasTarget ubvu:print-218010001873 .
+nl:id_ca11825017f76c23eb6c07964488f2ac85f6939a oa:motivatedBy oa:tagging .
+
 nl:id_cfb3baad285f4dae3fa4c7d4719fde14b980992b a oa:Annotation .
 nl:id_cfb3baad285f4dae3fa4c7d4719fde14b980992b terms:title "Josef" .
 nl:id_cfb3baad285f4dae3fa4c7d4719fde14b980992b ui:annotationField bible:BibleCharacter .
