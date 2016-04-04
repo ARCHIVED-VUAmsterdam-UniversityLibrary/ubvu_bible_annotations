@@ -8,17 +8,30 @@
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_9f207779032b9b4252d177fdcbb75b7465926fa8> a oa:Annotation .
-<http://accurator.nl/id_9f207779032b9b4252d177fdcbb75b7465926fa8> terms:title "nicodem" .
-<http://accurator.nl/id_9f207779032b9b4252d177fdcbb75b7465926fa8> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_9f207779032b9b4252d177fdcbb75b7465926fa8> ui:typingTime 0 .
-<http://accurator.nl/id_9f207779032b9b4252d177fdcbb75b7465926fa8> oa:annotatedAt "2016-04-04T13:33:26+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_9f207779032b9b4252d177fdcbb75b7465926fa8> oa:annotatedBy user:test .
-<http://accurator.nl/id_9f207779032b9b4252d177fdcbb75b7465926fa8> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "nicodem" ] .
-<http://accurator.nl/id_9f207779032b9b4252d177fdcbb75b7465926fa8> oa:hasTarget target:target_caf430080ab5c7d6a65cf291fa39e95713e3c677 .
-<http://accurator.nl/id_9f207779032b9b4252d177fdcbb75b7465926fa8> oa:hasTarget ubvu:print-218010001735 .
-<http://accurator.nl/id_9f207779032b9b4252d177fdcbb75b7465926fa8> oa:motivatedBy oa:tagging .
+nl:id_7001de03eca8d097d03c7523c99add63b53d0741 a oa:Annotation .
+nl:id_7001de03eca8d097d03c7523c99add63b53d0741 terms:title "nicodem" .
+nl:id_7001de03eca8d097d03c7523c99add63b53d0741 ui:annotationField bible:BibleCharacter .
+nl:id_7001de03eca8d097d03c7523c99add63b53d0741 ui:typingTime 0 .
+nl:id_7001de03eca8d097d03c7523c99add63b53d0741 oa:annotatedAt "2016-04-04T13:33:36+02:00"^^xsd:dateTime .
+nl:id_7001de03eca8d097d03c7523c99add63b53d0741 oa:annotatedBy user:test .
+nl:id_7001de03eca8d097d03c7523c99add63b53d0741 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "nicodem" ] .
+nl:id_7001de03eca8d097d03c7523c99add63b53d0741 oa:hasTarget target:target_caf430080ab5c7d6a65cf291fa39e95713e3c677 .
+nl:id_7001de03eca8d097d03c7523c99add63b53d0741 oa:hasTarget ubvu:print-218010001735 .
+nl:id_7001de03eca8d097d03c7523c99add63b53d0741 oa:motivatedBy oa:tagging .
+
+nl:id_9f207779032b9b4252d177fdcbb75b7465926fa8 a oa:Annotation .
+nl:id_9f207779032b9b4252d177fdcbb75b7465926fa8 terms:title "nicodem" .
+nl:id_9f207779032b9b4252d177fdcbb75b7465926fa8 ui:annotationField bible:BibleCharacter .
+nl:id_9f207779032b9b4252d177fdcbb75b7465926fa8 ui:typingTime 0 .
+nl:id_9f207779032b9b4252d177fdcbb75b7465926fa8 oa:annotatedAt "2016-04-04T13:33:26+02:00"^^xsd:dateTime .
+nl:id_9f207779032b9b4252d177fdcbb75b7465926fa8 oa:annotatedBy user:test .
+nl:id_9f207779032b9b4252d177fdcbb75b7465926fa8 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "nicodem" ] .
+nl:id_9f207779032b9b4252d177fdcbb75b7465926fa8 oa:hasTarget target:target_caf430080ab5c7d6a65cf291fa39e95713e3c677 .
+nl:id_9f207779032b9b4252d177fdcbb75b7465926fa8 oa:hasTarget ubvu:print-218010001735 .
+nl:id_9f207779032b9b4252d177fdcbb75b7465926fa8 oa:motivatedBy oa:tagging .
 
 target:selector_caf430080ab5c7d6a65cf291fa39e95713e3c677 a oa:FragmentSelector .
 target:selector_caf430080ab5c7d6a65cf291fa39e95713e3c677 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
