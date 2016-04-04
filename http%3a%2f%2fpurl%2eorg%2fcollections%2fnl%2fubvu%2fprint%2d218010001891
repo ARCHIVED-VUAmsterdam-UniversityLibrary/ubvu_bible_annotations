@@ -1,9 +1,11 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
 @prefix media-frags: <http://www.w3.org/TR/media-frags/> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix resource: <http://bibleontology.com/resource/> .
@@ -33,6 +35,17 @@ nl:id_294cdf591046d2bea2d5c176f8deb1163ceea715 oa:hasTarget target:target_913828
 nl:id_294cdf591046d2bea2d5c176f8deb1163ceea715 oa:hasTarget ubvu:print-218010001891 .
 nl:id_294cdf591046d2bea2d5c176f8deb1163ceea715 oa:motivatedBy oa:tagging .
 
+nl:id_b30300d6a066207efd1b031534493d6f28813061 a oa:Annotation .
+nl:id_b30300d6a066207efd1b031534493d6f28813061 terms:title "Petrus" .
+nl:id_b30300d6a066207efd1b031534493d6f28813061 ui:annotationField bible:BibleCharacter .
+nl:id_b30300d6a066207efd1b031534493d6f28813061 ui:typingTime 0 .
+nl:id_b30300d6a066207efd1b031534493d6f28813061 oa:annotatedAt "2016-04-04T15:10:11+02:00"^^xsd:dateTime .
+nl:id_b30300d6a066207efd1b031534493d6f28813061 oa:annotatedBy user:hogguer .
+nl:id_b30300d6a066207efd1b031534493d6f28813061 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Petrus" ] .
+nl:id_b30300d6a066207efd1b031534493d6f28813061 oa:hasTarget target:target_94f9d674811934fb590bf903f5f0e855520aa4b2 .
+nl:id_b30300d6a066207efd1b031534493d6f28813061 oa:hasTarget ubvu:print-218010001891 .
+nl:id_b30300d6a066207efd1b031534493d6f28813061 oa:motivatedBy oa:tagging .
+
 nl:id_fd10a44309f939193c5562f2a1ad7d4df48d2e76 a oa:Annotation .
 nl:id_fd10a44309f939193c5562f2a1ad7d4df48d2e76 terms:title "Cleopas and Peter arrive at the gate of Emmaus, or at the inn; Christ is asked to stay" .
 nl:id_fd10a44309f939193c5562f2a1ad7d4df48d2e76 ui:annotationField bible:ICBibleTheme .
@@ -51,6 +64,14 @@ target:selector_913828d4f75c2b49e8a10dfccd5c9c4b79aa8e7c ui:x "0.041880341880341
 target:selector_913828d4f75c2b49e8a10dfccd5c9c4b79aa8e7c ui:y "0.38980283037333996"^^xsd:float .
 target:selector_913828d4f75c2b49e8a10dfccd5c9c4b79aa8e7c rdf:value "#xywh=percent:4,39,35,37" .
 
+target:selector_94f9d674811934fb590bf903f5f0e855520aa4b2 a oa:FragmentSelector .
+target:selector_94f9d674811934fb590bf903f5f0e855520aa4b2 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_94f9d674811934fb590bf903f5f0e855520aa4b2 ui:h "0.39576672724277795"^^xsd:float .
+target:selector_94f9d674811934fb590bf903f5f0e855520aa4b2 ui:w "0.38062389406383546"^^xsd:float .
+target:selector_94f9d674811934fb590bf903f5f0e855520aa4b2 ui:x "0.4247863247863248"^^xsd:float .
+target:selector_94f9d674811934fb590bf903f5f0e855520aa4b2 ui:y "0.38654981698812296"^^xsd:float .
+target:selector_94f9d674811934fb590bf903f5f0e855520aa4b2 rdf:value "#xywh=percent:42,39,38,40" .
+
 target:selector_f70fadac268000e6a0bda7bfc6b2c719ccc8f023 a oa:FragmentSelector .
 target:selector_f70fadac268000e6a0bda7bfc6b2c719ccc8f023 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_f70fadac268000e6a0bda7bfc6b2c719ccc8f023 ui:h "0.3585268252520023"^^xsd:float .
@@ -62,6 +83,10 @@ target:selector_f70fadac268000e6a0bda7bfc6b2c719ccc8f023 rdf:value "#xywh=percen
 target:target_913828d4f75c2b49e8a10dfccd5c9c4b79aa8e7c a oa:SpecificResource .
 target:target_913828d4f75c2b49e8a10dfccd5c9c4b79aa8e7c oa:hasSelector target:selector_913828d4f75c2b49e8a10dfccd5c9c4b79aa8e7c .
 target:target_913828d4f75c2b49e8a10dfccd5c9c4b79aa8e7c oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/930> .
+
+target:target_94f9d674811934fb590bf903f5f0e855520aa4b2 a oa:SpecificResource .
+target:target_94f9d674811934fb590bf903f5f0e855520aa4b2 oa:hasSelector target:selector_94f9d674811934fb590bf903f5f0e855520aa4b2 .
+target:target_94f9d674811934fb590bf903f5f0e855520aa4b2 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/930> .
 
 target:target_f70fadac268000e6a0bda7bfc6b2c719ccc8f023 a oa:SpecificResource .
 target:target_f70fadac268000e6a0bda7bfc6b2c719ccc8f023 oa:hasSelector target:selector_f70fadac268000e6a0bda7bfc6b2c719ccc8f023 .
