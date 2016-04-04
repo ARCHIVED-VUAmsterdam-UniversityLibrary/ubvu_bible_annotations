@@ -122,6 +122,17 @@ nl:id_ac0cd69e74daa53acd14ae5df7418c9dc5795248 oa:hasTarget target:target_2e8474
 nl:id_ac0cd69e74daa53acd14ae5df7418c9dc5795248 oa:hasTarget ubvu:print-218010002032 .
 nl:id_ac0cd69e74daa53acd14ae5df7418c9dc5795248 oa:motivatedBy oa:tagging .
 
+nl:id_ac289710065546a0d4b0278bddc91b30265fb9f8 a oa:Annotation .
+nl:id_ac289710065546a0d4b0278bddc91b30265fb9f8 terms:title "Jezus Christus" .
+nl:id_ac289710065546a0d4b0278bddc91b30265fb9f8 ui:annotationField bible:BibleCharacter .
+nl:id_ac289710065546a0d4b0278bddc91b30265fb9f8 ui:typingTime 0 .
+nl:id_ac289710065546a0d4b0278bddc91b30265fb9f8 oa:annotatedAt "2016-04-04T16:20:46+02:00"^^xsd:dateTime .
+nl:id_ac289710065546a0d4b0278bddc91b30265fb9f8 oa:annotatedBy user:jbn415 .
+nl:id_ac289710065546a0d4b0278bddc91b30265fb9f8 oa:hasBody resource:Jesus .
+nl:id_ac289710065546a0d4b0278bddc91b30265fb9f8 oa:hasTarget target:target_dc545b2549cb7a8216741dd52a6b6901a7647c4c .
+nl:id_ac289710065546a0d4b0278bddc91b30265fb9f8 oa:hasTarget ubvu:print-218010002032 .
+nl:id_ac289710065546a0d4b0278bddc91b30265fb9f8 oa:motivatedBy oa:tagging .
+
 nl:id_b0ac27e6abeaff897ed9c2670d93d175d2beb773 a oa:Annotation .
 nl:id_b0ac27e6abeaff897ed9c2670d93d175d2beb773 terms:title "Satan withdrawing from Christ ~ temptation of Christ in the wilderness" .
 nl:id_b0ac27e6abeaff897ed9c2670d93d175d2beb773 ui:annotationField bible:ICBibleTheme .
