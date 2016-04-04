@@ -1,14 +1,28 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
+
+nl:id_18839b2c963da34896c67be62a7f22b604a8d0ba a oa:Annotation .
+nl:id_18839b2c963da34896c67be62a7f22b604a8d0ba terms:title "Boaz" .
+nl:id_18839b2c963da34896c67be62a7f22b604a8d0ba ui:annotationField bible:BibleCharacter .
+nl:id_18839b2c963da34896c67be62a7f22b604a8d0ba ui:typingTime 0 .
+nl:id_18839b2c963da34896c67be62a7f22b604a8d0ba oa:annotatedAt "2016-04-04T15:57:28+02:00"^^xsd:dateTime .
+nl:id_18839b2c963da34896c67be62a7f22b604a8d0ba oa:annotatedBy user:hogguer .
+nl:id_18839b2c963da34896c67be62a7f22b604a8d0ba oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Boaz" ] .
+nl:id_18839b2c963da34896c67be62a7f22b604a8d0ba oa:hasTarget target:target_8669ae472467c0913b4d8e10facf6582c5de1f74 .
+nl:id_18839b2c963da34896c67be62a7f22b604a8d0ba oa:hasTarget ubvu:print-218010001413 .
+nl:id_18839b2c963da34896c67be62a7f22b604a8d0ba oa:motivatedBy oa:tagging .
 
 nl:id_7ff145d1bb2fd661dd57fd668d864b509123c6f1 a oa:Annotation .
 nl:id_7ff145d1bb2fd661dd57fd668d864b509123c6f1 terms:title "Ruth gleaning" .
@@ -31,6 +45,14 @@ nl:id_c5ca3ddc43afb4b52fd85c96a5e81720995727dd oa:hasTarget target:target_ad0830
 nl:id_c5ca3ddc43afb4b52fd85c96a5e81720995727dd oa:hasTarget ubvu:print-218010001413 .
 nl:id_c5ca3ddc43afb4b52fd85c96a5e81720995727dd oa:motivatedBy oa:tagging .
 
+target:selector_8669ae472467c0913b4d8e10facf6582c5de1f74 a oa:FragmentSelector .
+target:selector_8669ae472467c0913b4d8e10facf6582c5de1f74 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_8669ae472467c0913b4d8e10facf6582c5de1f74 ui:h "0.39094156076569947"^^xsd:float .
+target:selector_8669ae472467c0913b4d8e10facf6582c5de1f74 ui:w "0.25641024336855633"^^xsd:float .
+target:selector_8669ae472467c0913b4d8e10facf6582c5de1f74 ui:x "0.06809401552901309"^^xsd:float .
+target:selector_8669ae472467c0913b4d8e10facf6582c5de1f74 ui:y "0.4633849806666232"^^xsd:float .
+target:selector_8669ae472467c0913b4d8e10facf6582c5de1f74 rdf:value "#xywh=percent:7,46,26,39" .
+
 target:selector_ad083029120b55d3be8006e45ec07d90604b9cfb a oa:FragmentSelector .
 target:selector_ad083029120b55d3be8006e45ec07d90604b9cfb terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_ad083029120b55d3be8006e45ec07d90604b9cfb ui:h "0.13984507400458135"^^xsd:float .
@@ -38,6 +60,10 @@ target:selector_ad083029120b55d3be8006e45ec07d90604b9cfb ui:w "0.225641025641025
 target:selector_ad083029120b55d3be8006e45ec07d90604b9cfb ui:x "0.47606837606837604"^^xsd:float .
 target:selector_ad083029120b55d3be8006e45ec07d90604b9cfb ui:y "0.5174195354402562"^^xsd:float .
 target:selector_ad083029120b55d3be8006e45ec07d90604b9cfb rdf:value "#xywh=percent:48,52,23,14" .
+
+target:target_8669ae472467c0913b4d8e10facf6582c5de1f74 a oa:SpecificResource .
+target:target_8669ae472467c0913b4d8e10facf6582c5de1f74 oa:hasSelector target:selector_8669ae472467c0913b4d8e10facf6582c5de1f74 .
+target:target_8669ae472467c0913b4d8e10facf6582c5de1f74 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/454> .
 
 target:target_ad083029120b55d3be8006e45ec07d90604b9cfb a oa:SpecificResource .
 target:target_ad083029120b55d3be8006e45ec07d90604b9cfb oa:hasSelector target:selector_ad083029120b55d3be8006e45ec07d90604b9cfb .
