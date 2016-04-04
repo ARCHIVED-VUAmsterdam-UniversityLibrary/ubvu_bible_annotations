@@ -35,6 +35,16 @@ nl:id_b33f1b8be5015da77675da29ebe71aae2545581a oa:hasTarget target:target_fbd3d4
 nl:id_b33f1b8be5015da77675da29ebe71aae2545581a oa:hasTarget ubvu:print-218010001831 .
 nl:id_b33f1b8be5015da77675da29ebe71aae2545581a oa:motivatedBy oa:tagging .
 
+nl:id_ca5513facc2f2e0488b5a5f60e170c87d3eb0710 a oa:Annotation .
+nl:id_ca5513facc2f2e0488b5a5f60e170c87d3eb0710 terms:title "Christ strengthened by an angel" .
+nl:id_ca5513facc2f2e0488b5a5f60e170c87d3eb0710 ui:annotationField bible:ICBibleTheme .
+nl:id_ca5513facc2f2e0488b5a5f60e170c87d3eb0710 ui:typingTime 0 .
+nl:id_ca5513facc2f2e0488b5a5f60e170c87d3eb0710 oa:annotatedAt "2016-04-05T00:46:31+02:00"^^xsd:dateTime .
+nl:id_ca5513facc2f2e0488b5a5f60e170c87d3eb0710 oa:annotatedBy user:hogguer .
+nl:id_ca5513facc2f2e0488b5a5f60e170c87d3eb0710 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Christ strengthened by an angel" ] .
+nl:id_ca5513facc2f2e0488b5a5f60e170c87d3eb0710 oa:hasTarget ubvu:print-218010001831 .
+nl:id_ca5513facc2f2e0488b5a5f60e170c87d3eb0710 oa:motivatedBy oa:tagging .
+
 target:selector_1f3041eae0fef0ba202fa912a01cb1380c0ddf3b a oa:FragmentSelector .
 target:selector_1f3041eae0fef0ba202fa912a01cb1380c0ddf3b terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_1f3041eae0fef0ba202fa912a01cb1380c0ddf3b ui:h "0.1685022026431718"^^xsd:float .
