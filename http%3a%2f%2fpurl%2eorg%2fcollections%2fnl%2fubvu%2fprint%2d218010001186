@@ -8,17 +8,30 @@
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_f250294ff4b7fa773df58b2c30f5aecbf42d75f5> a oa:Annotation .
-<http://accurator.nl/id_f250294ff4b7fa773df58b2c30f5aecbf42d75f5> terms:title "devil" .
-<http://accurator.nl/id_f250294ff4b7fa773df58b2c30f5aecbf42d75f5> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_f250294ff4b7fa773df58b2c30f5aecbf42d75f5> ui:typingTime 0 .
-<http://accurator.nl/id_f250294ff4b7fa773df58b2c30f5aecbf42d75f5> oa:annotatedAt "2016-04-04T15:40:07+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_f250294ff4b7fa773df58b2c30f5aecbf42d75f5> oa:annotatedBy user:dick .
-<http://accurator.nl/id_f250294ff4b7fa773df58b2c30f5aecbf42d75f5> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "devil" ] .
-<http://accurator.nl/id_f250294ff4b7fa773df58b2c30f5aecbf42d75f5> oa:hasTarget target:target_022a86514c68b40424257d2fdd4e37d5c127fbec .
-<http://accurator.nl/id_f250294ff4b7fa773df58b2c30f5aecbf42d75f5> oa:hasTarget ubvu:print-218010001186 .
-<http://accurator.nl/id_f250294ff4b7fa773df58b2c30f5aecbf42d75f5> oa:motivatedBy oa:tagging .
+nl:id_8838f6c141e74aae5b607b7a1608f5b3897c69f6 a oa:Annotation .
+nl:id_8838f6c141e74aae5b607b7a1608f5b3897c69f6 terms:title "duivel" .
+nl:id_8838f6c141e74aae5b607b7a1608f5b3897c69f6 ui:annotationField bible:BibleCharacter .
+nl:id_8838f6c141e74aae5b607b7a1608f5b3897c69f6 ui:typingTime 0 .
+nl:id_8838f6c141e74aae5b607b7a1608f5b3897c69f6 oa:annotatedAt "2016-04-04T15:40:19+02:00"^^xsd:dateTime .
+nl:id_8838f6c141e74aae5b607b7a1608f5b3897c69f6 oa:annotatedBy user:dick .
+nl:id_8838f6c141e74aae5b607b7a1608f5b3897c69f6 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "duivel" ] .
+nl:id_8838f6c141e74aae5b607b7a1608f5b3897c69f6 oa:hasTarget target:target_022a86514c68b40424257d2fdd4e37d5c127fbec .
+nl:id_8838f6c141e74aae5b607b7a1608f5b3897c69f6 oa:hasTarget ubvu:print-218010001186 .
+nl:id_8838f6c141e74aae5b607b7a1608f5b3897c69f6 oa:motivatedBy oa:tagging .
+
+nl:id_f250294ff4b7fa773df58b2c30f5aecbf42d75f5 a oa:Annotation .
+nl:id_f250294ff4b7fa773df58b2c30f5aecbf42d75f5 terms:title "devil" .
+nl:id_f250294ff4b7fa773df58b2c30f5aecbf42d75f5 ui:annotationField bible:BibleCharacter .
+nl:id_f250294ff4b7fa773df58b2c30f5aecbf42d75f5 ui:typingTime 0 .
+nl:id_f250294ff4b7fa773df58b2c30f5aecbf42d75f5 oa:annotatedAt "2016-04-04T15:40:07+02:00"^^xsd:dateTime .
+nl:id_f250294ff4b7fa773df58b2c30f5aecbf42d75f5 oa:annotatedBy user:dick .
+nl:id_f250294ff4b7fa773df58b2c30f5aecbf42d75f5 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "devil" ] .
+nl:id_f250294ff4b7fa773df58b2c30f5aecbf42d75f5 oa:hasTarget target:target_022a86514c68b40424257d2fdd4e37d5c127fbec .
+nl:id_f250294ff4b7fa773df58b2c30f5aecbf42d75f5 oa:hasTarget ubvu:print-218010001186 .
+nl:id_f250294ff4b7fa773df58b2c30f5aecbf42d75f5 oa:motivatedBy oa:tagging .
 
 target:selector_022a86514c68b40424257d2fdd4e37d5c127fbec a oa:FragmentSelector .
 target:selector_022a86514c68b40424257d2fdd4e37d5c127fbec terms:conformsTo <http://www.w3.org/TR/media-frags/> .
