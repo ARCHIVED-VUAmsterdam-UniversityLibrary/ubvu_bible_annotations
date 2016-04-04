@@ -7,17 +7,29 @@
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_b36fd5eaba6f88052dbe29c4c6b32a51f03f75e4> a oa:Annotation .
-<http://accurator.nl/id_b36fd5eaba6f88052dbe29c4c6b32a51f03f75e4> terms:title "Gideon" .
-<http://accurator.nl/id_b36fd5eaba6f88052dbe29c4c6b32a51f03f75e4> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_b36fd5eaba6f88052dbe29c4c6b32a51f03f75e4> ui:typingTime 0 .
-<http://accurator.nl/id_b36fd5eaba6f88052dbe29c4c6b32a51f03f75e4> oa:annotatedAt "2016-04-04T16:18:40+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_b36fd5eaba6f88052dbe29c4c6b32a51f03f75e4> oa:annotatedBy user:jbn415 .
-<http://accurator.nl/id_b36fd5eaba6f88052dbe29c4c6b32a51f03f75e4> oa:hasBody resource:Gideon .
-<http://accurator.nl/id_b36fd5eaba6f88052dbe29c4c6b32a51f03f75e4> oa:hasTarget target:target_37b4c9804e7cdb2a57de68cabc01dfa42b2959d4 .
-<http://accurator.nl/id_b36fd5eaba6f88052dbe29c4c6b32a51f03f75e4> oa:hasTarget ubvu:print-218010001378 .
-<http://accurator.nl/id_b36fd5eaba6f88052dbe29c4c6b32a51f03f75e4> oa:motivatedBy oa:tagging .
+nl:id_af81cca3bac8801a4608809d8a93c8ab980da864 a oa:Annotation .
+nl:id_af81cca3bac8801a4608809d8a93c8ab980da864 terms:title "the angel of the Lord appears to Gideon, who is usually shown threshing wheat" .
+nl:id_af81cca3bac8801a4608809d8a93c8ab980da864 ui:annotationField bible:ICBibleTheme .
+nl:id_af81cca3bac8801a4608809d8a93c8ab980da864 ui:typingTime 0 .
+nl:id_af81cca3bac8801a4608809d8a93c8ab980da864 oa:annotatedAt "2016-04-04T16:18:55+02:00"^^xsd:dateTime .
+nl:id_af81cca3bac8801a4608809d8a93c8ab980da864 oa:annotatedBy user:jbn415 .
+nl:id_af81cca3bac8801a4608809d8a93c8ab980da864 oa:hasBody <http://iconclass.org/71F2121> .
+nl:id_af81cca3bac8801a4608809d8a93c8ab980da864 oa:hasTarget ubvu:print-218010001378 .
+nl:id_af81cca3bac8801a4608809d8a93c8ab980da864 oa:motivatedBy oa:tagging .
+
+nl:id_b36fd5eaba6f88052dbe29c4c6b32a51f03f75e4 a oa:Annotation .
+nl:id_b36fd5eaba6f88052dbe29c4c6b32a51f03f75e4 terms:title "Gideon" .
+nl:id_b36fd5eaba6f88052dbe29c4c6b32a51f03f75e4 ui:annotationField bible:BibleCharacter .
+nl:id_b36fd5eaba6f88052dbe29c4c6b32a51f03f75e4 ui:typingTime 0 .
+nl:id_b36fd5eaba6f88052dbe29c4c6b32a51f03f75e4 oa:annotatedAt "2016-04-04T16:18:40+02:00"^^xsd:dateTime .
+nl:id_b36fd5eaba6f88052dbe29c4c6b32a51f03f75e4 oa:annotatedBy user:jbn415 .
+nl:id_b36fd5eaba6f88052dbe29c4c6b32a51f03f75e4 oa:hasBody resource:Gideon .
+nl:id_b36fd5eaba6f88052dbe29c4c6b32a51f03f75e4 oa:hasTarget target:target_37b4c9804e7cdb2a57de68cabc01dfa42b2959d4 .
+nl:id_b36fd5eaba6f88052dbe29c4c6b32a51f03f75e4 oa:hasTarget ubvu:print-218010001378 .
+nl:id_b36fd5eaba6f88052dbe29c4c6b32a51f03f75e4 oa:motivatedBy oa:tagging .
 
 target:selector_37b4c9804e7cdb2a57de68cabc01dfa42b2959d4 a oa:FragmentSelector .
 target:selector_37b4c9804e7cdb2a57de68cabc01dfa42b2959d4 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
