@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -23,6 +24,17 @@ nl:id_428ad72f3b2f38ebdd1c7034874719edbd045157 oa:hasTarget target:target_0c38b3
 nl:id_428ad72f3b2f38ebdd1c7034874719edbd045157 oa:hasTarget ubvu:print-218010002023 .
 nl:id_428ad72f3b2f38ebdd1c7034874719edbd045157 oa:motivatedBy oa:tagging .
 
+nl:id_bfcb1b20e17d2269deb400a5e0ba601a8dce229d a oa:Annotation .
+nl:id_bfcb1b20e17d2269deb400a5e0ba601a8dce229d terms:title "Ahasveros (koning van Perzië)" .
+nl:id_bfcb1b20e17d2269deb400a5e0ba601a8dce229d ui:annotationField bible:BibleCharacter .
+nl:id_bfcb1b20e17d2269deb400a5e0ba601a8dce229d ui:typingTime 0 .
+nl:id_bfcb1b20e17d2269deb400a5e0ba601a8dce229d oa:annotatedAt "2016-04-04T15:41:14+02:00"^^xsd:dateTime .
+nl:id_bfcb1b20e17d2269deb400a5e0ba601a8dce229d oa:annotatedBy user:hogguer .
+nl:id_bfcb1b20e17d2269deb400a5e0ba601a8dce229d oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Ahasveros (koning van Perzië)" ] .
+nl:id_bfcb1b20e17d2269deb400a5e0ba601a8dce229d oa:hasTarget target:target_9d2b914c8aece07b51eab6cfb3531651d5ec9db6 .
+nl:id_bfcb1b20e17d2269deb400a5e0ba601a8dce229d oa:hasTarget ubvu:print-218010002023 .
+nl:id_bfcb1b20e17d2269deb400a5e0ba601a8dce229d oa:motivatedBy oa:tagging .
+
 nl:id_e54df17da0686e0bf278b0ce7cad9bb71786bfd6 a oa:Annotation .
 nl:id_e54df17da0686e0bf278b0ce7cad9bb71786bfd6 terms:title "Ester (dochter van Abichaïl)" .
 nl:id_e54df17da0686e0bf278b0ce7cad9bb71786bfd6 ui:annotationField bible:BibleCharacter .
@@ -42,6 +54,18 @@ target:selector_0c38b39b365292a8e1fc3ef1f91a87b261168a94 ui:x "0.403418803418803
 target:selector_0c38b39b365292a8e1fc3ef1f91a87b261168a94 ui:y "0.22477770106073094"^^xsd:float .
 target:selector_0c38b39b365292a8e1fc3ef1f91a87b261168a94 rdf:value "#xywh=percent:40,22,10,11" .
 
+target:selector_9d2b914c8aece07b51eab6cfb3531651d5ec9db6 a oa:FragmentSelector .
+target:selector_9d2b914c8aece07b51eab6cfb3531651d5ec9db6 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_9d2b914c8aece07b51eab6cfb3531651d5ec9db6 ui:h "0.1078838174273859"^^xsd:float .
+target:selector_9d2b914c8aece07b51eab6cfb3531651d5ec9db6 ui:w "0.0735042735042735"^^xsd:float .
+target:selector_9d2b914c8aece07b51eab6cfb3531651d5ec9db6 ui:x "0.3418803418803419"^^xsd:float .
+target:selector_9d2b914c8aece07b51eab6cfb3531651d5ec9db6 ui:y "0.177949011078514"^^xsd:float .
+target:selector_9d2b914c8aece07b51eab6cfb3531651d5ec9db6 rdf:value "#xywh=percent:34,18,7,11" .
+
 target:target_0c38b39b365292a8e1fc3ef1f91a87b261168a94 a oa:SpecificResource .
 target:target_0c38b39b365292a8e1fc3ef1f91a87b261168a94 oa:hasSelector target:selector_0c38b39b365292a8e1fc3ef1f91a87b261168a94 .
 target:target_0c38b39b365292a8e1fc3ef1f91a87b261168a94 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/22> .
+
+target:target_9d2b914c8aece07b51eab6cfb3531651d5ec9db6 a oa:SpecificResource .
+target:target_9d2b914c8aece07b51eab6cfb3531651d5ec9db6 oa:hasSelector target:selector_9d2b914c8aece07b51eab6cfb3531651d5ec9db6 .
+target:target_9d2b914c8aece07b51eab6cfb3531651d5ec9db6 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/22> .
