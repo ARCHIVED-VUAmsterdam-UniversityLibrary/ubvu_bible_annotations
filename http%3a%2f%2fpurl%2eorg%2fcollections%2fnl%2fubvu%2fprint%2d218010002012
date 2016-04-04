@@ -12,6 +12,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_1e4cd3ac50cff9c29d1992a86e96b757d8f18c42 a oa:Annotation .
+nl:id_1e4cd3ac50cff9c29d1992a86e96b757d8f18c42 terms:title "slaughting in beth semes" .
+nl:id_1e4cd3ac50cff9c29d1992a86e96b757d8f18c42 ui:annotationField bible:ICBibleTheme .
+nl:id_1e4cd3ac50cff9c29d1992a86e96b757d8f18c42 ui:typingTime 0 .
+nl:id_1e4cd3ac50cff9c29d1992a86e96b757d8f18c42 oa:annotatedAt "2016-04-04T16:09:52+02:00"^^xsd:dateTime .
+nl:id_1e4cd3ac50cff9c29d1992a86e96b757d8f18c42 oa:annotatedBy user:everhoeff .
+nl:id_1e4cd3ac50cff9c29d1992a86e96b757d8f18c42 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "slaughting in beth semes" ] .
+nl:id_1e4cd3ac50cff9c29d1992a86e96b757d8f18c42 oa:hasTarget ubvu:print-218010002012 .
+nl:id_1e4cd3ac50cff9c29d1992a86e96b757d8f18c42 oa:motivatedBy oa:tagging .
+
 nl:id_8347dab9d0fea94d81e178f9ca9c45d37cb57cbc a oa:Annotation .
 nl:id_8347dab9d0fea94d81e178f9ca9c45d37cb57cbc terms:title "Samuel" .
 nl:id_8347dab9d0fea94d81e178f9ca9c45d37cb57cbc ui:annotationField bible:BibleCharacter .
