@@ -5,13 +5,25 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_bd9abfd37dbcefebec5f8acbe6a3563e7137cfc1> a oa:Annotation .
-<http://accurator.nl/id_bd9abfd37dbcefebec5f8acbe6a3563e7137cfc1> terms:title "adoration of the kings: the Wise Men present their gifts to the Christ-child (gold, frankincense and myrrh)" .
-<http://accurator.nl/id_bd9abfd37dbcefebec5f8acbe6a3563e7137cfc1> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
-<http://accurator.nl/id_bd9abfd37dbcefebec5f8acbe6a3563e7137cfc1> ui:typingTime 0 .
-<http://accurator.nl/id_bd9abfd37dbcefebec5f8acbe6a3563e7137cfc1> oa:annotatedAt "2016-04-04T15:01:01+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_bd9abfd37dbcefebec5f8acbe6a3563e7137cfc1> oa:annotatedBy user:joan .
-<http://accurator.nl/id_bd9abfd37dbcefebec5f8acbe6a3563e7137cfc1> oa:hasBody <http://iconclass.org/73B57> .
-<http://accurator.nl/id_bd9abfd37dbcefebec5f8acbe6a3563e7137cfc1> oa:hasTarget ubvu:print-218010001683 .
-<http://accurator.nl/id_bd9abfd37dbcefebec5f8acbe6a3563e7137cfc1> oa:motivatedBy oa:tagging .
+nl:id_8b13dd3bb32dec0bb0c6f4092821c26565cf918f a oa:Annotation .
+nl:id_8b13dd3bb32dec0bb0c6f4092821c26565cf918f terms:title "adoration of the kings: the Wise Men present their gifts to the Christ-child (gold, frankincense and myrrh)" .
+nl:id_8b13dd3bb32dec0bb0c6f4092821c26565cf918f ui:annotationField bible:ICBibleTheme .
+nl:id_8b13dd3bb32dec0bb0c6f4092821c26565cf918f ui:typingTime 0 .
+nl:id_8b13dd3bb32dec0bb0c6f4092821c26565cf918f oa:annotatedAt "2016-04-04T15:01:40+02:00"^^xsd:dateTime .
+nl:id_8b13dd3bb32dec0bb0c6f4092821c26565cf918f oa:annotatedBy user:joan .
+nl:id_8b13dd3bb32dec0bb0c6f4092821c26565cf918f oa:hasBody <http://iconclass.org/73B57> .
+nl:id_8b13dd3bb32dec0bb0c6f4092821c26565cf918f oa:hasTarget ubvu:print-218010001683 .
+nl:id_8b13dd3bb32dec0bb0c6f4092821c26565cf918f oa:motivatedBy oa:tagging .
+
+nl:id_bd9abfd37dbcefebec5f8acbe6a3563e7137cfc1 a oa:Annotation .
+nl:id_bd9abfd37dbcefebec5f8acbe6a3563e7137cfc1 terms:title "adoration of the kings: the Wise Men present their gifts to the Christ-child (gold, frankincense and myrrh)" .
+nl:id_bd9abfd37dbcefebec5f8acbe6a3563e7137cfc1 ui:annotationField bible:ICBibleTheme .
+nl:id_bd9abfd37dbcefebec5f8acbe6a3563e7137cfc1 ui:typingTime 0 .
+nl:id_bd9abfd37dbcefebec5f8acbe6a3563e7137cfc1 oa:annotatedAt "2016-04-04T15:01:01+02:00"^^xsd:dateTime .
+nl:id_bd9abfd37dbcefebec5f8acbe6a3563e7137cfc1 oa:annotatedBy user:joan .
+nl:id_bd9abfd37dbcefebec5f8acbe6a3563e7137cfc1 oa:hasBody <http://iconclass.org/73B57> .
+nl:id_bd9abfd37dbcefebec5f8acbe6a3563e7137cfc1 oa:hasTarget ubvu:print-218010001683 .
+nl:id_bd9abfd37dbcefebec5f8acbe6a3563e7137cfc1 oa:motivatedBy oa:tagging .
