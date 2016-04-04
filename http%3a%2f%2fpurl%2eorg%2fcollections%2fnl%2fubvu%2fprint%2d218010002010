@@ -24,6 +24,16 @@ nl:id_03f49694c6f697e70e9b341b7e89254e33786a5b oa:hasTarget target:target_ae56ab
 nl:id_03f49694c6f697e70e9b341b7e89254e33786a5b oa:hasTarget ubvu:print-218010002010 .
 nl:id_03f49694c6f697e70e9b341b7e89254e33786a5b oa:motivatedBy oa:tagging .
 
+nl:id_1a4d9690d8c248596bfa37a2c68755f53e7355cf a oa:Annotation .
+nl:id_1a4d9690d8c248596bfa37a2c68755f53e7355cf terms:title "Samson kills the lion with his bare hands" .
+nl:id_1a4d9690d8c248596bfa37a2c68755f53e7355cf ui:annotationField bible:ICBibleTheme .
+nl:id_1a4d9690d8c248596bfa37a2c68755f53e7355cf ui:typingTime 0 .
+nl:id_1a4d9690d8c248596bfa37a2c68755f53e7355cf oa:annotatedAt "2016-04-04T16:16:47+02:00"^^xsd:dateTime .
+nl:id_1a4d9690d8c248596bfa37a2c68755f53e7355cf oa:annotatedBy user:jbn415 .
+nl:id_1a4d9690d8c248596bfa37a2c68755f53e7355cf oa:hasBody <http://iconclass.org/71F325> .
+nl:id_1a4d9690d8c248596bfa37a2c68755f53e7355cf oa:hasTarget ubvu:print-218010002010 .
+nl:id_1a4d9690d8c248596bfa37a2c68755f53e7355cf oa:motivatedBy oa:tagging .
+
 nl:id_2b8b6bc91b1ef5ff45efe56b60b57110818d246a a oa:Annotation .
 nl:id_2b8b6bc91b1ef5ff45efe56b60b57110818d246a terms:title "Simson" .
 nl:id_2b8b6bc91b1ef5ff45efe56b60b57110818d246a ui:annotationField bible:BibleCharacter .
