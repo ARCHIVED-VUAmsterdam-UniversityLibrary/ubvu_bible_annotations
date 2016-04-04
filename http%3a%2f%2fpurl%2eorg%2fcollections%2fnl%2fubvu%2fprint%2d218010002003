@@ -79,6 +79,16 @@ nl:id_ad406ae3e57c43d56ec5e2d25d06690181daddeb oa:hasTarget target:target_4c5470
 nl:id_ad406ae3e57c43d56ec5e2d25d06690181daddeb oa:hasTarget ubvu:print-218010002003 .
 nl:id_ad406ae3e57c43d56ec5e2d25d06690181daddeb oa:motivatedBy oa:tagging .
 
+nl:id_ae25b9e62570954c44664c353e20bc2e88cfc573 a oa:Annotation .
+nl:id_ae25b9e62570954c44664c353e20bc2e88cfc573 terms:title "Moses kills the Egyptian taskmaster" .
+nl:id_ae25b9e62570954c44664c353e20bc2e88cfc573 ui:annotationField bible:ICBibleTheme .
+nl:id_ae25b9e62570954c44664c353e20bc2e88cfc573 ui:typingTime 0 .
+nl:id_ae25b9e62570954c44664c353e20bc2e88cfc573 oa:annotatedAt "2016-04-04T15:07:39+02:00"^^xsd:dateTime .
+nl:id_ae25b9e62570954c44664c353e20bc2e88cfc573 oa:annotatedBy user:jbn415 .
+nl:id_ae25b9e62570954c44664c353e20bc2e88cfc573 oa:hasBody <http://iconclass.org/71E11312> .
+nl:id_ae25b9e62570954c44664c353e20bc2e88cfc573 oa:hasTarget ubvu:print-218010002003 .
+nl:id_ae25b9e62570954c44664c353e20bc2e88cfc573 oa:motivatedBy oa:tagging .
+
 nl:id_b04e3463687770c306d6373f2fd950c5dd6df68a a oa:Annotation .
 nl:id_b04e3463687770c306d6373f2fd950c5dd6df68a terms:title "Joseph sold into slavery and taken to Egypt (Genesis 37:12-35)" .
 nl:id_b04e3463687770c306d6373f2fd950c5dd6df68a ui:annotationField bible:ICBibleTheme .
