@@ -34,6 +34,16 @@ nl:id_760d2b14cc19064488065f3b71edbbb119090a62 oa:hasTarget target:target_de4821
 nl:id_760d2b14cc19064488065f3b71edbbb119090a62 oa:hasTarget ubvu:print-218010001675 .
 nl:id_760d2b14cc19064488065f3b71edbbb119090a62 oa:motivatedBy oa:tagging .
 
+nl:id_a7750e96f98149d2083f49d629d072af8975017d a oa:Annotation .
+nl:id_a7750e96f98149d2083f49d629d072af8975017d terms:title "circumcision of the Christ-child by the priest in the temple (Luke 2:21)" .
+nl:id_a7750e96f98149d2083f49d629d072af8975017d ui:annotationField bible:ICBibleTheme .
+nl:id_a7750e96f98149d2083f49d629d072af8975017d ui:typingTime 0 .
+nl:id_a7750e96f98149d2083f49d629d072af8975017d oa:annotatedAt "2016-04-04T13:31:36+02:00"^^xsd:dateTime .
+nl:id_a7750e96f98149d2083f49d629d072af8975017d oa:annotatedBy user:test .
+nl:id_a7750e96f98149d2083f49d629d072af8975017d oa:hasBody <http://iconclass.org/73B3> .
+nl:id_a7750e96f98149d2083f49d629d072af8975017d oa:hasTarget ubvu:print-218010001675 .
+nl:id_a7750e96f98149d2083f49d629d072af8975017d oa:motivatedBy oa:tagging .
+
 target:selector_de48211b0f617eb465f9eabb37a0a39951a60a40 a oa:FragmentSelector .
 target:selector_de48211b0f617eb465f9eabb37a0a39951a60a40 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_de48211b0f617eb465f9eabb37a0a39951a60a40 ui:h "0.10810810810810811"^^xsd:float .
