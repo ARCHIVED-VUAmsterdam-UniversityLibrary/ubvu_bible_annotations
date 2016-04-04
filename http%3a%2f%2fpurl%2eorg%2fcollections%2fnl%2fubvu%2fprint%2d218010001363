@@ -11,6 +11,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_59dd62569ca11cd5651af1be569d1aa05febcdda a oa:Annotation .
+nl:id_59dd62569ca11cd5651af1be569d1aa05febcdda terms:title "Adoni-bezek is caught; his thumbs and his great toes are cut off" .
+nl:id_59dd62569ca11cd5651af1be569d1aa05febcdda ui:annotationField bible:ICBibleTheme .
+nl:id_59dd62569ca11cd5651af1be569d1aa05febcdda ui:typingTime 0 .
+nl:id_59dd62569ca11cd5651af1be569d1aa05febcdda oa:annotatedAt "2016-04-04T15:11:38+02:00"^^xsd:dateTime .
+nl:id_59dd62569ca11cd5651af1be569d1aa05febcdda oa:annotatedBy user:jbn415 .
+nl:id_59dd62569ca11cd5651af1be569d1aa05febcdda oa:hasBody <http://iconclass.org/71F1112> .
+nl:id_59dd62569ca11cd5651af1be569d1aa05febcdda oa:hasTarget ubvu:print-218010001363 .
+nl:id_59dd62569ca11cd5651af1be569d1aa05febcdda oa:motivatedBy oa:tagging .
+
 nl:id_e0897bb228b447880d0334a9ab72b9d4db83a058 a oa:Annotation .
 nl:id_e0897bb228b447880d0334a9ab72b9d4db83a058 terms:title "Adoni-Bezek" .
 nl:id_e0897bb228b447880d0334a9ab72b9d4db83a058 ui:annotationField bible:BibleCharacter .
