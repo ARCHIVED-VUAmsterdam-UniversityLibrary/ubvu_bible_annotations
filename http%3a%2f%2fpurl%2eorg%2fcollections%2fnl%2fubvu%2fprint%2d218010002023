@@ -23,6 +23,16 @@ nl:id_12a9f3d57968d9a3c90b5e4052c29a6cd5c71bae oa:hasBody <http://iconclass.org/
 nl:id_12a9f3d57968d9a3c90b5e4052c29a6cd5c71bae oa:hasTarget ubvu:print-218010002023 .
 nl:id_12a9f3d57968d9a3c90b5e4052c29a6cd5c71bae oa:motivatedBy oa:tagging .
 
+nl:id_1724f180eede0c13b855a9b5a626f2dc090b58e6 a oa:Annotation .
+nl:id_1724f180eede0c13b855a9b5a626f2dc090b58e6 terms:title "Queen Vashti (Astin) gives a banquet for the women ~ story of Esther" .
+nl:id_1724f180eede0c13b855a9b5a626f2dc090b58e6 ui:annotationField bible:ICBibleTheme .
+nl:id_1724f180eede0c13b855a9b5a626f2dc090b58e6 ui:typingTime 0 .
+nl:id_1724f180eede0c13b855a9b5a626f2dc090b58e6 oa:annotatedAt "2016-04-04T15:53:27+02:00"^^xsd:dateTime .
+nl:id_1724f180eede0c13b855a9b5a626f2dc090b58e6 oa:annotatedBy user:hogguer .
+nl:id_1724f180eede0c13b855a9b5a626f2dc090b58e6 oa:hasBody <http://iconclass.org/71Q211> .
+nl:id_1724f180eede0c13b855a9b5a626f2dc090b58e6 oa:hasTarget ubvu:print-218010002023 .
+nl:id_1724f180eede0c13b855a9b5a626f2dc090b58e6 oa:motivatedBy oa:tagging .
+
 nl:id_197d0a04fd3bc34d4276959274c3dce3201ce05a a oa:Annotation .
 nl:id_197d0a04fd3bc34d4276959274c3dce3201ce05a terms:title "Mordechai" .
 nl:id_197d0a04fd3bc34d4276959274c3dce3201ce05a ui:annotationField bible:BibleCharacter .
