@@ -99,6 +99,16 @@ nl:id_b04e3463687770c306d6373f2fd950c5dd6df68a oa:hasBody <http://iconclass.org/
 nl:id_b04e3463687770c306d6373f2fd950c5dd6df68a oa:hasTarget ubvu:print-218010002003 .
 nl:id_b04e3463687770c306d6373f2fd950c5dd6df68a oa:motivatedBy oa:tagging .
 
+nl:id_b60720a0a3c75cbb1a3ad346342fdecf24a6acf3 a oa:Annotation .
+nl:id_b60720a0a3c75cbb1a3ad346342fdecf24a6acf3 terms:title "Moses lifts up his rod and the water divides (Red Sea); the angel of God and the pillar of cloud move to the rear" .
+nl:id_b60720a0a3c75cbb1a3ad346342fdecf24a6acf3 ui:annotationField bible:ICBibleTheme .
+nl:id_b60720a0a3c75cbb1a3ad346342fdecf24a6acf3 ui:typingTime 0 .
+nl:id_b60720a0a3c75cbb1a3ad346342fdecf24a6acf3 oa:annotatedAt "2016-04-04T15:08:03+02:00"^^xsd:dateTime .
+nl:id_b60720a0a3c75cbb1a3ad346342fdecf24a6acf3 oa:annotatedBy user:jbn415 .
+nl:id_b60720a0a3c75cbb1a3ad346342fdecf24a6acf3 oa:hasBody <http://iconclass.org/71E1222> .
+nl:id_b60720a0a3c75cbb1a3ad346342fdecf24a6acf3 oa:hasTarget ubvu:print-218010002003 .
+nl:id_b60720a0a3c75cbb1a3ad346342fdecf24a6acf3 oa:motivatedBy oa:tagging .
+
 nl:id_d0b3071a765208019f36356e5db6ee07175381a4 a oa:Annotation .
 nl:id_d0b3071a765208019f36356e5db6ee07175381a4 terms:title "Mozes" .
 nl:id_d0b3071a765208019f36356e5db6ee07175381a4 ui:annotationField bible:BibleCharacter .
