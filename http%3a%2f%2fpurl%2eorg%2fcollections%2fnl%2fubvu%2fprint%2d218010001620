@@ -1,0 +1,17 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix user: <http://accurator.nl/user#> .
+
+<http://accurator.nl/id_eebbb6705fcbf2ff48e1d5c0c79013a1e2c9074c> a oa:Annotation .
+<http://accurator.nl/id_eebbb6705fcbf2ff48e1d5c0c79013a1e2c9074c> terms:title "Eleazar, brother of Judas Maccabeus, kills an elephant of war and is killed himself when the elephant falls on him" .
+<http://accurator.nl/id_eebbb6705fcbf2ff48e1d5c0c79013a1e2c9074c> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
+<http://accurator.nl/id_eebbb6705fcbf2ff48e1d5c0c79013a1e2c9074c> ui:typingTime 0 .
+<http://accurator.nl/id_eebbb6705fcbf2ff48e1d5c0c79013a1e2c9074c> oa:annotatedAt "2016-04-04T16:38:27+02:00"^^xsd:dateTime .
+<http://accurator.nl/id_eebbb6705fcbf2ff48e1d5c0c79013a1e2c9074c> oa:annotatedBy user:jbn415 .
+<http://accurator.nl/id_eebbb6705fcbf2ff48e1d5c0c79013a1e2c9074c> oa:hasBody <http://iconclass.org/71Z171> .
+<http://accurator.nl/id_eebbb6705fcbf2ff48e1d5c0c79013a1e2c9074c> oa:hasTarget ubvu:print-218010001620 .
+<http://accurator.nl/id_eebbb6705fcbf2ff48e1d5c0c79013a1e2c9074c> oa:motivatedBy oa:tagging .
