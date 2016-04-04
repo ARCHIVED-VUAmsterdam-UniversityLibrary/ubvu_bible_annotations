@@ -10,6 +10,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_64ca2b3e5f814e742f514747c2a6d266f59dcf1c a oa:Annotation .
+nl:id_64ca2b3e5f814e742f514747c2a6d266f59dcf1c terms:title "John the Baptist beheaded (Mt.14,10)" .
+nl:id_64ca2b3e5f814e742f514747c2a6d266f59dcf1c ui:annotationField bible:ICBibleTheme .
+nl:id_64ca2b3e5f814e742f514747c2a6d266f59dcf1c ui:typingTime 0 .
+nl:id_64ca2b3e5f814e742f514747c2a6d266f59dcf1c oa:annotatedAt "2016-04-04T16:29:48+02:00"^^xsd:dateTime .
+nl:id_64ca2b3e5f814e742f514747c2a6d266f59dcf1c oa:annotatedBy user:spaapen1 .
+nl:id_64ca2b3e5f814e742f514747c2a6d266f59dcf1c oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "John the Baptist beheaded (Mt.14,10)" ] .
+nl:id_64ca2b3e5f814e742f514747c2a6d266f59dcf1c oa:hasTarget ubvu:print-218010002033 .
+nl:id_64ca2b3e5f814e742f514747c2a6d266f59dcf1c oa:motivatedBy oa:tagging .
+
 nl:id_b12d1189e3892ec5a73ad168824ec62fa625335c a oa:Annotation .
 nl:id_b12d1189e3892ec5a73ad168824ec62fa625335c terms:title "Salome gives the head of John the Baptist to her mother" .
 nl:id_b12d1189e3892ec5a73ad168824ec62fa625335c ui:annotationField bible:ICBibleTheme .
