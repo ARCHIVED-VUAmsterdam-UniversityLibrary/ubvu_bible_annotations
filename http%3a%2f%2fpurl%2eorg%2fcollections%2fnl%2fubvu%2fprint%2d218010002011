@@ -50,6 +50,16 @@ nl:id_554fffc9b8b16fdd814096d35b1498d5d97bb54e oa:hasBody [ a content:ContentAsT
 nl:id_554fffc9b8b16fdd814096d35b1498d5d97bb54e oa:hasTarget ubvu:print-218010002011 .
 nl:id_554fffc9b8b16fdd814096d35b1498d5d97bb54e oa:motivatedBy oa:tagging .
 
+nl:id_7af68fd619227644a21718a28334fc141cfcfd60 a oa:Annotation .
+nl:id_7af68fd619227644a21718a28334fc141cfcfd60 terms:title "Eli and the prophesie of Samuel on the judgment of his sons" .
+nl:id_7af68fd619227644a21718a28334fc141cfcfd60 ui:annotationField bible:ICBibleTheme .
+nl:id_7af68fd619227644a21718a28334fc141cfcfd60 ui:typingTime 0 .
+nl:id_7af68fd619227644a21718a28334fc141cfcfd60 oa:annotatedAt "2016-04-04T16:07:50+02:00"^^xsd:dateTime .
+nl:id_7af68fd619227644a21718a28334fc141cfcfd60 oa:annotatedBy user:hrmurris .
+nl:id_7af68fd619227644a21718a28334fc141cfcfd60 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Eli and the prophesie of Samuel on the judgment of his sons" ] .
+nl:id_7af68fd619227644a21718a28334fc141cfcfd60 oa:hasTarget ubvu:print-218010002011 .
+nl:id_7af68fd619227644a21718a28334fc141cfcfd60 oa:motivatedBy oa:tagging .
+
 nl:id_87024a6849a05ded82b76123e6d085708d8fc5f1 a oa:Annotation .
 nl:id_87024a6849a05ded82b76123e6d085708d8fc5f1 terms:title "Ruth" .
 nl:id_87024a6849a05ded82b76123e6d085708d8fc5f1 ui:annotationField bible:ICBibleTheme .
