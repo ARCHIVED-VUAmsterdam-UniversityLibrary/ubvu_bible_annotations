@@ -1,0 +1,17 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix user: <http://accurator.nl/user#> .
+
+<http://accurator.nl/id_e5434b020ad42e87f140f67587142af8f525db75> a oa:Annotation .
+<http://accurator.nl/id_e5434b020ad42e87f140f67587142af8f525db75> terms:title "Adoni-bezek is caught; his thumbs and his great toes are cut off" .
+<http://accurator.nl/id_e5434b020ad42e87f140f67587142af8f525db75> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
+<http://accurator.nl/id_e5434b020ad42e87f140f67587142af8f525db75> ui:typingTime 0 .
+<http://accurator.nl/id_e5434b020ad42e87f140f67587142af8f525db75> oa:annotatedAt "2016-04-04T15:00:55+02:00"^^xsd:dateTime .
+<http://accurator.nl/id_e5434b020ad42e87f140f67587142af8f525db75> oa:annotatedBy user:everhoeff .
+<http://accurator.nl/id_e5434b020ad42e87f140f67587142af8f525db75> oa:hasBody <http://iconclass.org/71F1112> .
+<http://accurator.nl/id_e5434b020ad42e87f140f67587142af8f525db75> oa:hasTarget ubvu:print-218010001363 .
+<http://accurator.nl/id_e5434b020ad42e87f140f67587142af8f525db75> oa:motivatedBy oa:tagging .
