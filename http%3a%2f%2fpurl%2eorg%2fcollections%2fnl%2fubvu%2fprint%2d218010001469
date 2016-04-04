@@ -7,13 +7,25 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_10804b0018b9fc4e7f0c240f434dae23f2f462da> a oa:Annotation .
-<http://accurator.nl/id_10804b0018b9fc4e7f0c240f434dae23f2f462da> terms:title "David shows Saul the skirt of his robe" .
-<http://accurator.nl/id_10804b0018b9fc4e7f0c240f434dae23f2f462da> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
-<http://accurator.nl/id_10804b0018b9fc4e7f0c240f434dae23f2f462da> ui:typingTime 0 .
-<http://accurator.nl/id_10804b0018b9fc4e7f0c240f434dae23f2f462da> oa:annotatedAt "2016-04-04T15:37:49+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_10804b0018b9fc4e7f0c240f434dae23f2f462da> oa:annotatedBy user:joan .
-<http://accurator.nl/id_10804b0018b9fc4e7f0c240f434dae23f2f462da> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "David shows Saul the skirt of his robe" ] .
-<http://accurator.nl/id_10804b0018b9fc4e7f0c240f434dae23f2f462da> oa:hasTarget ubvu:print-218010001469 .
-<http://accurator.nl/id_10804b0018b9fc4e7f0c240f434dae23f2f462da> oa:motivatedBy oa:tagging .
+nl:id_0ed5c6f5cbd62b8f8696ebf6ddfb021aee910499 a oa:Annotation .
+nl:id_0ed5c6f5cbd62b8f8696ebf6ddfb021aee910499 terms:title "1 Samuel 24: 12" .
+nl:id_0ed5c6f5cbd62b8f8696ebf6ddfb021aee910499 ui:annotationField bible:ICBibleTheme .
+nl:id_0ed5c6f5cbd62b8f8696ebf6ddfb021aee910499 ui:typingTime 0 .
+nl:id_0ed5c6f5cbd62b8f8696ebf6ddfb021aee910499 oa:annotatedAt "2016-04-04T15:38:10+02:00"^^xsd:dateTime .
+nl:id_0ed5c6f5cbd62b8f8696ebf6ddfb021aee910499 oa:annotatedBy user:joan .
+nl:id_0ed5c6f5cbd62b8f8696ebf6ddfb021aee910499 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "1 Samuel 24: 12" ] .
+nl:id_0ed5c6f5cbd62b8f8696ebf6ddfb021aee910499 oa:hasTarget ubvu:print-218010001469 .
+nl:id_0ed5c6f5cbd62b8f8696ebf6ddfb021aee910499 oa:motivatedBy oa:tagging .
+
+nl:id_10804b0018b9fc4e7f0c240f434dae23f2f462da a oa:Annotation .
+nl:id_10804b0018b9fc4e7f0c240f434dae23f2f462da terms:title "David shows Saul the skirt of his robe" .
+nl:id_10804b0018b9fc4e7f0c240f434dae23f2f462da ui:annotationField bible:ICBibleTheme .
+nl:id_10804b0018b9fc4e7f0c240f434dae23f2f462da ui:typingTime 0 .
+nl:id_10804b0018b9fc4e7f0c240f434dae23f2f462da oa:annotatedAt "2016-04-04T15:37:49+02:00"^^xsd:dateTime .
+nl:id_10804b0018b9fc4e7f0c240f434dae23f2f462da oa:annotatedBy user:joan .
+nl:id_10804b0018b9fc4e7f0c240f434dae23f2f462da oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "David shows Saul the skirt of his robe" ] .
+nl:id_10804b0018b9fc4e7f0c240f434dae23f2f462da oa:hasTarget ubvu:print-218010001469 .
+nl:id_10804b0018b9fc4e7f0c240f434dae23f2f462da oa:motivatedBy oa:tagging .
