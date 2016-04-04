@@ -8,17 +8,30 @@
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_1d68d2acdd2101f5fdd27eb5bdbdfeb4c699635f> a oa:Annotation .
-<http://accurator.nl/id_1d68d2acdd2101f5fdd27eb5bdbdfeb4c699635f> terms:title "samsong" .
-<http://accurator.nl/id_1d68d2acdd2101f5fdd27eb5bdbdfeb4c699635f> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_1d68d2acdd2101f5fdd27eb5bdbdfeb4c699635f> ui:typingTime 0 .
-<http://accurator.nl/id_1d68d2acdd2101f5fdd27eb5bdbdfeb4c699635f> oa:annotatedAt "2016-04-04T15:41:08+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_1d68d2acdd2101f5fdd27eb5bdbdfeb4c699635f> oa:annotatedBy user:vubieb .
-<http://accurator.nl/id_1d68d2acdd2101f5fdd27eb5bdbdfeb4c699635f> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "samsong" ] .
-<http://accurator.nl/id_1d68d2acdd2101f5fdd27eb5bdbdfeb4c699635f> oa:hasTarget target:target_f106a4dd30be120d7fb1c4ce211e3983d1b75ae1 .
-<http://accurator.nl/id_1d68d2acdd2101f5fdd27eb5bdbdfeb4c699635f> oa:hasTarget ubvu:print-218010001400 .
-<http://accurator.nl/id_1d68d2acdd2101f5fdd27eb5bdbdfeb4c699635f> oa:motivatedBy oa:tagging .
+nl:id_1d68d2acdd2101f5fdd27eb5bdbdfeb4c699635f a oa:Annotation .
+nl:id_1d68d2acdd2101f5fdd27eb5bdbdfeb4c699635f terms:title "samsong" .
+nl:id_1d68d2acdd2101f5fdd27eb5bdbdfeb4c699635f ui:annotationField bible:BibleCharacter .
+nl:id_1d68d2acdd2101f5fdd27eb5bdbdfeb4c699635f ui:typingTime 0 .
+nl:id_1d68d2acdd2101f5fdd27eb5bdbdfeb4c699635f oa:annotatedAt "2016-04-04T15:41:08+02:00"^^xsd:dateTime .
+nl:id_1d68d2acdd2101f5fdd27eb5bdbdfeb4c699635f oa:annotatedBy user:vubieb .
+nl:id_1d68d2acdd2101f5fdd27eb5bdbdfeb4c699635f oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "samsong" ] .
+nl:id_1d68d2acdd2101f5fdd27eb5bdbdfeb4c699635f oa:hasTarget target:target_f106a4dd30be120d7fb1c4ce211e3983d1b75ae1 .
+nl:id_1d68d2acdd2101f5fdd27eb5bdbdfeb4c699635f oa:hasTarget ubvu:print-218010001400 .
+nl:id_1d68d2acdd2101f5fdd27eb5bdbdfeb4c699635f oa:motivatedBy oa:tagging .
+
+nl:id_80e4b6356357e7d3898e0ed5e49cab7df72ae538 a oa:Annotation .
+nl:id_80e4b6356357e7d3898e0ed5e49cab7df72ae538 terms:title "samson" .
+nl:id_80e4b6356357e7d3898e0ed5e49cab7df72ae538 ui:annotationField bible:BibleCharacter .
+nl:id_80e4b6356357e7d3898e0ed5e49cab7df72ae538 ui:typingTime 0 .
+nl:id_80e4b6356357e7d3898e0ed5e49cab7df72ae538 oa:annotatedAt "2016-04-04T15:41:29+02:00"^^xsd:dateTime .
+nl:id_80e4b6356357e7d3898e0ed5e49cab7df72ae538 oa:annotatedBy user:vubieb .
+nl:id_80e4b6356357e7d3898e0ed5e49cab7df72ae538 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "samson" ] .
+nl:id_80e4b6356357e7d3898e0ed5e49cab7df72ae538 oa:hasTarget target:target_f106a4dd30be120d7fb1c4ce211e3983d1b75ae1 .
+nl:id_80e4b6356357e7d3898e0ed5e49cab7df72ae538 oa:hasTarget ubvu:print-218010001400 .
+nl:id_80e4b6356357e7d3898e0ed5e49cab7df72ae538 oa:motivatedBy oa:tagging .
 
 target:selector_f106a4dd30be120d7fb1c4ce211e3983d1b75ae1 a oa:FragmentSelector .
 target:selector_f106a4dd30be120d7fb1c4ce211e3983d1b75ae1 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
