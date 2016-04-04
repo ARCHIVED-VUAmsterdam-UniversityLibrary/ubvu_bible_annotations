@@ -22,6 +22,16 @@ nl:id_7f20d75094753ae62e82e25bf6b419448af91022 oa:hasTarget target:target_34e73b
 nl:id_7f20d75094753ae62e82e25bf6b419448af91022 oa:hasTarget ubvu:print-218010001110 .
 nl:id_7f20d75094753ae62e82e25bf6b419448af91022 oa:motivatedBy oa:tagging .
 
+nl:id_a15c53f9422f37a8b6e80fd7fb987f8c9f5ca221 a oa:Annotation .
+nl:id_a15c53f9422f37a8b6e80fd7fb987f8c9f5ca221 terms:title "Rebekah offers Eliezer a drink from her pitcher" .
+nl:id_a15c53f9422f37a8b6e80fd7fb987f8c9f5ca221 ui:annotationField bible:ICBibleTheme .
+nl:id_a15c53f9422f37a8b6e80fd7fb987f8c9f5ca221 ui:typingTime 0 .
+nl:id_a15c53f9422f37a8b6e80fd7fb987f8c9f5ca221 oa:annotatedAt "2016-04-04T16:14:32+02:00"^^xsd:dateTime .
+nl:id_a15c53f9422f37a8b6e80fd7fb987f8c9f5ca221 oa:annotatedBy user:jbn415 .
+nl:id_a15c53f9422f37a8b6e80fd7fb987f8c9f5ca221 oa:hasBody <http://iconclass.org/71C21311> .
+nl:id_a15c53f9422f37a8b6e80fd7fb987f8c9f5ca221 oa:hasTarget ubvu:print-218010001110 .
+nl:id_a15c53f9422f37a8b6e80fd7fb987f8c9f5ca221 oa:motivatedBy oa:tagging .
+
 nl:id_ee095a534dea047e7c936e08b78e88367d377fbc a oa:Annotation .
 nl:id_ee095a534dea047e7c936e08b78e88367d377fbc terms:title "Rebekka" .
 nl:id_ee095a534dea047e7c936e08b78e88367d377fbc ui:annotationField bible:BibleCharacter .
