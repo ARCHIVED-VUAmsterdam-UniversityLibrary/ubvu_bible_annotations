@@ -4,14 +4,41 @@
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_c6861eb452eb66f16d84b1abde23c678cf2533c7> a oa:Annotation .
-<http://accurator.nl/id_c6861eb452eb66f16d84b1abde23c678cf2533c7> terms:title "Jacob and the angel (Genesis 32:24-32)" .
-<http://accurator.nl/id_c6861eb452eb66f16d84b1abde23c678cf2533c7> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
-<http://accurator.nl/id_c6861eb452eb66f16d84b1abde23c678cf2533c7> ui:typingTime 0 .
-<http://accurator.nl/id_c6861eb452eb66f16d84b1abde23c678cf2533c7> oa:annotatedAt "2016-04-04T15:07:42+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_c6861eb452eb66f16d84b1abde23c678cf2533c7> oa:annotatedBy user:spaapen1 .
-<http://accurator.nl/id_c6861eb452eb66f16d84b1abde23c678cf2533c7> oa:hasBody <http://iconclass.org/71C322> .
-<http://accurator.nl/id_c6861eb452eb66f16d84b1abde23c678cf2533c7> oa:hasTarget ubvu:print-218010001143 .
-<http://accurator.nl/id_c6861eb452eb66f16d84b1abde23c678cf2533c7> oa:motivatedBy oa:tagging .
+nl:id_9a329041df0f8d97966a77b664e1cfa64bbc0a23 a oa:Annotation .
+nl:id_9a329041df0f8d97966a77b664e1cfa64bbc0a23 terms:title "Jakob (zoon van Mattan)" .
+nl:id_9a329041df0f8d97966a77b664e1cfa64bbc0a23 ui:annotationField bible:BibleCharacter .
+nl:id_9a329041df0f8d97966a77b664e1cfa64bbc0a23 ui:typingTime 0 .
+nl:id_9a329041df0f8d97966a77b664e1cfa64bbc0a23 oa:annotatedAt "2016-04-04T15:08:45+02:00"^^xsd:dateTime .
+nl:id_9a329041df0f8d97966a77b664e1cfa64bbc0a23 oa:annotatedBy user:spaapen1 .
+nl:id_9a329041df0f8d97966a77b664e1cfa64bbc0a23 oa:hasBody resource:Jacob_Son_of_Matthan .
+nl:id_9a329041df0f8d97966a77b664e1cfa64bbc0a23 oa:hasTarget target:target_dd1147c9fd5f0fa565acb0829784e367fcb68a24 .
+nl:id_9a329041df0f8d97966a77b664e1cfa64bbc0a23 oa:hasTarget ubvu:print-218010001143 .
+nl:id_9a329041df0f8d97966a77b664e1cfa64bbc0a23 oa:motivatedBy oa:tagging .
+
+nl:id_c6861eb452eb66f16d84b1abde23c678cf2533c7 a oa:Annotation .
+nl:id_c6861eb452eb66f16d84b1abde23c678cf2533c7 terms:title "Jacob and the angel (Genesis 32:24-32)" .
+nl:id_c6861eb452eb66f16d84b1abde23c678cf2533c7 ui:annotationField bible:ICBibleTheme .
+nl:id_c6861eb452eb66f16d84b1abde23c678cf2533c7 ui:typingTime 0 .
+nl:id_c6861eb452eb66f16d84b1abde23c678cf2533c7 oa:annotatedAt "2016-04-04T15:07:42+02:00"^^xsd:dateTime .
+nl:id_c6861eb452eb66f16d84b1abde23c678cf2533c7 oa:annotatedBy user:spaapen1 .
+nl:id_c6861eb452eb66f16d84b1abde23c678cf2533c7 oa:hasBody <http://iconclass.org/71C322> .
+nl:id_c6861eb452eb66f16d84b1abde23c678cf2533c7 oa:hasTarget ubvu:print-218010001143 .
+nl:id_c6861eb452eb66f16d84b1abde23c678cf2533c7 oa:motivatedBy oa:tagging .
+
+target:selector_dd1147c9fd5f0fa565acb0829784e367fcb68a24 a oa:FragmentSelector .
+target:selector_dd1147c9fd5f0fa565acb0829784e367fcb68a24 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_dd1147c9fd5f0fa565acb0829784e367fcb68a24 ui:h "0.447973713033954"^^xsd:float .
+target:selector_dd1147c9fd5f0fa565acb0829784e367fcb68a24 ui:w "0.505982905982906"^^xsd:float .
+target:selector_dd1147c9fd5f0fa565acb0829784e367fcb68a24 ui:x "0.05641025641025641"^^xsd:float .
+target:selector_dd1147c9fd5f0fa565acb0829784e367fcb68a24 ui:y "0.3855202414772727"^^xsd:float .
+target:selector_dd1147c9fd5f0fa565acb0829784e367fcb68a24 rdf:value "#xywh=percent:6,39,51,45" .
+
+target:target_dd1147c9fd5f0fa565acb0829784e367fcb68a24 a oa:SpecificResource .
+target:target_dd1147c9fd5f0fa565acb0829784e367fcb68a24 oa:hasSelector target:selector_dd1147c9fd5f0fa565acb0829784e367fcb68a24 .
+target:target_dd1147c9fd5f0fa565acb0829784e367fcb68a24 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/184> .
