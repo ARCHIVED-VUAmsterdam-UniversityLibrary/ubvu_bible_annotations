@@ -1,0 +1,19 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix user: <http://accurator.nl/user#> .
+
+<http://accurator.nl/id_b709d0e27ab48728bb3325818359644e97de47bb> a oa:Annotation .
+<http://accurator.nl/id_b709d0e27ab48728bb3325818359644e97de47bb> terms:title "'Free illustration with 'woman-animals' and 'Zeus like face'" .
+<http://accurator.nl/id_b709d0e27ab48728bb3325818359644e97de47bb> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
+<http://accurator.nl/id_b709d0e27ab48728bb3325818359644e97de47bb> ui:typingTime 0 .
+<http://accurator.nl/id_b709d0e27ab48728bb3325818359644e97de47bb> oa:annotatedAt "2016-04-04T16:47:08+02:00"^^xsd:dateTime .
+<http://accurator.nl/id_b709d0e27ab48728bb3325818359644e97de47bb> oa:annotatedBy user:hrmurris .
+<http://accurator.nl/id_b709d0e27ab48728bb3325818359644e97de47bb> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "'Free illustration with 'woman-animals' and 'Zeus like face'" ] .
+<http://accurator.nl/id_b709d0e27ab48728bb3325818359644e97de47bb> oa:hasTarget ubvu:print-218010001549 .
+<http://accurator.nl/id_b709d0e27ab48728bb3325818359644e97de47bb> oa:motivatedBy oa:tagging .
