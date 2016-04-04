@@ -8,17 +8,29 @@
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_40ea2bda2cc58e278cbfa6263e23823e5f102bee> a oa:Annotation .
-<http://accurator.nl/id_40ea2bda2cc58e278cbfa6263e23823e5f102bee> terms:title "Simson" .
-<http://accurator.nl/id_40ea2bda2cc58e278cbfa6263e23823e5f102bee> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_40ea2bda2cc58e278cbfa6263e23823e5f102bee> ui:typingTime 0 .
-<http://accurator.nl/id_40ea2bda2cc58e278cbfa6263e23823e5f102bee> oa:annotatedAt "2016-04-04T15:56:29+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_40ea2bda2cc58e278cbfa6263e23823e5f102bee> oa:annotatedBy user:dick .
-<http://accurator.nl/id_40ea2bda2cc58e278cbfa6263e23823e5f102bee> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Simson" ] .
-<http://accurator.nl/id_40ea2bda2cc58e278cbfa6263e23823e5f102bee> oa:hasTarget target:target_e80ec33c6631bae48af57fae599374396559bdcc .
-<http://accurator.nl/id_40ea2bda2cc58e278cbfa6263e23823e5f102bee> oa:hasTarget ubvu:print-218010001396 .
-<http://accurator.nl/id_40ea2bda2cc58e278cbfa6263e23823e5f102bee> oa:motivatedBy oa:tagging .
+nl:id_37dbaee78fac6c0c003e38e5e035cf0a27a28671 a oa:Annotation .
+nl:id_37dbaee78fac6c0c003e38e5e035cf0a27a28671 terms:title "the Philistines defeated ~ the secret expedition of Jonathan" .
+nl:id_37dbaee78fac6c0c003e38e5e035cf0a27a28671 ui:annotationField bible:ICBibleTheme .
+nl:id_37dbaee78fac6c0c003e38e5e035cf0a27a28671 ui:typingTime 0 .
+nl:id_37dbaee78fac6c0c003e38e5e035cf0a27a28671 oa:annotatedAt "2016-04-04T15:57:06+02:00"^^xsd:dateTime .
+nl:id_37dbaee78fac6c0c003e38e5e035cf0a27a28671 oa:annotatedBy user:dick .
+nl:id_37dbaee78fac6c0c003e38e5e035cf0a27a28671 oa:hasBody <http://iconclass.org/71G224> .
+nl:id_37dbaee78fac6c0c003e38e5e035cf0a27a28671 oa:hasTarget ubvu:print-218010001396 .
+nl:id_37dbaee78fac6c0c003e38e5e035cf0a27a28671 oa:motivatedBy oa:tagging .
+
+nl:id_40ea2bda2cc58e278cbfa6263e23823e5f102bee a oa:Annotation .
+nl:id_40ea2bda2cc58e278cbfa6263e23823e5f102bee terms:title "Simson" .
+nl:id_40ea2bda2cc58e278cbfa6263e23823e5f102bee ui:annotationField bible:BibleCharacter .
+nl:id_40ea2bda2cc58e278cbfa6263e23823e5f102bee ui:typingTime 0 .
+nl:id_40ea2bda2cc58e278cbfa6263e23823e5f102bee oa:annotatedAt "2016-04-04T15:56:29+02:00"^^xsd:dateTime .
+nl:id_40ea2bda2cc58e278cbfa6263e23823e5f102bee oa:annotatedBy user:dick .
+nl:id_40ea2bda2cc58e278cbfa6263e23823e5f102bee oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Simson" ] .
+nl:id_40ea2bda2cc58e278cbfa6263e23823e5f102bee oa:hasTarget target:target_e80ec33c6631bae48af57fae599374396559bdcc .
+nl:id_40ea2bda2cc58e278cbfa6263e23823e5f102bee oa:hasTarget ubvu:print-218010001396 .
+nl:id_40ea2bda2cc58e278cbfa6263e23823e5f102bee oa:motivatedBy oa:tagging .
 
 target:selector_e80ec33c6631bae48af57fae599374396559bdcc a oa:FragmentSelector .
 target:selector_e80ec33c6631bae48af57fae599374396559bdcc terms:conformsTo <http://www.w3.org/TR/media-frags/> .
