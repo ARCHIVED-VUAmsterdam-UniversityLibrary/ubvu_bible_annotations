@@ -99,6 +99,16 @@ nl:id_a67a481f2316923c06e32e87ce972d16d583901a oa:hasTarget target:target_4c08d2
 nl:id_a67a481f2316923c06e32e87ce972d16d583901a oa:hasTarget ubvu:print-218010002010 .
 nl:id_a67a481f2316923c06e32e87ce972d16d583901a oa:motivatedBy oa:tagging .
 
+nl:id_aeac0f5725365f9ff9f288ec03c1ab40e2f283f4 a oa:Annotation .
+nl:id_aeac0f5725365f9ff9f288ec03c1ab40e2f283f4 terms:title "Samson kills the philistines" .
+nl:id_aeac0f5725365f9ff9f288ec03c1ab40e2f283f4 ui:annotationField bible:ICBibleTheme .
+nl:id_aeac0f5725365f9ff9f288ec03c1ab40e2f283f4 ui:typingTime 0 .
+nl:id_aeac0f5725365f9ff9f288ec03c1ab40e2f283f4 oa:annotatedAt "2016-04-04T16:17:53+02:00"^^xsd:dateTime .
+nl:id_aeac0f5725365f9ff9f288ec03c1ab40e2f283f4 oa:annotatedBy user:jbn415 .
+nl:id_aeac0f5725365f9ff9f288ec03c1ab40e2f283f4 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Samson kills the philistines" ] .
+nl:id_aeac0f5725365f9ff9f288ec03c1ab40e2f283f4 oa:hasTarget ubvu:print-218010002010 .
+nl:id_aeac0f5725365f9ff9f288ec03c1ab40e2f283f4 oa:motivatedBy oa:tagging .
+
 nl:id_b03c3510dfb85d032232170f66f1ef521222f6ec a oa:Annotation .
 nl:id_b03c3510dfb85d032232170f66f1ef521222f6ec terms:title "Engel" .
 nl:id_b03c3510dfb85d032232170f66f1ef521222f6ec ui:annotationField bible:BibleCharacter .
