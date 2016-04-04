@@ -24,6 +24,16 @@ nl:id_03f49694c6f697e70e9b341b7e89254e33786a5b oa:hasTarget target:target_ae56ab
 nl:id_03f49694c6f697e70e9b341b7e89254e33786a5b oa:hasTarget ubvu:print-218010002010 .
 nl:id_03f49694c6f697e70e9b341b7e89254e33786a5b oa:motivatedBy oa:tagging .
 
+nl:id_164e4319b36cc20dac68f831067930a8b0454916 a oa:Annotation .
+nl:id_164e4319b36cc20dac68f831067930a8b0454916 terms:title "Samson ties three hundred foxes two by two by their tails with a fire-brand in between; with the torches on fire he lets them go into the cornfields of the Philistines which are set aflame" .
+nl:id_164e4319b36cc20dac68f831067930a8b0454916 ui:annotationField bible:ICBibleTheme .
+nl:id_164e4319b36cc20dac68f831067930a8b0454916 ui:typingTime 0 .
+nl:id_164e4319b36cc20dac68f831067930a8b0454916 oa:annotatedAt "2016-04-04T16:17:10+02:00"^^xsd:dateTime .
+nl:id_164e4319b36cc20dac68f831067930a8b0454916 oa:annotatedBy user:jbn415 .
+nl:id_164e4319b36cc20dac68f831067930a8b0454916 oa:hasBody <http://iconclass.org/71F343> .
+nl:id_164e4319b36cc20dac68f831067930a8b0454916 oa:hasTarget ubvu:print-218010002010 .
+nl:id_164e4319b36cc20dac68f831067930a8b0454916 oa:motivatedBy oa:tagging .
+
 nl:id_1a4d9690d8c248596bfa37a2c68755f53e7355cf a oa:Annotation .
 nl:id_1a4d9690d8c248596bfa37a2c68755f53e7355cf terms:title "Samson kills the lion with his bare hands" .
 nl:id_1a4d9690d8c248596bfa37a2c68755f53e7355cf ui:annotationField bible:ICBibleTheme .
