@@ -1,8 +1,11 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix resource: <http://bibleontology.com/resource/> .
@@ -20,6 +23,17 @@ nl:id_4b0c56ca2b65ed71a447717e5a5e53d27433e7b4 oa:hasBody <http://iconclass.org/
 nl:id_4b0c56ca2b65ed71a447717e5a5e53d27433e7b4 oa:hasTarget ubvu:print-218010001095 .
 nl:id_4b0c56ca2b65ed71a447717e5a5e53d27433e7b4 oa:motivatedBy oa:tagging .
 
+nl:id_784ac197b5ab080f49461c8ce65e3aaadb0d29af a oa:Annotation .
+nl:id_784ac197b5ab080f49461c8ce65e3aaadb0d29af terms:title "abraham" .
+nl:id_784ac197b5ab080f49461c8ce65e3aaadb0d29af ui:annotationField bible:BibleCharacter .
+nl:id_784ac197b5ab080f49461c8ce65e3aaadb0d29af ui:typingTime 0 .
+nl:id_784ac197b5ab080f49461c8ce65e3aaadb0d29af oa:annotatedAt "2016-04-04T15:26:22+02:00"^^xsd:dateTime .
+nl:id_784ac197b5ab080f49461c8ce65e3aaadb0d29af oa:annotatedBy user:everhoeff .
+nl:id_784ac197b5ab080f49461c8ce65e3aaadb0d29af oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "abraham" ] .
+nl:id_784ac197b5ab080f49461c8ce65e3aaadb0d29af oa:hasTarget target:target_535ac9ccb2c5abc6b69408ee9201ad346340b213 .
+nl:id_784ac197b5ab080f49461c8ce65e3aaadb0d29af oa:hasTarget ubvu:print-218010001095 .
+nl:id_784ac197b5ab080f49461c8ce65e3aaadb0d29af oa:motivatedBy oa:tagging .
+
 nl:id_d77213f3553bba9e8b60eb3c84f212b9144cada9 a oa:Annotation .
 nl:id_d77213f3553bba9e8b60eb3c84f212b9144cada9 terms:title "Hagar" .
 nl:id_d77213f3553bba9e8b60eb3c84f212b9144cada9 ui:annotationField bible:BibleCharacter .
@@ -31,6 +45,14 @@ nl:id_d77213f3553bba9e8b60eb3c84f212b9144cada9 oa:hasTarget target:target_a30999
 nl:id_d77213f3553bba9e8b60eb3c84f212b9144cada9 oa:hasTarget ubvu:print-218010001095 .
 nl:id_d77213f3553bba9e8b60eb3c84f212b9144cada9 oa:motivatedBy oa:tagging .
 
+target:selector_535ac9ccb2c5abc6b69408ee9201ad346340b213 a oa:FragmentSelector .
+target:selector_535ac9ccb2c5abc6b69408ee9201ad346340b213 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_535ac9ccb2c5abc6b69408ee9201ad346340b213 ui:h "0.2617080226089015"^^xsd:float .
+target:selector_535ac9ccb2c5abc6b69408ee9201ad346340b213 ui:w "0.09658119658119659"^^xsd:float .
+target:selector_535ac9ccb2c5abc6b69408ee9201ad346340b213 ui:x "0.6461538461538462"^^xsd:float .
+target:selector_535ac9ccb2c5abc6b69408ee9201ad346340b213 ui:y "0.4941597594374139"^^xsd:float .
+target:selector_535ac9ccb2c5abc6b69408ee9201ad346340b213 rdf:value "#xywh=percent:65,49,10,26" .
+
 target:selector_a309990ce0bc70fdbd980cd28701bdeee2d6c48d a oa:FragmentSelector .
 target:selector_a309990ce0bc70fdbd980cd28701bdeee2d6c48d terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_a309990ce0bc70fdbd980cd28701bdeee2d6c48d ui:h "0.3542700060799759"^^xsd:float .
@@ -38,6 +60,10 @@ target:selector_a309990ce0bc70fdbd980cd28701bdeee2d6c48d ui:w "0.229059829059829
 target:selector_a309990ce0bc70fdbd980cd28701bdeee2d6c48d ui:x "0.4324786324786325"^^xsd:float .
 target:selector_a309990ce0bc70fdbd980cd28701bdeee2d6c48d ui:y "0.4082093462142734"^^xsd:float .
 target:selector_a309990ce0bc70fdbd980cd28701bdeee2d6c48d rdf:value "#xywh=percent:43,41,23,35" .
+
+target:target_535ac9ccb2c5abc6b69408ee9201ad346340b213 a oa:SpecificResource .
+target:target_535ac9ccb2c5abc6b69408ee9201ad346340b213 oa:hasSelector target:selector_535ac9ccb2c5abc6b69408ee9201ad346340b213 .
+target:target_535ac9ccb2c5abc6b69408ee9201ad346340b213 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/136> .
 
 target:target_a309990ce0bc70fdbd980cd28701bdeee2d6c48d a oa:SpecificResource .
 target:target_a309990ce0bc70fdbd980cd28701bdeee2d6c48d oa:hasSelector target:selector_a309990ce0bc70fdbd980cd28701bdeee2d6c48d .
