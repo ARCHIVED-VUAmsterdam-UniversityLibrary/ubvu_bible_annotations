@@ -46,6 +46,16 @@ nl:id_5114740becae5ab17c49a0754bf722781b091a7a oa:hasTarget target:target_a00003
 nl:id_5114740becae5ab17c49a0754bf722781b091a7a oa:hasTarget ubvu:print-218010002023 .
 nl:id_5114740becae5ab17c49a0754bf722781b091a7a oa:motivatedBy oa:tagging .
 
+nl:id_b62c7c4f7776b8dd06c4c751c71083b63211ae5b a oa:Annotation .
+nl:id_b62c7c4f7776b8dd06c4c751c71083b63211ae5b terms:title "Ester, Ahasveos en beloning van Mordechai (Esther div teksten)" .
+nl:id_b62c7c4f7776b8dd06c4c751c71083b63211ae5b ui:annotationField bible:ICBibleTheme .
+nl:id_b62c7c4f7776b8dd06c4c751c71083b63211ae5b ui:typingTime 0 .
+nl:id_b62c7c4f7776b8dd06c4c751c71083b63211ae5b oa:annotatedAt "2016-04-04T15:46:01+02:00"^^xsd:dateTime .
+nl:id_b62c7c4f7776b8dd06c4c751c71083b63211ae5b oa:annotatedBy user:hrmurris .
+nl:id_b62c7c4f7776b8dd06c4c751c71083b63211ae5b oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Ester, Ahasveos en beloning van Mordechai (Esther div teksten)" ] .
+nl:id_b62c7c4f7776b8dd06c4c751c71083b63211ae5b oa:hasTarget ubvu:print-218010002023 .
+nl:id_b62c7c4f7776b8dd06c4c751c71083b63211ae5b oa:motivatedBy oa:tagging .
+
 nl:id_bfcb1b20e17d2269deb400a5e0ba601a8dce229d a oa:Annotation .
 nl:id_bfcb1b20e17d2269deb400a5e0ba601a8dce229d terms:title "Ahasveros (koning van Perzië)" .
 nl:id_bfcb1b20e17d2269deb400a5e0ba601a8dce229d ui:annotationField bible:BibleCharacter .
