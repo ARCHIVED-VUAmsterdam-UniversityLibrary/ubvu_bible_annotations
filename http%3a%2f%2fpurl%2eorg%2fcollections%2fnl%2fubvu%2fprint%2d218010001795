@@ -13,6 +13,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_4e7adc5ab40c593ad48f1e06a289afac022e9721 a oa:Annotation .
+nl:id_4e7adc5ab40c593ad48f1e06a289afac022e9721 terms:title "Martha complains to Christ about Mary" .
+nl:id_4e7adc5ab40c593ad48f1e06a289afac022e9721 ui:annotationField bible:ICBibleTheme .
+nl:id_4e7adc5ab40c593ad48f1e06a289afac022e9721 ui:typingTime 0 .
+nl:id_4e7adc5ab40c593ad48f1e06a289afac022e9721 oa:annotatedAt "2016-04-04T15:19:05+02:00"^^xsd:dateTime .
+nl:id_4e7adc5ab40c593ad48f1e06a289afac022e9721 oa:annotatedBy user:jbn415 .
+nl:id_4e7adc5ab40c593ad48f1e06a289afac022e9721 oa:hasBody <http://iconclass.org/73C72232> .
+nl:id_4e7adc5ab40c593ad48f1e06a289afac022e9721 oa:hasTarget ubvu:print-218010001795 .
+nl:id_4e7adc5ab40c593ad48f1e06a289afac022e9721 oa:motivatedBy oa:tagging .
+
 nl:id_5303dcc2cbfaf5d3ddaac4cd198249ebad860f3b a oa:Annotation .
 nl:id_5303dcc2cbfaf5d3ddaac4cd198249ebad860f3b terms:title "Maria (Zus van Martha)" .
 nl:id_5303dcc2cbfaf5d3ddaac4cd198249ebad860f3b ui:annotationField bible:BibleCharacter .
