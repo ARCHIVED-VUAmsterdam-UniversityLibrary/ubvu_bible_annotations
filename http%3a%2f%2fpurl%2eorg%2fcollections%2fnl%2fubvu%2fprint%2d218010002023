@@ -24,6 +24,16 @@ nl:id_197d0a04fd3bc34d4276959274c3dce3201ce05a oa:hasTarget target:target_972dbc
 nl:id_197d0a04fd3bc34d4276959274c3dce3201ce05a oa:hasTarget ubvu:print-218010002023 .
 nl:id_197d0a04fd3bc34d4276959274c3dce3201ce05a oa:motivatedBy oa:tagging .
 
+nl:id_28138b0aa704e1c39cc7ae4922966b601a4cbe0e a oa:Annotation .
+nl:id_28138b0aa704e1c39cc7ae4922966b601a4cbe0e terms:title "Haman entreats Ahasuerus to issue a decree that all the Jews are to be put to death; Ahasuerus consents and yields his signet-ring to Haman" .
+nl:id_28138b0aa704e1c39cc7ae4922966b601a4cbe0e ui:annotationField bible:ICBibleTheme .
+nl:id_28138b0aa704e1c39cc7ae4922966b601a4cbe0e ui:typingTime 0 .
+nl:id_28138b0aa704e1c39cc7ae4922966b601a4cbe0e oa:annotatedAt "2016-04-04T15:50:07+02:00"^^xsd:dateTime .
+nl:id_28138b0aa704e1c39cc7ae4922966b601a4cbe0e oa:annotatedBy user:hogguer .
+nl:id_28138b0aa704e1c39cc7ae4922966b601a4cbe0e oa:hasBody <http://iconclass.org/71Q45> .
+nl:id_28138b0aa704e1c39cc7ae4922966b601a4cbe0e oa:hasTarget ubvu:print-218010002023 .
+nl:id_28138b0aa704e1c39cc7ae4922966b601a4cbe0e oa:motivatedBy oa:tagging .
+
 nl:id_428ad72f3b2f38ebdd1c7034874719edbd045157 a oa:Annotation .
 nl:id_428ad72f3b2f38ebdd1c7034874719edbd045157 terms:title "Ester" .
 nl:id_428ad72f3b2f38ebdd1c7034874719edbd045157 ui:annotationField bible:BibleCharacter .
