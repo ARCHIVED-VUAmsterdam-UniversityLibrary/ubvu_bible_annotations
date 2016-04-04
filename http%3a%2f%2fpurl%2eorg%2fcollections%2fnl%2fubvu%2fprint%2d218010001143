@@ -13,6 +13,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_119967552985500b2fc33c5c9d66f33a78465a93 a oa:Annotation .
+nl:id_119967552985500b2fc33c5c9d66f33a78465a93 terms:title "Jacob wrestles with the angel (or man) till daybreak; Jacob's thigh is put out of joint" .
+nl:id_119967552985500b2fc33c5c9d66f33a78465a93 ui:annotationField bible:ICBibleTheme .
+nl:id_119967552985500b2fc33c5c9d66f33a78465a93 ui:typingTime 0 .
+nl:id_119967552985500b2fc33c5c9d66f33a78465a93 oa:annotatedAt "2016-04-04T15:41:20+02:00"^^xsd:dateTime .
+nl:id_119967552985500b2fc33c5c9d66f33a78465a93 oa:annotatedBy user:everhoeff .
+nl:id_119967552985500b2fc33c5c9d66f33a78465a93 oa:hasBody <http://iconclass.org/71C3222> .
+nl:id_119967552985500b2fc33c5c9d66f33a78465a93 oa:hasTarget ubvu:print-218010001143 .
+nl:id_119967552985500b2fc33c5c9d66f33a78465a93 oa:motivatedBy oa:tagging .
+
 nl:id_12c30d3c398f6095e3f8aa0bcb3cf7f1d474ab63 a oa:Annotation .
 nl:id_12c30d3c398f6095e3f8aa0bcb3cf7f1d474ab63 terms:title "jacob" .
 nl:id_12c30d3c398f6095e3f8aa0bcb3cf7f1d474ab63 ui:annotationField bible:BibleCharacter .
