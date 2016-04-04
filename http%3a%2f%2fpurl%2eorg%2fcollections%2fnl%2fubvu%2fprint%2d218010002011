@@ -49,3 +49,13 @@ nl:id_a17abc11032f6e329ed130ad54d3fef832993cef oa:annotatedBy user:hrmurris .
 nl:id_a17abc11032f6e329ed130ad54d3fef832993cef oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Ruth Naomi complains her situation" ] .
 nl:id_a17abc11032f6e329ed130ad54d3fef832993cef oa:hasTarget ubvu:print-218010002011 .
 nl:id_a17abc11032f6e329ed130ad54d3fef832993cef oa:motivatedBy oa:tagging .
+
+nl:id_c2d3b3980627325d38ff29342f000b5f9b6ce042 a oa:Annotation .
+nl:id_c2d3b3980627325d38ff29342f000b5f9b6ce042 terms:title "Ruth Boaz acting with the shoe" .
+nl:id_c2d3b3980627325d38ff29342f000b5f9b6ce042 ui:annotationField bible:ICBibleTheme .
+nl:id_c2d3b3980627325d38ff29342f000b5f9b6ce042 ui:typingTime 0 .
+nl:id_c2d3b3980627325d38ff29342f000b5f9b6ce042 oa:annotatedAt "2016-04-04T16:03:56+02:00"^^xsd:dateTime .
+nl:id_c2d3b3980627325d38ff29342f000b5f9b6ce042 oa:annotatedBy user:hrmurris .
+nl:id_c2d3b3980627325d38ff29342f000b5f9b6ce042 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Ruth Boaz acting with the shoe" ] .
+nl:id_c2d3b3980627325d38ff29342f000b5f9b6ce042 oa:hasTarget ubvu:print-218010002011 .
+nl:id_c2d3b3980627325d38ff29342f000b5f9b6ce042 oa:motivatedBy oa:tagging .
