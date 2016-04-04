@@ -101,6 +101,16 @@ nl:id_eb77c589752ee91fb3569ef77c463fb340aec4ab oa:hasTarget target:target_229df3
 nl:id_eb77c589752ee91fb3569ef77c463fb340aec4ab oa:hasTarget ubvu:print-218010002010 .
 nl:id_eb77c589752ee91fb3569ef77c463fb340aec4ab oa:motivatedBy oa:tagging .
 
+nl:id_eefe988109cec6aca494aa9ff5eaa1cb925f2089 a oa:Annotation .
+nl:id_eefe988109cec6aca494aa9ff5eaa1cb925f2089 terms:title "Samson's birth and youth (Judges 13)" .
+nl:id_eefe988109cec6aca494aa9ff5eaa1cb925f2089 ui:annotationField bible:ICBibleTheme .
+nl:id_eefe988109cec6aca494aa9ff5eaa1cb925f2089 ui:typingTime 0 .
+nl:id_eefe988109cec6aca494aa9ff5eaa1cb925f2089 oa:annotatedAt "2016-04-04T16:16:40+02:00"^^xsd:dateTime .
+nl:id_eefe988109cec6aca494aa9ff5eaa1cb925f2089 oa:annotatedBy user:jbn415 .
+nl:id_eefe988109cec6aca494aa9ff5eaa1cb925f2089 oa:hasBody <http://iconclass.org/71F31> .
+nl:id_eefe988109cec6aca494aa9ff5eaa1cb925f2089 oa:hasTarget ubvu:print-218010002010 .
+nl:id_eefe988109cec6aca494aa9ff5eaa1cb925f2089 oa:motivatedBy oa:tagging .
+
 target:selector_229df3fd3342a132ae5c4febb1abf17c7fcff18a a oa:FragmentSelector .
 target:selector_229df3fd3342a132ae5c4febb1abf17c7fcff18a terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_229df3fd3342a132ae5c4febb1abf17c7fcff18a ui:h "0.13185419523524414"^^xsd:float .
