@@ -4,14 +4,41 @@
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_4b0c56ca2b65ed71a447717e5a5e53d27433e7b4> a oa:Annotation .
-<http://accurator.nl/id_4b0c56ca2b65ed71a447717e5a5e53d27433e7b4> terms:title "the banishment of Hagar and Ishmael (Genesis 21:9-21)" .
-<http://accurator.nl/id_4b0c56ca2b65ed71a447717e5a5e53d27433e7b4> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
-<http://accurator.nl/id_4b0c56ca2b65ed71a447717e5a5e53d27433e7b4> ui:typingTime 0 .
-<http://accurator.nl/id_4b0c56ca2b65ed71a447717e5a5e53d27433e7b4> oa:annotatedAt "2016-04-04T15:16:34+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_4b0c56ca2b65ed71a447717e5a5e53d27433e7b4> oa:annotatedBy user:everhoeff .
-<http://accurator.nl/id_4b0c56ca2b65ed71a447717e5a5e53d27433e7b4> oa:hasBody <http://iconclass.org/71C128> .
-<http://accurator.nl/id_4b0c56ca2b65ed71a447717e5a5e53d27433e7b4> oa:hasTarget ubvu:print-218010001095 .
-<http://accurator.nl/id_4b0c56ca2b65ed71a447717e5a5e53d27433e7b4> oa:motivatedBy oa:tagging .
+nl:id_4b0c56ca2b65ed71a447717e5a5e53d27433e7b4 a oa:Annotation .
+nl:id_4b0c56ca2b65ed71a447717e5a5e53d27433e7b4 terms:title "the banishment of Hagar and Ishmael (Genesis 21:9-21)" .
+nl:id_4b0c56ca2b65ed71a447717e5a5e53d27433e7b4 ui:annotationField bible:ICBibleTheme .
+nl:id_4b0c56ca2b65ed71a447717e5a5e53d27433e7b4 ui:typingTime 0 .
+nl:id_4b0c56ca2b65ed71a447717e5a5e53d27433e7b4 oa:annotatedAt "2016-04-04T15:16:34+02:00"^^xsd:dateTime .
+nl:id_4b0c56ca2b65ed71a447717e5a5e53d27433e7b4 oa:annotatedBy user:everhoeff .
+nl:id_4b0c56ca2b65ed71a447717e5a5e53d27433e7b4 oa:hasBody <http://iconclass.org/71C128> .
+nl:id_4b0c56ca2b65ed71a447717e5a5e53d27433e7b4 oa:hasTarget ubvu:print-218010001095 .
+nl:id_4b0c56ca2b65ed71a447717e5a5e53d27433e7b4 oa:motivatedBy oa:tagging .
+
+nl:id_d77213f3553bba9e8b60eb3c84f212b9144cada9 a oa:Annotation .
+nl:id_d77213f3553bba9e8b60eb3c84f212b9144cada9 terms:title "Hagar" .
+nl:id_d77213f3553bba9e8b60eb3c84f212b9144cada9 ui:annotationField bible:BibleCharacter .
+nl:id_d77213f3553bba9e8b60eb3c84f212b9144cada9 ui:typingTime 0 .
+nl:id_d77213f3553bba9e8b60eb3c84f212b9144cada9 oa:annotatedAt "2016-04-04T15:20:55+02:00"^^xsd:dateTime .
+nl:id_d77213f3553bba9e8b60eb3c84f212b9144cada9 oa:annotatedBy user:everhoeff .
+nl:id_d77213f3553bba9e8b60eb3c84f212b9144cada9 oa:hasBody resource:Hagar .
+nl:id_d77213f3553bba9e8b60eb3c84f212b9144cada9 oa:hasTarget target:target_a309990ce0bc70fdbd980cd28701bdeee2d6c48d .
+nl:id_d77213f3553bba9e8b60eb3c84f212b9144cada9 oa:hasTarget ubvu:print-218010001095 .
+nl:id_d77213f3553bba9e8b60eb3c84f212b9144cada9 oa:motivatedBy oa:tagging .
+
+target:selector_a309990ce0bc70fdbd980cd28701bdeee2d6c48d a oa:FragmentSelector .
+target:selector_a309990ce0bc70fdbd980cd28701bdeee2d6c48d terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_a309990ce0bc70fdbd980cd28701bdeee2d6c48d ui:h "0.3542700060799759"^^xsd:float .
+target:selector_a309990ce0bc70fdbd980cd28701bdeee2d6c48d ui:w "0.22905982905982905"^^xsd:float .
+target:selector_a309990ce0bc70fdbd980cd28701bdeee2d6c48d ui:x "0.4324786324786325"^^xsd:float .
+target:selector_a309990ce0bc70fdbd980cd28701bdeee2d6c48d ui:y "0.4082093462142734"^^xsd:float .
+target:selector_a309990ce0bc70fdbd980cd28701bdeee2d6c48d rdf:value "#xywh=percent:43,41,23,35" .
+
+target:target_a309990ce0bc70fdbd980cd28701bdeee2d6c48d a oa:SpecificResource .
+target:target_a309990ce0bc70fdbd980cd28701bdeee2d6c48d oa:hasSelector target:selector_a309990ce0bc70fdbd980cd28701bdeee2d6c48d .
+target:target_a309990ce0bc70fdbd980cd28701bdeee2d6c48d oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/136> .
