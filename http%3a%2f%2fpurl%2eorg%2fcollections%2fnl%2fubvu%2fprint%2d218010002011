@@ -20,6 +20,16 @@ nl:id_2736b538db6aec29c849b6179223b25caafcd60f oa:hasBody <http://iconclass.org/
 nl:id_2736b538db6aec29c849b6179223b25caafcd60f oa:hasTarget ubvu:print-218010002011 .
 nl:id_2736b538db6aec29c849b6179223b25caafcd60f oa:motivatedBy oa:tagging .
 
+nl:id_42ca3c6d48e532db8d22f4ce074b29fb908d8111 a oa:Annotation .
+nl:id_42ca3c6d48e532db8d22f4ce074b29fb908d8111 terms:title "Ruth meets Boaz on the ..floor" .
+nl:id_42ca3c6d48e532db8d22f4ce074b29fb908d8111 ui:annotationField bible:ICBibleTheme .
+nl:id_42ca3c6d48e532db8d22f4ce074b29fb908d8111 ui:typingTime 0 .
+nl:id_42ca3c6d48e532db8d22f4ce074b29fb908d8111 oa:annotatedAt "2016-04-04T16:03:18+02:00"^^xsd:dateTime .
+nl:id_42ca3c6d48e532db8d22f4ce074b29fb908d8111 oa:annotatedBy user:hrmurris .
+nl:id_42ca3c6d48e532db8d22f4ce074b29fb908d8111 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Ruth meets Boaz on the ..floor" ] .
+nl:id_42ca3c6d48e532db8d22f4ce074b29fb908d8111 oa:hasTarget ubvu:print-218010002011 .
+nl:id_42ca3c6d48e532db8d22f4ce074b29fb908d8111 oa:motivatedBy oa:tagging .
+
 nl:id_87024a6849a05ded82b76123e6d085708d8fc5f1 a oa:Annotation .
 nl:id_87024a6849a05ded82b76123e6d085708d8fc5f1 terms:title "Ruth" .
 nl:id_87024a6849a05ded82b76123e6d085708d8fc5f1 ui:annotationField bible:ICBibleTheme .
