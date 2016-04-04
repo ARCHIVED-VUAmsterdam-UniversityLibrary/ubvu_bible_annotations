@@ -7,13 +7,25 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_adf0a76637b6215b80bea2193b9f4cf1ab69bac5> a oa:Annotation .
-<http://accurator.nl/id_adf0a76637b6215b80bea2193b9f4cf1ab69bac5> terms:title "Moses drawn from the water" .
-<http://accurator.nl/id_adf0a76637b6215b80bea2193b9f4cf1ab69bac5> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
-<http://accurator.nl/id_adf0a76637b6215b80bea2193b9f4cf1ab69bac5> ui:typingTime 0 .
-<http://accurator.nl/id_adf0a76637b6215b80bea2193b9f4cf1ab69bac5> oa:annotatedAt "2016-04-04T16:47:53+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_adf0a76637b6215b80bea2193b9f4cf1ab69bac5> oa:annotatedBy user:joan .
-<http://accurator.nl/id_adf0a76637b6215b80bea2193b9f4cf1ab69bac5> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Moses drawn from the water" ] .
-<http://accurator.nl/id_adf0a76637b6215b80bea2193b9f4cf1ab69bac5> oa:hasTarget ubvu:print-218010001195 .
-<http://accurator.nl/id_adf0a76637b6215b80bea2193b9f4cf1ab69bac5> oa:motivatedBy oa:tagging .
+nl:id_7d8f4c0bcc75ac9a260d94db88337250d7006b86 a oa:Annotation .
+nl:id_7d8f4c0bcc75ac9a260d94db88337250d7006b86 terms:title "Exodus 2: 3-6" .
+nl:id_7d8f4c0bcc75ac9a260d94db88337250d7006b86 ui:annotationField bible:ICBibleTheme .
+nl:id_7d8f4c0bcc75ac9a260d94db88337250d7006b86 ui:typingTime 0 .
+nl:id_7d8f4c0bcc75ac9a260d94db88337250d7006b86 oa:annotatedAt "2016-04-04T16:48:10+02:00"^^xsd:dateTime .
+nl:id_7d8f4c0bcc75ac9a260d94db88337250d7006b86 oa:annotatedBy user:joan .
+nl:id_7d8f4c0bcc75ac9a260d94db88337250d7006b86 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Exodus 2: 3-6" ] .
+nl:id_7d8f4c0bcc75ac9a260d94db88337250d7006b86 oa:hasTarget ubvu:print-218010001195 .
+nl:id_7d8f4c0bcc75ac9a260d94db88337250d7006b86 oa:motivatedBy oa:tagging .
+
+nl:id_adf0a76637b6215b80bea2193b9f4cf1ab69bac5 a oa:Annotation .
+nl:id_adf0a76637b6215b80bea2193b9f4cf1ab69bac5 terms:title "Moses drawn from the water" .
+nl:id_adf0a76637b6215b80bea2193b9f4cf1ab69bac5 ui:annotationField bible:ICBibleTheme .
+nl:id_adf0a76637b6215b80bea2193b9f4cf1ab69bac5 ui:typingTime 0 .
+nl:id_adf0a76637b6215b80bea2193b9f4cf1ab69bac5 oa:annotatedAt "2016-04-04T16:47:53+02:00"^^xsd:dateTime .
+nl:id_adf0a76637b6215b80bea2193b9f4cf1ab69bac5 oa:annotatedBy user:joan .
+nl:id_adf0a76637b6215b80bea2193b9f4cf1ab69bac5 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Moses drawn from the water" ] .
+nl:id_adf0a76637b6215b80bea2193b9f4cf1ab69bac5 oa:hasTarget ubvu:print-218010001195 .
+nl:id_adf0a76637b6215b80bea2193b9f4cf1ab69bac5 oa:motivatedBy oa:tagging .
