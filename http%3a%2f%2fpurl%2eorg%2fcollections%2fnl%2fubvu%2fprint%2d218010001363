@@ -1,17 +1,45 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_e5434b020ad42e87f140f67587142af8f525db75> a oa:Annotation .
-<http://accurator.nl/id_e5434b020ad42e87f140f67587142af8f525db75> terms:title "Adoni-bezek is caught; his thumbs and his great toes are cut off" .
-<http://accurator.nl/id_e5434b020ad42e87f140f67587142af8f525db75> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
-<http://accurator.nl/id_e5434b020ad42e87f140f67587142af8f525db75> ui:typingTime 0 .
-<http://accurator.nl/id_e5434b020ad42e87f140f67587142af8f525db75> oa:annotatedAt "2016-04-04T15:00:55+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_e5434b020ad42e87f140f67587142af8f525db75> oa:annotatedBy user:everhoeff .
-<http://accurator.nl/id_e5434b020ad42e87f140f67587142af8f525db75> oa:hasBody <http://iconclass.org/71F1112> .
-<http://accurator.nl/id_e5434b020ad42e87f140f67587142af8f525db75> oa:hasTarget ubvu:print-218010001363 .
-<http://accurator.nl/id_e5434b020ad42e87f140f67587142af8f525db75> oa:motivatedBy oa:tagging .
+nl:id_e0897bb228b447880d0334a9ab72b9d4db83a058 a oa:Annotation .
+nl:id_e0897bb228b447880d0334a9ab72b9d4db83a058 terms:title "Adoni-Bezek" .
+nl:id_e0897bb228b447880d0334a9ab72b9d4db83a058 ui:annotationField bible:BibleCharacter .
+nl:id_e0897bb228b447880d0334a9ab72b9d4db83a058 ui:typingTime 0 .
+nl:id_e0897bb228b447880d0334a9ab72b9d4db83a058 oa:annotatedAt "2016-04-04T15:11:20+02:00"^^xsd:dateTime .
+nl:id_e0897bb228b447880d0334a9ab72b9d4db83a058 oa:annotatedBy user:jbn415 .
+nl:id_e0897bb228b447880d0334a9ab72b9d4db83a058 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Adoni-Bezek" ] .
+nl:id_e0897bb228b447880d0334a9ab72b9d4db83a058 oa:hasTarget target:target_56d9fb288bc0cd924c5278da2d8af54cef5f1da8 .
+nl:id_e0897bb228b447880d0334a9ab72b9d4db83a058 oa:hasTarget ubvu:print-218010001363 .
+nl:id_e0897bb228b447880d0334a9ab72b9d4db83a058 oa:motivatedBy oa:tagging .
+
+nl:id_e5434b020ad42e87f140f67587142af8f525db75 a oa:Annotation .
+nl:id_e5434b020ad42e87f140f67587142af8f525db75 terms:title "Adoni-bezek is caught; his thumbs and his great toes are cut off" .
+nl:id_e5434b020ad42e87f140f67587142af8f525db75 ui:annotationField bible:ICBibleTheme .
+nl:id_e5434b020ad42e87f140f67587142af8f525db75 ui:typingTime 0 .
+nl:id_e5434b020ad42e87f140f67587142af8f525db75 oa:annotatedAt "2016-04-04T15:00:55+02:00"^^xsd:dateTime .
+nl:id_e5434b020ad42e87f140f67587142af8f525db75 oa:annotatedBy user:everhoeff .
+nl:id_e5434b020ad42e87f140f67587142af8f525db75 oa:hasBody <http://iconclass.org/71F1112> .
+nl:id_e5434b020ad42e87f140f67587142af8f525db75 oa:hasTarget ubvu:print-218010001363 .
+nl:id_e5434b020ad42e87f140f67587142af8f525db75 oa:motivatedBy oa:tagging .
+
+target:selector_56d9fb288bc0cd924c5278da2d8af54cef5f1da8 a oa:FragmentSelector .
+target:selector_56d9fb288bc0cd924c5278da2d8af54cef5f1da8 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_56d9fb288bc0cd924c5278da2d8af54cef5f1da8 ui:h "0.3558823170381434"^^xsd:float .
+target:selector_56d9fb288bc0cd924c5278da2d8af54cef5f1da8 ui:w "0.5358974358974359"^^xsd:float .
+target:selector_56d9fb288bc0cd924c5278da2d8af54cef5f1da8 ui:x "0.05982905982905983"^^xsd:float .
+target:selector_56d9fb288bc0cd924c5278da2d8af54cef5f1da8 ui:y "0.44835294835707723"^^xsd:float .
+target:selector_56d9fb288bc0cd924c5278da2d8af54cef5f1da8 rdf:value "#xywh=percent:6,45,54,36" .
+
+target:target_56d9fb288bc0cd924c5278da2d8af54cef5f1da8 a oa:SpecificResource .
+target:target_56d9fb288bc0cd924c5278da2d8af54cef5f1da8 oa:hasSelector target:selector_56d9fb288bc0cd924c5278da2d8af54cef5f1da8 .
+target:target_56d9fb288bc0cd924c5278da2d8af54cef5f1da8 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/404> .
