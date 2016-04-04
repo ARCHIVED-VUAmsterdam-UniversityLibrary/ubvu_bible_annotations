@@ -12,6 +12,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_03e986389b2719dd4ec9d3952a2718751eaa04b3 a oa:Annotation .
+nl:id_03e986389b2719dd4ec9d3952a2718751eaa04b3 terms:title "Christ (in the temple) in debate with Pharisees about the tribute to Caesar (Matthew 22:15-22; Mark 12:13-17; Luke 20:20-26)" .
+nl:id_03e986389b2719dd4ec9d3952a2718751eaa04b3 ui:annotationField bible:ICBibleTheme .
+nl:id_03e986389b2719dd4ec9d3952a2718751eaa04b3 ui:typingTime 0 .
+nl:id_03e986389b2719dd4ec9d3952a2718751eaa04b3 oa:annotatedAt "2016-04-04T15:44:59+02:00"^^xsd:dateTime .
+nl:id_03e986389b2719dd4ec9d3952a2718751eaa04b3 oa:annotatedBy user:everhoeff .
+nl:id_03e986389b2719dd4ec9d3952a2718751eaa04b3 oa:hasBody <http://iconclass.org/73C72473> .
+nl:id_03e986389b2719dd4ec9d3952a2718751eaa04b3 oa:hasTarget ubvu:print-218010001817 .
+nl:id_03e986389b2719dd4ec9d3952a2718751eaa04b3 oa:motivatedBy oa:tagging .
+
 nl:id_2703a703594bcf9506cbc31ed839f815046ff932 a oa:Annotation .
 nl:id_2703a703594bcf9506cbc31ed839f815046ff932 terms:title "Jezus Christus" .
 nl:id_2703a703594bcf9506cbc31ed839f815046ff932 ui:annotationField bible:BibleCharacter .
