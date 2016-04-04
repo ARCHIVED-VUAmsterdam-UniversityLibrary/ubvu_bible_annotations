@@ -7,17 +7,29 @@
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_710c3918fd812da681f4aba269f24dd19308e237> a oa:Annotation .
-<http://accurator.nl/id_710c3918fd812da681f4aba269f24dd19308e237> terms:title "Mozes" .
-<http://accurator.nl/id_710c3918fd812da681f4aba269f24dd19308e237> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_710c3918fd812da681f4aba269f24dd19308e237> ui:typingTime 0 .
-<http://accurator.nl/id_710c3918fd812da681f4aba269f24dd19308e237> oa:annotatedAt "2016-04-05T00:30:16+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_710c3918fd812da681f4aba269f24dd19308e237> oa:annotatedBy user:hogguer .
-<http://accurator.nl/id_710c3918fd812da681f4aba269f24dd19308e237> oa:hasBody resource:Moses .
-<http://accurator.nl/id_710c3918fd812da681f4aba269f24dd19308e237> oa:hasTarget target:target_1f9574170822d9e25a498a9524bf7ccf8060c17c .
-<http://accurator.nl/id_710c3918fd812da681f4aba269f24dd19308e237> oa:hasTarget ubvu:print-218010001211 .
-<http://accurator.nl/id_710c3918fd812da681f4aba269f24dd19308e237> oa:motivatedBy oa:tagging .
+nl:id_710c3918fd812da681f4aba269f24dd19308e237 a oa:Annotation .
+nl:id_710c3918fd812da681f4aba269f24dd19308e237 terms:title "Mozes" .
+nl:id_710c3918fd812da681f4aba269f24dd19308e237 ui:annotationField bible:BibleCharacter .
+nl:id_710c3918fd812da681f4aba269f24dd19308e237 ui:typingTime 0 .
+nl:id_710c3918fd812da681f4aba269f24dd19308e237 oa:annotatedAt "2016-04-05T00:30:16+02:00"^^xsd:dateTime .
+nl:id_710c3918fd812da681f4aba269f24dd19308e237 oa:annotatedBy user:hogguer .
+nl:id_710c3918fd812da681f4aba269f24dd19308e237 oa:hasBody resource:Moses .
+nl:id_710c3918fd812da681f4aba269f24dd19308e237 oa:hasTarget target:target_1f9574170822d9e25a498a9524bf7ccf8060c17c .
+nl:id_710c3918fd812da681f4aba269f24dd19308e237 oa:hasTarget ubvu:print-218010001211 .
+nl:id_710c3918fd812da681f4aba269f24dd19308e237 oa:motivatedBy oa:tagging .
+
+nl:id_d5dfac533d17a17751747100b801d016dfcb7aaf a oa:Annotation .
+nl:id_d5dfac533d17a17751747100b801d016dfcb7aaf terms:title "miracle of the rod changed into a serpent ; Moses may be shown fleeing from the serpent" .
+nl:id_d5dfac533d17a17751747100b801d016dfcb7aaf ui:annotationField bible:ICBibleTheme .
+nl:id_d5dfac533d17a17751747100b801d016dfcb7aaf ui:typingTime 0 .
+nl:id_d5dfac533d17a17751747100b801d016dfcb7aaf oa:annotatedAt "2016-04-05T00:32:46+02:00"^^xsd:dateTime .
+nl:id_d5dfac533d17a17751747100b801d016dfcb7aaf oa:annotatedBy user:hogguer .
+nl:id_d5dfac533d17a17751747100b801d016dfcb7aaf oa:hasBody <http://iconclass.org/71E114231> .
+nl:id_d5dfac533d17a17751747100b801d016dfcb7aaf oa:hasTarget ubvu:print-218010001211 .
+nl:id_d5dfac533d17a17751747100b801d016dfcb7aaf oa:motivatedBy oa:tagging .
 
 target:selector_1f9574170822d9e25a498a9524bf7ccf8060c17c a oa:FragmentSelector .
 target:selector_1f9574170822d9e25a498a9524bf7ccf8060c17c terms:conformsTo <http://www.w3.org/TR/media-frags/> .
