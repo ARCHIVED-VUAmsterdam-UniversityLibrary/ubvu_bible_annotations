@@ -66,6 +66,16 @@ nl:id_44bc57c24fd152d51b57fa7cbe45df49e56f0ff7 oa:hasTarget target:target_b76cc7
 nl:id_44bc57c24fd152d51b57fa7cbe45df49e56f0ff7 oa:hasTarget ubvu:print-218010002035 .
 nl:id_44bc57c24fd152d51b57fa7cbe45df49e56f0ff7 oa:motivatedBy oa:tagging .
 
+nl:id_61db80dbdf41fda103c07a2c829399764b1d1fbf a oa:Annotation .
+nl:id_61db80dbdf41fda103c07a2c829399764b1d1fbf terms:title "Christ is carried into his grave" .
+nl:id_61db80dbdf41fda103c07a2c829399764b1d1fbf ui:annotationField bible:ICBibleTheme .
+nl:id_61db80dbdf41fda103c07a2c829399764b1d1fbf ui:typingTime 0 .
+nl:id_61db80dbdf41fda103c07a2c829399764b1d1fbf oa:annotatedAt "2016-04-04T16:27:15+02:00"^^xsd:dateTime .
+nl:id_61db80dbdf41fda103c07a2c829399764b1d1fbf oa:annotatedBy user:jbn415 .
+nl:id_61db80dbdf41fda103c07a2c829399764b1d1fbf oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Christ is carried into his grave" ] .
+nl:id_61db80dbdf41fda103c07a2c829399764b1d1fbf oa:hasTarget ubvu:print-218010002035 .
+nl:id_61db80dbdf41fda103c07a2c829399764b1d1fbf oa:motivatedBy oa:tagging .
+
 nl:id_67ef9f08b39e5fae8488c71eb5ee11153327d0e7 a oa:Annotation .
 nl:id_67ef9f08b39e5fae8488c71eb5ee11153327d0e7 terms:title "Jezus Christus" .
 nl:id_67ef9f08b39e5fae8488c71eb5ee11153327d0e7 ui:annotationField bible:BibleCharacter .
