@@ -1,0 +1,19 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix user: <http://accurator.nl/user#> .
+
+<http://accurator.nl/id_9d0328a90ba764b10c0d40530bd22025cc7f5640> a oa:Annotation .
+<http://accurator.nl/id_9d0328a90ba764b10c0d40530bd22025cc7f5640> terms:title "Jesus and the woman of Samaria" .
+<http://accurator.nl/id_9d0328a90ba764b10c0d40530bd22025cc7f5640> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
+<http://accurator.nl/id_9d0328a90ba764b10c0d40530bd22025cc7f5640> ui:typingTime 0 .
+<http://accurator.nl/id_9d0328a90ba764b10c0d40530bd22025cc7f5640> oa:annotatedAt "2016-04-04T15:17:01+02:00"^^xsd:dateTime .
+<http://accurator.nl/id_9d0328a90ba764b10c0d40530bd22025cc7f5640> oa:annotatedBy user:joan .
+<http://accurator.nl/id_9d0328a90ba764b10c0d40530bd22025cc7f5640> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jesus and the woman of Samaria" ] .
+<http://accurator.nl/id_9d0328a90ba764b10c0d40530bd22025cc7f5640> oa:hasTarget ubvu:print-218010001739 .
+<http://accurator.nl/id_9d0328a90ba764b10c0d40530bd22025cc7f5640> oa:motivatedBy oa:tagging .
