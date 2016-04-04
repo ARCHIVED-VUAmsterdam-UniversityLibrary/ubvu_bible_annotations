@@ -66,6 +66,16 @@ nl:id_5114740becae5ab17c49a0754bf722781b091a7a oa:hasTarget target:target_a00003
 nl:id_5114740becae5ab17c49a0754bf722781b091a7a oa:hasTarget ubvu:print-218010002023 .
 nl:id_5114740becae5ab17c49a0754bf722781b091a7a oa:motivatedBy oa:tagging .
 
+nl:id_787ede9c993887518263a200155f1303c047cabf a oa:Annotation .
+nl:id_787ede9c993887518263a200155f1303c047cabf terms:title "Mordecai rends his clothes, covers himself with sackcloth and ashes, walks through the city wailing bitterly, and stops before the palace entrance" .
+nl:id_787ede9c993887518263a200155f1303c047cabf ui:annotationField bible:ICBibleTheme .
+nl:id_787ede9c993887518263a200155f1303c047cabf ui:typingTime 0 .
+nl:id_787ede9c993887518263a200155f1303c047cabf oa:annotatedAt "2016-04-04T15:51:52+02:00"^^xsd:dateTime .
+nl:id_787ede9c993887518263a200155f1303c047cabf oa:annotatedBy user:hogguer .
+nl:id_787ede9c993887518263a200155f1303c047cabf oa:hasBody <http://iconclass.org/71Q51> .
+nl:id_787ede9c993887518263a200155f1303c047cabf oa:hasTarget ubvu:print-218010002023 .
+nl:id_787ede9c993887518263a200155f1303c047cabf oa:motivatedBy oa:tagging .
+
 nl:id_b62c7c4f7776b8dd06c4c751c71083b63211ae5b a oa:Annotation .
 nl:id_b62c7c4f7776b8dd06c4c751c71083b63211ae5b terms:title "Ester, Ahasveos en beloning van Mordechai (Esther div teksten)" .
 nl:id_b62c7c4f7776b8dd06c4c751c71083b63211ae5b ui:annotationField bible:ICBibleTheme .
