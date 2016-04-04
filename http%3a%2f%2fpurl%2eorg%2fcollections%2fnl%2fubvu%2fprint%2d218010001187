@@ -8,17 +8,29 @@
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_5f49e47a547ac85478a5408dc8e3f582e6ba702a> a oa:Annotation .
-<http://accurator.nl/id_5f49e47a547ac85478a5408dc8e3f582e6ba702a> terms:title "Jakob" .
-<http://accurator.nl/id_5f49e47a547ac85478a5408dc8e3f582e6ba702a> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_5f49e47a547ac85478a5408dc8e3f582e6ba702a> ui:typingTime 0 .
-<http://accurator.nl/id_5f49e47a547ac85478a5408dc8e3f582e6ba702a> oa:annotatedAt "2016-04-04T14:56:33+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_5f49e47a547ac85478a5408dc8e3f582e6ba702a> oa:annotatedBy user:jbn415 .
-<http://accurator.nl/id_5f49e47a547ac85478a5408dc8e3f582e6ba702a> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jakob" ] .
-<http://accurator.nl/id_5f49e47a547ac85478a5408dc8e3f582e6ba702a> oa:hasTarget target:target_b42c156efb523ab2be8669f528a56b1e9d826d0c .
-<http://accurator.nl/id_5f49e47a547ac85478a5408dc8e3f582e6ba702a> oa:hasTarget ubvu:print-218010001187 .
-<http://accurator.nl/id_5f49e47a547ac85478a5408dc8e3f582e6ba702a> oa:motivatedBy oa:tagging .
+nl:id_01009d4f2f4c23d3545279d5905f5584500c13bb a oa:Annotation .
+nl:id_01009d4f2f4c23d3545279d5905f5584500c13bb terms:title "Jacob blesses his sons" .
+nl:id_01009d4f2f4c23d3545279d5905f5584500c13bb ui:annotationField bible:ICBibleTheme .
+nl:id_01009d4f2f4c23d3545279d5905f5584500c13bb ui:typingTime 0 .
+nl:id_01009d4f2f4c23d3545279d5905f5584500c13bb oa:annotatedAt "2016-04-04T14:56:57+02:00"^^xsd:dateTime .
+nl:id_01009d4f2f4c23d3545279d5905f5584500c13bb oa:annotatedBy user:jbn415 .
+nl:id_01009d4f2f4c23d3545279d5905f5584500c13bb oa:hasBody <http://iconclass.org/71D243> .
+nl:id_01009d4f2f4c23d3545279d5905f5584500c13bb oa:hasTarget ubvu:print-218010001187 .
+nl:id_01009d4f2f4c23d3545279d5905f5584500c13bb oa:motivatedBy oa:tagging .
+
+nl:id_5f49e47a547ac85478a5408dc8e3f582e6ba702a a oa:Annotation .
+nl:id_5f49e47a547ac85478a5408dc8e3f582e6ba702a terms:title "Jakob" .
+nl:id_5f49e47a547ac85478a5408dc8e3f582e6ba702a ui:annotationField bible:BibleCharacter .
+nl:id_5f49e47a547ac85478a5408dc8e3f582e6ba702a ui:typingTime 0 .
+nl:id_5f49e47a547ac85478a5408dc8e3f582e6ba702a oa:annotatedAt "2016-04-04T14:56:33+02:00"^^xsd:dateTime .
+nl:id_5f49e47a547ac85478a5408dc8e3f582e6ba702a oa:annotatedBy user:jbn415 .
+nl:id_5f49e47a547ac85478a5408dc8e3f582e6ba702a oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jakob" ] .
+nl:id_5f49e47a547ac85478a5408dc8e3f582e6ba702a oa:hasTarget target:target_b42c156efb523ab2be8669f528a56b1e9d826d0c .
+nl:id_5f49e47a547ac85478a5408dc8e3f582e6ba702a oa:hasTarget ubvu:print-218010001187 .
+nl:id_5f49e47a547ac85478a5408dc8e3f582e6ba702a oa:motivatedBy oa:tagging .
 
 target:selector_b42c156efb523ab2be8669f528a56b1e9d826d0c a oa:FragmentSelector .
 target:selector_b42c156efb523ab2be8669f528a56b1e9d826d0c terms:conformsTo <http://www.w3.org/TR/media-frags/> .
