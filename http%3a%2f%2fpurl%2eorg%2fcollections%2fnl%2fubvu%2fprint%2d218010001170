@@ -1,23 +1,47 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_e69ea9a2ff38fe163a203adbebbc9f85355ff866> a oa:Annotation .
-<http://accurator.nl/id_e69ea9a2ff38fe163a203adbebbc9f85355ff866> terms:title "Farao" .
-<http://accurator.nl/id_e69ea9a2ff38fe163a203adbebbc9f85355ff866> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_e69ea9a2ff38fe163a203adbebbc9f85355ff866> ui:typingTime 0 .
-<http://accurator.nl/id_e69ea9a2ff38fe163a203adbebbc9f85355ff866> oa:annotatedAt "2016-04-04T16:05:19+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_e69ea9a2ff38fe163a203adbebbc9f85355ff866> oa:annotatedBy user:hogguer .
-<http://accurator.nl/id_e69ea9a2ff38fe163a203adbebbc9f85355ff866> oa:hasBody resource:Pharaoh .
-<http://accurator.nl/id_e69ea9a2ff38fe163a203adbebbc9f85355ff866> oa:hasTarget target:target_39c77d2f047d7931fe35c51d7859b36968c7ade9 .
-<http://accurator.nl/id_e69ea9a2ff38fe163a203adbebbc9f85355ff866> oa:hasTarget ubvu:print-218010001170 .
-<http://accurator.nl/id_e69ea9a2ff38fe163a203adbebbc9f85355ff866> oa:motivatedBy oa:tagging .
+nl:id_bb407963859763d325e1a70ba27e0b4272568fd5 a oa:Annotation .
+nl:id_bb407963859763d325e1a70ba27e0b4272568fd5 terms:title "Jozef (zoon van Jacob)" .
+nl:id_bb407963859763d325e1a70ba27e0b4272568fd5 ui:annotationField bible:BibleCharacter .
+nl:id_bb407963859763d325e1a70ba27e0b4272568fd5 ui:typingTime 0 .
+nl:id_bb407963859763d325e1a70ba27e0b4272568fd5 oa:annotatedAt "2016-04-04T16:06:32+02:00"^^xsd:dateTime .
+nl:id_bb407963859763d325e1a70ba27e0b4272568fd5 oa:annotatedBy user:hogguer .
+nl:id_bb407963859763d325e1a70ba27e0b4272568fd5 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jozef (zoon van Jacob)" ] .
+nl:id_bb407963859763d325e1a70ba27e0b4272568fd5 oa:hasTarget target:target_13c5a1460dc9f17981570cda7c04553f18bb83ef .
+nl:id_bb407963859763d325e1a70ba27e0b4272568fd5 oa:hasTarget ubvu:print-218010001170 .
+nl:id_bb407963859763d325e1a70ba27e0b4272568fd5 oa:motivatedBy oa:tagging .
+
+nl:id_e69ea9a2ff38fe163a203adbebbc9f85355ff866 a oa:Annotation .
+nl:id_e69ea9a2ff38fe163a203adbebbc9f85355ff866 terms:title "Farao" .
+nl:id_e69ea9a2ff38fe163a203adbebbc9f85355ff866 ui:annotationField bible:BibleCharacter .
+nl:id_e69ea9a2ff38fe163a203adbebbc9f85355ff866 ui:typingTime 0 .
+nl:id_e69ea9a2ff38fe163a203adbebbc9f85355ff866 oa:annotatedAt "2016-04-04T16:05:19+02:00"^^xsd:dateTime .
+nl:id_e69ea9a2ff38fe163a203adbebbc9f85355ff866 oa:annotatedBy user:hogguer .
+nl:id_e69ea9a2ff38fe163a203adbebbc9f85355ff866 oa:hasBody resource:Pharaoh .
+nl:id_e69ea9a2ff38fe163a203adbebbc9f85355ff866 oa:hasTarget target:target_39c77d2f047d7931fe35c51d7859b36968c7ade9 .
+nl:id_e69ea9a2ff38fe163a203adbebbc9f85355ff866 oa:hasTarget ubvu:print-218010001170 .
+nl:id_e69ea9a2ff38fe163a203adbebbc9f85355ff866 oa:motivatedBy oa:tagging .
+
+target:selector_13c5a1460dc9f17981570cda7c04553f18bb83ef a oa:FragmentSelector .
+target:selector_13c5a1460dc9f17981570cda7c04553f18bb83ef terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_13c5a1460dc9f17981570cda7c04553f18bb83ef ui:h "0.10983323749281196"^^xsd:float .
+target:selector_13c5a1460dc9f17981570cda7c04553f18bb83ef ui:w "0.07692307692307693"^^xsd:float .
+target:selector_13c5a1460dc9f17981570cda7c04553f18bb83ef ui:x "0.5188034188034188"^^xsd:float .
+target:selector_13c5a1460dc9f17981570cda7c04553f18bb83ef ui:y "0.6930419500700834"^^xsd:float .
+target:selector_13c5a1460dc9f17981570cda7c04553f18bb83ef rdf:value "#xywh=percent:52,69,8,11" .
 
 target:selector_39c77d2f047d7931fe35c51d7859b36968c7ade9 a oa:FragmentSelector .
 target:selector_39c77d2f047d7931fe35c51d7859b36968c7ade9 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -26,6 +50,10 @@ target:selector_39c77d2f047d7931fe35c51d7859b36968c7ade9 ui:w "0.080341880341880
 target:selector_39c77d2f047d7931fe35c51d7859b36968c7ade9 ui:x "0.6051282051282051"^^xsd:float .
 target:selector_39c77d2f047d7931fe35c51d7859b36968c7ade9 ui:y "0.6918918638136141"^^xsd:float .
 target:selector_39c77d2f047d7931fe35c51d7859b36968c7ade9 rdf:value "#xywh=percent:61,69,8,9" .
+
+target:target_13c5a1460dc9f17981570cda7c04553f18bb83ef a oa:SpecificResource .
+target:target_13c5a1460dc9f17981570cda7c04553f18bb83ef oa:hasSelector target:selector_13c5a1460dc9f17981570cda7c04553f18bb83ef .
+target:target_13c5a1460dc9f17981570cda7c04553f18bb83ef oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/211> .
 
 target:target_39c77d2f047d7931fe35c51d7859b36968c7ade9 a oa:SpecificResource .
 target:target_39c77d2f047d7931fe35c51d7859b36968c7ade9 oa:hasSelector target:selector_39c77d2f047d7931fe35c51d7859b36968c7ade9 .
