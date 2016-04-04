@@ -1,0 +1,19 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix user: <http://accurator.nl/user#> .
+
+<http://accurator.nl/id_7fd2a88be91acaf5f8ef04fd03c19425fb185b4b> a oa:Annotation .
+<http://accurator.nl/id_7fd2a88be91acaf5f8ef04fd03c19425fb185b4b> terms:title "christ buried" .
+<http://accurator.nl/id_7fd2a88be91acaf5f8ef04fd03c19425fb185b4b> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
+<http://accurator.nl/id_7fd2a88be91acaf5f8ef04fd03c19425fb185b4b> ui:typingTime 0 .
+<http://accurator.nl/id_7fd2a88be91acaf5f8ef04fd03c19425fb185b4b> oa:annotatedAt "2016-04-04T15:07:47+02:00"^^xsd:dateTime .
+<http://accurator.nl/id_7fd2a88be91acaf5f8ef04fd03c19425fb185b4b> oa:annotatedBy user:joan .
+<http://accurator.nl/id_7fd2a88be91acaf5f8ef04fd03c19425fb185b4b> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "christ buried" ] .
+<http://accurator.nl/id_7fd2a88be91acaf5f8ef04fd03c19425fb185b4b> oa:hasTarget ubvu:print-218010001873 .
+<http://accurator.nl/id_7fd2a88be91acaf5f8ef04fd03c19425fb185b4b> oa:motivatedBy oa:tagging .
