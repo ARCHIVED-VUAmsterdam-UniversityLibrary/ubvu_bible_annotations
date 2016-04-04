@@ -35,6 +35,17 @@ nl:id_428ad72f3b2f38ebdd1c7034874719edbd045157 oa:hasTarget target:target_0c38b3
 nl:id_428ad72f3b2f38ebdd1c7034874719edbd045157 oa:hasTarget ubvu:print-218010002023 .
 nl:id_428ad72f3b2f38ebdd1c7034874719edbd045157 oa:motivatedBy oa:tagging .
 
+nl:id_5114740becae5ab17c49a0754bf722781b091a7a a oa:Annotation .
+nl:id_5114740becae5ab17c49a0754bf722781b091a7a terms:title "Haman" .
+nl:id_5114740becae5ab17c49a0754bf722781b091a7a ui:annotationField bible:BibleCharacter .
+nl:id_5114740becae5ab17c49a0754bf722781b091a7a ui:typingTime 0 .
+nl:id_5114740becae5ab17c49a0754bf722781b091a7a oa:annotatedAt "2016-04-04T15:44:10+02:00"^^xsd:dateTime .
+nl:id_5114740becae5ab17c49a0754bf722781b091a7a oa:annotatedBy user:hogguer .
+nl:id_5114740becae5ab17c49a0754bf722781b091a7a oa:hasBody resource:Haman .
+nl:id_5114740becae5ab17c49a0754bf722781b091a7a oa:hasTarget target:target_a000034cb171f1294a907962cc4350cdb433dd9f .
+nl:id_5114740becae5ab17c49a0754bf722781b091a7a oa:hasTarget ubvu:print-218010002023 .
+nl:id_5114740becae5ab17c49a0754bf722781b091a7a oa:motivatedBy oa:tagging .
+
 nl:id_bfcb1b20e17d2269deb400a5e0ba601a8dce229d a oa:Annotation .
 nl:id_bfcb1b20e17d2269deb400a5e0ba601a8dce229d terms:title "Ahasveros (koning van Perzië)" .
 nl:id_bfcb1b20e17d2269deb400a5e0ba601a8dce229d ui:annotationField bible:BibleCharacter .
@@ -81,6 +92,14 @@ target:selector_9d2b914c8aece07b51eab6cfb3531651d5ec9db6 ui:x "0.341880341880341
 target:selector_9d2b914c8aece07b51eab6cfb3531651d5ec9db6 ui:y "0.177949011078514"^^xsd:float .
 target:selector_9d2b914c8aece07b51eab6cfb3531651d5ec9db6 rdf:value "#xywh=percent:34,18,7,11" .
 
+target:selector_a000034cb171f1294a907962cc4350cdb433dd9f a oa:FragmentSelector .
+target:selector_a000034cb171f1294a907962cc4350cdb433dd9f terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_a000034cb171f1294a907962cc4350cdb433dd9f ui:h "0.1979845880260818"^^xsd:float .
+target:selector_a000034cb171f1294a907962cc4350cdb433dd9f ui:w "0.11452991452991453"^^xsd:float .
+target:selector_a000034cb171f1294a907962cc4350cdb433dd9f ui:x "0.2188034188034188"^^xsd:float .
+target:selector_a000034cb171f1294a907962cc4350cdb433dd9f ui:y "0.5607587433313574"^^xsd:float .
+target:selector_a000034cb171f1294a907962cc4350cdb433dd9f rdf:value "#xywh=percent:22,56,11,20" .
+
 target:target_0c38b39b365292a8e1fc3ef1f91a87b261168a94 a oa:SpecificResource .
 target:target_0c38b39b365292a8e1fc3ef1f91a87b261168a94 oa:hasSelector target:selector_0c38b39b365292a8e1fc3ef1f91a87b261168a94 .
 target:target_0c38b39b365292a8e1fc3ef1f91a87b261168a94 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/22> .
@@ -92,3 +111,7 @@ target:target_972dbc5f73cadefeda3a2b52dc1c2b046412576a oa:hasSource <http://imag
 target:target_9d2b914c8aece07b51eab6cfb3531651d5ec9db6 a oa:SpecificResource .
 target:target_9d2b914c8aece07b51eab6cfb3531651d5ec9db6 oa:hasSelector target:selector_9d2b914c8aece07b51eab6cfb3531651d5ec9db6 .
 target:target_9d2b914c8aece07b51eab6cfb3531651d5ec9db6 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/22> .
+
+target:target_a000034cb171f1294a907962cc4350cdb433dd9f a oa:SpecificResource .
+target:target_a000034cb171f1294a907962cc4350cdb433dd9f oa:hasSelector target:selector_a000034cb171f1294a907962cc4350cdb433dd9f .
+target:target_a000034cb171f1294a907962cc4350cdb433dd9f oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/22> .
