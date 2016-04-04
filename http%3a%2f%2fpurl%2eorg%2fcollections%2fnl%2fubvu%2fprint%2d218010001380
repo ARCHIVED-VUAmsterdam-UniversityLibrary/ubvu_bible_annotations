@@ -1,0 +1,17 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix user: <http://accurator.nl/user#> .
+
+<http://accurator.nl/id_15d6aa0f963fa9e0b1ff177ead41995ef40306ac> a oa:Annotation .
+<http://accurator.nl/id_15d6aa0f963fa9e0b1ff177ead41995ef40306ac> terms:title "pursuit of the Midianites by Gideon's men" .
+<http://accurator.nl/id_15d6aa0f963fa9e0b1ff177ead41995ef40306ac> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
+<http://accurator.nl/id_15d6aa0f963fa9e0b1ff177ead41995ef40306ac> ui:typingTime 0 .
+<http://accurator.nl/id_15d6aa0f963fa9e0b1ff177ead41995ef40306ac> oa:annotatedAt "2016-04-04T16:06:33+02:00"^^xsd:dateTime .
+<http://accurator.nl/id_15d6aa0f963fa9e0b1ff177ead41995ef40306ac> oa:annotatedBy user:spaapen1 .
+<http://accurator.nl/id_15d6aa0f963fa9e0b1ff177ead41995ef40306ac> oa:hasBody <http://iconclass.org/71F2165> .
+<http://accurator.nl/id_15d6aa0f963fa9e0b1ff177ead41995ef40306ac> oa:hasTarget ubvu:print-218010001380 .
+<http://accurator.nl/id_15d6aa0f963fa9e0b1ff177ead41995ef40306ac> oa:motivatedBy oa:tagging .
