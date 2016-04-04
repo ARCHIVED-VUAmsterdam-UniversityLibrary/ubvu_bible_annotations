@@ -1,23 +1,39 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_fc97fb5f6c4c3556599b7fb01b481a52885ea30b> a oa:Annotation .
-<http://accurator.nl/id_fc97fb5f6c4c3556599b7fb01b481a52885ea30b> terms:title "Jezus Christus" .
-<http://accurator.nl/id_fc97fb5f6c4c3556599b7fb01b481a52885ea30b> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_fc97fb5f6c4c3556599b7fb01b481a52885ea30b> ui:typingTime 0 .
-<http://accurator.nl/id_fc97fb5f6c4c3556599b7fb01b481a52885ea30b> oa:annotatedAt "2016-04-04T15:39:14+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_fc97fb5f6c4c3556599b7fb01b481a52885ea30b> oa:annotatedBy user:jbn415 .
-<http://accurator.nl/id_fc97fb5f6c4c3556599b7fb01b481a52885ea30b> oa:hasBody resource:Jesus .
-<http://accurator.nl/id_fc97fb5f6c4c3556599b7fb01b481a52885ea30b> oa:hasTarget target:target_2717b43770ef4a3cc6852a3be74a6e18bc494e60 .
-<http://accurator.nl/id_fc97fb5f6c4c3556599b7fb01b481a52885ea30b> oa:hasTarget ubvu:print-218010002032 .
-<http://accurator.nl/id_fc97fb5f6c4c3556599b7fb01b481a52885ea30b> oa:motivatedBy oa:tagging .
+nl:id_d35d023f5bb9a95014522616a4a0ea497e6bad26 a oa:Annotation .
+nl:id_d35d023f5bb9a95014522616a4a0ea497e6bad26 terms:title "Johannes de Doper" .
+nl:id_d35d023f5bb9a95014522616a4a0ea497e6bad26 ui:annotationField bible:BibleCharacter .
+nl:id_d35d023f5bb9a95014522616a4a0ea497e6bad26 ui:typingTime 0 .
+nl:id_d35d023f5bb9a95014522616a4a0ea497e6bad26 oa:annotatedAt "2016-04-04T15:39:34+02:00"^^xsd:dateTime .
+nl:id_d35d023f5bb9a95014522616a4a0ea497e6bad26 oa:annotatedBy user:jbn415 .
+nl:id_d35d023f5bb9a95014522616a4a0ea497e6bad26 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Johannes de Doper" ] .
+nl:id_d35d023f5bb9a95014522616a4a0ea497e6bad26 oa:hasTarget target:target_54dbf4ea421a6888ba18a3b0904006e3f391e3ef .
+nl:id_d35d023f5bb9a95014522616a4a0ea497e6bad26 oa:hasTarget ubvu:print-218010002032 .
+nl:id_d35d023f5bb9a95014522616a4a0ea497e6bad26 oa:motivatedBy oa:tagging .
+
+nl:id_fc97fb5f6c4c3556599b7fb01b481a52885ea30b a oa:Annotation .
+nl:id_fc97fb5f6c4c3556599b7fb01b481a52885ea30b terms:title "Jezus Christus" .
+nl:id_fc97fb5f6c4c3556599b7fb01b481a52885ea30b ui:annotationField bible:BibleCharacter .
+nl:id_fc97fb5f6c4c3556599b7fb01b481a52885ea30b ui:typingTime 0 .
+nl:id_fc97fb5f6c4c3556599b7fb01b481a52885ea30b oa:annotatedAt "2016-04-04T15:39:14+02:00"^^xsd:dateTime .
+nl:id_fc97fb5f6c4c3556599b7fb01b481a52885ea30b oa:annotatedBy user:jbn415 .
+nl:id_fc97fb5f6c4c3556599b7fb01b481a52885ea30b oa:hasBody resource:Jesus .
+nl:id_fc97fb5f6c4c3556599b7fb01b481a52885ea30b oa:hasTarget target:target_2717b43770ef4a3cc6852a3be74a6e18bc494e60 .
+nl:id_fc97fb5f6c4c3556599b7fb01b481a52885ea30b oa:hasTarget ubvu:print-218010002032 .
+nl:id_fc97fb5f6c4c3556599b7fb01b481a52885ea30b oa:motivatedBy oa:tagging .
 
 target:selector_2717b43770ef4a3cc6852a3be74a6e18bc494e60 a oa:FragmentSelector .
 target:selector_2717b43770ef4a3cc6852a3be74a6e18bc494e60 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -27,6 +43,18 @@ target:selector_2717b43770ef4a3cc6852a3be74a6e18bc494e60 ui:x "0.344444444444444
 target:selector_2717b43770ef4a3cc6852a3be74a6e18bc494e60 ui:y "0.24349334875650666"^^xsd:float .
 target:selector_2717b43770ef4a3cc6852a3be74a6e18bc494e60 rdf:value "#xywh=percent:34,24,11,13" .
 
+target:selector_54dbf4ea421a6888ba18a3b0904006e3f391e3ef a oa:FragmentSelector .
+target:selector_54dbf4ea421a6888ba18a3b0904006e3f391e3ef terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_54dbf4ea421a6888ba18a3b0904006e3f391e3ef ui:h "0.1550028918449971"^^xsd:float .
+target:selector_54dbf4ea421a6888ba18a3b0904006e3f391e3ef ui:w "0.1641025641025641"^^xsd:float .
+target:selector_54dbf4ea421a6888ba18a3b0904006e3f391e3ef ui:x "0.39658119658119656"^^xsd:float .
+target:selector_54dbf4ea421a6888ba18a3b0904006e3f391e3ef ui:y "0.20358588779641412"^^xsd:float .
+target:selector_54dbf4ea421a6888ba18a3b0904006e3f391e3ef rdf:value "#xywh=percent:40,20,16,16" .
+
 target:target_2717b43770ef4a3cc6852a3be74a6e18bc494e60 a oa:SpecificResource .
 target:target_2717b43770ef4a3cc6852a3be74a6e18bc494e60 oa:hasSelector target:selector_2717b43770ef4a3cc6852a3be74a6e18bc494e60 .
 target:target_2717b43770ef4a3cc6852a3be74a6e18bc494e60 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/31> .
+
+target:target_54dbf4ea421a6888ba18a3b0904006e3f391e3ef a oa:SpecificResource .
+target:target_54dbf4ea421a6888ba18a3b0904006e3f391e3ef oa:hasSelector target:selector_54dbf4ea421a6888ba18a3b0904006e3f391e3ef .
+target:target_54dbf4ea421a6888ba18a3b0904006e3f391e3ef oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/31> .
