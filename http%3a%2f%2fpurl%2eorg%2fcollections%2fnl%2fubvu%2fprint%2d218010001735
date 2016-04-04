@@ -13,6 +13,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_64654ebd067f2d5311259796c41f054e79395761 a oa:Annotation .
+nl:id_64654ebd067f2d5311259796c41f054e79395761 terms:title "Christ talking with Nicodemus at night (John 3:1-21)" .
+nl:id_64654ebd067f2d5311259796c41f054e79395761 ui:annotationField bible:ICBibleTheme .
+nl:id_64654ebd067f2d5311259796c41f054e79395761 ui:typingTime 0 .
+nl:id_64654ebd067f2d5311259796c41f054e79395761 oa:annotatedAt "2016-04-04T13:34:04+02:00"^^xsd:dateTime .
+nl:id_64654ebd067f2d5311259796c41f054e79395761 oa:annotatedBy user:test .
+nl:id_64654ebd067f2d5311259796c41f054e79395761 oa:hasBody <http://iconclass.org/73C7216> .
+nl:id_64654ebd067f2d5311259796c41f054e79395761 oa:hasTarget ubvu:print-218010001735 .
+nl:id_64654ebd067f2d5311259796c41f054e79395761 oa:motivatedBy oa:tagging .
+
 nl:id_7001de03eca8d097d03c7523c99add63b53d0741 a oa:Annotation .
 nl:id_7001de03eca8d097d03c7523c99add63b53d0741 terms:title "nicodem" .
 nl:id_7001de03eca8d097d03c7523c99add63b53d0741 ui:annotationField bible:BibleCharacter .
