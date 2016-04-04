@@ -1,0 +1,33 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix user: <http://accurator.nl/user#> .
+
+<http://accurator.nl/id_fc1be6fc170a1511a84e0286e5f7900c7d62b58d> a oa:Annotation .
+<http://accurator.nl/id_fc1be6fc170a1511a84e0286e5f7900c7d62b58d> terms:title "Egyptische prinses\\" .
+<http://accurator.nl/id_fc1be6fc170a1511a84e0286e5f7900c7d62b58d> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
+<http://accurator.nl/id_fc1be6fc170a1511a84e0286e5f7900c7d62b58d> ui:typingTime 0 .
+<http://accurator.nl/id_fc1be6fc170a1511a84e0286e5f7900c7d62b58d> oa:annotatedAt "2016-04-04T14:58:01+02:00"^^xsd:dateTime .
+<http://accurator.nl/id_fc1be6fc170a1511a84e0286e5f7900c7d62b58d> oa:annotatedBy user:jbn415 .
+<http://accurator.nl/id_fc1be6fc170a1511a84e0286e5f7900c7d62b58d> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Egyptische prinses\\" ] .
+<http://accurator.nl/id_fc1be6fc170a1511a84e0286e5f7900c7d62b58d> oa:hasTarget target:target_deed4fd547f7abac7394fda090835e978f3a4435 .
+<http://accurator.nl/id_fc1be6fc170a1511a84e0286e5f7900c7d62b58d> oa:hasTarget ubvu:print-218010002003 .
+<http://accurator.nl/id_fc1be6fc170a1511a84e0286e5f7900c7d62b58d> oa:motivatedBy oa:tagging .
+
+target:selector_deed4fd547f7abac7394fda090835e978f3a4435 a oa:FragmentSelector .
+target:selector_deed4fd547f7abac7394fda090835e978f3a4435 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_deed4fd547f7abac7394fda090835e978f3a4435 ui:h "0.10689252336448599"^^xsd:float .
+target:selector_deed4fd547f7abac7394fda090835e978f3a4435 ui:w "0.10598290598290598"^^xsd:float .
+target:selector_deed4fd547f7abac7394fda090835e978f3a4435 ui:x "0.16495726495726495"^^xsd:float .
+target:selector_deed4fd547f7abac7394fda090835e978f3a4435 ui:y "0.49427567241347836"^^xsd:float .
+target:selector_deed4fd547f7abac7394fda090835e978f3a4435 rdf:value "#xywh=percent:16,49,11,11" .
+
+target:target_deed4fd547f7abac7394fda090835e978f3a4435 a oa:SpecificResource .
+target:target_deed4fd547f7abac7394fda090835e978f3a4435 oa:hasSelector target:selector_deed4fd547f7abac7394fda090835e978f3a4435 .
+target:target_deed4fd547f7abac7394fda090835e978f3a4435 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/2> .
