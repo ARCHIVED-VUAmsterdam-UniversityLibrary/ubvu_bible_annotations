@@ -7,18 +7,32 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_0d8faeb25babae701c99045b07e05f2d1e87bcb9> a oa:Annotation .
-<http://accurator.nl/id_0d8faeb25babae701c99045b07e05f2d1e87bcb9> terms:title "Ahasverus" .
-<http://accurator.nl/id_0d8faeb25babae701c99045b07e05f2d1e87bcb9> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_0d8faeb25babae701c99045b07e05f2d1e87bcb9> ui:typingTime 0 .
-<http://accurator.nl/id_0d8faeb25babae701c99045b07e05f2d1e87bcb9> oa:annotatedAt "2016-04-04T15:32:13+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_0d8faeb25babae701c99045b07e05f2d1e87bcb9> oa:annotatedBy user:dick .
-<http://accurator.nl/id_0d8faeb25babae701c99045b07e05f2d1e87bcb9> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Ahasverus" ] .
-<http://accurator.nl/id_0d8faeb25babae701c99045b07e05f2d1e87bcb9> oa:hasTarget target:target_cb19bc57b9555ae8dc7e113720676b24a08dabfd .
-<http://accurator.nl/id_0d8faeb25babae701c99045b07e05f2d1e87bcb9> oa:hasTarget ubvu:print-218010001555 .
-<http://accurator.nl/id_0d8faeb25babae701c99045b07e05f2d1e87bcb9> oa:motivatedBy oa:tagging .
+nl:id_0d8faeb25babae701c99045b07e05f2d1e87bcb9 a oa:Annotation .
+nl:id_0d8faeb25babae701c99045b07e05f2d1e87bcb9 terms:title "Ahasverus" .
+nl:id_0d8faeb25babae701c99045b07e05f2d1e87bcb9 ui:annotationField bible:BibleCharacter .
+nl:id_0d8faeb25babae701c99045b07e05f2d1e87bcb9 ui:typingTime 0 .
+nl:id_0d8faeb25babae701c99045b07e05f2d1e87bcb9 oa:annotatedAt "2016-04-04T15:32:13+02:00"^^xsd:dateTime .
+nl:id_0d8faeb25babae701c99045b07e05f2d1e87bcb9 oa:annotatedBy user:dick .
+nl:id_0d8faeb25babae701c99045b07e05f2d1e87bcb9 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Ahasverus" ] .
+nl:id_0d8faeb25babae701c99045b07e05f2d1e87bcb9 oa:hasTarget target:target_cb19bc57b9555ae8dc7e113720676b24a08dabfd .
+nl:id_0d8faeb25babae701c99045b07e05f2d1e87bcb9 oa:hasTarget ubvu:print-218010001555 .
+nl:id_0d8faeb25babae701c99045b07e05f2d1e87bcb9 oa:motivatedBy oa:tagging .
+
+nl:id_6319eda083e3cccb1a5dcbbf0041fc9feef93218 a oa:Annotation .
+nl:id_6319eda083e3cccb1a5dcbbf0041fc9feef93218 terms:title "Mordechai" .
+nl:id_6319eda083e3cccb1a5dcbbf0041fc9feef93218 ui:annotationField bible:BibleCharacter .
+nl:id_6319eda083e3cccb1a5dcbbf0041fc9feef93218 ui:typingTime 0 .
+nl:id_6319eda083e3cccb1a5dcbbf0041fc9feef93218 oa:annotatedAt "2016-04-04T15:32:20+02:00"^^xsd:dateTime .
+nl:id_6319eda083e3cccb1a5dcbbf0041fc9feef93218 oa:annotatedBy user:dick .
+nl:id_6319eda083e3cccb1a5dcbbf0041fc9feef93218 oa:hasBody resource:Mordecai .
+nl:id_6319eda083e3cccb1a5dcbbf0041fc9feef93218 oa:hasTarget target:target_cb19bc57b9555ae8dc7e113720676b24a08dabfd .
+nl:id_6319eda083e3cccb1a5dcbbf0041fc9feef93218 oa:hasTarget ubvu:print-218010001555 .
+nl:id_6319eda083e3cccb1a5dcbbf0041fc9feef93218 oa:motivatedBy oa:tagging .
 
 target:selector_cb19bc57b9555ae8dc7e113720676b24a08dabfd a oa:FragmentSelector .
 target:selector_cb19bc57b9555ae8dc7e113720676b24a08dabfd terms:conformsTo <http://www.w3.org/TR/media-frags/> .
