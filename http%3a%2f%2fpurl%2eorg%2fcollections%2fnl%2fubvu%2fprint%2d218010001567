@@ -46,6 +46,16 @@ nl:id_e16097a675375ba286856edb814e1d2eedcd17a0 oa:hasTarget target:target_0c7106
 nl:id_e16097a675375ba286856edb814e1d2eedcd17a0 oa:hasTarget ubvu:print-218010001567 .
 nl:id_e16097a675375ba286856edb814e1d2eedcd17a0 oa:motivatedBy oa:tagging .
 
+nl:id_f15e681b159eff5a56467cfca881bec660508b04 a oa:Annotation .
+nl:id_f15e681b159eff5a56467cfca881bec660508b04 terms:title "isaiah's vision (Isaiah 6)" .
+nl:id_f15e681b159eff5a56467cfca881bec660508b04 ui:annotationField bible:ICBibleTheme .
+nl:id_f15e681b159eff5a56467cfca881bec660508b04 ui:typingTime 0 .
+nl:id_f15e681b159eff5a56467cfca881bec660508b04 oa:annotatedAt "2016-04-04T15:28:43+02:00"^^xsd:dateTime .
+nl:id_f15e681b159eff5a56467cfca881bec660508b04 oa:annotatedBy user:jbn415 .
+nl:id_f15e681b159eff5a56467cfca881bec660508b04 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "isaiah's vision (Isaiah 6)" ] .
+nl:id_f15e681b159eff5a56467cfca881bec660508b04 oa:hasTarget ubvu:print-218010001567 .
+nl:id_f15e681b159eff5a56467cfca881bec660508b04 oa:motivatedBy oa:tagging .
+
 target:selector_0c7106122912c257ef37377e2bc197466bcaece1 a oa:FragmentSelector .
 target:selector_0c7106122912c257ef37377e2bc197466bcaece1 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_0c7106122912c257ef37377e2bc197466bcaece1 ui:h "0.18854825851060947"^^xsd:float .
