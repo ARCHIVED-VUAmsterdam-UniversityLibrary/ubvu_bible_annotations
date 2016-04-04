@@ -20,6 +20,16 @@ nl:id_2736b538db6aec29c849b6179223b25caafcd60f oa:hasBody <http://iconclass.org/
 nl:id_2736b538db6aec29c849b6179223b25caafcd60f oa:hasTarget ubvu:print-218010002011 .
 nl:id_2736b538db6aec29c849b6179223b25caafcd60f oa:motivatedBy oa:tagging .
 
+nl:id_87024a6849a05ded82b76123e6d085708d8fc5f1 a oa:Annotation .
+nl:id_87024a6849a05ded82b76123e6d085708d8fc5f1 terms:title "Ruth" .
+nl:id_87024a6849a05ded82b76123e6d085708d8fc5f1 ui:annotationField bible:ICBibleTheme .
+nl:id_87024a6849a05ded82b76123e6d085708d8fc5f1 ui:typingTime 0 .
+nl:id_87024a6849a05ded82b76123e6d085708d8fc5f1 oa:annotatedAt "2016-04-04T16:02:06+02:00"^^xsd:dateTime .
+nl:id_87024a6849a05ded82b76123e6d085708d8fc5f1 oa:annotatedBy user:hrmurris .
+nl:id_87024a6849a05ded82b76123e6d085708d8fc5f1 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Ruth" ] .
+nl:id_87024a6849a05ded82b76123e6d085708d8fc5f1 oa:hasTarget ubvu:print-218010002011 .
+nl:id_87024a6849a05ded82b76123e6d085708d8fc5f1 oa:motivatedBy oa:tagging .
+
 nl:id_a17abc11032f6e329ed130ad54d3fef832993cef a oa:Annotation .
 nl:id_a17abc11032f6e329ed130ad54d3fef832993cef terms:title "Ruth Naomi complains her situation" .
 nl:id_a17abc11032f6e329ed130ad54d3fef832993cef ui:annotationField bible:ICBibleTheme .
