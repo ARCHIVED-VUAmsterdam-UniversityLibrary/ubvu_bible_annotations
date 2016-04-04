@@ -1,0 +1,19 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix user: <http://accurator.nl/user#> .
+
+<http://accurator.nl/id_a58e9db835f9b103bbcdb3e216db1b194cba9412> a oa:Annotation .
+<http://accurator.nl/id_a58e9db835f9b103bbcdb3e216db1b194cba9412> terms:title "Judith's execution of Holofernes (Judith 13:4-8)" .
+<http://accurator.nl/id_a58e9db835f9b103bbcdb3e216db1b194cba9412> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
+<http://accurator.nl/id_a58e9db835f9b103bbcdb3e216db1b194cba9412> ui:typingTime 0 .
+<http://accurator.nl/id_a58e9db835f9b103bbcdb3e216db1b194cba9412> oa:annotatedAt "2016-04-04T15:41:58+02:00"^^xsd:dateTime .
+<http://accurator.nl/id_a58e9db835f9b103bbcdb3e216db1b194cba9412> oa:annotatedBy user:hrmurris .
+<http://accurator.nl/id_a58e9db835f9b103bbcdb3e216db1b194cba9412> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Judith's execution of Holofernes (Judith 13:4-8)" ] .
+<http://accurator.nl/id_a58e9db835f9b103bbcdb3e216db1b194cba9412> oa:hasTarget ubvu:print-218010001609 .
+<http://accurator.nl/id_a58e9db835f9b103bbcdb3e216db1b194cba9412> oa:motivatedBy oa:tagging .
