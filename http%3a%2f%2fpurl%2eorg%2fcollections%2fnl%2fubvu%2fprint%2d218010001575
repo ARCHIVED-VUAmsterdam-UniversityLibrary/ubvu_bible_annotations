@@ -7,17 +7,29 @@
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_7103c54a3f0459d4b15032dd6377c35ae684256d> a oa:Annotation .
-<http://accurator.nl/id_7103c54a3f0459d4b15032dd6377c35ae684256d> terms:title "Ezechiël" .
-<http://accurator.nl/id_7103c54a3f0459d4b15032dd6377c35ae684256d> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_7103c54a3f0459d4b15032dd6377c35ae684256d> ui:typingTime 0 .
-<http://accurator.nl/id_7103c54a3f0459d4b15032dd6377c35ae684256d> oa:annotatedAt "2016-04-04T15:14:01+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_7103c54a3f0459d4b15032dd6377c35ae684256d> oa:annotatedBy user:jbn415 .
-<http://accurator.nl/id_7103c54a3f0459d4b15032dd6377c35ae684256d> oa:hasBody resource:Ezekiel .
-<http://accurator.nl/id_7103c54a3f0459d4b15032dd6377c35ae684256d> oa:hasTarget target:target_3e1c5a5d2f823e6d16b7efc742d9f466ccaf4496 .
-<http://accurator.nl/id_7103c54a3f0459d4b15032dd6377c35ae684256d> oa:hasTarget ubvu:print-218010001575 .
-<http://accurator.nl/id_7103c54a3f0459d4b15032dd6377c35ae684256d> oa:motivatedBy oa:tagging .
+nl:id_7103c54a3f0459d4b15032dd6377c35ae684256d a oa:Annotation .
+nl:id_7103c54a3f0459d4b15032dd6377c35ae684256d terms:title "Ezechiël" .
+nl:id_7103c54a3f0459d4b15032dd6377c35ae684256d ui:annotationField bible:BibleCharacter .
+nl:id_7103c54a3f0459d4b15032dd6377c35ae684256d ui:typingTime 0 .
+nl:id_7103c54a3f0459d4b15032dd6377c35ae684256d oa:annotatedAt "2016-04-04T15:14:01+02:00"^^xsd:dateTime .
+nl:id_7103c54a3f0459d4b15032dd6377c35ae684256d oa:annotatedBy user:jbn415 .
+nl:id_7103c54a3f0459d4b15032dd6377c35ae684256d oa:hasBody resource:Ezekiel .
+nl:id_7103c54a3f0459d4b15032dd6377c35ae684256d oa:hasTarget target:target_3e1c5a5d2f823e6d16b7efc742d9f466ccaf4496 .
+nl:id_7103c54a3f0459d4b15032dd6377c35ae684256d oa:hasTarget ubvu:print-218010001575 .
+nl:id_7103c54a3f0459d4b15032dd6377c35ae684256d oa:motivatedBy oa:tagging .
+
+nl:id_a871e5d793e0677306e676d3edc222023616c664 a oa:Annotation .
+nl:id_a871e5d793e0677306e676d3edc222023616c664 terms:title "Ezekiel's prophecies" .
+nl:id_a871e5d793e0677306e676d3edc222023616c664 ui:annotationField bible:ICBibleTheme .
+nl:id_a871e5d793e0677306e676d3edc222023616c664 ui:typingTime 0 .
+nl:id_a871e5d793e0677306e676d3edc222023616c664 oa:annotatedAt "2016-04-04T15:14:33+02:00"^^xsd:dateTime .
+nl:id_a871e5d793e0677306e676d3edc222023616c664 oa:annotatedBy user:jbn415 .
+nl:id_a871e5d793e0677306e676d3edc222023616c664 oa:hasBody <http://iconclass.org/71O95> .
+nl:id_a871e5d793e0677306e676d3edc222023616c664 oa:hasTarget ubvu:print-218010001575 .
+nl:id_a871e5d793e0677306e676d3edc222023616c664 oa:motivatedBy oa:tagging .
 
 target:selector_3e1c5a5d2f823e6d16b7efc742d9f466ccaf4496 a oa:FragmentSelector .
 target:selector_3e1c5a5d2f823e6d16b7efc742d9f466ccaf4496 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
