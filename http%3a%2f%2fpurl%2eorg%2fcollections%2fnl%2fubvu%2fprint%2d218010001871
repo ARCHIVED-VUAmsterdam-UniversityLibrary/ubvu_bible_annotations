@@ -1,9 +1,11 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
 @prefix media-frags: <http://www.w3.org/TR/media-frags/> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix resource: <http://bibleontology.com/resource/> .
@@ -32,6 +34,17 @@ nl:id_ce4d85c3971681fc5d9d738a2101ab94a673bbf7 oa:hasBody resource:Jesus .
 nl:id_ce4d85c3971681fc5d9d738a2101ab94a673bbf7 oa:hasTarget target:target_4431426afd2c9497102b7b2654f5161a783dfeeb .
 nl:id_ce4d85c3971681fc5d9d738a2101ab94a673bbf7 oa:hasTarget ubvu:print-218010001871 .
 nl:id_ce4d85c3971681fc5d9d738a2101ab94a673bbf7 oa:motivatedBy oa:tagging .
+
+nl:id_da67cac1d31a44d850f3f74493e1ef7ec8048374 a oa:Annotation .
+nl:id_da67cac1d31a44d850f3f74493e1ef7ec8048374 terms:title "wordt ten grave gedragen " .
+nl:id_da67cac1d31a44d850f3f74493e1ef7ec8048374 ui:annotationField bible:BibleCharacter .
+nl:id_da67cac1d31a44d850f3f74493e1ef7ec8048374 ui:typingTime 0 .
+nl:id_da67cac1d31a44d850f3f74493e1ef7ec8048374 oa:annotatedAt "2016-04-04T15:17:02+02:00"^^xsd:dateTime .
+nl:id_da67cac1d31a44d850f3f74493e1ef7ec8048374 oa:annotatedBy user:dick .
+nl:id_da67cac1d31a44d850f3f74493e1ef7ec8048374 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "wordt ten grave gedragen " ] .
+nl:id_da67cac1d31a44d850f3f74493e1ef7ec8048374 oa:hasTarget target:target_4431426afd2c9497102b7b2654f5161a783dfeeb .
+nl:id_da67cac1d31a44d850f3f74493e1ef7ec8048374 oa:hasTarget ubvu:print-218010001871 .
+nl:id_da67cac1d31a44d850f3f74493e1ef7ec8048374 oa:motivatedBy oa:tagging .
 
 target:selector_159a031d6db9f90dfe044a2a6e2ea6ec556fceae a oa:FragmentSelector .
 target:selector_159a031d6db9f90dfe044a2a6e2ea6ec556fceae terms:conformsTo <http://www.w3.org/TR/media-frags/> .
