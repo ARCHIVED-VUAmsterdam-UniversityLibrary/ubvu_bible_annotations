@@ -1,23 +1,37 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_92a21f4c367c1e4234f67ab3869ebb85694a9402> a oa:Annotation .
-<http://accurator.nl/id_92a21f4c367c1e4234f67ab3869ebb85694a9402> terms:title "Jezus Christus" .
-<http://accurator.nl/id_92a21f4c367c1e4234f67ab3869ebb85694a9402> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_92a21f4c367c1e4234f67ab3869ebb85694a9402> ui:typingTime 0 .
-<http://accurator.nl/id_92a21f4c367c1e4234f67ab3869ebb85694a9402> oa:annotatedAt "2016-04-05T00:38:48+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_92a21f4c367c1e4234f67ab3869ebb85694a9402> oa:annotatedBy user:hogguer .
-<http://accurator.nl/id_92a21f4c367c1e4234f67ab3869ebb85694a9402> oa:hasBody resource:Jesus .
-<http://accurator.nl/id_92a21f4c367c1e4234f67ab3869ebb85694a9402> oa:hasTarget target:target_a75034490b979a5de5030886a19266e9343c83e8 .
-<http://accurator.nl/id_92a21f4c367c1e4234f67ab3869ebb85694a9402> oa:hasTarget ubvu:print-218010001903 .
-<http://accurator.nl/id_92a21f4c367c1e4234f67ab3869ebb85694a9402> oa:motivatedBy oa:tagging .
+nl:id_92a21f4c367c1e4234f67ab3869ebb85694a9402 a oa:Annotation .
+nl:id_92a21f4c367c1e4234f67ab3869ebb85694a9402 terms:title "Jezus Christus" .
+nl:id_92a21f4c367c1e4234f67ab3869ebb85694a9402 ui:annotationField bible:BibleCharacter .
+nl:id_92a21f4c367c1e4234f67ab3869ebb85694a9402 ui:typingTime 0 .
+nl:id_92a21f4c367c1e4234f67ab3869ebb85694a9402 oa:annotatedAt "2016-04-05T00:38:48+02:00"^^xsd:dateTime .
+nl:id_92a21f4c367c1e4234f67ab3869ebb85694a9402 oa:annotatedBy user:hogguer .
+nl:id_92a21f4c367c1e4234f67ab3869ebb85694a9402 oa:hasBody resource:Jesus .
+nl:id_92a21f4c367c1e4234f67ab3869ebb85694a9402 oa:hasTarget target:target_a75034490b979a5de5030886a19266e9343c83e8 .
+nl:id_92a21f4c367c1e4234f67ab3869ebb85694a9402 oa:hasTarget ubvu:print-218010001903 .
+nl:id_92a21f4c367c1e4234f67ab3869ebb85694a9402 oa:motivatedBy oa:tagging .
+
+nl:id_9fe0874939fac30860053d595ffebce553ea2fbc a oa:Annotation .
+nl:id_9fe0874939fac30860053d595ffebce553ea2fbc terms:title "Christ's ascension into heaven" .
+nl:id_9fe0874939fac30860053d595ffebce553ea2fbc ui:annotationField bible:ICBibleTheme .
+nl:id_9fe0874939fac30860053d595ffebce553ea2fbc ui:typingTime 0 .
+nl:id_9fe0874939fac30860053d595ffebce553ea2fbc oa:annotatedAt "2016-04-05T00:40:51+02:00"^^xsd:dateTime .
+nl:id_9fe0874939fac30860053d595ffebce553ea2fbc oa:annotatedBy user:hogguer .
+nl:id_9fe0874939fac30860053d595ffebce553ea2fbc oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Christ's ascension into heaven" ] .
+nl:id_9fe0874939fac30860053d595ffebce553ea2fbc oa:hasTarget ubvu:print-218010001903 .
+nl:id_9fe0874939fac30860053d595ffebce553ea2fbc oa:motivatedBy oa:tagging .
 
 target:selector_a75034490b979a5de5030886a19266e9343c83e8 a oa:FragmentSelector .
 target:selector_a75034490b979a5de5030886a19266e9343c83e8 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
