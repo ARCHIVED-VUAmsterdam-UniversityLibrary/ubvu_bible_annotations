@@ -7,17 +7,29 @@
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_dce50d3c783fdbcacb3f422abfffc369540215ea> a oa:Annotation .
-<http://accurator.nl/id_dce50d3c783fdbcacb3f422abfffc369540215ea> terms:title "Matthan" .
-<http://accurator.nl/id_dce50d3c783fdbcacb3f422abfffc369540215ea> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_dce50d3c783fdbcacb3f422abfffc369540215ea> ui:typingTime 0 .
-<http://accurator.nl/id_dce50d3c783fdbcacb3f422abfffc369540215ea> oa:annotatedAt "2016-04-04T13:30:28+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_dce50d3c783fdbcacb3f422abfffc369540215ea> oa:annotatedBy user:test .
-<http://accurator.nl/id_dce50d3c783fdbcacb3f422abfffc369540215ea> oa:hasBody resource:Matthan .
-<http://accurator.nl/id_dce50d3c783fdbcacb3f422abfffc369540215ea> oa:hasTarget target:target_b14567f37b6f97b5cbd6a48dacc277f57abc018c .
-<http://accurator.nl/id_dce50d3c783fdbcacb3f422abfffc369540215ea> oa:hasTarget ubvu:print-218010001477 .
-<http://accurator.nl/id_dce50d3c783fdbcacb3f422abfffc369540215ea> oa:motivatedBy oa:tagging .
+nl:id_b1cd3e807f5c9d50ade3fbafd153c1a2e8f34fd4 a oa:Annotation .
+nl:id_b1cd3e807f5c9d50ade3fbafd153c1a2e8f34fd4 terms:title "Saul choosing an army" .
+nl:id_b1cd3e807f5c9d50ade3fbafd153c1a2e8f34fd4 ui:annotationField bible:ICBibleTheme .
+nl:id_b1cd3e807f5c9d50ade3fbafd153c1a2e8f34fd4 ui:typingTime 0 .
+nl:id_b1cd3e807f5c9d50ade3fbafd153c1a2e8f34fd4 oa:annotatedAt "2016-04-04T13:30:38+02:00"^^xsd:dateTime .
+nl:id_b1cd3e807f5c9d50ade3fbafd153c1a2e8f34fd4 oa:annotatedBy user:test .
+nl:id_b1cd3e807f5c9d50ade3fbafd153c1a2e8f34fd4 oa:hasBody <http://iconclass.org/71G211> .
+nl:id_b1cd3e807f5c9d50ade3fbafd153c1a2e8f34fd4 oa:hasTarget ubvu:print-218010001477 .
+nl:id_b1cd3e807f5c9d50ade3fbafd153c1a2e8f34fd4 oa:motivatedBy oa:tagging .
+
+nl:id_dce50d3c783fdbcacb3f422abfffc369540215ea a oa:Annotation .
+nl:id_dce50d3c783fdbcacb3f422abfffc369540215ea terms:title "Matthan" .
+nl:id_dce50d3c783fdbcacb3f422abfffc369540215ea ui:annotationField bible:BibleCharacter .
+nl:id_dce50d3c783fdbcacb3f422abfffc369540215ea ui:typingTime 0 .
+nl:id_dce50d3c783fdbcacb3f422abfffc369540215ea oa:annotatedAt "2016-04-04T13:30:28+02:00"^^xsd:dateTime .
+nl:id_dce50d3c783fdbcacb3f422abfffc369540215ea oa:annotatedBy user:test .
+nl:id_dce50d3c783fdbcacb3f422abfffc369540215ea oa:hasBody resource:Matthan .
+nl:id_dce50d3c783fdbcacb3f422abfffc369540215ea oa:hasTarget target:target_b14567f37b6f97b5cbd6a48dacc277f57abc018c .
+nl:id_dce50d3c783fdbcacb3f422abfffc369540215ea oa:hasTarget ubvu:print-218010001477 .
+nl:id_dce50d3c783fdbcacb3f422abfffc369540215ea oa:motivatedBy oa:tagging .
 
 target:selector_b14567f37b6f97b5cbd6a48dacc277f57abc018c a oa:FragmentSelector .
 target:selector_b14567f37b6f97b5cbd6a48dacc277f57abc018c terms:conformsTo <http://www.w3.org/TR/media-frags/> .
