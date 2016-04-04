@@ -55,6 +55,16 @@ nl:id_8345fbafee5b7955487bfeaae631d15b624fbe70 oa:hasTarget target:target_301b2f
 nl:id_8345fbafee5b7955487bfeaae631d15b624fbe70 oa:hasTarget ubvu:print-218010001687 .
 nl:id_8345fbafee5b7955487bfeaae631d15b624fbe70 oa:motivatedBy oa:tagging .
 
+nl:id_af7b694ba662f3ce855df228057fea540936e407 a oa:Annotation .
+nl:id_af7b694ba662f3ce855df228057fea540936e407 terms:title "Escape to Egypt" .
+nl:id_af7b694ba662f3ce855df228057fea540936e407 ui:annotationField bible:ICBibleTheme .
+nl:id_af7b694ba662f3ce855df228057fea540936e407 ui:typingTime 0 .
+nl:id_af7b694ba662f3ce855df228057fea540936e407 oa:annotatedAt "2016-04-04T15:29:47+02:00"^^xsd:dateTime .
+nl:id_af7b694ba662f3ce855df228057fea540936e407 oa:annotatedBy user:joan .
+nl:id_af7b694ba662f3ce855df228057fea540936e407 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Escape to Egypt" ] .
+nl:id_af7b694ba662f3ce855df228057fea540936e407 oa:hasTarget ubvu:print-218010001687 .
+nl:id_af7b694ba662f3ce855df228057fea540936e407 oa:motivatedBy oa:tagging .
+
 nl:id_be42ba3adc7c76cdfc43c6c0f9764b29e79f88fc a oa:Annotation .
 nl:id_be42ba3adc7c76cdfc43c6c0f9764b29e79f88fc terms:title "Maria (moeder van Jezus Christus))" .
 nl:id_be42ba3adc7c76cdfc43c6c0f9764b29e79f88fc ui:annotationField bible:BibleCharacter .
