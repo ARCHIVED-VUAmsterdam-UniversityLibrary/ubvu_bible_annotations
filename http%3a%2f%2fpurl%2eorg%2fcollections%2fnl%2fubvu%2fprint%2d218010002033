@@ -1,0 +1,17 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix user: <http://accurator.nl/user#> .
+
+<http://accurator.nl/id_b12d1189e3892ec5a73ad168824ec62fa625335c> a oa:Annotation .
+<http://accurator.nl/id_b12d1189e3892ec5a73ad168824ec62fa625335c> terms:title "Salome gives the head of John the Baptist to her mother" .
+<http://accurator.nl/id_b12d1189e3892ec5a73ad168824ec62fa625335c> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
+<http://accurator.nl/id_b12d1189e3892ec5a73ad168824ec62fa625335c> ui:typingTime 0 .
+<http://accurator.nl/id_b12d1189e3892ec5a73ad168824ec62fa625335c> oa:annotatedAt "2016-04-04T16:17:59+02:00"^^xsd:dateTime .
+<http://accurator.nl/id_b12d1189e3892ec5a73ad168824ec62fa625335c> oa:annotatedBy user:spaapen1 .
+<http://accurator.nl/id_b12d1189e3892ec5a73ad168824ec62fa625335c> oa:hasBody <http://iconclass.org/73C1335> .
+<http://accurator.nl/id_b12d1189e3892ec5a73ad168824ec62fa625335c> oa:hasTarget ubvu:print-218010002033 .
+<http://accurator.nl/id_b12d1189e3892ec5a73ad168824ec62fa625335c> oa:motivatedBy oa:tagging .
