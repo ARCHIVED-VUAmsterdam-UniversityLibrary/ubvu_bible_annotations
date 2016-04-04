@@ -33,6 +33,16 @@ nl:id_294cdf591046d2bea2d5c176f8deb1163ceea715 oa:hasTarget target:target_913828
 nl:id_294cdf591046d2bea2d5c176f8deb1163ceea715 oa:hasTarget ubvu:print-218010001891 .
 nl:id_294cdf591046d2bea2d5c176f8deb1163ceea715 oa:motivatedBy oa:tagging .
 
+nl:id_fd10a44309f939193c5562f2a1ad7d4df48d2e76 a oa:Annotation .
+nl:id_fd10a44309f939193c5562f2a1ad7d4df48d2e76 terms:title "Cleopas and Peter arrive at the gate of Emmaus, or at the inn; Christ is asked to stay" .
+nl:id_fd10a44309f939193c5562f2a1ad7d4df48d2e76 ui:annotationField bible:ICBibleTheme .
+nl:id_fd10a44309f939193c5562f2a1ad7d4df48d2e76 ui:typingTime 0 .
+nl:id_fd10a44309f939193c5562f2a1ad7d4df48d2e76 oa:annotatedAt "2016-04-04T15:02:46+02:00"^^xsd:dateTime .
+nl:id_fd10a44309f939193c5562f2a1ad7d4df48d2e76 oa:annotatedBy user:hogguer .
+nl:id_fd10a44309f939193c5562f2a1ad7d4df48d2e76 oa:hasBody <http://iconclass.org/73E342> .
+nl:id_fd10a44309f939193c5562f2a1ad7d4df48d2e76 oa:hasTarget ubvu:print-218010001891 .
+nl:id_fd10a44309f939193c5562f2a1ad7d4df48d2e76 oa:motivatedBy oa:tagging .
+
 target:selector_913828d4f75c2b49e8a10dfccd5c9c4b79aa8e7c a oa:FragmentSelector .
 target:selector_913828d4f75c2b49e8a10dfccd5c9c4b79aa8e7c terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_913828d4f75c2b49e8a10dfccd5c9c4b79aa8e7c ui:h "0.3694742459718134"^^xsd:float .
