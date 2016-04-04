@@ -79,6 +79,17 @@ nl:id_d0b3071a765208019f36356e5db6ee07175381a4 oa:hasTarget target:target_5f9bfb
 nl:id_d0b3071a765208019f36356e5db6ee07175381a4 oa:hasTarget ubvu:print-218010002003 .
 nl:id_d0b3071a765208019f36356e5db6ee07175381a4 oa:motivatedBy oa:tagging .
 
+nl:id_fb2d81688864413f1df09afe245167aaee5c3c30 a oa:Annotation .
+nl:id_fb2d81688864413f1df09afe245167aaee5c3c30 terms:title "Schenker" .
+nl:id_fb2d81688864413f1df09afe245167aaee5c3c30 ui:annotationField bible:BibleCharacter .
+nl:id_fb2d81688864413f1df09afe245167aaee5c3c30 ui:typingTime 0 .
+nl:id_fb2d81688864413f1df09afe245167aaee5c3c30 oa:annotatedAt "2016-04-04T15:01:34+02:00"^^xsd:dateTime .
+nl:id_fb2d81688864413f1df09afe245167aaee5c3c30 oa:annotatedBy user:jbn415 .
+nl:id_fb2d81688864413f1df09afe245167aaee5c3c30 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Schenker" ] .
+nl:id_fb2d81688864413f1df09afe245167aaee5c3c30 oa:hasTarget target:target_80c16da74c8b461d1c08c2a5d4edd17b524fb10a .
+nl:id_fb2d81688864413f1df09afe245167aaee5c3c30 oa:hasTarget ubvu:print-218010002003 .
+nl:id_fb2d81688864413f1df09afe245167aaee5c3c30 oa:motivatedBy oa:tagging .
+
 nl:id_fc1be6fc170a1511a84e0286e5f7900c7d62b58d a oa:Annotation .
 nl:id_fc1be6fc170a1511a84e0286e5f7900c7d62b58d terms:title "Egyptische prinses\\" .
 nl:id_fc1be6fc170a1511a84e0286e5f7900c7d62b58d ui:annotationField bible:BibleCharacter .
@@ -130,6 +141,14 @@ target:selector_754a61516716080142c5e852e5eb328f1e55408d ui:x "0.361538461538461
 target:selector_754a61516716080142c5e852e5eb328f1e55408d ui:y "0.5585280088620765"^^xsd:float .
 target:selector_754a61516716080142c5e852e5eb328f1e55408d rdf:value "#xywh=percent:36,56,19,13" .
 
+target:selector_80c16da74c8b461d1c08c2a5d4edd17b524fb10a a oa:FragmentSelector .
+target:selector_80c16da74c8b461d1c08c2a5d4edd17b524fb10a terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_80c16da74c8b461d1c08c2a5d4edd17b524fb10a ui:h "0.05957943033949237"^^xsd:float .
+target:selector_80c16da74c8b461d1c08c2a5d4edd17b524fb10a ui:w "0.07264957264957266"^^xsd:float .
+target:selector_80c16da74c8b461d1c08c2a5d4edd17b524fb10a ui:x "0.1188034188034188"^^xsd:float .
+target:selector_80c16da74c8b461d1c08c2a5d4edd17b524fb10a ui:y "0.09824766176883305"^^xsd:float .
+target:selector_80c16da74c8b461d1c08c2a5d4edd17b524fb10a rdf:value "#xywh=percent:12,10,7,6" .
+
 target:selector_c51c3ff511b932003d19f7f67affe3decb6c9d54 a oa:FragmentSelector .
 target:selector_c51c3ff511b932003d19f7f67affe3decb6c9d54 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_c51c3ff511b932003d19f7f67affe3decb6c9d54 ui:h "0.10689252336448599"^^xsd:float .
@@ -165,6 +184,10 @@ target:target_666ecc1b498380f4049a9552492a29fcd473bf75 oa:hasSource <http://imag
 target:target_754a61516716080142c5e852e5eb328f1e55408d a oa:SpecificResource .
 target:target_754a61516716080142c5e852e5eb328f1e55408d oa:hasSelector target:selector_754a61516716080142c5e852e5eb328f1e55408d .
 target:target_754a61516716080142c5e852e5eb328f1e55408d oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/2> .
+
+target:target_80c16da74c8b461d1c08c2a5d4edd17b524fb10a a oa:SpecificResource .
+target:target_80c16da74c8b461d1c08c2a5d4edd17b524fb10a oa:hasSelector target:selector_80c16da74c8b461d1c08c2a5d4edd17b524fb10a .
+target:target_80c16da74c8b461d1c08c2a5d4edd17b524fb10a oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/2> .
 
 target:target_c51c3ff511b932003d19f7f67affe3decb6c9d54 a oa:SpecificResource .
 target:target_c51c3ff511b932003d19f7f67affe3decb6c9d54 oa:hasSelector target:selector_c51c3ff511b932003d19f7f67affe3decb6c9d54 .
