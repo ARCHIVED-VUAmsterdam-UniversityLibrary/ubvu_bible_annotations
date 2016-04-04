@@ -24,6 +24,16 @@ nl:id_03f49694c6f697e70e9b341b7e89254e33786a5b oa:hasTarget target:target_ae56ab
 nl:id_03f49694c6f697e70e9b341b7e89254e33786a5b oa:hasTarget ubvu:print-218010002010 .
 nl:id_03f49694c6f697e70e9b341b7e89254e33786a5b oa:motivatedBy oa:tagging .
 
+nl:id_093ab0aa4fc8ca6e861ff09c82b5794d85fa07e4 a oa:Annotation .
+nl:id_093ab0aa4fc8ca6e861ff09c82b5794d85fa07e4 terms:title "Samson is bound by Delilah with new ropes" .
+nl:id_093ab0aa4fc8ca6e861ff09c82b5794d85fa07e4 ui:annotationField bible:ICBibleTheme .
+nl:id_093ab0aa4fc8ca6e861ff09c82b5794d85fa07e4 ui:typingTime 0 .
+nl:id_093ab0aa4fc8ca6e861ff09c82b5794d85fa07e4 oa:annotatedAt "2016-04-04T16:18:21+02:00"^^xsd:dateTime .
+nl:id_093ab0aa4fc8ca6e861ff09c82b5794d85fa07e4 oa:annotatedBy user:jbn415 .
+nl:id_093ab0aa4fc8ca6e861ff09c82b5794d85fa07e4 oa:hasBody <http://iconclass.org/71F3732> .
+nl:id_093ab0aa4fc8ca6e861ff09c82b5794d85fa07e4 oa:hasTarget ubvu:print-218010002010 .
+nl:id_093ab0aa4fc8ca6e861ff09c82b5794d85fa07e4 oa:motivatedBy oa:tagging .
+
 nl:id_164e4319b36cc20dac68f831067930a8b0454916 a oa:Annotation .
 nl:id_164e4319b36cc20dac68f831067930a8b0454916 terms:title "Samson ties three hundred foxes two by two by their tails with a fire-brand in between; with the torches on fire he lets them go into the cornfields of the Philistines which are set aflame" .
 nl:id_164e4319b36cc20dac68f831067930a8b0454916 ui:annotationField bible:ICBibleTheme .
