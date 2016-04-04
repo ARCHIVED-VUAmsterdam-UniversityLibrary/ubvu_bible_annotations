@@ -8,17 +8,29 @@
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_3b038b99a35ef79765cb8f2cdcb94541a8c0c601> a oa:Annotation .
-<http://accurator.nl/id_3b038b99a35ef79765cb8f2cdcb94541a8c0c601> terms:title "Abraham" .
-<http://accurator.nl/id_3b038b99a35ef79765cb8f2cdcb94541a8c0c601> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_3b038b99a35ef79765cb8f2cdcb94541a8c0c601> ui:typingTime 0 .
-<http://accurator.nl/id_3b038b99a35ef79765cb8f2cdcb94541a8c0c601> oa:annotatedAt "2016-04-04T16:43:00+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_3b038b99a35ef79765cb8f2cdcb94541a8c0c601> oa:annotatedBy user:jbn415 .
-<http://accurator.nl/id_3b038b99a35ef79765cb8f2cdcb94541a8c0c601> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Abraham" ] .
-<http://accurator.nl/id_3b038b99a35ef79765cb8f2cdcb94541a8c0c601> oa:hasTarget target:target_c54d1c7a504a0eabb8d1930c3665b6e0bdadc593 .
-<http://accurator.nl/id_3b038b99a35ef79765cb8f2cdcb94541a8c0c601> oa:hasTarget ubvu:print-218010001115 .
-<http://accurator.nl/id_3b038b99a35ef79765cb8f2cdcb94541a8c0c601> oa:motivatedBy oa:tagging .
+nl:id_3b038b99a35ef79765cb8f2cdcb94541a8c0c601 a oa:Annotation .
+nl:id_3b038b99a35ef79765cb8f2cdcb94541a8c0c601 terms:title "Abraham" .
+nl:id_3b038b99a35ef79765cb8f2cdcb94541a8c0c601 ui:annotationField bible:BibleCharacter .
+nl:id_3b038b99a35ef79765cb8f2cdcb94541a8c0c601 ui:typingTime 0 .
+nl:id_3b038b99a35ef79765cb8f2cdcb94541a8c0c601 oa:annotatedAt "2016-04-04T16:43:00+02:00"^^xsd:dateTime .
+nl:id_3b038b99a35ef79765cb8f2cdcb94541a8c0c601 oa:annotatedBy user:jbn415 .
+nl:id_3b038b99a35ef79765cb8f2cdcb94541a8c0c601 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Abraham" ] .
+nl:id_3b038b99a35ef79765cb8f2cdcb94541a8c0c601 oa:hasTarget target:target_c54d1c7a504a0eabb8d1930c3665b6e0bdadc593 .
+nl:id_3b038b99a35ef79765cb8f2cdcb94541a8c0c601 oa:hasTarget ubvu:print-218010001115 .
+nl:id_3b038b99a35ef79765cb8f2cdcb94541a8c0c601 oa:motivatedBy oa:tagging .
+
+nl:id_f56b64b52d9a119cea3b7bfb9e3ca950303f6947 a oa:Annotation .
+nl:id_f56b64b52d9a119cea3b7bfb9e3ca950303f6947 terms:title "Isaac and Ismael bury Abraham" .
+nl:id_f56b64b52d9a119cea3b7bfb9e3ca950303f6947 ui:annotationField bible:ICBibleTheme .
+nl:id_f56b64b52d9a119cea3b7bfb9e3ca950303f6947 ui:typingTime 0 .
+nl:id_f56b64b52d9a119cea3b7bfb9e3ca950303f6947 oa:annotatedAt "2016-04-04T16:43:29+02:00"^^xsd:dateTime .
+nl:id_f56b64b52d9a119cea3b7bfb9e3ca950303f6947 oa:annotatedBy user:jbn415 .
+nl:id_f56b64b52d9a119cea3b7bfb9e3ca950303f6947 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Isaac and Ismael bury Abraham" ] .
+nl:id_f56b64b52d9a119cea3b7bfb9e3ca950303f6947 oa:hasTarget ubvu:print-218010001115 .
+nl:id_f56b64b52d9a119cea3b7bfb9e3ca950303f6947 oa:motivatedBy oa:tagging .
 
 target:selector_c54d1c7a504a0eabb8d1930c3665b6e0bdadc593 a oa:FragmentSelector .
 target:selector_c54d1c7a504a0eabb8d1930c3665b6e0bdadc593 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
