@@ -39,3 +39,13 @@ nl:id_ebfab7ffefa5494c7649187f83b644f94dacdb83 oa:annotatedBy user:spaapen1 .
 nl:id_ebfab7ffefa5494c7649187f83b644f94dacdb83 oa:hasBody <http://iconclass.org/71R112> .
 nl:id_ebfab7ffefa5494c7649187f83b644f94dacdb83 oa:hasTarget ubvu:print-218010002021 .
 nl:id_ebfab7ffefa5494c7649187f83b644f94dacdb83 oa:motivatedBy oa:tagging .
+
+nl:id_feb2d60c81bf52c0e5f8baa620ecb22892dede04 a oa:Annotation .
+nl:id_feb2d60c81bf52c0e5f8baa620ecb22892dede04 terms:title "Ezra 1,1-7;2,1" .
+nl:id_feb2d60c81bf52c0e5f8baa620ecb22892dede04 ui:annotationField bible:ICBibleTheme .
+nl:id_feb2d60c81bf52c0e5f8baa620ecb22892dede04 ui:typingTime 0 .
+nl:id_feb2d60c81bf52c0e5f8baa620ecb22892dede04 oa:annotatedAt "2016-04-04T16:00:20+02:00"^^xsd:dateTime .
+nl:id_feb2d60c81bf52c0e5f8baa620ecb22892dede04 oa:annotatedBy user:spaapen1 .
+nl:id_feb2d60c81bf52c0e5f8baa620ecb22892dede04 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Ezra 1,1-7;2,1" ] .
+nl:id_feb2d60c81bf52c0e5f8baa620ecb22892dede04 oa:hasTarget ubvu:print-218010002021 .
+nl:id_feb2d60c81bf52c0e5f8baa620ecb22892dede04 oa:motivatedBy oa:tagging .
