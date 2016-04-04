@@ -8,17 +8,29 @@
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_f595b678e691c26c77928d74357d14dbfa9438a6> a oa:Annotation .
-<http://accurator.nl/id_f595b678e691c26c77928d74357d14dbfa9438a6> terms:title "Kaïn" .
-<http://accurator.nl/id_f595b678e691c26c77928d74357d14dbfa9438a6> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_f595b678e691c26c77928d74357d14dbfa9438a6> ui:typingTime 0 .
-<http://accurator.nl/id_f595b678e691c26c77928d74357d14dbfa9438a6> oa:annotatedAt "2016-04-04T16:10:40+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_f595b678e691c26c77928d74357d14dbfa9438a6> oa:annotatedBy user:jbn415 .
-<http://accurator.nl/id_f595b678e691c26c77928d74357d14dbfa9438a6> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Kaïn" ] .
-<http://accurator.nl/id_f595b678e691c26c77928d74357d14dbfa9438a6> oa:hasTarget target:target_b87e06fb3b8fcc2350be9d44fc62fd2ef03c188f .
-<http://accurator.nl/id_f595b678e691c26c77928d74357d14dbfa9438a6> oa:hasTarget ubvu:print-218010001038 .
-<http://accurator.nl/id_f595b678e691c26c77928d74357d14dbfa9438a6> oa:motivatedBy oa:tagging .
+nl:id_196d04b09caa1420df4b1fa085834eaa6e755037 a oa:Annotation .
+nl:id_196d04b09caa1420df4b1fa085834eaa6e755037 terms:title "God gives Kaïn a sign" .
+nl:id_196d04b09caa1420df4b1fa085834eaa6e755037 ui:annotationField bible:ICBibleTheme .
+nl:id_196d04b09caa1420df4b1fa085834eaa6e755037 ui:typingTime 0 .
+nl:id_196d04b09caa1420df4b1fa085834eaa6e755037 oa:annotatedAt "2016-04-04T16:11:24+02:00"^^xsd:dateTime .
+nl:id_196d04b09caa1420df4b1fa085834eaa6e755037 oa:annotatedBy user:jbn415 .
+nl:id_196d04b09caa1420df4b1fa085834eaa6e755037 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "God gives Kaïn a sign" ] .
+nl:id_196d04b09caa1420df4b1fa085834eaa6e755037 oa:hasTarget ubvu:print-218010001038 .
+nl:id_196d04b09caa1420df4b1fa085834eaa6e755037 oa:motivatedBy oa:tagging .
+
+nl:id_f595b678e691c26c77928d74357d14dbfa9438a6 a oa:Annotation .
+nl:id_f595b678e691c26c77928d74357d14dbfa9438a6 terms:title "Kaïn" .
+nl:id_f595b678e691c26c77928d74357d14dbfa9438a6 ui:annotationField bible:BibleCharacter .
+nl:id_f595b678e691c26c77928d74357d14dbfa9438a6 ui:typingTime 0 .
+nl:id_f595b678e691c26c77928d74357d14dbfa9438a6 oa:annotatedAt "2016-04-04T16:10:40+02:00"^^xsd:dateTime .
+nl:id_f595b678e691c26c77928d74357d14dbfa9438a6 oa:annotatedBy user:jbn415 .
+nl:id_f595b678e691c26c77928d74357d14dbfa9438a6 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Kaïn" ] .
+nl:id_f595b678e691c26c77928d74357d14dbfa9438a6 oa:hasTarget target:target_b87e06fb3b8fcc2350be9d44fc62fd2ef03c188f .
+nl:id_f595b678e691c26c77928d74357d14dbfa9438a6 oa:hasTarget ubvu:print-218010001038 .
+nl:id_f595b678e691c26c77928d74357d14dbfa9438a6 oa:motivatedBy oa:tagging .
 
 target:selector_b87e06fb3b8fcc2350be9d44fc62fd2ef03c188f a oa:FragmentSelector .
 target:selector_b87e06fb3b8fcc2350be9d44fc62fd2ef03c188f terms:conformsTo <http://www.w3.org/TR/media-frags/> .
