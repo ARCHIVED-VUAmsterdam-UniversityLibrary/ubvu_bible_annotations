@@ -98,6 +98,16 @@ nl:id_755a28f031ba0af39ea30aaf5c18de004b534860 oa:hasTarget target:target_17e228
 nl:id_755a28f031ba0af39ea30aaf5c18de004b534860 oa:hasTarget ubvu:print-218010002035 .
 nl:id_755a28f031ba0af39ea30aaf5c18de004b534860 oa:motivatedBy oa:tagging .
 
+nl:id_7a830a9a1ee4309f8a888a6400965717fc7b8e75 a oa:Annotation .
+nl:id_7a830a9a1ee4309f8a888a6400965717fc7b8e75 terms:title "Christ prays in the garden of Gethsemané" .
+nl:id_7a830a9a1ee4309f8a888a6400965717fc7b8e75 ui:annotationField bible:ICBibleTheme .
+nl:id_7a830a9a1ee4309f8a888a6400965717fc7b8e75 ui:typingTime 0 .
+nl:id_7a830a9a1ee4309f8a888a6400965717fc7b8e75 oa:annotatedAt "2016-04-04T16:28:11+02:00"^^xsd:dateTime .
+nl:id_7a830a9a1ee4309f8a888a6400965717fc7b8e75 oa:annotatedBy user:jbn415 .
+nl:id_7a830a9a1ee4309f8a888a6400965717fc7b8e75 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Christ prays in the garden of Gethsemané" ] .
+nl:id_7a830a9a1ee4309f8a888a6400965717fc7b8e75 oa:hasTarget ubvu:print-218010002035 .
+nl:id_7a830a9a1ee4309f8a888a6400965717fc7b8e75 oa:motivatedBy oa:tagging .
+
 nl:id_81cef377c824802fafa79c89be4c21e0ca150106 a oa:Annotation .
 nl:id_81cef377c824802fafa79c89be4c21e0ca150106 terms:title "Jezus Christus" .
 nl:id_81cef377c824802fafa79c89be4c21e0ca150106 ui:annotationField bible:BibleCharacter .
