@@ -1,0 +1,32 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix resource: <http://bibleontology.com/resource/> .
+@prefix user: <http://accurator.nl/user#> .
+
+<http://accurator.nl/id_d1f2e0e53316c814914cf0dc86869fe400bd0f1a> a oa:Annotation .
+<http://accurator.nl/id_d1f2e0e53316c814914cf0dc86869fe400bd0f1a> terms:title "Jozef (man van Maria)" .
+<http://accurator.nl/id_d1f2e0e53316c814914cf0dc86869fe400bd0f1a> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
+<http://accurator.nl/id_d1f2e0e53316c814914cf0dc86869fe400bd0f1a> ui:typingTime 0 .
+<http://accurator.nl/id_d1f2e0e53316c814914cf0dc86869fe400bd0f1a> oa:annotatedAt "2016-04-04T15:08:35+02:00"^^xsd:dateTime .
+<http://accurator.nl/id_d1f2e0e53316c814914cf0dc86869fe400bd0f1a> oa:annotatedBy user:everhoeff .
+<http://accurator.nl/id_d1f2e0e53316c814914cf0dc86869fe400bd0f1a> oa:hasBody resource:Joseph_Husband_of_Maria .
+<http://accurator.nl/id_d1f2e0e53316c814914cf0dc86869fe400bd0f1a> oa:hasTarget target:target_a3da1b9b3e3d344eb9253958b30ed8ea28b6c318 .
+<http://accurator.nl/id_d1f2e0e53316c814914cf0dc86869fe400bd0f1a> oa:hasTarget ubvu:print-218010001687 .
+<http://accurator.nl/id_d1f2e0e53316c814914cf0dc86869fe400bd0f1a> oa:motivatedBy oa:tagging .
+
+target:selector_a3da1b9b3e3d344eb9253958b30ed8ea28b6c318 a oa:FragmentSelector .
+target:selector_a3da1b9b3e3d344eb9253958b30ed8ea28b6c318 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_a3da1b9b3e3d344eb9253958b30ed8ea28b6c318 ui:h "0.39965691192958475"^^xsd:float .
+target:selector_a3da1b9b3e3d344eb9253958b30ed8ea28b6c318 ui:w "0.22136752136752136"^^xsd:float .
+target:selector_a3da1b9b3e3d344eb9253958b30ed8ea28b6c318 ui:x "0.252991452991453"^^xsd:float .
+target:selector_a3da1b9b3e3d344eb9253958b30ed8ea28b6c318 ui:y "0.3508004504247963"^^xsd:float .
+target:selector_a3da1b9b3e3d344eb9253958b30ed8ea28b6c318 rdf:value "#xywh=percent:25,35,22,40" .
+
+target:target_a3da1b9b3e3d344eb9253958b30ed8ea28b6c318 a oa:SpecificResource .
+target:target_a3da1b9b3e3d344eb9253958b30ed8ea28b6c318 oa:hasSelector target:selector_a3da1b9b3e3d344eb9253958b30ed8ea28b6c318 .
+target:target_a3da1b9b3e3d344eb9253958b30ed8ea28b6c318 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/726> .
