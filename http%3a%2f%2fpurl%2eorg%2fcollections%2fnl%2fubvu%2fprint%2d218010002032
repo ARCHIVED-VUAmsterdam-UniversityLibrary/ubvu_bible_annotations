@@ -154,6 +154,17 @@ nl:id_e3d760f70f91ad75a225d2d22b9ec6507eed65cf oa:hasTarget target:target_3f7675
 nl:id_e3d760f70f91ad75a225d2d22b9ec6507eed65cf oa:hasTarget ubvu:print-218010002032 .
 nl:id_e3d760f70f91ad75a225d2d22b9ec6507eed65cf oa:motivatedBy oa:tagging .
 
+nl:id_e5324696ad48e7c456a5a2b94d555618e6d20cdb a oa:Annotation .
+nl:id_e5324696ad48e7c456a5a2b94d555618e6d20cdb terms:title "Jezus Christus" .
+nl:id_e5324696ad48e7c456a5a2b94d555618e6d20cdb ui:annotationField bible:BibleCharacter .
+nl:id_e5324696ad48e7c456a5a2b94d555618e6d20cdb ui:typingTime 0 .
+nl:id_e5324696ad48e7c456a5a2b94d555618e6d20cdb oa:annotatedAt "2016-04-04T16:20:32+02:00"^^xsd:dateTime .
+nl:id_e5324696ad48e7c456a5a2b94d555618e6d20cdb oa:annotatedBy user:jbn415 .
+nl:id_e5324696ad48e7c456a5a2b94d555618e6d20cdb oa:hasBody resource:Jesus .
+nl:id_e5324696ad48e7c456a5a2b94d555618e6d20cdb oa:hasTarget target:target_542874c1b1a1e8395432044235d4d91cffc51293 .
+nl:id_e5324696ad48e7c456a5a2b94d555618e6d20cdb oa:hasTarget ubvu:print-218010002032 .
+nl:id_e5324696ad48e7c456a5a2b94d555618e6d20cdb oa:motivatedBy oa:tagging .
+
 nl:id_f31a3ba7c16dfff0aaa2f1b8a01214a63d3c9c9a a oa:Annotation .
 nl:id_f31a3ba7c16dfff0aaa2f1b8a01214a63d3c9c9a terms:title "Jezus Christus" .
 nl:id_f31a3ba7c16dfff0aaa2f1b8a01214a63d3c9c9a ui:annotationField bible:BibleCharacter .
