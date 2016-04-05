@@ -29,3 +29,13 @@ nl:id_ec20445e28f2ed0aea81aa3cafd9d8af22fafd57 oa:annotatedBy user:everhoeff .
 nl:id_ec20445e28f2ed0aea81aa3cafd9d8af22fafd57 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "the empty sepulcre" ] .
 nl:id_ec20445e28f2ed0aea81aa3cafd9d8af22fafd57 oa:hasTarget ubvu:print-218010002037 .
 nl:id_ec20445e28f2ed0aea81aa3cafd9d8af22fafd57 oa:motivatedBy oa:tagging .
+
+nl:id_ffde8a4e33da117072dd08bdf47e32fe4aab6e8c a oa:Annotation .
+nl:id_ffde8a4e33da117072dd08bdf47e32fe4aab6e8c terms:title "Ascension of Jesus" .
+nl:id_ffde8a4e33da117072dd08bdf47e32fe4aab6e8c ui:annotationField bible:ICBibleTheme .
+nl:id_ffde8a4e33da117072dd08bdf47e32fe4aab6e8c ui:typingTime 0 .
+nl:id_ffde8a4e33da117072dd08bdf47e32fe4aab6e8c oa:annotatedAt "2016-04-05T17:00:14+02:00"^^xsd:dateTime .
+nl:id_ffde8a4e33da117072dd08bdf47e32fe4aab6e8c oa:annotatedBy user:everhoeff .
+nl:id_ffde8a4e33da117072dd08bdf47e32fe4aab6e8c oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Ascension of Jesus" ] .
+nl:id_ffde8a4e33da117072dd08bdf47e32fe4aab6e8c oa:hasTarget ubvu:print-218010002037 .
+nl:id_ffde8a4e33da117072dd08bdf47e32fe4aab6e8c oa:motivatedBy oa:tagging .
