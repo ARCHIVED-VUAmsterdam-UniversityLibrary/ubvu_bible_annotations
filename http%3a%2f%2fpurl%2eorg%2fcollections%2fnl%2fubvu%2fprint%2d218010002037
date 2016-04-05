@@ -75,6 +75,17 @@ nl:id_ec20445e28f2ed0aea81aa3cafd9d8af22fafd57 oa:hasBody [ a content:ContentAsT
 nl:id_ec20445e28f2ed0aea81aa3cafd9d8af22fafd57 oa:hasTarget ubvu:print-218010002037 .
 nl:id_ec20445e28f2ed0aea81aa3cafd9d8af22fafd57 oa:motivatedBy oa:tagging .
 
+nl:id_f45b187bf9f2ca49cb212dcdf2c3458e37ccd36f a oa:Annotation .
+nl:id_f45b187bf9f2ca49cb212dcdf2c3458e37ccd36f terms:title "johannes,john" .
+nl:id_f45b187bf9f2ca49cb212dcdf2c3458e37ccd36f ui:annotationField bible:BibleCharacter .
+nl:id_f45b187bf9f2ca49cb212dcdf2c3458e37ccd36f ui:typingTime 0 .
+nl:id_f45b187bf9f2ca49cb212dcdf2c3458e37ccd36f oa:annotatedAt "2016-04-05T17:11:12+02:00"^^xsd:dateTime .
+nl:id_f45b187bf9f2ca49cb212dcdf2c3458e37ccd36f oa:annotatedBy user:everhoeff .
+nl:id_f45b187bf9f2ca49cb212dcdf2c3458e37ccd36f oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "johannes,john" ] .
+nl:id_f45b187bf9f2ca49cb212dcdf2c3458e37ccd36f oa:hasTarget target:target_ea371c8b6377b320bf61f9b27ca605248367befd .
+nl:id_f45b187bf9f2ca49cb212dcdf2c3458e37ccd36f oa:hasTarget ubvu:print-218010002037 .
+nl:id_f45b187bf9f2ca49cb212dcdf2c3458e37ccd36f oa:motivatedBy oa:tagging .
+
 nl:id_ff9dfc75b09bf1575c819abeff4ebb38a1b78968 a oa:Annotation .
 nl:id_ff9dfc75b09bf1575c819abeff4ebb38a1b78968 terms:title "the supper at Emmaus: Christ is recognized while blessing or breaking the bread" .
 nl:id_ff9dfc75b09bf1575c819abeff4ebb38a1b78968 ui:annotationField bible:ICBibleTheme .
@@ -111,6 +122,14 @@ target:selector_a3c31314ef1563ae32178aad18d8c7653137fabf ui:x "0.530551415797317
 target:selector_a3c31314ef1563ae32178aad18d8c7653137fabf ui:y "0.13394683026584867"^^xsd:float .
 target:selector_a3c31314ef1563ae32178aad18d8c7653137fabf rdf:value "#xywh=percent:53,13,6,3" .
 
+target:selector_ea371c8b6377b320bf61f9b27ca605248367befd a oa:FragmentSelector .
+target:selector_ea371c8b6377b320bf61f9b27ca605248367befd terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_ea371c8b6377b320bf61f9b27ca605248367befd ui:h "0.17484662576687116"^^xsd:float .
+target:selector_ea371c8b6377b320bf61f9b27ca605248367befd ui:w "0.27719821162444114"^^xsd:float .
+target:selector_ea371c8b6377b320bf61f9b27ca605248367befd ui:x "0.2786885245901639"^^xsd:float .
+target:selector_ea371c8b6377b320bf61f9b27ca605248367befd ui:y "0.5470347648261759"^^xsd:float .
+target:selector_ea371c8b6377b320bf61f9b27ca605248367befd rdf:value "#xywh=percent:28,55,28,17" .
+
 target:target_0b2bf051e4ac4040d2426b76b252a49a630586ee a oa:SpecificResource .
 target:target_0b2bf051e4ac4040d2426b76b252a49a630586ee oa:hasSelector target:selector_0b2bf051e4ac4040d2426b76b252a49a630586ee .
 target:target_0b2bf051e4ac4040d2426b76b252a49a630586ee oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/36> .
@@ -118,3 +137,7 @@ target:target_0b2bf051e4ac4040d2426b76b252a49a630586ee oa:hasSource <http://imag
 target:target_a3c31314ef1563ae32178aad18d8c7653137fabf a oa:SpecificResource .
 target:target_a3c31314ef1563ae32178aad18d8c7653137fabf oa:hasSelector target:selector_a3c31314ef1563ae32178aad18d8c7653137fabf .
 target:target_a3c31314ef1563ae32178aad18d8c7653137fabf oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/36> .
+
+target:target_ea371c8b6377b320bf61f9b27ca605248367befd a oa:SpecificResource .
+target:target_ea371c8b6377b320bf61f9b27ca605248367befd oa:hasSelector target:selector_ea371c8b6377b320bf61f9b27ca605248367befd .
+target:target_ea371c8b6377b320bf61f9b27ca605248367befd oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/36> .
