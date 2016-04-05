@@ -6,14 +6,40 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_693e8ef9a93ddb6f803aa5ef410ab3b812f7600d> a oa:Annotation .
-<http://accurator.nl/id_693e8ef9a93ddb6f803aa5ef410ab3b812f7600d> terms:title "oblation out of the spoils of the Midiates" .
-<http://accurator.nl/id_693e8ef9a93ddb6f803aa5ef410ab3b812f7600d> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
-<http://accurator.nl/id_693e8ef9a93ddb6f803aa5ef410ab3b812f7600d> ui:typingTime 0 .
-<http://accurator.nl/id_693e8ef9a93ddb6f803aa5ef410ab3b812f7600d> oa:annotatedAt "2016-04-05T16:50:27+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_693e8ef9a93ddb6f803aa5ef410ab3b812f7600d> oa:annotatedBy user:everhoeff .
-<http://accurator.nl/id_693e8ef9a93ddb6f803aa5ef410ab3b812f7600d> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "oblation out of the spoils of the Midiates" ] .
-<http://accurator.nl/id_693e8ef9a93ddb6f803aa5ef410ab3b812f7600d> oa:hasTarget ubvu:print-218010001303 .
-<http://accurator.nl/id_693e8ef9a93ddb6f803aa5ef410ab3b812f7600d> oa:motivatedBy oa:tagging .
+nl:id_693e8ef9a93ddb6f803aa5ef410ab3b812f7600d a oa:Annotation .
+nl:id_693e8ef9a93ddb6f803aa5ef410ab3b812f7600d terms:title "oblation out of the spoils of the Midiates" .
+nl:id_693e8ef9a93ddb6f803aa5ef410ab3b812f7600d ui:annotationField bible:ICBibleTheme .
+nl:id_693e8ef9a93ddb6f803aa5ef410ab3b812f7600d ui:typingTime 0 .
+nl:id_693e8ef9a93ddb6f803aa5ef410ab3b812f7600d oa:annotatedAt "2016-04-05T16:50:27+02:00"^^xsd:dateTime .
+nl:id_693e8ef9a93ddb6f803aa5ef410ab3b812f7600d oa:annotatedBy user:everhoeff .
+nl:id_693e8ef9a93ddb6f803aa5ef410ab3b812f7600d oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "oblation out of the spoils of the Midiates" ] .
+nl:id_693e8ef9a93ddb6f803aa5ef410ab3b812f7600d oa:hasTarget ubvu:print-218010001303 .
+nl:id_693e8ef9a93ddb6f803aa5ef410ab3b812f7600d oa:motivatedBy oa:tagging .
+
+nl:id_aee20c2dd539af5b80f3cba7707e753e69941796 a oa:Annotation .
+nl:id_aee20c2dd539af5b80f3cba7707e753e69941796 terms:title "mozes" .
+nl:id_aee20c2dd539af5b80f3cba7707e753e69941796 ui:annotationField bible:BibleCharacter .
+nl:id_aee20c2dd539af5b80f3cba7707e753e69941796 ui:typingTime 0 .
+nl:id_aee20c2dd539af5b80f3cba7707e753e69941796 oa:annotatedAt "2016-04-05T16:50:43+02:00"^^xsd:dateTime .
+nl:id_aee20c2dd539af5b80f3cba7707e753e69941796 oa:annotatedBy user:everhoeff .
+nl:id_aee20c2dd539af5b80f3cba7707e753e69941796 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "mozes" ] .
+nl:id_aee20c2dd539af5b80f3cba7707e753e69941796 oa:hasTarget target:target_96f687f8b44392400045f823e8b8e4417d826ddc .
+nl:id_aee20c2dd539af5b80f3cba7707e753e69941796 oa:hasTarget ubvu:print-218010001303 .
+nl:id_aee20c2dd539af5b80f3cba7707e753e69941796 oa:motivatedBy oa:tagging .
+
+target:selector_96f687f8b44392400045f823e8b8e4417d826ddc a oa:FragmentSelector .
+target:selector_96f687f8b44392400045f823e8b8e4417d826ddc terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_96f687f8b44392400045f823e8b8e4417d826ddc ui:h "0.34347571679344646"^^xsd:float .
+target:selector_96f687f8b44392400045f823e8b8e4417d826ddc ui:w "0.22032450896669514"^^xsd:float .
+target:selector_96f687f8b44392400045f823e8b8e4417d826ddc ui:x "0.5533731853116994"^^xsd:float .
+target:selector_96f687f8b44392400045f823e8b8e4417d826ddc ui:y "0.5067290813341135"^^xsd:float .
+target:selector_96f687f8b44392400045f823e8b8e4417d826ddc rdf:value "#xywh=percent:55,51,22,34" .
+
+target:target_96f687f8b44392400045f823e8b8e4417d826ddc a oa:SpecificResource .
+target:target_96f687f8b44392400045f823e8b8e4417d826ddc oa:hasSelector target:selector_96f687f8b44392400045f823e8b8e4417d826ddc .
+target:target_96f687f8b44392400045f823e8b8e4417d826ddc oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/344> .
