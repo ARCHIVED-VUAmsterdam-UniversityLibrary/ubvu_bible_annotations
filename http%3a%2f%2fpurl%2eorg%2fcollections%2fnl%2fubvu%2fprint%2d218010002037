@@ -6,6 +6,7 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
@@ -29,6 +30,17 @@ nl:id_5de9cf1ad412d67f2776d83dbc3afa50f385fc37 oa:annotatedBy user:everhoeff .
 nl:id_5de9cf1ad412d67f2776d83dbc3afa50f385fc37 oa:hasBody <http://iconclass.org/73E343> .
 nl:id_5de9cf1ad412d67f2776d83dbc3afa50f385fc37 oa:hasTarget ubvu:print-218010002037 .
 nl:id_5de9cf1ad412d67f2776d83dbc3afa50f385fc37 oa:motivatedBy oa:tagging .
+
+nl:id_9ac886bbc3c3c7a87952af898280f37dfeda1524 a oa:Annotation .
+nl:id_9ac886bbc3c3c7a87952af898280f37dfeda1524 terms:title "jesus" .
+nl:id_9ac886bbc3c3c7a87952af898280f37dfeda1524 ui:annotationField bible:BibleCharacter .
+nl:id_9ac886bbc3c3c7a87952af898280f37dfeda1524 ui:typingTime 0 .
+nl:id_9ac886bbc3c3c7a87952af898280f37dfeda1524 oa:annotatedAt "2016-04-05T17:07:20+02:00"^^xsd:dateTime .
+nl:id_9ac886bbc3c3c7a87952af898280f37dfeda1524 oa:annotatedBy user:everhoeff .
+nl:id_9ac886bbc3c3c7a87952af898280f37dfeda1524 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "jesus" ] .
+nl:id_9ac886bbc3c3c7a87952af898280f37dfeda1524 oa:hasTarget target:target_0b2bf051e4ac4040d2426b76b252a49a630586ee .
+nl:id_9ac886bbc3c3c7a87952af898280f37dfeda1524 oa:hasTarget ubvu:print-218010002037 .
+nl:id_9ac886bbc3c3c7a87952af898280f37dfeda1524 oa:motivatedBy oa:tagging .
 
 nl:id_ec20445e28f2ed0aea81aa3cafd9d8af22fafd57 a oa:Annotation .
 nl:id_ec20445e28f2ed0aea81aa3cafd9d8af22fafd57 terms:title "the empty sepulcre" .
@@ -59,3 +71,15 @@ nl:id_ffde8a4e33da117072dd08bdf47e32fe4aab6e8c oa:annotatedBy user:everhoeff .
 nl:id_ffde8a4e33da117072dd08bdf47e32fe4aab6e8c oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Ascension of Jesus" ] .
 nl:id_ffde8a4e33da117072dd08bdf47e32fe4aab6e8c oa:hasTarget ubvu:print-218010002037 .
 nl:id_ffde8a4e33da117072dd08bdf47e32fe4aab6e8c oa:motivatedBy oa:tagging .
+
+target:selector_0b2bf051e4ac4040d2426b76b252a49a630586ee a oa:FragmentSelector .
+target:selector_0b2bf051e4ac4040d2426b76b252a49a630586ee terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_0b2bf051e4ac4040d2426b76b252a49a630586ee ui:h "0.11451942740286299"^^xsd:float .
+target:selector_0b2bf051e4ac4040d2426b76b252a49a630586ee ui:w "0.12965722801788376"^^xsd:float .
+target:selector_0b2bf051e4ac4040d2426b76b252a49a630586ee ui:x "0.3412816691505216"^^xsd:float .
+target:selector_0b2bf051e4ac4040d2426b76b252a49a630586ee ui:y "0.18302658486707565"^^xsd:float .
+target:selector_0b2bf051e4ac4040d2426b76b252a49a630586ee rdf:value "#xywh=percent:34,18,13,11" .
+
+target:target_0b2bf051e4ac4040d2426b76b252a49a630586ee a oa:SpecificResource .
+target:target_0b2bf051e4ac4040d2426b76b252a49a630586ee oa:hasSelector target:selector_0b2bf051e4ac4040d2426b76b252a49a630586ee .
+target:target_0b2bf051e4ac4040d2426b76b252a49a630586ee oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/36> .
