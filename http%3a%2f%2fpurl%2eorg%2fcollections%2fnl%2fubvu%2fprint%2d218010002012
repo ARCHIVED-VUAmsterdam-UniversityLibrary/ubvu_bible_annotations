@@ -53,6 +53,16 @@ nl:id_99c49e8eb71c5272991a95e245e062be1de6ae6f oa:hasBody <http://iconclass.org/
 nl:id_99c49e8eb71c5272991a95e245e062be1de6ae6f oa:hasTarget ubvu:print-218010002012 .
 nl:id_99c49e8eb71c5272991a95e245e062be1de6ae6f oa:motivatedBy oa:tagging .
 
+nl:id_c7bc6cc559787a653ed029b7930633fbadfd54bd a oa:Annotation .
+nl:id_c7bc6cc559787a653ed029b7930633fbadfd54bd terms:title "the hand of God is against the city of Ashdod" .
+nl:id_c7bc6cc559787a653ed029b7930633fbadfd54bd ui:annotationField bible:ICBibleTheme .
+nl:id_c7bc6cc559787a653ed029b7930633fbadfd54bd ui:typingTime 0 .
+nl:id_c7bc6cc559787a653ed029b7930633fbadfd54bd oa:annotatedAt "2016-04-05T16:36:54+02:00"^^xsd:dateTime .
+nl:id_c7bc6cc559787a653ed029b7930633fbadfd54bd oa:annotatedBy user:everhoeff .
+nl:id_c7bc6cc559787a653ed029b7930633fbadfd54bd oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "the hand of God is against the city of Ashdod" ] .
+nl:id_c7bc6cc559787a653ed029b7930633fbadfd54bd oa:hasTarget ubvu:print-218010002012 .
+nl:id_c7bc6cc559787a653ed029b7930633fbadfd54bd oa:motivatedBy oa:tagging .
+
 nl:id_fd04341c50f4ef95b50e549b4c052b018554b6e3 a oa:Annotation .
 nl:id_fd04341c50f4ef95b50e549b4c052b018554b6e3 terms:title "The ark of convenant put on a cart" .
 nl:id_fd04341c50f4ef95b50e549b4c052b018554b6e3 ui:annotationField bible:ICBibleTheme .
