@@ -53,6 +53,17 @@ nl:id_99c49e8eb71c5272991a95e245e062be1de6ae6f oa:hasBody <http://iconclass.org/
 nl:id_99c49e8eb71c5272991a95e245e062be1de6ae6f oa:hasTarget ubvu:print-218010002012 .
 nl:id_99c49e8eb71c5272991a95e245e062be1de6ae6f oa:motivatedBy oa:tagging .
 
+nl:id_9a7e669312702f7101eb8a194ac0379ed8857698 a oa:Annotation .
+nl:id_9a7e669312702f7101eb8a194ac0379ed8857698 terms:title "Samuel" .
+nl:id_9a7e669312702f7101eb8a194ac0379ed8857698 ui:annotationField bible:BibleCharacter .
+nl:id_9a7e669312702f7101eb8a194ac0379ed8857698 ui:typingTime 0 .
+nl:id_9a7e669312702f7101eb8a194ac0379ed8857698 oa:annotatedAt "2016-04-05T16:44:47+02:00"^^xsd:dateTime .
+nl:id_9a7e669312702f7101eb8a194ac0379ed8857698 oa:annotatedBy user:everhoeff .
+nl:id_9a7e669312702f7101eb8a194ac0379ed8857698 oa:hasBody resource:Samuel .
+nl:id_9a7e669312702f7101eb8a194ac0379ed8857698 oa:hasTarget target:target_70537dbf531fe0c092ef348b8727dccb94a6bd37 .
+nl:id_9a7e669312702f7101eb8a194ac0379ed8857698 oa:hasTarget ubvu:print-218010002012 .
+nl:id_9a7e669312702f7101eb8a194ac0379ed8857698 oa:motivatedBy oa:tagging .
+
 nl:id_a307ad732da14cb1e68b3407a8c3b7de69b443d3 a oa:Annotation .
 nl:id_a307ad732da14cb1e68b3407a8c3b7de69b443d3 terms:title "Dagon was f before the ark" .
 nl:id_a307ad732da14cb1e68b3407a8c3b7de69b443d3 ui:annotationField bible:ICBibleTheme .
