@@ -54,6 +54,17 @@ nl:id_9ac886bbc3c3c7a87952af898280f37dfeda1524 oa:hasTarget target:target_0b2bf0
 nl:id_9ac886bbc3c3c7a87952af898280f37dfeda1524 oa:hasTarget ubvu:print-218010002037 .
 nl:id_9ac886bbc3c3c7a87952af898280f37dfeda1524 oa:motivatedBy oa:tagging .
 
+nl:id_a954f0d4d1c11b52c6e10ef2e571c0c0ef7e2f3c a oa:Annotation .
+nl:id_a954f0d4d1c11b52c6e10ef2e571c0c0ef7e2f3c terms:title "petrus" .
+nl:id_a954f0d4d1c11b52c6e10ef2e571c0c0ef7e2f3c ui:annotationField bible:BibleCharacter .
+nl:id_a954f0d4d1c11b52c6e10ef2e571c0c0ef7e2f3c ui:typingTime 0 .
+nl:id_a954f0d4d1c11b52c6e10ef2e571c0c0ef7e2f3c oa:annotatedAt "2016-04-05T17:09:40+02:00"^^xsd:dateTime .
+nl:id_a954f0d4d1c11b52c6e10ef2e571c0c0ef7e2f3c oa:annotatedBy user:everhoeff .
+nl:id_a954f0d4d1c11b52c6e10ef2e571c0c0ef7e2f3c oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "petrus" ] .
+nl:id_a954f0d4d1c11b52c6e10ef2e571c0c0ef7e2f3c oa:hasTarget target:target_a3c31314ef1563ae32178aad18d8c7653137fabf .
+nl:id_a954f0d4d1c11b52c6e10ef2e571c0c0ef7e2f3c oa:hasTarget ubvu:print-218010002037 .
+nl:id_a954f0d4d1c11b52c6e10ef2e571c0c0ef7e2f3c oa:motivatedBy oa:tagging .
+
 nl:id_ec20445e28f2ed0aea81aa3cafd9d8af22fafd57 a oa:Annotation .
 nl:id_ec20445e28f2ed0aea81aa3cafd9d8af22fafd57 terms:title "the empty sepulcre" .
 nl:id_ec20445e28f2ed0aea81aa3cafd9d8af22fafd57 ui:annotationField bible:ICBibleTheme .
