@@ -7,13 +7,25 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_cfd3232e6536f6f632ddea085c2d27946f5a4030> a oa:Annotation .
-<http://accurator.nl/id_cfd3232e6536f6f632ddea085c2d27946f5a4030> terms:title "Joshua and the battle with the five kings" .
-<http://accurator.nl/id_cfd3232e6536f6f632ddea085c2d27946f5a4030> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
-<http://accurator.nl/id_cfd3232e6536f6f632ddea085c2d27946f5a4030> ui:typingTime 0 .
-<http://accurator.nl/id_cfd3232e6536f6f632ddea085c2d27946f5a4030> oa:annotatedAt "2016-04-05T17:31:51+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_cfd3232e6536f6f632ddea085c2d27946f5a4030> oa:annotatedBy user:everhoeff .
-<http://accurator.nl/id_cfd3232e6536f6f632ddea085c2d27946f5a4030> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Joshua and the battle with the five kings" ] .
-<http://accurator.nl/id_cfd3232e6536f6f632ddea085c2d27946f5a4030> oa:hasTarget ubvu:print-218010001342 .
-<http://accurator.nl/id_cfd3232e6536f6f632ddea085c2d27946f5a4030> oa:motivatedBy oa:tagging .
+nl:id_6afa6f402e102810abaf65601707b355cfad37ee a oa:Annotation .
+nl:id_6afa6f402e102810abaf65601707b355cfad37ee terms:title "Joshua orders the sun and the moon to stand still over Gibeon and Aijalon until the Amorites who had besieged the city of Gibeon are routed" .
+nl:id_6afa6f402e102810abaf65601707b355cfad37ee ui:annotationField bible:ICBibleTheme .
+nl:id_6afa6f402e102810abaf65601707b355cfad37ee ui:typingTime 0 .
+nl:id_6afa6f402e102810abaf65601707b355cfad37ee oa:annotatedAt "2016-04-05T17:32:10+02:00"^^xsd:dateTime .
+nl:id_6afa6f402e102810abaf65601707b355cfad37ee oa:annotatedBy user:everhoeff .
+nl:id_6afa6f402e102810abaf65601707b355cfad37ee oa:hasBody <http://iconclass.org/71E52942> .
+nl:id_6afa6f402e102810abaf65601707b355cfad37ee oa:hasTarget ubvu:print-218010001342 .
+nl:id_6afa6f402e102810abaf65601707b355cfad37ee oa:motivatedBy oa:tagging .
+
+nl:id_cfd3232e6536f6f632ddea085c2d27946f5a4030 a oa:Annotation .
+nl:id_cfd3232e6536f6f632ddea085c2d27946f5a4030 terms:title "Joshua and the battle with the five kings" .
+nl:id_cfd3232e6536f6f632ddea085c2d27946f5a4030 ui:annotationField bible:ICBibleTheme .
+nl:id_cfd3232e6536f6f632ddea085c2d27946f5a4030 ui:typingTime 0 .
+nl:id_cfd3232e6536f6f632ddea085c2d27946f5a4030 oa:annotatedAt "2016-04-05T17:31:51+02:00"^^xsd:dateTime .
+nl:id_cfd3232e6536f6f632ddea085c2d27946f5a4030 oa:annotatedBy user:everhoeff .
+nl:id_cfd3232e6536f6f632ddea085c2d27946f5a4030 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Joshua and the battle with the five kings" ] .
+nl:id_cfd3232e6536f6f632ddea085c2d27946f5a4030 oa:hasTarget ubvu:print-218010001342 .
+nl:id_cfd3232e6536f6f632ddea085c2d27946f5a4030 oa:motivatedBy oa:tagging .
