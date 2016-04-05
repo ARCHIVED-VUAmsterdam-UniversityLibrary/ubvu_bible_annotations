@@ -6,14 +6,40 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_cf57ff6db2ef8d15da2232434abc3243a0a26e73> a oa:Annotation .
-<http://accurator.nl/id_cf57ff6db2ef8d15da2232434abc3243a0a26e73> terms:title "Isaiah saw the Lord sitting on the trone" .
-<http://accurator.nl/id_cf57ff6db2ef8d15da2232434abc3243a0a26e73> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
-<http://accurator.nl/id_cf57ff6db2ef8d15da2232434abc3243a0a26e73> ui:typingTime 0 .
-<http://accurator.nl/id_cf57ff6db2ef8d15da2232434abc3243a0a26e73> oa:annotatedAt "2016-04-05T17:16:52+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_cf57ff6db2ef8d15da2232434abc3243a0a26e73> oa:annotatedBy user:everhoeff .
-<http://accurator.nl/id_cf57ff6db2ef8d15da2232434abc3243a0a26e73> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Isaiah saw the Lord sitting on the trone" ] .
-<http://accurator.nl/id_cf57ff6db2ef8d15da2232434abc3243a0a26e73> oa:hasTarget ubvu:print-218010001569 .
-<http://accurator.nl/id_cf57ff6db2ef8d15da2232434abc3243a0a26e73> oa:motivatedBy oa:tagging .
+nl:id_46c43726e8f8b2f3a5621524cf95fc7d0ccf6511 a oa:Annotation .
+nl:id_46c43726e8f8b2f3a5621524cf95fc7d0ccf6511 terms:title "isaiah" .
+nl:id_46c43726e8f8b2f3a5621524cf95fc7d0ccf6511 ui:annotationField bible:BibleCharacter .
+nl:id_46c43726e8f8b2f3a5621524cf95fc7d0ccf6511 ui:typingTime 0 .
+nl:id_46c43726e8f8b2f3a5621524cf95fc7d0ccf6511 oa:annotatedAt "2016-04-05T17:18:10+02:00"^^xsd:dateTime .
+nl:id_46c43726e8f8b2f3a5621524cf95fc7d0ccf6511 oa:annotatedBy user:everhoeff .
+nl:id_46c43726e8f8b2f3a5621524cf95fc7d0ccf6511 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "isaiah" ] .
+nl:id_46c43726e8f8b2f3a5621524cf95fc7d0ccf6511 oa:hasTarget target:target_8a971993ff83189e79738ceffe2f18ce69d1617a .
+nl:id_46c43726e8f8b2f3a5621524cf95fc7d0ccf6511 oa:hasTarget ubvu:print-218010001569 .
+nl:id_46c43726e8f8b2f3a5621524cf95fc7d0ccf6511 oa:motivatedBy oa:tagging .
+
+nl:id_cf57ff6db2ef8d15da2232434abc3243a0a26e73 a oa:Annotation .
+nl:id_cf57ff6db2ef8d15da2232434abc3243a0a26e73 terms:title "Isaiah saw the Lord sitting on the trone" .
+nl:id_cf57ff6db2ef8d15da2232434abc3243a0a26e73 ui:annotationField bible:ICBibleTheme .
+nl:id_cf57ff6db2ef8d15da2232434abc3243a0a26e73 ui:typingTime 0 .
+nl:id_cf57ff6db2ef8d15da2232434abc3243a0a26e73 oa:annotatedAt "2016-04-05T17:16:52+02:00"^^xsd:dateTime .
+nl:id_cf57ff6db2ef8d15da2232434abc3243a0a26e73 oa:annotatedBy user:everhoeff .
+nl:id_cf57ff6db2ef8d15da2232434abc3243a0a26e73 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Isaiah saw the Lord sitting on the trone" ] .
+nl:id_cf57ff6db2ef8d15da2232434abc3243a0a26e73 oa:hasTarget ubvu:print-218010001569 .
+nl:id_cf57ff6db2ef8d15da2232434abc3243a0a26e73 oa:motivatedBy oa:tagging .
+
+target:selector_8a971993ff83189e79738ceffe2f18ce69d1617a a oa:FragmentSelector .
+target:selector_8a971993ff83189e79738ceffe2f18ce69d1617a terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_8a971993ff83189e79738ceffe2f18ce69d1617a ui:h "0.1311806256306761"^^xsd:float .
+target:selector_8a971993ff83189e79738ceffe2f18ce69d1617a ui:w "0.15797317436661698"^^xsd:float .
+target:selector_8a971993ff83189e79738ceffe2f18ce69d1617a ui:x "0.44113263785394935"^^xsd:float .
+target:selector_8a971993ff83189e79738ceffe2f18ce69d1617a ui:y "0.1442986881937437"^^xsd:float .
+target:selector_8a971993ff83189e79738ceffe2f18ce69d1617a rdf:value "#xywh=percent:44,14,16,13" .
+
+target:target_8a971993ff83189e79738ceffe2f18ce69d1617a a oa:SpecificResource .
+target:target_8a971993ff83189e79738ceffe2f18ce69d1617a oa:hasSelector target:selector_8a971993ff83189e79738ceffe2f18ce69d1617a .
+target:target_8a971993ff83189e79738ceffe2f18ce69d1617a oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/610> .
