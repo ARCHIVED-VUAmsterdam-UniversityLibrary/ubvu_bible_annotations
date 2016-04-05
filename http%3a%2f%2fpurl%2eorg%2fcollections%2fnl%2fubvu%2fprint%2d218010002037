@@ -1,0 +1,19 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix user: <http://accurator.nl/user#> .
+
+<http://accurator.nl/id_4e81929d07820ca845e3fdbf308e952a8b6f1d8b> a oa:Annotation .
+<http://accurator.nl/id_4e81929d07820ca845e3fdbf308e952a8b6f1d8b> terms:title "jesus crucified" .
+<http://accurator.nl/id_4e81929d07820ca845e3fdbf308e952a8b6f1d8b> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
+<http://accurator.nl/id_4e81929d07820ca845e3fdbf308e952a8b6f1d8b> ui:typingTime 0 .
+<http://accurator.nl/id_4e81929d07820ca845e3fdbf308e952a8b6f1d8b> oa:annotatedAt "2016-04-05T16:52:44+02:00"^^xsd:dateTime .
+<http://accurator.nl/id_4e81929d07820ca845e3fdbf308e952a8b6f1d8b> oa:annotatedBy user:everhoeff .
+<http://accurator.nl/id_4e81929d07820ca845e3fdbf308e952a8b6f1d8b> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "jesus crucified" ] .
+<http://accurator.nl/id_4e81929d07820ca845e3fdbf308e952a8b6f1d8b> oa:hasTarget ubvu:print-218010002037 .
+<http://accurator.nl/id_4e81929d07820ca845e3fdbf308e952a8b6f1d8b> oa:motivatedBy oa:tagging .
