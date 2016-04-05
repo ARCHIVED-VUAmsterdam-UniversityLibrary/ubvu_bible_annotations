@@ -30,6 +30,16 @@ nl:id_ec20445e28f2ed0aea81aa3cafd9d8af22fafd57 oa:hasBody [ a content:ContentAsT
 nl:id_ec20445e28f2ed0aea81aa3cafd9d8af22fafd57 oa:hasTarget ubvu:print-218010002037 .
 nl:id_ec20445e28f2ed0aea81aa3cafd9d8af22fafd57 oa:motivatedBy oa:tagging .
 
+nl:id_ff9dfc75b09bf1575c819abeff4ebb38a1b78968 a oa:Annotation .
+nl:id_ff9dfc75b09bf1575c819abeff4ebb38a1b78968 terms:title "the supper at Emmaus: Christ is recognized while blessing or breaking the bread" .
+nl:id_ff9dfc75b09bf1575c819abeff4ebb38a1b78968 ui:annotationField bible:ICBibleTheme .
+nl:id_ff9dfc75b09bf1575c819abeff4ebb38a1b78968 ui:typingTime 0 .
+nl:id_ff9dfc75b09bf1575c819abeff4ebb38a1b78968 oa:annotatedAt "2016-04-05T17:05:19+02:00"^^xsd:dateTime .
+nl:id_ff9dfc75b09bf1575c819abeff4ebb38a1b78968 oa:annotatedBy user:everhoeff .
+nl:id_ff9dfc75b09bf1575c819abeff4ebb38a1b78968 oa:hasBody <http://iconclass.org/73E343> .
+nl:id_ff9dfc75b09bf1575c819abeff4ebb38a1b78968 oa:hasTarget ubvu:print-218010002037 .
+nl:id_ff9dfc75b09bf1575c819abeff4ebb38a1b78968 oa:motivatedBy oa:tagging .
+
 nl:id_ffde8a4e33da117072dd08bdf47e32fe4aab6e8c a oa:Annotation .
 nl:id_ffde8a4e33da117072dd08bdf47e32fe4aab6e8c terms:title "Ascension of Jesus" .
 nl:id_ffde8a4e33da117072dd08bdf47e32fe4aab6e8c ui:annotationField bible:ICBibleTheme .
