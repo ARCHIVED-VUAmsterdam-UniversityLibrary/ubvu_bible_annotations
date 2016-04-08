@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -8,17 +9,30 @@
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_7e0160314e6418bcc99f514235f8f7e18172524e> a oa:Annotation .
-<http://accurator.nl/id_7e0160314e6418bcc99f514235f8f7e18172524e> terms:title "josef son of Isaac" .
-<http://accurator.nl/id_7e0160314e6418bcc99f514235f8f7e18172524e> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_7e0160314e6418bcc99f514235f8f7e18172524e> ui:typingTime 0 .
-<http://accurator.nl/id_7e0160314e6418bcc99f514235f8f7e18172524e> oa:annotatedAt "2016-04-08T17:38:11+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_7e0160314e6418bcc99f514235f8f7e18172524e> oa:annotatedBy user:everhoeff .
-<http://accurator.nl/id_7e0160314e6418bcc99f514235f8f7e18172524e> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "josef son of Isaac" ] .
-<http://accurator.nl/id_7e0160314e6418bcc99f514235f8f7e18172524e> oa:hasTarget target:target_3ad151ad200e34c42770a8edaa52492c7a195aaf .
-<http://accurator.nl/id_7e0160314e6418bcc99f514235f8f7e18172524e> oa:hasTarget ubvu:print-218010001167 .
-<http://accurator.nl/id_7e0160314e6418bcc99f514235f8f7e18172524e> oa:motivatedBy oa:tagging .
+nl:id_5385951dc22f5116bef2b17a6db25e637c2276b6 a oa:Annotation .
+nl:id_5385951dc22f5116bef2b17a6db25e637c2276b6 terms:title "pharao king of Egypt" .
+nl:id_5385951dc22f5116bef2b17a6db25e637c2276b6 ui:annotationField bible:BibleCharacter .
+nl:id_5385951dc22f5116bef2b17a6db25e637c2276b6 ui:typingTime 0 .
+nl:id_5385951dc22f5116bef2b17a6db25e637c2276b6 oa:annotatedAt "2016-04-08T17:38:46+02:00"^^xsd:dateTime .
+nl:id_5385951dc22f5116bef2b17a6db25e637c2276b6 oa:annotatedBy user:everhoeff .
+nl:id_5385951dc22f5116bef2b17a6db25e637c2276b6 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "pharao king of Egypt" ] .
+nl:id_5385951dc22f5116bef2b17a6db25e637c2276b6 oa:hasTarget target:target_58451562aa610011f0ddc075f4d3262330816642 .
+nl:id_5385951dc22f5116bef2b17a6db25e637c2276b6 oa:hasTarget ubvu:print-218010001167 .
+nl:id_5385951dc22f5116bef2b17a6db25e637c2276b6 oa:motivatedBy oa:tagging .
+
+nl:id_7e0160314e6418bcc99f514235f8f7e18172524e a oa:Annotation .
+nl:id_7e0160314e6418bcc99f514235f8f7e18172524e terms:title "josef son of Isaac" .
+nl:id_7e0160314e6418bcc99f514235f8f7e18172524e ui:annotationField bible:BibleCharacter .
+nl:id_7e0160314e6418bcc99f514235f8f7e18172524e ui:typingTime 0 .
+nl:id_7e0160314e6418bcc99f514235f8f7e18172524e oa:annotatedAt "2016-04-08T17:38:11+02:00"^^xsd:dateTime .
+nl:id_7e0160314e6418bcc99f514235f8f7e18172524e oa:annotatedBy user:everhoeff .
+nl:id_7e0160314e6418bcc99f514235f8f7e18172524e oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "josef son of Isaac" ] .
+nl:id_7e0160314e6418bcc99f514235f8f7e18172524e oa:hasTarget target:target_3ad151ad200e34c42770a8edaa52492c7a195aaf .
+nl:id_7e0160314e6418bcc99f514235f8f7e18172524e oa:hasTarget ubvu:print-218010001167 .
+nl:id_7e0160314e6418bcc99f514235f8f7e18172524e oa:motivatedBy oa:tagging .
 
 target:selector_3ad151ad200e34c42770a8edaa52492c7a195aaf a oa:FragmentSelector .
 target:selector_3ad151ad200e34c42770a8edaa52492c7a195aaf terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -28,6 +42,18 @@ target:selector_3ad151ad200e34c42770a8edaa52492c7a195aaf ui:x "0.050384286934244
 target:selector_3ad151ad200e34c42770a8edaa52492c7a195aaf ui:y "0.385632183908046"^^xsd:float .
 target:selector_3ad151ad200e34c42770a8edaa52492c7a195aaf rdf:value "#xywh=percent:5,39,26,41" .
 
+target:selector_58451562aa610011f0ddc075f4d3262330816642 a oa:FragmentSelector .
+target:selector_58451562aa610011f0ddc075f4d3262330816642 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_58451562aa610011f0ddc075f4d3262330816642 ui:h "0.2620689655172414"^^xsd:float .
+target:selector_58451562aa610011f0ddc075f4d3262330816642 ui:w "0.2220324508966695"^^xsd:float .
+target:selector_58451562aa610011f0ddc075f4d3262330816642 ui:x "0.5414175918018788"^^xsd:float .
+target:selector_58451562aa610011f0ddc075f4d3262330816642 ui:y "0.3482758620689655"^^xsd:float .
+target:selector_58451562aa610011f0ddc075f4d3262330816642 rdf:value "#xywh=percent:54,35,22,26" .
+
 target:target_3ad151ad200e34c42770a8edaa52492c7a195aaf a oa:SpecificResource .
 target:target_3ad151ad200e34c42770a8edaa52492c7a195aaf oa:hasSelector target:selector_3ad151ad200e34c42770a8edaa52492c7a195aaf .
 target:target_3ad151ad200e34c42770a8edaa52492c7a195aaf oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/208> .
+
+target:target_58451562aa610011f0ddc075f4d3262330816642 a oa:SpecificResource .
+target:target_58451562aa610011f0ddc075f4d3262330816642 oa:hasSelector target:selector_58451562aa610011f0ddc075f4d3262330816642 .
+target:target_58451562aa610011f0ddc075f4d3262330816642 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/208> .
