@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -7,18 +8,32 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_96b9eb4e948d3b24a5422ff53da77005f1289599> a oa:Annotation .
-<http://accurator.nl/id_96b9eb4e948d3b24a5422ff53da77005f1289599> terms:title "jephthah'daughter" .
-<http://accurator.nl/id_96b9eb4e948d3b24a5422ff53da77005f1289599> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_96b9eb4e948d3b24a5422ff53da77005f1289599> ui:typingTime 0 .
-<http://accurator.nl/id_96b9eb4e948d3b24a5422ff53da77005f1289599> oa:annotatedAt "2016-04-08T17:11:27+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_96b9eb4e948d3b24a5422ff53da77005f1289599> oa:annotatedBy user:everhoeff .
-<http://accurator.nl/id_96b9eb4e948d3b24a5422ff53da77005f1289599> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "jephthah'daughter" ] .
-<http://accurator.nl/id_96b9eb4e948d3b24a5422ff53da77005f1289599> oa:hasTarget target:target_cfd36f2930702107964668ae0191d171ff0cacc1 .
-<http://accurator.nl/id_96b9eb4e948d3b24a5422ff53da77005f1289599> oa:hasTarget ubvu:print-218010001389 .
-<http://accurator.nl/id_96b9eb4e948d3b24a5422ff53da77005f1289599> oa:motivatedBy oa:tagging .
+nl:id_96b9eb4e948d3b24a5422ff53da77005f1289599 a oa:Annotation .
+nl:id_96b9eb4e948d3b24a5422ff53da77005f1289599 terms:title "jephthah'daughter" .
+nl:id_96b9eb4e948d3b24a5422ff53da77005f1289599 ui:annotationField bible:BibleCharacter .
+nl:id_96b9eb4e948d3b24a5422ff53da77005f1289599 ui:typingTime 0 .
+nl:id_96b9eb4e948d3b24a5422ff53da77005f1289599 oa:annotatedAt "2016-04-08T17:11:27+02:00"^^xsd:dateTime .
+nl:id_96b9eb4e948d3b24a5422ff53da77005f1289599 oa:annotatedBy user:everhoeff .
+nl:id_96b9eb4e948d3b24a5422ff53da77005f1289599 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "jephthah'daughter" ] .
+nl:id_96b9eb4e948d3b24a5422ff53da77005f1289599 oa:hasTarget target:target_cfd36f2930702107964668ae0191d171ff0cacc1 .
+nl:id_96b9eb4e948d3b24a5422ff53da77005f1289599 oa:hasTarget ubvu:print-218010001389 .
+nl:id_96b9eb4e948d3b24a5422ff53da77005f1289599 oa:motivatedBy oa:tagging .
+
+nl:id_9b5311100325787743c798e0c5b555a5b29bed98 a oa:Annotation .
+nl:id_9b5311100325787743c798e0c5b555a5b29bed98 terms:title "Jephthah" .
+nl:id_9b5311100325787743c798e0c5b555a5b29bed98 ui:annotationField bible:BibleCharacter .
+nl:id_9b5311100325787743c798e0c5b555a5b29bed98 ui:typingTime 0 .
+nl:id_9b5311100325787743c798e0c5b555a5b29bed98 oa:annotatedAt "2016-04-08T17:12:15+02:00"^^xsd:dateTime .
+nl:id_9b5311100325787743c798e0c5b555a5b29bed98 oa:annotatedBy user:everhoeff .
+nl:id_9b5311100325787743c798e0c5b555a5b29bed98 oa:hasBody resource:Jephthah .
+nl:id_9b5311100325787743c798e0c5b555a5b29bed98 oa:hasTarget target:target_d49cff29f9317645c4a7079b3b94b528cb992bcf .
+nl:id_9b5311100325787743c798e0c5b555a5b29bed98 oa:hasTarget ubvu:print-218010001389 .
+nl:id_9b5311100325787743c798e0c5b555a5b29bed98 oa:motivatedBy oa:tagging .
 
 target:selector_cfd36f2930702107964668ae0191d171ff0cacc1 a oa:FragmentSelector .
 target:selector_cfd36f2930702107964668ae0191d171ff0cacc1 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -28,6 +43,18 @@ target:selector_cfd36f2930702107964668ae0191d171ff0cacc1 ui:x "0.144329896907216
 target:selector_cfd36f2930702107964668ae0191d171ff0cacc1 ui:y "0.4846098783106657"^^xsd:float .
 target:selector_cfd36f2930702107964668ae0191d171ff0cacc1 rdf:value "#xywh=percent:14,48,15,31" .
 
+target:selector_d49cff29f9317645c4a7079b3b94b528cb992bcf a oa:FragmentSelector .
+target:selector_d49cff29f9317645c4a7079b3b94b528cb992bcf terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_d49cff29f9317645c4a7079b3b94b528cb992bcf ui:h "0.28919112383679313"^^xsd:float .
+target:selector_d49cff29f9317645c4a7079b3b94b528cb992bcf ui:w "0.27319587628865977"^^xsd:float .
+target:selector_d49cff29f9317645c4a7079b3b94b528cb992bcf ui:x "0.4618556701030928"^^xsd:float .
+target:selector_d49cff29f9317645c4a7079b3b94b528cb992bcf ui:y "0.4831782390837509"^^xsd:float .
+target:selector_d49cff29f9317645c4a7079b3b94b528cb992bcf rdf:value "#xywh=percent:46,48,27,29" .
+
 target:target_cfd36f2930702107964668ae0191d171ff0cacc1 a oa:SpecificResource .
 target:target_cfd36f2930702107964668ae0191d171ff0cacc1 oa:hasSelector target:selector_cfd36f2930702107964668ae0191d171ff0cacc1 .
 target:target_cfd36f2930702107964668ae0191d171ff0cacc1 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/430> .
+
+target:target_d49cff29f9317645c4a7079b3b94b528cb992bcf a oa:SpecificResource .
+target:target_d49cff29f9317645c4a7079b3b94b528cb992bcf oa:hasSelector target:selector_d49cff29f9317645c4a7079b3b94b528cb992bcf .
+target:target_d49cff29f9317645c4a7079b3b94b528cb992bcf oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/430> .
