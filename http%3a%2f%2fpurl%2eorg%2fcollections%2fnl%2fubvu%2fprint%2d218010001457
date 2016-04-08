@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -8,17 +9,38 @@
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_a9b0f74b37a9f43284cef87c3bcaf413968a9867> a oa:Annotation .
-<http://accurator.nl/id_a9b0f74b37a9f43284cef87c3bcaf413968a9867> terms:title "david son of Jess" .
-<http://accurator.nl/id_a9b0f74b37a9f43284cef87c3bcaf413968a9867> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_a9b0f74b37a9f43284cef87c3bcaf413968a9867> ui:typingTime 0 .
-<http://accurator.nl/id_a9b0f74b37a9f43284cef87c3bcaf413968a9867> oa:annotatedAt "2016-04-08T17:04:46+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_a9b0f74b37a9f43284cef87c3bcaf413968a9867> oa:annotatedBy user:everhoeff .
-<http://accurator.nl/id_a9b0f74b37a9f43284cef87c3bcaf413968a9867> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "david son of Jess" ] .
-<http://accurator.nl/id_a9b0f74b37a9f43284cef87c3bcaf413968a9867> oa:hasTarget target:target_de204fd3fe0a955189694d007853e3eb2d7de8a3 .
-<http://accurator.nl/id_a9b0f74b37a9f43284cef87c3bcaf413968a9867> oa:hasTarget ubvu:print-218010001457 .
-<http://accurator.nl/id_a9b0f74b37a9f43284cef87c3bcaf413968a9867> oa:motivatedBy oa:tagging .
+nl:id_a9b0f74b37a9f43284cef87c3bcaf413968a9867 a oa:Annotation .
+nl:id_a9b0f74b37a9f43284cef87c3bcaf413968a9867 terms:title "david son of Jess" .
+nl:id_a9b0f74b37a9f43284cef87c3bcaf413968a9867 ui:annotationField bible:BibleCharacter .
+nl:id_a9b0f74b37a9f43284cef87c3bcaf413968a9867 ui:typingTime 0 .
+nl:id_a9b0f74b37a9f43284cef87c3bcaf413968a9867 oa:annotatedAt "2016-04-08T17:04:46+02:00"^^xsd:dateTime .
+nl:id_a9b0f74b37a9f43284cef87c3bcaf413968a9867 oa:annotatedBy user:everhoeff .
+nl:id_a9b0f74b37a9f43284cef87c3bcaf413968a9867 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "david son of Jess" ] .
+nl:id_a9b0f74b37a9f43284cef87c3bcaf413968a9867 oa:hasTarget target:target_de204fd3fe0a955189694d007853e3eb2d7de8a3 .
+nl:id_a9b0f74b37a9f43284cef87c3bcaf413968a9867 oa:hasTarget ubvu:print-218010001457 .
+nl:id_a9b0f74b37a9f43284cef87c3bcaf413968a9867 oa:motivatedBy oa:tagging .
+
+nl:id_d0fabff4dc6044041c1ef0008123fd0f7000058e a oa:Annotation .
+nl:id_d0fabff4dc6044041c1ef0008123fd0f7000058e terms:title "david son of Jesse" .
+nl:id_d0fabff4dc6044041c1ef0008123fd0f7000058e ui:annotationField bible:BibleCharacter .
+nl:id_d0fabff4dc6044041c1ef0008123fd0f7000058e ui:typingTime 0 .
+nl:id_d0fabff4dc6044041c1ef0008123fd0f7000058e oa:annotatedAt "2016-04-08T17:05:17+02:00"^^xsd:dateTime .
+nl:id_d0fabff4dc6044041c1ef0008123fd0f7000058e oa:annotatedBy user:everhoeff .
+nl:id_d0fabff4dc6044041c1ef0008123fd0f7000058e oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "david son of Jesse" ] .
+nl:id_d0fabff4dc6044041c1ef0008123fd0f7000058e oa:hasTarget target:target_14b1e3048e30c14bf8d5aa92435ba9bbed72589c .
+nl:id_d0fabff4dc6044041c1ef0008123fd0f7000058e oa:hasTarget ubvu:print-218010001457 .
+nl:id_d0fabff4dc6044041c1ef0008123fd0f7000058e oa:motivatedBy oa:tagging .
+
+target:selector_14b1e3048e30c14bf8d5aa92435ba9bbed72589c a oa:FragmentSelector .
+target:selector_14b1e3048e30c14bf8d5aa92435ba9bbed72589c terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_14b1e3048e30c14bf8d5aa92435ba9bbed72589c ui:h "0.2059447983014862"^^xsd:float .
+target:selector_14b1e3048e30c14bf8d5aa92435ba9bbed72589c ui:w "0.36391752577319586"^^xsd:float .
+target:selector_14b1e3048e30c14bf8d5aa92435ba9bbed72589c ui:x "0.41237113402061853"^^xsd:float .
+target:selector_14b1e3048e30c14bf8d5aa92435ba9bbed72589c ui:y "0.524416135881104"^^xsd:float .
+target:selector_14b1e3048e30c14bf8d5aa92435ba9bbed72589c rdf:value "#xywh=percent:41,52,36,21" .
 
 target:selector_de204fd3fe0a955189694d007853e3eb2d7de8a3 a oa:FragmentSelector .
 target:selector_de204fd3fe0a955189694d007853e3eb2d7de8a3 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -27,6 +49,10 @@ target:selector_de204fd3fe0a955189694d007853e3eb2d7de8a3 ui:w "0.353608247422680
 target:selector_de204fd3fe0a955189694d007853e3eb2d7de8a3 ui:x "0.4092783505154639"^^xsd:float .
 target:selector_de204fd3fe0a955189694d007853e3eb2d7de8a3 ui:y "0.5230007077140835"^^xsd:float .
 target:selector_de204fd3fe0a955189694d007853e3eb2d7de8a3 rdf:value "#xywh=percent:41,52,35,23" .
+
+target:target_14b1e3048e30c14bf8d5aa92435ba9bbed72589c a oa:SpecificResource .
+target:target_14b1e3048e30c14bf8d5aa92435ba9bbed72589c oa:hasSelector target:selector_14b1e3048e30c14bf8d5aa92435ba9bbed72589c .
+target:target_14b1e3048e30c14bf8d5aa92435ba9bbed72589c oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/498> .
 
 target:target_de204fd3fe0a955189694d007853e3eb2d7de8a3 a oa:SpecificResource .
 target:target_de204fd3fe0a955189694d007853e3eb2d7de8a3 oa:hasSelector target:selector_de204fd3fe0a955189694d007853e3eb2d7de8a3 .
