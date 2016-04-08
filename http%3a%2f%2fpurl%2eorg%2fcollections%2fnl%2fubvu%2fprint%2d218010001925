@@ -1,0 +1,33 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix user: <http://accurator.nl/user#> .
+
+<http://accurator.nl/id_d299d44a400c61e1f5ce821ae3915557fa140913> a oa:Annotation .
+<http://accurator.nl/id_d299d44a400c61e1f5ce821ae3915557fa140913> terms:title "Elymas" .
+<http://accurator.nl/id_d299d44a400c61e1f5ce821ae3915557fa140913> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
+<http://accurator.nl/id_d299d44a400c61e1f5ce821ae3915557fa140913> ui:typingTime 0 .
+<http://accurator.nl/id_d299d44a400c61e1f5ce821ae3915557fa140913> oa:annotatedAt "2016-04-08T10:00:19+02:00"^^xsd:dateTime .
+<http://accurator.nl/id_d299d44a400c61e1f5ce821ae3915557fa140913> oa:annotatedBy user:everhoeff .
+<http://accurator.nl/id_d299d44a400c61e1f5ce821ae3915557fa140913> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Elymas" ] .
+<http://accurator.nl/id_d299d44a400c61e1f5ce821ae3915557fa140913> oa:hasTarget target:target_871db4cd6d587663bc8388871431645be0fbbbd6 .
+<http://accurator.nl/id_d299d44a400c61e1f5ce821ae3915557fa140913> oa:hasTarget ubvu:print-218010001925 .
+<http://accurator.nl/id_d299d44a400c61e1f5ce821ae3915557fa140913> oa:motivatedBy oa:tagging .
+
+target:selector_871db4cd6d587663bc8388871431645be0fbbbd6 a oa:FragmentSelector .
+target:selector_871db4cd6d587663bc8388871431645be0fbbbd6 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_871db4cd6d587663bc8388871431645be0fbbbd6 ui:h "0.09836065573770492"^^xsd:float .
+target:selector_871db4cd6d587663bc8388871431645be0fbbbd6 ui:w "0.1134020618556701"^^xsd:float .
+target:selector_871db4cd6d587663bc8388871431645be0fbbbd6 ui:x "0.12061855670103093"^^xsd:float .
+target:selector_871db4cd6d587663bc8388871431645be0fbbbd6 ui:y "0.44065573770491806"^^xsd:float .
+target:selector_871db4cd6d587663bc8388871431645be0fbbbd6 rdf:value "#xywh=percent:12,44,11,10" .
+
+target:target_871db4cd6d587663bc8388871431645be0fbbbd6 a oa:SpecificResource .
+target:target_871db4cd6d587663bc8388871431645be0fbbbd6 oa:hasSelector target:selector_871db4cd6d587663bc8388871431645be0fbbbd6 .
+target:target_871db4cd6d587663bc8388871431645be0fbbbd6 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/964> .
