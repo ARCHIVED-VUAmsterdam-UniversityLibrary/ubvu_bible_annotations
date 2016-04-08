@@ -1,0 +1,33 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix user: <http://accurator.nl/user#> .
+
+<http://accurator.nl/id_a5bfb80a2ec71042626b70d64dcc0bfc12f407df> a oa:Annotation .
+<http://accurator.nl/id_a5bfb80a2ec71042626b70d64dcc0bfc12f407df> terms:title "daniel in the days of Nebuchadnezzar" .
+<http://accurator.nl/id_a5bfb80a2ec71042626b70d64dcc0bfc12f407df> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
+<http://accurator.nl/id_a5bfb80a2ec71042626b70d64dcc0bfc12f407df> ui:typingTime 0 .
+<http://accurator.nl/id_a5bfb80a2ec71042626b70d64dcc0bfc12f407df> oa:annotatedAt "2016-04-08T17:08:41+02:00"^^xsd:dateTime .
+<http://accurator.nl/id_a5bfb80a2ec71042626b70d64dcc0bfc12f407df> oa:annotatedBy user:everhoeff .
+<http://accurator.nl/id_a5bfb80a2ec71042626b70d64dcc0bfc12f407df> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "daniel in the days of Nebuchadnezzar" ] .
+<http://accurator.nl/id_a5bfb80a2ec71042626b70d64dcc0bfc12f407df> oa:hasTarget target:target_66d635ed6ea0a35cff7daee9f641598e062ca50e .
+<http://accurator.nl/id_a5bfb80a2ec71042626b70d64dcc0bfc12f407df> oa:hasTarget ubvu:print-218010001591 .
+<http://accurator.nl/id_a5bfb80a2ec71042626b70d64dcc0bfc12f407df> oa:motivatedBy oa:tagging .
+
+target:selector_66d635ed6ea0a35cff7daee9f641598e062ca50e a oa:FragmentSelector .
+target:selector_66d635ed6ea0a35cff7daee9f641598e062ca50e terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_66d635ed6ea0a35cff7daee9f641598e062ca50e ui:h "0.30580825752274315"^^xsd:float .
+target:selector_66d635ed6ea0a35cff7daee9f641598e062ca50e ui:w "0.2865979381443299"^^xsd:float .
+target:selector_66d635ed6ea0a35cff7daee9f641598e062ca50e ui:x "0.21649484536082475"^^xsd:float .
+target:selector_66d635ed6ea0a35cff7daee9f641598e062ca50e ui:y "0.3351994401679496"^^xsd:float .
+target:selector_66d635ed6ea0a35cff7daee9f641598e062ca50e rdf:value "#xywh=percent:22,34,29,31" .
+
+target:target_66d635ed6ea0a35cff7daee9f641598e062ca50e a oa:SpecificResource .
+target:target_66d635ed6ea0a35cff7daee9f641598e062ca50e oa:hasSelector target:selector_66d635ed6ea0a35cff7daee9f641598e062ca50e .
+target:target_66d635ed6ea0a35cff7daee9f641598e062ca50e oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/632> .
