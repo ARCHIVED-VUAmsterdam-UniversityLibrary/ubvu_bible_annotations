@@ -7,13 +7,25 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_b0ba69330bfe2656e35be82d166fabec81c7d365> a oa:Annotation .
-<http://accurator.nl/id_b0ba69330bfe2656e35be82d166fabec81c7d365> terms:title "tempel" .
-<http://accurator.nl/id_b0ba69330bfe2656e35be82d166fabec81c7d365> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
-<http://accurator.nl/id_b0ba69330bfe2656e35be82d166fabec81c7d365> ui:typingTime 0 .
-<http://accurator.nl/id_b0ba69330bfe2656e35be82d166fabec81c7d365> oa:annotatedAt "2016-04-08T16:59:27+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_b0ba69330bfe2656e35be82d166fabec81c7d365> oa:annotatedBy user:ana240 .
-<http://accurator.nl/id_b0ba69330bfe2656e35be82d166fabec81c7d365> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "tempel" ] .
-<http://accurator.nl/id_b0ba69330bfe2656e35be82d166fabec81c7d365> oa:hasTarget ubvu:print-218010001647 .
-<http://accurator.nl/id_b0ba69330bfe2656e35be82d166fabec81c7d365> oa:motivatedBy oa:tagging .
+nl:id_4115ff888f9ec2c4949e570f4688bf2d840d76a9 a oa:Annotation .
+nl:id_4115ff888f9ec2c4949e570f4688bf2d840d76a9 terms:title "annunciation of the birth of John the Baptist to Zacharias: while he is offering incense in the temple an angel (Gabriel) appears to him" .
+nl:id_4115ff888f9ec2c4949e570f4688bf2d840d76a9 ui:annotationField bible:ICBibleTheme .
+nl:id_4115ff888f9ec2c4949e570f4688bf2d840d76a9 ui:typingTime 0 .
+nl:id_4115ff888f9ec2c4949e570f4688bf2d840d76a9 oa:annotatedAt "2016-04-08T17:01:22+02:00"^^xsd:dateTime .
+nl:id_4115ff888f9ec2c4949e570f4688bf2d840d76a9 oa:annotatedBy user:marieskjoett .
+nl:id_4115ff888f9ec2c4949e570f4688bf2d840d76a9 oa:hasBody <http://iconclass.org/73A11> .
+nl:id_4115ff888f9ec2c4949e570f4688bf2d840d76a9 oa:hasTarget ubvu:print-218010001647 .
+nl:id_4115ff888f9ec2c4949e570f4688bf2d840d76a9 oa:motivatedBy oa:tagging .
+
+nl:id_b0ba69330bfe2656e35be82d166fabec81c7d365 a oa:Annotation .
+nl:id_b0ba69330bfe2656e35be82d166fabec81c7d365 terms:title "tempel" .
+nl:id_b0ba69330bfe2656e35be82d166fabec81c7d365 ui:annotationField bible:ICBibleTheme .
+nl:id_b0ba69330bfe2656e35be82d166fabec81c7d365 ui:typingTime 0 .
+nl:id_b0ba69330bfe2656e35be82d166fabec81c7d365 oa:annotatedAt "2016-04-08T16:59:27+02:00"^^xsd:dateTime .
+nl:id_b0ba69330bfe2656e35be82d166fabec81c7d365 oa:annotatedBy user:ana240 .
+nl:id_b0ba69330bfe2656e35be82d166fabec81c7d365 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "tempel" ] .
+nl:id_b0ba69330bfe2656e35be82d166fabec81c7d365 oa:hasTarget ubvu:print-218010001647 .
+nl:id_b0ba69330bfe2656e35be82d166fabec81c7d365 oa:motivatedBy oa:tagging .
