@@ -1,0 +1,17 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix user: <http://accurator.nl/user#> .
+
+<http://accurator.nl/id_821e5275749b1b34abc5c1cecd307261d9260fe9> a oa:Annotation .
+<http://accurator.nl/id_821e5275749b1b34abc5c1cecd307261d9260fe9> terms:title "Garden of Eden, paradise" .
+<http://accurator.nl/id_821e5275749b1b34abc5c1cecd307261d9260fe9> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
+<http://accurator.nl/id_821e5275749b1b34abc5c1cecd307261d9260fe9> ui:typingTime 0 .
+<http://accurator.nl/id_821e5275749b1b34abc5c1cecd307261d9260fe9> oa:annotatedAt "2016-04-08T17:01:21+02:00"^^xsd:dateTime .
+<http://accurator.nl/id_821e5275749b1b34abc5c1cecd307261d9260fe9> oa:annotatedBy user:ek .
+<http://accurator.nl/id_821e5275749b1b34abc5c1cecd307261d9260fe9> oa:hasBody <http://iconclass.org/71A321> .
+<http://accurator.nl/id_821e5275749b1b34abc5c1cecd307261d9260fe9> oa:hasTarget ubvu:print-218010001019 .
+<http://accurator.nl/id_821e5275749b1b34abc5c1cecd307261d9260fe9> oa:motivatedBy oa:tagging .
