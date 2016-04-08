@@ -1,0 +1,32 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix resource: <http://bibleontology.com/resource/> .
+@prefix user: <http://accurator.nl/user#> .
+
+<http://accurator.nl/id_d7f394ab5f7fa06787f87c4b2710065286cb9d91> a oa:Annotation .
+<http://accurator.nl/id_d7f394ab5f7fa06787f87c4b2710065286cb9d91> terms:title "Jacob_(Son_of_Matthan)" .
+<http://accurator.nl/id_d7f394ab5f7fa06787f87c4b2710065286cb9d91> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
+<http://accurator.nl/id_d7f394ab5f7fa06787f87c4b2710065286cb9d91> ui:typingTime 0 .
+<http://accurator.nl/id_d7f394ab5f7fa06787f87c4b2710065286cb9d91> oa:annotatedAt "2016-04-08T09:56:07+02:00"^^xsd:dateTime .
+<http://accurator.nl/id_d7f394ab5f7fa06787f87c4b2710065286cb9d91> oa:annotatedBy user:everhoeff .
+<http://accurator.nl/id_d7f394ab5f7fa06787f87c4b2710065286cb9d91> oa:hasBody resource:Jacob_Son_of_Matthan .
+<http://accurator.nl/id_d7f394ab5f7fa06787f87c4b2710065286cb9d91> oa:hasTarget target:target_9a5e745192c7727c8a1d10aa1710d3ba46d78355 .
+<http://accurator.nl/id_d7f394ab5f7fa06787f87c4b2710065286cb9d91> oa:hasTarget ubvu:print-218010001142 .
+<http://accurator.nl/id_d7f394ab5f7fa06787f87c4b2710065286cb9d91> oa:motivatedBy oa:tagging .
+
+target:selector_9a5e745192c7727c8a1d10aa1710d3ba46d78355 a oa:FragmentSelector .
+target:selector_9a5e745192c7727c8a1d10aa1710d3ba46d78355 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_9a5e745192c7727c8a1d10aa1710d3ba46d78355 ui:h "0.08726415094339622"^^xsd:float .
+target:selector_9a5e745192c7727c8a1d10aa1710d3ba46d78355 ui:w "0.12297181895815543"^^xsd:float .
+target:selector_9a5e745192c7727c8a1d10aa1710d3ba46d78355 ui:x "0.4474807856532878"^^xsd:float .
+target:selector_9a5e745192c7727c8a1d10aa1710d3ba46d78355 ui:y "0.4970518867924528"^^xsd:float .
+target:selector_9a5e745192c7727c8a1d10aa1710d3ba46d78355 rdf:value "#xywh=percent:45,50,12,9" .
+
+target:target_9a5e745192c7727c8a1d10aa1710d3ba46d78355 a oa:SpecificResource .
+target:target_9a5e745192c7727c8a1d10aa1710d3ba46d78355 oa:hasSelector target:selector_9a5e745192c7727c8a1d10aa1710d3ba46d78355 .
+target:target_9a5e745192c7727c8a1d10aa1710d3ba46d78355 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/183> .
