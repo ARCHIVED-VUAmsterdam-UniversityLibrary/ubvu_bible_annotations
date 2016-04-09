@@ -1,0 +1,32 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix resource: <http://bibleontology.com/resource/> .
+@prefix user: <http://accurator.nl/user#> .
+
+<http://accurator.nl/id_7836002c5eebdf6767877f071eac861a91ab717a> a oa:Annotation .
+<http://accurator.nl/id_7836002c5eebdf6767877f071eac861a91ab717a> terms:title "Nebuchadnezzar" .
+<http://accurator.nl/id_7836002c5eebdf6767877f071eac861a91ab717a> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
+<http://accurator.nl/id_7836002c5eebdf6767877f071eac861a91ab717a> ui:typingTime 0 .
+<http://accurator.nl/id_7836002c5eebdf6767877f071eac861a91ab717a> oa:annotatedAt "2016-04-09T17:24:33+02:00"^^xsd:dateTime .
+<http://accurator.nl/id_7836002c5eebdf6767877f071eac861a91ab717a> oa:annotatedBy user:everhoeff .
+<http://accurator.nl/id_7836002c5eebdf6767877f071eac861a91ab717a> oa:hasBody resource:Nebuchadnezzar .
+<http://accurator.nl/id_7836002c5eebdf6767877f071eac861a91ab717a> oa:hasTarget target:target_d59aa98c3f138846af7b495e31ea7cc73f192f08 .
+<http://accurator.nl/id_7836002c5eebdf6767877f071eac861a91ab717a> oa:hasTarget ubvu:print-218010001581 .
+<http://accurator.nl/id_7836002c5eebdf6767877f071eac861a91ab717a> oa:motivatedBy oa:tagging .
+
+target:selector_d59aa98c3f138846af7b495e31ea7cc73f192f08 a oa:FragmentSelector .
+target:selector_d59aa98c3f138846af7b495e31ea7cc73f192f08 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_d59aa98c3f138846af7b495e31ea7cc73f192f08 ui:h "0.2538860103626943"^^xsd:float .
+target:selector_d59aa98c3f138846af7b495e31ea7cc73f192f08 ui:w "0.2587532023911187"^^xsd:float .
+target:selector_d59aa98c3f138846af7b495e31ea7cc73f192f08 ui:x "0.4816396242527754"^^xsd:float .
+target:selector_d59aa98c3f138846af7b495e31ea7cc73f192f08 ui:y "0.3672999424294761"^^xsd:float .
+target:selector_d59aa98c3f138846af7b495e31ea7cc73f192f08 rdf:value "#xywh=percent:48,37,26,25" .
+
+target:target_d59aa98c3f138846af7b495e31ea7cc73f192f08 a oa:SpecificResource .
+target:target_d59aa98c3f138846af7b495e31ea7cc73f192f08 oa:hasSelector target:selector_d59aa98c3f138846af7b495e31ea7cc73f192f08 .
+target:target_d59aa98c3f138846af7b495e31ea7cc73f192f08 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/622> .
