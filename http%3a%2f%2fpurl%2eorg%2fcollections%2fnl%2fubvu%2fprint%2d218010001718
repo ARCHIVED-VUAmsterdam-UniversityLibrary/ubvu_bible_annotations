@@ -1,23 +1,47 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_63146681efe576f8aace7f7e21d1fe50f83a1f0c> a oa:Annotation .
-<http://accurator.nl/id_63146681efe576f8aace7f7e21d1fe50f83a1f0c> terms:title "Jesus" .
-<http://accurator.nl/id_63146681efe576f8aace7f7e21d1fe50f83a1f0c> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_63146681efe576f8aace7f7e21d1fe50f83a1f0c> ui:typingTime 0 .
-<http://accurator.nl/id_63146681efe576f8aace7f7e21d1fe50f83a1f0c> oa:annotatedAt "2016-04-09T17:15:21+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_63146681efe576f8aace7f7e21d1fe50f83a1f0c> oa:annotatedBy user:everhoeff .
-<http://accurator.nl/id_63146681efe576f8aace7f7e21d1fe50f83a1f0c> oa:hasBody resource:Jesus .
-<http://accurator.nl/id_63146681efe576f8aace7f7e21d1fe50f83a1f0c> oa:hasTarget target:target_ef11805938542e4a259606d89a3e866abd906449 .
-<http://accurator.nl/id_63146681efe576f8aace7f7e21d1fe50f83a1f0c> oa:hasTarget ubvu:print-218010001718 .
-<http://accurator.nl/id_63146681efe576f8aace7f7e21d1fe50f83a1f0c> oa:motivatedBy oa:tagging .
+nl:id_3e4cdbff4016fdf38fcce0e76b774eba2914840e a oa:Annotation .
+nl:id_3e4cdbff4016fdf38fcce0e76b774eba2914840e terms:title "John the Baptist" .
+nl:id_3e4cdbff4016fdf38fcce0e76b774eba2914840e ui:annotationField bible:BibleCharacter .
+nl:id_3e4cdbff4016fdf38fcce0e76b774eba2914840e ui:typingTime 0 .
+nl:id_3e4cdbff4016fdf38fcce0e76b774eba2914840e oa:annotatedAt "2016-04-09T17:15:55+02:00"^^xsd:dateTime .
+nl:id_3e4cdbff4016fdf38fcce0e76b774eba2914840e oa:annotatedBy user:everhoeff .
+nl:id_3e4cdbff4016fdf38fcce0e76b774eba2914840e oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "John the Baptist" ] .
+nl:id_3e4cdbff4016fdf38fcce0e76b774eba2914840e oa:hasTarget target:target_a670c7a38eba349b5d514c92fa172255aa9bbdd6 .
+nl:id_3e4cdbff4016fdf38fcce0e76b774eba2914840e oa:hasTarget ubvu:print-218010001718 .
+nl:id_3e4cdbff4016fdf38fcce0e76b774eba2914840e oa:motivatedBy oa:tagging .
+
+nl:id_63146681efe576f8aace7f7e21d1fe50f83a1f0c a oa:Annotation .
+nl:id_63146681efe576f8aace7f7e21d1fe50f83a1f0c terms:title "Jesus" .
+nl:id_63146681efe576f8aace7f7e21d1fe50f83a1f0c ui:annotationField bible:BibleCharacter .
+nl:id_63146681efe576f8aace7f7e21d1fe50f83a1f0c ui:typingTime 0 .
+nl:id_63146681efe576f8aace7f7e21d1fe50f83a1f0c oa:annotatedAt "2016-04-09T17:15:21+02:00"^^xsd:dateTime .
+nl:id_63146681efe576f8aace7f7e21d1fe50f83a1f0c oa:annotatedBy user:everhoeff .
+nl:id_63146681efe576f8aace7f7e21d1fe50f83a1f0c oa:hasBody resource:Jesus .
+nl:id_63146681efe576f8aace7f7e21d1fe50f83a1f0c oa:hasTarget target:target_ef11805938542e4a259606d89a3e866abd906449 .
+nl:id_63146681efe576f8aace7f7e21d1fe50f83a1f0c oa:hasTarget ubvu:print-218010001718 .
+nl:id_63146681efe576f8aace7f7e21d1fe50f83a1f0c oa:motivatedBy oa:tagging .
+
+target:selector_a670c7a38eba349b5d514c92fa172255aa9bbdd6 a oa:FragmentSelector .
+target:selector_a670c7a38eba349b5d514c92fa172255aa9bbdd6 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_a670c7a38eba349b5d514c92fa172255aa9bbdd6 ui:h "0.1813285457809695"^^xsd:float .
+target:selector_a670c7a38eba349b5d514c92fa172255aa9bbdd6 ui:w "0.11528608027327071"^^xsd:float .
+target:selector_a670c7a38eba349b5d514c92fa172255aa9bbdd6 ui:x "0.5046968403074296"^^xsd:float .
+target:selector_a670c7a38eba349b5d514c92fa172255aa9bbdd6 ui:y "0.5858767205266308"^^xsd:float .
+target:selector_a670c7a38eba349b5d514c92fa172255aa9bbdd6 rdf:value "#xywh=percent:50,59,12,18" .
 
 target:selector_ef11805938542e4a259606d89a3e866abd906449 a oa:FragmentSelector .
 target:selector_ef11805938542e4a259606d89a3e866abd906449 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -26,6 +50,10 @@ target:selector_ef11805938542e4a259606d89a3e866abd906449 ui:w "0.097352690008539
 target:selector_ef11805938542e4a259606d89a3e866abd906449 ui:x "0.5892399658411615"^^xsd:float .
 target:selector_ef11805938542e4a259606d89a3e866abd906449 ui:y "0.6325553560742071"^^xsd:float .
 target:selector_ef11805938542e4a259606d89a3e866abd906449 rdf:value "#xywh=percent:59,63,10,14" .
+
+target:target_a670c7a38eba349b5d514c92fa172255aa9bbdd6 a oa:SpecificResource .
+target:target_a670c7a38eba349b5d514c92fa172255aa9bbdd6 oa:hasSelector target:selector_a670c7a38eba349b5d514c92fa172255aa9bbdd6 .
+target:target_a670c7a38eba349b5d514c92fa172255aa9bbdd6 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/757> .
 
 target:target_ef11805938542e4a259606d89a3e866abd906449 a oa:SpecificResource .
 target:target_ef11805938542e4a259606d89a3e866abd906449 oa:hasSelector target:selector_ef11805938542e4a259606d89a3e866abd906449 .
