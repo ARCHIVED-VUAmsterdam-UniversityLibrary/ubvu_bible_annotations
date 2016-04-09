@@ -1,9 +1,11 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
 @prefix media-frags: <http://www.w3.org/TR/media-frags/> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix resource: <http://bibleontology.com/resource/> .
@@ -33,6 +35,25 @@ nl:id_8f8a8390c2ac8b17d634118fb16cd33ff8d3de61 oa:hasTarget target:target_3bca42
 nl:id_8f8a8390c2ac8b17d634118fb16cd33ff8d3de61 oa:hasTarget ubvu:print-218010001311 .
 nl:id_8f8a8390c2ac8b17d634118fb16cd33ff8d3de61 oa:motivatedBy oa:tagging .
 
+nl:id_ef1a0f74ea7dd3babd7af678a5422881cfa780f6 a oa:Annotation .
+nl:id_ef1a0f74ea7dd3babd7af678a5422881cfa780f6 terms:title "Joshua succeeder of Mozes" .
+nl:id_ef1a0f74ea7dd3babd7af678a5422881cfa780f6 ui:annotationField bible:BibleCharacter .
+nl:id_ef1a0f74ea7dd3babd7af678a5422881cfa780f6 ui:typingTime 0 .
+nl:id_ef1a0f74ea7dd3babd7af678a5422881cfa780f6 oa:annotatedAt "2016-04-09T17:20:33+02:00"^^xsd:dateTime .
+nl:id_ef1a0f74ea7dd3babd7af678a5422881cfa780f6 oa:annotatedBy user:everhoeff .
+nl:id_ef1a0f74ea7dd3babd7af678a5422881cfa780f6 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Joshua succeeder of Mozes" ] .
+nl:id_ef1a0f74ea7dd3babd7af678a5422881cfa780f6 oa:hasTarget target:target_2d471ca33b0ca4f1b27b46e540f9161f44f7c43d .
+nl:id_ef1a0f74ea7dd3babd7af678a5422881cfa780f6 oa:hasTarget ubvu:print-218010001311 .
+nl:id_ef1a0f74ea7dd3babd7af678a5422881cfa780f6 oa:motivatedBy oa:tagging .
+
+target:selector_2d471ca33b0ca4f1b27b46e540f9161f44f7c43d a oa:FragmentSelector .
+target:selector_2d471ca33b0ca4f1b27b46e540f9161f44f7c43d terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_2d471ca33b0ca4f1b27b46e540f9161f44f7c43d ui:h "0.16269610691458455"^^xsd:float .
+target:selector_2d471ca33b0ca4f1b27b46e540f9161f44f7c43d ui:w "0.14859094790777114"^^xsd:float .
+target:selector_2d471ca33b0ca4f1b27b46e540f9161f44f7c43d ui:x "0.20324508966695132"^^xsd:float .
+target:selector_2d471ca33b0ca4f1b27b46e540f9161f44f7c43d ui:y "0.4061592097617664"^^xsd:float .
+target:selector_2d471ca33b0ca4f1b27b46e540f9161f44f7c43d rdf:value "#xywh=percent:20,41,15,16" .
+
 target:selector_3bca42ca48e7b4c1b574b48dd4e2c625e6bdc80a a oa:FragmentSelector .
 target:selector_3bca42ca48e7b4c1b574b48dd4e2c625e6bdc80a terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_3bca42ca48e7b4c1b574b48dd4e2c625e6bdc80a ui:h "0.1818710052295177"^^xsd:float .
@@ -48,6 +69,10 @@ target:selector_457d812bfbb0a5f721e0c0505ae622b7da26c8e8 ui:w "0.061485909479077
 target:selector_457d812bfbb0a5f721e0c0505ae622b7da26c8e8 ui:x "0.14346712211784798"^^xsd:float .
 target:selector_457d812bfbb0a5f721e0c0505ae622b7da26c8e8 ui:y "0.3840790238233585"^^xsd:float .
 target:selector_457d812bfbb0a5f721e0c0505ae622b7da26c8e8 rdf:value "#xywh=percent:14,38,6,21" .
+
+target:target_2d471ca33b0ca4f1b27b46e540f9161f44f7c43d a oa:SpecificResource .
+target:target_2d471ca33b0ca4f1b27b46e540f9161f44f7c43d oa:hasSelector target:selector_2d471ca33b0ca4f1b27b46e540f9161f44f7c43d .
+target:target_2d471ca33b0ca4f1b27b46e540f9161f44f7c43d oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/352> .
 
 target:target_3bca42ca48e7b4c1b574b48dd4e2c625e6bdc80a a oa:SpecificResource .
 target:target_3bca42ca48e7b4c1b574b48dd4e2c625e6bdc80a oa:hasSelector target:selector_3bca42ca48e7b4c1b574b48dd4e2c625e6bdc80a .
