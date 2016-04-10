@@ -1,0 +1,32 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix resource: <http://bibleontology.com/resource/> .
+@prefix user: <http://accurator.nl/user#> .
+
+<http://accurator.nl/id_1db980b6d46bb9fb5bbdd9447798e26183c470da> a oa:Annotation .
+<http://accurator.nl/id_1db980b6d46bb9fb5bbdd9447798e26183c470da> terms:title "Ezechiël" .
+<http://accurator.nl/id_1db980b6d46bb9fb5bbdd9447798e26183c470da> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
+<http://accurator.nl/id_1db980b6d46bb9fb5bbdd9447798e26183c470da> ui:typingTime 0 .
+<http://accurator.nl/id_1db980b6d46bb9fb5bbdd9447798e26183c470da> oa:annotatedAt "2016-04-10T23:10:04+02:00"^^xsd:dateTime .
+<http://accurator.nl/id_1db980b6d46bb9fb5bbdd9447798e26183c470da> oa:annotatedBy user:ek .
+<http://accurator.nl/id_1db980b6d46bb9fb5bbdd9447798e26183c470da> oa:hasBody resource:Ezekiel .
+<http://accurator.nl/id_1db980b6d46bb9fb5bbdd9447798e26183c470da> oa:hasTarget target:target_21d0de858dd336a7d56d7e22249694d7669dc788 .
+<http://accurator.nl/id_1db980b6d46bb9fb5bbdd9447798e26183c470da> oa:hasTarget ubvu:print-218010001577 .
+<http://accurator.nl/id_1db980b6d46bb9fb5bbdd9447798e26183c470da> oa:motivatedBy oa:tagging .
+
+target:selector_21d0de858dd336a7d56d7e22249694d7669dc788 a oa:FragmentSelector .
+target:selector_21d0de858dd336a7d56d7e22249694d7669dc788 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_21d0de858dd336a7d56d7e22249694d7669dc788 ui:h "0.3173963133640553"^^xsd:float .
+target:selector_21d0de858dd336a7d56d7e22249694d7669dc788 ui:w "0.34615384615384615"^^xsd:float .
+target:selector_21d0de858dd336a7d56d7e22249694d7669dc788 ui:x "0.18803418803418803"^^xsd:float .
+target:selector_21d0de858dd336a7d56d7e22249694d7669dc788 ui:y "0.3289170506912442"^^xsd:float .
+target:selector_21d0de858dd336a7d56d7e22249694d7669dc788 rdf:value "#xywh=percent:19,33,35,32" .
+
+target:target_21d0de858dd336a7d56d7e22249694d7669dc788 a oa:SpecificResource .
+target:target_21d0de858dd336a7d56d7e22249694d7669dc788 oa:hasSelector target:selector_21d0de858dd336a7d56d7e22249694d7669dc788 .
+target:target_21d0de858dd336a7d56d7e22249694d7669dc788 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/618> .
