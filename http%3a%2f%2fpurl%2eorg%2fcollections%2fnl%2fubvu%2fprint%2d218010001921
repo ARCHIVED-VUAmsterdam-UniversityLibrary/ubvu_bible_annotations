@@ -8,17 +8,29 @@
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_553222f0d39e53611b53da68c52a03bc2f174ed6> a oa:Annotation .
-<http://accurator.nl/id_553222f0d39e53611b53da68c52a03bc2f174ed6> terms:title "Petrus" .
-<http://accurator.nl/id_553222f0d39e53611b53da68c52a03bc2f174ed6> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_553222f0d39e53611b53da68c52a03bc2f174ed6> ui:typingTime 0 .
-<http://accurator.nl/id_553222f0d39e53611b53da68c52a03bc2f174ed6> oa:annotatedAt "2016-04-10T23:13:27+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_553222f0d39e53611b53da68c52a03bc2f174ed6> oa:annotatedBy user:ek .
-<http://accurator.nl/id_553222f0d39e53611b53da68c52a03bc2f174ed6> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Petrus" ] .
-<http://accurator.nl/id_553222f0d39e53611b53da68c52a03bc2f174ed6> oa:hasTarget target:target_b2a8b17cc230e61dbf0e48c30f2ceff51f73dad7 .
-<http://accurator.nl/id_553222f0d39e53611b53da68c52a03bc2f174ed6> oa:hasTarget ubvu:print-218010001921 .
-<http://accurator.nl/id_553222f0d39e53611b53da68c52a03bc2f174ed6> oa:motivatedBy oa:tagging .
+nl:id_553222f0d39e53611b53da68c52a03bc2f174ed6 a oa:Annotation .
+nl:id_553222f0d39e53611b53da68c52a03bc2f174ed6 terms:title "Petrus" .
+nl:id_553222f0d39e53611b53da68c52a03bc2f174ed6 ui:annotationField bible:BibleCharacter .
+nl:id_553222f0d39e53611b53da68c52a03bc2f174ed6 ui:typingTime 0 .
+nl:id_553222f0d39e53611b53da68c52a03bc2f174ed6 oa:annotatedAt "2016-04-10T23:13:27+02:00"^^xsd:dateTime .
+nl:id_553222f0d39e53611b53da68c52a03bc2f174ed6 oa:annotatedBy user:ek .
+nl:id_553222f0d39e53611b53da68c52a03bc2f174ed6 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Petrus" ] .
+nl:id_553222f0d39e53611b53da68c52a03bc2f174ed6 oa:hasTarget target:target_b2a8b17cc230e61dbf0e48c30f2ceff51f73dad7 .
+nl:id_553222f0d39e53611b53da68c52a03bc2f174ed6 oa:hasTarget ubvu:print-218010001921 .
+nl:id_553222f0d39e53611b53da68c52a03bc2f174ed6 oa:motivatedBy oa:tagging .
+
+nl:id_77725face78fec95bccd6a674faddabfee43f06a a oa:Annotation .
+nl:id_77725face78fec95bccd6a674faddabfee43f06a terms:title "an angel appears, summoning Peter to wake up ~ Peter in prison" .
+nl:id_77725face78fec95bccd6a674faddabfee43f06a ui:annotationField bible:ICBibleTheme .
+nl:id_77725face78fec95bccd6a674faddabfee43f06a ui:typingTime 0 .
+nl:id_77725face78fec95bccd6a674faddabfee43f06a oa:annotatedAt "2016-04-10T23:16:18+02:00"^^xsd:dateTime .
+nl:id_77725face78fec95bccd6a674faddabfee43f06a oa:annotatedBy user:ek .
+nl:id_77725face78fec95bccd6a674faddabfee43f06a oa:hasBody <http://iconclass.org/73F2143> .
+nl:id_77725face78fec95bccd6a674faddabfee43f06a oa:hasTarget ubvu:print-218010001921 .
+nl:id_77725face78fec95bccd6a674faddabfee43f06a oa:motivatedBy oa:tagging .
 
 target:selector_b2a8b17cc230e61dbf0e48c30f2ceff51f73dad7 a oa:FragmentSelector .
 target:selector_b2a8b17cc230e61dbf0e48c30f2ceff51f73dad7 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
