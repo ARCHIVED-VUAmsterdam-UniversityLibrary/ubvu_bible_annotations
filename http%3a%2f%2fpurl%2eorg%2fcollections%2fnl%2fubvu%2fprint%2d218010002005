@@ -24,6 +24,16 @@ nl:id_19ae68110a2d0c2a87f50e2289725f130b94b0be oa:hasTarget target:target_221c3f
 nl:id_19ae68110a2d0c2a87f50e2289725f130b94b0be oa:hasTarget ubvu:print-218010002005 .
 nl:id_19ae68110a2d0c2a87f50e2289725f130b94b0be oa:motivatedBy oa:tagging .
 
+nl:id_569a71855b53a3d586ae787d569b95981c152179 a oa:Annotation .
+nl:id_569a71855b53a3d586ae787d569b95981c152179 terms:title "the people bring their golden ear-rings to Aaron" .
+nl:id_569a71855b53a3d586ae787d569b95981c152179 ui:annotationField bible:ICBibleTheme .
+nl:id_569a71855b53a3d586ae787d569b95981c152179 ui:typingTime 0 .
+nl:id_569a71855b53a3d586ae787d569b95981c152179 oa:annotatedAt "2016-04-10T22:51:40+02:00"^^xsd:dateTime .
+nl:id_569a71855b53a3d586ae787d569b95981c152179 oa:annotatedBy user:ek .
+nl:id_569a71855b53a3d586ae787d569b95981c152179 oa:hasBody <http://iconclass.org/71E13511> .
+nl:id_569a71855b53a3d586ae787d569b95981c152179 oa:hasTarget ubvu:print-218010002005 .
+nl:id_569a71855b53a3d586ae787d569b95981c152179 oa:motivatedBy oa:tagging .
+
 nl:id_948da0c3cabb8971be2e24fcf8443307cc3f83c1 a oa:Annotation .
 nl:id_948da0c3cabb8971be2e24fcf8443307cc3f83c1 terms:title "Aäron" .
 nl:id_948da0c3cabb8971be2e24fcf8443307cc3f83c1 ui:annotationField bible:BibleCharacter .
