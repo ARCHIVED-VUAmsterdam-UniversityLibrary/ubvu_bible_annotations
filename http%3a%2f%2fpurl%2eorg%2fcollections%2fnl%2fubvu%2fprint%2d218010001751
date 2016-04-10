@@ -4,14 +4,41 @@
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_deba8ca2d737ad02de7aee3ed8aa14646211c027> a oa:Annotation .
-<http://accurator.nl/id_deba8ca2d737ad02de7aee3ed8aa14646211c027> terms:title "Christ in a boat with the apostles, talking or sleeping" .
-<http://accurator.nl/id_deba8ca2d737ad02de7aee3ed8aa14646211c027> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
-<http://accurator.nl/id_deba8ca2d737ad02de7aee3ed8aa14646211c027> ui:typingTime 0 .
-<http://accurator.nl/id_deba8ca2d737ad02de7aee3ed8aa14646211c027> oa:annotatedAt "2016-04-10T23:39:48+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_deba8ca2d737ad02de7aee3ed8aa14646211c027> oa:annotatedBy user:ek .
-<http://accurator.nl/id_deba8ca2d737ad02de7aee3ed8aa14646211c027> oa:hasBody <http://iconclass.org/73C311> .
-<http://accurator.nl/id_deba8ca2d737ad02de7aee3ed8aa14646211c027> oa:hasTarget ubvu:print-218010001751 .
-<http://accurator.nl/id_deba8ca2d737ad02de7aee3ed8aa14646211c027> oa:motivatedBy oa:tagging .
+nl:id_b8ec2655c887ace352da94f05e3708885465a7d9 a oa:Annotation .
+nl:id_b8ec2655c887ace352da94f05e3708885465a7d9 terms:title "Jezus Christus" .
+nl:id_b8ec2655c887ace352da94f05e3708885465a7d9 ui:annotationField bible:BibleCharacter .
+nl:id_b8ec2655c887ace352da94f05e3708885465a7d9 ui:typingTime 0 .
+nl:id_b8ec2655c887ace352da94f05e3708885465a7d9 oa:annotatedAt "2016-04-10T23:40:14+02:00"^^xsd:dateTime .
+nl:id_b8ec2655c887ace352da94f05e3708885465a7d9 oa:annotatedBy user:ek .
+nl:id_b8ec2655c887ace352da94f05e3708885465a7d9 oa:hasBody resource:Jesus .
+nl:id_b8ec2655c887ace352da94f05e3708885465a7d9 oa:hasTarget target:target_0650e2cf4d6f91ddd7772479242786ddebf25d71 .
+nl:id_b8ec2655c887ace352da94f05e3708885465a7d9 oa:hasTarget ubvu:print-218010001751 .
+nl:id_b8ec2655c887ace352da94f05e3708885465a7d9 oa:motivatedBy oa:tagging .
+
+nl:id_deba8ca2d737ad02de7aee3ed8aa14646211c027 a oa:Annotation .
+nl:id_deba8ca2d737ad02de7aee3ed8aa14646211c027 terms:title "Christ in a boat with the apostles, talking or sleeping" .
+nl:id_deba8ca2d737ad02de7aee3ed8aa14646211c027 ui:annotationField bible:ICBibleTheme .
+nl:id_deba8ca2d737ad02de7aee3ed8aa14646211c027 ui:typingTime 0 .
+nl:id_deba8ca2d737ad02de7aee3ed8aa14646211c027 oa:annotatedAt "2016-04-10T23:39:48+02:00"^^xsd:dateTime .
+nl:id_deba8ca2d737ad02de7aee3ed8aa14646211c027 oa:annotatedBy user:ek .
+nl:id_deba8ca2d737ad02de7aee3ed8aa14646211c027 oa:hasBody <http://iconclass.org/73C311> .
+nl:id_deba8ca2d737ad02de7aee3ed8aa14646211c027 oa:hasTarget ubvu:print-218010001751 .
+nl:id_deba8ca2d737ad02de7aee3ed8aa14646211c027 oa:motivatedBy oa:tagging .
+
+target:selector_0650e2cf4d6f91ddd7772479242786ddebf25d71 a oa:FragmentSelector .
+target:selector_0650e2cf4d6f91ddd7772479242786ddebf25d71 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_0650e2cf4d6f91ddd7772479242786ddebf25d71 ui:h "0.1703204047217538"^^xsd:float .
+target:selector_0650e2cf4d6f91ddd7772479242786ddebf25d71 ui:w "0.2846153846153846"^^xsd:float .
+target:selector_0650e2cf4d6f91ddd7772479242786ddebf25d71 ui:x "0.0811965811965812"^^xsd:float .
+target:selector_0650e2cf4d6f91ddd7772479242786ddebf25d71 ui:y "0.39516582349634627"^^xsd:float .
+target:selector_0650e2cf4d6f91ddd7772479242786ddebf25d71 rdf:value "#xywh=percent:8,40,28,17" .
+
+target:target_0650e2cf4d6f91ddd7772479242786ddebf25d71 a oa:SpecificResource .
+target:target_0650e2cf4d6f91ddd7772479242786ddebf25d71 oa:hasSelector target:selector_0650e2cf4d6f91ddd7772479242786ddebf25d71 .
+target:target_0650e2cf4d6f91ddd7772479242786ddebf25d71 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/790> .
