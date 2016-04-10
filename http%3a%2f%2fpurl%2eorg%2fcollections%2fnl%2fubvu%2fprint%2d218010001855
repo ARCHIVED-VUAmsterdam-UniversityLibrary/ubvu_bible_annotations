@@ -13,6 +13,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_20735ef555d622726621d4aed6d22051f09f2bbc a oa:Annotation .
+nl:id_20735ef555d622726621d4aed6d22051f09f2bbc terms:title "mockings of Christ, who may be blindfolded" .
+nl:id_20735ef555d622726621d4aed6d22051f09f2bbc ui:annotationField bible:ICBibleTheme .
+nl:id_20735ef555d622726621d4aed6d22051f09f2bbc ui:typingTime 0 .
+nl:id_20735ef555d622726621d4aed6d22051f09f2bbc oa:annotatedAt "2016-04-10T23:29:27+02:00"^^xsd:dateTime .
+nl:id_20735ef555d622726621d4aed6d22051f09f2bbc oa:annotatedBy user:ek .
+nl:id_20735ef555d622726621d4aed6d22051f09f2bbc oa:hasBody <http://iconclass.org/73D353> .
+nl:id_20735ef555d622726621d4aed6d22051f09f2bbc oa:hasTarget ubvu:print-218010001855 .
+nl:id_20735ef555d622726621d4aed6d22051f09f2bbc oa:motivatedBy oa:tagging .
+
 nl:id_31f3e8a24d0e1c6cb6e60aa460372d68184f84a0 a oa:Annotation .
 nl:id_31f3e8a24d0e1c6cb6e60aa460372d68184f84a0 terms:title "Jezus " .
 nl:id_31f3e8a24d0e1c6cb6e60aa460372d68184f84a0 ui:annotationField bible:BibleCharacter .
