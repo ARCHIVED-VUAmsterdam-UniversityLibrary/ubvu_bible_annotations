@@ -34,6 +34,16 @@ nl:id_196e66ffb1a2d19ba9284d52b7822b54c0036bd8 oa:hasTarget target:target_ccda71
 nl:id_196e66ffb1a2d19ba9284d52b7822b54c0036bd8 oa:hasTarget ubvu:print-218010001019 .
 nl:id_196e66ffb1a2d19ba9284d52b7822b54c0036bd8 oa:motivatedBy oa:tagging .
 
+nl:id_20268546d24bd305264787d328742e91567ab57a a oa:Annotation .
+nl:id_20268546d24bd305264787d328742e91567ab57a terms:title "Garden of Eden, paradise" .
+nl:id_20268546d24bd305264787d328742e91567ab57a ui:annotationField bible:ICBibleTheme .
+nl:id_20268546d24bd305264787d328742e91567ab57a ui:typingTime 0 .
+nl:id_20268546d24bd305264787d328742e91567ab57a oa:annotatedAt "2016-04-10T22:38:02+02:00"^^xsd:dateTime .
+nl:id_20268546d24bd305264787d328742e91567ab57a oa:annotatedBy user:ek .
+nl:id_20268546d24bd305264787d328742e91567ab57a oa:hasBody <http://iconclass.org/71A321> .
+nl:id_20268546d24bd305264787d328742e91567ab57a oa:hasTarget ubvu:print-218010001019 .
+nl:id_20268546d24bd305264787d328742e91567ab57a oa:motivatedBy oa:tagging .
+
 nl:id_821e5275749b1b34abc5c1cecd307261d9260fe9 a oa:Annotation .
 nl:id_821e5275749b1b34abc5c1cecd307261d9260fe9 terms:title "Garden of Eden, paradise" .
 nl:id_821e5275749b1b34abc5c1cecd307261d9260fe9 ui:annotationField bible:ICBibleTheme .
