@@ -45,6 +45,16 @@ nl:id_d4a66f61588a288a9481357a4cf22d61309ab35f oa:hasTarget target:target_b28099
 nl:id_d4a66f61588a288a9481357a4cf22d61309ab35f oa:hasTarget ubvu:print-218010001657 .
 nl:id_d4a66f61588a288a9481357a4cf22d61309ab35f oa:motivatedBy oa:tagging .
 
+nl:id_ec0c80ff7fba6366f58ec16f31de1f8d0de31c36 a oa:Annotation .
+nl:id_ec0c80ff7fba6366f58ec16f31de1f8d0de31c36 terms:title "Mary and Elisabeth, both pregnant, embracing" .
+nl:id_ec0c80ff7fba6366f58ec16f31de1f8d0de31c36 ui:annotationField bible:ICBibleTheme .
+nl:id_ec0c80ff7fba6366f58ec16f31de1f8d0de31c36 ui:typingTime 0 .
+nl:id_ec0c80ff7fba6366f58ec16f31de1f8d0de31c36 oa:annotatedAt "2016-04-10T23:26:38+02:00"^^xsd:dateTime .
+nl:id_ec0c80ff7fba6366f58ec16f31de1f8d0de31c36 oa:annotatedBy user:ek .
+nl:id_ec0c80ff7fba6366f58ec16f31de1f8d0de31c36 oa:hasBody <http://iconclass.org/73A622> .
+nl:id_ec0c80ff7fba6366f58ec16f31de1f8d0de31c36 oa:hasTarget ubvu:print-218010001657 .
+nl:id_ec0c80ff7fba6366f58ec16f31de1f8d0de31c36 oa:motivatedBy oa:tagging .
+
 target:selector_636c1bd74e3cd63b11fdde433b08660dfe8b730b a oa:FragmentSelector .
 target:selector_636c1bd74e3cd63b11fdde433b08660dfe8b730b terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_636c1bd74e3cd63b11fdde433b08660dfe8b730b ui:h "0.34530706836616454"^^xsd:float .
