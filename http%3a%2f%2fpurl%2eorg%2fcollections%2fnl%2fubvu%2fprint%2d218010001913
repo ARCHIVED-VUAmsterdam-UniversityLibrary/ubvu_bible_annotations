@@ -8,17 +8,29 @@
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_7761ecc7cd4ca6f82da62db612aa62bf2611907b> a oa:Annotation .
-<http://accurator.nl/id_7761ecc7cd4ca6f82da62db612aa62bf2611907b> terms:title "Stefanus" .
-<http://accurator.nl/id_7761ecc7cd4ca6f82da62db612aa62bf2611907b> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_7761ecc7cd4ca6f82da62db612aa62bf2611907b> ui:typingTime 0 .
-<http://accurator.nl/id_7761ecc7cd4ca6f82da62db612aa62bf2611907b> oa:annotatedAt "2016-04-10T23:21:23+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_7761ecc7cd4ca6f82da62db612aa62bf2611907b> oa:annotatedBy user:ek .
-<http://accurator.nl/id_7761ecc7cd4ca6f82da62db612aa62bf2611907b> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Stefanus" ] .
-<http://accurator.nl/id_7761ecc7cd4ca6f82da62db612aa62bf2611907b> oa:hasTarget target:target_de0d992cf791628942353618bc48613d238268d1 .
-<http://accurator.nl/id_7761ecc7cd4ca6f82da62db612aa62bf2611907b> oa:hasTarget ubvu:print-218010001913 .
-<http://accurator.nl/id_7761ecc7cd4ca6f82da62db612aa62bf2611907b> oa:motivatedBy oa:tagging .
+nl:id_7761ecc7cd4ca6f82da62db612aa62bf2611907b a oa:Annotation .
+nl:id_7761ecc7cd4ca6f82da62db612aa62bf2611907b terms:title "Stefanus" .
+nl:id_7761ecc7cd4ca6f82da62db612aa62bf2611907b ui:annotationField bible:BibleCharacter .
+nl:id_7761ecc7cd4ca6f82da62db612aa62bf2611907b ui:typingTime 0 .
+nl:id_7761ecc7cd4ca6f82da62db612aa62bf2611907b oa:annotatedAt "2016-04-10T23:21:23+02:00"^^xsd:dateTime .
+nl:id_7761ecc7cd4ca6f82da62db612aa62bf2611907b oa:annotatedBy user:ek .
+nl:id_7761ecc7cd4ca6f82da62db612aa62bf2611907b oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Stefanus" ] .
+nl:id_7761ecc7cd4ca6f82da62db612aa62bf2611907b oa:hasTarget target:target_de0d992cf791628942353618bc48613d238268d1 .
+nl:id_7761ecc7cd4ca6f82da62db612aa62bf2611907b oa:hasTarget ubvu:print-218010001913 .
+nl:id_7761ecc7cd4ca6f82da62db612aa62bf2611907b oa:motivatedBy oa:tagging .
+
+nl:id_ea0efad22343726333bfae87ab8554c14e7736a5 a oa:Annotation .
+nl:id_ea0efad22343726333bfae87ab8554c14e7736a5 terms:title "the stoning of Stephen; the witnesses lay down their clothes at Saul's feet" .
+nl:id_ea0efad22343726333bfae87ab8554c14e7736a5 ui:annotationField bible:ICBibleTheme .
+nl:id_ea0efad22343726333bfae87ab8554c14e7736a5 ui:typingTime 0 .
+nl:id_ea0efad22343726333bfae87ab8554c14e7736a5 oa:annotatedAt "2016-04-10T23:22:03+02:00"^^xsd:dateTime .
+nl:id_ea0efad22343726333bfae87ab8554c14e7736a5 oa:annotatedBy user:ek .
+nl:id_ea0efad22343726333bfae87ab8554c14e7736a5 oa:hasBody <http://iconclass.org/73F3563> .
+nl:id_ea0efad22343726333bfae87ab8554c14e7736a5 oa:hasTarget ubvu:print-218010001913 .
+nl:id_ea0efad22343726333bfae87ab8554c14e7736a5 oa:motivatedBy oa:tagging .
 
 target:selector_de0d992cf791628942353618bc48613d238268d1 a oa:FragmentSelector .
 target:selector_de0d992cf791628942353618bc48613d238268d1 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
