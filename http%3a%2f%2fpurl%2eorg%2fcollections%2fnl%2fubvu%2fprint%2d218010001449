@@ -8,17 +8,29 @@
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_35244baf04129533d756b005404c372d587dda04> a oa:Annotation .
-<http://accurator.nl/id_35244baf04129533d756b005404c372d587dda04> terms:title "Jonathan" .
-<http://accurator.nl/id_35244baf04129533d756b005404c372d587dda04> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_35244baf04129533d756b005404c372d587dda04> ui:typingTime 0 .
-<http://accurator.nl/id_35244baf04129533d756b005404c372d587dda04> oa:annotatedAt "2016-04-10T23:37:48+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_35244baf04129533d756b005404c372d587dda04> oa:annotatedBy user:ek .
-<http://accurator.nl/id_35244baf04129533d756b005404c372d587dda04> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jonathan" ] .
-<http://accurator.nl/id_35244baf04129533d756b005404c372d587dda04> oa:hasTarget target:target_6962ab85012dcada1514939ffcefaf2153ca42a9 .
-<http://accurator.nl/id_35244baf04129533d756b005404c372d587dda04> oa:hasTarget ubvu:print-218010001449 .
-<http://accurator.nl/id_35244baf04129533d756b005404c372d587dda04> oa:motivatedBy oa:tagging .
+nl:id_274e13d53117e5b53e6bb46abca69d5aa1e09387 a oa:Annotation .
+nl:id_274e13d53117e5b53e6bb46abca69d5aa1e09387 terms:title "Jonathan and his armour-bearer kill about twenty Philistines" .
+nl:id_274e13d53117e5b53e6bb46abca69d5aa1e09387 ui:annotationField bible:ICBibleTheme .
+nl:id_274e13d53117e5b53e6bb46abca69d5aa1e09387 ui:typingTime 0 .
+nl:id_274e13d53117e5b53e6bb46abca69d5aa1e09387 oa:annotatedAt "2016-04-10T23:38:26+02:00"^^xsd:dateTime .
+nl:id_274e13d53117e5b53e6bb46abca69d5aa1e09387 oa:annotatedBy user:ek .
+nl:id_274e13d53117e5b53e6bb46abca69d5aa1e09387 oa:hasBody <http://iconclass.org/71G222> .
+nl:id_274e13d53117e5b53e6bb46abca69d5aa1e09387 oa:hasTarget ubvu:print-218010001449 .
+nl:id_274e13d53117e5b53e6bb46abca69d5aa1e09387 oa:motivatedBy oa:tagging .
+
+nl:id_35244baf04129533d756b005404c372d587dda04 a oa:Annotation .
+nl:id_35244baf04129533d756b005404c372d587dda04 terms:title "Jonathan" .
+nl:id_35244baf04129533d756b005404c372d587dda04 ui:annotationField bible:BibleCharacter .
+nl:id_35244baf04129533d756b005404c372d587dda04 ui:typingTime 0 .
+nl:id_35244baf04129533d756b005404c372d587dda04 oa:annotatedAt "2016-04-10T23:37:48+02:00"^^xsd:dateTime .
+nl:id_35244baf04129533d756b005404c372d587dda04 oa:annotatedBy user:ek .
+nl:id_35244baf04129533d756b005404c372d587dda04 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jonathan" ] .
+nl:id_35244baf04129533d756b005404c372d587dda04 oa:hasTarget target:target_6962ab85012dcada1514939ffcefaf2153ca42a9 .
+nl:id_35244baf04129533d756b005404c372d587dda04 oa:hasTarget ubvu:print-218010001449 .
+nl:id_35244baf04129533d756b005404c372d587dda04 oa:motivatedBy oa:tagging .
 
 target:selector_6962ab85012dcada1514939ffcefaf2153ca42a9 a oa:FragmentSelector .
 target:selector_6962ab85012dcada1514939ffcefaf2153ca42a9 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
