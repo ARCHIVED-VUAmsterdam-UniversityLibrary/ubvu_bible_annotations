@@ -45,6 +45,16 @@ nl:id_948da0c3cabb8971be2e24fcf8443307cc3f83c1 oa:hasTarget target:target_b57cc5
 nl:id_948da0c3cabb8971be2e24fcf8443307cc3f83c1 oa:hasTarget ubvu:print-218010002005 .
 nl:id_948da0c3cabb8971be2e24fcf8443307cc3f83c1 oa:motivatedBy oa:tagging .
 
+nl:id_98cc40d47e7360b5d589efce5f591b711cbc3ed1 a oa:Annotation .
+nl:id_98cc40d47e7360b5d589efce5f591b711cbc3ed1 terms:title "adoration of the golden calf (which may be standing on a pillar, and is sometimes depicted as a dragon)" .
+nl:id_98cc40d47e7360b5d589efce5f591b711cbc3ed1 ui:annotationField bible:ICBibleTheme .
+nl:id_98cc40d47e7360b5d589efce5f591b711cbc3ed1 ui:typingTime 0 .
+nl:id_98cc40d47e7360b5d589efce5f591b711cbc3ed1 oa:annotatedAt "2016-04-10T22:52:11+02:00"^^xsd:dateTime .
+nl:id_98cc40d47e7360b5d589efce5f591b711cbc3ed1 oa:annotatedBy user:ek .
+nl:id_98cc40d47e7360b5d589efce5f591b711cbc3ed1 oa:hasBody <http://iconclass.org/71E1353> .
+nl:id_98cc40d47e7360b5d589efce5f591b711cbc3ed1 oa:hasTarget ubvu:print-218010002005 .
+nl:id_98cc40d47e7360b5d589efce5f591b711cbc3ed1 oa:motivatedBy oa:tagging .
+
 nl:id_f2473447c9d176861ee92f166402bb052549f8f8 a oa:Annotation .
 nl:id_f2473447c9d176861ee92f166402bb052549f8f8 terms:title "Mozes" .
 nl:id_f2473447c9d176861ee92f166402bb052549f8f8 ui:annotationField bible:BibleCharacter .
