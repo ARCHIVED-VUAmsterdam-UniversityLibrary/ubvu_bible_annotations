@@ -23,6 +23,17 @@ nl:id_00abf859a38ad1100f3a0fdb189b32f5acf734df oa:hasTarget target:target_53866d
 nl:id_00abf859a38ad1100f3a0fdb189b32f5acf734df oa:hasTarget ubvu:print-218010001019 .
 nl:id_00abf859a38ad1100f3a0fdb189b32f5acf734df oa:motivatedBy oa:tagging .
 
+nl:id_196e66ffb1a2d19ba9284d52b7822b54c0036bd8 a oa:Annotation .
+nl:id_196e66ffb1a2d19ba9284d52b7822b54c0036bd8 terms:title "Adam" .
+nl:id_196e66ffb1a2d19ba9284d52b7822b54c0036bd8 ui:annotationField bible:BibleCharacter .
+nl:id_196e66ffb1a2d19ba9284d52b7822b54c0036bd8 ui:typingTime 0 .
+nl:id_196e66ffb1a2d19ba9284d52b7822b54c0036bd8 oa:annotatedAt "2016-04-10T22:37:18+02:00"^^xsd:dateTime .
+nl:id_196e66ffb1a2d19ba9284d52b7822b54c0036bd8 oa:annotatedBy user:ek .
+nl:id_196e66ffb1a2d19ba9284d52b7822b54c0036bd8 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Adam" ] .
+nl:id_196e66ffb1a2d19ba9284d52b7822b54c0036bd8 oa:hasTarget target:target_ccda7118040946ee44b60c6903b7b69726c28d36 .
+nl:id_196e66ffb1a2d19ba9284d52b7822b54c0036bd8 oa:hasTarget ubvu:print-218010001019 .
+nl:id_196e66ffb1a2d19ba9284d52b7822b54c0036bd8 oa:motivatedBy oa:tagging .
+
 nl:id_821e5275749b1b34abc5c1cecd307261d9260fe9 a oa:Annotation .
 nl:id_821e5275749b1b34abc5c1cecd307261d9260fe9 terms:title "Garden of Eden, paradise" .
 nl:id_821e5275749b1b34abc5c1cecd307261d9260fe9 ui:annotationField bible:ICBibleTheme .
@@ -60,6 +71,14 @@ target:selector_c56a78c3a642871b333192e45a19b03e90e58b6e ui:x "0.152991452991453
 target:selector_c56a78c3a642871b333192e45a19b03e90e58b6e ui:y "0.4724669603524229"^^xsd:float .
 target:selector_c56a78c3a642871b333192e45a19b03e90e58b6e rdf:value "#xywh=percent:15,47,28,37" .
 
+target:selector_ccda7118040946ee44b60c6903b7b69726c28d36 a oa:FragmentSelector .
+target:selector_ccda7118040946ee44b60c6903b7b69726c28d36 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_ccda7118040946ee44b60c6903b7b69726c28d36 ui:h "0.3788546255506608"^^xsd:float .
+target:selector_ccda7118040946ee44b60c6903b7b69726c28d36 ui:w "0.3735042735042735"^^xsd:float .
+target:selector_ccda7118040946ee44b60c6903b7b69726c28d36 ui:x "0.3316239316239316"^^xsd:float .
+target:selector_ccda7118040946ee44b60c6903b7b69726c28d36 ui:y "0.4686123348017621"^^xsd:float .
+target:selector_ccda7118040946ee44b60c6903b7b69726c28d36 rdf:value "#xywh=percent:33,47,37,38" .
+
 target:target_53866d8454fc0011c8f581b7b5f0ca9f95bf3813 a oa:SpecificResource .
 target:target_53866d8454fc0011c8f581b7b5f0ca9f95bf3813 oa:hasSelector target:selector_53866d8454fc0011c8f581b7b5f0ca9f95bf3813 .
 target:target_53866d8454fc0011c8f581b7b5f0ca9f95bf3813 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/60> .
@@ -67,3 +86,7 @@ target:target_53866d8454fc0011c8f581b7b5f0ca9f95bf3813 oa:hasSource <http://imag
 target:target_c56a78c3a642871b333192e45a19b03e90e58b6e a oa:SpecificResource .
 target:target_c56a78c3a642871b333192e45a19b03e90e58b6e oa:hasSelector target:selector_c56a78c3a642871b333192e45a19b03e90e58b6e .
 target:target_c56a78c3a642871b333192e45a19b03e90e58b6e oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/60> .
+
+target:target_ccda7118040946ee44b60c6903b7b69726c28d36 a oa:SpecificResource .
+target:target_ccda7118040946ee44b60c6903b7b69726c28d36 oa:hasSelector target:selector_ccda7118040946ee44b60c6903b7b69726c28d36 .
+target:target_ccda7118040946ee44b60c6903b7b69726c28d36 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/60> .
