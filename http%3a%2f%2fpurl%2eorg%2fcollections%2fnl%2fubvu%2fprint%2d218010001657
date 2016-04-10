@@ -13,6 +13,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_5fcbec499a6637b1e11c70f1d66ed6eff57c980c a oa:Annotation .
+nl:id_5fcbec499a6637b1e11c70f1d66ed6eff57c980c terms:title "Mary and Elisabeth shaking hands" .
+nl:id_5fcbec499a6637b1e11c70f1d66ed6eff57c980c ui:annotationField bible:ICBibleTheme .
+nl:id_5fcbec499a6637b1e11c70f1d66ed6eff57c980c ui:typingTime 0 .
+nl:id_5fcbec499a6637b1e11c70f1d66ed6eff57c980c oa:annotatedAt "2016-04-10T23:26:18+02:00"^^xsd:dateTime .
+nl:id_5fcbec499a6637b1e11c70f1d66ed6eff57c980c oa:annotatedBy user:ek .
+nl:id_5fcbec499a6637b1e11c70f1d66ed6eff57c980c oa:hasBody <http://iconclass.org/73A623> .
+nl:id_5fcbec499a6637b1e11c70f1d66ed6eff57c980c oa:hasTarget ubvu:print-218010001657 .
+nl:id_5fcbec499a6637b1e11c70f1d66ed6eff57c980c oa:motivatedBy oa:tagging .
+
 nl:id_91af8401f00b025bf59b76b48449227b28d4f45a a oa:Annotation .
 nl:id_91af8401f00b025bf59b76b48449227b28d4f45a terms:title "Maria" .
 nl:id_91af8401f00b025bf59b76b48449227b28d4f45a ui:annotationField bible:BibleCharacter .
