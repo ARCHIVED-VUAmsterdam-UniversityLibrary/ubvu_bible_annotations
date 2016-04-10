@@ -34,6 +34,16 @@ nl:id_569a71855b53a3d586ae787d569b95981c152179 oa:hasBody <http://iconclass.org/
 nl:id_569a71855b53a3d586ae787d569b95981c152179 oa:hasTarget ubvu:print-218010002005 .
 nl:id_569a71855b53a3d586ae787d569b95981c152179 oa:motivatedBy oa:tagging .
 
+nl:id_7a12bb7b6b2a8218e99281ec0ed42e6a4ef74b82 a oa:Annotation .
+nl:id_7a12bb7b6b2a8218e99281ec0ed42e6a4ef74b82 terms:title "Moses receives the tables of the law from God" .
+nl:id_7a12bb7b6b2a8218e99281ec0ed42e6a4ef74b82 ui:annotationField bible:ICBibleTheme .
+nl:id_7a12bb7b6b2a8218e99281ec0ed42e6a4ef74b82 ui:typingTime 0 .
+nl:id_7a12bb7b6b2a8218e99281ec0ed42e6a4ef74b82 oa:annotatedAt "2016-04-10T22:52:35+02:00"^^xsd:dateTime .
+nl:id_7a12bb7b6b2a8218e99281ec0ed42e6a4ef74b82 oa:annotatedBy user:ek .
+nl:id_7a12bb7b6b2a8218e99281ec0ed42e6a4ef74b82 oa:hasBody <http://iconclass.org/71E1343> .
+nl:id_7a12bb7b6b2a8218e99281ec0ed42e6a4ef74b82 oa:hasTarget ubvu:print-218010002005 .
+nl:id_7a12bb7b6b2a8218e99281ec0ed42e6a4ef74b82 oa:motivatedBy oa:tagging .
+
 nl:id_948da0c3cabb8971be2e24fcf8443307cc3f83c1 a oa:Annotation .
 nl:id_948da0c3cabb8971be2e24fcf8443307cc3f83c1 terms:title "Aäron" .
 nl:id_948da0c3cabb8971be2e24fcf8443307cc3f83c1 ui:annotationField bible:BibleCharacter .
