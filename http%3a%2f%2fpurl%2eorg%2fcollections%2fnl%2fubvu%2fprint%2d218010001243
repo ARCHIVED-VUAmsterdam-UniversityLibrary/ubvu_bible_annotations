@@ -1,0 +1,17 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix user: <http://accurator.nl/user#> .
+
+<http://accurator.nl/id_cae873c75bb2eef3976e9fdd7f064128db7e5136> a oa:Annotation .
+<http://accurator.nl/id_cae873c75bb2eef3976e9fdd7f064128db7e5136> terms:title "Aaron builds an altar and offers a sacrifice to the golden calf" .
+<http://accurator.nl/id_cae873c75bb2eef3976e9fdd7f064128db7e5136> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
+<http://accurator.nl/id_cae873c75bb2eef3976e9fdd7f064128db7e5136> ui:typingTime 0 .
+<http://accurator.nl/id_cae873c75bb2eef3976e9fdd7f064128db7e5136> oa:annotatedAt "2016-04-10T23:07:38+02:00"^^xsd:dateTime .
+<http://accurator.nl/id_cae873c75bb2eef3976e9fdd7f064128db7e5136> oa:annotatedBy user:ek .
+<http://accurator.nl/id_cae873c75bb2eef3976e9fdd7f064128db7e5136> oa:hasBody <http://iconclass.org/71E13531> .
+<http://accurator.nl/id_cae873c75bb2eef3976e9fdd7f064128db7e5136> oa:hasTarget ubvu:print-218010001243 .
+<http://accurator.nl/id_cae873c75bb2eef3976e9fdd7f064128db7e5136> oa:motivatedBy oa:tagging .
