@@ -1,0 +1,17 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix user: <http://accurator.nl/user#> .
+
+<http://accurator.nl/id_901f7f2df60a7e193cd17fca1491d6200c53fea2> a oa:Annotation .
+<http://accurator.nl/id_901f7f2df60a7e193cd17fca1491d6200c53fea2> terms:title "the Ark of the Covenant returned to Israel" .
+<http://accurator.nl/id_901f7f2df60a7e193cd17fca1491d6200c53fea2> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
+<http://accurator.nl/id_901f7f2df60a7e193cd17fca1491d6200c53fea2> ui:typingTime 0 .
+<http://accurator.nl/id_901f7f2df60a7e193cd17fca1491d6200c53fea2> oa:annotatedAt "2016-04-13T16:59:17+02:00"^^xsd:dateTime .
+<http://accurator.nl/id_901f7f2df60a7e193cd17fca1491d6200c53fea2> oa:annotatedBy user:everhoeff .
+<http://accurator.nl/id_901f7f2df60a7e193cd17fca1491d6200c53fea2> oa:hasBody <http://iconclass.org/71F836> .
+<http://accurator.nl/id_901f7f2df60a7e193cd17fca1491d6200c53fea2> oa:hasTarget ubvu:print-218010001429 .
+<http://accurator.nl/id_901f7f2df60a7e193cd17fca1491d6200c53fea2> oa:motivatedBy oa:tagging .
