@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -8,17 +9,38 @@
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_0fa4512c08ac13ceb894fd8097f7c0f983c60a6c> a oa:Annotation .
-<http://accurator.nl/id_0fa4512c08ac13ceb894fd8097f7c0f983c60a6c> terms:title "Somson" .
-<http://accurator.nl/id_0fa4512c08ac13ceb894fd8097f7c0f983c60a6c> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_0fa4512c08ac13ceb894fd8097f7c0f983c60a6c> ui:typingTime 0 .
-<http://accurator.nl/id_0fa4512c08ac13ceb894fd8097f7c0f983c60a6c> oa:annotatedAt "2016-04-13T16:54:28+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_0fa4512c08ac13ceb894fd8097f7c0f983c60a6c> oa:annotatedBy user:everhoeff .
-<http://accurator.nl/id_0fa4512c08ac13ceb894fd8097f7c0f983c60a6c> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Somson" ] .
-<http://accurator.nl/id_0fa4512c08ac13ceb894fd8097f7c0f983c60a6c> oa:hasTarget target:target_6090e05fdf4aa84651d7238fd57aac396729d253 .
-<http://accurator.nl/id_0fa4512c08ac13ceb894fd8097f7c0f983c60a6c> oa:hasTarget ubvu:print-218010001397 .
-<http://accurator.nl/id_0fa4512c08ac13ceb894fd8097f7c0f983c60a6c> oa:motivatedBy oa:tagging .
+nl:id_0fa4512c08ac13ceb894fd8097f7c0f983c60a6c a oa:Annotation .
+nl:id_0fa4512c08ac13ceb894fd8097f7c0f983c60a6c terms:title "Somson" .
+nl:id_0fa4512c08ac13ceb894fd8097f7c0f983c60a6c ui:annotationField bible:BibleCharacter .
+nl:id_0fa4512c08ac13ceb894fd8097f7c0f983c60a6c ui:typingTime 0 .
+nl:id_0fa4512c08ac13ceb894fd8097f7c0f983c60a6c oa:annotatedAt "2016-04-13T16:54:28+02:00"^^xsd:dateTime .
+nl:id_0fa4512c08ac13ceb894fd8097f7c0f983c60a6c oa:annotatedBy user:everhoeff .
+nl:id_0fa4512c08ac13ceb894fd8097f7c0f983c60a6c oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Somson" ] .
+nl:id_0fa4512c08ac13ceb894fd8097f7c0f983c60a6c oa:hasTarget target:target_6090e05fdf4aa84651d7238fd57aac396729d253 .
+nl:id_0fa4512c08ac13ceb894fd8097f7c0f983c60a6c oa:hasTarget ubvu:print-218010001397 .
+nl:id_0fa4512c08ac13ceb894fd8097f7c0f983c60a6c oa:motivatedBy oa:tagging .
+
+nl:id_2f195173013fd6bbc861acd3a4ef4759cd192ae5 a oa:Annotation .
+nl:id_2f195173013fd6bbc861acd3a4ef4759cd192ae5 terms:title "simson" .
+nl:id_2f195173013fd6bbc861acd3a4ef4759cd192ae5 ui:annotationField bible:BibleCharacter .
+nl:id_2f195173013fd6bbc861acd3a4ef4759cd192ae5 ui:typingTime 0 .
+nl:id_2f195173013fd6bbc861acd3a4ef4759cd192ae5 oa:annotatedAt "2016-04-13T16:54:58+02:00"^^xsd:dateTime .
+nl:id_2f195173013fd6bbc861acd3a4ef4759cd192ae5 oa:annotatedBy user:everhoeff .
+nl:id_2f195173013fd6bbc861acd3a4ef4759cd192ae5 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "simson" ] .
+nl:id_2f195173013fd6bbc861acd3a4ef4759cd192ae5 oa:hasTarget target:target_4123b796cf9391226e81acf44c072728729aba0b .
+nl:id_2f195173013fd6bbc861acd3a4ef4759cd192ae5 oa:hasTarget ubvu:print-218010001397 .
+nl:id_2f195173013fd6bbc861acd3a4ef4759cd192ae5 oa:motivatedBy oa:tagging .
+
+target:selector_4123b796cf9391226e81acf44c072728729aba0b a oa:FragmentSelector .
+target:selector_4123b796cf9391226e81acf44c072728729aba0b terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_4123b796cf9391226e81acf44c072728729aba0b ui:h "0.11959521619135234"^^xsd:float .
+target:selector_4123b796cf9391226e81acf44c072728729aba0b ui:w "0.14"^^xsd:float .
+target:selector_4123b796cf9391226e81acf44c072728729aba0b ui:x "0.536"^^xsd:float .
+target:selector_4123b796cf9391226e81acf44c072728729aba0b ui:y "0.7635694572217111"^^xsd:float .
+target:selector_4123b796cf9391226e81acf44c072728729aba0b rdf:value "#xywh=percent:54,76,14,12" .
 
 target:selector_6090e05fdf4aa84651d7238fd57aac396729d253 a oa:FragmentSelector .
 target:selector_6090e05fdf4aa84651d7238fd57aac396729d253 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -27,6 +49,10 @@ target:selector_6090e05fdf4aa84651d7238fd57aac396729d253 ui:w "0.113333333333333
 target:selector_6090e05fdf4aa84651d7238fd57aac396729d253 ui:x "0.5413333333333333"^^xsd:float .
 target:selector_6090e05fdf4aa84651d7238fd57aac396729d253 ui:y "0.7525298988040479"^^xsd:float .
 target:selector_6090e05fdf4aa84651d7238fd57aac396729d253 rdf:value "#xywh=percent:54,75,11,13" .
+
+target:target_4123b796cf9391226e81acf44c072728729aba0b a oa:SpecificResource .
+target:target_4123b796cf9391226e81acf44c072728729aba0b oa:hasSelector target:selector_4123b796cf9391226e81acf44c072728729aba0b .
+target:target_4123b796cf9391226e81acf44c072728729aba0b oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/438> .
 
 target:target_6090e05fdf4aa84651d7238fd57aac396729d253 a oa:SpecificResource .
 target:target_6090e05fdf4aa84651d7238fd57aac396729d253 oa:hasSelector target:selector_6090e05fdf4aa84651d7238fd57aac396729d253 .
