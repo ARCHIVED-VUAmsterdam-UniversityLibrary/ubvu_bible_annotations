@@ -56,6 +56,16 @@ nl:id_c1e591e3c0099fdd31096f1792b47cd0d402e51b oa:hasTarget target:target_1a7ebf
 nl:id_c1e591e3c0099fdd31096f1792b47cd0d402e51b oa:hasTarget ubvu:print-218010001095 .
 nl:id_c1e591e3c0099fdd31096f1792b47cd0d402e51b oa:motivatedBy oa:tagging .
 
+nl:id_cbaa352c3d0579a88257d9c6d425a31342d92aa4 a oa:Annotation .
+nl:id_cbaa352c3d0579a88257d9c6d425a31342d92aa4 terms:title "Abraham sends away Hagar" .
+nl:id_cbaa352c3d0579a88257d9c6d425a31342d92aa4 ui:annotationField bible:ICBibleTheme .
+nl:id_cbaa352c3d0579a88257d9c6d425a31342d92aa4 ui:typingTime 0 .
+nl:id_cbaa352c3d0579a88257d9c6d425a31342d92aa4 oa:annotatedAt "2016-04-16T18:11:04+02:00"^^xsd:dateTime .
+nl:id_cbaa352c3d0579a88257d9c6d425a31342d92aa4 oa:annotatedBy user:everhoeff .
+nl:id_cbaa352c3d0579a88257d9c6d425a31342d92aa4 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Abraham sends away Hagar" ] .
+nl:id_cbaa352c3d0579a88257d9c6d425a31342d92aa4 oa:hasTarget ubvu:print-218010001095 .
+nl:id_cbaa352c3d0579a88257d9c6d425a31342d92aa4 oa:motivatedBy oa:tagging .
+
 nl:id_d77213f3553bba9e8b60eb3c84f212b9144cada9 a oa:Annotation .
 nl:id_d77213f3553bba9e8b60eb3c84f212b9144cada9 terms:title "Hagar" .
 nl:id_d77213f3553bba9e8b60eb3c84f212b9144cada9 ui:annotationField bible:BibleCharacter .
