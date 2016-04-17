@@ -13,6 +13,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_5699bf46e2426f802d191d770846e2bce8e81977 a oa:Annotation .
+nl:id_5699bf46e2426f802d191d770846e2bce8e81977 terms:title "Jezus en de overspelige vrouw" .
+nl:id_5699bf46e2426f802d191d770846e2bce8e81977 ui:annotationField bible:ICBibleTheme .
+nl:id_5699bf46e2426f802d191d770846e2bce8e81977 ui:typingTime 0 .
+nl:id_5699bf46e2426f802d191d770846e2bce8e81977 oa:annotatedAt "2016-04-17T16:26:22+02:00"^^xsd:dateTime .
+nl:id_5699bf46e2426f802d191d770846e2bce8e81977 oa:annotatedBy user:paulinevandijk .
+nl:id_5699bf46e2426f802d191d770846e2bce8e81977 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jezus en de overspelige vrouw" ] .
+nl:id_5699bf46e2426f802d191d770846e2bce8e81977 oa:hasTarget ubvu:print-218010001799 .
+nl:id_5699bf46e2426f802d191d770846e2bce8e81977 oa:motivatedBy oa:tagging .
+
 nl:id_722f8372259698ff91d7f972b1ca74589fb78973 a oa:Annotation .
 nl:id_722f8372259698ff91d7f972b1ca74589fb78973 terms:title "Jezus Christus" .
 nl:id_722f8372259698ff91d7f972b1ca74589fb78973 ui:annotationField bible:BibleCharacter .
