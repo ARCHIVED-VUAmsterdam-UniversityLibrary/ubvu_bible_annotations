@@ -6,14 +6,40 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_1943c0e3524ac3cd586d1ee04b585e142837068d> a oa:Annotation .
-<http://accurator.nl/id_1943c0e3524ac3cd586d1ee04b585e142837068d> terms:title "De ongehoorzame profeet" .
-<http://accurator.nl/id_1943c0e3524ac3cd586d1ee04b585e142837068d> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
-<http://accurator.nl/id_1943c0e3524ac3cd586d1ee04b585e142837068d> ui:typingTime 0 .
-<http://accurator.nl/id_1943c0e3524ac3cd586d1ee04b585e142837068d> oa:annotatedAt "2016-04-17T13:07:25+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_1943c0e3524ac3cd586d1ee04b585e142837068d> oa:annotatedBy user:paulinevandijk .
-<http://accurator.nl/id_1943c0e3524ac3cd586d1ee04b585e142837068d> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "De ongehoorzame profeet" ] .
-<http://accurator.nl/id_1943c0e3524ac3cd586d1ee04b585e142837068d> oa:hasTarget ubvu:print-218010001507 .
-<http://accurator.nl/id_1943c0e3524ac3cd586d1ee04b585e142837068d> oa:motivatedBy oa:tagging .
+nl:id_1943c0e3524ac3cd586d1ee04b585e142837068d a oa:Annotation .
+nl:id_1943c0e3524ac3cd586d1ee04b585e142837068d terms:title "De ongehoorzame profeet" .
+nl:id_1943c0e3524ac3cd586d1ee04b585e142837068d ui:annotationField bible:ICBibleTheme .
+nl:id_1943c0e3524ac3cd586d1ee04b585e142837068d ui:typingTime 0 .
+nl:id_1943c0e3524ac3cd586d1ee04b585e142837068d oa:annotatedAt "2016-04-17T13:07:25+02:00"^^xsd:dateTime .
+nl:id_1943c0e3524ac3cd586d1ee04b585e142837068d oa:annotatedBy user:paulinevandijk .
+nl:id_1943c0e3524ac3cd586d1ee04b585e142837068d oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "De ongehoorzame profeet" ] .
+nl:id_1943c0e3524ac3cd586d1ee04b585e142837068d oa:hasTarget ubvu:print-218010001507 .
+nl:id_1943c0e3524ac3cd586d1ee04b585e142837068d oa:motivatedBy oa:tagging .
+
+nl:id_bb8d82e9a86f1da148e8f84c034697d00d3f20ab a oa:Annotation .
+nl:id_bb8d82e9a86f1da148e8f84c034697d00d3f20ab terms:title "Ongehoorzame profeet" .
+nl:id_bb8d82e9a86f1da148e8f84c034697d00d3f20ab ui:annotationField bible:BibleCharacter .
+nl:id_bb8d82e9a86f1da148e8f84c034697d00d3f20ab ui:typingTime 0 .
+nl:id_bb8d82e9a86f1da148e8f84c034697d00d3f20ab oa:annotatedAt "2016-04-17T13:12:40+02:00"^^xsd:dateTime .
+nl:id_bb8d82e9a86f1da148e8f84c034697d00d3f20ab oa:annotatedBy user:paulinevandijk .
+nl:id_bb8d82e9a86f1da148e8f84c034697d00d3f20ab oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Ongehoorzame profeet" ] .
+nl:id_bb8d82e9a86f1da148e8f84c034697d00d3f20ab oa:hasTarget target:target_5ae14be99e51a7e99472a4f2645f49482e57bab8 .
+nl:id_bb8d82e9a86f1da148e8f84c034697d00d3f20ab oa:hasTarget ubvu:print-218010001507 .
+nl:id_bb8d82e9a86f1da148e8f84c034697d00d3f20ab oa:motivatedBy oa:tagging .
+
+target:selector_5ae14be99e51a7e99472a4f2645f49482e57bab8 a oa:FragmentSelector .
+target:selector_5ae14be99e51a7e99472a4f2645f49482e57bab8 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_5ae14be99e51a7e99472a4f2645f49482e57bab8 ui:h "0.2309048178613396"^^xsd:float .
+target:selector_5ae14be99e51a7e99472a4f2645f49482e57bab8 ui:w "0.5769230769230769"^^xsd:float .
+target:selector_5ae14be99e51a7e99472a4f2645f49482e57bab8 ui:x "0.14102564102564102"^^xsd:float .
+target:selector_5ae14be99e51a7e99472a4f2645f49482e57bab8 ui:y "0.5622796709753232"^^xsd:float .
+target:selector_5ae14be99e51a7e99472a4f2645f49482e57bab8 rdf:value "#xywh=percent:14,56,58,23" .
+
+target:target_5ae14be99e51a7e99472a4f2645f49482e57bab8 a oa:SpecificResource .
+target:target_5ae14be99e51a7e99472a4f2645f49482e57bab8 oa:hasSelector target:selector_5ae14be99e51a7e99472a4f2645f49482e57bab8 .
+target:target_5ae14be99e51a7e99472a4f2645f49482e57bab8 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/548> .
