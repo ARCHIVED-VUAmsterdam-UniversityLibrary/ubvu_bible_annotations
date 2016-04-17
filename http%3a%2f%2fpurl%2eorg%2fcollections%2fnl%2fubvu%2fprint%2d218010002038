@@ -1,9 +1,11 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
 @prefix media-frags: <http://www.w3.org/TR/media-frags/> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix resource: <http://bibleontology.com/resource/> .
@@ -44,6 +46,17 @@ nl:id_65dc9d6b5b90e0ef7626c61cceb22f84aff89468 oa:hasTarget target:target_88b4e3
 nl:id_65dc9d6b5b90e0ef7626c61cceb22f84aff89468 oa:hasTarget ubvu:print-218010002038 .
 nl:id_65dc9d6b5b90e0ef7626c61cceb22f84aff89468 oa:motivatedBy oa:tagging .
 
+nl:id_946646aa29fcc3d5c25480661c8ab79c2a26e769 a oa:Annotation .
+nl:id_946646aa29fcc3d5c25480661c8ab79c2a26e769 terms:title "Nicodemus" .
+nl:id_946646aa29fcc3d5c25480661c8ab79c2a26e769 ui:annotationField bible:BibleCharacter .
+nl:id_946646aa29fcc3d5c25480661c8ab79c2a26e769 ui:typingTime 0 .
+nl:id_946646aa29fcc3d5c25480661c8ab79c2a26e769 oa:annotatedAt "2016-04-17T13:50:59+02:00"^^xsd:dateTime .
+nl:id_946646aa29fcc3d5c25480661c8ab79c2a26e769 oa:annotatedBy user:paulinevandijk .
+nl:id_946646aa29fcc3d5c25480661c8ab79c2a26e769 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Nicodemus" ] .
+nl:id_946646aa29fcc3d5c25480661c8ab79c2a26e769 oa:hasTarget target:target_0c44f66b6497357aaa451f60a070474aa1c1e765 .
+nl:id_946646aa29fcc3d5c25480661c8ab79c2a26e769 oa:hasTarget ubvu:print-218010002038 .
+nl:id_946646aa29fcc3d5c25480661c8ab79c2a26e769 oa:motivatedBy oa:tagging .
+
 nl:id_d21d5efee198100c1f60ba9066f89d7e72deccbf a oa:Annotation .
 nl:id_d21d5efee198100c1f60ba9066f89d7e72deccbf terms:title "Jezus Christus" .
 nl:id_d21d5efee198100c1f60ba9066f89d7e72deccbf ui:annotationField bible:BibleCharacter .
@@ -65,6 +78,14 @@ nl:id_de2c4e79d0af7b1147831b9a769986c712f218dd oa:hasBody resource:Jesus .
 nl:id_de2c4e79d0af7b1147831b9a769986c712f218dd oa:hasTarget target:target_58fac124d9d04aeaa4760468c1129bf5b0f4ac10 .
 nl:id_de2c4e79d0af7b1147831b9a769986c712f218dd oa:hasTarget ubvu:print-218010002038 .
 nl:id_de2c4e79d0af7b1147831b9a769986c712f218dd oa:motivatedBy oa:tagging .
+
+target:selector_0c44f66b6497357aaa451f60a070474aa1c1e765 a oa:FragmentSelector .
+target:selector_0c44f66b6497357aaa451f60a070474aa1c1e765 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_0c44f66b6497357aaa451f60a070474aa1c1e765 ui:h "0.09429569266589057"^^xsd:float .
+target:selector_0c44f66b6497357aaa451f60a070474aa1c1e765 ui:w "0.07692307692307693"^^xsd:float .
+target:selector_0c44f66b6497357aaa451f60a070474aa1c1e765 ui:x "0.17777777777777778"^^xsd:float .
+target:selector_0c44f66b6497357aaa451f60a070474aa1c1e765 ui:y "0.3265424912689173"^^xsd:float .
+target:selector_0c44f66b6497357aaa451f60a070474aa1c1e765 rdf:value "#xywh=percent:18,33,8,9" .
 
 target:selector_4028f6ad05be4cde3d18c2dbb6c150775b721a77 a oa:FragmentSelector .
 target:selector_4028f6ad05be4cde3d18c2dbb6c150775b721a77 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -97,6 +118,10 @@ target:selector_88b4e35c910466d167d1b696ff6b6ed59de094db ui:w "0.062393162393162
 target:selector_88b4e35c910466d167d1b696ff6b6ed59de094db ui:x "0.12991452991452992"^^xsd:float .
 target:selector_88b4e35c910466d167d1b696ff6b6ed59de094db ui:y "0.3230500582072177"^^xsd:float .
 target:selector_88b4e35c910466d167d1b696ff6b6ed59de094db rdf:value "#xywh=percent:13,32,6,10" .
+
+target:target_0c44f66b6497357aaa451f60a070474aa1c1e765 a oa:SpecificResource .
+target:target_0c44f66b6497357aaa451f60a070474aa1c1e765 oa:hasSelector target:selector_0c44f66b6497357aaa451f60a070474aa1c1e765 .
+target:target_0c44f66b6497357aaa451f60a070474aa1c1e765 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/37> .
 
 target:target_4028f6ad05be4cde3d18c2dbb6c150775b721a77 a oa:SpecificResource .
 target:target_4028f6ad05be4cde3d18c2dbb6c150775b721a77 oa:hasSelector target:selector_4028f6ad05be4cde3d18c2dbb6c150775b721a77 .
