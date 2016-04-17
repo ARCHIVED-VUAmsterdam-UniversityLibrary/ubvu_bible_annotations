@@ -11,6 +11,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_00c8a839d9cf79d72e25d64f5a25581cc6bc00b2 a oa:Annotation .
+nl:id_00c8a839d9cf79d72e25d64f5a25581cc6bc00b2 terms:title "Straf van de ongehoorzame profeet" .
+nl:id_00c8a839d9cf79d72e25d64f5a25581cc6bc00b2 ui:annotationField bible:ICBibleTheme .
+nl:id_00c8a839d9cf79d72e25d64f5a25581cc6bc00b2 ui:typingTime 0 .
+nl:id_00c8a839d9cf79d72e25d64f5a25581cc6bc00b2 oa:annotatedAt "2016-04-17T16:33:24+02:00"^^xsd:dateTime .
+nl:id_00c8a839d9cf79d72e25d64f5a25581cc6bc00b2 oa:annotatedBy user:paulinevandijk .
+nl:id_00c8a839d9cf79d72e25d64f5a25581cc6bc00b2 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Straf van de ongehoorzame profeet" ] .
+nl:id_00c8a839d9cf79d72e25d64f5a25581cc6bc00b2 oa:hasTarget ubvu:print-218010001507 .
+nl:id_00c8a839d9cf79d72e25d64f5a25581cc6bc00b2 oa:motivatedBy oa:tagging .
+
 nl:id_1943c0e3524ac3cd586d1ee04b585e142837068d a oa:Annotation .
 nl:id_1943c0e3524ac3cd586d1ee04b585e142837068d terms:title "De ongehoorzame profeet" .
 nl:id_1943c0e3524ac3cd586d1ee04b585e142837068d ui:annotationField bible:ICBibleTheme .
