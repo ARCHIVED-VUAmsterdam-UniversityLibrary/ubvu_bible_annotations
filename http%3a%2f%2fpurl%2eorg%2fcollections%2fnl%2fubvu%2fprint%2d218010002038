@@ -11,6 +11,17 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_0c08c7261d07384f2bacbc00298f8a4bfc37410c a oa:Annotation .
+nl:id_0c08c7261d07384f2bacbc00298f8a4bfc37410c terms:title "Jezus Christus" .
+nl:id_0c08c7261d07384f2bacbc00298f8a4bfc37410c ui:annotationField bible:BibleCharacter .
+nl:id_0c08c7261d07384f2bacbc00298f8a4bfc37410c ui:typingTime 0 .
+nl:id_0c08c7261d07384f2bacbc00298f8a4bfc37410c oa:annotatedAt "2016-04-17T12:57:00+02:00"^^xsd:dateTime .
+nl:id_0c08c7261d07384f2bacbc00298f8a4bfc37410c oa:annotatedBy user:paulinevandijk .
+nl:id_0c08c7261d07384f2bacbc00298f8a4bfc37410c oa:hasBody resource:Jesus .
+nl:id_0c08c7261d07384f2bacbc00298f8a4bfc37410c oa:hasTarget target:target_6749c9ee84b300b8a4d06ca128c3684598f81d01 .
+nl:id_0c08c7261d07384f2bacbc00298f8a4bfc37410c oa:hasTarget ubvu:print-218010002038 .
+nl:id_0c08c7261d07384f2bacbc00298f8a4bfc37410c oa:motivatedBy oa:tagging .
+
 nl:id_4e13fb640071154c320d2d8dcc1eaf32050883e0 a oa:Annotation .
 nl:id_4e13fb640071154c320d2d8dcc1eaf32050883e0 terms:title "Jezus Christus" .
 nl:id_4e13fb640071154c320d2d8dcc1eaf32050883e0 ui:annotationField bible:BibleCharacter .
