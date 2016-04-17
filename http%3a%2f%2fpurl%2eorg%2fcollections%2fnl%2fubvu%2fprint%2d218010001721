@@ -1,9 +1,11 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
 @prefix media-frags: <http://www.w3.org/TR/media-frags/> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix resource: <http://bibleontology.com/resource/> .
@@ -21,6 +23,16 @@ nl:id_2a85f19c4742a42cdf04be73206abb59501fe472 oa:hasBody resource:Jesus .
 nl:id_2a85f19c4742a42cdf04be73206abb59501fe472 oa:hasTarget target:target_6145f295df14c1fb9961b2ef0700f74e7fdd6e3a .
 nl:id_2a85f19c4742a42cdf04be73206abb59501fe472 oa:hasTarget ubvu:print-218010001721 .
 nl:id_2a85f19c4742a42cdf04be73206abb59501fe472 oa:motivatedBy oa:tagging .
+
+nl:id_3ac66b8fe03488a9ccc695bfcbc980eee8b2d775 a oa:Annotation .
+nl:id_3ac66b8fe03488a9ccc695bfcbc980eee8b2d775 terms:title "De bruiloft te Kana" .
+nl:id_3ac66b8fe03488a9ccc695bfcbc980eee8b2d775 ui:annotationField bible:ICBibleTheme .
+nl:id_3ac66b8fe03488a9ccc695bfcbc980eee8b2d775 ui:typingTime 0 .
+nl:id_3ac66b8fe03488a9ccc695bfcbc980eee8b2d775 oa:annotatedAt "2016-04-17T16:33:46+02:00"^^xsd:dateTime .
+nl:id_3ac66b8fe03488a9ccc695bfcbc980eee8b2d775 oa:annotatedBy user:paulinevandijk .
+nl:id_3ac66b8fe03488a9ccc695bfcbc980eee8b2d775 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "De bruiloft te Kana" ] .
+nl:id_3ac66b8fe03488a9ccc695bfcbc980eee8b2d775 oa:hasTarget ubvu:print-218010001721 .
+nl:id_3ac66b8fe03488a9ccc695bfcbc980eee8b2d775 oa:motivatedBy oa:tagging .
 
 nl:id_9940d7a675e14eba088d56e2b2fde9a6afffee3d a oa:Annotation .
 nl:id_9940d7a675e14eba088d56e2b2fde9a6afffee3d terms:title "Maria (moeder van Jezus Christus))" .
