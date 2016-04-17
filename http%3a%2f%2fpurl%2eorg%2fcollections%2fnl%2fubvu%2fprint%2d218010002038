@@ -79,6 +79,17 @@ nl:id_71978da391ca5014de0f8fb712b2c7ddf7bcd985 oa:hasTarget target:target_95b5e9
 nl:id_71978da391ca5014de0f8fb712b2c7ddf7bcd985 oa:hasTarget ubvu:print-218010002038 .
 nl:id_71978da391ca5014de0f8fb712b2c7ddf7bcd985 oa:motivatedBy oa:tagging .
 
+nl:id_7a51f83f041cb1fd03cb4fd7c38bcd18be868dcc a oa:Annotation .
+nl:id_7a51f83f041cb1fd03cb4fd7c38bcd18be868dcc terms:title "zieke man in Bethesda" .
+nl:id_7a51f83f041cb1fd03cb4fd7c38bcd18be868dcc ui:annotationField bible:BibleCharacter .
+nl:id_7a51f83f041cb1fd03cb4fd7c38bcd18be868dcc ui:typingTime 0 .
+nl:id_7a51f83f041cb1fd03cb4fd7c38bcd18be868dcc oa:annotatedAt "2016-04-17T15:54:01+02:00"^^xsd:dateTime .
+nl:id_7a51f83f041cb1fd03cb4fd7c38bcd18be868dcc oa:annotatedBy user:paulinevandijk .
+nl:id_7a51f83f041cb1fd03cb4fd7c38bcd18be868dcc oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "zieke man in Bethesda" ] .
+nl:id_7a51f83f041cb1fd03cb4fd7c38bcd18be868dcc oa:hasTarget target:target_7ff2ea912700a71ecac5127107c45770adb2ccd8 .
+nl:id_7a51f83f041cb1fd03cb4fd7c38bcd18be868dcc oa:hasTarget ubvu:print-218010002038 .
+nl:id_7a51f83f041cb1fd03cb4fd7c38bcd18be868dcc oa:motivatedBy oa:tagging .
+
 nl:id_946646aa29fcc3d5c25480661c8ab79c2a26e769 a oa:Annotation .
 nl:id_946646aa29fcc3d5c25480661c8ab79c2a26e769 terms:title "Nicodemus" .
 nl:id_946646aa29fcc3d5c25480661c8ab79c2a26e769 ui:annotationField bible:BibleCharacter .
@@ -198,6 +209,14 @@ target:selector_7f671cdd38b308831cfbfcdfffff1c6d35931666 ui:x "0.407216494845360
 target:selector_7f671cdd38b308831cfbfcdfffff1c6d35931666 ui:y "0.20701754385964913"^^xsd:float .
 target:selector_7f671cdd38b308831cfbfcdfffff1c6d35931666 rdf:value "#xywh=percent:41,21,9,11" .
 
+target:selector_7ff2ea912700a71ecac5127107c45770adb2ccd8 a oa:FragmentSelector .
+target:selector_7ff2ea912700a71ecac5127107c45770adb2ccd8 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_7ff2ea912700a71ecac5127107c45770adb2ccd8 ui:h "0.047229791099000905"^^xsd:float .
+target:selector_7ff2ea912700a71ecac5127107c45770adb2ccd8 ui:w "0.058666666666666666"^^xsd:float .
+target:selector_7ff2ea912700a71ecac5127107c45770adb2ccd8 ui:x "0.632"^^xsd:float .
+target:selector_7ff2ea912700a71ecac5127107c45770adb2ccd8 ui:y "0.5158946412352406"^^xsd:float .
+target:selector_7ff2ea912700a71ecac5127107c45770adb2ccd8 rdf:value "#xywh=percent:63,52,6,5" .
+
 target:selector_88b4e35c910466d167d1b696ff6b6ed59de094db a oa:FragmentSelector .
 target:selector_88b4e35c910466d167d1b696ff6b6ed59de094db terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_88b4e35c910466d167d1b696ff6b6ed59de094db ui:h "0.09720605355064028"^^xsd:float .
@@ -245,6 +264,10 @@ target:target_6b8bce31d3d17f1dcec5fd58638a7699c5ad8fa1 oa:hasSource <http://imag
 target:target_7f671cdd38b308831cfbfcdfffff1c6d35931666 a oa:SpecificResource .
 target:target_7f671cdd38b308831cfbfcdfffff1c6d35931666 oa:hasSelector target:selector_7f671cdd38b308831cfbfcdfffff1c6d35931666 .
 target:target_7f671cdd38b308831cfbfcdfffff1c6d35931666 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/37> .
+
+target:target_7ff2ea912700a71ecac5127107c45770adb2ccd8 a oa:SpecificResource .
+target:target_7ff2ea912700a71ecac5127107c45770adb2ccd8 oa:hasSelector target:selector_7ff2ea912700a71ecac5127107c45770adb2ccd8 .
+target:target_7ff2ea912700a71ecac5127107c45770adb2ccd8 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/37> .
 
 target:target_88b4e35c910466d167d1b696ff6b6ed59de094db a oa:SpecificResource .
 target:target_88b4e35c910466d167d1b696ff6b6ed59de094db oa:hasSelector target:selector_88b4e35c910466d167d1b696ff6b6ed59de094db .
