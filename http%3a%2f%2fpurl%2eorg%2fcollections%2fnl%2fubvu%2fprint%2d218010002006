@@ -24,6 +24,16 @@ nl:id_482d9b321d7599363092bb39d363d57ff8d96402 oa:hasTarget target:target_0b0025
 nl:id_482d9b321d7599363092bb39d363d57ff8d96402 oa:hasTarget ubvu:print-218010002006 .
 nl:id_482d9b321d7599363092bb39d363d57ff8d96402 oa:motivatedBy oa:tagging .
 
+nl:id_ccedbd19cd03714dc9017c7c94c93b8b3d46ec9d a oa:Annotation .
+nl:id_ccedbd19cd03714dc9017c7c94c93b8b3d46ec9d terms:title "Zalving van Aäron - Inwijding van het altaar" .
+nl:id_ccedbd19cd03714dc9017c7c94c93b8b3d46ec9d ui:annotationField bible:ICBibleTheme .
+nl:id_ccedbd19cd03714dc9017c7c94c93b8b3d46ec9d ui:typingTime 0 .
+nl:id_ccedbd19cd03714dc9017c7c94c93b8b3d46ec9d oa:annotatedAt "2016-04-17T16:38:38+02:00"^^xsd:dateTime .
+nl:id_ccedbd19cd03714dc9017c7c94c93b8b3d46ec9d oa:annotatedBy user:paulinevandijk .
+nl:id_ccedbd19cd03714dc9017c7c94c93b8b3d46ec9d oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Zalving van Aäron - Inwijding van het altaar" ] .
+nl:id_ccedbd19cd03714dc9017c7c94c93b8b3d46ec9d oa:hasTarget ubvu:print-218010002006 .
+nl:id_ccedbd19cd03714dc9017c7c94c93b8b3d46ec9d oa:motivatedBy oa:tagging .
+
 nl:id_dc5d2919b9262a60490ef000b550b304a40297f0 a oa:Annotation .
 nl:id_dc5d2919b9262a60490ef000b550b304a40297f0 terms:title "Mozes" .
 nl:id_dc5d2919b9262a60490ef000b550b304a40297f0 ui:annotationField bible:BibleCharacter .
