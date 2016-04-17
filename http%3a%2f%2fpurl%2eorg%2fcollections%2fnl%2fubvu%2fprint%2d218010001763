@@ -24,6 +24,16 @@ nl:id_d1d18b5e4f8190515ddd63719dcaeec4e8b745a7 oa:hasTarget target:target_6d37b0
 nl:id_d1d18b5e4f8190515ddd63719dcaeec4e8b745a7 oa:hasTarget ubvu:print-218010001763 .
 nl:id_d1d18b5e4f8190515ddd63719dcaeec4e8b745a7 oa:motivatedBy oa:tagging .
 
+nl:id_f0f95688d40e3784a56cd6720fc43661b8860fee a oa:Annotation .
+nl:id_f0f95688d40e3784a56cd6720fc43661b8860fee terms:title "de roeping van Matteüs" .
+nl:id_f0f95688d40e3784a56cd6720fc43661b8860fee ui:annotationField bible:ICBibleTheme .
+nl:id_f0f95688d40e3784a56cd6720fc43661b8860fee ui:typingTime 0 .
+nl:id_f0f95688d40e3784a56cd6720fc43661b8860fee oa:annotatedAt "2016-04-17T16:30:13+02:00"^^xsd:dateTime .
+nl:id_f0f95688d40e3784a56cd6720fc43661b8860fee oa:annotatedBy user:paulinevandijk .
+nl:id_f0f95688d40e3784a56cd6720fc43661b8860fee oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "de roeping van Matteüs" ] .
+nl:id_f0f95688d40e3784a56cd6720fc43661b8860fee oa:hasTarget ubvu:print-218010001763 .
+nl:id_f0f95688d40e3784a56cd6720fc43661b8860fee oa:motivatedBy oa:tagging .
+
 nl:id_f8c9391ca6d481b8b7332da4548ac9caafd053a1 a oa:Annotation .
 nl:id_f8c9391ca6d481b8b7332da4548ac9caafd053a1 terms:title "Matteüs" .
 nl:id_f8c9391ca6d481b8b7332da4548ac9caafd053a1 ui:annotationField bible:BibleCharacter .
