@@ -46,6 +46,17 @@ nl:id_626e54ac2087b88d6d4a9b9d843dfc67beec9b8e oa:hasTarget target:target_63c38b
 nl:id_626e54ac2087b88d6d4a9b9d843dfc67beec9b8e oa:hasTarget ubvu:print-218010002004 .
 nl:id_626e54ac2087b88d6d4a9b9d843dfc67beec9b8e oa:motivatedBy oa:tagging .
 
+nl:id_7485d3bb92c4623b190c903d6dda1ec15a61360d a oa:Annotation .
+nl:id_7485d3bb92c4623b190c903d6dda1ec15a61360d terms:title "Mozes" .
+nl:id_7485d3bb92c4623b190c903d6dda1ec15a61360d ui:annotationField bible:BibleCharacter .
+nl:id_7485d3bb92c4623b190c903d6dda1ec15a61360d ui:typingTime 0 .
+nl:id_7485d3bb92c4623b190c903d6dda1ec15a61360d oa:annotatedAt "2016-04-17T19:31:53+02:00"^^xsd:dateTime .
+nl:id_7485d3bb92c4623b190c903d6dda1ec15a61360d oa:annotatedBy user:paulinevandijk .
+nl:id_7485d3bb92c4623b190c903d6dda1ec15a61360d oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Mozes" ] .
+nl:id_7485d3bb92c4623b190c903d6dda1ec15a61360d oa:hasTarget target:target_4c087e7a47d90825808b7cdc437a784697e8a598 .
+nl:id_7485d3bb92c4623b190c903d6dda1ec15a61360d oa:hasTarget ubvu:print-218010002004 .
+nl:id_7485d3bb92c4623b190c903d6dda1ec15a61360d oa:motivatedBy oa:tagging .
+
 nl:id_810a44c1e8e6aed36f698651b56553dd309b190c a oa:Annotation .
 nl:id_810a44c1e8e6aed36f698651b56553dd309b190c terms:title "God" .
 nl:id_810a44c1e8e6aed36f698651b56553dd309b190c ui:annotationField bible:BibleCharacter .
