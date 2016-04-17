@@ -56,6 +56,17 @@ nl:id_cc03345060e77c1437ae0a1890de14146241e87a oa:hasTarget target:target_ddb59d
 nl:id_cc03345060e77c1437ae0a1890de14146241e87a oa:hasTarget ubvu:print-218010002007 .
 nl:id_cc03345060e77c1437ae0a1890de14146241e87a oa:motivatedBy oa:tagging .
 
+nl:id_ccb19b60b7e8192cf569bf95f00a384d06f0d01b a oa:Annotation .
+nl:id_ccb19b60b7e8192cf569bf95f00a384d06f0d01b terms:title "Bileam (zoon van Beor)" .
+nl:id_ccb19b60b7e8192cf569bf95f00a384d06f0d01b ui:annotationField bible:BibleCharacter .
+nl:id_ccb19b60b7e8192cf569bf95f00a384d06f0d01b ui:typingTime 0 .
+nl:id_ccb19b60b7e8192cf569bf95f00a384d06f0d01b oa:annotatedAt "2016-04-17T17:00:21+02:00"^^xsd:dateTime .
+nl:id_ccb19b60b7e8192cf569bf95f00a384d06f0d01b oa:annotatedBy user:paulinevandijk .
+nl:id_ccb19b60b7e8192cf569bf95f00a384d06f0d01b oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Bileam (zoon van Beor)" ] .
+nl:id_ccb19b60b7e8192cf569bf95f00a384d06f0d01b oa:hasTarget target:target_083e8372ec8e3557f76bef2b1cd6c866c90a80c6 .
+nl:id_ccb19b60b7e8192cf569bf95f00a384d06f0d01b oa:hasTarget ubvu:print-218010002007 .
+nl:id_ccb19b60b7e8192cf569bf95f00a384d06f0d01b oa:motivatedBy oa:tagging .
+
 nl:id_d18348f38505108854bd2cb0533b2ae9e09bc2f6 a oa:Annotation .
 nl:id_d18348f38505108854bd2cb0533b2ae9e09bc2f6 terms:title "Eleazar (zoon van Aäron)" .
 nl:id_d18348f38505108854bd2cb0533b2ae9e09bc2f6 ui:annotationField bible:BibleCharacter .
@@ -98,6 +109,14 @@ nl:id_f0de5a15ad2ac5dd65ea03c4e405bac400d3dcf2 oa:hasBody [ a content:ContentAsT
 nl:id_f0de5a15ad2ac5dd65ea03c4e405bac400d3dcf2 oa:hasTarget target:target_8f3d1d153b3969e7c53e263656d64dd45a05c69a .
 nl:id_f0de5a15ad2ac5dd65ea03c4e405bac400d3dcf2 oa:hasTarget ubvu:print-218010002007 .
 nl:id_f0de5a15ad2ac5dd65ea03c4e405bac400d3dcf2 oa:motivatedBy oa:tagging .
+
+target:selector_083e8372ec8e3557f76bef2b1cd6c866c90a80c6 a oa:FragmentSelector .
+target:selector_083e8372ec8e3557f76bef2b1cd6c866c90a80c6 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_083e8372ec8e3557f76bef2b1cd6c866c90a80c6 ui:h "0.1196808510638298"^^xsd:float .
+target:selector_083e8372ec8e3557f76bef2b1cd6c866c90a80c6 ui:w "0.09066666666666667"^^xsd:float .
+target:selector_083e8372ec8e3557f76bef2b1cd6c866c90a80c6 ui:x "0.15333333333333332"^^xsd:float .
+target:selector_083e8372ec8e3557f76bef2b1cd6c866c90a80c6 ui:y "0.49113475177304966"^^xsd:float .
+target:selector_083e8372ec8e3557f76bef2b1cd6c866c90a80c6 rdf:value "#xywh=percent:15,49,9,12" .
 
 target:selector_3683e1d6650d35429d1235e4966ade80d3418ce2 a oa:FragmentSelector .
 target:selector_3683e1d6650d35429d1235e4966ade80d3418ce2 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -154,6 +173,10 @@ target:selector_fa490d0134b6e8fa2903a471b0fef2a9ec337064 ui:w "0.114666666666666
 target:selector_fa490d0134b6e8fa2903a471b0fef2a9ec337064 ui:x "0.144"^^xsd:float .
 target:selector_fa490d0134b6e8fa2903a471b0fef2a9ec337064 ui:y "0.4946808510638298"^^xsd:float .
 target:selector_fa490d0134b6e8fa2903a471b0fef2a9ec337064 rdf:value "#xywh=percent:14,49,11,8" .
+
+target:target_083e8372ec8e3557f76bef2b1cd6c866c90a80c6 a oa:SpecificResource .
+target:target_083e8372ec8e3557f76bef2b1cd6c866c90a80c6 oa:hasSelector target:selector_083e8372ec8e3557f76bef2b1cd6c866c90a80c6 .
+target:target_083e8372ec8e3557f76bef2b1cd6c866c90a80c6 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/6> .
 
 target:target_3683e1d6650d35429d1235e4966ade80d3418ce2 a oa:SpecificResource .
 target:target_3683e1d6650d35429d1235e4966ade80d3418ce2 oa:hasSelector target:selector_3683e1d6650d35429d1235e4966ade80d3418ce2 .
