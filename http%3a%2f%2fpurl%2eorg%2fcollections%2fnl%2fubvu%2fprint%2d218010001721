@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
@@ -7,17 +8,30 @@
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_2a85f19c4742a42cdf04be73206abb59501fe472> a oa:Annotation .
-<http://accurator.nl/id_2a85f19c4742a42cdf04be73206abb59501fe472> terms:title "Jezus Christus" .
-<http://accurator.nl/id_2a85f19c4742a42cdf04be73206abb59501fe472> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_2a85f19c4742a42cdf04be73206abb59501fe472> ui:typingTime 0 .
-<http://accurator.nl/id_2a85f19c4742a42cdf04be73206abb59501fe472> oa:annotatedAt "2016-04-17T12:40:49+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_2a85f19c4742a42cdf04be73206abb59501fe472> oa:annotatedBy user:paulinevandijk .
-<http://accurator.nl/id_2a85f19c4742a42cdf04be73206abb59501fe472> oa:hasBody resource:Jesus .
-<http://accurator.nl/id_2a85f19c4742a42cdf04be73206abb59501fe472> oa:hasTarget target:target_6145f295df14c1fb9961b2ef0700f74e7fdd6e3a .
-<http://accurator.nl/id_2a85f19c4742a42cdf04be73206abb59501fe472> oa:hasTarget ubvu:print-218010001721 .
-<http://accurator.nl/id_2a85f19c4742a42cdf04be73206abb59501fe472> oa:motivatedBy oa:tagging .
+nl:id_2a85f19c4742a42cdf04be73206abb59501fe472 a oa:Annotation .
+nl:id_2a85f19c4742a42cdf04be73206abb59501fe472 terms:title "Jezus Christus" .
+nl:id_2a85f19c4742a42cdf04be73206abb59501fe472 ui:annotationField bible:BibleCharacter .
+nl:id_2a85f19c4742a42cdf04be73206abb59501fe472 ui:typingTime 0 .
+nl:id_2a85f19c4742a42cdf04be73206abb59501fe472 oa:annotatedAt "2016-04-17T12:40:49+02:00"^^xsd:dateTime .
+nl:id_2a85f19c4742a42cdf04be73206abb59501fe472 oa:annotatedBy user:paulinevandijk .
+nl:id_2a85f19c4742a42cdf04be73206abb59501fe472 oa:hasBody resource:Jesus .
+nl:id_2a85f19c4742a42cdf04be73206abb59501fe472 oa:hasTarget target:target_6145f295df14c1fb9961b2ef0700f74e7fdd6e3a .
+nl:id_2a85f19c4742a42cdf04be73206abb59501fe472 oa:hasTarget ubvu:print-218010001721 .
+nl:id_2a85f19c4742a42cdf04be73206abb59501fe472 oa:motivatedBy oa:tagging .
+
+nl:id_da4117d32a1aff07290addf7afcb38f8b7a16849 a oa:Annotation .
+nl:id_da4117d32a1aff07290addf7afcb38f8b7a16849 terms:title "Jezus Christus" .
+nl:id_da4117d32a1aff07290addf7afcb38f8b7a16849 ui:annotationField bible:BibleCharacter .
+nl:id_da4117d32a1aff07290addf7afcb38f8b7a16849 ui:typingTime 0 .
+nl:id_da4117d32a1aff07290addf7afcb38f8b7a16849 oa:annotatedAt "2016-04-17T12:43:49+02:00"^^xsd:dateTime .
+nl:id_da4117d32a1aff07290addf7afcb38f8b7a16849 oa:annotatedBy user:paulinevandijk .
+nl:id_da4117d32a1aff07290addf7afcb38f8b7a16849 oa:hasBody resource:Jesus .
+nl:id_da4117d32a1aff07290addf7afcb38f8b7a16849 oa:hasTarget target:target_fa95afde0db6d7d37968dc56294e412373b20a7b .
+nl:id_da4117d32a1aff07290addf7afcb38f8b7a16849 oa:hasTarget ubvu:print-218010001721 .
+nl:id_da4117d32a1aff07290addf7afcb38f8b7a16849 oa:motivatedBy oa:tagging .
 
 target:selector_6145f295df14c1fb9961b2ef0700f74e7fdd6e3a a oa:FragmentSelector .
 target:selector_6145f295df14c1fb9961b2ef0700f74e7fdd6e3a terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -27,6 +41,18 @@ target:selector_6145f295df14c1fb9961b2ef0700f74e7fdd6e3a ui:x "0.341025641025641
 target:selector_6145f295df14c1fb9961b2ef0700f74e7fdd6e3a ui:y "0.357630979498861"^^xsd:float .
 target:selector_6145f295df14c1fb9961b2ef0700f74e7fdd6e3a rdf:value "#xywh=percent:34,36,52,49" .
 
+target:selector_fa95afde0db6d7d37968dc56294e412373b20a7b a oa:FragmentSelector .
+target:selector_fa95afde0db6d7d37968dc56294e412373b20a7b terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_fa95afde0db6d7d37968dc56294e412373b20a7b ui:h "0.26822323462414577"^^xsd:float .
+target:selector_fa95afde0db6d7d37968dc56294e412373b20a7b ui:w "0.1752136752136752"^^xsd:float .
+target:selector_fa95afde0db6d7d37968dc56294e412373b20a7b ui:x "0.2717948717948718"^^xsd:float .
+target:selector_fa95afde0db6d7d37968dc56294e412373b20a7b ui:y "0.5335990888382688"^^xsd:float .
+target:selector_fa95afde0db6d7d37968dc56294e412373b20a7b rdf:value "#xywh=percent:27,53,18,27" .
+
 target:target_6145f295df14c1fb9961b2ef0700f74e7fdd6e3a a oa:SpecificResource .
 target:target_6145f295df14c1fb9961b2ef0700f74e7fdd6e3a oa:hasSelector target:selector_6145f295df14c1fb9961b2ef0700f74e7fdd6e3a .
 target:target_6145f295df14c1fb9961b2ef0700f74e7fdd6e3a oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/760> .
+
+target:target_fa95afde0db6d7d37968dc56294e412373b20a7b a oa:SpecificResource .
+target:target_fa95afde0db6d7d37968dc56294e412373b20a7b oa:hasSelector target:selector_fa95afde0db6d7d37968dc56294e412373b20a7b .
+target:target_fa95afde0db6d7d37968dc56294e412373b20a7b oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/760> .
