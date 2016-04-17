@@ -35,6 +35,16 @@ nl:id_69158d346fe186f7a7d46236db6e7c9ef1942067 oa:hasTarget target:target_3cf227
 nl:id_69158d346fe186f7a7d46236db6e7c9ef1942067 oa:hasTarget ubvu:print-218010001951 .
 nl:id_69158d346fe186f7a7d46236db6e7c9ef1942067 oa:motivatedBy oa:tagging .
 
+nl:id_f06ec126bb9d9d579a16e4a06b0d26a13a5e73cf a oa:Annotation .
+nl:id_f06ec126bb9d9d579a16e4a06b0d26a13a5e73cf terms:title "Visioen van de zeven kandelaren" .
+nl:id_f06ec126bb9d9d579a16e4a06b0d26a13a5e73cf ui:annotationField bible:ICBibleTheme .
+nl:id_f06ec126bb9d9d579a16e4a06b0d26a13a5e73cf ui:typingTime 0 .
+nl:id_f06ec126bb9d9d579a16e4a06b0d26a13a5e73cf oa:annotatedAt "2016-04-17T16:27:23+02:00"^^xsd:dateTime .
+nl:id_f06ec126bb9d9d579a16e4a06b0d26a13a5e73cf oa:annotatedBy user:paulinevandijk .
+nl:id_f06ec126bb9d9d579a16e4a06b0d26a13a5e73cf oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Visioen van de zeven kandelaren" ] .
+nl:id_f06ec126bb9d9d579a16e4a06b0d26a13a5e73cf oa:hasTarget ubvu:print-218010001951 .
+nl:id_f06ec126bb9d9d579a16e4a06b0d26a13a5e73cf oa:motivatedBy oa:tagging .
+
 target:selector_3446b9833e0c839d82e00e97d6f1a4706da9fee2 a oa:FragmentSelector .
 target:selector_3446b9833e0c839d82e00e97d6f1a4706da9fee2 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_3446b9833e0c839d82e00e97d6f1a4706da9fee2 ui:h "0.3338926174496644"^^xsd:float .
