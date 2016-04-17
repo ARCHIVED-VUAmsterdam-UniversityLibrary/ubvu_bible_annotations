@@ -35,6 +35,16 @@ nl:id_8df135cdeb99a2800100800d870b709e37fb7e84 oa:hasTarget target:target_be9063
 nl:id_8df135cdeb99a2800100800d870b709e37fb7e84 oa:hasTarget ubvu:print-218010001163 .
 nl:id_8df135cdeb99a2800100800d870b709e37fb7e84 oa:motivatedBy oa:tagging .
 
+nl:id_a75c7a7387c298593758811698b1e472fa1fde76 a oa:Annotation .
+nl:id_a75c7a7387c298593758811698b1e472fa1fde76 terms:title "Jozef en de vrouw van Potifar" .
+nl:id_a75c7a7387c298593758811698b1e472fa1fde76 ui:annotationField bible:ICBibleTheme .
+nl:id_a75c7a7387c298593758811698b1e472fa1fde76 ui:typingTime 0 .
+nl:id_a75c7a7387c298593758811698b1e472fa1fde76 oa:annotatedAt "2016-04-17T16:31:42+02:00"^^xsd:dateTime .
+nl:id_a75c7a7387c298593758811698b1e472fa1fde76 oa:annotatedBy user:paulinevandijk .
+nl:id_a75c7a7387c298593758811698b1e472fa1fde76 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jozef en de vrouw van Potifar" ] .
+nl:id_a75c7a7387c298593758811698b1e472fa1fde76 oa:hasTarget ubvu:print-218010001163 .
+nl:id_a75c7a7387c298593758811698b1e472fa1fde76 oa:motivatedBy oa:tagging .
+
 target:selector_942c1b8581479a187ec867bc1ce330d3594b612d a oa:FragmentSelector .
 target:selector_942c1b8581479a187ec867bc1ce330d3594b612d terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_942c1b8581479a187ec867bc1ce330d3594b612d ui:h "0.38219424460431656"^^xsd:float .
