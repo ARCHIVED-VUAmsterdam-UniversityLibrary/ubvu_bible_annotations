@@ -1,23 +1,47 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_8df135cdeb99a2800100800d870b709e37fb7e84> a oa:Annotation .
-<http://accurator.nl/id_8df135cdeb99a2800100800d870b709e37fb7e84> terms:title "Jozef" .
-<http://accurator.nl/id_8df135cdeb99a2800100800d870b709e37fb7e84> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_8df135cdeb99a2800100800d870b709e37fb7e84> ui:typingTime 0 .
-<http://accurator.nl/id_8df135cdeb99a2800100800d870b709e37fb7e84> oa:annotatedAt "2016-04-17T16:13:39+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_8df135cdeb99a2800100800d870b709e37fb7e84> oa:annotatedBy user:paulinevandijk .
-<http://accurator.nl/id_8df135cdeb99a2800100800d870b709e37fb7e84> oa:hasBody resource:Joseph .
-<http://accurator.nl/id_8df135cdeb99a2800100800d870b709e37fb7e84> oa:hasTarget target:target_be9063fd3745ecb1a885d7f13d61c727fb1fa9b6 .
-<http://accurator.nl/id_8df135cdeb99a2800100800d870b709e37fb7e84> oa:hasTarget ubvu:print-218010001163 .
-<http://accurator.nl/id_8df135cdeb99a2800100800d870b709e37fb7e84> oa:motivatedBy oa:tagging .
+nl:id_8742e07d0bcb97d37558c1900a01f5dd8d0b6084 a oa:Annotation .
+nl:id_8742e07d0bcb97d37558c1900a01f5dd8d0b6084 terms:title "vrouw van Potifar" .
+nl:id_8742e07d0bcb97d37558c1900a01f5dd8d0b6084 ui:annotationField bible:BibleCharacter .
+nl:id_8742e07d0bcb97d37558c1900a01f5dd8d0b6084 ui:typingTime 0 .
+nl:id_8742e07d0bcb97d37558c1900a01f5dd8d0b6084 oa:annotatedAt "2016-04-17T16:15:18+02:00"^^xsd:dateTime .
+nl:id_8742e07d0bcb97d37558c1900a01f5dd8d0b6084 oa:annotatedBy user:paulinevandijk .
+nl:id_8742e07d0bcb97d37558c1900a01f5dd8d0b6084 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "vrouw van Potifar" ] .
+nl:id_8742e07d0bcb97d37558c1900a01f5dd8d0b6084 oa:hasTarget target:target_942c1b8581479a187ec867bc1ce330d3594b612d .
+nl:id_8742e07d0bcb97d37558c1900a01f5dd8d0b6084 oa:hasTarget ubvu:print-218010001163 .
+nl:id_8742e07d0bcb97d37558c1900a01f5dd8d0b6084 oa:motivatedBy oa:tagging .
+
+nl:id_8df135cdeb99a2800100800d870b709e37fb7e84 a oa:Annotation .
+nl:id_8df135cdeb99a2800100800d870b709e37fb7e84 terms:title "Jozef" .
+nl:id_8df135cdeb99a2800100800d870b709e37fb7e84 ui:annotationField bible:BibleCharacter .
+nl:id_8df135cdeb99a2800100800d870b709e37fb7e84 ui:typingTime 0 .
+nl:id_8df135cdeb99a2800100800d870b709e37fb7e84 oa:annotatedAt "2016-04-17T16:13:39+02:00"^^xsd:dateTime .
+nl:id_8df135cdeb99a2800100800d870b709e37fb7e84 oa:annotatedBy user:paulinevandijk .
+nl:id_8df135cdeb99a2800100800d870b709e37fb7e84 oa:hasBody resource:Joseph .
+nl:id_8df135cdeb99a2800100800d870b709e37fb7e84 oa:hasTarget target:target_be9063fd3745ecb1a885d7f13d61c727fb1fa9b6 .
+nl:id_8df135cdeb99a2800100800d870b709e37fb7e84 oa:hasTarget ubvu:print-218010001163 .
+nl:id_8df135cdeb99a2800100800d870b709e37fb7e84 oa:motivatedBy oa:tagging .
+
+target:selector_942c1b8581479a187ec867bc1ce330d3594b612d a oa:FragmentSelector .
+target:selector_942c1b8581479a187ec867bc1ce330d3594b612d terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_942c1b8581479a187ec867bc1ce330d3594b612d ui:h "0.38219424460431656"^^xsd:float .
+target:selector_942c1b8581479a187ec867bc1ce330d3594b612d ui:w "0.20533333333333334"^^xsd:float .
+target:selector_942c1b8581479a187ec867bc1ce330d3594b612d ui:x "0.136"^^xsd:float .
+target:selector_942c1b8581479a187ec867bc1ce330d3594b612d ui:y "0.4244604316546763"^^xsd:float .
+target:selector_942c1b8581479a187ec867bc1ce330d3594b612d rdf:value "#xywh=percent:14,42,21,38" .
 
 target:selector_be9063fd3745ecb1a885d7f13d61c727fb1fa9b6 a oa:FragmentSelector .
 target:selector_be9063fd3745ecb1a885d7f13d61c727fb1fa9b6 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -26,6 +50,10 @@ target:selector_be9063fd3745ecb1a885d7f13d61c727fb1fa9b6 ui:w "0.28"^^xsd:float 
 target:selector_be9063fd3745ecb1a885d7f13d61c727fb1fa9b6 ui:x "0.2773333333333333"^^xsd:float .
 target:selector_be9063fd3745ecb1a885d7f13d61c727fb1fa9b6 ui:y "0.335431654676259"^^xsd:float .
 target:selector_be9063fd3745ecb1a885d7f13d61c727fb1fa9b6 rdf:value "#xywh=percent:28,34,28,46" .
+
+target:target_942c1b8581479a187ec867bc1ce330d3594b612d a oa:SpecificResource .
+target:target_942c1b8581479a187ec867bc1ce330d3594b612d oa:hasSelector target:selector_942c1b8581479a187ec867bc1ce330d3594b612d .
+target:target_942c1b8581479a187ec867bc1ce330d3594b612d oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/204> .
 
 target:target_be9063fd3745ecb1a885d7f13d61c727fb1fa9b6 a oa:SpecificResource .
 target:target_be9063fd3745ecb1a885d7f13d61c727fb1fa9b6 oa:hasSelector target:selector_be9063fd3745ecb1a885d7f13d61c727fb1fa9b6 .
