@@ -123,6 +123,17 @@ nl:id_946646aa29fcc3d5c25480661c8ab79c2a26e769 oa:hasTarget target:target_0c44f6
 nl:id_946646aa29fcc3d5c25480661c8ab79c2a26e769 oa:hasTarget ubvu:print-218010002038 .
 nl:id_946646aa29fcc3d5c25480661c8ab79c2a26e769 oa:motivatedBy oa:tagging .
 
+nl:id_b00b6b05140e9943020c6ca1a47747646b26d5b5 a oa:Annotation .
+nl:id_b00b6b05140e9943020c6ca1a47747646b26d5b5 terms:title "Samaritaanse vrouw" .
+nl:id_b00b6b05140e9943020c6ca1a47747646b26d5b5 ui:annotationField bible:BibleCharacter .
+nl:id_b00b6b05140e9943020c6ca1a47747646b26d5b5 ui:typingTime 0 .
+nl:id_b00b6b05140e9943020c6ca1a47747646b26d5b5 oa:annotatedAt "2016-04-17T15:56:58+02:00"^^xsd:dateTime .
+nl:id_b00b6b05140e9943020c6ca1a47747646b26d5b5 oa:annotatedBy user:paulinevandijk .
+nl:id_b00b6b05140e9943020c6ca1a47747646b26d5b5 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Samaritaanse vrouw" ] .
+nl:id_b00b6b05140e9943020c6ca1a47747646b26d5b5 oa:hasTarget target:target_fa34745d56412c5d9f3970889cd155591620ddc6 .
+nl:id_b00b6b05140e9943020c6ca1a47747646b26d5b5 oa:hasTarget ubvu:print-218010002038 .
+nl:id_b00b6b05140e9943020c6ca1a47747646b26d5b5 oa:motivatedBy oa:tagging .
+
 nl:id_d21d5efee198100c1f60ba9066f89d7e72deccbf a oa:Annotation .
 nl:id_d21d5efee198100c1f60ba9066f89d7e72deccbf terms:title "Jezus Christus" .
 nl:id_d21d5efee198100c1f60ba9066f89d7e72deccbf ui:annotationField bible:BibleCharacter .
@@ -271,6 +282,14 @@ target:selector_95b5e90e4010f56fce30d8a09a2958a0ab3e1154 ui:x "0.156410256410256
 target:selector_95b5e90e4010f56fce30d8a09a2958a0ab3e1154 ui:y "0.11757857974388825"^^xsd:float .
 target:selector_95b5e90e4010f56fce30d8a09a2958a0ab3e1154 rdf:value "#xywh=percent:16,12,5,8" .
 
+target:selector_fa34745d56412c5d9f3970889cd155591620ddc6 a oa:FragmentSelector .
+target:selector_fa34745d56412c5d9f3970889cd155591620ddc6 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_fa34745d56412c5d9f3970889cd155591620ddc6 ui:h "0.23978201634877383"^^xsd:float .
+target:selector_fa34745d56412c5d9f3970889cd155591620ddc6 ui:w "0.13333333333333333"^^xsd:float .
+target:selector_fa34745d56412c5d9f3970889cd155591620ddc6 ui:x "0.356"^^xsd:float .
+target:selector_fa34745d56412c5d9f3970889cd155591620ddc6 ui:y "0.5149863760217984"^^xsd:float .
+target:selector_fa34745d56412c5d9f3970889cd155591620ddc6 rdf:value "#xywh=percent:36,51,13,24" .
+
 target:target_03da62adff60a788abf048bf6b05126e78a12d6f a oa:SpecificResource .
 target:target_03da62adff60a788abf048bf6b05126e78a12d6f oa:hasSelector target:selector_03da62adff60a788abf048bf6b05126e78a12d6f .
 target:target_03da62adff60a788abf048bf6b05126e78a12d6f oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/37> .
@@ -322,3 +341,7 @@ target:target_88b4e35c910466d167d1b696ff6b6ed59de094db oa:hasSource <http://imag
 target:target_95b5e90e4010f56fce30d8a09a2958a0ab3e1154 a oa:SpecificResource .
 target:target_95b5e90e4010f56fce30d8a09a2958a0ab3e1154 oa:hasSelector target:selector_95b5e90e4010f56fce30d8a09a2958a0ab3e1154 .
 target:target_95b5e90e4010f56fce30d8a09a2958a0ab3e1154 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/37> .
+
+target:target_fa34745d56412c5d9f3970889cd155591620ddc6 a oa:SpecificResource .
+target:target_fa34745d56412c5d9f3970889cd155591620ddc6 oa:hasSelector target:selector_fa34745d56412c5d9f3970889cd155591620ddc6 .
+target:target_fa34745d56412c5d9f3970889cd155591620ddc6 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/37> .
