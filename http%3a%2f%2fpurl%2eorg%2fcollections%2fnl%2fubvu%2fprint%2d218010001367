@@ -8,17 +8,29 @@
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_b0e97680871c5a4feedeb9691589e935db212874> a oa:Annotation .
-<http://accurator.nl/id_b0e97680871c5a4feedeb9691589e935db212874> terms:title "Eglon (koning van de Moabieten)" .
-<http://accurator.nl/id_b0e97680871c5a4feedeb9691589e935db212874> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_b0e97680871c5a4feedeb9691589e935db212874> ui:typingTime 0 .
-<http://accurator.nl/id_b0e97680871c5a4feedeb9691589e935db212874> oa:annotatedAt "2016-04-17T19:40:14+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_b0e97680871c5a4feedeb9691589e935db212874> oa:annotatedBy user:paulinevandijk .
-<http://accurator.nl/id_b0e97680871c5a4feedeb9691589e935db212874> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Eglon (koning van de Moabieten)" ] .
-<http://accurator.nl/id_b0e97680871c5a4feedeb9691589e935db212874> oa:hasTarget target:target_4f78094c520aad48dd801eb77060cbf2ff4c7692 .
-<http://accurator.nl/id_b0e97680871c5a4feedeb9691589e935db212874> oa:hasTarget ubvu:print-218010001367 .
-<http://accurator.nl/id_b0e97680871c5a4feedeb9691589e935db212874> oa:motivatedBy oa:tagging .
+nl:id_8b650dd41b0ca4ca59ea75249ea572eb6a95dd5a a oa:Annotation .
+nl:id_8b650dd41b0ca4ca59ea75249ea572eb6a95dd5a terms:title "Eglon, de koning van de Moabieten, gedood door Ehud" .
+nl:id_8b650dd41b0ca4ca59ea75249ea572eb6a95dd5a ui:annotationField bible:ICBibleTheme .
+nl:id_8b650dd41b0ca4ca59ea75249ea572eb6a95dd5a ui:typingTime 0 .
+nl:id_8b650dd41b0ca4ca59ea75249ea572eb6a95dd5a oa:annotatedAt "2016-04-17T19:40:36+02:00"^^xsd:dateTime .
+nl:id_8b650dd41b0ca4ca59ea75249ea572eb6a95dd5a oa:annotatedBy user:paulinevandijk .
+nl:id_8b650dd41b0ca4ca59ea75249ea572eb6a95dd5a oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Eglon, de koning van de Moabieten, gedood door Ehud" ] .
+nl:id_8b650dd41b0ca4ca59ea75249ea572eb6a95dd5a oa:hasTarget ubvu:print-218010001367 .
+nl:id_8b650dd41b0ca4ca59ea75249ea572eb6a95dd5a oa:motivatedBy oa:tagging .
+
+nl:id_b0e97680871c5a4feedeb9691589e935db212874 a oa:Annotation .
+nl:id_b0e97680871c5a4feedeb9691589e935db212874 terms:title "Eglon (koning van de Moabieten)" .
+nl:id_b0e97680871c5a4feedeb9691589e935db212874 ui:annotationField bible:BibleCharacter .
+nl:id_b0e97680871c5a4feedeb9691589e935db212874 ui:typingTime 0 .
+nl:id_b0e97680871c5a4feedeb9691589e935db212874 oa:annotatedAt "2016-04-17T19:40:14+02:00"^^xsd:dateTime .
+nl:id_b0e97680871c5a4feedeb9691589e935db212874 oa:annotatedBy user:paulinevandijk .
+nl:id_b0e97680871c5a4feedeb9691589e935db212874 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Eglon (koning van de Moabieten)" ] .
+nl:id_b0e97680871c5a4feedeb9691589e935db212874 oa:hasTarget target:target_4f78094c520aad48dd801eb77060cbf2ff4c7692 .
+nl:id_b0e97680871c5a4feedeb9691589e935db212874 oa:hasTarget ubvu:print-218010001367 .
+nl:id_b0e97680871c5a4feedeb9691589e935db212874 oa:motivatedBy oa:tagging .
 
 target:selector_4f78094c520aad48dd801eb77060cbf2ff4c7692 a oa:FragmentSelector .
 target:selector_4f78094c520aad48dd801eb77060cbf2ff4c7692 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
