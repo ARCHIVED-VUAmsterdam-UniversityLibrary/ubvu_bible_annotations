@@ -6,14 +6,40 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_ed22ddb80a3c1c05656e70f1ae65bc81b0baa237> a oa:Annotation .
-<http://accurator.nl/id_ed22ddb80a3c1c05656e70f1ae65bc81b0baa237> terms:title "Optreden van Johannes de Doper in de woestijn" .
-<http://accurator.nl/id_ed22ddb80a3c1c05656e70f1ae65bc81b0baa237> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
-<http://accurator.nl/id_ed22ddb80a3c1c05656e70f1ae65bc81b0baa237> ui:typingTime 0 .
-<http://accurator.nl/id_ed22ddb80a3c1c05656e70f1ae65bc81b0baa237> oa:annotatedAt "2016-04-17T19:34:10+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_ed22ddb80a3c1c05656e70f1ae65bc81b0baa237> oa:annotatedBy user:paulinevandijk .
-<http://accurator.nl/id_ed22ddb80a3c1c05656e70f1ae65bc81b0baa237> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Optreden van Johannes de Doper in de woestijn" ] .
-<http://accurator.nl/id_ed22ddb80a3c1c05656e70f1ae65bc81b0baa237> oa:hasTarget ubvu:print-218010001701 .
-<http://accurator.nl/id_ed22ddb80a3c1c05656e70f1ae65bc81b0baa237> oa:motivatedBy oa:tagging .
+nl:id_c29cd4199eee7146288f50ec773a4f1f47099762 a oa:Annotation .
+nl:id_c29cd4199eee7146288f50ec773a4f1f47099762 terms:title "Johannes de Doper" .
+nl:id_c29cd4199eee7146288f50ec773a4f1f47099762 ui:annotationField bible:BibleCharacter .
+nl:id_c29cd4199eee7146288f50ec773a4f1f47099762 ui:typingTime 0 .
+nl:id_c29cd4199eee7146288f50ec773a4f1f47099762 oa:annotatedAt "2016-04-17T19:34:51+02:00"^^xsd:dateTime .
+nl:id_c29cd4199eee7146288f50ec773a4f1f47099762 oa:annotatedBy user:paulinevandijk .
+nl:id_c29cd4199eee7146288f50ec773a4f1f47099762 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Johannes de Doper" ] .
+nl:id_c29cd4199eee7146288f50ec773a4f1f47099762 oa:hasTarget target:target_8d079014885b748a3ab664eef68e6710dfb11e34 .
+nl:id_c29cd4199eee7146288f50ec773a4f1f47099762 oa:hasTarget ubvu:print-218010001701 .
+nl:id_c29cd4199eee7146288f50ec773a4f1f47099762 oa:motivatedBy oa:tagging .
+
+nl:id_ed22ddb80a3c1c05656e70f1ae65bc81b0baa237 a oa:Annotation .
+nl:id_ed22ddb80a3c1c05656e70f1ae65bc81b0baa237 terms:title "Optreden van Johannes de Doper in de woestijn" .
+nl:id_ed22ddb80a3c1c05656e70f1ae65bc81b0baa237 ui:annotationField bible:ICBibleTheme .
+nl:id_ed22ddb80a3c1c05656e70f1ae65bc81b0baa237 ui:typingTime 0 .
+nl:id_ed22ddb80a3c1c05656e70f1ae65bc81b0baa237 oa:annotatedAt "2016-04-17T19:34:10+02:00"^^xsd:dateTime .
+nl:id_ed22ddb80a3c1c05656e70f1ae65bc81b0baa237 oa:annotatedBy user:paulinevandijk .
+nl:id_ed22ddb80a3c1c05656e70f1ae65bc81b0baa237 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Optreden van Johannes de Doper in de woestijn" ] .
+nl:id_ed22ddb80a3c1c05656e70f1ae65bc81b0baa237 oa:hasTarget ubvu:print-218010001701 .
+nl:id_ed22ddb80a3c1c05656e70f1ae65bc81b0baa237 oa:motivatedBy oa:tagging .
+
+target:selector_8d079014885b748a3ab664eef68e6710dfb11e34 a oa:FragmentSelector .
+target:selector_8d079014885b748a3ab664eef68e6710dfb11e34 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_8d079014885b748a3ab664eef68e6710dfb11e34 ui:h "0.4326241134751773"^^xsd:float .
+target:selector_8d079014885b748a3ab664eef68e6710dfb11e34 ui:w "0.22666666666666666"^^xsd:float .
+target:selector_8d079014885b748a3ab664eef68e6710dfb11e34 ui:x "0.19333333333333333"^^xsd:float .
+target:selector_8d079014885b748a3ab664eef68e6710dfb11e34 ui:y "0.23847517730496454"^^xsd:float .
+target:selector_8d079014885b748a3ab664eef68e6710dfb11e34 rdf:value "#xywh=percent:19,24,23,43" .
+
+target:target_8d079014885b748a3ab664eef68e6710dfb11e34 a oa:SpecificResource .
+target:target_8d079014885b748a3ab664eef68e6710dfb11e34 oa:hasSelector target:selector_8d079014885b748a3ab664eef68e6710dfb11e34 .
+target:target_8d079014885b748a3ab664eef68e6710dfb11e34 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/740> .
