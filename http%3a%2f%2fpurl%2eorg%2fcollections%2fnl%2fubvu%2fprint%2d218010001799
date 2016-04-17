@@ -35,6 +35,17 @@ nl:id_ea56f071d667e041e44c725ae72448a66badf7f9 oa:hasTarget target:target_0b0862
 nl:id_ea56f071d667e041e44c725ae72448a66badf7f9 oa:hasTarget ubvu:print-218010001799 .
 nl:id_ea56f071d667e041e44c725ae72448a66badf7f9 oa:motivatedBy oa:tagging .
 
+nl:id_f1f48331b05d1a0193aa6ce874c4946824534474 a oa:Annotation .
+nl:id_f1f48331b05d1a0193aa6ce874c4946824534474 terms:title "schriftgeleerden en Farizeeën" .
+nl:id_f1f48331b05d1a0193aa6ce874c4946824534474 ui:annotationField bible:BibleCharacter .
+nl:id_f1f48331b05d1a0193aa6ce874c4946824534474 ui:typingTime 0 .
+nl:id_f1f48331b05d1a0193aa6ce874c4946824534474 oa:annotatedAt "2016-04-17T16:25:31+02:00"^^xsd:dateTime .
+nl:id_f1f48331b05d1a0193aa6ce874c4946824534474 oa:annotatedBy user:paulinevandijk .
+nl:id_f1f48331b05d1a0193aa6ce874c4946824534474 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "schriftgeleerden en Farizeeën" ] .
+nl:id_f1f48331b05d1a0193aa6ce874c4946824534474 oa:hasTarget target:target_2b167cffbb8ef7b20b9a7e9cda89eef568714b66 .
+nl:id_f1f48331b05d1a0193aa6ce874c4946824534474 oa:hasTarget ubvu:print-218010001799 .
+nl:id_f1f48331b05d1a0193aa6ce874c4946824534474 oa:motivatedBy oa:tagging .
+
 target:selector_0b08625cb8b5e0dcff32776c4c68707ac0270aaa a oa:FragmentSelector .
 target:selector_0b08625cb8b5e0dcff32776c4c68707ac0270aaa terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_0b08625cb8b5e0dcff32776c4c68707ac0270aaa ui:h "0.24369016536118362"^^xsd:float .
@@ -42,6 +53,14 @@ target:selector_0b08625cb8b5e0dcff32776c4c68707ac0270aaa ui:w "0.242666666666666
 target:selector_0b08625cb8b5e0dcff32776c4c68707ac0270aaa ui:x "0.196"^^xsd:float .
 target:selector_0b08625cb8b5e0dcff32776c4c68707ac0270aaa ui:y "0.5187119234116623"^^xsd:float .
 target:selector_0b08625cb8b5e0dcff32776c4c68707ac0270aaa rdf:value "#xywh=percent:20,52,24,24" .
+
+target:selector_2b167cffbb8ef7b20b9a7e9cda89eef568714b66 a oa:FragmentSelector .
+target:selector_2b167cffbb8ef7b20b9a7e9cda89eef568714b66 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_2b167cffbb8ef7b20b9a7e9cda89eef568714b66 ui:h "0.14795474325500435"^^xsd:float .
+target:selector_2b167cffbb8ef7b20b9a7e9cda89eef568714b66 ui:w "0.42533333333333334"^^xsd:float .
+target:selector_2b167cffbb8ef7b20b9a7e9cda89eef568714b66 ui:x "0.005333333333333333"^^xsd:float .
+target:selector_2b167cffbb8ef7b20b9a7e9cda89eef568714b66 ui:y "0.3751087902523934"^^xsd:float .
+target:selector_2b167cffbb8ef7b20b9a7e9cda89eef568714b66 rdf:value "#xywh=percent:1,38,43,15" .
 
 target:selector_a97cc6b51fbf187114b81d4b2c07c692c8cae642 a oa:FragmentSelector .
 target:selector_a97cc6b51fbf187114b81d4b2c07c692c8cae642 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -54,6 +73,10 @@ target:selector_a97cc6b51fbf187114b81d4b2c07c692c8cae642 rdf:value "#xywh=percen
 target:target_0b08625cb8b5e0dcff32776c4c68707ac0270aaa a oa:SpecificResource .
 target:target_0b08625cb8b5e0dcff32776c4c68707ac0270aaa oa:hasSelector target:selector_0b08625cb8b5e0dcff32776c4c68707ac0270aaa .
 target:target_0b08625cb8b5e0dcff32776c4c68707ac0270aaa oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/838> .
+
+target:target_2b167cffbb8ef7b20b9a7e9cda89eef568714b66 a oa:SpecificResource .
+target:target_2b167cffbb8ef7b20b9a7e9cda89eef568714b66 oa:hasSelector target:selector_2b167cffbb8ef7b20b9a7e9cda89eef568714b66 .
+target:target_2b167cffbb8ef7b20b9a7e9cda89eef568714b66 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/838> .
 
 target:target_a97cc6b51fbf187114b81d4b2c07c692c8cae642 a oa:SpecificResource .
 target:target_a97cc6b51fbf187114b81d4b2c07c692c8cae642 oa:hasSelector target:selector_a97cc6b51fbf187114b81d4b2c07c692c8cae642 .
