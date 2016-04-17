@@ -23,6 +23,16 @@ nl:id_4b20c47e1492327a5210e29b7349a1e36ae8bc79 oa:hasTarget target:target_5c56b5
 nl:id_4b20c47e1492327a5210e29b7349a1e36ae8bc79 oa:hasTarget ubvu:print-218010002007 .
 nl:id_4b20c47e1492327a5210e29b7349a1e36ae8bc79 oa:motivatedBy oa:tagging .
 
+nl:id_4df65e4acbf69450abfc62726931b7c452248f67 a oa:Annotation .
+nl:id_4df65e4acbf69450abfc62726931b7c452248f67 terms:title "Bileam en Balak" .
+nl:id_4df65e4acbf69450abfc62726931b7c452248f67 ui:annotationField bible:ICBibleTheme .
+nl:id_4df65e4acbf69450abfc62726931b7c452248f67 ui:typingTime 0 .
+nl:id_4df65e4acbf69450abfc62726931b7c452248f67 oa:annotatedAt "2016-04-17T17:06:51+02:00"^^xsd:dateTime .
+nl:id_4df65e4acbf69450abfc62726931b7c452248f67 oa:annotatedBy user:paulinevandijk .
+nl:id_4df65e4acbf69450abfc62726931b7c452248f67 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Bileam en Balak" ] .
+nl:id_4df65e4acbf69450abfc62726931b7c452248f67 oa:hasTarget ubvu:print-218010002007 .
+nl:id_4df65e4acbf69450abfc62726931b7c452248f67 oa:motivatedBy oa:tagging .
+
 nl:id_8529747a91bbf3f2c0b7daffa8d295335ecb0516 a oa:Annotation .
 nl:id_8529747a91bbf3f2c0b7daffa8d295335ecb0516 terms:title "Bileam" .
 nl:id_8529747a91bbf3f2c0b7daffa8d295335ecb0516 ui:annotationField bible:BibleCharacter .
