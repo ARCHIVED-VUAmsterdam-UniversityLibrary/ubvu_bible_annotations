@@ -56,6 +56,16 @@ nl:id_d18348f38505108854bd2cb0533b2ae9e09bc2f6 oa:hasTarget target:target_d87477
 nl:id_d18348f38505108854bd2cb0533b2ae9e09bc2f6 oa:hasTarget ubvu:print-218010002007 .
 nl:id_d18348f38505108854bd2cb0533b2ae9e09bc2f6 oa:motivatedBy oa:tagging .
 
+nl:id_e6e4fec12727eb0b9ec351fb8c7ddf1652c8d47d a oa:Annotation .
+nl:id_e6e4fec12727eb0b9ec351fb8c7ddf1652c8d47d terms:title "De dood van Aäron en Mozes met de koperen slang" .
+nl:id_e6e4fec12727eb0b9ec351fb8c7ddf1652c8d47d ui:annotationField bible:ICBibleTheme .
+nl:id_e6e4fec12727eb0b9ec351fb8c7ddf1652c8d47d ui:typingTime 0 .
+nl:id_e6e4fec12727eb0b9ec351fb8c7ddf1652c8d47d oa:annotatedAt "2016-04-17T16:53:41+02:00"^^xsd:dateTime .
+nl:id_e6e4fec12727eb0b9ec351fb8c7ddf1652c8d47d oa:annotatedBy user:paulinevandijk .
+nl:id_e6e4fec12727eb0b9ec351fb8c7ddf1652c8d47d oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "De dood van Aäron en Mozes met de koperen slang" ] .
+nl:id_e6e4fec12727eb0b9ec351fb8c7ddf1652c8d47d oa:hasTarget ubvu:print-218010002007 .
+nl:id_e6e4fec12727eb0b9ec351fb8c7ddf1652c8d47d oa:motivatedBy oa:tagging .
+
 nl:id_f0de5a15ad2ac5dd65ea03c4e405bac400d3dcf2 a oa:Annotation .
 nl:id_f0de5a15ad2ac5dd65ea03c4e405bac400d3dcf2 terms:title "Eleazar (zoon van Aäron)" .
 nl:id_f0de5a15ad2ac5dd65ea03c4e405bac400d3dcf2 ui:annotationField bible:BibleCharacter .
