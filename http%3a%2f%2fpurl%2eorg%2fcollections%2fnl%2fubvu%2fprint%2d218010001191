@@ -8,17 +8,29 @@
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_41a70d88dc63119f8317d09e2367516a6d9d75b5> a oa:Annotation .
-<http://accurator.nl/id_41a70d88dc63119f8317d09e2367516a6d9d75b5> terms:title "Jakob" .
-<http://accurator.nl/id_41a70d88dc63119f8317d09e2367516a6d9d75b5> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_41a70d88dc63119f8317d09e2367516a6d9d75b5> ui:typingTime 0 .
-<http://accurator.nl/id_41a70d88dc63119f8317d09e2367516a6d9d75b5> oa:annotatedAt "2016-04-17T16:40:13+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_41a70d88dc63119f8317d09e2367516a6d9d75b5> oa:annotatedBy user:paulinevandijk .
-<http://accurator.nl/id_41a70d88dc63119f8317d09e2367516a6d9d75b5> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jakob" ] .
-<http://accurator.nl/id_41a70d88dc63119f8317d09e2367516a6d9d75b5> oa:hasTarget target:target_cd25fbcd82043b4d61c90569a283cf1106ced1fc .
-<http://accurator.nl/id_41a70d88dc63119f8317d09e2367516a6d9d75b5> oa:hasTarget ubvu:print-218010001191 .
-<http://accurator.nl/id_41a70d88dc63119f8317d09e2367516a6d9d75b5> oa:motivatedBy oa:tagging .
+nl:id_301adf54ba1d9bad8e1721eae1129a1087ac3b84 a oa:Annotation .
+nl:id_301adf54ba1d9bad8e1721eae1129a1087ac3b84 terms:title "Het lichaam van Jakob wordt naar Kanaän gebracht" .
+nl:id_301adf54ba1d9bad8e1721eae1129a1087ac3b84 ui:annotationField bible:ICBibleTheme .
+nl:id_301adf54ba1d9bad8e1721eae1129a1087ac3b84 ui:typingTime 0 .
+nl:id_301adf54ba1d9bad8e1721eae1129a1087ac3b84 oa:annotatedAt "2016-04-17T16:40:49+02:00"^^xsd:dateTime .
+nl:id_301adf54ba1d9bad8e1721eae1129a1087ac3b84 oa:annotatedBy user:paulinevandijk .
+nl:id_301adf54ba1d9bad8e1721eae1129a1087ac3b84 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Het lichaam van Jakob wordt naar Kanaän gebracht" ] .
+nl:id_301adf54ba1d9bad8e1721eae1129a1087ac3b84 oa:hasTarget ubvu:print-218010001191 .
+nl:id_301adf54ba1d9bad8e1721eae1129a1087ac3b84 oa:motivatedBy oa:tagging .
+
+nl:id_41a70d88dc63119f8317d09e2367516a6d9d75b5 a oa:Annotation .
+nl:id_41a70d88dc63119f8317d09e2367516a6d9d75b5 terms:title "Jakob" .
+nl:id_41a70d88dc63119f8317d09e2367516a6d9d75b5 ui:annotationField bible:BibleCharacter .
+nl:id_41a70d88dc63119f8317d09e2367516a6d9d75b5 ui:typingTime 0 .
+nl:id_41a70d88dc63119f8317d09e2367516a6d9d75b5 oa:annotatedAt "2016-04-17T16:40:13+02:00"^^xsd:dateTime .
+nl:id_41a70d88dc63119f8317d09e2367516a6d9d75b5 oa:annotatedBy user:paulinevandijk .
+nl:id_41a70d88dc63119f8317d09e2367516a6d9d75b5 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jakob" ] .
+nl:id_41a70d88dc63119f8317d09e2367516a6d9d75b5 oa:hasTarget target:target_cd25fbcd82043b4d61c90569a283cf1106ced1fc .
+nl:id_41a70d88dc63119f8317d09e2367516a6d9d75b5 oa:hasTarget ubvu:print-218010001191 .
+nl:id_41a70d88dc63119f8317d09e2367516a6d9d75b5 oa:motivatedBy oa:tagging .
 
 target:selector_cd25fbcd82043b4d61c90569a283cf1106ced1fc a oa:FragmentSelector .
 target:selector_cd25fbcd82043b4d61c90569a283cf1106ced1fc terms:conformsTo <http://www.w3.org/TR/media-frags/> .
