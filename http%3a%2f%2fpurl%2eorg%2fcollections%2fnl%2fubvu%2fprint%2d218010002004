@@ -35,6 +35,17 @@ nl:id_626e54ac2087b88d6d4a9b9d843dfc67beec9b8e oa:hasTarget target:target_63c38b
 nl:id_626e54ac2087b88d6d4a9b9d843dfc67beec9b8e oa:hasTarget ubvu:print-218010002004 .
 nl:id_626e54ac2087b88d6d4a9b9d843dfc67beec9b8e oa:motivatedBy oa:tagging .
 
+nl:id_810a44c1e8e6aed36f698651b56553dd309b190c a oa:Annotation .
+nl:id_810a44c1e8e6aed36f698651b56553dd309b190c terms:title "God" .
+nl:id_810a44c1e8e6aed36f698651b56553dd309b190c ui:annotationField bible:BibleCharacter .
+nl:id_810a44c1e8e6aed36f698651b56553dd309b190c ui:typingTime 0 .
+nl:id_810a44c1e8e6aed36f698651b56553dd309b190c oa:annotatedAt "2016-04-17T19:28:53+02:00"^^xsd:dateTime .
+nl:id_810a44c1e8e6aed36f698651b56553dd309b190c oa:annotatedBy user:paulinevandijk .
+nl:id_810a44c1e8e6aed36f698651b56553dd309b190c oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "God" ] .
+nl:id_810a44c1e8e6aed36f698651b56553dd309b190c oa:hasTarget target:target_4c087e7a47d90825808b7cdc437a784697e8a598 .
+nl:id_810a44c1e8e6aed36f698651b56553dd309b190c oa:hasTarget ubvu:print-218010002004 .
+nl:id_810a44c1e8e6aed36f698651b56553dd309b190c oa:motivatedBy oa:tagging .
+
 nl:id_d570f84dac2988de5b75d8e252dd0642ad8b3a2e a oa:Annotation .
 nl:id_d570f84dac2988de5b75d8e252dd0642ad8b3a2e terms:title "De verlossing van Israël. De wetgeving aan Mozes op de berg" .
 nl:id_d570f84dac2988de5b75d8e252dd0642ad8b3a2e ui:annotationField bible:ICBibleTheme .
@@ -64,6 +75,14 @@ target:selector_2637d0776830d79537471954b61c5c63e9277477 ui:x "0.473333333333333
 target:selector_2637d0776830d79537471954b61c5c63e9277477 ui:y "0.1987353206865402"^^xsd:float .
 target:selector_2637d0776830d79537471954b61c5c63e9277477 rdf:value "#xywh=percent:47,20,10,14" .
 
+target:selector_4c087e7a47d90825808b7cdc437a784697e8a598 a oa:FragmentSelector .
+target:selector_4c087e7a47d90825808b7cdc437a784697e8a598 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_4c087e7a47d90825808b7cdc437a784697e8a598 ui:h "0.12466124661246612"^^xsd:float .
+target:selector_4c087e7a47d90825808b7cdc437a784697e8a598 ui:w "0.11333333333333333"^^xsd:float .
+target:selector_4c087e7a47d90825808b7cdc437a784697e8a598 ui:x "0.08133333333333333"^^xsd:float .
+target:selector_4c087e7a47d90825808b7cdc437a784697e8a598 ui:y "0.6982836495031617"^^xsd:float .
+target:selector_4c087e7a47d90825808b7cdc437a784697e8a598 rdf:value "#xywh=percent:8,70,11,12" .
+
 target:selector_63c38b76488f7c837128cb11daa24626d71672b8 a oa:FragmentSelector .
 target:selector_63c38b76488f7c837128cb11daa24626d71672b8 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_63c38b76488f7c837128cb11daa24626d71672b8 ui:h "0.03342366757000903"^^xsd:float .
@@ -83,6 +102,10 @@ target:selector_8f0e27fd95aff5ae57d50d12f0f51f830757bf27 rdf:value "#xywh=percen
 target:target_2637d0776830d79537471954b61c5c63e9277477 a oa:SpecificResource .
 target:target_2637d0776830d79537471954b61c5c63e9277477 oa:hasSelector target:selector_2637d0776830d79537471954b61c5c63e9277477 .
 target:target_2637d0776830d79537471954b61c5c63e9277477 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/3> .
+
+target:target_4c087e7a47d90825808b7cdc437a784697e8a598 a oa:SpecificResource .
+target:target_4c087e7a47d90825808b7cdc437a784697e8a598 oa:hasSelector target:selector_4c087e7a47d90825808b7cdc437a784697e8a598 .
+target:target_4c087e7a47d90825808b7cdc437a784697e8a598 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/3> .
 
 target:target_63c38b76488f7c837128cb11daa24626d71672b8 a oa:SpecificResource .
 target:target_63c38b76488f7c837128cb11daa24626d71672b8 oa:hasSelector target:selector_63c38b76488f7c837128cb11daa24626d71672b8 .
