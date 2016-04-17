@@ -1,0 +1,33 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix user: <http://accurator.nl/user#> .
+
+<http://accurator.nl/id_b0e97680871c5a4feedeb9691589e935db212874> a oa:Annotation .
+<http://accurator.nl/id_b0e97680871c5a4feedeb9691589e935db212874> terms:title "Eglon (koning van de Moabieten)" .
+<http://accurator.nl/id_b0e97680871c5a4feedeb9691589e935db212874> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
+<http://accurator.nl/id_b0e97680871c5a4feedeb9691589e935db212874> ui:typingTime 0 .
+<http://accurator.nl/id_b0e97680871c5a4feedeb9691589e935db212874> oa:annotatedAt "2016-04-17T19:40:14+02:00"^^xsd:dateTime .
+<http://accurator.nl/id_b0e97680871c5a4feedeb9691589e935db212874> oa:annotatedBy user:paulinevandijk .
+<http://accurator.nl/id_b0e97680871c5a4feedeb9691589e935db212874> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Eglon (koning van de Moabieten)" ] .
+<http://accurator.nl/id_b0e97680871c5a4feedeb9691589e935db212874> oa:hasTarget target:target_4f78094c520aad48dd801eb77060cbf2ff4c7692 .
+<http://accurator.nl/id_b0e97680871c5a4feedeb9691589e935db212874> oa:hasTarget ubvu:print-218010001367 .
+<http://accurator.nl/id_b0e97680871c5a4feedeb9691589e935db212874> oa:motivatedBy oa:tagging .
+
+target:selector_4f78094c520aad48dd801eb77060cbf2ff4c7692 a oa:FragmentSelector .
+target:selector_4f78094c520aad48dd801eb77060cbf2ff4c7692 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_4f78094c520aad48dd801eb77060cbf2ff4c7692 ui:h "0.21559633027522937"^^xsd:float .
+target:selector_4f78094c520aad48dd801eb77060cbf2ff4c7692 ui:w "0.4093333333333333"^^xsd:float .
+target:selector_4f78094c520aad48dd801eb77060cbf2ff4c7692 ui:x "0.3426666666666667"^^xsd:float .
+target:selector_4f78094c520aad48dd801eb77060cbf2ff4c7692 ui:y "0.6440366972477064"^^xsd:float .
+target:selector_4f78094c520aad48dd801eb77060cbf2ff4c7692 rdf:value "#xywh=percent:34,64,41,22" .
+
+target:target_4f78094c520aad48dd801eb77060cbf2ff4c7692 a oa:SpecificResource .
+target:target_4f78094c520aad48dd801eb77060cbf2ff4c7692 oa:hasSelector target:selector_4f78094c520aad48dd801eb77060cbf2ff4c7692 .
+target:target_4f78094c520aad48dd801eb77060cbf2ff4c7692 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/408> .
