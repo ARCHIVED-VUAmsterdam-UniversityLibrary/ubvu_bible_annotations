@@ -60,6 +60,16 @@ nl:id_7a72a35d39e90d65dac000b3ff559fcb6b61dc25 oa:hasBody [ a content:ContentAsT
 nl:id_7a72a35d39e90d65dac000b3ff559fcb6b61dc25 oa:hasTarget ubvu:print-218010002015 .
 nl:id_7a72a35d39e90d65dac000b3ff559fcb6b61dc25 oa:motivatedBy oa:tagging .
 
+nl:id_7d2e37576b02580ec8be6c371661a1410c27b0bb a oa:Annotation .
+nl:id_7d2e37576b02580ec8be6c371661a1410c27b0bb terms:title "The crown of gold and precious stones was set on David's head" .
+nl:id_7d2e37576b02580ec8be6c371661a1410c27b0bb ui:annotationField bible:ICBibleTheme .
+nl:id_7d2e37576b02580ec8be6c371661a1410c27b0bb ui:typingTime 0 .
+nl:id_7d2e37576b02580ec8be6c371661a1410c27b0bb oa:annotatedAt "2016-04-18T16:43:08+02:00"^^xsd:dateTime .
+nl:id_7d2e37576b02580ec8be6c371661a1410c27b0bb oa:annotatedBy user:everhoeff .
+nl:id_7d2e37576b02580ec8be6c371661a1410c27b0bb oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The crown of gold and precious stones was set on David's head" ] .
+nl:id_7d2e37576b02580ec8be6c371661a1410c27b0bb oa:hasTarget ubvu:print-218010002015 .
+nl:id_7d2e37576b02580ec8be6c371661a1410c27b0bb oa:motivatedBy oa:tagging .
+
 nl:id_d9531dca4f61a185c1f29fa4860efdf0a7380add a oa:Annotation .
 nl:id_d9531dca4f61a185c1f29fa4860efdf0a7380add terms:title "Hanun, king of the Ammonites, mistreats David's messengers: their beards are shaven off and their clothes are cut off" .
 nl:id_d9531dca4f61a185c1f29fa4860efdf0a7380add ui:annotationField bible:ICBibleTheme .
