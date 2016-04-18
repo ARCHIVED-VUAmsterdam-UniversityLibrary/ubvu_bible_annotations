@@ -45,6 +45,16 @@ nl:id_be20de6d048e268c30d0a6970f7b441a771ef2ec oa:hasTarget target:target_a8a179
 nl:id_be20de6d048e268c30d0a6970f7b441a771ef2ec oa:hasTarget ubvu:print-218010001933 .
 nl:id_be20de6d048e268c30d0a6970f7b441a771ef2ec oa:motivatedBy oa:tagging .
 
+nl:id_eedffd5fd9c249979298da411676ffbf08d0eb7d a oa:Annotation .
+nl:id_eedffd5fd9c249979298da411676ffbf08d0eb7d terms:title "Bekering van de gevangenbewaarder van Paulus en Silas" .
+nl:id_eedffd5fd9c249979298da411676ffbf08d0eb7d ui:annotationField bible:ICBibleTheme .
+nl:id_eedffd5fd9c249979298da411676ffbf08d0eb7d ui:typingTime 0 .
+nl:id_eedffd5fd9c249979298da411676ffbf08d0eb7d oa:annotatedAt "2016-04-18T17:44:14+02:00"^^xsd:dateTime .
+nl:id_eedffd5fd9c249979298da411676ffbf08d0eb7d oa:annotatedBy user:paulinevandijk .
+nl:id_eedffd5fd9c249979298da411676ffbf08d0eb7d oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Bekering van de gevangenbewaarder van Paulus en Silas" ] .
+nl:id_eedffd5fd9c249979298da411676ffbf08d0eb7d oa:hasTarget ubvu:print-218010001933 .
+nl:id_eedffd5fd9c249979298da411676ffbf08d0eb7d oa:motivatedBy oa:tagging .
+
 target:selector_a8a179ac1c514e385aaa82657d67cf1b6e3ad0cc a oa:FragmentSelector .
 target:selector_a8a179ac1c514e385aaa82657d67cf1b6e3ad0cc terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_a8a179ac1c514e385aaa82657d67cf1b6e3ad0cc ui:h "0.1922099915325995"^^xsd:float .
