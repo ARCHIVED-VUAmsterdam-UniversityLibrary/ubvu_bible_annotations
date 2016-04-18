@@ -40,6 +40,16 @@ nl:id_4ad15cd8e06e1c638dad1feef7b15beba2d69c3f oa:hasBody [ a content:ContentAsT
 nl:id_4ad15cd8e06e1c638dad1feef7b15beba2d69c3f oa:hasTarget ubvu:print-218010002015 .
 nl:id_4ad15cd8e06e1c638dad1feef7b15beba2d69c3f oa:motivatedBy oa:tagging .
 
+nl:id_517be981ce9eee1fc3fcefdf1b83705e6d6cea87 a oa:Annotation .
+nl:id_517be981ce9eee1fc3fcefdf1b83705e6d6cea87 terms:title "They brought the head of Ish- boshet unto David to Hebron" .
+nl:id_517be981ce9eee1fc3fcefdf1b83705e6d6cea87 ui:annotationField bible:ICBibleTheme .
+nl:id_517be981ce9eee1fc3fcefdf1b83705e6d6cea87 ui:typingTime 0 .
+nl:id_517be981ce9eee1fc3fcefdf1b83705e6d6cea87 oa:annotatedAt "2016-04-18T16:38:55+02:00"^^xsd:dateTime .
+nl:id_517be981ce9eee1fc3fcefdf1b83705e6d6cea87 oa:annotatedBy user:everhoeff .
+nl:id_517be981ce9eee1fc3fcefdf1b83705e6d6cea87 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "They brought the head of Ish- boshet unto David to Hebron" ] .
+nl:id_517be981ce9eee1fc3fcefdf1b83705e6d6cea87 oa:hasTarget ubvu:print-218010002015 .
+nl:id_517be981ce9eee1fc3fcefdf1b83705e6d6cea87 oa:motivatedBy oa:tagging .
+
 nl:id_7a72a35d39e90d65dac000b3ff559fcb6b61dc25 a oa:Annotation .
 nl:id_7a72a35d39e90d65dac000b3ff559fcb6b61dc25 terms:title "the woman at En- dor that hath a familiar spirit- Sam 28: 12" .
 nl:id_7a72a35d39e90d65dac000b3ff559fcb6b61dc25 ui:annotationField bible:ICBibleTheme .
