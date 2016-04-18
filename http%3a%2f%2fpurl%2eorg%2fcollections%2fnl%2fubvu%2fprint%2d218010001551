@@ -1,0 +1,19 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix user: <http://accurator.nl/user#> .
+
+<http://accurator.nl/id_8ca9e1acfebd4244039b415cf9cc24bf18314c6d> a oa:Annotation .
+<http://accurator.nl/id_8ca9e1acfebd4244039b415cf9cc24bf18314c6d> terms:title "Manassah'staken capture" .
+<http://accurator.nl/id_8ca9e1acfebd4244039b415cf9cc24bf18314c6d> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
+<http://accurator.nl/id_8ca9e1acfebd4244039b415cf9cc24bf18314c6d> ui:typingTime 0 .
+<http://accurator.nl/id_8ca9e1acfebd4244039b415cf9cc24bf18314c6d> oa:annotatedAt "2016-04-18T17:11:42+02:00"^^xsd:dateTime .
+<http://accurator.nl/id_8ca9e1acfebd4244039b415cf9cc24bf18314c6d> oa:annotatedBy user:everhoeff .
+<http://accurator.nl/id_8ca9e1acfebd4244039b415cf9cc24bf18314c6d> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Manassah'staken capture" ] .
+<http://accurator.nl/id_8ca9e1acfebd4244039b415cf9cc24bf18314c6d> oa:hasTarget ubvu:print-218010001551 .
+<http://accurator.nl/id_8ca9e1acfebd4244039b415cf9cc24bf18314c6d> oa:motivatedBy oa:tagging .
