@@ -12,6 +12,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_88ddafaa32486853c9a30a665bee1c2aaa5ee667 a oa:Annotation .
+nl:id_88ddafaa32486853c9a30a665bee1c2aaa5ee667 terms:title "Vrouwen aan het graf van Jezus" .
+nl:id_88ddafaa32486853c9a30a665bee1c2aaa5ee667 ui:annotationField bible:ICBibleTheme .
+nl:id_88ddafaa32486853c9a30a665bee1c2aaa5ee667 ui:typingTime 0 .
+nl:id_88ddafaa32486853c9a30a665bee1c2aaa5ee667 oa:annotatedAt "2016-04-18T17:07:45+02:00"^^xsd:dateTime .
+nl:id_88ddafaa32486853c9a30a665bee1c2aaa5ee667 oa:annotatedBy user:paulinevandijk .
+nl:id_88ddafaa32486853c9a30a665bee1c2aaa5ee667 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Vrouwen aan het graf van Jezus" ] .
+nl:id_88ddafaa32486853c9a30a665bee1c2aaa5ee667 oa:hasTarget ubvu:print-218010001883 .
+nl:id_88ddafaa32486853c9a30a665bee1c2aaa5ee667 oa:motivatedBy oa:tagging .
+
 nl:id_94507b9f4ea0cc01d9f0ec6d7db677398b0c4b4b a oa:Annotation .
 nl:id_94507b9f4ea0cc01d9f0ec6d7db677398b0c4b4b terms:title "Maria uit Magdala, Maria en nog een vrouw" .
 nl:id_94507b9f4ea0cc01d9f0ec6d7db677398b0c4b4b ui:annotationField bible:BibleCharacter .
