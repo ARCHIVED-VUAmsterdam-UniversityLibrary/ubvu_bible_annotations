@@ -6,14 +6,41 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_26cc2a376de36e6c3cdb97bc6ce6ab95d557cfb7> a oa:Annotation .
-<http://accurator.nl/id_26cc2a376de36e6c3cdb97bc6ce6ab95d557cfb7> terms:title "Elijah fed by Ravans" .
-<http://accurator.nl/id_26cc2a376de36e6c3cdb97bc6ce6ab95d557cfb7> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
-<http://accurator.nl/id_26cc2a376de36e6c3cdb97bc6ce6ab95d557cfb7> ui:typingTime 0 .
-<http://accurator.nl/id_26cc2a376de36e6c3cdb97bc6ce6ab95d557cfb7> oa:annotatedAt "2016-04-18T17:01:51+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_26cc2a376de36e6c3cdb97bc6ce6ab95d557cfb7> oa:annotatedBy user:everhoeff .
-<http://accurator.nl/id_26cc2a376de36e6c3cdb97bc6ce6ab95d557cfb7> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Elijah fed by Ravans" ] .
-<http://accurator.nl/id_26cc2a376de36e6c3cdb97bc6ce6ab95d557cfb7> oa:hasTarget ubvu:print-218010001511 .
-<http://accurator.nl/id_26cc2a376de36e6c3cdb97bc6ce6ab95d557cfb7> oa:motivatedBy oa:tagging .
+nl:id_26cc2a376de36e6c3cdb97bc6ce6ab95d557cfb7 a oa:Annotation .
+nl:id_26cc2a376de36e6c3cdb97bc6ce6ab95d557cfb7 terms:title "Elijah fed by Ravans" .
+nl:id_26cc2a376de36e6c3cdb97bc6ce6ab95d557cfb7 ui:annotationField bible:ICBibleTheme .
+nl:id_26cc2a376de36e6c3cdb97bc6ce6ab95d557cfb7 ui:typingTime 0 .
+nl:id_26cc2a376de36e6c3cdb97bc6ce6ab95d557cfb7 oa:annotatedAt "2016-04-18T17:01:51+02:00"^^xsd:dateTime .
+nl:id_26cc2a376de36e6c3cdb97bc6ce6ab95d557cfb7 oa:annotatedBy user:everhoeff .
+nl:id_26cc2a376de36e6c3cdb97bc6ce6ab95d557cfb7 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Elijah fed by Ravans" ] .
+nl:id_26cc2a376de36e6c3cdb97bc6ce6ab95d557cfb7 oa:hasTarget ubvu:print-218010001511 .
+nl:id_26cc2a376de36e6c3cdb97bc6ce6ab95d557cfb7 oa:motivatedBy oa:tagging .
+
+nl:id_e76edb69521a59e34171c2d92d60fec5e82c7f71 a oa:Annotation .
+nl:id_e76edb69521a59e34171c2d92d60fec5e82c7f71 terms:title "Elijah" .
+nl:id_e76edb69521a59e34171c2d92d60fec5e82c7f71 ui:annotationField bible:BibleCharacter .
+nl:id_e76edb69521a59e34171c2d92d60fec5e82c7f71 ui:typingTime 0 .
+nl:id_e76edb69521a59e34171c2d92d60fec5e82c7f71 oa:annotatedAt "2016-04-18T17:02:23+02:00"^^xsd:dateTime .
+nl:id_e76edb69521a59e34171c2d92d60fec5e82c7f71 oa:annotatedBy user:everhoeff .
+nl:id_e76edb69521a59e34171c2d92d60fec5e82c7f71 oa:hasBody resource:Elijah .
+nl:id_e76edb69521a59e34171c2d92d60fec5e82c7f71 oa:hasTarget target:target_73c8ba37bd1e74d7949115f8feb4756f788b6608 .
+nl:id_e76edb69521a59e34171c2d92d60fec5e82c7f71 oa:hasTarget ubvu:print-218010001511 .
+nl:id_e76edb69521a59e34171c2d92d60fec5e82c7f71 oa:motivatedBy oa:tagging .
+
+target:selector_73c8ba37bd1e74d7949115f8feb4756f788b6608 a oa:FragmentSelector .
+target:selector_73c8ba37bd1e74d7949115f8feb4756f788b6608 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_73c8ba37bd1e74d7949115f8feb4756f788b6608 ui:h "0.3609341825902335"^^xsd:float .
+target:selector_73c8ba37bd1e74d7949115f8feb4756f788b6608 ui:w "0.21958762886597938"^^xsd:float .
+target:selector_73c8ba37bd1e74d7949115f8feb4756f788b6608 ui:x "0.20103092783505155"^^xsd:float .
+target:selector_73c8ba37bd1e74d7949115f8feb4756f788b6608 ui:y "0.4062278839348903"^^xsd:float .
+target:selector_73c8ba37bd1e74d7949115f8feb4756f788b6608 rdf:value "#xywh=percent:20,41,22,36" .
+
+target:target_73c8ba37bd1e74d7949115f8feb4756f788b6608 a oa:SpecificResource .
+target:target_73c8ba37bd1e74d7949115f8feb4756f788b6608 oa:hasSelector target:selector_73c8ba37bd1e74d7949115f8feb4756f788b6608 .
+target:target_73c8ba37bd1e74d7949115f8feb4756f788b6608 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/552> .
