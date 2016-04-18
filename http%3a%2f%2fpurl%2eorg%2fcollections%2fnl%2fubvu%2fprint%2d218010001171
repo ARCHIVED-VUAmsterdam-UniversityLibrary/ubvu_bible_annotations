@@ -1,0 +1,33 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix user: <http://accurator.nl/user#> .
+
+<http://accurator.nl/id_af9cb3d983ed5c8aa40232feeb6ad46e18ad7a70> a oa:Annotation .
+<http://accurator.nl/id_af9cb3d983ed5c8aa40232feeb6ad46e18ad7a70> terms:title "joseph son of jacob" .
+<http://accurator.nl/id_af9cb3d983ed5c8aa40232feeb6ad46e18ad7a70> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
+<http://accurator.nl/id_af9cb3d983ed5c8aa40232feeb6ad46e18ad7a70> ui:typingTime 0 .
+<http://accurator.nl/id_af9cb3d983ed5c8aa40232feeb6ad46e18ad7a70> oa:annotatedAt "2016-04-18T16:05:11+02:00"^^xsd:dateTime .
+<http://accurator.nl/id_af9cb3d983ed5c8aa40232feeb6ad46e18ad7a70> oa:annotatedBy user:everhoeff .
+<http://accurator.nl/id_af9cb3d983ed5c8aa40232feeb6ad46e18ad7a70> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "joseph son of jacob" ] .
+<http://accurator.nl/id_af9cb3d983ed5c8aa40232feeb6ad46e18ad7a70> oa:hasTarget target:target_3359c5a59fc4a1268474334771f705074e669a67 .
+<http://accurator.nl/id_af9cb3d983ed5c8aa40232feeb6ad46e18ad7a70> oa:hasTarget ubvu:print-218010001171 .
+<http://accurator.nl/id_af9cb3d983ed5c8aa40232feeb6ad46e18ad7a70> oa:motivatedBy oa:tagging .
+
+target:selector_3359c5a59fc4a1268474334771f705074e669a67 a oa:FragmentSelector .
+target:selector_3359c5a59fc4a1268474334771f705074e669a67 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_3359c5a59fc4a1268474334771f705074e669a67 ui:h "0.17679558011049723"^^xsd:float .
+target:selector_3359c5a59fc4a1268474334771f705074e669a67 ui:w "0.156"^^xsd:float .
+target:selector_3359c5a59fc4a1268474334771f705074e669a67 ui:x "0.39066666666666666"^^xsd:float .
+target:selector_3359c5a59fc4a1268474334771f705074e669a67 ui:y "0.27716390423572745"^^xsd:float .
+target:selector_3359c5a59fc4a1268474334771f705074e669a67 rdf:value "#xywh=percent:39,28,16,18" .
+
+target:target_3359c5a59fc4a1268474334771f705074e669a67 a oa:SpecificResource .
+target:target_3359c5a59fc4a1268474334771f705074e669a67 oa:hasSelector target:selector_3359c5a59fc4a1268474334771f705074e669a67 .
+target:target_3359c5a59fc4a1268474334771f705074e669a67 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/212> .
