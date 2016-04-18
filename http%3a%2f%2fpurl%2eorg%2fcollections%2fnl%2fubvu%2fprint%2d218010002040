@@ -1,0 +1,19 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix user: <http://accurator.nl/user#> .
+
+<http://accurator.nl/id_d9a1ba8af481eb9b570be5d3f4d30d14f98676b5> a oa:Annotation .
+<http://accurator.nl/id_d9a1ba8af481eb9b570be5d3f4d30d14f98676b5> terms:title "epistle of Paul, Peter, Jon and Jude" .
+<http://accurator.nl/id_d9a1ba8af481eb9b570be5d3f4d30d14f98676b5> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
+<http://accurator.nl/id_d9a1ba8af481eb9b570be5d3f4d30d14f98676b5> ui:typingTime 0 .
+<http://accurator.nl/id_d9a1ba8af481eb9b570be5d3f4d30d14f98676b5> oa:annotatedAt "2016-04-18T16:14:40+02:00"^^xsd:dateTime .
+<http://accurator.nl/id_d9a1ba8af481eb9b570be5d3f4d30d14f98676b5> oa:annotatedBy user:everhoeff .
+<http://accurator.nl/id_d9a1ba8af481eb9b570be5d3f4d30d14f98676b5> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "epistle of Paul, Peter, Jon and Jude" ] .
+<http://accurator.nl/id_d9a1ba8af481eb9b570be5d3f4d30d14f98676b5> oa:hasTarget ubvu:print-218010002040 .
+<http://accurator.nl/id_d9a1ba8af481eb9b570be5d3f4d30d14f98676b5> oa:motivatedBy oa:tagging .
