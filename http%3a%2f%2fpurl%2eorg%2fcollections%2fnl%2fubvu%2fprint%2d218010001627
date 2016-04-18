@@ -8,17 +8,29 @@
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_ae9456a4b6921d672f132df89083d617bc61ec30> a oa:Annotation .
-<http://accurator.nl/id_ae9456a4b6921d672f132df89083d617bc61ec30> terms:title "Antiochus" .
-<http://accurator.nl/id_ae9456a4b6921d672f132df89083d617bc61ec30> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_ae9456a4b6921d672f132df89083d617bc61ec30> ui:typingTime 0 .
-<http://accurator.nl/id_ae9456a4b6921d672f132df89083d617bc61ec30> oa:annotatedAt "2016-04-18T21:29:59+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_ae9456a4b6921d672f132df89083d617bc61ec30> oa:annotatedBy user:paulinevandijk .
-<http://accurator.nl/id_ae9456a4b6921d672f132df89083d617bc61ec30> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Antiochus" ] .
-<http://accurator.nl/id_ae9456a4b6921d672f132df89083d617bc61ec30> oa:hasTarget target:target_3764d35431ae10423e0ce0e8a527a74baa1fd348 .
-<http://accurator.nl/id_ae9456a4b6921d672f132df89083d617bc61ec30> oa:hasTarget ubvu:print-218010001627 .
-<http://accurator.nl/id_ae9456a4b6921d672f132df89083d617bc61ec30> oa:motivatedBy oa:tagging .
+nl:id_ae9456a4b6921d672f132df89083d617bc61ec30 a oa:Annotation .
+nl:id_ae9456a4b6921d672f132df89083d617bc61ec30 terms:title "Antiochus" .
+nl:id_ae9456a4b6921d672f132df89083d617bc61ec30 ui:annotationField bible:BibleCharacter .
+nl:id_ae9456a4b6921d672f132df89083d617bc61ec30 ui:typingTime 0 .
+nl:id_ae9456a4b6921d672f132df89083d617bc61ec30 oa:annotatedAt "2016-04-18T21:29:59+02:00"^^xsd:dateTime .
+nl:id_ae9456a4b6921d672f132df89083d617bc61ec30 oa:annotatedBy user:paulinevandijk .
+nl:id_ae9456a4b6921d672f132df89083d617bc61ec30 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Antiochus" ] .
+nl:id_ae9456a4b6921d672f132df89083d617bc61ec30 oa:hasTarget target:target_3764d35431ae10423e0ce0e8a527a74baa1fd348 .
+nl:id_ae9456a4b6921d672f132df89083d617bc61ec30 oa:hasTarget ubvu:print-218010001627 .
+nl:id_ae9456a4b6921d672f132df89083d617bc61ec30 oa:motivatedBy oa:tagging .
+
+nl:id_ec29dfcade911814978bb736649cdff5e18d456d a oa:Annotation .
+nl:id_ec29dfcade911814978bb736649cdff5e18d456d terms:title "Antiochus martelt zeven broers en hun moeder" .
+nl:id_ec29dfcade911814978bb736649cdff5e18d456d ui:annotationField bible:ICBibleTheme .
+nl:id_ec29dfcade911814978bb736649cdff5e18d456d ui:typingTime 0 .
+nl:id_ec29dfcade911814978bb736649cdff5e18d456d oa:annotatedAt "2016-04-18T21:30:38+02:00"^^xsd:dateTime .
+nl:id_ec29dfcade911814978bb736649cdff5e18d456d oa:annotatedBy user:paulinevandijk .
+nl:id_ec29dfcade911814978bb736649cdff5e18d456d oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Antiochus martelt zeven broers en hun moeder" ] .
+nl:id_ec29dfcade911814978bb736649cdff5e18d456d oa:hasTarget ubvu:print-218010001627 .
+nl:id_ec29dfcade911814978bb736649cdff5e18d456d oa:motivatedBy oa:tagging .
 
 target:selector_3764d35431ae10423e0ce0e8a527a74baa1fd348 a oa:FragmentSelector .
 target:selector_3764d35431ae10423e0ce0e8a527a74baa1fd348 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
