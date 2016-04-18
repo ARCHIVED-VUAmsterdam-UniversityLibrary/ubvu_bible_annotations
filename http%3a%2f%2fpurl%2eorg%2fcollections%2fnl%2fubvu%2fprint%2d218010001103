@@ -6,14 +6,40 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_f383ff3bd6c03af0c4226c0a2b6d70c1e9ad12b8> a oa:Annotation .
-<http://accurator.nl/id_f383ff3bd6c03af0c4226c0a2b6d70c1e9ad12b8> terms:title "Abrham weighs four hundred shekels of silver for the cave" .
-<http://accurator.nl/id_f383ff3bd6c03af0c4226c0a2b6d70c1e9ad12b8> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
-<http://accurator.nl/id_f383ff3bd6c03af0c4226c0a2b6d70c1e9ad12b8> ui:typingTime 0 .
-<http://accurator.nl/id_f383ff3bd6c03af0c4226c0a2b6d70c1e9ad12b8> oa:annotatedAt "2016-04-18T17:04:34+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_f383ff3bd6c03af0c4226c0a2b6d70c1e9ad12b8> oa:annotatedBy user:everhoeff .
-<http://accurator.nl/id_f383ff3bd6c03af0c4226c0a2b6d70c1e9ad12b8> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Abrham weighs four hundred shekels of silver for the cave" ] .
-<http://accurator.nl/id_f383ff3bd6c03af0c4226c0a2b6d70c1e9ad12b8> oa:hasTarget ubvu:print-218010001103 .
-<http://accurator.nl/id_f383ff3bd6c03af0c4226c0a2b6d70c1e9ad12b8> oa:motivatedBy oa:tagging .
+nl:id_c9d99cae2457da9a11f546a23316af57d6544c69 a oa:Annotation .
+nl:id_c9d99cae2457da9a11f546a23316af57d6544c69 terms:title "Abraham" .
+nl:id_c9d99cae2457da9a11f546a23316af57d6544c69 ui:annotationField bible:BibleCharacter .
+nl:id_c9d99cae2457da9a11f546a23316af57d6544c69 ui:typingTime 0 .
+nl:id_c9d99cae2457da9a11f546a23316af57d6544c69 oa:annotatedAt "2016-04-18T17:06:47+02:00"^^xsd:dateTime .
+nl:id_c9d99cae2457da9a11f546a23316af57d6544c69 oa:annotatedBy user:everhoeff .
+nl:id_c9d99cae2457da9a11f546a23316af57d6544c69 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Abraham" ] .
+nl:id_c9d99cae2457da9a11f546a23316af57d6544c69 oa:hasTarget target:target_93ff722fd5d1d845671f0d7388cbcb0a91d77be8 .
+nl:id_c9d99cae2457da9a11f546a23316af57d6544c69 oa:hasTarget ubvu:print-218010001103 .
+nl:id_c9d99cae2457da9a11f546a23316af57d6544c69 oa:motivatedBy oa:tagging .
+
+nl:id_f383ff3bd6c03af0c4226c0a2b6d70c1e9ad12b8 a oa:Annotation .
+nl:id_f383ff3bd6c03af0c4226c0a2b6d70c1e9ad12b8 terms:title "Abrham weighs four hundred shekels of silver for the cave" .
+nl:id_f383ff3bd6c03af0c4226c0a2b6d70c1e9ad12b8 ui:annotationField bible:ICBibleTheme .
+nl:id_f383ff3bd6c03af0c4226c0a2b6d70c1e9ad12b8 ui:typingTime 0 .
+nl:id_f383ff3bd6c03af0c4226c0a2b6d70c1e9ad12b8 oa:annotatedAt "2016-04-18T17:04:34+02:00"^^xsd:dateTime .
+nl:id_f383ff3bd6c03af0c4226c0a2b6d70c1e9ad12b8 oa:annotatedBy user:everhoeff .
+nl:id_f383ff3bd6c03af0c4226c0a2b6d70c1e9ad12b8 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Abrham weighs four hundred shekels of silver for the cave" ] .
+nl:id_f383ff3bd6c03af0c4226c0a2b6d70c1e9ad12b8 oa:hasTarget ubvu:print-218010001103 .
+nl:id_f383ff3bd6c03af0c4226c0a2b6d70c1e9ad12b8 oa:motivatedBy oa:tagging .
+
+target:selector_93ff722fd5d1d845671f0d7388cbcb0a91d77be8 a oa:FragmentSelector .
+target:selector_93ff722fd5d1d845671f0d7388cbcb0a91d77be8 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_93ff722fd5d1d845671f0d7388cbcb0a91d77be8 ui:h "0.21343085106382978"^^xsd:float .
+target:selector_93ff722fd5d1d845671f0d7388cbcb0a91d77be8 ui:w "0.2958762886597938"^^xsd:float .
+target:selector_93ff722fd5d1d845671f0d7388cbcb0a91d77be8 ui:x "0.15876288659793814"^^xsd:float .
+target:selector_93ff722fd5d1d845671f0d7388cbcb0a91d77be8 ui:y "0.5631648936170213"^^xsd:float .
+target:selector_93ff722fd5d1d845671f0d7388cbcb0a91d77be8 rdf:value "#xywh=percent:16,56,30,21" .
+
+target:target_93ff722fd5d1d845671f0d7388cbcb0a91d77be8 a oa:SpecificResource .
+target:target_93ff722fd5d1d845671f0d7388cbcb0a91d77be8 oa:hasSelector target:selector_93ff722fd5d1d845671f0d7388cbcb0a91d77be8 .
+target:target_93ff722fd5d1d845671f0d7388cbcb0a91d77be8 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/144> .
