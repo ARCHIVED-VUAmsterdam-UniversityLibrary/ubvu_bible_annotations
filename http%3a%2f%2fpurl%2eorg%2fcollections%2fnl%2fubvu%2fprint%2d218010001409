@@ -1,15 +1,27 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
 @prefix media-frags: <http://www.w3.org/TR/media-frags/> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
+
+nl:id_0762b933164923f69f9732b8bef3175553f92e8c a oa:Annotation .
+nl:id_0762b933164923f69f9732b8bef3175553f92e8c terms:title "Ruth met haar schoonmoeder" .
+nl:id_0762b933164923f69f9732b8bef3175553f92e8c ui:annotationField bible:ICBibleTheme .
+nl:id_0762b933164923f69f9732b8bef3175553f92e8c ui:typingTime 0 .
+nl:id_0762b933164923f69f9732b8bef3175553f92e8c oa:annotatedAt "2016-04-18T21:11:59+02:00"^^xsd:dateTime .
+nl:id_0762b933164923f69f9732b8bef3175553f92e8c oa:annotatedBy user:paulinevandijk .
+nl:id_0762b933164923f69f9732b8bef3175553f92e8c oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Ruth met haar schoonmoeder" ] .
+nl:id_0762b933164923f69f9732b8bef3175553f92e8c oa:hasTarget ubvu:print-218010001409 .
+nl:id_0762b933164923f69f9732b8bef3175553f92e8c oa:motivatedBy oa:tagging .
 
 nl:id_329271ce82c3878e52e7df02db415f7d3b90299e a oa:Annotation .
 nl:id_329271ce82c3878e52e7df02db415f7d3b90299e terms:title "Ruth" .
