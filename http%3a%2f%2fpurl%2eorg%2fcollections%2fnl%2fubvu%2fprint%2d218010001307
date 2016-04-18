@@ -6,14 +6,40 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_38716d0ca8bcec5ac194dae4f64820dcdfb4cf7d> a oa:Annotation .
-<http://accurator.nl/id_38716d0ca8bcec5ac194dae4f64820dcdfb4cf7d> terms:title "Moses explains promulgates the Law" .
-<http://accurator.nl/id_38716d0ca8bcec5ac194dae4f64820dcdfb4cf7d> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
-<http://accurator.nl/id_38716d0ca8bcec5ac194dae4f64820dcdfb4cf7d> ui:typingTime 0 .
-<http://accurator.nl/id_38716d0ca8bcec5ac194dae4f64820dcdfb4cf7d> oa:annotatedAt "2016-04-18T16:44:35+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_38716d0ca8bcec5ac194dae4f64820dcdfb4cf7d> oa:annotatedBy user:everhoeff .
-<http://accurator.nl/id_38716d0ca8bcec5ac194dae4f64820dcdfb4cf7d> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Moses explains promulgates the Law" ] .
-<http://accurator.nl/id_38716d0ca8bcec5ac194dae4f64820dcdfb4cf7d> oa:hasTarget ubvu:print-218010001307 .
-<http://accurator.nl/id_38716d0ca8bcec5ac194dae4f64820dcdfb4cf7d> oa:motivatedBy oa:tagging .
+nl:id_38716d0ca8bcec5ac194dae4f64820dcdfb4cf7d a oa:Annotation .
+nl:id_38716d0ca8bcec5ac194dae4f64820dcdfb4cf7d terms:title "Moses explains promulgates the Law" .
+nl:id_38716d0ca8bcec5ac194dae4f64820dcdfb4cf7d ui:annotationField bible:ICBibleTheme .
+nl:id_38716d0ca8bcec5ac194dae4f64820dcdfb4cf7d ui:typingTime 0 .
+nl:id_38716d0ca8bcec5ac194dae4f64820dcdfb4cf7d oa:annotatedAt "2016-04-18T16:44:35+02:00"^^xsd:dateTime .
+nl:id_38716d0ca8bcec5ac194dae4f64820dcdfb4cf7d oa:annotatedBy user:everhoeff .
+nl:id_38716d0ca8bcec5ac194dae4f64820dcdfb4cf7d oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Moses explains promulgates the Law" ] .
+nl:id_38716d0ca8bcec5ac194dae4f64820dcdfb4cf7d oa:hasTarget ubvu:print-218010001307 .
+nl:id_38716d0ca8bcec5ac194dae4f64820dcdfb4cf7d oa:motivatedBy oa:tagging .
+
+nl:id_731f6e312fc1b76ef6f83813f509f8e23288ddce a oa:Annotation .
+nl:id_731f6e312fc1b76ef6f83813f509f8e23288ddce terms:title "Moses" .
+nl:id_731f6e312fc1b76ef6f83813f509f8e23288ddce ui:annotationField bible:BibleCharacter .
+nl:id_731f6e312fc1b76ef6f83813f509f8e23288ddce ui:typingTime 0 .
+nl:id_731f6e312fc1b76ef6f83813f509f8e23288ddce oa:annotatedAt "2016-04-18T16:44:52+02:00"^^xsd:dateTime .
+nl:id_731f6e312fc1b76ef6f83813f509f8e23288ddce oa:annotatedBy user:everhoeff .
+nl:id_731f6e312fc1b76ef6f83813f509f8e23288ddce oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Moses" ] .
+nl:id_731f6e312fc1b76ef6f83813f509f8e23288ddce oa:hasTarget target:target_ac5056773a5ea809b06f78c4251c22dd9dac329e .
+nl:id_731f6e312fc1b76ef6f83813f509f8e23288ddce oa:hasTarget ubvu:print-218010001307 .
+nl:id_731f6e312fc1b76ef6f83813f509f8e23288ddce oa:motivatedBy oa:tagging .
+
+target:selector_ac5056773a5ea809b06f78c4251c22dd9dac329e a oa:FragmentSelector .
+target:selector_ac5056773a5ea809b06f78c4251c22dd9dac329e terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_ac5056773a5ea809b06f78c4251c22dd9dac329e ui:h "0.18578680203045686"^^xsd:float .
+target:selector_ac5056773a5ea809b06f78c4251c22dd9dac329e ui:w "0.08345752608047691"^^xsd:float .
+target:selector_ac5056773a5ea809b06f78c4251c22dd9dac329e ui:x "0.3174366616989568"^^xsd:float .
+target:selector_ac5056773a5ea809b06f78c4251c22dd9dac329e ui:y "0.2598984771573604"^^xsd:float .
+target:selector_ac5056773a5ea809b06f78c4251c22dd9dac329e rdf:value "#xywh=percent:32,26,8,19" .
+
+target:target_ac5056773a5ea809b06f78c4251c22dd9dac329e a oa:SpecificResource .
+target:target_ac5056773a5ea809b06f78c4251c22dd9dac329e oa:hasSelector target:selector_ac5056773a5ea809b06f78c4251c22dd9dac329e .
+target:target_ac5056773a5ea809b06f78c4251c22dd9dac329e oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/348> .
