@@ -13,6 +13,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_5633813a81e997fb9ecc23961ce0560423ac8c4d a oa:Annotation .
+nl:id_5633813a81e997fb9ecc23961ce0560423ac8c4d terms:title "De verlamde man " .
+nl:id_5633813a81e997fb9ecc23961ce0560423ac8c4d ui:annotationField bible:ICBibleTheme .
+nl:id_5633813a81e997fb9ecc23961ce0560423ac8c4d ui:typingTime 0 .
+nl:id_5633813a81e997fb9ecc23961ce0560423ac8c4d oa:annotatedAt "2016-04-18T17:25:31+02:00"^^xsd:dateTime .
+nl:id_5633813a81e997fb9ecc23961ce0560423ac8c4d oa:annotatedBy user:paulinevandijk .
+nl:id_5633813a81e997fb9ecc23961ce0560423ac8c4d oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "De verlamde man " ] .
+nl:id_5633813a81e997fb9ecc23961ce0560423ac8c4d oa:hasTarget ubvu:print-218010001759 .
+nl:id_5633813a81e997fb9ecc23961ce0560423ac8c4d oa:motivatedBy oa:tagging .
+
 nl:id_85cd1811039de34f56f494e1313d51829723a5d9 a oa:Annotation .
 nl:id_85cd1811039de34f56f494e1313d51829723a5d9 terms:title "verlamde man" .
 nl:id_85cd1811039de34f56f494e1313d51829723a5d9 ui:annotationField bible:BibleCharacter .
