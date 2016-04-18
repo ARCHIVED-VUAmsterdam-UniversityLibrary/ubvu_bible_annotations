@@ -1,0 +1,19 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix user: <http://accurator.nl/user#> .
+
+<http://accurator.nl/id_0ce1407cd87f34d07c1018ca2dd3337cf91b4095> a oa:Annotation .
+<http://accurator.nl/id_0ce1407cd87f34d07c1018ca2dd3337cf91b4095> terms:title "-" .
+<http://accurator.nl/id_0ce1407cd87f34d07c1018ca2dd3337cf91b4095> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
+<http://accurator.nl/id_0ce1407cd87f34d07c1018ca2dd3337cf91b4095> ui:typingTime 0 .
+<http://accurator.nl/id_0ce1407cd87f34d07c1018ca2dd3337cf91b4095> oa:annotatedAt "2016-04-18T17:12:28+02:00"^^xsd:dateTime .
+<http://accurator.nl/id_0ce1407cd87f34d07c1018ca2dd3337cf91b4095> oa:annotatedBy user:everhoeff .
+<http://accurator.nl/id_0ce1407cd87f34d07c1018ca2dd3337cf91b4095> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "-" ] .
+<http://accurator.nl/id_0ce1407cd87f34d07c1018ca2dd3337cf91b4095> oa:hasTarget ubvu:print-218010001122 .
+<http://accurator.nl/id_0ce1407cd87f34d07c1018ca2dd3337cf91b4095> oa:motivatedBy oa:tagging .
