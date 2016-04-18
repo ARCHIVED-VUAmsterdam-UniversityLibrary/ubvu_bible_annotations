@@ -134,6 +134,16 @@ nl:id_eae9c0de6b0511bdf94d8bb2fdbfb6dfc1c126e1 oa:hasTarget target:target_ea2ebb
 nl:id_eae9c0de6b0511bdf94d8bb2fdbfb6dfc1c126e1 oa:hasTarget ubvu:print-218010002009 .
 nl:id_eae9c0de6b0511bdf94d8bb2fdbfb6dfc1c126e1 oa:motivatedBy oa:tagging .
 
+nl:id_fdb6a99598cac51085f819b2d6417e83fa9d642e a oa:Annotation .
+nl:id_fdb6a99598cac51085f819b2d6417e83fa9d642e terms:title "Eglon door Ehud en Sisera door Jaël gedood. Gideons overwinning op de Midianiten." .
+nl:id_fdb6a99598cac51085f819b2d6417e83fa9d642e ui:annotationField bible:ICBibleTheme .
+nl:id_fdb6a99598cac51085f819b2d6417e83fa9d642e ui:typingTime 0 .
+nl:id_fdb6a99598cac51085f819b2d6417e83fa9d642e oa:annotatedAt "2016-04-18T17:00:54+02:00"^^xsd:dateTime .
+nl:id_fdb6a99598cac51085f819b2d6417e83fa9d642e oa:annotatedBy user:paulinevandijk .
+nl:id_fdb6a99598cac51085f819b2d6417e83fa9d642e oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Eglon door Ehud en Sisera door Jaël gedood. Gideons overwinning op de Midianiten." ] .
+nl:id_fdb6a99598cac51085f819b2d6417e83fa9d642e oa:hasTarget ubvu:print-218010002009 .
+nl:id_fdb6a99598cac51085f819b2d6417e83fa9d642e oa:motivatedBy oa:tagging .
+
 target:selector_01a626df54b184dc341853da884f8da6af42327d a oa:FragmentSelector .
 target:selector_01a626df54b184dc341853da884f8da6af42327d terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_01a626df54b184dc341853da884f8da6af42327d ui:h "0.12210915818686402"^^xsd:float .
