@@ -59,3 +59,13 @@ nl:id_7a72a35d39e90d65dac000b3ff559fcb6b61dc25 oa:annotatedBy user:everhoeff .
 nl:id_7a72a35d39e90d65dac000b3ff559fcb6b61dc25 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "the woman at En- dor that hath a familiar spirit- Sam 28: 12" ] .
 nl:id_7a72a35d39e90d65dac000b3ff559fcb6b61dc25 oa:hasTarget ubvu:print-218010002015 .
 nl:id_7a72a35d39e90d65dac000b3ff559fcb6b61dc25 oa:motivatedBy oa:tagging .
+
+nl:id_d9531dca4f61a185c1f29fa4860efdf0a7380add a oa:Annotation .
+nl:id_d9531dca4f61a185c1f29fa4860efdf0a7380add terms:title "Hanun, king of the Ammonites, mistreats David's messengers: their beards are shaven off and their clothes are cut off" .
+nl:id_d9531dca4f61a185c1f29fa4860efdf0a7380add ui:annotationField bible:ICBibleTheme .
+nl:id_d9531dca4f61a185c1f29fa4860efdf0a7380add ui:typingTime 0 .
+nl:id_d9531dca4f61a185c1f29fa4860efdf0a7380add oa:annotatedAt "2016-04-18T16:40:51+02:00"^^xsd:dateTime .
+nl:id_d9531dca4f61a185c1f29fa4860efdf0a7380add oa:annotatedBy user:everhoeff .
+nl:id_d9531dca4f61a185c1f29fa4860efdf0a7380add oa:hasBody <http://iconclass.org/71H5251> .
+nl:id_d9531dca4f61a185c1f29fa4860efdf0a7380add oa:hasTarget ubvu:print-218010002015 .
+nl:id_d9531dca4f61a185c1f29fa4860efdf0a7380add oa:motivatedBy oa:tagging .
