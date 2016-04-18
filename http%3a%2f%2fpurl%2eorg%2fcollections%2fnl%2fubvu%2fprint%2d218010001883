@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -8,17 +9,30 @@
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_cf715146c14fb52c7fb48d5c45f6ec5c1d4b2ad6> a oa:Annotation .
-<http://accurator.nl/id_cf715146c14fb52c7fb48d5c45f6ec5c1d4b2ad6> terms:title "Engel" .
-<http://accurator.nl/id_cf715146c14fb52c7fb48d5c45f6ec5c1d4b2ad6> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_cf715146c14fb52c7fb48d5c45f6ec5c1d4b2ad6> ui:typingTime 0 .
-<http://accurator.nl/id_cf715146c14fb52c7fb48d5c45f6ec5c1d4b2ad6> oa:annotatedAt "2016-04-18T17:06:09+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_cf715146c14fb52c7fb48d5c45f6ec5c1d4b2ad6> oa:annotatedBy user:paulinevandijk .
-<http://accurator.nl/id_cf715146c14fb52c7fb48d5c45f6ec5c1d4b2ad6> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Engel" ] .
-<http://accurator.nl/id_cf715146c14fb52c7fb48d5c45f6ec5c1d4b2ad6> oa:hasTarget target:target_8ebca9f876bb3002729dfbe2ab47790af5561504 .
-<http://accurator.nl/id_cf715146c14fb52c7fb48d5c45f6ec5c1d4b2ad6> oa:hasTarget ubvu:print-218010001883 .
-<http://accurator.nl/id_cf715146c14fb52c7fb48d5c45f6ec5c1d4b2ad6> oa:motivatedBy oa:tagging .
+nl:id_94507b9f4ea0cc01d9f0ec6d7db677398b0c4b4b a oa:Annotation .
+nl:id_94507b9f4ea0cc01d9f0ec6d7db677398b0c4b4b terms:title "Maria uit Magdala, Maria en nog een vrouw" .
+nl:id_94507b9f4ea0cc01d9f0ec6d7db677398b0c4b4b ui:annotationField bible:BibleCharacter .
+nl:id_94507b9f4ea0cc01d9f0ec6d7db677398b0c4b4b ui:typingTime 0 .
+nl:id_94507b9f4ea0cc01d9f0ec6d7db677398b0c4b4b oa:annotatedAt "2016-04-18T17:07:18+02:00"^^xsd:dateTime .
+nl:id_94507b9f4ea0cc01d9f0ec6d7db677398b0c4b4b oa:annotatedBy user:paulinevandijk .
+nl:id_94507b9f4ea0cc01d9f0ec6d7db677398b0c4b4b oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Maria uit Magdala, Maria en nog een vrouw" ] .
+nl:id_94507b9f4ea0cc01d9f0ec6d7db677398b0c4b4b oa:hasTarget target:target_a18e3518d83694fa17f10d6959cd467220d9f9f8 .
+nl:id_94507b9f4ea0cc01d9f0ec6d7db677398b0c4b4b oa:hasTarget ubvu:print-218010001883 .
+nl:id_94507b9f4ea0cc01d9f0ec6d7db677398b0c4b4b oa:motivatedBy oa:tagging .
+
+nl:id_cf715146c14fb52c7fb48d5c45f6ec5c1d4b2ad6 a oa:Annotation .
+nl:id_cf715146c14fb52c7fb48d5c45f6ec5c1d4b2ad6 terms:title "Engel" .
+nl:id_cf715146c14fb52c7fb48d5c45f6ec5c1d4b2ad6 ui:annotationField bible:BibleCharacter .
+nl:id_cf715146c14fb52c7fb48d5c45f6ec5c1d4b2ad6 ui:typingTime 0 .
+nl:id_cf715146c14fb52c7fb48d5c45f6ec5c1d4b2ad6 oa:annotatedAt "2016-04-18T17:06:09+02:00"^^xsd:dateTime .
+nl:id_cf715146c14fb52c7fb48d5c45f6ec5c1d4b2ad6 oa:annotatedBy user:paulinevandijk .
+nl:id_cf715146c14fb52c7fb48d5c45f6ec5c1d4b2ad6 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Engel" ] .
+nl:id_cf715146c14fb52c7fb48d5c45f6ec5c1d4b2ad6 oa:hasTarget target:target_8ebca9f876bb3002729dfbe2ab47790af5561504 .
+nl:id_cf715146c14fb52c7fb48d5c45f6ec5c1d4b2ad6 oa:hasTarget ubvu:print-218010001883 .
+nl:id_cf715146c14fb52c7fb48d5c45f6ec5c1d4b2ad6 oa:motivatedBy oa:tagging .
 
 target:selector_8ebca9f876bb3002729dfbe2ab47790af5561504 a oa:FragmentSelector .
 target:selector_8ebca9f876bb3002729dfbe2ab47790af5561504 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -28,6 +42,18 @@ target:selector_8ebca9f876bb3002729dfbe2ab47790af5561504 ui:x "0.452"^^xsd:float
 target:selector_8ebca9f876bb3002729dfbe2ab47790af5561504 ui:y "0.1847733105218135"^^xsd:float .
 target:selector_8ebca9f876bb3002729dfbe2ab47790af5561504 rdf:value "#xywh=percent:45,18,41,21" .
 
+target:selector_a18e3518d83694fa17f10d6959cd467220d9f9f8 a oa:FragmentSelector .
+target:selector_a18e3518d83694fa17f10d6959cd467220d9f9f8 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_a18e3518d83694fa17f10d6959cd467220d9f9f8 ui:h "0.3960650128314799"^^xsd:float .
+target:selector_a18e3518d83694fa17f10d6959cd467220d9f9f8 ui:w "0.48933333333333334"^^xsd:float .
+target:selector_a18e3518d83694fa17f10d6959cd467220d9f9f8 ui:x "0.25866666666666666"^^xsd:float .
+target:selector_a18e3518d83694fa17f10d6959cd467220d9f9f8 ui:y "0.38922155688622756"^^xsd:float .
+target:selector_a18e3518d83694fa17f10d6959cd467220d9f9f8 rdf:value "#xywh=percent:26,39,49,40" .
+
 target:target_8ebca9f876bb3002729dfbe2ab47790af5561504 a oa:SpecificResource .
 target:target_8ebca9f876bb3002729dfbe2ab47790af5561504 oa:hasSelector target:selector_8ebca9f876bb3002729dfbe2ab47790af5561504 .
 target:target_8ebca9f876bb3002729dfbe2ab47790af5561504 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/922> .
+
+target:target_a18e3518d83694fa17f10d6959cd467220d9f9f8 a oa:SpecificResource .
+target:target_a18e3518d83694fa17f10d6959cd467220d9f9f8 oa:hasSelector target:selector_a18e3518d83694fa17f10d6959cd467220d9f9f8 .
+target:target_a18e3518d83694fa17f10d6959cd467220d9f9f8 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/922> .
