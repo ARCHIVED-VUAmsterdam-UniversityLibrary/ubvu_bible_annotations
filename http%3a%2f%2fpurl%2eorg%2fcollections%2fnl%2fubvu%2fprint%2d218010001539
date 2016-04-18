@@ -1,23 +1,39 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_018526870ac0dfa67cf6e758f22c6418a8fdefe7> a oa:Annotation .
-<http://accurator.nl/id_018526870ac0dfa67cf6e758f22c6418a8fdefe7> terms:title "Nebukadnessar" .
-<http://accurator.nl/id_018526870ac0dfa67cf6e758f22c6418a8fdefe7> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_018526870ac0dfa67cf6e758f22c6418a8fdefe7> ui:typingTime 0 .
-<http://accurator.nl/id_018526870ac0dfa67cf6e758f22c6418a8fdefe7> oa:annotatedAt "2016-04-18T21:05:55+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_018526870ac0dfa67cf6e758f22c6418a8fdefe7> oa:annotatedBy user:paulinevandijk .
-<http://accurator.nl/id_018526870ac0dfa67cf6e758f22c6418a8fdefe7> oa:hasBody resource:Nebuchadnezzar .
-<http://accurator.nl/id_018526870ac0dfa67cf6e758f22c6418a8fdefe7> oa:hasTarget target:target_197ea442f3e208b6e8c059558c4564b6c36ca45a .
-<http://accurator.nl/id_018526870ac0dfa67cf6e758f22c6418a8fdefe7> oa:hasTarget ubvu:print-218010001539 .
-<http://accurator.nl/id_018526870ac0dfa67cf6e758f22c6418a8fdefe7> oa:motivatedBy oa:tagging .
+nl:id_018526870ac0dfa67cf6e758f22c6418a8fdefe7 a oa:Annotation .
+nl:id_018526870ac0dfa67cf6e758f22c6418a8fdefe7 terms:title "Nebukadnessar" .
+nl:id_018526870ac0dfa67cf6e758f22c6418a8fdefe7 ui:annotationField bible:BibleCharacter .
+nl:id_018526870ac0dfa67cf6e758f22c6418a8fdefe7 ui:typingTime 0 .
+nl:id_018526870ac0dfa67cf6e758f22c6418a8fdefe7 oa:annotatedAt "2016-04-18T21:05:55+02:00"^^xsd:dateTime .
+nl:id_018526870ac0dfa67cf6e758f22c6418a8fdefe7 oa:annotatedBy user:paulinevandijk .
+nl:id_018526870ac0dfa67cf6e758f22c6418a8fdefe7 oa:hasBody resource:Nebuchadnezzar .
+nl:id_018526870ac0dfa67cf6e758f22c6418a8fdefe7 oa:hasTarget target:target_197ea442f3e208b6e8c059558c4564b6c36ca45a .
+nl:id_018526870ac0dfa67cf6e758f22c6418a8fdefe7 oa:hasTarget ubvu:print-218010001539 .
+nl:id_018526870ac0dfa67cf6e758f22c6418a8fdefe7 oa:motivatedBy oa:tagging .
+
+nl:id_9c8fb6fbb482f8424014db505268dead611af499 a oa:Annotation .
+nl:id_9c8fb6fbb482f8424014db505268dead611af499 terms:title "Nebuzaradan" .
+nl:id_9c8fb6fbb482f8424014db505268dead611af499 ui:annotationField bible:BibleCharacter .
+nl:id_9c8fb6fbb482f8424014db505268dead611af499 ui:typingTime 0 .
+nl:id_9c8fb6fbb482f8424014db505268dead611af499 oa:annotatedAt "2016-04-18T21:08:24+02:00"^^xsd:dateTime .
+nl:id_9c8fb6fbb482f8424014db505268dead611af499 oa:annotatedBy user:paulinevandijk .
+nl:id_9c8fb6fbb482f8424014db505268dead611af499 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Nebuzaradan" ] .
+nl:id_9c8fb6fbb482f8424014db505268dead611af499 oa:hasTarget target:target_a2a292f213a529faf6b5ea0a91b56e5205fa101e .
+nl:id_9c8fb6fbb482f8424014db505268dead611af499 oa:hasTarget ubvu:print-218010001539 .
+nl:id_9c8fb6fbb482f8424014db505268dead611af499 oa:motivatedBy oa:tagging .
 
 target:selector_197ea442f3e208b6e8c059558c4564b6c36ca45a a oa:FragmentSelector .
 target:selector_197ea442f3e208b6e8c059558c4564b6c36ca45a terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -27,6 +43,18 @@ target:selector_197ea442f3e208b6e8c059558c4564b6c36ca45a ui:x "0.068"^^xsd:float
 target:selector_197ea442f3e208b6e8c059558c4564b6c36ca45a ui:y "0.31640979147778786"^^xsd:float .
 target:selector_197ea442f3e208b6e8c059558c4564b6c36ca45a rdf:value "#xywh=percent:7,32,16,16" .
 
+target:selector_a2a292f213a529faf6b5ea0a91b56e5205fa101e a oa:FragmentSelector .
+target:selector_a2a292f213a529faf6b5ea0a91b56e5205fa101e terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_a2a292f213a529faf6b5ea0a91b56e5205fa101e ui:h "0.19492293744333636"^^xsd:float .
+target:selector_a2a292f213a529faf6b5ea0a91b56e5205fa101e ui:w "0.19733333333333333"^^xsd:float .
+target:selector_a2a292f213a529faf6b5ea0a91b56e5205fa101e ui:x "0.07066666666666667"^^xsd:float .
+target:selector_a2a292f213a529faf6b5ea0a91b56e5205fa101e ui:y "0.3082502266545784"^^xsd:float .
+target:selector_a2a292f213a529faf6b5ea0a91b56e5205fa101e rdf:value "#xywh=percent:7,31,20,19" .
+
 target:target_197ea442f3e208b6e8c059558c4564b6c36ca45a a oa:SpecificResource .
 target:target_197ea442f3e208b6e8c059558c4564b6c36ca45a oa:hasSelector target:selector_197ea442f3e208b6e8c059558c4564b6c36ca45a .
 target:target_197ea442f3e208b6e8c059558c4564b6c36ca45a oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/580> .
+
+target:target_a2a292f213a529faf6b5ea0a91b56e5205fa101e a oa:SpecificResource .
+target:target_a2a292f213a529faf6b5ea0a91b56e5205fa101e oa:hasSelector target:selector_a2a292f213a529faf6b5ea0a91b56e5205fa101e .
+target:target_a2a292f213a529faf6b5ea0a91b56e5205fa101e oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/580> .
