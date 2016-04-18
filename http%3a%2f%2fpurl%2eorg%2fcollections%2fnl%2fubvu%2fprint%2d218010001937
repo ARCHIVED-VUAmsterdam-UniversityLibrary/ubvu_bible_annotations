@@ -8,49 +8,26 @@
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
-@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
-@prefix nl: <http://accurator.nl/> .
 
-nl:id_34a0d9b1250bb305c2c6a40351008698f6b1f7da a oa:Annotation .
-nl:id_34a0d9b1250bb305c2c6a40351008698f6b1f7da terms:title "Eutychus" .
-nl:id_34a0d9b1250bb305c2c6a40351008698f6b1f7da ui:annotationField bible:BibleCharacter .
-nl:id_34a0d9b1250bb305c2c6a40351008698f6b1f7da ui:typingTime 0 .
-nl:id_34a0d9b1250bb305c2c6a40351008698f6b1f7da oa:annotatedAt "2016-04-04T16:15:53+02:00"^^xsd:dateTime .
-nl:id_34a0d9b1250bb305c2c6a40351008698f6b1f7da oa:annotatedBy user:dick .
-nl:id_34a0d9b1250bb305c2c6a40351008698f6b1f7da oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Eutychus" ] .
-nl:id_34a0d9b1250bb305c2c6a40351008698f6b1f7da oa:hasTarget target:target_6691ae6ece14a7a6d57ef54e8e24ab681fc14b43 .
-nl:id_34a0d9b1250bb305c2c6a40351008698f6b1f7da oa:hasTarget ubvu:print-218010001937 .
-nl:id_34a0d9b1250bb305c2c6a40351008698f6b1f7da oa:motivatedBy oa:tagging .
+<http://accurator.nl/id_977bccb6250311cef89ac065f6ca0cb68a10fbd9> a oa:Annotation .
+<http://accurator.nl/id_977bccb6250311cef89ac065f6ca0cb68a10fbd9> terms:title "Paul" .
+<http://accurator.nl/id_977bccb6250311cef89ac065f6ca0cb68a10fbd9> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
+<http://accurator.nl/id_977bccb6250311cef89ac065f6ca0cb68a10fbd9> ui:typingTime 0 .
+<http://accurator.nl/id_977bccb6250311cef89ac065f6ca0cb68a10fbd9> oa:annotatedAt "2016-04-18T16:18:51+02:00"^^xsd:dateTime .
+<http://accurator.nl/id_977bccb6250311cef89ac065f6ca0cb68a10fbd9> oa:annotatedBy user:everhoeff .
+<http://accurator.nl/id_977bccb6250311cef89ac065f6ca0cb68a10fbd9> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Paul" ] .
+<http://accurator.nl/id_977bccb6250311cef89ac065f6ca0cb68a10fbd9> oa:hasTarget target:target_85c9933f04c3f2781e0c051f60a61fae7b23d563 .
+<http://accurator.nl/id_977bccb6250311cef89ac065f6ca0cb68a10fbd9> oa:hasTarget ubvu:print-218010001937 .
+<http://accurator.nl/id_977bccb6250311cef89ac065f6ca0cb68a10fbd9> oa:motivatedBy oa:tagging .
 
-nl:id_49d5201b828ee191744d196f25f3539b5aab144c a oa:Annotation .
-nl:id_49d5201b828ee191744d196f25f3539b5aab144c terms:title "Paulus" .
-nl:id_49d5201b828ee191744d196f25f3539b5aab144c ui:annotationField bible:BibleCharacter .
-nl:id_49d5201b828ee191744d196f25f3539b5aab144c ui:typingTime 0 .
-nl:id_49d5201b828ee191744d196f25f3539b5aab144c oa:annotatedAt "2016-04-04T16:15:44+02:00"^^xsd:dateTime .
-nl:id_49d5201b828ee191744d196f25f3539b5aab144c oa:annotatedBy user:dick .
-nl:id_49d5201b828ee191744d196f25f3539b5aab144c oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Paulus" ] .
-nl:id_49d5201b828ee191744d196f25f3539b5aab144c oa:hasTarget target:target_6691ae6ece14a7a6d57ef54e8e24ab681fc14b43 .
-nl:id_49d5201b828ee191744d196f25f3539b5aab144c oa:hasTarget ubvu:print-218010001937 .
-nl:id_49d5201b828ee191744d196f25f3539b5aab144c oa:motivatedBy oa:tagging .
+target:selector_85c9933f04c3f2781e0c051f60a61fae7b23d563 a oa:FragmentSelector .
+target:selector_85c9933f04c3f2781e0c051f60a61fae7b23d563 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_85c9933f04c3f2781e0c051f60a61fae7b23d563 ui:h "0.07529610829103214"^^xsd:float .
+target:selector_85c9933f04c3f2781e0c051f60a61fae7b23d563 ui:w "0.16533333333333333"^^xsd:float .
+target:selector_85c9933f04c3f2781e0c051f60a61fae7b23d563 ui:x "0.2653333333333333"^^xsd:float .
+target:selector_85c9933f04c3f2781e0c051f60a61fae7b23d563 ui:y "0.5169204737732657"^^xsd:float .
+target:selector_85c9933f04c3f2781e0c051f60a61fae7b23d563 rdf:value "#xywh=percent:27,52,17,8" .
 
-nl:id_7d7650b77d4ac850239aee2d61e69592b1057a33 a oa:Annotation .
-nl:id_7d7650b77d4ac850239aee2d61e69592b1057a33 terms:title "De opwekking van Eutychus, die naar beneden gevallen was (Handelingen 20:9-10)" .
-nl:id_7d7650b77d4ac850239aee2d61e69592b1057a33 ui:annotationField bible:ICBibleTheme .
-nl:id_7d7650b77d4ac850239aee2d61e69592b1057a33 ui:typingTime 0 .
-nl:id_7d7650b77d4ac850239aee2d61e69592b1057a33 oa:annotatedAt "2016-04-04T15:17:34+02:00"^^xsd:dateTime .
-nl:id_7d7650b77d4ac850239aee2d61e69592b1057a33 oa:annotatedBy user:hrmurris .
-nl:id_7d7650b77d4ac850239aee2d61e69592b1057a33 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "De opwekking van Eutychus, die naar beneden gevallen was (Handelingen 20:9-10)" ] .
-nl:id_7d7650b77d4ac850239aee2d61e69592b1057a33 oa:hasTarget ubvu:print-218010001937 .
-nl:id_7d7650b77d4ac850239aee2d61e69592b1057a33 oa:motivatedBy oa:tagging .
-
-target:selector_6691ae6ece14a7a6d57ef54e8e24ab681fc14b43 a oa:FragmentSelector .
-target:selector_6691ae6ece14a7a6d57ef54e8e24ab681fc14b43 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
-target:selector_6691ae6ece14a7a6d57ef54e8e24ab681fc14b43 ui:h "0.23698481561822127"^^xsd:float .
-target:selector_6691ae6ece14a7a6d57ef54e8e24ab681fc14b43 ui:w "0.35555555555555557"^^xsd:float .
-target:selector_6691ae6ece14a7a6d57ef54e8e24ab681fc14b43 ui:x "0.19572649572649573"^^xsd:float .
-target:selector_6691ae6ece14a7a6d57ef54e8e24ab681fc14b43 ui:y "0.49251624250101683"^^xsd:float .
-target:selector_6691ae6ece14a7a6d57ef54e8e24ab681fc14b43 rdf:value "#xywh=percent:20,49,36,24" .
-
-target:target_6691ae6ece14a7a6d57ef54e8e24ab681fc14b43 a oa:SpecificResource .
-target:target_6691ae6ece14a7a6d57ef54e8e24ab681fc14b43 oa:hasSelector target:selector_6691ae6ece14a7a6d57ef54e8e24ab681fc14b43 .
-target:target_6691ae6ece14a7a6d57ef54e8e24ab681fc14b43 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/976> .
+target:target_85c9933f04c3f2781e0c051f60a61fae7b23d563 a oa:SpecificResource .
+target:target_85c9933f04c3f2781e0c051f60a61fae7b23d563 oa:hasSelector target:selector_85c9933f04c3f2781e0c051f60a61fae7b23d563 .
+target:target_85c9933f04c3f2781e0c051f60a61fae7b23d563 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/976> .
