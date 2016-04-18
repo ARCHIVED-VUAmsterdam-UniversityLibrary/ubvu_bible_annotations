@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
@@ -7,17 +8,38 @@
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_b8d03ea679eb6f71c4a5fcb5353ac1b0b4a4ddbf> a oa:Annotation .
-<http://accurator.nl/id_b8d03ea679eb6f71c4a5fcb5353ac1b0b4a4ddbf> terms:title "Noömi" .
-<http://accurator.nl/id_b8d03ea679eb6f71c4a5fcb5353ac1b0b4a4ddbf> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_b8d03ea679eb6f71c4a5fcb5353ac1b0b4a4ddbf> ui:typingTime 0 .
-<http://accurator.nl/id_b8d03ea679eb6f71c4a5fcb5353ac1b0b4a4ddbf> oa:annotatedAt "2016-04-18T21:10:55+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_b8d03ea679eb6f71c4a5fcb5353ac1b0b4a4ddbf> oa:annotatedBy user:paulinevandijk .
-<http://accurator.nl/id_b8d03ea679eb6f71c4a5fcb5353ac1b0b4a4ddbf> oa:hasBody resource:Naomi .
-<http://accurator.nl/id_b8d03ea679eb6f71c4a5fcb5353ac1b0b4a4ddbf> oa:hasTarget target:target_ce03792cffdc3690fab7a3ccb8723ce94de9a015 .
-<http://accurator.nl/id_b8d03ea679eb6f71c4a5fcb5353ac1b0b4a4ddbf> oa:hasTarget ubvu:print-218010001409 .
-<http://accurator.nl/id_b8d03ea679eb6f71c4a5fcb5353ac1b0b4a4ddbf> oa:motivatedBy oa:tagging .
+nl:id_329271ce82c3878e52e7df02db415f7d3b90299e a oa:Annotation .
+nl:id_329271ce82c3878e52e7df02db415f7d3b90299e terms:title "Ruth" .
+nl:id_329271ce82c3878e52e7df02db415f7d3b90299e ui:annotationField bible:BibleCharacter .
+nl:id_329271ce82c3878e52e7df02db415f7d3b90299e ui:typingTime 0 .
+nl:id_329271ce82c3878e52e7df02db415f7d3b90299e oa:annotatedAt "2016-04-18T21:11:33+02:00"^^xsd:dateTime .
+nl:id_329271ce82c3878e52e7df02db415f7d3b90299e oa:annotatedBy user:paulinevandijk .
+nl:id_329271ce82c3878e52e7df02db415f7d3b90299e oa:hasBody resource:Ruth .
+nl:id_329271ce82c3878e52e7df02db415f7d3b90299e oa:hasTarget target:target_91412ab2d9b80c888b9dd175ce278b9513f9987b .
+nl:id_329271ce82c3878e52e7df02db415f7d3b90299e oa:hasTarget ubvu:print-218010001409 .
+nl:id_329271ce82c3878e52e7df02db415f7d3b90299e oa:motivatedBy oa:tagging .
+
+nl:id_b8d03ea679eb6f71c4a5fcb5353ac1b0b4a4ddbf a oa:Annotation .
+nl:id_b8d03ea679eb6f71c4a5fcb5353ac1b0b4a4ddbf terms:title "Noömi" .
+nl:id_b8d03ea679eb6f71c4a5fcb5353ac1b0b4a4ddbf ui:annotationField bible:BibleCharacter .
+nl:id_b8d03ea679eb6f71c4a5fcb5353ac1b0b4a4ddbf ui:typingTime 0 .
+nl:id_b8d03ea679eb6f71c4a5fcb5353ac1b0b4a4ddbf oa:annotatedAt "2016-04-18T21:10:55+02:00"^^xsd:dateTime .
+nl:id_b8d03ea679eb6f71c4a5fcb5353ac1b0b4a4ddbf oa:annotatedBy user:paulinevandijk .
+nl:id_b8d03ea679eb6f71c4a5fcb5353ac1b0b4a4ddbf oa:hasBody resource:Naomi .
+nl:id_b8d03ea679eb6f71c4a5fcb5353ac1b0b4a4ddbf oa:hasTarget target:target_ce03792cffdc3690fab7a3ccb8723ce94de9a015 .
+nl:id_b8d03ea679eb6f71c4a5fcb5353ac1b0b4a4ddbf oa:hasTarget ubvu:print-218010001409 .
+nl:id_b8d03ea679eb6f71c4a5fcb5353ac1b0b4a4ddbf oa:motivatedBy oa:tagging .
+
+target:selector_91412ab2d9b80c888b9dd175ce278b9513f9987b a oa:FragmentSelector .
+target:selector_91412ab2d9b80c888b9dd175ce278b9513f9987b terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_91412ab2d9b80c888b9dd175ce278b9513f9987b ui:h "0.3534798534798535"^^xsd:float .
+target:selector_91412ab2d9b80c888b9dd175ce278b9513f9987b ui:w "0.11866666666666667"^^xsd:float .
+target:selector_91412ab2d9b80c888b9dd175ce278b9513f9987b ui:x "0.02666666666666667"^^xsd:float .
+target:selector_91412ab2d9b80c888b9dd175ce278b9513f9987b ui:y "0.4423076923076923"^^xsd:float .
+target:selector_91412ab2d9b80c888b9dd175ce278b9513f9987b rdf:value "#xywh=percent:3,44,12,35" .
 
 target:selector_ce03792cffdc3690fab7a3ccb8723ce94de9a015 a oa:FragmentSelector .
 target:selector_ce03792cffdc3690fab7a3ccb8723ce94de9a015 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -26,6 +48,10 @@ target:selector_ce03792cffdc3690fab7a3ccb8723ce94de9a015 ui:w "0.122666666666666
 target:selector_ce03792cffdc3690fab7a3ccb8723ce94de9a015 ui:x "0.16266666666666665"^^xsd:float .
 target:selector_ce03792cffdc3690fab7a3ccb8723ce94de9a015 ui:y "0.45695970695970695"^^xsd:float .
 target:selector_ce03792cffdc3690fab7a3ccb8723ce94de9a015 rdf:value "#xywh=percent:16,46,12,32" .
+
+target:target_91412ab2d9b80c888b9dd175ce278b9513f9987b a oa:SpecificResource .
+target:target_91412ab2d9b80c888b9dd175ce278b9513f9987b oa:hasSelector target:selector_91412ab2d9b80c888b9dd175ce278b9513f9987b .
+target:target_91412ab2d9b80c888b9dd175ce278b9513f9987b oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/450> .
 
 target:target_ce03792cffdc3690fab7a3ccb8723ce94de9a015 a oa:SpecificResource .
 target:target_ce03792cffdc3690fab7a3ccb8723ce94de9a015 oa:hasSelector target:selector_ce03792cffdc3690fab7a3ccb8723ce94de9a015 .
