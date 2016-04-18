@@ -7,13 +7,25 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_7a72a35d39e90d65dac000b3ff559fcb6b61dc25> a oa:Annotation .
-<http://accurator.nl/id_7a72a35d39e90d65dac000b3ff559fcb6b61dc25> terms:title "the woman at En- dor that hath a familiar spirit- Sam 28: 12" .
-<http://accurator.nl/id_7a72a35d39e90d65dac000b3ff559fcb6b61dc25> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
-<http://accurator.nl/id_7a72a35d39e90d65dac000b3ff559fcb6b61dc25> ui:typingTime 0 .
-<http://accurator.nl/id_7a72a35d39e90d65dac000b3ff559fcb6b61dc25> oa:annotatedAt "2016-04-18T16:28:32+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_7a72a35d39e90d65dac000b3ff559fcb6b61dc25> oa:annotatedBy user:everhoeff .
-<http://accurator.nl/id_7a72a35d39e90d65dac000b3ff559fcb6b61dc25> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "the woman at En- dor that hath a familiar spirit- Sam 28: 12" ] .
-<http://accurator.nl/id_7a72a35d39e90d65dac000b3ff559fcb6b61dc25> oa:hasTarget ubvu:print-218010002015 .
-<http://accurator.nl/id_7a72a35d39e90d65dac000b3ff559fcb6b61dc25> oa:motivatedBy oa:tagging .
+nl:id_0a42426278b517ccc91fcbe9bb8389bf8741d2b2 a oa:Annotation .
+nl:id_0a42426278b517ccc91fcbe9bb8389bf8741d2b2 terms:title "Israel fled before the Philistines and slain  in mount Gilboa" .
+nl:id_0a42426278b517ccc91fcbe9bb8389bf8741d2b2 ui:annotationField bible:ICBibleTheme .
+nl:id_0a42426278b517ccc91fcbe9bb8389bf8741d2b2 ui:typingTime 0 .
+nl:id_0a42426278b517ccc91fcbe9bb8389bf8741d2b2 oa:annotatedAt "2016-04-18T16:30:14+02:00"^^xsd:dateTime .
+nl:id_0a42426278b517ccc91fcbe9bb8389bf8741d2b2 oa:annotatedBy user:everhoeff .
+nl:id_0a42426278b517ccc91fcbe9bb8389bf8741d2b2 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Israel fled before the Philistines and slain  in mount Gilboa" ] .
+nl:id_0a42426278b517ccc91fcbe9bb8389bf8741d2b2 oa:hasTarget ubvu:print-218010002015 .
+nl:id_0a42426278b517ccc91fcbe9bb8389bf8741d2b2 oa:motivatedBy oa:tagging .
+
+nl:id_7a72a35d39e90d65dac000b3ff559fcb6b61dc25 a oa:Annotation .
+nl:id_7a72a35d39e90d65dac000b3ff559fcb6b61dc25 terms:title "the woman at En- dor that hath a familiar spirit- Sam 28: 12" .
+nl:id_7a72a35d39e90d65dac000b3ff559fcb6b61dc25 ui:annotationField bible:ICBibleTheme .
+nl:id_7a72a35d39e90d65dac000b3ff559fcb6b61dc25 ui:typingTime 0 .
+nl:id_7a72a35d39e90d65dac000b3ff559fcb6b61dc25 oa:annotatedAt "2016-04-18T16:28:32+02:00"^^xsd:dateTime .
+nl:id_7a72a35d39e90d65dac000b3ff559fcb6b61dc25 oa:annotatedBy user:everhoeff .
+nl:id_7a72a35d39e90d65dac000b3ff559fcb6b61dc25 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "the woman at En- dor that hath a familiar spirit- Sam 28: 12" ] .
+nl:id_7a72a35d39e90d65dac000b3ff559fcb6b61dc25 oa:hasTarget ubvu:print-218010002015 .
+nl:id_7a72a35d39e90d65dac000b3ff559fcb6b61dc25 oa:motivatedBy oa:tagging .
