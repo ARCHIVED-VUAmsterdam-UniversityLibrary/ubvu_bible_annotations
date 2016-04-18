@@ -1,23 +1,39 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_9a3d925c9e518b574efffe12514a934c74887396> a oa:Annotation .
-<http://accurator.nl/id_9a3d925c9e518b574efffe12514a934c74887396> terms:title "Michal" .
-<http://accurator.nl/id_9a3d925c9e518b574efffe12514a934c74887396> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_9a3d925c9e518b574efffe12514a934c74887396> ui:typingTime 0 .
-<http://accurator.nl/id_9a3d925c9e518b574efffe12514a934c74887396> oa:annotatedAt "2016-04-18T17:26:55+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_9a3d925c9e518b574efffe12514a934c74887396> oa:annotatedBy user:paulinevandijk .
-<http://accurator.nl/id_9a3d925c9e518b574efffe12514a934c74887396> oa:hasBody resource:Michal .
-<http://accurator.nl/id_9a3d925c9e518b574efffe12514a934c74887396> oa:hasTarget target:target_0f959eb791c8000b3719685974b6f84f917e644f .
-<http://accurator.nl/id_9a3d925c9e518b574efffe12514a934c74887396> oa:hasTarget ubvu:print-218010002014 .
-<http://accurator.nl/id_9a3d925c9e518b574efffe12514a934c74887396> oa:motivatedBy oa:tagging .
+nl:id_9a3d925c9e518b574efffe12514a934c74887396 a oa:Annotation .
+nl:id_9a3d925c9e518b574efffe12514a934c74887396 terms:title "Michal" .
+nl:id_9a3d925c9e518b574efffe12514a934c74887396 ui:annotationField bible:BibleCharacter .
+nl:id_9a3d925c9e518b574efffe12514a934c74887396 ui:typingTime 0 .
+nl:id_9a3d925c9e518b574efffe12514a934c74887396 oa:annotatedAt "2016-04-18T17:26:55+02:00"^^xsd:dateTime .
+nl:id_9a3d925c9e518b574efffe12514a934c74887396 oa:annotatedBy user:paulinevandijk .
+nl:id_9a3d925c9e518b574efffe12514a934c74887396 oa:hasBody resource:Michal .
+nl:id_9a3d925c9e518b574efffe12514a934c74887396 oa:hasTarget target:target_0f959eb791c8000b3719685974b6f84f917e644f .
+nl:id_9a3d925c9e518b574efffe12514a934c74887396 oa:hasTarget ubvu:print-218010002014 .
+nl:id_9a3d925c9e518b574efffe12514a934c74887396 oa:motivatedBy oa:tagging .
+
+nl:id_f0bf67d64db8de64b531e8e71c293f5f931d577f a oa:Annotation .
+nl:id_f0bf67d64db8de64b531e8e71c293f5f931d577f terms:title "David" .
+nl:id_f0bf67d64db8de64b531e8e71c293f5f931d577f ui:annotationField bible:BibleCharacter .
+nl:id_f0bf67d64db8de64b531e8e71c293f5f931d577f ui:typingTime 0 .
+nl:id_f0bf67d64db8de64b531e8e71c293f5f931d577f oa:annotatedAt "2016-04-18T17:27:09+02:00"^^xsd:dateTime .
+nl:id_f0bf67d64db8de64b531e8e71c293f5f931d577f oa:annotatedBy user:paulinevandijk .
+nl:id_f0bf67d64db8de64b531e8e71c293f5f931d577f oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "David" ] .
+nl:id_f0bf67d64db8de64b531e8e71c293f5f931d577f oa:hasTarget target:target_5239fce5a1c76e0a609d399524bab2e43d210b92 .
+nl:id_f0bf67d64db8de64b531e8e71c293f5f931d577f oa:hasTarget ubvu:print-218010002014 .
+nl:id_f0bf67d64db8de64b531e8e71c293f5f931d577f oa:motivatedBy oa:tagging .
 
 target:selector_0f959eb791c8000b3719685974b6f84f917e644f a oa:FragmentSelector .
 target:selector_0f959eb791c8000b3719685974b6f84f917e644f terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -27,6 +43,18 @@ target:selector_0f959eb791c8000b3719685974b6f84f917e644f ui:x "0.117333333333333
 target:selector_0f959eb791c8000b3719685974b6f84f917e644f ui:y "0.10572259941804074"^^xsd:float .
 target:selector_0f959eb791c8000b3719685974b6f84f917e644f rdf:value "#xywh=percent:12,11,4,3" .
 
+target:selector_5239fce5a1c76e0a609d399524bab2e43d210b92 a oa:FragmentSelector .
+target:selector_5239fce5a1c76e0a609d399524bab2e43d210b92 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_5239fce5a1c76e0a609d399524bab2e43d210b92 ui:h "0.07759456838021339"^^xsd:float .
+target:selector_5239fce5a1c76e0a609d399524bab2e43d210b92 ui:w "0.058666666666666666"^^xsd:float .
+target:selector_5239fce5a1c76e0a609d399524bab2e43d210b92 ui:x "0.11466666666666667"^^xsd:float .
+target:selector_5239fce5a1c76e0a609d399524bab2e43d210b92 ui:y "0.16100872938894278"^^xsd:float .
+target:selector_5239fce5a1c76e0a609d399524bab2e43d210b92 rdf:value "#xywh=percent:11,16,6,8" .
+
 target:target_0f959eb791c8000b3719685974b6f84f917e644f a oa:SpecificResource .
 target:target_0f959eb791c8000b3719685974b6f84f917e644f oa:hasSelector target:selector_0f959eb791c8000b3719685974b6f84f917e644f .
 target:target_0f959eb791c8000b3719685974b6f84f917e644f oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/13> .
+
+target:target_5239fce5a1c76e0a609d399524bab2e43d210b92 a oa:SpecificResource .
+target:target_5239fce5a1c76e0a609d399524bab2e43d210b92 oa:hasSelector target:selector_5239fce5a1c76e0a609d399524bab2e43d210b92 .
+target:target_5239fce5a1c76e0a609d399524bab2e43d210b92 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/13> .
