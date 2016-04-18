@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -7,18 +8,40 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_f73ce927daca07dfb03e9d6754f33ea2bd5c8b0a> a oa:Annotation .
-<http://accurator.nl/id_f73ce927daca07dfb03e9d6754f33ea2bd5c8b0a> terms:title "Achia " .
-<http://accurator.nl/id_f73ce927daca07dfb03e9d6754f33ea2bd5c8b0a> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_f73ce927daca07dfb03e9d6754f33ea2bd5c8b0a> ui:typingTime 0 .
-<http://accurator.nl/id_f73ce927daca07dfb03e9d6754f33ea2bd5c8b0a> oa:annotatedAt "2016-04-18T21:34:27+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_f73ce927daca07dfb03e9d6754f33ea2bd5c8b0a> oa:annotatedBy user:paulinevandijk .
-<http://accurator.nl/id_f73ce927daca07dfb03e9d6754f33ea2bd5c8b0a> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Achia " ] .
-<http://accurator.nl/id_f73ce927daca07dfb03e9d6754f33ea2bd5c8b0a> oa:hasTarget target:target_edb913b0218a229af81bcf17bb02072221bdccac .
-<http://accurator.nl/id_f73ce927daca07dfb03e9d6754f33ea2bd5c8b0a> oa:hasTarget ubvu:print-218010001503 .
-<http://accurator.nl/id_f73ce927daca07dfb03e9d6754f33ea2bd5c8b0a> oa:motivatedBy oa:tagging .
+nl:id_09cca439ae77e37801bb4cebb5d7b624b6d3ead1 a oa:Annotation .
+nl:id_09cca439ae77e37801bb4cebb5d7b624b6d3ead1 terms:title "Jerobeam" .
+nl:id_09cca439ae77e37801bb4cebb5d7b624b6d3ead1 ui:annotationField bible:BibleCharacter .
+nl:id_09cca439ae77e37801bb4cebb5d7b624b6d3ead1 ui:typingTime 0 .
+nl:id_09cca439ae77e37801bb4cebb5d7b624b6d3ead1 oa:annotatedAt "2016-04-18T21:34:56+02:00"^^xsd:dateTime .
+nl:id_09cca439ae77e37801bb4cebb5d7b624b6d3ead1 oa:annotatedBy user:paulinevandijk .
+nl:id_09cca439ae77e37801bb4cebb5d7b624b6d3ead1 oa:hasBody resource:Jeroboam .
+nl:id_09cca439ae77e37801bb4cebb5d7b624b6d3ead1 oa:hasTarget target:target_7010c40ae587f82553bc37383ef1ce65eb245f5c .
+nl:id_09cca439ae77e37801bb4cebb5d7b624b6d3ead1 oa:hasTarget ubvu:print-218010001503 .
+nl:id_09cca439ae77e37801bb4cebb5d7b624b6d3ead1 oa:motivatedBy oa:tagging .
+
+nl:id_f73ce927daca07dfb03e9d6754f33ea2bd5c8b0a a oa:Annotation .
+nl:id_f73ce927daca07dfb03e9d6754f33ea2bd5c8b0a terms:title "Achia " .
+nl:id_f73ce927daca07dfb03e9d6754f33ea2bd5c8b0a ui:annotationField bible:BibleCharacter .
+nl:id_f73ce927daca07dfb03e9d6754f33ea2bd5c8b0a ui:typingTime 0 .
+nl:id_f73ce927daca07dfb03e9d6754f33ea2bd5c8b0a oa:annotatedAt "2016-04-18T21:34:27+02:00"^^xsd:dateTime .
+nl:id_f73ce927daca07dfb03e9d6754f33ea2bd5c8b0a oa:annotatedBy user:paulinevandijk .
+nl:id_f73ce927daca07dfb03e9d6754f33ea2bd5c8b0a oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Achia " ] .
+nl:id_f73ce927daca07dfb03e9d6754f33ea2bd5c8b0a oa:hasTarget target:target_edb913b0218a229af81bcf17bb02072221bdccac .
+nl:id_f73ce927daca07dfb03e9d6754f33ea2bd5c8b0a oa:hasTarget ubvu:print-218010001503 .
+nl:id_f73ce927daca07dfb03e9d6754f33ea2bd5c8b0a oa:motivatedBy oa:tagging .
+
+target:selector_7010c40ae587f82553bc37383ef1ce65eb245f5c a oa:FragmentSelector .
+target:selector_7010c40ae587f82553bc37383ef1ce65eb245f5c terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_7010c40ae587f82553bc37383ef1ce65eb245f5c ui:h "0.3055045871559633"^^xsd:float .
+target:selector_7010c40ae587f82553bc37383ef1ce65eb245f5c ui:w "0.25733333333333336"^^xsd:float .
+target:selector_7010c40ae587f82553bc37383ef1ce65eb245f5c ui:x "0.4266666666666667"^^xsd:float .
+target:selector_7010c40ae587f82553bc37383ef1ce65eb245f5c ui:y "0.44403669724770645"^^xsd:float .
+target:selector_7010c40ae587f82553bc37383ef1ce65eb245f5c rdf:value "#xywh=percent:43,44,26,31" .
 
 target:selector_edb913b0218a229af81bcf17bb02072221bdccac a oa:FragmentSelector .
 target:selector_edb913b0218a229af81bcf17bb02072221bdccac terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -27,6 +50,10 @@ target:selector_edb913b0218a229af81bcf17bb02072221bdccac ui:w "0.289333333333333
 target:selector_edb913b0218a229af81bcf17bb02072221bdccac ui:x "0.11466666666666667"^^xsd:float .
 target:selector_edb913b0218a229af81bcf17bb02072221bdccac ui:y "0.30458715596330277"^^xsd:float .
 target:selector_edb913b0218a229af81bcf17bb02072221bdccac rdf:value "#xywh=percent:11,30,29,33" .
+
+target:target_7010c40ae587f82553bc37383ef1ce65eb245f5c a oa:SpecificResource .
+target:target_7010c40ae587f82553bc37383ef1ce65eb245f5c oa:hasSelector target:selector_7010c40ae587f82553bc37383ef1ce65eb245f5c .
+target:target_7010c40ae587f82553bc37383ef1ce65eb245f5c oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/544> .
 
 target:target_edb913b0218a229af81bcf17bb02072221bdccac a oa:SpecificResource .
 target:target_edb913b0218a229af81bcf17bb02072221bdccac oa:hasSelector target:selector_edb913b0218a229af81bcf17bb02072221bdccac .
