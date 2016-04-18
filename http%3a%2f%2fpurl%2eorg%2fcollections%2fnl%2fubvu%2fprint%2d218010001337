@@ -8,17 +8,29 @@
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_6a5f273b582a0ae05b6736ba600b4b8a4b8f8cec> a oa:Annotation .
-<http://accurator.nl/id_6a5f273b582a0ae05b6736ba600b4b8a4b8f8cec> terms:title "Chiwwieten" .
-<http://accurator.nl/id_6a5f273b582a0ae05b6736ba600b4b8a4b8f8cec> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_6a5f273b582a0ae05b6736ba600b4b8a4b8f8cec> ui:typingTime 0 .
-<http://accurator.nl/id_6a5f273b582a0ae05b6736ba600b4b8a4b8f8cec> oa:annotatedAt "2016-04-18T21:15:47+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_6a5f273b582a0ae05b6736ba600b4b8a4b8f8cec> oa:annotatedBy user:paulinevandijk .
-<http://accurator.nl/id_6a5f273b582a0ae05b6736ba600b4b8a4b8f8cec> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Chiwwieten" ] .
-<http://accurator.nl/id_6a5f273b582a0ae05b6736ba600b4b8a4b8f8cec> oa:hasTarget target:target_f1f91690d6d1a1d85697af4c826a40789437ac39 .
-<http://accurator.nl/id_6a5f273b582a0ae05b6736ba600b4b8a4b8f8cec> oa:hasTarget ubvu:print-218010001337 .
-<http://accurator.nl/id_6a5f273b582a0ae05b6736ba600b4b8a4b8f8cec> oa:motivatedBy oa:tagging .
+nl:id_6a5f273b582a0ae05b6736ba600b4b8a4b8f8cec a oa:Annotation .
+nl:id_6a5f273b582a0ae05b6736ba600b4b8a4b8f8cec terms:title "Chiwwieten" .
+nl:id_6a5f273b582a0ae05b6736ba600b4b8a4b8f8cec ui:annotationField bible:BibleCharacter .
+nl:id_6a5f273b582a0ae05b6736ba600b4b8a4b8f8cec ui:typingTime 0 .
+nl:id_6a5f273b582a0ae05b6736ba600b4b8a4b8f8cec oa:annotatedAt "2016-04-18T21:15:47+02:00"^^xsd:dateTime .
+nl:id_6a5f273b582a0ae05b6736ba600b4b8a4b8f8cec oa:annotatedBy user:paulinevandijk .
+nl:id_6a5f273b582a0ae05b6736ba600b4b8a4b8f8cec oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Chiwwieten" ] .
+nl:id_6a5f273b582a0ae05b6736ba600b4b8a4b8f8cec oa:hasTarget target:target_f1f91690d6d1a1d85697af4c826a40789437ac39 .
+nl:id_6a5f273b582a0ae05b6736ba600b4b8a4b8f8cec oa:hasTarget ubvu:print-218010001337 .
+nl:id_6a5f273b582a0ae05b6736ba600b4b8a4b8f8cec oa:motivatedBy oa:tagging .
+
+nl:id_af2f6af7724fdc083709e4940b29791b51b95d8b a oa:Annotation .
+nl:id_af2f6af7724fdc083709e4940b29791b51b95d8b terms:title "De Chiwwieten bedriegen Josua met een list" .
+nl:id_af2f6af7724fdc083709e4940b29791b51b95d8b ui:annotationField bible:ICBibleTheme .
+nl:id_af2f6af7724fdc083709e4940b29791b51b95d8b ui:typingTime 0 .
+nl:id_af2f6af7724fdc083709e4940b29791b51b95d8b oa:annotatedAt "2016-04-18T21:17:05+02:00"^^xsd:dateTime .
+nl:id_af2f6af7724fdc083709e4940b29791b51b95d8b oa:annotatedBy user:paulinevandijk .
+nl:id_af2f6af7724fdc083709e4940b29791b51b95d8b oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "De Chiwwieten bedriegen Josua met een list" ] .
+nl:id_af2f6af7724fdc083709e4940b29791b51b95d8b oa:hasTarget ubvu:print-218010001337 .
+nl:id_af2f6af7724fdc083709e4940b29791b51b95d8b oa:motivatedBy oa:tagging .
 
 target:selector_f1f91690d6d1a1d85697af4c826a40789437ac39 a oa:FragmentSelector .
 target:selector_f1f91690d6d1a1d85697af4c826a40789437ac39 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
