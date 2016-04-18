@@ -1,23 +1,37 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_1bd80861d0cf0dafc22042255f2b3931bbc1d388> a oa:Annotation .
-<http://accurator.nl/id_1bd80861d0cf0dafc22042255f2b3931bbc1d388> terms:title "Jezus Christus" .
-<http://accurator.nl/id_1bd80861d0cf0dafc22042255f2b3931bbc1d388> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_1bd80861d0cf0dafc22042255f2b3931bbc1d388> ui:typingTime 0 .
-<http://accurator.nl/id_1bd80861d0cf0dafc22042255f2b3931bbc1d388> oa:annotatedAt "2016-04-18T16:37:30+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_1bd80861d0cf0dafc22042255f2b3931bbc1d388> oa:annotatedBy user:paulinevandijk .
-<http://accurator.nl/id_1bd80861d0cf0dafc22042255f2b3931bbc1d388> oa:hasBody resource:Jesus .
-<http://accurator.nl/id_1bd80861d0cf0dafc22042255f2b3931bbc1d388> oa:hasTarget target:target_c95b1a4ce566b86a7e982f0473d0eba09dbdf63e .
-<http://accurator.nl/id_1bd80861d0cf0dafc22042255f2b3931bbc1d388> oa:hasTarget ubvu:print-218010001713 .
-<http://accurator.nl/id_1bd80861d0cf0dafc22042255f2b3931bbc1d388> oa:motivatedBy oa:tagging .
+nl:id_1bd80861d0cf0dafc22042255f2b3931bbc1d388 a oa:Annotation .
+nl:id_1bd80861d0cf0dafc22042255f2b3931bbc1d388 terms:title "Jezus Christus" .
+nl:id_1bd80861d0cf0dafc22042255f2b3931bbc1d388 ui:annotationField bible:BibleCharacter .
+nl:id_1bd80861d0cf0dafc22042255f2b3931bbc1d388 ui:typingTime 0 .
+nl:id_1bd80861d0cf0dafc22042255f2b3931bbc1d388 oa:annotatedAt "2016-04-18T16:37:30+02:00"^^xsd:dateTime .
+nl:id_1bd80861d0cf0dafc22042255f2b3931bbc1d388 oa:annotatedBy user:paulinevandijk .
+nl:id_1bd80861d0cf0dafc22042255f2b3931bbc1d388 oa:hasBody resource:Jesus .
+nl:id_1bd80861d0cf0dafc22042255f2b3931bbc1d388 oa:hasTarget target:target_c95b1a4ce566b86a7e982f0473d0eba09dbdf63e .
+nl:id_1bd80861d0cf0dafc22042255f2b3931bbc1d388 oa:hasTarget ubvu:print-218010001713 .
+nl:id_1bd80861d0cf0dafc22042255f2b3931bbc1d388 oa:motivatedBy oa:tagging .
+
+nl:id_1ceb07dbfd54381bbaf185edc5aff89de2c64857 a oa:Annotation .
+nl:id_1ceb07dbfd54381bbaf185edc5aff89de2c64857 terms:title "Jezus spreekt de Bergrede uit" .
+nl:id_1ceb07dbfd54381bbaf185edc5aff89de2c64857 ui:annotationField bible:ICBibleTheme .
+nl:id_1ceb07dbfd54381bbaf185edc5aff89de2c64857 ui:typingTime 0 .
+nl:id_1ceb07dbfd54381bbaf185edc5aff89de2c64857 oa:annotatedAt "2016-04-18T16:38:21+02:00"^^xsd:dateTime .
+nl:id_1ceb07dbfd54381bbaf185edc5aff89de2c64857 oa:annotatedBy user:paulinevandijk .
+nl:id_1ceb07dbfd54381bbaf185edc5aff89de2c64857 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jezus spreekt de Bergrede uit" ] .
+nl:id_1ceb07dbfd54381bbaf185edc5aff89de2c64857 oa:hasTarget ubvu:print-218010001713 .
+nl:id_1ceb07dbfd54381bbaf185edc5aff89de2c64857 oa:motivatedBy oa:tagging .
 
 target:selector_c95b1a4ce566b86a7e982f0473d0eba09dbdf63e a oa:FragmentSelector .
 target:selector_c95b1a4ce566b86a7e982f0473d0eba09dbdf63e terms:conformsTo <http://www.w3.org/TR/media-frags/> .
