@@ -24,6 +24,16 @@ nl:id_09cca439ae77e37801bb4cebb5d7b624b6d3ead1 oa:hasTarget target:target_7010c4
 nl:id_09cca439ae77e37801bb4cebb5d7b624b6d3ead1 oa:hasTarget ubvu:print-218010001503 .
 nl:id_09cca439ae77e37801bb4cebb5d7b624b6d3ead1 oa:motivatedBy oa:tagging .
 
+nl:id_9e19e46a1e1a92318474a04a0cd47b9737a4d487 a oa:Annotation .
+nl:id_9e19e46a1e1a92318474a04a0cd47b9737a4d487 terms:title "Achia voorzegt de scheuring van Salomo's koninkrijk" .
+nl:id_9e19e46a1e1a92318474a04a0cd47b9737a4d487 ui:annotationField bible:ICBibleTheme .
+nl:id_9e19e46a1e1a92318474a04a0cd47b9737a4d487 ui:typingTime 0 .
+nl:id_9e19e46a1e1a92318474a04a0cd47b9737a4d487 oa:annotatedAt "2016-04-18T21:36:23+02:00"^^xsd:dateTime .
+nl:id_9e19e46a1e1a92318474a04a0cd47b9737a4d487 oa:annotatedBy user:paulinevandijk .
+nl:id_9e19e46a1e1a92318474a04a0cd47b9737a4d487 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Achia voorzegt de scheuring van Salomo's koninkrijk" ] .
+nl:id_9e19e46a1e1a92318474a04a0cd47b9737a4d487 oa:hasTarget ubvu:print-218010001503 .
+nl:id_9e19e46a1e1a92318474a04a0cd47b9737a4d487 oa:motivatedBy oa:tagging .
+
 nl:id_f73ce927daca07dfb03e9d6754f33ea2bd5c8b0a a oa:Annotation .
 nl:id_f73ce927daca07dfb03e9d6754f33ea2bd5c8b0a terms:title "Achia " .
 nl:id_f73ce927daca07dfb03e9d6754f33ea2bd5c8b0a ui:annotationField bible:BibleCharacter .
