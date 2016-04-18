@@ -112,6 +112,17 @@ nl:id_ba7b14cd5d8ee5aa943111ef738c067d5d407daf oa:hasTarget target:target_c77e19
 nl:id_ba7b14cd5d8ee5aa943111ef738c067d5d407daf oa:hasTarget ubvu:print-218010002009 .
 nl:id_ba7b14cd5d8ee5aa943111ef738c067d5d407daf oa:motivatedBy oa:tagging .
 
+nl:id_de7b76fd28dcdc17317f66762c4bd1df0df06411 a oa:Annotation .
+nl:id_de7b76fd28dcdc17317f66762c4bd1df0df06411 terms:title "Gideon" .
+nl:id_de7b76fd28dcdc17317f66762c4bd1df0df06411 ui:annotationField bible:BibleCharacter .
+nl:id_de7b76fd28dcdc17317f66762c4bd1df0df06411 ui:typingTime 0 .
+nl:id_de7b76fd28dcdc17317f66762c4bd1df0df06411 oa:annotatedAt "2016-04-18T16:59:11+02:00"^^xsd:dateTime .
+nl:id_de7b76fd28dcdc17317f66762c4bd1df0df06411 oa:annotatedBy user:paulinevandijk .
+nl:id_de7b76fd28dcdc17317f66762c4bd1df0df06411 oa:hasBody resource:Gideon .
+nl:id_de7b76fd28dcdc17317f66762c4bd1df0df06411 oa:hasTarget target:target_ce65cbed35efb3f503f990a25bde3589a6338440 .
+nl:id_de7b76fd28dcdc17317f66762c4bd1df0df06411 oa:hasTarget ubvu:print-218010002009 .
+nl:id_de7b76fd28dcdc17317f66762c4bd1df0df06411 oa:motivatedBy oa:tagging .
+
 nl:id_eae9c0de6b0511bdf94d8bb2fdbfb6dfc1c126e1 a oa:Annotation .
 nl:id_eae9c0de6b0511bdf94d8bb2fdbfb6dfc1c126e1 terms:title "Samgar (de zoon van Anat)" .
 nl:id_eae9c0de6b0511bdf94d8bb2fdbfb6dfc1c126e1 ui:annotationField bible:BibleCharacter .
@@ -187,6 +198,14 @@ target:selector_c77e198d11890c185854cebe357f3a9a921c01f8 ui:x "0.386666666666666
 target:selector_c77e198d11890c185854cebe357f3a9a921c01f8 ui:y "0.25161887141535616"^^xsd:float .
 target:selector_c77e198d11890c185854cebe357f3a9a921c01f8 rdf:value "#xywh=percent:39,25,15,14" .
 
+target:selector_ce65cbed35efb3f503f990a25bde3589a6338440 a oa:FragmentSelector .
+target:selector_ce65cbed35efb3f503f990a25bde3589a6338440 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_ce65cbed35efb3f503f990a25bde3589a6338440 ui:h "0.12395929694727105"^^xsd:float .
+target:selector_ce65cbed35efb3f503f990a25bde3589a6338440 ui:w "0.09733333333333333"^^xsd:float .
+target:selector_ce65cbed35efb3f503f990a25bde3589a6338440 ui:x "0.592"^^xsd:float .
+target:selector_ce65cbed35efb3f503f990a25bde3589a6338440 ui:y "0.700277520814061"^^xsd:float .
+target:selector_ce65cbed35efb3f503f990a25bde3589a6338440 rdf:value "#xywh=percent:59,70,10,12" .
+
 target:selector_d736b156d7b7355575f481921e9072ab5440eb73 a oa:FragmentSelector .
 target:selector_d736b156d7b7355575f481921e9072ab5440eb73 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_d736b156d7b7355575f481921e9072ab5440eb73 ui:h "0.08325624421831637"^^xsd:float .
@@ -234,6 +253,10 @@ target:target_b62445be2ad0170c673e847eddafc23ae066edaf oa:hasSource <http://imag
 target:target_c77e198d11890c185854cebe357f3a9a921c01f8 a oa:SpecificResource .
 target:target_c77e198d11890c185854cebe357f3a9a921c01f8 oa:hasSelector target:selector_c77e198d11890c185854cebe357f3a9a921c01f8 .
 target:target_c77e198d11890c185854cebe357f3a9a921c01f8 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/8> .
+
+target:target_ce65cbed35efb3f503f990a25bde3589a6338440 a oa:SpecificResource .
+target:target_ce65cbed35efb3f503f990a25bde3589a6338440 oa:hasSelector target:selector_ce65cbed35efb3f503f990a25bde3589a6338440 .
+target:target_ce65cbed35efb3f503f990a25bde3589a6338440 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/8> .
 
 target:target_d736b156d7b7355575f481921e9072ab5440eb73 a oa:SpecificResource .
 target:target_d736b156d7b7355575f481921e9072ab5440eb73 oa:hasSelector target:selector_d736b156d7b7355575f481921e9072ab5440eb73 .
