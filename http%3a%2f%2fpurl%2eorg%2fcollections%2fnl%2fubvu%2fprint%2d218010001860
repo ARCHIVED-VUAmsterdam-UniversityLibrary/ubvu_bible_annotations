@@ -12,6 +12,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_08927e523f297486df1b246e35d75cd8313a6d87 a oa:Annotation .
+nl:id_08927e523f297486df1b246e35d75cd8313a6d87 terms:title "Kruisweg" .
+nl:id_08927e523f297486df1b246e35d75cd8313a6d87 ui:annotationField bible:ICBibleTheme .
+nl:id_08927e523f297486df1b246e35d75cd8313a6d87 ui:typingTime 0 .
+nl:id_08927e523f297486df1b246e35d75cd8313a6d87 oa:annotatedAt "2016-04-18T21:23:18+02:00"^^xsd:dateTime .
+nl:id_08927e523f297486df1b246e35d75cd8313a6d87 oa:annotatedBy user:paulinevandijk .
+nl:id_08927e523f297486df1b246e35d75cd8313a6d87 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Kruisweg" ] .
+nl:id_08927e523f297486df1b246e35d75cd8313a6d87 oa:hasTarget ubvu:print-218010001860 .
+nl:id_08927e523f297486df1b246e35d75cd8313a6d87 oa:motivatedBy oa:tagging .
+
 nl:id_9a826df16628bb84f954455986cb3f303bf34df1 a oa:Annotation .
 nl:id_9a826df16628bb84f954455986cb3f303bf34df1 terms:title "Jezus Christus" .
 nl:id_9a826df16628bb84f954455986cb3f303bf34df1 ui:annotationField bible:BibleCharacter .
