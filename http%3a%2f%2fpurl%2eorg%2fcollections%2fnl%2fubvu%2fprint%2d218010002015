@@ -20,6 +20,16 @@ nl:id_0a42426278b517ccc91fcbe9bb8389bf8741d2b2 oa:hasBody [ a content:ContentAsT
 nl:id_0a42426278b517ccc91fcbe9bb8389bf8741d2b2 oa:hasTarget ubvu:print-218010002015 .
 nl:id_0a42426278b517ccc91fcbe9bb8389bf8741d2b2 oa:motivatedBy oa:tagging .
 
+nl:id_285288241d4de032c08c2e6b7c42eb2829b2375a a oa:Annotation .
+nl:id_285288241d4de032c08c2e6b7c42eb2829b2375a terms:title "Saul's head cut off , and striped of his armour" .
+nl:id_285288241d4de032c08c2e6b7c42eb2829b2375a ui:annotationField bible:ICBibleTheme .
+nl:id_285288241d4de032c08c2e6b7c42eb2829b2375a ui:typingTime 0 .
+nl:id_285288241d4de032c08c2e6b7c42eb2829b2375a oa:annotatedAt "2016-04-18T16:32:26+02:00"^^xsd:dateTime .
+nl:id_285288241d4de032c08c2e6b7c42eb2829b2375a oa:annotatedBy user:everhoeff .
+nl:id_285288241d4de032c08c2e6b7c42eb2829b2375a oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Saul's head cut off , and striped of his armour" ] .
+nl:id_285288241d4de032c08c2e6b7c42eb2829b2375a oa:hasTarget ubvu:print-218010002015 .
+nl:id_285288241d4de032c08c2e6b7c42eb2829b2375a oa:motivatedBy oa:tagging .
+
 nl:id_7a72a35d39e90d65dac000b3ff559fcb6b61dc25 a oa:Annotation .
 nl:id_7a72a35d39e90d65dac000b3ff559fcb6b61dc25 terms:title "the woman at En- dor that hath a familiar spirit- Sam 28: 12" .
 nl:id_7a72a35d39e90d65dac000b3ff559fcb6b61dc25 ui:annotationField bible:ICBibleTheme .
