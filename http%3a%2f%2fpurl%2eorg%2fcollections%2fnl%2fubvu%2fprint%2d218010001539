@@ -24,6 +24,16 @@ nl:id_018526870ac0dfa67cf6e758f22c6418a8fdefe7 oa:hasTarget target:target_197ea4
 nl:id_018526870ac0dfa67cf6e758f22c6418a8fdefe7 oa:hasTarget ubvu:print-218010001539 .
 nl:id_018526870ac0dfa67cf6e758f22c6418a8fdefe7 oa:motivatedBy oa:tagging .
 
+nl:id_67a1e2bf2373875298c80fde745390496984b861 a oa:Annotation .
+nl:id_67a1e2bf2373875298c80fde745390496984b861 terms:title "Nebuzaradan verwoest Jeruzalem" .
+nl:id_67a1e2bf2373875298c80fde745390496984b861 ui:annotationField bible:ICBibleTheme .
+nl:id_67a1e2bf2373875298c80fde745390496984b861 ui:typingTime 0 .
+nl:id_67a1e2bf2373875298c80fde745390496984b861 oa:annotatedAt "2016-04-18T21:09:23+02:00"^^xsd:dateTime .
+nl:id_67a1e2bf2373875298c80fde745390496984b861 oa:annotatedBy user:paulinevandijk .
+nl:id_67a1e2bf2373875298c80fde745390496984b861 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Nebuzaradan verwoest Jeruzalem" ] .
+nl:id_67a1e2bf2373875298c80fde745390496984b861 oa:hasTarget ubvu:print-218010001539 .
+nl:id_67a1e2bf2373875298c80fde745390496984b861 oa:motivatedBy oa:tagging .
+
 nl:id_9c8fb6fbb482f8424014db505268dead611af499 a oa:Annotation .
 nl:id_9c8fb6fbb482f8424014db505268dead611af499 terms:title "Nebuzaradan" .
 nl:id_9c8fb6fbb482f8424014db505268dead611af499 ui:annotationField bible:BibleCharacter .
