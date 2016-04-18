@@ -1,0 +1,19 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix user: <http://accurator.nl/user#> .
+
+<http://accurator.nl/id_735d96148e95051c1f520fea3d6e546a655a4b2f> a oa:Annotation .
+<http://accurator.nl/id_735d96148e95051c1f520fea3d6e546a655a4b2f> terms:title "Mozes krijgt de tien geboden van God op de berg Sinaï " .
+<http://accurator.nl/id_735d96148e95051c1f520fea3d6e546a655a4b2f> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
+<http://accurator.nl/id_735d96148e95051c1f520fea3d6e546a655a4b2f> ui:typingTime 0 .
+<http://accurator.nl/id_735d96148e95051c1f520fea3d6e546a655a4b2f> oa:annotatedAt "2016-04-18T21:26:22+02:00"^^xsd:dateTime .
+<http://accurator.nl/id_735d96148e95051c1f520fea3d6e546a655a4b2f> oa:annotatedBy user:paulinevandijk .
+<http://accurator.nl/id_735d96148e95051c1f520fea3d6e546a655a4b2f> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Mozes krijgt de tien geboden van God op de berg Sinaï " ] .
+<http://accurator.nl/id_735d96148e95051c1f520fea3d6e546a655a4b2f> oa:hasTarget ubvu:print-218010001238 .
+<http://accurator.nl/id_735d96148e95051c1f520fea3d6e546a655a4b2f> oa:motivatedBy oa:tagging .
