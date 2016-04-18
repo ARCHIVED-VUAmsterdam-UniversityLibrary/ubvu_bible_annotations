@@ -12,6 +12,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_4115803ac8fa4bcc78538079e70d9665ce029b9e a oa:Annotation .
+nl:id_4115803ac8fa4bcc78538079e70d9665ce029b9e terms:title "Paul raiseth Eutychus to life- Act xx, 10" .
+nl:id_4115803ac8fa4bcc78538079e70d9665ce029b9e ui:annotationField bible:ICBibleTheme .
+nl:id_4115803ac8fa4bcc78538079e70d9665ce029b9e ui:typingTime 0 .
+nl:id_4115803ac8fa4bcc78538079e70d9665ce029b9e oa:annotatedAt "2016-04-18T16:20:35+02:00"^^xsd:dateTime .
+nl:id_4115803ac8fa4bcc78538079e70d9665ce029b9e oa:annotatedBy user:everhoeff .
+nl:id_4115803ac8fa4bcc78538079e70d9665ce029b9e oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Paul raiseth Eutychus to life- Act xx, 10" ] .
+nl:id_4115803ac8fa4bcc78538079e70d9665ce029b9e oa:hasTarget ubvu:print-218010001937 .
+nl:id_4115803ac8fa4bcc78538079e70d9665ce029b9e oa:motivatedBy oa:tagging .
+
 nl:id_977bccb6250311cef89ac065f6ca0cb68a10fbd9 a oa:Annotation .
 nl:id_977bccb6250311cef89ac065f6ca0cb68a10fbd9 terms:title "Paul" .
 nl:id_977bccb6250311cef89ac065f6ca0cb68a10fbd9 ui:annotationField bible:BibleCharacter .
