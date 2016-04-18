@@ -46,6 +46,17 @@ nl:id_9a3d925c9e518b574efffe12514a934c74887396 oa:hasTarget target:target_0f959e
 nl:id_9a3d925c9e518b574efffe12514a934c74887396 oa:hasTarget ubvu:print-218010002014 .
 nl:id_9a3d925c9e518b574efffe12514a934c74887396 oa:motivatedBy oa:tagging .
 
+nl:id_db20948b6d0a6d130e11a382256d2a10ce40f17b a oa:Annotation .
+nl:id_db20948b6d0a6d130e11a382256d2a10ce40f17b terms:title "David" .
+nl:id_db20948b6d0a6d130e11a382256d2a10ce40f17b ui:annotationField bible:BibleCharacter .
+nl:id_db20948b6d0a6d130e11a382256d2a10ce40f17b ui:typingTime 0 .
+nl:id_db20948b6d0a6d130e11a382256d2a10ce40f17b oa:annotatedAt "2016-04-18T17:30:55+02:00"^^xsd:dateTime .
+nl:id_db20948b6d0a6d130e11a382256d2a10ce40f17b oa:annotatedBy user:paulinevandijk .
+nl:id_db20948b6d0a6d130e11a382256d2a10ce40f17b oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "David" ] .
+nl:id_db20948b6d0a6d130e11a382256d2a10ce40f17b oa:hasTarget target:target_7179212a6159cdc610109c664f68ea7bbe05ffa6 .
+nl:id_db20948b6d0a6d130e11a382256d2a10ce40f17b oa:hasTarget ubvu:print-218010002014 .
+nl:id_db20948b6d0a6d130e11a382256d2a10ce40f17b oa:motivatedBy oa:tagging .
+
 nl:id_f0bf67d64db8de64b531e8e71c293f5f931d577f a oa:Annotation .
 nl:id_f0bf67d64db8de64b531e8e71c293f5f931d577f terms:title "David" .
 nl:id_f0bf67d64db8de64b531e8e71c293f5f931d577f ui:annotationField bible:BibleCharacter .
@@ -81,6 +92,14 @@ target:selector_5239fce5a1c76e0a609d399524bab2e43d210b92 ui:x "0.114666666666666
 target:selector_5239fce5a1c76e0a609d399524bab2e43d210b92 ui:y "0.16100872938894278"^^xsd:float .
 target:selector_5239fce5a1c76e0a609d399524bab2e43d210b92 rdf:value "#xywh=percent:11,16,6,8" .
 
+target:selector_7179212a6159cdc610109c664f68ea7bbe05ffa6 a oa:FragmentSelector .
+target:selector_7179212a6159cdc610109c664f68ea7bbe05ffa6 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_7179212a6159cdc610109c664f68ea7bbe05ffa6 ui:h "0.12415130940834142"^^xsd:float .
+target:selector_7179212a6159cdc610109c664f68ea7bbe05ffa6 ui:w "0.04133333333333333"^^xsd:float .
+target:selector_7179212a6159cdc610109c664f68ea7bbe05ffa6 ui:x "0.06533333333333333"^^xsd:float .
+target:selector_7179212a6159cdc610109c664f68ea7bbe05ffa6 ui:y "0.3171677982541222"^^xsd:float .
+target:selector_7179212a6159cdc610109c664f68ea7bbe05ffa6 rdf:value "#xywh=percent:7,32,4,12" .
+
 target:selector_74558dbd9c8a404240ed9c733423fdf2bff7acd0 a oa:FragmentSelector .
 target:selector_74558dbd9c8a404240ed9c733423fdf2bff7acd0 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_74558dbd9c8a404240ed9c733423fdf2bff7acd0 ui:h "0.1280310378273521"^^xsd:float .
@@ -100,6 +119,10 @@ target:target_3e6d974adbfbc93e714707bfab76cb4ff14f57cf oa:hasSource <http://imag
 target:target_5239fce5a1c76e0a609d399524bab2e43d210b92 a oa:SpecificResource .
 target:target_5239fce5a1c76e0a609d399524bab2e43d210b92 oa:hasSelector target:selector_5239fce5a1c76e0a609d399524bab2e43d210b92 .
 target:target_5239fce5a1c76e0a609d399524bab2e43d210b92 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/13> .
+
+target:target_7179212a6159cdc610109c664f68ea7bbe05ffa6 a oa:SpecificResource .
+target:target_7179212a6159cdc610109c664f68ea7bbe05ffa6 oa:hasSelector target:selector_7179212a6159cdc610109c664f68ea7bbe05ffa6 .
+target:target_7179212a6159cdc610109c664f68ea7bbe05ffa6 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/13> .
 
 target:target_74558dbd9c8a404240ed9c733423fdf2bff7acd0 a oa:SpecificResource .
 target:target_74558dbd9c8a404240ed9c733423fdf2bff7acd0 oa:hasSelector target:selector_74558dbd9c8a404240ed9c733423fdf2bff7acd0 .
