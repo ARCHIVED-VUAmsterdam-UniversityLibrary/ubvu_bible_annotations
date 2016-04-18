@@ -13,6 +13,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_02e0c397c988995119b856c7893c0fa7faa94d6b a oa:Annotation .
+nl:id_02e0c397c988995119b856c7893c0fa7faa94d6b terms:title "David vlucht voor koning Saul. Saul wreekt zich op de priesters van Nob. David en Abjathar. Sauls leven loopt gevaar." .
+nl:id_02e0c397c988995119b856c7893c0fa7faa94d6b ui:annotationField bible:ICBibleTheme .
+nl:id_02e0c397c988995119b856c7893c0fa7faa94d6b ui:typingTime 0 .
+nl:id_02e0c397c988995119b856c7893c0fa7faa94d6b oa:annotatedAt "2016-04-18T17:41:05+02:00"^^xsd:dateTime .
+nl:id_02e0c397c988995119b856c7893c0fa7faa94d6b oa:annotatedBy user:paulinevandijk .
+nl:id_02e0c397c988995119b856c7893c0fa7faa94d6b oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "David vlucht voor koning Saul. Saul wreekt zich op de priesters van Nob. David en Abjathar. Sauls leven loopt gevaar." ] .
+nl:id_02e0c397c988995119b856c7893c0fa7faa94d6b oa:hasTarget ubvu:print-218010002014 .
+nl:id_02e0c397c988995119b856c7893c0fa7faa94d6b oa:motivatedBy oa:tagging .
+
 nl:id_0c9951613c812db0d645d63619d76808f712e4f0 a oa:Annotation .
 nl:id_0c9951613c812db0d645d63619d76808f712e4f0 terms:title "Saul" .
 nl:id_0c9951613c812db0d645d63619d76808f712e4f0 ui:annotationField bible:BibleCharacter .
