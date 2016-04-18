@@ -1,9 +1,11 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
 @prefix media-frags: <http://www.w3.org/TR/media-frags/> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix resource: <http://bibleontology.com/resource/> .
@@ -21,6 +23,16 @@ nl:id_2ea87913424376e6c7f827a44322f0ecd9f24b4c oa:hasBody resource:Joseph .
 nl:id_2ea87913424376e6c7f827a44322f0ecd9f24b4c oa:hasTarget target:target_81ddb0c839f117351be2ea7c4506b4dfb80463a0 .
 nl:id_2ea87913424376e6c7f827a44322f0ecd9f24b4c oa:hasTarget ubvu:print-218010001696 .
 nl:id_2ea87913424376e6c7f827a44322f0ecd9f24b4c oa:motivatedBy oa:tagging .
+
+nl:id_bdf97d69ed3ecf7ddb7d47b8130b490333951d61 a oa:Annotation .
+nl:id_bdf97d69ed3ecf7ddb7d47b8130b490333951d61 terms:title "Een engel vertelt Jozef om met Maria en het kind naar Egypte te gaan" .
+nl:id_bdf97d69ed3ecf7ddb7d47b8130b490333951d61 ui:annotationField bible:ICBibleTheme .
+nl:id_bdf97d69ed3ecf7ddb7d47b8130b490333951d61 ui:typingTime 0 .
+nl:id_bdf97d69ed3ecf7ddb7d47b8130b490333951d61 oa:annotatedAt "2016-04-18T16:44:59+02:00"^^xsd:dateTime .
+nl:id_bdf97d69ed3ecf7ddb7d47b8130b490333951d61 oa:annotatedBy user:paulinevandijk .
+nl:id_bdf97d69ed3ecf7ddb7d47b8130b490333951d61 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Een engel vertelt Jozef om met Maria en het kind naar Egypte te gaan" ] .
+nl:id_bdf97d69ed3ecf7ddb7d47b8130b490333951d61 oa:hasTarget ubvu:print-218010001696 .
+nl:id_bdf97d69ed3ecf7ddb7d47b8130b490333951d61 oa:motivatedBy oa:tagging .
 
 nl:id_d88eca2060a070ad8bf1f44a7199203eb116389a a oa:Annotation .
 nl:id_d88eca2060a070ad8bf1f44a7199203eb116389a terms:title "Maria (moeder van Jezus Christus))" .
