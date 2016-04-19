@@ -24,6 +24,16 @@ nl:id_0242f9895bfdf29c4f2b329d4063af50d77a3f87 oa:hasTarget target:target_0a3541
 nl:id_0242f9895bfdf29c4f2b329d4063af50d77a3f87 oa:hasTarget ubvu:print-218010001724 .
 nl:id_0242f9895bfdf29c4f2b329d4063af50d77a3f87 oa:motivatedBy oa:tagging .
 
+nl:id_1cdd68ecdc10ebac84a589adc856bdbc0b2a5489 a oa:Annotation .
+nl:id_1cdd68ecdc10ebac84a589adc856bdbc0b2a5489 terms:title "Genezing van de man met huidvraat." .
+nl:id_1cdd68ecdc10ebac84a589adc856bdbc0b2a5489 ui:annotationField bible:ICBibleTheme .
+nl:id_1cdd68ecdc10ebac84a589adc856bdbc0b2a5489 ui:typingTime 0 .
+nl:id_1cdd68ecdc10ebac84a589adc856bdbc0b2a5489 oa:annotatedAt "2016-04-19T12:13:52+02:00"^^xsd:dateTime .
+nl:id_1cdd68ecdc10ebac84a589adc856bdbc0b2a5489 oa:annotatedBy user:paulinevandijk .
+nl:id_1cdd68ecdc10ebac84a589adc856bdbc0b2a5489 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Genezing van de man met huidvraat." ] .
+nl:id_1cdd68ecdc10ebac84a589adc856bdbc0b2a5489 oa:hasTarget ubvu:print-218010001724 .
+nl:id_1cdd68ecdc10ebac84a589adc856bdbc0b2a5489 oa:motivatedBy oa:tagging .
+
 nl:id_acd0fb5975e1c4f95b0d7da0bbca754299819187 a oa:Annotation .
 nl:id_acd0fb5975e1c4f95b0d7da0bbca754299819187 terms:title "Jezus Christus" .
 nl:id_acd0fb5975e1c4f95b0d7da0bbca754299819187 ui:annotationField bible:BibleCharacter .
