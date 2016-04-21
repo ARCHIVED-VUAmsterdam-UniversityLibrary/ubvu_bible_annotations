@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -8,17 +9,30 @@
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_edf7ea027e8c1c07a4f9f7eedfd68db2ff2736d6> a oa:Annotation .
-<http://accurator.nl/id_edf7ea027e8c1c07a4f9f7eedfd68db2ff2736d6> terms:title "Tobias" .
-<http://accurator.nl/id_edf7ea027e8c1c07a4f9f7eedfd68db2ff2736d6> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_edf7ea027e8c1c07a4f9f7eedfd68db2ff2736d6> ui:typingTime 0 .
-<http://accurator.nl/id_edf7ea027e8c1c07a4f9f7eedfd68db2ff2736d6> oa:annotatedAt "2016-04-21T12:50:05+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_edf7ea027e8c1c07a4f9f7eedfd68db2ff2736d6> oa:annotatedBy user:hogguer .
-<http://accurator.nl/id_edf7ea027e8c1c07a4f9f7eedfd68db2ff2736d6> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Tobias" ] .
-<http://accurator.nl/id_edf7ea027e8c1c07a4f9f7eedfd68db2ff2736d6> oa:hasTarget target:target_12c95c1d28e32703036e347a28e660a0a8c1adbc .
-<http://accurator.nl/id_edf7ea027e8c1c07a4f9f7eedfd68db2ff2736d6> oa:hasTarget ubvu:print-218010001603 .
-<http://accurator.nl/id_edf7ea027e8c1c07a4f9f7eedfd68db2ff2736d6> oa:motivatedBy oa:tagging .
+nl:id_0aaae158b717d25565d0acc798b3de457e3368c7 a oa:Annotation .
+nl:id_0aaae158b717d25565d0acc798b3de457e3368c7 terms:title "Rafaël" .
+nl:id_0aaae158b717d25565d0acc798b3de457e3368c7 ui:annotationField bible:BibleCharacter .
+nl:id_0aaae158b717d25565d0acc798b3de457e3368c7 ui:typingTime 0 .
+nl:id_0aaae158b717d25565d0acc798b3de457e3368c7 oa:annotatedAt "2016-04-21T12:50:37+02:00"^^xsd:dateTime .
+nl:id_0aaae158b717d25565d0acc798b3de457e3368c7 oa:annotatedBy user:hogguer .
+nl:id_0aaae158b717d25565d0acc798b3de457e3368c7 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Rafaël" ] .
+nl:id_0aaae158b717d25565d0acc798b3de457e3368c7 oa:hasTarget target:target_5a70946cf19154bd83b3bef55907cd935c7b9a56 .
+nl:id_0aaae158b717d25565d0acc798b3de457e3368c7 oa:hasTarget ubvu:print-218010001603 .
+nl:id_0aaae158b717d25565d0acc798b3de457e3368c7 oa:motivatedBy oa:tagging .
+
+nl:id_edf7ea027e8c1c07a4f9f7eedfd68db2ff2736d6 a oa:Annotation .
+nl:id_edf7ea027e8c1c07a4f9f7eedfd68db2ff2736d6 terms:title "Tobias" .
+nl:id_edf7ea027e8c1c07a4f9f7eedfd68db2ff2736d6 ui:annotationField bible:BibleCharacter .
+nl:id_edf7ea027e8c1c07a4f9f7eedfd68db2ff2736d6 ui:typingTime 0 .
+nl:id_edf7ea027e8c1c07a4f9f7eedfd68db2ff2736d6 oa:annotatedAt "2016-04-21T12:50:05+02:00"^^xsd:dateTime .
+nl:id_edf7ea027e8c1c07a4f9f7eedfd68db2ff2736d6 oa:annotatedBy user:hogguer .
+nl:id_edf7ea027e8c1c07a4f9f7eedfd68db2ff2736d6 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Tobias" ] .
+nl:id_edf7ea027e8c1c07a4f9f7eedfd68db2ff2736d6 oa:hasTarget target:target_12c95c1d28e32703036e347a28e660a0a8c1adbc .
+nl:id_edf7ea027e8c1c07a4f9f7eedfd68db2ff2736d6 oa:hasTarget ubvu:print-218010001603 .
+nl:id_edf7ea027e8c1c07a4f9f7eedfd68db2ff2736d6 oa:motivatedBy oa:tagging .
 
 target:selector_12c95c1d28e32703036e347a28e660a0a8c1adbc a oa:FragmentSelector .
 target:selector_12c95c1d28e32703036e347a28e660a0a8c1adbc terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -28,6 +42,18 @@ target:selector_12c95c1d28e32703036e347a28e660a0a8c1adbc ui:x "0.194871794871794
 target:selector_12c95c1d28e32703036e347a28e660a0a8c1adbc ui:y "0.17207415990730013"^^xsd:float .
 target:selector_12c95c1d28e32703036e347a28e660a0a8c1adbc rdf:value "#xywh=percent:19,17,9,13" .
 
+target:selector_5a70946cf19154bd83b3bef55907cd935c7b9a56 a oa:FragmentSelector .
+target:selector_5a70946cf19154bd83b3bef55907cd935c7b9a56 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_5a70946cf19154bd83b3bef55907cd935c7b9a56 ui:h "0.15121668597914253"^^xsd:float .
+target:selector_5a70946cf19154bd83b3bef55907cd935c7b9a56 ui:w "0.08461538461538462"^^xsd:float .
+target:selector_5a70946cf19154bd83b3bef55907cd935c7b9a56 ui:x "0.28717948717948716"^^xsd:float .
+target:selector_5a70946cf19154bd83b3bef55907cd935c7b9a56 ui:y "0.15585168018539977"^^xsd:float .
+target:selector_5a70946cf19154bd83b3bef55907cd935c7b9a56 rdf:value "#xywh=percent:29,16,8,15" .
+
 target:target_12c95c1d28e32703036e347a28e660a0a8c1adbc a oa:SpecificResource .
 target:target_12c95c1d28e32703036e347a28e660a0a8c1adbc oa:hasSelector target:selector_12c95c1d28e32703036e347a28e660a0a8c1adbc .
 target:target_12c95c1d28e32703036e347a28e660a0a8c1adbc oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/642> .
+
+target:target_5a70946cf19154bd83b3bef55907cd935c7b9a56 a oa:SpecificResource .
+target:target_5a70946cf19154bd83b3bef55907cd935c7b9a56 oa:hasSelector target:selector_5a70946cf19154bd83b3bef55907cd935c7b9a56 .
+target:target_5a70946cf19154bd83b3bef55907cd935c7b9a56 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/642> .
