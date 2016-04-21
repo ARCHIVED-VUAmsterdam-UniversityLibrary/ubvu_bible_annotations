@@ -8,17 +8,29 @@
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_335f97a60da387a075d4f70d9a34a5c8fff65b39> a oa:Annotation .
-<http://accurator.nl/id_335f97a60da387a075d4f70d9a34a5c8fff65b39> terms:title "Engelen" .
-<http://accurator.nl/id_335f97a60da387a075d4f70d9a34a5c8fff65b39> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_335f97a60da387a075d4f70d9a34a5c8fff65b39> ui:typingTime 0 .
-<http://accurator.nl/id_335f97a60da387a075d4f70d9a34a5c8fff65b39> oa:annotatedAt "2016-04-04T15:58:24+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_335f97a60da387a075d4f70d9a34a5c8fff65b39> oa:annotatedBy user:hogguer .
-<http://accurator.nl/id_335f97a60da387a075d4f70d9a34a5c8fff65b39> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Engelen" ] .
-<http://accurator.nl/id_335f97a60da387a075d4f70d9a34a5c8fff65b39> oa:hasTarget target:target_94a8aedae188fcbd74a1343546545bdc1139cd81 .
-<http://accurator.nl/id_335f97a60da387a075d4f70d9a34a5c8fff65b39> oa:hasTarget ubvu:print-218010001882 .
-<http://accurator.nl/id_335f97a60da387a075d4f70d9a34a5c8fff65b39> oa:motivatedBy oa:tagging .
+nl:id_335f97a60da387a075d4f70d9a34a5c8fff65b39 a oa:Annotation .
+nl:id_335f97a60da387a075d4f70d9a34a5c8fff65b39 terms:title "Engelen" .
+nl:id_335f97a60da387a075d4f70d9a34a5c8fff65b39 ui:annotationField bible:BibleCharacter .
+nl:id_335f97a60da387a075d4f70d9a34a5c8fff65b39 ui:typingTime 0 .
+nl:id_335f97a60da387a075d4f70d9a34a5c8fff65b39 oa:annotatedAt "2016-04-04T15:58:24+02:00"^^xsd:dateTime .
+nl:id_335f97a60da387a075d4f70d9a34a5c8fff65b39 oa:annotatedBy user:hogguer .
+nl:id_335f97a60da387a075d4f70d9a34a5c8fff65b39 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Engelen" ] .
+nl:id_335f97a60da387a075d4f70d9a34a5c8fff65b39 oa:hasTarget target:target_94a8aedae188fcbd74a1343546545bdc1139cd81 .
+nl:id_335f97a60da387a075d4f70d9a34a5c8fff65b39 oa:hasTarget ubvu:print-218010001882 .
+nl:id_335f97a60da387a075d4f70d9a34a5c8fff65b39 oa:motivatedBy oa:tagging .
+
+nl:id_70a8deb571cba99eb1aad946938c54b6afe0b103 a oa:Annotation .
+nl:id_70a8deb571cba99eb1aad946938c54b6afe0b103 terms:title "Holy scenes" .
+nl:id_70a8deb571cba99eb1aad946938c54b6afe0b103 ui:annotationField bible:ICBibleTheme .
+nl:id_70a8deb571cba99eb1aad946938c54b6afe0b103 ui:typingTime 0 .
+nl:id_70a8deb571cba99eb1aad946938c54b6afe0b103 oa:annotatedAt "2016-04-21T12:20:13+02:00"^^xsd:dateTime .
+nl:id_70a8deb571cba99eb1aad946938c54b6afe0b103 oa:annotatedBy user:hogguer .
+nl:id_70a8deb571cba99eb1aad946938c54b6afe0b103 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Holy scenes" ] .
+nl:id_70a8deb571cba99eb1aad946938c54b6afe0b103 oa:hasTarget ubvu:print-218010001882 .
+nl:id_70a8deb571cba99eb1aad946938c54b6afe0b103 oa:motivatedBy oa:tagging .
 
 target:selector_94a8aedae188fcbd74a1343546545bdc1139cd81 a oa:FragmentSelector .
 target:selector_94a8aedae188fcbd74a1343546545bdc1139cd81 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
