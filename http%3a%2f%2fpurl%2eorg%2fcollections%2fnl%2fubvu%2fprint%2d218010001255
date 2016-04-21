@@ -1,0 +1,32 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix resource: <http://bibleontology.com/resource/> .
+@prefix user: <http://accurator.nl/user#> .
+
+<http://accurator.nl/id_0263ec4afcd40fe54f9a82f407b4aa3d00b1e314> a oa:Annotation .
+<http://accurator.nl/id_0263ec4afcd40fe54f9a82f407b4aa3d00b1e314> terms:title "Mozes" .
+<http://accurator.nl/id_0263ec4afcd40fe54f9a82f407b4aa3d00b1e314> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
+<http://accurator.nl/id_0263ec4afcd40fe54f9a82f407b4aa3d00b1e314> ui:typingTime 0 .
+<http://accurator.nl/id_0263ec4afcd40fe54f9a82f407b4aa3d00b1e314> oa:annotatedAt "2016-04-21T13:21:55+02:00"^^xsd:dateTime .
+<http://accurator.nl/id_0263ec4afcd40fe54f9a82f407b4aa3d00b1e314> oa:annotatedBy user:paulinevandijk .
+<http://accurator.nl/id_0263ec4afcd40fe54f9a82f407b4aa3d00b1e314> oa:hasBody resource:Moses .
+<http://accurator.nl/id_0263ec4afcd40fe54f9a82f407b4aa3d00b1e314> oa:hasTarget target:target_6777c5d92e2f696c036b41daa2a7951113a0f957 .
+<http://accurator.nl/id_0263ec4afcd40fe54f9a82f407b4aa3d00b1e314> oa:hasTarget ubvu:print-218010001255 .
+<http://accurator.nl/id_0263ec4afcd40fe54f9a82f407b4aa3d00b1e314> oa:motivatedBy oa:tagging .
+
+target:selector_6777c5d92e2f696c036b41daa2a7951113a0f957 a oa:FragmentSelector .
+target:selector_6777c5d92e2f696c036b41daa2a7951113a0f957 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_6777c5d92e2f696c036b41daa2a7951113a0f957 ui:h "0.2956989247311828"^^xsd:float .
+target:selector_6777c5d92e2f696c036b41daa2a7951113a0f957 ui:w "0.14133333333333334"^^xsd:float .
+target:selector_6777c5d92e2f696c036b41daa2a7951113a0f957 ui:x "0.08933333333333333"^^xsd:float .
+target:selector_6777c5d92e2f696c036b41daa2a7951113a0f957 ui:y "0.3682795698924731"^^xsd:float .
+target:selector_6777c5d92e2f696c036b41daa2a7951113a0f957 rdf:value "#xywh=percent:9,37,14,30" .
+
+target:target_6777c5d92e2f696c036b41daa2a7951113a0f957 a oa:SpecificResource .
+target:target_6777c5d92e2f696c036b41daa2a7951113a0f957 oa:hasSelector target:selector_6777c5d92e2f696c036b41daa2a7951113a0f957 .
+target:target_6777c5d92e2f696c036b41daa2a7951113a0f957 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/296> .
