@@ -57,6 +57,16 @@ nl:id_83b68e3536b74398f1958dd568f9c1c5355783dd oa:hasTarget target:target_471b43
 nl:id_83b68e3536b74398f1958dd568f9c1c5355783dd oa:hasTarget ubvu:print-218010001255 .
 nl:id_83b68e3536b74398f1958dd568f9c1c5355783dd oa:motivatedBy oa:tagging .
 
+nl:id_d321d563e29a2e070ff03edea744d3c3e2925932 a oa:Annotation .
+nl:id_d321d563e29a2e070ff03edea744d3c3e2925932 terms:title "De zonen van Aäron, Nadab en Abihu, door het vuur verteerd." .
+nl:id_d321d563e29a2e070ff03edea744d3c3e2925932 ui:annotationField bible:ICBibleTheme .
+nl:id_d321d563e29a2e070ff03edea744d3c3e2925932 ui:typingTime 0 .
+nl:id_d321d563e29a2e070ff03edea744d3c3e2925932 oa:annotatedAt "2016-04-21T13:25:43+02:00"^^xsd:dateTime .
+nl:id_d321d563e29a2e070ff03edea744d3c3e2925932 oa:annotatedBy user:paulinevandijk .
+nl:id_d321d563e29a2e070ff03edea744d3c3e2925932 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "De zonen van Aäron, Nadab en Abihu, door het vuur verteerd." ] .
+nl:id_d321d563e29a2e070ff03edea744d3c3e2925932 oa:hasTarget ubvu:print-218010001255 .
+nl:id_d321d563e29a2e070ff03edea744d3c3e2925932 oa:motivatedBy oa:tagging .
+
 nl:id_fe9ed2bc01c2ac49098ebed739688c4833cc1714 a oa:Annotation .
 nl:id_fe9ed2bc01c2ac49098ebed739688c4833cc1714 terms:title "Nadab (zoon van Aäron)" .
 nl:id_fe9ed2bc01c2ac49098ebed739688c4833cc1714 ui:annotationField bible:BibleCharacter .
