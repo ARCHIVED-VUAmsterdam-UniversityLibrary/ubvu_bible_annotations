@@ -1,0 +1,33 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix user: <http://accurator.nl/user#> .
+
+<http://accurator.nl/id_54cb323c0cd36d275ce3cf1f19f56ac36a2a2714> a oa:Annotation .
+<http://accurator.nl/id_54cb323c0cd36d275ce3cf1f19f56ac36a2a2714> terms:title "Engelen" .
+<http://accurator.nl/id_54cb323c0cd36d275ce3cf1f19f56ac36a2a2714> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
+<http://accurator.nl/id_54cb323c0cd36d275ce3cf1f19f56ac36a2a2714> ui:typingTime 0 .
+<http://accurator.nl/id_54cb323c0cd36d275ce3cf1f19f56ac36a2a2714> oa:annotatedAt "2016-04-21T12:43:25+02:00"^^xsd:dateTime .
+<http://accurator.nl/id_54cb323c0cd36d275ce3cf1f19f56ac36a2a2714> oa:annotatedBy user:hogguer .
+<http://accurator.nl/id_54cb323c0cd36d275ce3cf1f19f56ac36a2a2714> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Engelen" ] .
+<http://accurator.nl/id_54cb323c0cd36d275ce3cf1f19f56ac36a2a2714> oa:hasTarget target:target_f11e9c14e9e64ed6650a30624661edc343d0ae3e .
+<http://accurator.nl/id_54cb323c0cd36d275ce3cf1f19f56ac36a2a2714> oa:hasTarget ubvu:print-218010001528 .
+<http://accurator.nl/id_54cb323c0cd36d275ce3cf1f19f56ac36a2a2714> oa:motivatedBy oa:tagging .
+
+target:selector_f11e9c14e9e64ed6650a30624661edc343d0ae3e a oa:FragmentSelector .
+target:selector_f11e9c14e9e64ed6650a30624661edc343d0ae3e terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_f11e9c14e9e64ed6650a30624661edc343d0ae3e ui:h "0.12843488649940263"^^xsd:float .
+target:selector_f11e9c14e9e64ed6650a30624661edc343d0ae3e ui:w "0.39658119658119656"^^xsd:float .
+target:selector_f11e9c14e9e64ed6650a30624661edc343d0ae3e ui:x "0.4222222222222222"^^xsd:float .
+target:selector_f11e9c14e9e64ed6650a30624661edc343d0ae3e ui:y "0.6105137395459976"^^xsd:float .
+target:selector_f11e9c14e9e64ed6650a30624661edc343d0ae3e rdf:value "#xywh=percent:42,61,40,13" .
+
+target:target_f11e9c14e9e64ed6650a30624661edc343d0ae3e a oa:SpecificResource .
+target:target_f11e9c14e9e64ed6650a30624661edc343d0ae3e oa:hasSelector target:selector_f11e9c14e9e64ed6650a30624661edc343d0ae3e .
+target:target_f11e9c14e9e64ed6650a30624661edc343d0ae3e oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/569> .
