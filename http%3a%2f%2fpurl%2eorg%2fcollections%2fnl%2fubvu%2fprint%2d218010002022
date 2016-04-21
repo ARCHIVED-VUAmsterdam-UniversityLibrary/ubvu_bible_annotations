@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -8,17 +9,30 @@
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_9b49dea979446cb07922c3978c8be62b4f5a269a> a oa:Annotation .
-<http://accurator.nl/id_9b49dea979446cb07922c3978c8be62b4f5a269a> terms:title "Cyrus" .
-<http://accurator.nl/id_9b49dea979446cb07922c3978c8be62b4f5a269a> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_9b49dea979446cb07922c3978c8be62b4f5a269a> ui:typingTime 0 .
-<http://accurator.nl/id_9b49dea979446cb07922c3978c8be62b4f5a269a> oa:annotatedAt "2016-04-21T12:46:04+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_9b49dea979446cb07922c3978c8be62b4f5a269a> oa:annotatedBy user:paulinevandijk .
-<http://accurator.nl/id_9b49dea979446cb07922c3978c8be62b4f5a269a> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Cyrus" ] .
-<http://accurator.nl/id_9b49dea979446cb07922c3978c8be62b4f5a269a> oa:hasTarget target:target_3e295b7e75fcc2766e4fb8d6c805785303de9c0e .
-<http://accurator.nl/id_9b49dea979446cb07922c3978c8be62b4f5a269a> oa:hasTarget ubvu:print-218010002022 .
-<http://accurator.nl/id_9b49dea979446cb07922c3978c8be62b4f5a269a> oa:motivatedBy oa:tagging .
+nl:id_692cba96296764c1cb0b22150d1fa8cea6ef6fe0 a oa:Annotation .
+nl:id_692cba96296764c1cb0b22150d1fa8cea6ef6fe0 terms:title "Artaxerxes" .
+nl:id_692cba96296764c1cb0b22150d1fa8cea6ef6fe0 ui:annotationField bible:BibleCharacter .
+nl:id_692cba96296764c1cb0b22150d1fa8cea6ef6fe0 ui:typingTime 0 .
+nl:id_692cba96296764c1cb0b22150d1fa8cea6ef6fe0 oa:annotatedAt "2016-04-21T12:52:05+02:00"^^xsd:dateTime .
+nl:id_692cba96296764c1cb0b22150d1fa8cea6ef6fe0 oa:annotatedBy user:paulinevandijk .
+nl:id_692cba96296764c1cb0b22150d1fa8cea6ef6fe0 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Artaxerxes" ] .
+nl:id_692cba96296764c1cb0b22150d1fa8cea6ef6fe0 oa:hasTarget target:target_80f0962f5ab4ccb17faf29d27dccc5e4aade16d8 .
+nl:id_692cba96296764c1cb0b22150d1fa8cea6ef6fe0 oa:hasTarget ubvu:print-218010002022 .
+nl:id_692cba96296764c1cb0b22150d1fa8cea6ef6fe0 oa:motivatedBy oa:tagging .
+
+nl:id_9b49dea979446cb07922c3978c8be62b4f5a269a a oa:Annotation .
+nl:id_9b49dea979446cb07922c3978c8be62b4f5a269a terms:title "Cyrus" .
+nl:id_9b49dea979446cb07922c3978c8be62b4f5a269a ui:annotationField bible:BibleCharacter .
+nl:id_9b49dea979446cb07922c3978c8be62b4f5a269a ui:typingTime 0 .
+nl:id_9b49dea979446cb07922c3978c8be62b4f5a269a oa:annotatedAt "2016-04-21T12:46:04+02:00"^^xsd:dateTime .
+nl:id_9b49dea979446cb07922c3978c8be62b4f5a269a oa:annotatedBy user:paulinevandijk .
+nl:id_9b49dea979446cb07922c3978c8be62b4f5a269a oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Cyrus" ] .
+nl:id_9b49dea979446cb07922c3978c8be62b4f5a269a oa:hasTarget target:target_3e295b7e75fcc2766e4fb8d6c805785303de9c0e .
+nl:id_9b49dea979446cb07922c3978c8be62b4f5a269a oa:hasTarget ubvu:print-218010002022 .
+nl:id_9b49dea979446cb07922c3978c8be62b4f5a269a oa:motivatedBy oa:tagging .
 
 target:selector_3e295b7e75fcc2766e4fb8d6c805785303de9c0e a oa:FragmentSelector .
 target:selector_3e295b7e75fcc2766e4fb8d6c805785303de9c0e terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -28,6 +42,18 @@ target:selector_3e295b7e75fcc2766e4fb8d6c805785303de9c0e ui:x "0.514666666666666
 target:selector_3e295b7e75fcc2766e4fb8d6c805785303de9c0e ui:y "0.3286778398510242"^^xsd:float .
 target:selector_3e295b7e75fcc2766e4fb8d6c805785303de9c0e rdf:value "#xywh=percent:51,33,6,8" .
 
+target:selector_80f0962f5ab4ccb17faf29d27dccc5e4aade16d8 a oa:FragmentSelector .
+target:selector_80f0962f5ab4ccb17faf29d27dccc5e4aade16d8 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_80f0962f5ab4ccb17faf29d27dccc5e4aade16d8 ui:h "0.08752327746741155"^^xsd:float .
+target:selector_80f0962f5ab4ccb17faf29d27dccc5e4aade16d8 ui:w "0.06933333333333333"^^xsd:float .
+target:selector_80f0962f5ab4ccb17faf29d27dccc5e4aade16d8 ui:x "0.09066666666666667"^^xsd:float .
+target:selector_80f0962f5ab4ccb17faf29d27dccc5e4aade16d8 ui:y "0.5242085661080075"^^xsd:float .
+target:selector_80f0962f5ab4ccb17faf29d27dccc5e4aade16d8 rdf:value "#xywh=percent:9,52,7,9" .
+
 target:target_3e295b7e75fcc2766e4fb8d6c805785303de9c0e a oa:SpecificResource .
 target:target_3e295b7e75fcc2766e4fb8d6c805785303de9c0e oa:hasSelector target:selector_3e295b7e75fcc2766e4fb8d6c805785303de9c0e .
 target:target_3e295b7e75fcc2766e4fb8d6c805785303de9c0e oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/21> .
+
+target:target_80f0962f5ab4ccb17faf29d27dccc5e4aade16d8 a oa:SpecificResource .
+target:target_80f0962f5ab4ccb17faf29d27dccc5e4aade16d8 oa:hasSelector target:selector_80f0962f5ab4ccb17faf29d27dccc5e4aade16d8 .
+target:target_80f0962f5ab4ccb17faf29d27dccc5e4aade16d8 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/21> .
