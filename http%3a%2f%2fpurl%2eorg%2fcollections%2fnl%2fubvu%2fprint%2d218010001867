@@ -1,0 +1,32 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix resource: <http://bibleontology.com/resource/> .
+@prefix user: <http://accurator.nl/user#> .
+
+<http://accurator.nl/id_6a8ad2dbc35ec2398629bb5f4d76d3e9d92155cb> a oa:Annotation .
+<http://accurator.nl/id_6a8ad2dbc35ec2398629bb5f4d76d3e9d92155cb> terms:title "Maria (moeder van Jezus Christus))" .
+<http://accurator.nl/id_6a8ad2dbc35ec2398629bb5f4d76d3e9d92155cb> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
+<http://accurator.nl/id_6a8ad2dbc35ec2398629bb5f4d76d3e9d92155cb> ui:typingTime 0 .
+<http://accurator.nl/id_6a8ad2dbc35ec2398629bb5f4d76d3e9d92155cb> oa:annotatedAt "2016-04-21T12:58:48+02:00"^^xsd:dateTime .
+<http://accurator.nl/id_6a8ad2dbc35ec2398629bb5f4d76d3e9d92155cb> oa:annotatedBy user:paulinevandijk .
+<http://accurator.nl/id_6a8ad2dbc35ec2398629bb5f4d76d3e9d92155cb> oa:hasBody resource:Mary_Mother_of_Jesus .
+<http://accurator.nl/id_6a8ad2dbc35ec2398629bb5f4d76d3e9d92155cb> oa:hasTarget target:target_d8e273eb7f4baa201e55ed4f935b21a79b7a2c40 .
+<http://accurator.nl/id_6a8ad2dbc35ec2398629bb5f4d76d3e9d92155cb> oa:hasTarget ubvu:print-218010001867 .
+<http://accurator.nl/id_6a8ad2dbc35ec2398629bb5f4d76d3e9d92155cb> oa:motivatedBy oa:tagging .
+
+target:selector_d8e273eb7f4baa201e55ed4f935b21a79b7a2c40 a oa:FragmentSelector .
+target:selector_d8e273eb7f4baa201e55ed4f935b21a79b7a2c40 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_d8e273eb7f4baa201e55ed4f935b21a79b7a2c40 ui:h "0.23858742463393626"^^xsd:float .
+target:selector_d8e273eb7f4baa201e55ed4f935b21a79b7a2c40 ui:w "0.21466666666666667"^^xsd:float .
+target:selector_d8e273eb7f4baa201e55ed4f935b21a79b7a2c40 ui:x "0.32666666666666666"^^xsd:float .
+target:selector_d8e273eb7f4baa201e55ed4f935b21a79b7a2c40 ui:y "0.24289405684754523"^^xsd:float .
+target:selector_d8e273eb7f4baa201e55ed4f935b21a79b7a2c40 rdf:value "#xywh=percent:33,24,21,24" .
+
+target:target_d8e273eb7f4baa201e55ed4f935b21a79b7a2c40 a oa:SpecificResource .
+target:target_d8e273eb7f4baa201e55ed4f935b21a79b7a2c40 oa:hasSelector target:selector_d8e273eb7f4baa201e55ed4f935b21a79b7a2c40 .
+target:target_d8e273eb7f4baa201e55ed4f935b21a79b7a2c40 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/906> .
