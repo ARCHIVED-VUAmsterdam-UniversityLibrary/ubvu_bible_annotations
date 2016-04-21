@@ -13,6 +13,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_39a1a42c2d3218daac4d9d5817ac680f75d91eca a oa:Annotation .
+nl:id_39a1a42c2d3218daac4d9d5817ac680f75d91eca terms:title "Jezus aan het kruis" .
+nl:id_39a1a42c2d3218daac4d9d5817ac680f75d91eca ui:annotationField bible:ICBibleTheme .
+nl:id_39a1a42c2d3218daac4d9d5817ac680f75d91eca ui:typingTime 0 .
+nl:id_39a1a42c2d3218daac4d9d5817ac680f75d91eca oa:annotatedAt "2016-04-21T13:00:00+02:00"^^xsd:dateTime .
+nl:id_39a1a42c2d3218daac4d9d5817ac680f75d91eca oa:annotatedBy user:paulinevandijk .
+nl:id_39a1a42c2d3218daac4d9d5817ac680f75d91eca oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jezus aan het kruis" ] .
+nl:id_39a1a42c2d3218daac4d9d5817ac680f75d91eca oa:hasTarget ubvu:print-218010001867 .
+nl:id_39a1a42c2d3218daac4d9d5817ac680f75d91eca oa:motivatedBy oa:tagging .
+
 nl:id_6a8ad2dbc35ec2398629bb5f4d76d3e9d92155cb a oa:Annotation .
 nl:id_6a8ad2dbc35ec2398629bb5f4d76d3e9d92155cb terms:title "Maria (moeder van Jezus Christus))" .
 nl:id_6a8ad2dbc35ec2398629bb5f4d76d3e9d92155cb ui:annotationField bible:BibleCharacter .
