@@ -12,6 +12,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_61278022b73e585e81015049a501eecdfa093363 a oa:Annotation .
+nl:id_61278022b73e585e81015049a501eecdfa093363 terms:title "Christ's ascension" .
+nl:id_61278022b73e585e81015049a501eecdfa093363 ui:annotationField bible:ICBibleTheme .
+nl:id_61278022b73e585e81015049a501eecdfa093363 ui:typingTime 0 .
+nl:id_61278022b73e585e81015049a501eecdfa093363 oa:annotatedAt "2016-04-21T12:22:14+02:00"^^xsd:dateTime .
+nl:id_61278022b73e585e81015049a501eecdfa093363 oa:annotatedBy user:hogguer .
+nl:id_61278022b73e585e81015049a501eecdfa093363 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Christ's ascension" ] .
+nl:id_61278022b73e585e81015049a501eecdfa093363 oa:hasTarget ubvu:print-218010001903 .
+nl:id_61278022b73e585e81015049a501eecdfa093363 oa:motivatedBy oa:tagging .
+
 nl:id_92a21f4c367c1e4234f67ab3869ebb85694a9402 a oa:Annotation .
 nl:id_92a21f4c367c1e4234f67ab3869ebb85694a9402 terms:title "Jezus Christus" .
 nl:id_92a21f4c367c1e4234f67ab3869ebb85694a9402 ui:annotationField bible:BibleCharacter .
