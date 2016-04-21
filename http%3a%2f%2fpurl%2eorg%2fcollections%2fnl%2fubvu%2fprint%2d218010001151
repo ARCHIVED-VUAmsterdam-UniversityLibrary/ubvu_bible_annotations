@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -8,17 +9,38 @@
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_347881639ad743751cf70be64b93e9610fa79d28> a oa:Annotation .
-<http://accurator.nl/id_347881639ad743751cf70be64b93e9610fa79d28> terms:title "Simeon en Levi (zoons van Lea en Jacob)" .
-<http://accurator.nl/id_347881639ad743751cf70be64b93e9610fa79d28> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_347881639ad743751cf70be64b93e9610fa79d28> ui:typingTime 0 .
-<http://accurator.nl/id_347881639ad743751cf70be64b93e9610fa79d28> oa:annotatedAt "2016-04-21T12:39:48+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_347881639ad743751cf70be64b93e9610fa79d28> oa:annotatedBy user:hogguer .
-<http://accurator.nl/id_347881639ad743751cf70be64b93e9610fa79d28> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Simeon en Levi (zoons van Lea en Jacob)" ] .
-<http://accurator.nl/id_347881639ad743751cf70be64b93e9610fa79d28> oa:hasTarget target:target_b059a4f89ff8a9a85421f1e9086fea93ed662fae .
-<http://accurator.nl/id_347881639ad743751cf70be64b93e9610fa79d28> oa:hasTarget ubvu:print-218010001151 .
-<http://accurator.nl/id_347881639ad743751cf70be64b93e9610fa79d28> oa:motivatedBy oa:tagging .
+nl:id_347881639ad743751cf70be64b93e9610fa79d28 a oa:Annotation .
+nl:id_347881639ad743751cf70be64b93e9610fa79d28 terms:title "Simeon en Levi (zoons van Lea en Jacob)" .
+nl:id_347881639ad743751cf70be64b93e9610fa79d28 ui:annotationField bible:BibleCharacter .
+nl:id_347881639ad743751cf70be64b93e9610fa79d28 ui:typingTime 0 .
+nl:id_347881639ad743751cf70be64b93e9610fa79d28 oa:annotatedAt "2016-04-21T12:39:48+02:00"^^xsd:dateTime .
+nl:id_347881639ad743751cf70be64b93e9610fa79d28 oa:annotatedBy user:hogguer .
+nl:id_347881639ad743751cf70be64b93e9610fa79d28 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Simeon en Levi (zoons van Lea en Jacob)" ] .
+nl:id_347881639ad743751cf70be64b93e9610fa79d28 oa:hasTarget target:target_b059a4f89ff8a9a85421f1e9086fea93ed662fae .
+nl:id_347881639ad743751cf70be64b93e9610fa79d28 oa:hasTarget ubvu:print-218010001151 .
+nl:id_347881639ad743751cf70be64b93e9610fa79d28 oa:motivatedBy oa:tagging .
+
+nl:id_a7e3e31c7b9355f04d4e0825eaabd626f757e833 a oa:Annotation .
+nl:id_a7e3e31c7b9355f04d4e0825eaabd626f757e833 terms:title "Dina (dochter van Lea en Jacob)" .
+nl:id_a7e3e31c7b9355f04d4e0825eaabd626f757e833 ui:annotationField bible:BibleCharacter .
+nl:id_a7e3e31c7b9355f04d4e0825eaabd626f757e833 ui:typingTime 0 .
+nl:id_a7e3e31c7b9355f04d4e0825eaabd626f757e833 oa:annotatedAt "2016-04-21T12:40:55+02:00"^^xsd:dateTime .
+nl:id_a7e3e31c7b9355f04d4e0825eaabd626f757e833 oa:annotatedBy user:hogguer .
+nl:id_a7e3e31c7b9355f04d4e0825eaabd626f757e833 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Dina (dochter van Lea en Jacob)" ] .
+nl:id_a7e3e31c7b9355f04d4e0825eaabd626f757e833 oa:hasTarget target:target_8d109af6624602db6bb60c5c7e36301768e5848c .
+nl:id_a7e3e31c7b9355f04d4e0825eaabd626f757e833 oa:hasTarget ubvu:print-218010001151 .
+nl:id_a7e3e31c7b9355f04d4e0825eaabd626f757e833 oa:motivatedBy oa:tagging .
+
+target:selector_8d109af6624602db6bb60c5c7e36301768e5848c a oa:FragmentSelector .
+target:selector_8d109af6624602db6bb60c5c7e36301768e5848c terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_8d109af6624602db6bb60c5c7e36301768e5848c ui:h "0.24233661075766338"^^xsd:float .
+target:selector_8d109af6624602db6bb60c5c7e36301768e5848c ui:w "0.14871794871794872"^^xsd:float .
+target:selector_8d109af6624602db6bb60c5c7e36301768e5848c ui:x "0.06752136752136752"^^xsd:float .
+target:selector_8d109af6624602db6bb60c5c7e36301768e5848c ui:y "0.5124349334875651"^^xsd:float .
+target:selector_8d109af6624602db6bb60c5c7e36301768e5848c rdf:value "#xywh=percent:7,51,15,24" .
 
 target:selector_b059a4f89ff8a9a85421f1e9086fea93ed662fae a oa:FragmentSelector .
 target:selector_b059a4f89ff8a9a85421f1e9086fea93ed662fae terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -27,6 +49,10 @@ target:selector_b059a4f89ff8a9a85421f1e9086fea93ed662fae ui:w "0.308547008547008
 target:selector_b059a4f89ff8a9a85421f1e9086fea93ed662fae ui:x "0.22735042735042735"^^xsd:float .
 target:selector_b059a4f89ff8a9a85421f1e9086fea93ed662fae ui:y "0.42452284557547715"^^xsd:float .
 target:selector_b059a4f89ff8a9a85421f1e9086fea93ed662fae rdf:value "#xywh=percent:23,42,31,13" .
+
+target:target_8d109af6624602db6bb60c5c7e36301768e5848c a oa:SpecificResource .
+target:target_8d109af6624602db6bb60c5c7e36301768e5848c oa:hasSelector target:selector_8d109af6624602db6bb60c5c7e36301768e5848c .
+target:target_8d109af6624602db6bb60c5c7e36301768e5848c oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/192> .
 
 target:target_b059a4f89ff8a9a85421f1e9086fea93ed662fae a oa:SpecificResource .
 target:target_b059a4f89ff8a9a85421f1e9086fea93ed662fae oa:hasSelector target:selector_b059a4f89ff8a9a85421f1e9086fea93ed662fae .
