@@ -23,6 +23,16 @@ nl:id_0aaae158b717d25565d0acc798b3de457e3368c7 oa:hasTarget target:target_5a7094
 nl:id_0aaae158b717d25565d0acc798b3de457e3368c7 oa:hasTarget ubvu:print-218010001603 .
 nl:id_0aaae158b717d25565d0acc798b3de457e3368c7 oa:motivatedBy oa:tagging .
 
+nl:id_239fcf4ae49ed972447e45afa0e2c806a5aa3f8d a oa:Annotation .
+nl:id_239fcf4ae49ed972447e45afa0e2c806a5aa3f8d terms:title "Holy scenes" .
+nl:id_239fcf4ae49ed972447e45afa0e2c806a5aa3f8d ui:annotationField bible:ICBibleTheme .
+nl:id_239fcf4ae49ed972447e45afa0e2c806a5aa3f8d ui:typingTime 0 .
+nl:id_239fcf4ae49ed972447e45afa0e2c806a5aa3f8d oa:annotatedAt "2016-04-21T12:52:20+02:00"^^xsd:dateTime .
+nl:id_239fcf4ae49ed972447e45afa0e2c806a5aa3f8d oa:annotatedBy user:hogguer .
+nl:id_239fcf4ae49ed972447e45afa0e2c806a5aa3f8d oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Holy scenes" ] .
+nl:id_239fcf4ae49ed972447e45afa0e2c806a5aa3f8d oa:hasTarget ubvu:print-218010001603 .
+nl:id_239fcf4ae49ed972447e45afa0e2c806a5aa3f8d oa:motivatedBy oa:tagging .
+
 nl:id_8c47135f679bd0006b6e8d9deb667f54238e9b08 a oa:Annotation .
 nl:id_8c47135f679bd0006b6e8d9deb667f54238e9b08 terms:title "Sara (dochter van Raguël)" .
 nl:id_8c47135f679bd0006b6e8d9deb667f54238e9b08 ui:annotationField bible:BibleCharacter .
