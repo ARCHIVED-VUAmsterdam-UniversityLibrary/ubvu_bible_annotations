@@ -8,9 +8,21 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
+
+nl:id_39a91b02ffea015318d6de7d680ecccd82fae9bf a oa:Annotation .
+nl:id_39a91b02ffea015318d6de7d680ecccd82fae9bf terms:title "Ezra" .
+nl:id_39a91b02ffea015318d6de7d680ecccd82fae9bf ui:annotationField bible:BibleCharacter .
+nl:id_39a91b02ffea015318d6de7d680ecccd82fae9bf ui:typingTime 0 .
+nl:id_39a91b02ffea015318d6de7d680ecccd82fae9bf oa:annotatedAt "2016-04-21T12:53:53+02:00"^^xsd:dateTime .
+nl:id_39a91b02ffea015318d6de7d680ecccd82fae9bf oa:annotatedBy user:paulinevandijk .
+nl:id_39a91b02ffea015318d6de7d680ecccd82fae9bf oa:hasBody resource:Ezra .
+nl:id_39a91b02ffea015318d6de7d680ecccd82fae9bf oa:hasTarget target:target_b4854fe95ce23005e15f224d57d70b9a6ba9dc69 .
+nl:id_39a91b02ffea015318d6de7d680ecccd82fae9bf oa:hasTarget ubvu:print-218010002022 .
+nl:id_39a91b02ffea015318d6de7d680ecccd82fae9bf oa:motivatedBy oa:tagging .
 
 nl:id_692cba96296764c1cb0b22150d1fa8cea6ef6fe0 a oa:Annotation .
 nl:id_692cba96296764c1cb0b22150d1fa8cea6ef6fe0 terms:title "Artaxerxes" .
@@ -69,6 +81,14 @@ target:selector_80f0962f5ab4ccb17faf29d27dccc5e4aade16d8 ui:x "0.090666666666666
 target:selector_80f0962f5ab4ccb17faf29d27dccc5e4aade16d8 ui:y "0.5242085661080075"^^xsd:float .
 target:selector_80f0962f5ab4ccb17faf29d27dccc5e4aade16d8 rdf:value "#xywh=percent:9,52,7,9" .
 
+target:selector_b4854fe95ce23005e15f224d57d70b9a6ba9dc69 a oa:FragmentSelector .
+target:selector_b4854fe95ce23005e15f224d57d70b9a6ba9dc69 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_b4854fe95ce23005e15f224d57d70b9a6ba9dc69 ui:h "0.054003724394785846"^^xsd:float .
+target:selector_b4854fe95ce23005e15f224d57d70b9a6ba9dc69 ui:w "0.044"^^xsd:float .
+target:selector_b4854fe95ce23005e15f224d57d70b9a6ba9dc69 ui:x "0.12533333333333332"^^xsd:float .
+target:selector_b4854fe95ce23005e15f224d57d70b9a6ba9dc69 ui:y "0.707635009310987"^^xsd:float .
+target:selector_b4854fe95ce23005e15f224d57d70b9a6ba9dc69 rdf:value "#xywh=percent:13,71,4,5" .
+
 target:target_3e295b7e75fcc2766e4fb8d6c805785303de9c0e a oa:SpecificResource .
 target:target_3e295b7e75fcc2766e4fb8d6c805785303de9c0e oa:hasSelector target:selector_3e295b7e75fcc2766e4fb8d6c805785303de9c0e .
 target:target_3e295b7e75fcc2766e4fb8d6c805785303de9c0e oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/21> .
@@ -80,3 +100,7 @@ target:target_4d06e7f570c0acfd01ec2f412327b03823f7ce08 oa:hasSource <http://imag
 target:target_80f0962f5ab4ccb17faf29d27dccc5e4aade16d8 a oa:SpecificResource .
 target:target_80f0962f5ab4ccb17faf29d27dccc5e4aade16d8 oa:hasSelector target:selector_80f0962f5ab4ccb17faf29d27dccc5e4aade16d8 .
 target:target_80f0962f5ab4ccb17faf29d27dccc5e4aade16d8 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/21> .
+
+target:target_b4854fe95ce23005e15f224d57d70b9a6ba9dc69 a oa:SpecificResource .
+target:target_b4854fe95ce23005e15f224d57d70b9a6ba9dc69 oa:hasSelector target:selector_b4854fe95ce23005e15f224d57d70b9a6ba9dc69 .
+target:target_b4854fe95ce23005e15f224d57d70b9a6ba9dc69 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/21> .
