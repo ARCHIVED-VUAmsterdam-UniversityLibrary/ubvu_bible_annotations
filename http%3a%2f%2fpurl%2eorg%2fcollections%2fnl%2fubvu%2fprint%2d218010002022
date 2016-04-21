@@ -46,6 +46,16 @@ nl:id_9b49dea979446cb07922c3978c8be62b4f5a269a oa:hasTarget target:target_3e295b
 nl:id_9b49dea979446cb07922c3978c8be62b4f5a269a oa:hasTarget ubvu:print-218010002022 .
 nl:id_9b49dea979446cb07922c3978c8be62b4f5a269a oa:motivatedBy oa:tagging .
 
+nl:id_afcb8bd026cdde69dd8723800d7ac9748b23b7a4 a oa:Annotation .
+nl:id_afcb8bd026cdde69dd8723800d7ac9748b23b7a4 terms:title "Herbouw van de tempel. Nehemia herbouwt de stadsmuur en de poorten. Nehemia leest voor uit de wet." .
+nl:id_afcb8bd026cdde69dd8723800d7ac9748b23b7a4 ui:annotationField bible:ICBibleTheme .
+nl:id_afcb8bd026cdde69dd8723800d7ac9748b23b7a4 ui:typingTime 0 .
+nl:id_afcb8bd026cdde69dd8723800d7ac9748b23b7a4 oa:annotatedAt "2016-04-21T12:56:49+02:00"^^xsd:dateTime .
+nl:id_afcb8bd026cdde69dd8723800d7ac9748b23b7a4 oa:annotatedBy user:paulinevandijk .
+nl:id_afcb8bd026cdde69dd8723800d7ac9748b23b7a4 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Herbouw van de tempel. Nehemia herbouwt de stadsmuur en de poorten. Nehemia leest voor uit de wet." ] .
+nl:id_afcb8bd026cdde69dd8723800d7ac9748b23b7a4 oa:hasTarget ubvu:print-218010002022 .
+nl:id_afcb8bd026cdde69dd8723800d7ac9748b23b7a4 oa:motivatedBy oa:tagging .
+
 nl:id_e510570925cb0be896471937f70d92eee97ceda8 a oa:Annotation .
 nl:id_e510570925cb0be896471937f70d92eee97ceda8 terms:title "Nehemia" .
 nl:id_e510570925cb0be896471937f70d92eee97ceda8 ui:annotationField bible:BibleCharacter .
