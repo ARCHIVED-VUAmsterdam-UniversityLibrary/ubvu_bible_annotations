@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -11,6 +12,17 @@
 @prefix user: <http://accurator.nl/user#> .
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
+
+nl:id_20c9ccce57009b7015922b85c81a36b17fb6e173 a oa:Annotation .
+nl:id_20c9ccce57009b7015922b85c81a36b17fb6e173 terms:title "Diciples or apostles" .
+nl:id_20c9ccce57009b7015922b85c81a36b17fb6e173 ui:annotationField bible:BibleCharacter .
+nl:id_20c9ccce57009b7015922b85c81a36b17fb6e173 ui:typingTime 0 .
+nl:id_20c9ccce57009b7015922b85c81a36b17fb6e173 oa:annotatedAt "2016-04-21T12:25:12+02:00"^^xsd:dateTime .
+nl:id_20c9ccce57009b7015922b85c81a36b17fb6e173 oa:annotatedBy user:hogguer .
+nl:id_20c9ccce57009b7015922b85c81a36b17fb6e173 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Diciples or apostles" ] .
+nl:id_20c9ccce57009b7015922b85c81a36b17fb6e173 oa:hasTarget target:target_d194db68046d62f2fade36e6e9ebcf0a16f356c6 .
+nl:id_20c9ccce57009b7015922b85c81a36b17fb6e173 oa:hasTarget ubvu:print-218010001903 .
+nl:id_20c9ccce57009b7015922b85c81a36b17fb6e173 oa:motivatedBy oa:tagging .
 
 nl:id_61278022b73e585e81015049a501eecdfa093363 a oa:Annotation .
 nl:id_61278022b73e585e81015049a501eecdfa093363 terms:title "Christ's ascension" .
@@ -51,6 +63,18 @@ target:selector_a75034490b979a5de5030886a19266e9343c83e8 ui:x "0.355555555555555
 target:selector_a75034490b979a5de5030886a19266e9343c83e8 ui:y "0.09398907103825137"^^xsd:float .
 target:selector_a75034490b979a5de5030886a19266e9343c83e8 rdf:value "#xywh=percent:36,9,21,25" .
 
+target:selector_d194db68046d62f2fade36e6e9ebcf0a16f356c6 a oa:FragmentSelector .
+target:selector_d194db68046d62f2fade36e6e9ebcf0a16f356c6 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_d194db68046d62f2fade36e6e9ebcf0a16f356c6 ui:h "0.4060109289617486"^^xsd:float .
+target:selector_d194db68046d62f2fade36e6e9ebcf0a16f356c6 ui:w "0.7794871794871795"^^xsd:float .
+target:selector_d194db68046d62f2fade36e6e9ebcf0a16f356c6 ui:x "0.042735042735042736"^^xsd:float .
+target:selector_d194db68046d62f2fade36e6e9ebcf0a16f356c6 ui:y "0.3797814207650273"^^xsd:float .
+target:selector_d194db68046d62f2fade36e6e9ebcf0a16f356c6 rdf:value "#xywh=percent:4,38,78,41" .
+
 target:target_a75034490b979a5de5030886a19266e9343c83e8 a oa:SpecificResource .
 target:target_a75034490b979a5de5030886a19266e9343c83e8 oa:hasSelector target:selector_a75034490b979a5de5030886a19266e9343c83e8 .
 target:target_a75034490b979a5de5030886a19266e9343c83e8 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/942> .
+
+target:target_d194db68046d62f2fade36e6e9ebcf0a16f356c6 a oa:SpecificResource .
+target:target_d194db68046d62f2fade36e6e9ebcf0a16f356c6 oa:hasSelector target:selector_d194db68046d62f2fade36e6e9ebcf0a16f356c6 .
+target:target_d194db68046d62f2fade36e6e9ebcf0a16f356c6 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/942> .
