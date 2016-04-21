@@ -45,6 +45,16 @@ nl:id_a7e3e31c7b9355f04d4e0825eaabd626f757e833 oa:hasTarget target:target_8d109a
 nl:id_a7e3e31c7b9355f04d4e0825eaabd626f757e833 oa:hasTarget ubvu:print-218010001151 .
 nl:id_a7e3e31c7b9355f04d4e0825eaabd626f757e833 oa:motivatedBy oa:tagging .
 
+nl:id_e784e595243d934b3ec8d84d54e013d98aa1e966 a oa:Annotation .
+nl:id_e784e595243d934b3ec8d84d54e013d98aa1e966 terms:title "Dina en Sichem" .
+nl:id_e784e595243d934b3ec8d84d54e013d98aa1e966 ui:annotationField bible:ICBibleTheme .
+nl:id_e784e595243d934b3ec8d84d54e013d98aa1e966 ui:typingTime 0 .
+nl:id_e784e595243d934b3ec8d84d54e013d98aa1e966 oa:annotatedAt "2016-04-21T12:42:08+02:00"^^xsd:dateTime .
+nl:id_e784e595243d934b3ec8d84d54e013d98aa1e966 oa:annotatedBy user:hogguer .
+nl:id_e784e595243d934b3ec8d84d54e013d98aa1e966 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Dina en Sichem" ] .
+nl:id_e784e595243d934b3ec8d84d54e013d98aa1e966 oa:hasTarget ubvu:print-218010001151 .
+nl:id_e784e595243d934b3ec8d84d54e013d98aa1e966 oa:motivatedBy oa:tagging .
+
 target:selector_8d109af6624602db6bb60c5c7e36301768e5848c a oa:FragmentSelector .
 target:selector_8d109af6624602db6bb60c5c7e36301768e5848c terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_8d109af6624602db6bb60c5c7e36301768e5848c ui:h "0.24233661075766338"^^xsd:float .
