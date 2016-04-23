@@ -8,17 +8,29 @@
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_c92a46d6dd8fb8ab9351b6135c46b092bf07df93> a oa:Annotation .
-<http://accurator.nl/id_c92a46d6dd8fb8ab9351b6135c46b092bf07df93> terms:title "Josef" .
-<http://accurator.nl/id_c92a46d6dd8fb8ab9351b6135c46b092bf07df93> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_c92a46d6dd8fb8ab9351b6135c46b092bf07df93> ui:typingTime 0 .
-<http://accurator.nl/id_c92a46d6dd8fb8ab9351b6135c46b092bf07df93> oa:annotatedAt "2016-04-23T16:52:06+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_c92a46d6dd8fb8ab9351b6135c46b092bf07df93> oa:annotatedBy user:paulinevandijk .
-<http://accurator.nl/id_c92a46d6dd8fb8ab9351b6135c46b092bf07df93> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Josef" ] .
-<http://accurator.nl/id_c92a46d6dd8fb8ab9351b6135c46b092bf07df93> oa:hasTarget target:target_438a2691d1d3684fdd63eaf6388326c4fd873482 .
-<http://accurator.nl/id_c92a46d6dd8fb8ab9351b6135c46b092bf07df93> oa:hasTarget ubvu:print-218010001166 .
-<http://accurator.nl/id_c92a46d6dd8fb8ab9351b6135c46b092bf07df93> oa:motivatedBy oa:tagging .
+nl:id_5d678915a1fa7a94ab6bba6cd47b0924a67275ac a oa:Annotation .
+nl:id_5d678915a1fa7a94ab6bba6cd47b0924a67275ac terms:title "Josef verzamelt graan om op te slaan" .
+nl:id_5d678915a1fa7a94ab6bba6cd47b0924a67275ac ui:annotationField bible:ICBibleTheme .
+nl:id_5d678915a1fa7a94ab6bba6cd47b0924a67275ac ui:typingTime 0 .
+nl:id_5d678915a1fa7a94ab6bba6cd47b0924a67275ac oa:annotatedAt "2016-04-23T16:53:32+02:00"^^xsd:dateTime .
+nl:id_5d678915a1fa7a94ab6bba6cd47b0924a67275ac oa:annotatedBy user:paulinevandijk .
+nl:id_5d678915a1fa7a94ab6bba6cd47b0924a67275ac oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Josef verzamelt graan om op te slaan" ] .
+nl:id_5d678915a1fa7a94ab6bba6cd47b0924a67275ac oa:hasTarget ubvu:print-218010001166 .
+nl:id_5d678915a1fa7a94ab6bba6cd47b0924a67275ac oa:motivatedBy oa:tagging .
+
+nl:id_c92a46d6dd8fb8ab9351b6135c46b092bf07df93 a oa:Annotation .
+nl:id_c92a46d6dd8fb8ab9351b6135c46b092bf07df93 terms:title "Josef" .
+nl:id_c92a46d6dd8fb8ab9351b6135c46b092bf07df93 ui:annotationField bible:BibleCharacter .
+nl:id_c92a46d6dd8fb8ab9351b6135c46b092bf07df93 ui:typingTime 0 .
+nl:id_c92a46d6dd8fb8ab9351b6135c46b092bf07df93 oa:annotatedAt "2016-04-23T16:52:06+02:00"^^xsd:dateTime .
+nl:id_c92a46d6dd8fb8ab9351b6135c46b092bf07df93 oa:annotatedBy user:paulinevandijk .
+nl:id_c92a46d6dd8fb8ab9351b6135c46b092bf07df93 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Josef" ] .
+nl:id_c92a46d6dd8fb8ab9351b6135c46b092bf07df93 oa:hasTarget target:target_438a2691d1d3684fdd63eaf6388326c4fd873482 .
+nl:id_c92a46d6dd8fb8ab9351b6135c46b092bf07df93 oa:hasTarget ubvu:print-218010001166 .
+nl:id_c92a46d6dd8fb8ab9351b6135c46b092bf07df93 oa:motivatedBy oa:tagging .
 
 target:selector_438a2691d1d3684fdd63eaf6388326c4fd873482 a oa:FragmentSelector .
 target:selector_438a2691d1d3684fdd63eaf6388326c4fd873482 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
