@@ -1,23 +1,37 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_685269cdecf6f8e5340c23e78d74093da0c8455c> a oa:Annotation .
-<http://accurator.nl/id_685269cdecf6f8e5340c23e78d74093da0c8455c> terms:title "Jezus Christus" .
-<http://accurator.nl/id_685269cdecf6f8e5340c23e78d74093da0c8455c> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_685269cdecf6f8e5340c23e78d74093da0c8455c> ui:typingTime 0 .
-<http://accurator.nl/id_685269cdecf6f8e5340c23e78d74093da0c8455c> oa:annotatedAt "2016-04-23T16:17:56+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_685269cdecf6f8e5340c23e78d74093da0c8455c> oa:annotatedBy user:paulinevandijk .
-<http://accurator.nl/id_685269cdecf6f8e5340c23e78d74093da0c8455c> oa:hasBody resource:Jesus .
-<http://accurator.nl/id_685269cdecf6f8e5340c23e78d74093da0c8455c> oa:hasTarget target:target_8fbcd30b3fc176cfc0349b64b03795f8e09188d1 .
-<http://accurator.nl/id_685269cdecf6f8e5340c23e78d74093da0c8455c> oa:hasTarget ubvu:print-218010001878 .
-<http://accurator.nl/id_685269cdecf6f8e5340c23e78d74093da0c8455c> oa:motivatedBy oa:tagging .
+nl:id_0ed4cc55cc4af073a1affc97c3bf4296568dedcd a oa:Annotation .
+nl:id_0ed4cc55cc4af073a1affc97c3bf4296568dedcd terms:title "Wederopstanding van Jezus" .
+nl:id_0ed4cc55cc4af073a1affc97c3bf4296568dedcd ui:annotationField bible:ICBibleTheme .
+nl:id_0ed4cc55cc4af073a1affc97c3bf4296568dedcd ui:typingTime 0 .
+nl:id_0ed4cc55cc4af073a1affc97c3bf4296568dedcd oa:annotatedAt "2016-04-23T16:18:13+02:00"^^xsd:dateTime .
+nl:id_0ed4cc55cc4af073a1affc97c3bf4296568dedcd oa:annotatedBy user:paulinevandijk .
+nl:id_0ed4cc55cc4af073a1affc97c3bf4296568dedcd oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Wederopstanding van Jezus" ] .
+nl:id_0ed4cc55cc4af073a1affc97c3bf4296568dedcd oa:hasTarget ubvu:print-218010001878 .
+nl:id_0ed4cc55cc4af073a1affc97c3bf4296568dedcd oa:motivatedBy oa:tagging .
+
+nl:id_685269cdecf6f8e5340c23e78d74093da0c8455c a oa:Annotation .
+nl:id_685269cdecf6f8e5340c23e78d74093da0c8455c terms:title "Jezus Christus" .
+nl:id_685269cdecf6f8e5340c23e78d74093da0c8455c ui:annotationField bible:BibleCharacter .
+nl:id_685269cdecf6f8e5340c23e78d74093da0c8455c ui:typingTime 0 .
+nl:id_685269cdecf6f8e5340c23e78d74093da0c8455c oa:annotatedAt "2016-04-23T16:17:56+02:00"^^xsd:dateTime .
+nl:id_685269cdecf6f8e5340c23e78d74093da0c8455c oa:annotatedBy user:paulinevandijk .
+nl:id_685269cdecf6f8e5340c23e78d74093da0c8455c oa:hasBody resource:Jesus .
+nl:id_685269cdecf6f8e5340c23e78d74093da0c8455c oa:hasTarget target:target_8fbcd30b3fc176cfc0349b64b03795f8e09188d1 .
+nl:id_685269cdecf6f8e5340c23e78d74093da0c8455c oa:hasTarget ubvu:print-218010001878 .
+nl:id_685269cdecf6f8e5340c23e78d74093da0c8455c oa:motivatedBy oa:tagging .
 
 target:selector_8fbcd30b3fc176cfc0349b64b03795f8e09188d1 a oa:FragmentSelector .
 target:selector_8fbcd30b3fc176cfc0349b64b03795f8e09188d1 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
