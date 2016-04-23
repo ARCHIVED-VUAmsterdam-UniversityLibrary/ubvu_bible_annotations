@@ -13,6 +13,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_37555bade155255faf1706bb502917fe8bc5b2a7 a oa:Annotation .
+nl:id_37555bade155255faf1706bb502917fe8bc5b2a7 terms:title "opwekking van de jongeling uit Naïn" .
+nl:id_37555bade155255faf1706bb502917fe8bc5b2a7 ui:annotationField bible:ICBibleTheme .
+nl:id_37555bade155255faf1706bb502917fe8bc5b2a7 ui:typingTime 0 .
+nl:id_37555bade155255faf1706bb502917fe8bc5b2a7 oa:annotatedAt "2016-04-23T16:49:43+02:00"^^xsd:dateTime .
+nl:id_37555bade155255faf1706bb502917fe8bc5b2a7 oa:annotatedBy user:paulinevandijk .
+nl:id_37555bade155255faf1706bb502917fe8bc5b2a7 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "opwekking van de jongeling uit Naïn" ] .
+nl:id_37555bade155255faf1706bb502917fe8bc5b2a7 oa:hasTarget ubvu:print-218010001767 .
+nl:id_37555bade155255faf1706bb502917fe8bc5b2a7 oa:motivatedBy oa:tagging .
+
 nl:id_3a71f95a6e11e71d0817b58cbfe64df6bf4c1041 a oa:Annotation .
 nl:id_3a71f95a6e11e71d0817b58cbfe64df6bf4c1041 terms:title "jongeling uit Naïn" .
 nl:id_3a71f95a6e11e71d0817b58cbfe64df6bf4c1041 ui:annotationField bible:BibleCharacter .
