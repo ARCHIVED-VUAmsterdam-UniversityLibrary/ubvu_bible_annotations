@@ -8,17 +8,29 @@
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_14d4a14e509babd3327e9debc8cf54034ca8a767> a oa:Annotation .
-<http://accurator.nl/id_14d4a14e509babd3327e9debc8cf54034ca8a767> terms:title "Paulus" .
-<http://accurator.nl/id_14d4a14e509babd3327e9debc8cf54034ca8a767> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_14d4a14e509babd3327e9debc8cf54034ca8a767> ui:typingTime 0 .
-<http://accurator.nl/id_14d4a14e509babd3327e9debc8cf54034ca8a767> oa:annotatedAt "2016-04-23T16:32:54+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_14d4a14e509babd3327e9debc8cf54034ca8a767> oa:annotatedBy user:paulinevandijk .
-<http://accurator.nl/id_14d4a14e509babd3327e9debc8cf54034ca8a767> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Paulus" ] .
-<http://accurator.nl/id_14d4a14e509babd3327e9debc8cf54034ca8a767> oa:hasTarget target:target_7056f898cbbfee798d30e60fe6cb20028e909723 .
-<http://accurator.nl/id_14d4a14e509babd3327e9debc8cf54034ca8a767> oa:hasTarget ubvu:print-218010001940 .
-<http://accurator.nl/id_14d4a14e509babd3327e9debc8cf54034ca8a767> oa:motivatedBy oa:tagging .
+nl:id_14d4a14e509babd3327e9debc8cf54034ca8a767 a oa:Annotation .
+nl:id_14d4a14e509babd3327e9debc8cf54034ca8a767 terms:title "Paulus" .
+nl:id_14d4a14e509babd3327e9debc8cf54034ca8a767 ui:annotationField bible:BibleCharacter .
+nl:id_14d4a14e509babd3327e9debc8cf54034ca8a767 ui:typingTime 0 .
+nl:id_14d4a14e509babd3327e9debc8cf54034ca8a767 oa:annotatedAt "2016-04-23T16:32:54+02:00"^^xsd:dateTime .
+nl:id_14d4a14e509babd3327e9debc8cf54034ca8a767 oa:annotatedBy user:paulinevandijk .
+nl:id_14d4a14e509babd3327e9debc8cf54034ca8a767 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Paulus" ] .
+nl:id_14d4a14e509babd3327e9debc8cf54034ca8a767 oa:hasTarget target:target_7056f898cbbfee798d30e60fe6cb20028e909723 .
+nl:id_14d4a14e509babd3327e9debc8cf54034ca8a767 oa:hasTarget ubvu:print-218010001940 .
+nl:id_14d4a14e509babd3327e9debc8cf54034ca8a767 oa:motivatedBy oa:tagging .
+
+nl:id_2b7a37fdba383e349d73a59651c7d15fc8800c03 a oa:Annotation .
+nl:id_2b7a37fdba383e349d73a59651c7d15fc8800c03 terms:title "Paulus neemt afscheid van de gemeente van Efeze" .
+nl:id_2b7a37fdba383e349d73a59651c7d15fc8800c03 ui:annotationField bible:ICBibleTheme .
+nl:id_2b7a37fdba383e349d73a59651c7d15fc8800c03 ui:typingTime 0 .
+nl:id_2b7a37fdba383e349d73a59651c7d15fc8800c03 oa:annotatedAt "2016-04-23T16:33:34+02:00"^^xsd:dateTime .
+nl:id_2b7a37fdba383e349d73a59651c7d15fc8800c03 oa:annotatedBy user:paulinevandijk .
+nl:id_2b7a37fdba383e349d73a59651c7d15fc8800c03 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Paulus neemt afscheid van de gemeente van Efeze" ] .
+nl:id_2b7a37fdba383e349d73a59651c7d15fc8800c03 oa:hasTarget ubvu:print-218010001940 .
+nl:id_2b7a37fdba383e349d73a59651c7d15fc8800c03 oa:motivatedBy oa:tagging .
 
 target:selector_7056f898cbbfee798d30e60fe6cb20028e909723 a oa:FragmentSelector .
 target:selector_7056f898cbbfee798d30e60fe6cb20028e909723 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
