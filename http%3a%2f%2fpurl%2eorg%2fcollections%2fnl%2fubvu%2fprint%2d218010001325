@@ -24,6 +24,16 @@ nl:id_0406196c3d8c95c67dd5181e18f1aedcbbb43fc4 oa:hasTarget target:target_fc4899
 nl:id_0406196c3d8c95c67dd5181e18f1aedcbbb43fc4 oa:hasTarget ubvu:print-218010001325 .
 nl:id_0406196c3d8c95c67dd5181e18f1aedcbbb43fc4 oa:motivatedBy oa:tagging .
 
+nl:id_84de7f28399306d535578d7279a5f95982b3cb5c a oa:Annotation .
+nl:id_84de7f28399306d535578d7279a5f95982b3cb5c terms:title "Rachab helpt twee spionnen ontsnappen" .
+nl:id_84de7f28399306d535578d7279a5f95982b3cb5c ui:annotationField bible:ICBibleTheme .
+nl:id_84de7f28399306d535578d7279a5f95982b3cb5c ui:typingTime 0 .
+nl:id_84de7f28399306d535578d7279a5f95982b3cb5c oa:annotatedAt "2016-04-23T16:30:05+02:00"^^xsd:dateTime .
+nl:id_84de7f28399306d535578d7279a5f95982b3cb5c oa:annotatedBy user:paulinevandijk .
+nl:id_84de7f28399306d535578d7279a5f95982b3cb5c oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Rachab helpt twee spionnen ontsnappen" ] .
+nl:id_84de7f28399306d535578d7279a5f95982b3cb5c oa:hasTarget ubvu:print-218010001325 .
+nl:id_84de7f28399306d535578d7279a5f95982b3cb5c oa:motivatedBy oa:tagging .
+
 nl:id_ba9040bb4c36b9e9c44f04abb42a1b7ef40e89de a oa:Annotation .
 nl:id_ba9040bb4c36b9e9c44f04abb42a1b7ef40e89de terms:title "twee spionnen" .
 nl:id_ba9040bb4c36b9e9c44f04abb42a1b7ef40e89de ui:annotationField bible:BibleCharacter .
