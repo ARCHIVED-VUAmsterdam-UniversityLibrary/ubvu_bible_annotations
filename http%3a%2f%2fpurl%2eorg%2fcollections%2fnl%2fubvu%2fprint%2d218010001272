@@ -1,0 +1,19 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix user: <http://accurator.nl/user#> .
+
+<http://accurator.nl/id_19058a5f09dd3a13219a93e0760c9cdc97c4638a> a oa:Annotation .
+<http://accurator.nl/id_19058a5f09dd3a13219a93e0760c9cdc97c4638a> terms:title "Het gezag van Mozes en Aäron betwist. Korach, Datan en Abiram en hun gezinnen bestraft" .
+<http://accurator.nl/id_19058a5f09dd3a13219a93e0760c9cdc97c4638a> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
+<http://accurator.nl/id_19058a5f09dd3a13219a93e0760c9cdc97c4638a> ui:typingTime 0 .
+<http://accurator.nl/id_19058a5f09dd3a13219a93e0760c9cdc97c4638a> oa:annotatedAt "2016-04-23T16:40:08+02:00"^^xsd:dateTime .
+<http://accurator.nl/id_19058a5f09dd3a13219a93e0760c9cdc97c4638a> oa:annotatedBy user:paulinevandijk .
+<http://accurator.nl/id_19058a5f09dd3a13219a93e0760c9cdc97c4638a> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Het gezag van Mozes en Aäron betwist. Korach, Datan en Abiram en hun gezinnen bestraft" ] .
+<http://accurator.nl/id_19058a5f09dd3a13219a93e0760c9cdc97c4638a> oa:hasTarget ubvu:print-218010001272 .
+<http://accurator.nl/id_19058a5f09dd3a13219a93e0760c9cdc97c4638a> oa:motivatedBy oa:tagging .
