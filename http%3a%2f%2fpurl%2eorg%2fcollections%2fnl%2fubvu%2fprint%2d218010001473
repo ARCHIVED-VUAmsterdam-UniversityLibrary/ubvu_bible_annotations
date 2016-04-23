@@ -12,6 +12,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_2ab8b8aff255518a8a88822ffafdf3b959c83c36 a oa:Annotation .
+nl:id_2ab8b8aff255518a8a88822ffafdf3b959c83c36 terms:title "Abigaïl reist naar David" .
+nl:id_2ab8b8aff255518a8a88822ffafdf3b959c83c36 ui:annotationField bible:ICBibleTheme .
+nl:id_2ab8b8aff255518a8a88822ffafdf3b959c83c36 ui:typingTime 0 .
+nl:id_2ab8b8aff255518a8a88822ffafdf3b959c83c36 oa:annotatedAt "2016-04-23T16:20:56+02:00"^^xsd:dateTime .
+nl:id_2ab8b8aff255518a8a88822ffafdf3b959c83c36 oa:annotatedBy user:paulinevandijk .
+nl:id_2ab8b8aff255518a8a88822ffafdf3b959c83c36 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Abigaïl reist naar David" ] .
+nl:id_2ab8b8aff255518a8a88822ffafdf3b959c83c36 oa:hasTarget ubvu:print-218010001473 .
+nl:id_2ab8b8aff255518a8a88822ffafdf3b959c83c36 oa:motivatedBy oa:tagging .
+
 nl:id_5df35e0c0d2a6b91ce66f84cc469078068a73142 a oa:Annotation .
 nl:id_5df35e0c0d2a6b91ce66f84cc469078068a73142 terms:title "David" .
 nl:id_5df35e0c0d2a6b91ce66f84cc469078068a73142 ui:annotationField bible:BibleCharacter .
