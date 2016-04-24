@@ -35,6 +35,16 @@ nl:id_6c891cf65ff429dd67fbf76bcd5a65322b98c2b2 oa:hasTarget target:target_5126fc
 nl:id_6c891cf65ff429dd67fbf76bcd5a65322b98c2b2 oa:hasTarget ubvu:print-218010001411 .
 nl:id_6c891cf65ff429dd67fbf76bcd5a65322b98c2b2 oa:motivatedBy oa:tagging .
 
+nl:id_7861ec72989bb9e796de8f76b0df6c3b217a1c9f a oa:Annotation .
+nl:id_7861ec72989bb9e796de8f76b0df6c3b217a1c9f terms:title "Ruth bedankt Boaz" .
+nl:id_7861ec72989bb9e796de8f76b0df6c3b217a1c9f ui:annotationField bible:ICBibleTheme .
+nl:id_7861ec72989bb9e796de8f76b0df6c3b217a1c9f ui:typingTime 0 .
+nl:id_7861ec72989bb9e796de8f76b0df6c3b217a1c9f oa:annotatedAt "2016-04-24T14:58:15+02:00"^^xsd:dateTime .
+nl:id_7861ec72989bb9e796de8f76b0df6c3b217a1c9f oa:annotatedBy user:paulinevandijk .
+nl:id_7861ec72989bb9e796de8f76b0df6c3b217a1c9f oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Ruth bedankt Boaz" ] .
+nl:id_7861ec72989bb9e796de8f76b0df6c3b217a1c9f oa:hasTarget ubvu:print-218010001411 .
+nl:id_7861ec72989bb9e796de8f76b0df6c3b217a1c9f oa:motivatedBy oa:tagging .
+
 target:selector_5126fce0c88d5d2c98955f3019017d80df4d861a a oa:FragmentSelector .
 target:selector_5126fce0c88d5d2c98955f3019017d80df4d861a terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_5126fce0c88d5d2c98955f3019017d80df4d861a ui:h "0.15286624203821655"^^xsd:float .
