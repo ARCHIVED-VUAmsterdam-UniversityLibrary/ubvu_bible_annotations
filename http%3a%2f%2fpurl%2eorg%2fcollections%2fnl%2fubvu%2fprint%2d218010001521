@@ -24,6 +24,16 @@ nl:id_2082e1157b564b9d0660b64ddef9c8efc4a6020c oa:hasTarget target:target_42877e
 nl:id_2082e1157b564b9d0660b64ddef9c8efc4a6020c oa:hasTarget ubvu:print-218010001521 .
 nl:id_2082e1157b564b9d0660b64ddef9c8efc4a6020c oa:motivatedBy oa:tagging .
 
+nl:id_37d8a1798ae3481b8f89982e316708a9d5e19ea8 a oa:Annotation .
+nl:id_37d8a1798ae3481b8f89982e316708a9d5e19ea8 terms:title "Naäman biedt aan Elisa geschenken aan" .
+nl:id_37d8a1798ae3481b8f89982e316708a9d5e19ea8 ui:annotationField bible:ICBibleTheme .
+nl:id_37d8a1798ae3481b8f89982e316708a9d5e19ea8 ui:typingTime 0 .
+nl:id_37d8a1798ae3481b8f89982e316708a9d5e19ea8 oa:annotatedAt "2016-04-24T14:48:00+02:00"^^xsd:dateTime .
+nl:id_37d8a1798ae3481b8f89982e316708a9d5e19ea8 oa:annotatedBy user:paulinevandijk .
+nl:id_37d8a1798ae3481b8f89982e316708a9d5e19ea8 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Naäman biedt aan Elisa geschenken aan" ] .
+nl:id_37d8a1798ae3481b8f89982e316708a9d5e19ea8 oa:hasTarget ubvu:print-218010001521 .
+nl:id_37d8a1798ae3481b8f89982e316708a9d5e19ea8 oa:motivatedBy oa:tagging .
+
 nl:id_468d2914ec7c9ab16be3e414135ede5d3c549750 a oa:Annotation .
 nl:id_468d2914ec7c9ab16be3e414135ede5d3c549750 terms:title "Gehazi" .
 nl:id_468d2914ec7c9ab16be3e414135ede5d3c549750 ui:annotationField bible:BibleCharacter .
