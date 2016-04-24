@@ -78,6 +78,16 @@ nl:id_6fcc62315b9ce812653351620c56de3df56d51e9 oa:hasBody [ a content:ContentAsT
 nl:id_6fcc62315b9ce812653351620c56de3df56d51e9 oa:hasTarget ubvu:print-218010002008 .
 nl:id_6fcc62315b9ce812653351620c56de3df56d51e9 oa:motivatedBy oa:tagging .
 
+nl:id_7d83a0cc6f3c82d14e448321998467321fce4937 a oa:Annotation .
+nl:id_7d83a0cc6f3c82d14e448321998467321fce4937 terms:title "Vernietiging van Jericho. Achan stort Israël in het ongeluk." .
+nl:id_7d83a0cc6f3c82d14e448321998467321fce4937 ui:annotationField bible:ICBibleTheme .
+nl:id_7d83a0cc6f3c82d14e448321998467321fce4937 ui:typingTime 0 .
+nl:id_7d83a0cc6f3c82d14e448321998467321fce4937 oa:annotatedAt "2016-04-24T14:56:30+02:00"^^xsd:dateTime .
+nl:id_7d83a0cc6f3c82d14e448321998467321fce4937 oa:annotatedBy user:paulinevandijk .
+nl:id_7d83a0cc6f3c82d14e448321998467321fce4937 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Vernietiging van Jericho. Achan stort Israël in het ongeluk." ] .
+nl:id_7d83a0cc6f3c82d14e448321998467321fce4937 oa:hasTarget ubvu:print-218010002008 .
+nl:id_7d83a0cc6f3c82d14e448321998467321fce4937 oa:motivatedBy oa:tagging .
+
 nl:id_d7e82b450bda2bb95f770cb136f6d190e7528ef5 a oa:Annotation .
 nl:id_d7e82b450bda2bb95f770cb136f6d190e7528ef5 terms:title "Josua" .
 nl:id_d7e82b450bda2bb95f770cb136f6d190e7528ef5 ui:annotationField bible:BibleCharacter .
