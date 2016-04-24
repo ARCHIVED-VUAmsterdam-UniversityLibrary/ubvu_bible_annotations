@@ -34,6 +34,16 @@ nl:id_91686e21025bcaa70d7fcce4446d95b291008bad oa:hasTarget target:target_4aeb72
 nl:id_91686e21025bcaa70d7fcce4446d95b291008bad oa:hasTarget ubvu:print-218010001079 .
 nl:id_91686e21025bcaa70d7fcce4446d95b291008bad oa:motivatedBy oa:tagging .
 
+nl:id_bdfafe2b3de2d63729308fde7dc1b58d3968d6dd a oa:Annotation .
+nl:id_bdfafe2b3de2d63729308fde7dc1b58d3968d6dd terms:title "Abraham besnijdt zijn zoon Ismaël en alle mannelijke huisgenoten." .
+nl:id_bdfafe2b3de2d63729308fde7dc1b58d3968d6dd ui:annotationField bible:ICBibleTheme .
+nl:id_bdfafe2b3de2d63729308fde7dc1b58d3968d6dd ui:typingTime 0 .
+nl:id_bdfafe2b3de2d63729308fde7dc1b58d3968d6dd oa:annotatedAt "2016-04-24T14:29:01+02:00"^^xsd:dateTime .
+nl:id_bdfafe2b3de2d63729308fde7dc1b58d3968d6dd oa:annotatedBy user:paulinevandijk .
+nl:id_bdfafe2b3de2d63729308fde7dc1b58d3968d6dd oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Abraham besnijdt zijn zoon Ismaël en alle mannelijke huisgenoten." ] .
+nl:id_bdfafe2b3de2d63729308fde7dc1b58d3968d6dd oa:hasTarget ubvu:print-218010001079 .
+nl:id_bdfafe2b3de2d63729308fde7dc1b58d3968d6dd oa:motivatedBy oa:tagging .
+
 target:selector_1b12bef8e59d9a715e613e3c64c8607d2413f8c7 a oa:FragmentSelector .
 target:selector_1b12bef8e59d9a715e613e3c64c8607d2413f8c7 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_1b12bef8e59d9a715e613e3c64c8607d2413f8c7 ui:h "0.23031496062992127"^^xsd:float .
