@@ -8,17 +8,29 @@
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_69f43f1eaa98b7e02791b6c589b98a60f73d1243> a oa:Annotation .
-<http://accurator.nl/id_69f43f1eaa98b7e02791b6c589b98a60f73d1243> terms:title "Samaritaan" .
-<http://accurator.nl/id_69f43f1eaa98b7e02791b6c589b98a60f73d1243> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_69f43f1eaa98b7e02791b6c589b98a60f73d1243> ui:typingTime 0 .
-<http://accurator.nl/id_69f43f1eaa98b7e02791b6c589b98a60f73d1243> oa:annotatedAt "2016-04-24T15:00:26+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_69f43f1eaa98b7e02791b6c589b98a60f73d1243> oa:annotatedBy user:paulinevandijk .
-<http://accurator.nl/id_69f43f1eaa98b7e02791b6c589b98a60f73d1243> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Samaritaan" ] .
-<http://accurator.nl/id_69f43f1eaa98b7e02791b6c589b98a60f73d1243> oa:hasTarget target:target_a9109a17c775c6adc45758786fd192ddbbf5919a .
-<http://accurator.nl/id_69f43f1eaa98b7e02791b6c589b98a60f73d1243> oa:hasTarget ubvu:print-218010001791 .
-<http://accurator.nl/id_69f43f1eaa98b7e02791b6c589b98a60f73d1243> oa:motivatedBy oa:tagging .
+nl:id_69f43f1eaa98b7e02791b6c589b98a60f73d1243 a oa:Annotation .
+nl:id_69f43f1eaa98b7e02791b6c589b98a60f73d1243 terms:title "Samaritaan" .
+nl:id_69f43f1eaa98b7e02791b6c589b98a60f73d1243 ui:annotationField bible:BibleCharacter .
+nl:id_69f43f1eaa98b7e02791b6c589b98a60f73d1243 ui:typingTime 0 .
+nl:id_69f43f1eaa98b7e02791b6c589b98a60f73d1243 oa:annotatedAt "2016-04-24T15:00:26+02:00"^^xsd:dateTime .
+nl:id_69f43f1eaa98b7e02791b6c589b98a60f73d1243 oa:annotatedBy user:paulinevandijk .
+nl:id_69f43f1eaa98b7e02791b6c589b98a60f73d1243 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Samaritaan" ] .
+nl:id_69f43f1eaa98b7e02791b6c589b98a60f73d1243 oa:hasTarget target:target_a9109a17c775c6adc45758786fd192ddbbf5919a .
+nl:id_69f43f1eaa98b7e02791b6c589b98a60f73d1243 oa:hasTarget ubvu:print-218010001791 .
+nl:id_69f43f1eaa98b7e02791b6c589b98a60f73d1243 oa:motivatedBy oa:tagging .
+
+nl:id_8a94bb31972a1f9bceb5523e2663d0c612dbdb6a a oa:Annotation .
+nl:id_8a94bb31972a1f9bceb5523e2663d0c612dbdb6a terms:title "De barmhartige Samaritaan" .
+nl:id_8a94bb31972a1f9bceb5523e2663d0c612dbdb6a ui:annotationField bible:ICBibleTheme .
+nl:id_8a94bb31972a1f9bceb5523e2663d0c612dbdb6a ui:typingTime 0 .
+nl:id_8a94bb31972a1f9bceb5523e2663d0c612dbdb6a oa:annotatedAt "2016-04-24T15:00:39+02:00"^^xsd:dateTime .
+nl:id_8a94bb31972a1f9bceb5523e2663d0c612dbdb6a oa:annotatedBy user:paulinevandijk .
+nl:id_8a94bb31972a1f9bceb5523e2663d0c612dbdb6a oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "De barmhartige Samaritaan" ] .
+nl:id_8a94bb31972a1f9bceb5523e2663d0c612dbdb6a oa:hasTarget ubvu:print-218010001791 .
+nl:id_8a94bb31972a1f9bceb5523e2663d0c612dbdb6a oa:motivatedBy oa:tagging .
 
 target:selector_a9109a17c775c6adc45758786fd192ddbbf5919a a oa:FragmentSelector .
 target:selector_a9109a17c775c6adc45758786fd192ddbbf5919a terms:conformsTo <http://www.w3.org/TR/media-frags/> .
