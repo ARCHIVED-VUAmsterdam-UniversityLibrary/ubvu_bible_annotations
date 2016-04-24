@@ -35,6 +35,16 @@ nl:id_54f2efe1020422c333d7e6e94a4bc6b127c7abd6 oa:hasTarget target:target_aae799
 nl:id_54f2efe1020422c333d7e6e94a4bc6b127c7abd6 oa:hasTarget ubvu:print-218010002008 .
 nl:id_54f2efe1020422c333d7e6e94a4bc6b127c7abd6 oa:motivatedBy oa:tagging .
 
+nl:id_6fcc62315b9ce812653351620c56de3df56d51e9 a oa:Annotation .
+nl:id_6fcc62315b9ce812653351620c56de3df56d51e9 terms:title "Spionnen in Jericho. Overtocht over de Jordaan." .
+nl:id_6fcc62315b9ce812653351620c56de3df56d51e9 ui:annotationField bible:ICBibleTheme .
+nl:id_6fcc62315b9ce812653351620c56de3df56d51e9 ui:typingTime 0 .
+nl:id_6fcc62315b9ce812653351620c56de3df56d51e9 oa:annotatedAt "2016-04-24T14:51:36+02:00"^^xsd:dateTime .
+nl:id_6fcc62315b9ce812653351620c56de3df56d51e9 oa:annotatedBy user:paulinevandijk .
+nl:id_6fcc62315b9ce812653351620c56de3df56d51e9 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Spionnen in Jericho. Overtocht over de Jordaan." ] .
+nl:id_6fcc62315b9ce812653351620c56de3df56d51e9 oa:hasTarget ubvu:print-218010002008 .
+nl:id_6fcc62315b9ce812653351620c56de3df56d51e9 oa:motivatedBy oa:tagging .
+
 nl:id_fd0cf699f2570f37334bac919be49aecf3d48e60 a oa:Annotation .
 nl:id_fd0cf699f2570f37334bac919be49aecf3d48e60 terms:title "Rachab" .
 nl:id_fd0cf699f2570f37334bac919be49aecf3d48e60 ui:annotationField bible:BibleCharacter .
