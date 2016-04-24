@@ -57,6 +57,17 @@ nl:id_6d5b15604f9204ae8f05856552900dbecab8db81 oa:hasTarget target:target_c99901
 nl:id_6d5b15604f9204ae8f05856552900dbecab8db81 oa:hasTarget ubvu:print-218010002008 .
 nl:id_6d5b15604f9204ae8f05856552900dbecab8db81 oa:motivatedBy oa:tagging .
 
+nl:id_6e7b4fc6ad21b064ad22dcdc36f1b66629d5780e a oa:Annotation .
+nl:id_6e7b4fc6ad21b064ad22dcdc36f1b66629d5780e terms:title "Achan en zijn gehele huis " .
+nl:id_6e7b4fc6ad21b064ad22dcdc36f1b66629d5780e ui:annotationField bible:BibleCharacter .
+nl:id_6e7b4fc6ad21b064ad22dcdc36f1b66629d5780e ui:typingTime 0 .
+nl:id_6e7b4fc6ad21b064ad22dcdc36f1b66629d5780e oa:annotatedAt "2016-04-24T14:55:29+02:00"^^xsd:dateTime .
+nl:id_6e7b4fc6ad21b064ad22dcdc36f1b66629d5780e oa:annotatedBy user:paulinevandijk .
+nl:id_6e7b4fc6ad21b064ad22dcdc36f1b66629d5780e oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Achan en zijn gehele huis " ] .
+nl:id_6e7b4fc6ad21b064ad22dcdc36f1b66629d5780e oa:hasTarget target:target_6a5e670556562b0533da4e2d864917fffd164478 .
+nl:id_6e7b4fc6ad21b064ad22dcdc36f1b66629d5780e oa:hasTarget ubvu:print-218010002008 .
+nl:id_6e7b4fc6ad21b064ad22dcdc36f1b66629d5780e oa:motivatedBy oa:tagging .
+
 nl:id_6fcc62315b9ce812653351620c56de3df56d51e9 a oa:Annotation .
 nl:id_6fcc62315b9ce812653351620c56de3df56d51e9 terms:title "Spionnen in Jericho. Overtocht over de Jordaan." .
 nl:id_6fcc62315b9ce812653351620c56de3df56d51e9 ui:annotationField bible:ICBibleTheme .
@@ -105,6 +116,14 @@ target:selector_5e08d025f788cfcc31d19600f6e73d20ed1e237b ui:x "0.536082474226804
 target:selector_5e08d025f788cfcc31d19600f6e73d20ed1e237b ui:y "0.5196671709531013"^^xsd:float .
 target:selector_5e08d025f788cfcc31d19600f6e73d20ed1e237b rdf:value "#xywh=percent:54,52,6,10" .
 
+target:selector_6a5e670556562b0533da4e2d864917fffd164478 a oa:FragmentSelector .
+target:selector_6a5e670556562b0533da4e2d864917fffd164478 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_6a5e670556562b0533da4e2d864917fffd164478 ui:h "0.04236006051437216"^^xsd:float .
+target:selector_6a5e670556562b0533da4e2d864917fffd164478 ui:w "0.0443298969072165"^^xsd:float .
+target:selector_6a5e670556562b0533da4e2d864917fffd164478 ui:x "0.5731958762886598"^^xsd:float .
+target:selector_6a5e670556562b0533da4e2d864917fffd164478 ui:y "0.7201210287443268"^^xsd:float .
+target:selector_6a5e670556562b0533da4e2d864917fffd164478 rdf:value "#xywh=percent:57,72,4,4" .
+
 target:selector_aae799d89df892060936bf5a496fec21d9999e50 a oa:FragmentSelector .
 target:selector_aae799d89df892060936bf5a496fec21d9999e50 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_aae799d89df892060936bf5a496fec21d9999e50 ui:h "0.0453857791225416"^^xsd:float .
@@ -144,6 +163,10 @@ target:target_273e1c0b375213807e6af43a83c5348d2de98378 oa:hasSource <http://imag
 target:target_5e08d025f788cfcc31d19600f6e73d20ed1e237b a oa:SpecificResource .
 target:target_5e08d025f788cfcc31d19600f6e73d20ed1e237b oa:hasSelector target:selector_5e08d025f788cfcc31d19600f6e73d20ed1e237b .
 target:target_5e08d025f788cfcc31d19600f6e73d20ed1e237b oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/7> .
+
+target:target_6a5e670556562b0533da4e2d864917fffd164478 a oa:SpecificResource .
+target:target_6a5e670556562b0533da4e2d864917fffd164478 oa:hasSelector target:selector_6a5e670556562b0533da4e2d864917fffd164478 .
+target:target_6a5e670556562b0533da4e2d864917fffd164478 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/7> .
 
 target:target_aae799d89df892060936bf5a496fec21d9999e50 a oa:SpecificResource .
 target:target_aae799d89df892060936bf5a496fec21d9999e50 oa:hasSelector target:selector_aae799d89df892060936bf5a496fec21d9999e50 .
