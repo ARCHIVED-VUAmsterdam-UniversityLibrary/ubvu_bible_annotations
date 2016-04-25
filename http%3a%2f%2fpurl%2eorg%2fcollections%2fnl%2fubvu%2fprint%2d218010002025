@@ -13,6 +13,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_05458b05aed9541123535442cf1efc1d830e7e50 a oa:Annotation .
+nl:id_05458b05aed9541123535442cf1efc1d830e7e50 terms:title "David speelt voor koning Saul. Spreuken van Salomo" .
+nl:id_05458b05aed9541123535442cf1efc1d830e7e50 ui:annotationField bible:ICBibleTheme .
+nl:id_05458b05aed9541123535442cf1efc1d830e7e50 ui:typingTime 0 .
+nl:id_05458b05aed9541123535442cf1efc1d830e7e50 oa:annotatedAt "2016-04-25T17:34:55+02:00"^^xsd:dateTime .
+nl:id_05458b05aed9541123535442cf1efc1d830e7e50 oa:annotatedBy user:paulinevandijk .
+nl:id_05458b05aed9541123535442cf1efc1d830e7e50 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "David speelt voor koning Saul. Spreuken van Salomo" ] .
+nl:id_05458b05aed9541123535442cf1efc1d830e7e50 oa:hasTarget ubvu:print-218010002025 .
+nl:id_05458b05aed9541123535442cf1efc1d830e7e50 oa:motivatedBy oa:tagging .
+
 nl:id_1e333551a6e56534ad38a24d5d99d4c7539aa789 a oa:Annotation .
 nl:id_1e333551a6e56534ad38a24d5d99d4c7539aa789 terms:title "Saul" .
 nl:id_1e333551a6e56534ad38a24d5d99d4c7539aa789 ui:annotationField bible:BibleCharacter .
