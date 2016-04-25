@@ -35,6 +35,16 @@ nl:id_1f2e80acba19081e591f09e5f7723ae2b5eaf101 oa:hasTarget target:target_fd4a07
 nl:id_1f2e80acba19081e591f09e5f7723ae2b5eaf101 oa:hasTarget ubvu:print-218010002016 .
 nl:id_1f2e80acba19081e591f09e5f7723ae2b5eaf101 oa:motivatedBy oa:tagging .
 
+nl:id_4c6f5272b7e6decef0d14187203fe498aba2b128 a oa:Annotation .
+nl:id_4c6f5272b7e6decef0d14187203fe498aba2b128 terms:title "Joab gedood.  Salomo vraagt om wijsheid. Twee vrouwen bij koning Salomo. Bezoek van de koningin van Seba. Salomo trouwt de dochter van de farao.    lomo" .
+nl:id_4c6f5272b7e6decef0d14187203fe498aba2b128 ui:annotationField bible:ICBibleTheme .
+nl:id_4c6f5272b7e6decef0d14187203fe498aba2b128 ui:typingTime 0 .
+nl:id_4c6f5272b7e6decef0d14187203fe498aba2b128 oa:annotatedAt "2016-04-25T17:08:11+02:00"^^xsd:dateTime .
+nl:id_4c6f5272b7e6decef0d14187203fe498aba2b128 oa:annotatedBy user:paulinevandijk .
+nl:id_4c6f5272b7e6decef0d14187203fe498aba2b128 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Joab gedood.  Salomo vraagt om wijsheid. Twee vrouwen bij koning Salomo. Bezoek van de koningin van Seba. Salomo trouwt de dochter van de farao.    lomo" ] .
+nl:id_4c6f5272b7e6decef0d14187203fe498aba2b128 oa:hasTarget ubvu:print-218010002016 .
+nl:id_4c6f5272b7e6decef0d14187203fe498aba2b128 oa:motivatedBy oa:tagging .
+
 nl:id_639965795b1f0290f6f6b2795b06314e5aa2fc34 a oa:Annotation .
 nl:id_639965795b1f0290f6f6b2795b06314e5aa2fc34 terms:title "Salomo" .
 nl:id_639965795b1f0290f6f6b2795b06314e5aa2fc34 ui:annotationField bible:BibleCharacter .
