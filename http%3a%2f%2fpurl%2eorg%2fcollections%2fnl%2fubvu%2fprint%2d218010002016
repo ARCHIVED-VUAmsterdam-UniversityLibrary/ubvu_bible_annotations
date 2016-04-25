@@ -89,6 +89,16 @@ nl:id_7494599e2bae010046c1a4f369e24ff3f2a83051 oa:hasTarget target:target_f3b2e0
 nl:id_7494599e2bae010046c1a4f369e24ff3f2a83051 oa:hasTarget ubvu:print-218010002016 .
 nl:id_7494599e2bae010046c1a4f369e24ff3f2a83051 oa:motivatedBy oa:tagging .
 
+nl:id_ae471e580638cc3a71bb3809573da052bfcb7132 a oa:Annotation .
+nl:id_ae471e580638cc3a71bb3809573da052bfcb7132 terms:title "Salomo's ontrouw. Profetie tegen Jerobeam. Jerobeam ontmoet Achia" .
+nl:id_ae471e580638cc3a71bb3809573da052bfcb7132 ui:annotationField bible:ICBibleTheme .
+nl:id_ae471e580638cc3a71bb3809573da052bfcb7132 ui:typingTime 0 .
+nl:id_ae471e580638cc3a71bb3809573da052bfcb7132 oa:annotatedAt "2016-04-25T17:16:12+02:00"^^xsd:dateTime .
+nl:id_ae471e580638cc3a71bb3809573da052bfcb7132 oa:annotatedBy user:paulinevandijk .
+nl:id_ae471e580638cc3a71bb3809573da052bfcb7132 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Salomo's ontrouw. Profetie tegen Jerobeam. Jerobeam ontmoet Achia" ] .
+nl:id_ae471e580638cc3a71bb3809573da052bfcb7132 oa:hasTarget ubvu:print-218010002016 .
+nl:id_ae471e580638cc3a71bb3809573da052bfcb7132 oa:motivatedBy oa:tagging .
+
 nl:id_b788e6a256f685fd46b0eb510e325a6fcf1712bc a oa:Annotation .
 nl:id_b788e6a256f685fd46b0eb510e325a6fcf1712bc terms:title "Jerobeam" .
 nl:id_b788e6a256f685fd46b0eb510e325a6fcf1712bc ui:annotationField bible:BibleCharacter .
