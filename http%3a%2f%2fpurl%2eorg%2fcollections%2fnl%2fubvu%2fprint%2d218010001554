@@ -1,9 +1,11 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
 @prefix media-frags: <http://www.w3.org/TR/media-frags/> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix resource: <http://bibleontology.com/resource/> .
@@ -21,6 +23,16 @@ nl:id_15709e1ba4cc0027ff38637e8b66d3f59fa6978e oa:hasBody resource:Hilkiah .
 nl:id_15709e1ba4cc0027ff38637e8b66d3f59fa6978e oa:hasTarget target:target_0ce8d2369f9567394a0c1310d75f3e8fb6c5462a .
 nl:id_15709e1ba4cc0027ff38637e8b66d3f59fa6978e oa:hasTarget ubvu:print-218010001554 .
 nl:id_15709e1ba4cc0027ff38637e8b66d3f59fa6978e oa:motivatedBy oa:tagging .
+
+nl:id_66ea523181e0a9bc4533e7911e81eb0007dcacfe a oa:Annotation .
+nl:id_66ea523181e0a9bc4533e7911e81eb0007dcacfe terms:title "Chilkia leest de wet van de Heer voor" .
+nl:id_66ea523181e0a9bc4533e7911e81eb0007dcacfe ui:annotationField bible:ICBibleTheme .
+nl:id_66ea523181e0a9bc4533e7911e81eb0007dcacfe ui:typingTime 0 .
+nl:id_66ea523181e0a9bc4533e7911e81eb0007dcacfe oa:annotatedAt "2016-04-25T17:22:28+02:00"^^xsd:dateTime .
+nl:id_66ea523181e0a9bc4533e7911e81eb0007dcacfe oa:annotatedBy user:paulinevandijk .
+nl:id_66ea523181e0a9bc4533e7911e81eb0007dcacfe oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Chilkia leest de wet van de Heer voor" ] .
+nl:id_66ea523181e0a9bc4533e7911e81eb0007dcacfe oa:hasTarget ubvu:print-218010001554 .
+nl:id_66ea523181e0a9bc4533e7911e81eb0007dcacfe oa:motivatedBy oa:tagging .
 
 nl:id_db41d2008cd04531f29b69d609abc627d30782e7 a oa:Annotation .
 nl:id_db41d2008cd04531f29b69d609abc627d30782e7 terms:title "Josia" .
