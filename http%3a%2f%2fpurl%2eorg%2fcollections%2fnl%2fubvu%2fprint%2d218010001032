@@ -23,6 +23,16 @@ nl:id_1fcb484edb0880a4ba83a340f6fa314fc8fb0f62 oa:hasTarget target:target_355397
 nl:id_1fcb484edb0880a4ba83a340f6fa314fc8fb0f62 oa:hasTarget ubvu:print-218010001032 .
 nl:id_1fcb484edb0880a4ba83a340f6fa314fc8fb0f62 oa:motivatedBy oa:tagging .
 
+nl:id_6c5860d302ea3545747f3f75331d081f2047daa1 a oa:Annotation .
+nl:id_6c5860d302ea3545747f3f75331d081f2047daa1 terms:title "Een levenlang zwoegen voor je eten" .
+nl:id_6c5860d302ea3545747f3f75331d081f2047daa1 ui:annotationField bible:ICBibleTheme .
+nl:id_6c5860d302ea3545747f3f75331d081f2047daa1 ui:typingTime 0 .
+nl:id_6c5860d302ea3545747f3f75331d081f2047daa1 oa:annotatedAt "2016-04-25T16:25:43+02:00"^^xsd:dateTime .
+nl:id_6c5860d302ea3545747f3f75331d081f2047daa1 oa:annotatedBy user:paulinevandijk .
+nl:id_6c5860d302ea3545747f3f75331d081f2047daa1 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Een levenlang zwoegen voor je eten" ] .
+nl:id_6c5860d302ea3545747f3f75331d081f2047daa1 oa:hasTarget ubvu:print-218010001032 .
+nl:id_6c5860d302ea3545747f3f75331d081f2047daa1 oa:motivatedBy oa:tagging .
+
 nl:id_b62408370f45ab1c7a9b26dd542133935e7b3c9b a oa:Annotation .
 nl:id_b62408370f45ab1c7a9b26dd542133935e7b3c9b terms:title "Abel" .
 nl:id_b62408370f45ab1c7a9b26dd542133935e7b3c9b ui:annotationField bible:BibleCharacter .
