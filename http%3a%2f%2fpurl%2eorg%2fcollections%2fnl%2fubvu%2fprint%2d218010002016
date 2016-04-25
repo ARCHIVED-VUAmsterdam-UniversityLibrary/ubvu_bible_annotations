@@ -1,9 +1,11 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
 @prefix media-frags: <http://www.w3.org/TR/media-frags/> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix resource: <http://bibleontology.com/resource/> .
@@ -44,6 +46,17 @@ nl:id_639965795b1f0290f6f6b2795b06314e5aa2fc34 oa:hasTarget target:target_6e1895
 nl:id_639965795b1f0290f6f6b2795b06314e5aa2fc34 oa:hasTarget ubvu:print-218010002016 .
 nl:id_639965795b1f0290f6f6b2795b06314e5aa2fc34 oa:motivatedBy oa:tagging .
 
+nl:id_7494599e2bae010046c1a4f369e24ff3f2a83051 a oa:Annotation .
+nl:id_7494599e2bae010046c1a4f369e24ff3f2a83051 terms:title "Salomo" .
+nl:id_7494599e2bae010046c1a4f369e24ff3f2a83051 ui:annotationField bible:BibleCharacter .
+nl:id_7494599e2bae010046c1a4f369e24ff3f2a83051 ui:typingTime 0 .
+nl:id_7494599e2bae010046c1a4f369e24ff3f2a83051 oa:annotatedAt "2016-04-25T17:07:13+02:00"^^xsd:dateTime .
+nl:id_7494599e2bae010046c1a4f369e24ff3f2a83051 oa:annotatedBy user:paulinevandijk .
+nl:id_7494599e2bae010046c1a4f369e24ff3f2a83051 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Salomo" ] .
+nl:id_7494599e2bae010046c1a4f369e24ff3f2a83051 oa:hasTarget target:target_f3b2e038f41ecb0c0e3976561f47f5b1abf023dd .
+nl:id_7494599e2bae010046c1a4f369e24ff3f2a83051 oa:hasTarget ubvu:print-218010002016 .
+nl:id_7494599e2bae010046c1a4f369e24ff3f2a83051 oa:motivatedBy oa:tagging .
+
 target:selector_6e18953af431fc8829940dc5f0429dc80957d1e6 a oa:FragmentSelector .
 target:selector_6e18953af431fc8829940dc5f0429dc80957d1e6 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_6e18953af431fc8829940dc5f0429dc80957d1e6 ui:h "0.1055350553505535"^^xsd:float .
@@ -60,6 +73,14 @@ target:selector_9c037dc1fb88f2aa5dafda0a0c10300b0486f239 ui:x "0.546391752577319
 target:selector_9c037dc1fb88f2aa5dafda0a0c10300b0486f239 ui:y "0.14169741697416974"^^xsd:float .
 target:selector_9c037dc1fb88f2aa5dafda0a0c10300b0486f239 rdf:value "#xywh=percent:55,14,12,7" .
 
+target:selector_f3b2e038f41ecb0c0e3976561f47f5b1abf023dd a oa:FragmentSelector .
+target:selector_f3b2e038f41ecb0c0e3976561f47f5b1abf023dd terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_f3b2e038f41ecb0c0e3976561f47f5b1abf023dd ui:h "0.09446494464944649"^^xsd:float .
+target:selector_f3b2e038f41ecb0c0e3976561f47f5b1abf023dd ui:w "0.0711340206185567"^^xsd:float .
+target:selector_f3b2e038f41ecb0c0e3976561f47f5b1abf023dd ui:x "0.5814432989690722"^^xsd:float .
+target:selector_f3b2e038f41ecb0c0e3976561f47f5b1abf023dd ui:y "0.31439114391143913"^^xsd:float .
+target:selector_f3b2e038f41ecb0c0e3976561f47f5b1abf023dd rdf:value "#xywh=percent:58,31,7,9" .
+
 target:selector_fd4a07f55b35fc40cb3ab0fd58a19f03e4f69902 a oa:FragmentSelector .
 target:selector_fd4a07f55b35fc40cb3ab0fd58a19f03e4f69902 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_fd4a07f55b35fc40cb3ab0fd58a19f03e4f69902 ui:h "0.07306273062730627"^^xsd:float .
@@ -75,6 +96,10 @@ target:target_6e18953af431fc8829940dc5f0429dc80957d1e6 oa:hasSource <http://imag
 target:target_9c037dc1fb88f2aa5dafda0a0c10300b0486f239 a oa:SpecificResource .
 target:target_9c037dc1fb88f2aa5dafda0a0c10300b0486f239 oa:hasSelector target:selector_9c037dc1fb88f2aa5dafda0a0c10300b0486f239 .
 target:target_9c037dc1fb88f2aa5dafda0a0c10300b0486f239 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/15> .
+
+target:target_f3b2e038f41ecb0c0e3976561f47f5b1abf023dd a oa:SpecificResource .
+target:target_f3b2e038f41ecb0c0e3976561f47f5b1abf023dd oa:hasSelector target:selector_f3b2e038f41ecb0c0e3976561f47f5b1abf023dd .
+target:target_f3b2e038f41ecb0c0e3976561f47f5b1abf023dd oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/15> .
 
 target:target_fd4a07f55b35fc40cb3ab0fd58a19f03e4f69902 a oa:SpecificResource .
 target:target_fd4a07f55b35fc40cb3ab0fd58a19f03e4f69902 oa:hasSelector target:selector_fd4a07f55b35fc40cb3ab0fd58a19f03e4f69902 .
