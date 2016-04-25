@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
@@ -7,17 +8,30 @@
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_15709e1ba4cc0027ff38637e8b66d3f59fa6978e> a oa:Annotation .
-<http://accurator.nl/id_15709e1ba4cc0027ff38637e8b66d3f59fa6978e> terms:title "Chilkia" .
-<http://accurator.nl/id_15709e1ba4cc0027ff38637e8b66d3f59fa6978e> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_15709e1ba4cc0027ff38637e8b66d3f59fa6978e> ui:typingTime 0 .
-<http://accurator.nl/id_15709e1ba4cc0027ff38637e8b66d3f59fa6978e> oa:annotatedAt "2016-04-25T17:21:06+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_15709e1ba4cc0027ff38637e8b66d3f59fa6978e> oa:annotatedBy user:paulinevandijk .
-<http://accurator.nl/id_15709e1ba4cc0027ff38637e8b66d3f59fa6978e> oa:hasBody resource:Hilkiah .
-<http://accurator.nl/id_15709e1ba4cc0027ff38637e8b66d3f59fa6978e> oa:hasTarget target:target_0ce8d2369f9567394a0c1310d75f3e8fb6c5462a .
-<http://accurator.nl/id_15709e1ba4cc0027ff38637e8b66d3f59fa6978e> oa:hasTarget ubvu:print-218010001554 .
-<http://accurator.nl/id_15709e1ba4cc0027ff38637e8b66d3f59fa6978e> oa:motivatedBy oa:tagging .
+nl:id_15709e1ba4cc0027ff38637e8b66d3f59fa6978e a oa:Annotation .
+nl:id_15709e1ba4cc0027ff38637e8b66d3f59fa6978e terms:title "Chilkia" .
+nl:id_15709e1ba4cc0027ff38637e8b66d3f59fa6978e ui:annotationField bible:BibleCharacter .
+nl:id_15709e1ba4cc0027ff38637e8b66d3f59fa6978e ui:typingTime 0 .
+nl:id_15709e1ba4cc0027ff38637e8b66d3f59fa6978e oa:annotatedAt "2016-04-25T17:21:06+02:00"^^xsd:dateTime .
+nl:id_15709e1ba4cc0027ff38637e8b66d3f59fa6978e oa:annotatedBy user:paulinevandijk .
+nl:id_15709e1ba4cc0027ff38637e8b66d3f59fa6978e oa:hasBody resource:Hilkiah .
+nl:id_15709e1ba4cc0027ff38637e8b66d3f59fa6978e oa:hasTarget target:target_0ce8d2369f9567394a0c1310d75f3e8fb6c5462a .
+nl:id_15709e1ba4cc0027ff38637e8b66d3f59fa6978e oa:hasTarget ubvu:print-218010001554 .
+nl:id_15709e1ba4cc0027ff38637e8b66d3f59fa6978e oa:motivatedBy oa:tagging .
+
+nl:id_db41d2008cd04531f29b69d609abc627d30782e7 a oa:Annotation .
+nl:id_db41d2008cd04531f29b69d609abc627d30782e7 terms:title "Josia" .
+nl:id_db41d2008cd04531f29b69d609abc627d30782e7 ui:annotationField bible:BibleCharacter .
+nl:id_db41d2008cd04531f29b69d609abc627d30782e7 ui:typingTime 0 .
+nl:id_db41d2008cd04531f29b69d609abc627d30782e7 oa:annotatedAt "2016-04-25T17:21:46+02:00"^^xsd:dateTime .
+nl:id_db41d2008cd04531f29b69d609abc627d30782e7 oa:annotatedBy user:paulinevandijk .
+nl:id_db41d2008cd04531f29b69d609abc627d30782e7 oa:hasBody resource:Josiah .
+nl:id_db41d2008cd04531f29b69d609abc627d30782e7 oa:hasTarget target:target_f900a9404186d6d6dc9ea82f636b310a73782f88 .
+nl:id_db41d2008cd04531f29b69d609abc627d30782e7 oa:hasTarget ubvu:print-218010001554 .
+nl:id_db41d2008cd04531f29b69d609abc627d30782e7 oa:motivatedBy oa:tagging .
 
 target:selector_0ce8d2369f9567394a0c1310d75f3e8fb6c5462a a oa:FragmentSelector .
 target:selector_0ce8d2369f9567394a0c1310d75f3e8fb6c5462a terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -27,6 +41,18 @@ target:selector_0ce8d2369f9567394a0c1310d75f3e8fb6c5462a ui:x "0.402061855670103
 target:selector_0ce8d2369f9567394a0c1310d75f3e8fb6c5462a ui:y "0.5808556925308195"^^xsd:float .
 target:selector_0ce8d2369f9567394a0c1310d75f3e8fb6c5462a rdf:value "#xywh=percent:40,58,16,23" .
 
+target:selector_f900a9404186d6d6dc9ea82f636b310a73782f88 a oa:FragmentSelector .
+target:selector_f900a9404186d6d6dc9ea82f636b310a73782f88 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_f900a9404186d6d6dc9ea82f636b310a73782f88 ui:h "0.19724437998549674"^^xsd:float .
+target:selector_f900a9404186d6d6dc9ea82f636b310a73782f88 ui:w "0.14432989690721648"^^xsd:float .
+target:selector_f900a9404186d6d6dc9ea82f636b310a73782f88 ui:x "0.6422680412371135"^^xsd:float .
+target:selector_f900a9404186d6d6dc9ea82f636b310a73782f88 ui:y "0.5620014503263234"^^xsd:float .
+target:selector_f900a9404186d6d6dc9ea82f636b310a73782f88 rdf:value "#xywh=percent:64,56,14,20" .
+
 target:target_0ce8d2369f9567394a0c1310d75f3e8fb6c5462a a oa:SpecificResource .
 target:target_0ce8d2369f9567394a0c1310d75f3e8fb6c5462a oa:hasSelector target:selector_0ce8d2369f9567394a0c1310d75f3e8fb6c5462a .
 target:target_0ce8d2369f9567394a0c1310d75f3e8fb6c5462a oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/595> .
+
+target:target_f900a9404186d6d6dc9ea82f636b310a73782f88 a oa:SpecificResource .
+target:target_f900a9404186d6d6dc9ea82f636b310a73782f88 oa:hasSelector target:selector_f900a9404186d6d6dc9ea82f636b310a73782f88 .
+target:target_f900a9404186d6d6dc9ea82f636b310a73782f88 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/595> .
