@@ -24,6 +24,16 @@ nl:id_1753d1508e44cb6b64c5b52debc9bd4b28d11088 oa:hasTarget target:target_fb6719
 nl:id_1753d1508e44cb6b64c5b52debc9bd4b28d11088 oa:hasTarget ubvu:print-218010001453 .
 nl:id_1753d1508e44cb6b64c5b52debc9bd4b28d11088 oa:motivatedBy oa:tagging .
 
+nl:id_568e5873d4ae466a01ba228b654abb76b899ab8c a oa:Annotation .
+nl:id_568e5873d4ae466a01ba228b654abb76b899ab8c terms:title "Samuel onthooft koning Agag van Amalek" .
+nl:id_568e5873d4ae466a01ba228b654abb76b899ab8c ui:annotationField bible:ICBibleTheme .
+nl:id_568e5873d4ae466a01ba228b654abb76b899ab8c ui:typingTime 0 .
+nl:id_568e5873d4ae466a01ba228b654abb76b899ab8c oa:annotatedAt "2016-04-25T17:27:06+02:00"^^xsd:dateTime .
+nl:id_568e5873d4ae466a01ba228b654abb76b899ab8c oa:annotatedBy user:paulinevandijk .
+nl:id_568e5873d4ae466a01ba228b654abb76b899ab8c oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Samuel onthooft koning Agag van Amalek" ] .
+nl:id_568e5873d4ae466a01ba228b654abb76b899ab8c oa:hasTarget ubvu:print-218010001453 .
+nl:id_568e5873d4ae466a01ba228b654abb76b899ab8c oa:motivatedBy oa:tagging .
+
 nl:id_e0322ef1dae7bab77475a667c2311a5493bac0aa a oa:Annotation .
 nl:id_e0322ef1dae7bab77475a667c2311a5493bac0aa terms:title "Samuel" .
 nl:id_e0322ef1dae7bab77475a667c2311a5493bac0aa ui:annotationField bible:BibleCharacter .
