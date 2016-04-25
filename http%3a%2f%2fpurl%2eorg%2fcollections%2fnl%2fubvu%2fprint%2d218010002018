@@ -35,6 +35,16 @@ nl:id_2657ef195261ae082e8401a8f87512df27899aef oa:hasTarget target:target_b19d39
 nl:id_2657ef195261ae082e8401a8f87512df27899aef oa:hasTarget ubvu:print-218010002018 .
 nl:id_2657ef195261ae082e8401a8f87512df27899aef oa:motivatedBy oa:tagging .
 
+nl:id_406a448d44cc5e2b3f9017bb5ba7a76163f1a238 a oa:Annotation .
+nl:id_406a448d44cc5e2b3f9017bb5ba7a76163f1a238 terms:title "Asa, Basa, Zimri en Achab, koningen van Israël. Elia waarschuwt Achab." .
+nl:id_406a448d44cc5e2b3f9017bb5ba7a76163f1a238 ui:annotationField bible:ICBibleTheme .
+nl:id_406a448d44cc5e2b3f9017bb5ba7a76163f1a238 ui:typingTime 0 .
+nl:id_406a448d44cc5e2b3f9017bb5ba7a76163f1a238 oa:annotatedAt "2016-04-25T16:52:23+02:00"^^xsd:dateTime .
+nl:id_406a448d44cc5e2b3f9017bb5ba7a76163f1a238 oa:annotatedBy user:paulinevandijk .
+nl:id_406a448d44cc5e2b3f9017bb5ba7a76163f1a238 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Asa, Basa, Zimri en Achab, koningen van Israël. Elia waarschuwt Achab." ] .
+nl:id_406a448d44cc5e2b3f9017bb5ba7a76163f1a238 oa:hasTarget ubvu:print-218010002018 .
+nl:id_406a448d44cc5e2b3f9017bb5ba7a76163f1a238 oa:motivatedBy oa:tagging .
+
 nl:id_4e428aa993e4de74e5d518bf0f04faf229c003d5 a oa:Annotation .
 nl:id_4e428aa993e4de74e5d518bf0f04faf229c003d5 terms:title "Elia" .
 nl:id_4e428aa993e4de74e5d518bf0f04faf229c003d5 ui:annotationField bible:BibleCharacter .
