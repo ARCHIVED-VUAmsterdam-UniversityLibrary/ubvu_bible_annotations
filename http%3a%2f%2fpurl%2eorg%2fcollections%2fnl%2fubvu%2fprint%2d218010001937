@@ -23,6 +23,16 @@ nl:id_93b32f678f7186aa6bffe151db6478a46bb09fbd oa:hasTarget target:target_838f9f
 nl:id_93b32f678f7186aa6bffe151db6478a46bb09fbd oa:hasTarget ubvu:print-218010001937 .
 nl:id_93b32f678f7186aa6bffe151db6478a46bb09fbd oa:motivatedBy oa:tagging .
 
+nl:id_d232c54217336b8aeb12d97da7a436d35827f8dd a oa:Annotation .
+nl:id_d232c54217336b8aeb12d97da7a436d35827f8dd terms:title "Opwekking van Eutychus door Paulus" .
+nl:id_d232c54217336b8aeb12d97da7a436d35827f8dd ui:annotationField bible:ICBibleTheme .
+nl:id_d232c54217336b8aeb12d97da7a436d35827f8dd ui:typingTime 0 .
+nl:id_d232c54217336b8aeb12d97da7a436d35827f8dd oa:annotatedAt "2016-04-25T16:29:13+02:00"^^xsd:dateTime .
+nl:id_d232c54217336b8aeb12d97da7a436d35827f8dd oa:annotatedBy user:paulinevandijk .
+nl:id_d232c54217336b8aeb12d97da7a436d35827f8dd oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Opwekking van Eutychus door Paulus" ] .
+nl:id_d232c54217336b8aeb12d97da7a436d35827f8dd oa:hasTarget ubvu:print-218010001937 .
+nl:id_d232c54217336b8aeb12d97da7a436d35827f8dd oa:motivatedBy oa:tagging .
+
 nl:id_e946f6d8296b95cc22cb667a39f8717768decaf8 a oa:Annotation .
 nl:id_e946f6d8296b95cc22cb667a39f8717768decaf8 terms:title "Eutychus" .
 nl:id_e946f6d8296b95cc22cb667a39f8717768decaf8 ui:annotationField bible:BibleCharacter .
