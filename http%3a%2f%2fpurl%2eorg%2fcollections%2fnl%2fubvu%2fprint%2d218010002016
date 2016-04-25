@@ -35,6 +35,17 @@ nl:id_1f2e80acba19081e591f09e5f7723ae2b5eaf101 oa:hasTarget target:target_fd4a07
 nl:id_1f2e80acba19081e591f09e5f7723ae2b5eaf101 oa:hasTarget ubvu:print-218010002016 .
 nl:id_1f2e80acba19081e591f09e5f7723ae2b5eaf101 oa:motivatedBy oa:tagging .
 
+nl:id_3a6b94f1219edf65fa70fbfc7bdfa69f9e52666b a oa:Annotation .
+nl:id_3a6b94f1219edf65fa70fbfc7bdfa69f9e52666b terms:title "Jerobeam" .
+nl:id_3a6b94f1219edf65fa70fbfc7bdfa69f9e52666b ui:annotationField bible:BibleCharacter .
+nl:id_3a6b94f1219edf65fa70fbfc7bdfa69f9e52666b ui:typingTime 0 .
+nl:id_3a6b94f1219edf65fa70fbfc7bdfa69f9e52666b oa:annotatedAt "2016-04-25T17:11:16+02:00"^^xsd:dateTime .
+nl:id_3a6b94f1219edf65fa70fbfc7bdfa69f9e52666b oa:annotatedBy user:paulinevandijk .
+nl:id_3a6b94f1219edf65fa70fbfc7bdfa69f9e52666b oa:hasBody resource:Jeroboam .
+nl:id_3a6b94f1219edf65fa70fbfc7bdfa69f9e52666b oa:hasTarget target:target_915281c46e704864fc86b25723398e270a9d2e79 .
+nl:id_3a6b94f1219edf65fa70fbfc7bdfa69f9e52666b oa:hasTarget ubvu:print-218010002016 .
+nl:id_3a6b94f1219edf65fa70fbfc7bdfa69f9e52666b oa:motivatedBy oa:tagging .
+
 nl:id_4c6f5272b7e6decef0d14187203fe498aba2b128 a oa:Annotation .
 nl:id_4c6f5272b7e6decef0d14187203fe498aba2b128 terms:title "Joab gedood.  Salomo vraagt om wijsheid. Twee vrouwen bij koning Salomo. Bezoek van de koningin van Seba. Salomo trouwt de dochter van de farao.    lomo" .
 nl:id_4c6f5272b7e6decef0d14187203fe498aba2b128 ui:annotationField bible:ICBibleTheme .
@@ -94,6 +105,14 @@ target:selector_6e18953af431fc8829940dc5f0429dc80957d1e6 ui:x "0.069072164948453
 target:selector_6e18953af431fc8829940dc5f0429dc80957d1e6 ui:y "0.34243542435424357"^^xsd:float .
 target:selector_6e18953af431fc8829940dc5f0429dc80957d1e6 rdf:value "#xywh=percent:7,34,10,11" .
 
+target:selector_915281c46e704864fc86b25723398e270a9d2e79 a oa:FragmentSelector .
+target:selector_915281c46e704864fc86b25723398e270a9d2e79 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_915281c46e704864fc86b25723398e270a9d2e79 ui:h "0.1121771217712177"^^xsd:float .
+target:selector_915281c46e704864fc86b25723398e270a9d2e79 ui:w "0.07938144329896907"^^xsd:float .
+target:selector_915281c46e704864fc86b25723398e270a9d2e79 ui:x "0.088659793814433"^^xsd:float .
+target:selector_915281c46e704864fc86b25723398e270a9d2e79 ui:y "0.7350553505535056"^^xsd:float .
+target:selector_915281c46e704864fc86b25723398e270a9d2e79 rdf:value "#xywh=percent:9,74,8,11" .
+
 target:selector_9c037dc1fb88f2aa5dafda0a0c10300b0486f239 a oa:FragmentSelector .
 target:selector_9c037dc1fb88f2aa5dafda0a0c10300b0486f239 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_9c037dc1fb88f2aa5dafda0a0c10300b0486f239 ui:h "0.07306273062730627"^^xsd:float .
@@ -125,6 +144,10 @@ target:target_05b5dad7872c0f68a5468f322a89074842c24282 oa:hasSource <http://imag
 target:target_6e18953af431fc8829940dc5f0429dc80957d1e6 a oa:SpecificResource .
 target:target_6e18953af431fc8829940dc5f0429dc80957d1e6 oa:hasSelector target:selector_6e18953af431fc8829940dc5f0429dc80957d1e6 .
 target:target_6e18953af431fc8829940dc5f0429dc80957d1e6 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/15> .
+
+target:target_915281c46e704864fc86b25723398e270a9d2e79 a oa:SpecificResource .
+target:target_915281c46e704864fc86b25723398e270a9d2e79 oa:hasSelector target:selector_915281c46e704864fc86b25723398e270a9d2e79 .
+target:target_915281c46e704864fc86b25723398e270a9d2e79 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/15> .
 
 target:target_9c037dc1fb88f2aa5dafda0a0c10300b0486f239 a oa:SpecificResource .
 target:target_9c037dc1fb88f2aa5dafda0a0c10300b0486f239 oa:hasSelector target:selector_9c037dc1fb88f2aa5dafda0a0c10300b0486f239 .
