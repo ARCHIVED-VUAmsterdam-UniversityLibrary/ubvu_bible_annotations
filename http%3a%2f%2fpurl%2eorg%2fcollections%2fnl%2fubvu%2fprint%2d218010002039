@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -8,17 +9,30 @@
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_5692b3355de05a7dbc6e8add6cffd77c3a444066> a oa:Annotation .
-<http://accurator.nl/id_5692b3355de05a7dbc6e8add6cffd77c3a444066> terms:title "Herodes" .
-<http://accurator.nl/id_5692b3355de05a7dbc6e8add6cffd77c3a444066> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_5692b3355de05a7dbc6e8add6cffd77c3a444066> ui:typingTime 0 .
-<http://accurator.nl/id_5692b3355de05a7dbc6e8add6cffd77c3a444066> oa:annotatedAt "2016-04-26T19:17:48+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_5692b3355de05a7dbc6e8add6cffd77c3a444066> oa:annotatedBy user:paulinevandijk .
-<http://accurator.nl/id_5692b3355de05a7dbc6e8add6cffd77c3a444066> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Herodes" ] .
-<http://accurator.nl/id_5692b3355de05a7dbc6e8add6cffd77c3a444066> oa:hasTarget target:target_1a25f7e7296ddd85ccedfefaa7d381f3af0e619a .
-<http://accurator.nl/id_5692b3355de05a7dbc6e8add6cffd77c3a444066> oa:hasTarget ubvu:print-218010002039 .
-<http://accurator.nl/id_5692b3355de05a7dbc6e8add6cffd77c3a444066> oa:motivatedBy oa:tagging .
+nl:id_1fb99be46e9aef03055a20b9d71fb057552b8de0 a oa:Annotation .
+nl:id_1fb99be46e9aef03055a20b9d71fb057552b8de0 terms:title "Paulus" .
+nl:id_1fb99be46e9aef03055a20b9d71fb057552b8de0 ui:annotationField bible:BibleCharacter .
+nl:id_1fb99be46e9aef03055a20b9d71fb057552b8de0 ui:typingTime 0 .
+nl:id_1fb99be46e9aef03055a20b9d71fb057552b8de0 oa:annotatedAt "2016-04-26T19:22:53+02:00"^^xsd:dateTime .
+nl:id_1fb99be46e9aef03055a20b9d71fb057552b8de0 oa:annotatedBy user:paulinevandijk .
+nl:id_1fb99be46e9aef03055a20b9d71fb057552b8de0 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Paulus" ] .
+nl:id_1fb99be46e9aef03055a20b9d71fb057552b8de0 oa:hasTarget target:target_e42532f204a690bd6703bbd0aeab1ab279b27806 .
+nl:id_1fb99be46e9aef03055a20b9d71fb057552b8de0 oa:hasTarget ubvu:print-218010002039 .
+nl:id_1fb99be46e9aef03055a20b9d71fb057552b8de0 oa:motivatedBy oa:tagging .
+
+nl:id_5692b3355de05a7dbc6e8add6cffd77c3a444066 a oa:Annotation .
+nl:id_5692b3355de05a7dbc6e8add6cffd77c3a444066 terms:title "Herodes" .
+nl:id_5692b3355de05a7dbc6e8add6cffd77c3a444066 ui:annotationField bible:BibleCharacter .
+nl:id_5692b3355de05a7dbc6e8add6cffd77c3a444066 ui:typingTime 0 .
+nl:id_5692b3355de05a7dbc6e8add6cffd77c3a444066 oa:annotatedAt "2016-04-26T19:17:48+02:00"^^xsd:dateTime .
+nl:id_5692b3355de05a7dbc6e8add6cffd77c3a444066 oa:annotatedBy user:paulinevandijk .
+nl:id_5692b3355de05a7dbc6e8add6cffd77c3a444066 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Herodes" ] .
+nl:id_5692b3355de05a7dbc6e8add6cffd77c3a444066 oa:hasTarget target:target_1a25f7e7296ddd85ccedfefaa7d381f3af0e619a .
+nl:id_5692b3355de05a7dbc6e8add6cffd77c3a444066 oa:hasTarget ubvu:print-218010002039 .
+nl:id_5692b3355de05a7dbc6e8add6cffd77c3a444066 oa:motivatedBy oa:tagging .
 
 target:selector_1a25f7e7296ddd85ccedfefaa7d381f3af0e619a a oa:FragmentSelector .
 target:selector_1a25f7e7296ddd85ccedfefaa7d381f3af0e619a terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -28,6 +42,18 @@ target:selector_1a25f7e7296ddd85ccedfefaa7d381f3af0e619a ui:x "0.110256410256410
 target:selector_1a25f7e7296ddd85ccedfefaa7d381f3af0e619a ui:y "0.1467455621301775"^^xsd:float .
 target:selector_1a25f7e7296ddd85ccedfefaa7d381f3af0e619a rdf:value "#xywh=percent:11,15,5,5" .
 
+target:selector_e42532f204a690bd6703bbd0aeab1ab279b27806 a oa:FragmentSelector .
+target:selector_e42532f204a690bd6703bbd0aeab1ab279b27806 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_e42532f204a690bd6703bbd0aeab1ab279b27806 ui:h "0.07159763313609467"^^xsd:float .
+target:selector_e42532f204a690bd6703bbd0aeab1ab279b27806 ui:w "0.09658119658119659"^^xsd:float .
+target:selector_e42532f204a690bd6703bbd0aeab1ab279b27806 ui:x "0.37435897435897436"^^xsd:float .
+target:selector_e42532f204a690bd6703bbd0aeab1ab279b27806 ui:y "0.21597633136094674"^^xsd:float .
+target:selector_e42532f204a690bd6703bbd0aeab1ab279b27806 rdf:value "#xywh=percent:37,22,10,7" .
+
 target:target_1a25f7e7296ddd85ccedfefaa7d381f3af0e619a a oa:SpecificResource .
 target:target_1a25f7e7296ddd85ccedfefaa7d381f3af0e619a oa:hasSelector target:selector_1a25f7e7296ddd85ccedfefaa7d381f3af0e619a .
 target:target_1a25f7e7296ddd85ccedfefaa7d381f3af0e619a oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/38> .
+
+target:target_e42532f204a690bd6703bbd0aeab1ab279b27806 a oa:SpecificResource .
+target:target_e42532f204a690bd6703bbd0aeab1ab279b27806 oa:hasSelector target:selector_e42532f204a690bd6703bbd0aeab1ab279b27806 .
+target:target_e42532f204a690bd6703bbd0aeab1ab279b27806 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/38> .
