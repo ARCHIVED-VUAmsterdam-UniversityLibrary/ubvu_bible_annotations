@@ -88,6 +88,16 @@ nl:id_9cf543172bfc74e81dbe914885ee4193bfce3fe8 oa:hasTarget target:target_77d1a8
 nl:id_9cf543172bfc74e81dbe914885ee4193bfce3fe8 oa:hasTarget ubvu:print-218010002039 .
 nl:id_9cf543172bfc74e81dbe914885ee4193bfce3fe8 oa:motivatedBy oa:tagging .
 
+nl:id_b44cee704f568f6b3acd0ce6cf7ac4b2494888bd a oa:Annotation .
+nl:id_b44cee704f568f6b3acd0ce6cf7ac4b2494888bd terms:title "Opwekking van Eutychus. Paulus in de tempel. Samenzwering tegen Paulus. Het schip met Paulus loopt vast op een zandbank." .
+nl:id_b44cee704f568f6b3acd0ce6cf7ac4b2494888bd ui:annotationField bible:ICBibleTheme .
+nl:id_b44cee704f568f6b3acd0ce6cf7ac4b2494888bd ui:typingTime 0 .
+nl:id_b44cee704f568f6b3acd0ce6cf7ac4b2494888bd oa:annotatedAt "2016-04-26T19:33:46+02:00"^^xsd:dateTime .
+nl:id_b44cee704f568f6b3acd0ce6cf7ac4b2494888bd oa:annotatedBy user:paulinevandijk .
+nl:id_b44cee704f568f6b3acd0ce6cf7ac4b2494888bd oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Opwekking van Eutychus. Paulus in de tempel. Samenzwering tegen Paulus. Het schip met Paulus loopt vast op een zandbank." ] .
+nl:id_b44cee704f568f6b3acd0ce6cf7ac4b2494888bd oa:hasTarget ubvu:print-218010002039 .
+nl:id_b44cee704f568f6b3acd0ce6cf7ac4b2494888bd oa:motivatedBy oa:tagging .
+
 target:selector_0d44c22a5e79b67ba91122a0a0db5875de05dfba a oa:FragmentSelector .
 target:selector_0d44c22a5e79b67ba91122a0a0db5875de05dfba terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_0d44c22a5e79b67ba91122a0a0db5875de05dfba ui:h "0.0621301775147929"^^xsd:float .
