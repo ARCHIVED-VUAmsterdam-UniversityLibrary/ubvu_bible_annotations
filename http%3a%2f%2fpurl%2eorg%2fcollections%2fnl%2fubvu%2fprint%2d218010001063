@@ -35,6 +35,16 @@ nl:id_6ac8b2f8065a9a938d7cc073fba806751510b008 oa:hasTarget target:target_bf07a4
 nl:id_6ac8b2f8065a9a938d7cc073fba806751510b008 oa:hasTarget ubvu:print-218010001063 .
 nl:id_6ac8b2f8065a9a938d7cc073fba806751510b008 oa:motivatedBy oa:tagging .
 
+nl:id_c0ad5a39cc9e33b4385c5efde04a13c81b023fdf a oa:Annotation .
+nl:id_c0ad5a39cc9e33b4385c5efde04a13c81b023fdf terms:title "Abraham verlaat Ur, de stad van de Chaldeeën" .
+nl:id_c0ad5a39cc9e33b4385c5efde04a13c81b023fdf ui:annotationField bible:ICBibleTheme .
+nl:id_c0ad5a39cc9e33b4385c5efde04a13c81b023fdf ui:typingTime 0 .
+nl:id_c0ad5a39cc9e33b4385c5efde04a13c81b023fdf oa:annotatedAt "2016-04-26T20:22:24+02:00"^^xsd:dateTime .
+nl:id_c0ad5a39cc9e33b4385c5efde04a13c81b023fdf oa:annotatedBy user:paulinevandijk .
+nl:id_c0ad5a39cc9e33b4385c5efde04a13c81b023fdf oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Abraham verlaat Ur, de stad van de Chaldeeën" ] .
+nl:id_c0ad5a39cc9e33b4385c5efde04a13c81b023fdf oa:hasTarget ubvu:print-218010001063 .
+nl:id_c0ad5a39cc9e33b4385c5efde04a13c81b023fdf oa:motivatedBy oa:tagging .
+
 nl:id_c97504f7ca6e91a935e3a858b532a9a309f63401 a oa:Annotation .
 nl:id_c97504f7ca6e91a935e3a858b532a9a309f63401 terms:title "Abraham" .
 nl:id_c97504f7ca6e91a935e3a858b532a9a309f63401 ui:annotationField bible:BibleCharacter .
