@@ -23,6 +23,16 @@ nl:id_1fb99be46e9aef03055a20b9d71fb057552b8de0 oa:hasTarget target:target_e42532
 nl:id_1fb99be46e9aef03055a20b9d71fb057552b8de0 oa:hasTarget ubvu:print-218010002039 .
 nl:id_1fb99be46e9aef03055a20b9d71fb057552b8de0 oa:motivatedBy oa:tagging .
 
+nl:id_4b0766c0dee7e7aaa9a41e45dadbd7c5a3bdd751 a oa:Annotation .
+nl:id_4b0766c0dee7e7aaa9a41e45dadbd7c5a3bdd751 terms:title "Herodes gedood. Gevangenneming van de apostelen. Paulus en Barnabas in Lystra. Paulus krijgt 's nachts een visioen. Geestenbezweerders" .
+nl:id_4b0766c0dee7e7aaa9a41e45dadbd7c5a3bdd751 ui:annotationField bible:ICBibleTheme .
+nl:id_4b0766c0dee7e7aaa9a41e45dadbd7c5a3bdd751 ui:typingTime 0 .
+nl:id_4b0766c0dee7e7aaa9a41e45dadbd7c5a3bdd751 oa:annotatedAt "2016-04-26T19:27:59+02:00"^^xsd:dateTime .
+nl:id_4b0766c0dee7e7aaa9a41e45dadbd7c5a3bdd751 oa:annotatedBy user:paulinevandijk .
+nl:id_4b0766c0dee7e7aaa9a41e45dadbd7c5a3bdd751 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Herodes gedood. Gevangenneming van de apostelen. Paulus en Barnabas in Lystra. Paulus krijgt 's nachts een visioen. Geestenbezweerders" ] .
+nl:id_4b0766c0dee7e7aaa9a41e45dadbd7c5a3bdd751 oa:hasTarget ubvu:print-218010002039 .
+nl:id_4b0766c0dee7e7aaa9a41e45dadbd7c5a3bdd751 oa:motivatedBy oa:tagging .
+
 nl:id_5692b3355de05a7dbc6e8add6cffd77c3a444066 a oa:Annotation .
 nl:id_5692b3355de05a7dbc6e8add6cffd77c3a444066 terms:title "Herodes" .
 nl:id_5692b3355de05a7dbc6e8add6cffd77c3a444066 ui:annotationField bible:BibleCharacter .
