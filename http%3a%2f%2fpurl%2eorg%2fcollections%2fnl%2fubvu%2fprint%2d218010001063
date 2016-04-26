@@ -9,25 +9,25 @@
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
 
-<http://accurator.nl/id_436e59fbbb739079bb109d954049e223bb69bfd7> a oa:Annotation .
-<http://accurator.nl/id_436e59fbbb739079bb109d954049e223bb69bfd7> terms:title "abraham" .
-<http://accurator.nl/id_436e59fbbb739079bb109d954049e223bb69bfd7> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_436e59fbbb739079bb109d954049e223bb69bfd7> ui:typingTime 0 .
-<http://accurator.nl/id_436e59fbbb739079bb109d954049e223bb69bfd7> oa:annotatedAt "2016-04-18T16:02:33+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_436e59fbbb739079bb109d954049e223bb69bfd7> oa:annotatedBy user:everhoeff .
-<http://accurator.nl/id_436e59fbbb739079bb109d954049e223bb69bfd7> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "abraham" ] .
-<http://accurator.nl/id_436e59fbbb739079bb109d954049e223bb69bfd7> oa:hasTarget target:target_a08b0ea22e1d81a8f21f61e045a1869514521799 .
-<http://accurator.nl/id_436e59fbbb739079bb109d954049e223bb69bfd7> oa:hasTarget ubvu:print-218010001063 .
-<http://accurator.nl/id_436e59fbbb739079bb109d954049e223bb69bfd7> oa:motivatedBy oa:tagging .
+<http://accurator.nl/id_2515e242447ddb3b37ba44d60864be30bdcc4e55> a oa:Annotation .
+<http://accurator.nl/id_2515e242447ddb3b37ba44d60864be30bdcc4e55> terms:title "Sarai" .
+<http://accurator.nl/id_2515e242447ddb3b37ba44d60864be30bdcc4e55> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
+<http://accurator.nl/id_2515e242447ddb3b37ba44d60864be30bdcc4e55> ui:typingTime 0 .
+<http://accurator.nl/id_2515e242447ddb3b37ba44d60864be30bdcc4e55> oa:annotatedAt "2016-04-26T20:21:12+02:00"^^xsd:dateTime .
+<http://accurator.nl/id_2515e242447ddb3b37ba44d60864be30bdcc4e55> oa:annotatedBy user:paulinevandijk .
+<http://accurator.nl/id_2515e242447ddb3b37ba44d60864be30bdcc4e55> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Sarai" ] .
+<http://accurator.nl/id_2515e242447ddb3b37ba44d60864be30bdcc4e55> oa:hasTarget target:target_a6c990ac1d4ca0deb7768091ec9d67cdec4f06ec .
+<http://accurator.nl/id_2515e242447ddb3b37ba44d60864be30bdcc4e55> oa:hasTarget ubvu:print-218010001063 .
+<http://accurator.nl/id_2515e242447ddb3b37ba44d60864be30bdcc4e55> oa:motivatedBy oa:tagging .
 
-target:selector_a08b0ea22e1d81a8f21f61e045a1869514521799 a oa:FragmentSelector .
-target:selector_a08b0ea22e1d81a8f21f61e045a1869514521799 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
-target:selector_a08b0ea22e1d81a8f21f61e045a1869514521799 ui:h "0.3256578947368421"^^xsd:float .
-target:selector_a08b0ea22e1d81a8f21f61e045a1869514521799 ui:w "0.16266666666666665"^^xsd:float .
-target:selector_a08b0ea22e1d81a8f21f61e045a1869514521799 ui:x "0.592"^^xsd:float .
-target:selector_a08b0ea22e1d81a8f21f61e045a1869514521799 ui:y "0.4465460526315789"^^xsd:float .
-target:selector_a08b0ea22e1d81a8f21f61e045a1869514521799 rdf:value "#xywh=percent:59,45,16,33" .
+target:selector_a6c990ac1d4ca0deb7768091ec9d67cdec4f06ec a oa:FragmentSelector .
+target:selector_a6c990ac1d4ca0deb7768091ec9d67cdec4f06ec terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_a6c990ac1d4ca0deb7768091ec9d67cdec4f06ec ui:h "0.15542763157894737"^^xsd:float .
+target:selector_a6c990ac1d4ca0deb7768091ec9d67cdec4f06ec ui:w "0.164"^^xsd:float .
+target:selector_a6c990ac1d4ca0deb7768091ec9d67cdec4f06ec ui:x "0.3546666666666667"^^xsd:float .
+target:selector_a6c990ac1d4ca0deb7768091ec9d67cdec4f06ec ui:y "0.41776315789473684"^^xsd:float .
+target:selector_a6c990ac1d4ca0deb7768091ec9d67cdec4f06ec rdf:value "#xywh=percent:35,42,16,16" .
 
-target:target_a08b0ea22e1d81a8f21f61e045a1869514521799 a oa:SpecificResource .
-target:target_a08b0ea22e1d81a8f21f61e045a1869514521799 oa:hasSelector target:selector_a08b0ea22e1d81a8f21f61e045a1869514521799 .
-target:target_a08b0ea22e1d81a8f21f61e045a1869514521799 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/104> .
+target:target_a6c990ac1d4ca0deb7768091ec9d67cdec4f06ec a oa:SpecificResource .
+target:target_a6c990ac1d4ca0deb7768091ec9d67cdec4f06ec oa:hasSelector target:selector_a6c990ac1d4ca0deb7768091ec9d67cdec4f06ec .
+target:target_a6c990ac1d4ca0deb7768091ec9d67cdec4f06ec oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/104> .
