@@ -5,21 +5,9 @@
 @prefix ubvu-nl: <ubvu#> .
 @prefix      as: <schema#> .
 
-# Named toplevel resources (356)
-
-ubvu:print-218010001015
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001017
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
+# Named toplevel resources (246)
 
 ubvu:print-218010001019
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001022
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
@@ -55,10 +43,6 @@ ubvu:print-218010001051
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
-ubvu:print-218010001062
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
 ubvu:print-218010001063
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
@@ -71,15 +55,7 @@ ubvu:print-218010001067
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
-ubvu:print-218010001070
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
 ubvu:print-218010001071
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001074
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
@@ -87,19 +63,7 @@ ubvu:print-218010001075
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
-ubvu:print-218010001078
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
 ubvu:print-218010001079
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001082
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001086
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
@@ -107,19 +71,7 @@ ubvu:print-218010001087
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
-ubvu:print-218010001090
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001094
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
 ubvu:print-218010001095
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001102
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
@@ -128,10 +80,6 @@ ubvu:print-218010001103
 	as:targetedBy ausr:AnnotationScanner .
 
 ubvu:print-218010001110
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001114
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
@@ -147,10 +95,6 @@ ubvu:print-218010001123
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
-ubvu:print-218010001126
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
 ubvu:print-218010001127
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
@@ -163,19 +107,7 @@ ubvu:print-218010001131
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
-ubvu:print-218010001134
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001138
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
 ubvu:print-218010001139
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001142
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
@@ -183,15 +115,7 @@ ubvu:print-218010001143
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
-ubvu:print-218010001146
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
 ubvu:print-218010001147
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001150
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
@@ -204,10 +128,6 @@ ubvu:print-218010001154
 	as:targetedBy ausr:AnnotationScanner .
 
 ubvu:print-218010001155
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001158
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
@@ -239,15 +159,7 @@ ubvu:print-218010001174
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
-ubvu:print-218010001178
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
 ubvu:print-218010001179
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001182
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
@@ -259,15 +171,7 @@ ubvu:print-218010001187
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
-ubvu:print-218010001190
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
 ubvu:print-218010001191
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001194
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
@@ -279,15 +183,7 @@ ubvu:print-218010001197
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
-ubvu:print-218010001200
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
 ubvu:print-218010001201
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001204
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
@@ -311,14 +207,6 @@ ubvu:print-218010001224
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
-ubvu:print-218010001232
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001236
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
 ubvu:print-218010001238
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
@@ -327,23 +215,11 @@ ubvu:print-218010001239
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
-ubvu:print-218010001242
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
 ubvu:print-218010001243
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
 ubvu:print-218010001249
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001253
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001254
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
@@ -359,27 +235,7 @@ ubvu:print-218010001262
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
-ubvu:print-218010001265
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
 ubvu:print-218010001272
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001276
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001280
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001292
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001296
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
@@ -391,15 +247,7 @@ ubvu:print-218010001303
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
-ubvu:print-218010001306
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
 ubvu:print-218010001307
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001309
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
@@ -411,23 +259,11 @@ ubvu:print-218010001311
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
-ubvu:print-218010001314
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001319
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
 ubvu:print-218010001323
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
 ubvu:print-218010001325
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001326
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
@@ -439,15 +275,7 @@ ubvu:print-218010001333
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
-ubvu:print-218010001336
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
 ubvu:print-218010001337
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001340
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
@@ -459,19 +287,7 @@ ubvu:print-218010001343
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
-ubvu:print-218010001346
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001350
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
 ubvu:print-218010001351
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001354
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
@@ -483,10 +299,6 @@ ubvu:print-218010001359
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
-ubvu:print-218010001362
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
 ubvu:print-218010001363
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
@@ -495,19 +307,11 @@ ubvu:print-218010001365
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
-ubvu:print-218010001366
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
 ubvu:print-218010001367
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
 ubvu:print-218010001371
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001374
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
@@ -543,15 +347,7 @@ ubvu:print-218010001400
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
-ubvu:print-218010001401
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
 ubvu:print-218010001404
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001405
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
@@ -568,18 +364,6 @@ ubvu:print-218010001412
 	as:targetedBy ausr:AnnotationScanner .
 
 ubvu:print-218010001413
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001416
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001423
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001424
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
@@ -603,15 +387,7 @@ ubvu:print-218010001445
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
-ubvu:print-218010001448
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
 ubvu:print-218010001449
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001452
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
@@ -619,27 +395,11 @@ ubvu:print-218010001453
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
-ubvu:print-218010001456
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
 ubvu:print-218010001457
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
-ubvu:print-218010001460
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
 ubvu:print-218010001461
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001464
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001468
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
@@ -651,19 +411,11 @@ ubvu:print-218010001473
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
-ubvu:print-218010001476
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
 ubvu:print-218010001477
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
 ubvu:print-218010001481
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001492
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
@@ -679,23 +431,11 @@ ubvu:print-218010001501
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
-ubvu:print-218010001502
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
 ubvu:print-218010001503
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
-ubvu:print-218010001506
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
 ubvu:print-218010001507
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001510
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
@@ -708,10 +448,6 @@ ubvu:print-218010001517
 	as:targetedBy ausr:AnnotationScanner .
 
 ubvu:print-218010001521
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001524
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
@@ -739,10 +475,6 @@ ubvu:print-218010001539
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
-ubvu:print-218010001542
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
 ubvu:print-218010001543
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
@@ -760,18 +492,6 @@ ubvu:print-218010001554
 	as:targetedBy ausr:AnnotationScanner .
 
 ubvu:print-218010001555
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001557
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001560
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001566
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
@@ -795,10 +515,6 @@ ubvu:print-218010001581
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
-ubvu:print-218010001583
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
 ubvu:print-218010001586
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
@@ -807,15 +523,7 @@ ubvu:print-218010001587
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
-ubvu:print-218010001590
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
 ubvu:print-218010001591
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001594
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
@@ -867,27 +575,11 @@ ubvu:print-218010001647
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
-ubvu:print-218010001649
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001650
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
 ubvu:print-218010001651
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
-ubvu:print-218010001656
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
 ubvu:print-218010001657
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001662
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
@@ -899,27 +591,11 @@ ubvu:print-218010001665
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
-ubvu:print-218010001670
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001674
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
 ubvu:print-218010001675
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
-ubvu:print-218010001678
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
 ubvu:print-218010001679
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001682
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
@@ -951,14 +627,6 @@ ubvu:print-218010001701
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
-ubvu:print-218010001708
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001712
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
 ubvu:print-218010001713
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
@@ -987,27 +655,11 @@ ubvu:print-218010001727
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
-ubvu:print-218010001730
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001734
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
 ubvu:print-218010001735
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
-ubvu:print-218010001738
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
 ubvu:print-218010001739
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001742
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
@@ -1027,19 +679,7 @@ ubvu:print-218010001751
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
-ubvu:print-218010001754
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001758
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
 ubvu:print-218010001759
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001762
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
@@ -1051,15 +691,7 @@ ubvu:print-218010001767
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
-ubvu:print-218010001770
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
 ubvu:print-218010001773
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001776
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
@@ -1071,15 +703,7 @@ ubvu:print-218010001779
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
-ubvu:print-218010001786
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
 ubvu:print-218010001787
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001790
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
@@ -1095,15 +719,7 @@ ubvu:print-218010001795
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
-ubvu:print-218010001798
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
 ubvu:print-218010001799
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001802
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
@@ -1119,15 +735,7 @@ ubvu:print-218010001813
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
-ubvu:print-218010001816
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
 ubvu:print-218010001817
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001820
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
@@ -1143,23 +751,11 @@ ubvu:print-218010001831
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
-ubvu:print-218010001834
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
 ubvu:print-218010001835
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
-ubvu:print-218010001838
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
 ubvu:print-218010001839
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001846
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
@@ -1171,19 +767,11 @@ ubvu:print-218010001855
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
-ubvu:print-218010001857
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
 ubvu:print-218010001860
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
 ubvu:print-218010001861
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001864
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
@@ -1219,15 +807,7 @@ ubvu:print-218010001883
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
-ubvu:print-218010001886
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
 ubvu:print-218010001887
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001890
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
@@ -1236,10 +816,6 @@ ubvu:print-218010001891
 	as:targetedBy ausr:AnnotationScanner .
 
 ubvu:print-218010001895
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001898
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
@@ -1271,10 +847,6 @@ ubvu:print-218010001921
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
-ubvu:print-218010001924
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
 ubvu:print-218010001925
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
@@ -1299,19 +871,11 @@ ubvu:print-218010001941
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
-ubvu:print-218010001944
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
 ubvu:print-218010001945
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
 ubvu:print-218010001951
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010001964
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
 
@@ -1424,9 +988,5 @@ ubvu:print-218010002039
 	as:targetedBy ausr:AnnotationScanner .
 
 ubvu:print-218010002040
-	a ubvu-nl:Target ;
-	as:targetedBy ausr:AnnotationScanner .
-
-ubvu:print-218010002041
 	a ubvu-nl:Target ;
 	as:targetedBy ausr:AnnotationScanner .
