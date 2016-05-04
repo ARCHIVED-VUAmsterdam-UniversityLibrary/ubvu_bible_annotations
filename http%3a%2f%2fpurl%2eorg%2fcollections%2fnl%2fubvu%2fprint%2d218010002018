@@ -21,6 +21,16 @@ nl:id_512b9ce29cf8992d58f4729da9b40abe8bea726b oa:hasBody [ a content:ContentAsT
 nl:id_512b9ce29cf8992d58f4729da9b40abe8bea726b oa:hasTarget ubvu:print-218010002018 .
 nl:id_512b9ce29cf8992d58f4729da9b40abe8bea726b oa:motivatedBy oa:tagging .
 
+nl:id_55bced2df71c08ab602bd951a8b133c2f271689a a oa:Annotation .
+nl:id_55bced2df71c08ab602bd951a8b133c2f271689a terms:title "Elias fed by the ravens, Elias revives a child, Elias prays for rain, " .
+nl:id_55bced2df71c08ab602bd951a8b133c2f271689a ui:annotationField bible:ICBibleTheme .
+nl:id_55bced2df71c08ab602bd951a8b133c2f271689a ui:typingTime 0 .
+nl:id_55bced2df71c08ab602bd951a8b133c2f271689a oa:annotatedAt "2016-05-04T22:08:47+02:00"^^xsd:dateTime .
+nl:id_55bced2df71c08ab602bd951a8b133c2f271689a oa:annotatedBy user:everhoeff .
+nl:id_55bced2df71c08ab602bd951a8b133c2f271689a oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Elias fed by the ravens, Elias revives a child, Elias prays for rain, " ] .
+nl:id_55bced2df71c08ab602bd951a8b133c2f271689a oa:hasTarget ubvu:print-218010002018 .
+nl:id_55bced2df71c08ab602bd951a8b133c2f271689a oa:motivatedBy oa:tagging .
+
 nl:id_d225a2a2cab759a7c220afd08232a384eb50cad6 a oa:Annotation .
 nl:id_d225a2a2cab759a7c220afd08232a384eb50cad6 terms:title "Elias" .
 nl:id_d225a2a2cab759a7c220afd08232a384eb50cad6 ui:annotationField bible:BibleCharacter .
