@@ -52,6 +52,16 @@ nl:id_5e6b59e006ec38c8b0f23cae05a5187a0468be24 oa:hasBody <http://iconclass.org/
 nl:id_5e6b59e006ec38c8b0f23cae05a5187a0468be24 oa:hasTarget ubvu:print-218010002016 .
 nl:id_5e6b59e006ec38c8b0f23cae05a5187a0468be24 oa:motivatedBy oa:tagging .
 
+nl:id_806274339ce17d6a002b31c22f092bdee0cd350c a oa:Annotation .
+nl:id_806274339ce17d6a002b31c22f092bdee0cd350c terms:title "The withered hand" .
+nl:id_806274339ce17d6a002b31c22f092bdee0cd350c ui:annotationField bible:ICBibleTheme .
+nl:id_806274339ce17d6a002b31c22f092bdee0cd350c ui:typingTime 0 .
+nl:id_806274339ce17d6a002b31c22f092bdee0cd350c oa:annotatedAt "2016-05-04T22:29:35+02:00"^^xsd:dateTime .
+nl:id_806274339ce17d6a002b31c22f092bdee0cd350c oa:annotatedBy user:everhoeff .
+nl:id_806274339ce17d6a002b31c22f092bdee0cd350c oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The withered hand" ] .
+nl:id_806274339ce17d6a002b31c22f092bdee0cd350c oa:hasTarget ubvu:print-218010002016 .
+nl:id_806274339ce17d6a002b31c22f092bdee0cd350c oa:motivatedBy oa:tagging .
+
 nl:id_8085bb2c23b9d67b4fc8b6bc44651dcb3e861870 a oa:Annotation .
 nl:id_8085bb2c23b9d67b4fc8b6bc44651dcb3e861870 terms:title "Solomon and the queen of Sheba (1 Kings 10:1-3; 2 Chronicles 9:1-9)" .
 nl:id_8085bb2c23b9d67b4fc8b6bc44651dcb3e861870 ui:annotationField bible:ICBibleTheme .
