@@ -8,12 +8,12 @@
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix user: <http://accurator.nl/user#> .
 
-<http://accurator.nl/id_b5db5b2b90c1114182d7bf29e683d0e16a57a1c9> a oa:Annotation .
-<http://accurator.nl/id_b5db5b2b90c1114182d7bf29e683d0e16a57a1c9> terms:title "Bouw van een altaar aan de Jordaan." .
-<http://accurator.nl/id_b5db5b2b90c1114182d7bf29e683d0e16a57a1c9> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
-<http://accurator.nl/id_b5db5b2b90c1114182d7bf29e683d0e16a57a1c9> ui:typingTime 0 .
-<http://accurator.nl/id_b5db5b2b90c1114182d7bf29e683d0e16a57a1c9> oa:annotatedAt "2016-04-21T12:39:49+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_b5db5b2b90c1114182d7bf29e683d0e16a57a1c9> oa:annotatedBy user:paulinevandijk .
-<http://accurator.nl/id_b5db5b2b90c1114182d7bf29e683d0e16a57a1c9> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Bouw van een altaar aan de Jordaan." ] .
-<http://accurator.nl/id_b5db5b2b90c1114182d7bf29e683d0e16a57a1c9> oa:hasTarget ubvu:print-218010001355 .
-<http://accurator.nl/id_b5db5b2b90c1114182d7bf29e683d0e16a57a1c9> oa:motivatedBy oa:tagging .
+<http://accurator.nl/id_c4fe034665626efbed2f9a1d9ea225ac8e88a30d> a oa:Annotation .
+<http://accurator.nl/id_c4fe034665626efbed2f9a1d9ea225ac8e88a30d> terms:title "The Rubenites answer in defense of their altar Jusua xxII. 15-13" .
+<http://accurator.nl/id_c4fe034665626efbed2f9a1d9ea225ac8e88a30d> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
+<http://accurator.nl/id_c4fe034665626efbed2f9a1d9ea225ac8e88a30d> ui:typingTime 0 .
+<http://accurator.nl/id_c4fe034665626efbed2f9a1d9ea225ac8e88a30d> oa:annotatedAt "2016-05-04T21:42:14+02:00"^^xsd:dateTime .
+<http://accurator.nl/id_c4fe034665626efbed2f9a1d9ea225ac8e88a30d> oa:annotatedBy user:everhoeff .
+<http://accurator.nl/id_c4fe034665626efbed2f9a1d9ea225ac8e88a30d> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The Rubenites answer in defense of their altar Jusua xxII. 15-13" ] .
+<http://accurator.nl/id_c4fe034665626efbed2f9a1d9ea225ac8e88a30d> oa:hasTarget ubvu:print-218010001355 .
+<http://accurator.nl/id_c4fe034665626efbed2f9a1d9ea225ac8e88a30d> oa:motivatedBy oa:tagging .
