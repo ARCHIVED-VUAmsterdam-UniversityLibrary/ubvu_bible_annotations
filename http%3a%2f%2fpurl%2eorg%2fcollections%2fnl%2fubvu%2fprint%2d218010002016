@@ -6,6 +6,7 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
@@ -19,6 +20,17 @@ nl:id_07e697c9dce84df03c724ab9bf680ba988e73172 oa:annotatedBy user:everhoeff .
 nl:id_07e697c9dce84df03c724ab9bf680ba988e73172 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Marriage of Salomo, " ] .
 nl:id_07e697c9dce84df03c724ab9bf680ba988e73172 oa:hasTarget ubvu:print-218010002016 .
 nl:id_07e697c9dce84df03c724ab9bf680ba988e73172 oa:motivatedBy oa:tagging .
+
+nl:id_2275101b7de1ad743c117788abe1a77025a9cc94 a oa:Annotation .
+nl:id_2275101b7de1ad743c117788abe1a77025a9cc94 terms:title "Salomo" .
+nl:id_2275101b7de1ad743c117788abe1a77025a9cc94 ui:annotationField bible:BibleCharacter .
+nl:id_2275101b7de1ad743c117788abe1a77025a9cc94 ui:typingTime 0 .
+nl:id_2275101b7de1ad743c117788abe1a77025a9cc94 oa:annotatedAt "2016-05-04T22:17:25+02:00"^^xsd:dateTime .
+nl:id_2275101b7de1ad743c117788abe1a77025a9cc94 oa:annotatedBy user:everhoeff .
+nl:id_2275101b7de1ad743c117788abe1a77025a9cc94 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Salomo" ] .
+nl:id_2275101b7de1ad743c117788abe1a77025a9cc94 oa:hasTarget target:target_f9a5ec60a8a9e1c8eca3038faba98f31a3e1be06 .
+nl:id_2275101b7de1ad743c117788abe1a77025a9cc94 oa:hasTarget ubvu:print-218010002016 .
+nl:id_2275101b7de1ad743c117788abe1a77025a9cc94 oa:motivatedBy oa:tagging .
 
 nl:id_5e6b59e006ec38c8b0f23cae05a5187a0468be24 a oa:Annotation .
 nl:id_5e6b59e006ec38c8b0f23cae05a5187a0468be24 terms:title "Joab killed by Benaiah" .
@@ -39,3 +51,15 @@ nl:id_8bb96dfe38a93fc2b230272a3463a19cd6201d5b oa:annotatedBy user:everhoeff .
 nl:id_8bb96dfe38a93fc2b230272a3463a19cd6201d5b oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Salomo's judgement" ] .
 nl:id_8bb96dfe38a93fc2b230272a3463a19cd6201d5b oa:hasTarget ubvu:print-218010002016 .
 nl:id_8bb96dfe38a93fc2b230272a3463a19cd6201d5b oa:motivatedBy oa:tagging .
+
+target:selector_f9a5ec60a8a9e1c8eca3038faba98f31a3e1be06 a oa:FragmentSelector .
+target:selector_f9a5ec60a8a9e1c8eca3038faba98f31a3e1be06 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_f9a5ec60a8a9e1c8eca3038faba98f31a3e1be06 ui:h "0.12213740458015267"^^xsd:float .
+target:selector_f9a5ec60a8a9e1c8eca3038faba98f31a3e1be06 ui:w "0.08666666666666667"^^xsd:float .
+target:selector_f9a5ec60a8a9e1c8eca3038faba98f31a3e1be06 ui:x "0.072"^^xsd:float .
+target:selector_f9a5ec60a8a9e1c8eca3038faba98f31a3e1be06 ui:y "0.3301526717557252"^^xsd:float .
+target:selector_f9a5ec60a8a9e1c8eca3038faba98f31a3e1be06 rdf:value "#xywh=percent:7,33,9,12" .
+
+target:target_f9a5ec60a8a9e1c8eca3038faba98f31a3e1be06 a oa:SpecificResource .
+target:target_f9a5ec60a8a9e1c8eca3038faba98f31a3e1be06 oa:hasSelector target:selector_f9a5ec60a8a9e1c8eca3038faba98f31a3e1be06 .
+target:target_f9a5ec60a8a9e1c8eca3038faba98f31a3e1be06 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/15> .
