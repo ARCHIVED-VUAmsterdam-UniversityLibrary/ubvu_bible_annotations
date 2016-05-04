@@ -21,6 +21,16 @@ nl:id_07e697c9dce84df03c724ab9bf680ba988e73172 oa:hasBody [ a content:ContentAsT
 nl:id_07e697c9dce84df03c724ab9bf680ba988e73172 oa:hasTarget ubvu:print-218010002016 .
 nl:id_07e697c9dce84df03c724ab9bf680ba988e73172 oa:motivatedBy oa:tagging .
 
+nl:id_1bb82b89ea6b0ec68374177bb6f9cc9123bd7d07 a oa:Annotation .
+nl:id_1bb82b89ea6b0ec68374177bb6f9cc9123bd7d07 terms:title "Solomon's idolatry" .
+nl:id_1bb82b89ea6b0ec68374177bb6f9cc9123bd7d07 ui:annotationField bible:ICBibleTheme .
+nl:id_1bb82b89ea6b0ec68374177bb6f9cc9123bd7d07 ui:typingTime 0 .
+nl:id_1bb82b89ea6b0ec68374177bb6f9cc9123bd7d07 oa:annotatedAt "2016-05-04T22:20:23+02:00"^^xsd:dateTime .
+nl:id_1bb82b89ea6b0ec68374177bb6f9cc9123bd7d07 oa:annotatedBy user:everhoeff .
+nl:id_1bb82b89ea6b0ec68374177bb6f9cc9123bd7d07 oa:hasBody <http://iconclass.org/71I53> .
+nl:id_1bb82b89ea6b0ec68374177bb6f9cc9123bd7d07 oa:hasTarget ubvu:print-218010002016 .
+nl:id_1bb82b89ea6b0ec68374177bb6f9cc9123bd7d07 oa:motivatedBy oa:tagging .
+
 nl:id_2275101b7de1ad743c117788abe1a77025a9cc94 a oa:Annotation .
 nl:id_2275101b7de1ad743c117788abe1a77025a9cc94 terms:title "Salomo" .
 nl:id_2275101b7de1ad743c117788abe1a77025a9cc94 ui:annotationField bible:BibleCharacter .
