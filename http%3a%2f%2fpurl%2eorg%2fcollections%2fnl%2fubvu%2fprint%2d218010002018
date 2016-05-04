@@ -12,6 +12,17 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_4c2cf1cc81f43857537489a6f19a6d53321a46b9 a oa:Annotation .
+nl:id_4c2cf1cc81f43857537489a6f19a6d53321a46b9 terms:title "Elias" .
+nl:id_4c2cf1cc81f43857537489a6f19a6d53321a46b9 ui:annotationField bible:BibleCharacter .
+nl:id_4c2cf1cc81f43857537489a6f19a6d53321a46b9 ui:typingTime 0 .
+nl:id_4c2cf1cc81f43857537489a6f19a6d53321a46b9 oa:annotatedAt "2016-05-04T22:12:33+02:00"^^xsd:dateTime .
+nl:id_4c2cf1cc81f43857537489a6f19a6d53321a46b9 oa:annotatedBy user:everhoeff .
+nl:id_4c2cf1cc81f43857537489a6f19a6d53321a46b9 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Elias" ] .
+nl:id_4c2cf1cc81f43857537489a6f19a6d53321a46b9 oa:hasTarget target:target_95db23bc3fe5f7843577571b99f63871e5e86668 .
+nl:id_4c2cf1cc81f43857537489a6f19a6d53321a46b9 oa:hasTarget ubvu:print-218010002018 .
+nl:id_4c2cf1cc81f43857537489a6f19a6d53321a46b9 oa:motivatedBy oa:tagging .
+
 nl:id_512b9ce29cf8992d58f4729da9b40abe8bea726b a oa:Annotation .
 nl:id_512b9ce29cf8992d58f4729da9b40abe8bea726b terms:title "Baes builds Rama, Simri kills Baesa, Simri burns himself, Achab marries Jezubel, Elias predicts hunger " .
 nl:id_512b9ce29cf8992d58f4729da9b40abe8bea726b ui:annotationField bible:ICBibleTheme .
@@ -138,6 +149,14 @@ target:selector_94719bba6f77a6b41d82cd45bad31e4ef9f101d9 ui:x "0.126666666666666
 target:selector_94719bba6f77a6b41d82cd45bad31e4ef9f101d9 ui:y "0.3135593220338983"^^xsd:float .
 target:selector_94719bba6f77a6b41d82cd45bad31e4ef9f101d9 rdf:value "#xywh=percent:13,31,7,11" .
 
+target:selector_95db23bc3fe5f7843577571b99f63871e5e86668 a oa:FragmentSelector .
+target:selector_95db23bc3fe5f7843577571b99f63871e5e86668 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_95db23bc3fe5f7843577571b99f63871e5e86668 ui:h "0.08380414312617702"^^xsd:float .
+target:selector_95db23bc3fe5f7843577571b99f63871e5e86668 ui:w "0.08933333333333333"^^xsd:float .
+target:selector_95db23bc3fe5f7843577571b99f63871e5e86668 ui:x "0.5026666666666667"^^xsd:float .
+target:selector_95db23bc3fe5f7843577571b99f63871e5e86668 ui:y "0.339924670433145"^^xsd:float .
+target:selector_95db23bc3fe5f7843577571b99f63871e5e86668 rdf:value "#xywh=percent:50,34,9,8" .
+
 target:selector_9d685e1fc1dfa699f4ea4372ce0a78270005fbd8 a oa:FragmentSelector .
 target:selector_9d685e1fc1dfa699f4ea4372ce0a78270005fbd8 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_9d685e1fc1dfa699f4ea4372ce0a78270005fbd8 ui:h "0.08005822416302766"^^xsd:float .
@@ -165,6 +184,10 @@ target:target_654dbcf4636b630a448dadd25ebe8d3a15985fec oa:hasSource <http://imag
 target:target_94719bba6f77a6b41d82cd45bad31e4ef9f101d9 a oa:SpecificResource .
 target:target_94719bba6f77a6b41d82cd45bad31e4ef9f101d9 oa:hasSelector target:selector_94719bba6f77a6b41d82cd45bad31e4ef9f101d9 .
 target:target_94719bba6f77a6b41d82cd45bad31e4ef9f101d9 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/17> .
+
+target:target_95db23bc3fe5f7843577571b99f63871e5e86668 a oa:SpecificResource .
+target:target_95db23bc3fe5f7843577571b99f63871e5e86668 oa:hasSelector target:selector_95db23bc3fe5f7843577571b99f63871e5e86668 .
+target:target_95db23bc3fe5f7843577571b99f63871e5e86668 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/17> .
 
 target:target_9d685e1fc1dfa699f4ea4372ce0a78270005fbd8 a oa:SpecificResource .
 target:target_9d685e1fc1dfa699f4ea4372ce0a78270005fbd8 oa:hasSelector target:selector_9d685e1fc1dfa699f4ea4372ce0a78270005fbd8 .
