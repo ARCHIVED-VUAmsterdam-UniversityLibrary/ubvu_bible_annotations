@@ -29,3 +29,13 @@ nl:id_5e6b59e006ec38c8b0f23cae05a5187a0468be24 oa:annotatedBy user:everhoeff .
 nl:id_5e6b59e006ec38c8b0f23cae05a5187a0468be24 oa:hasBody <http://iconclass.org/71I234> .
 nl:id_5e6b59e006ec38c8b0f23cae05a5187a0468be24 oa:hasTarget ubvu:print-218010002016 .
 nl:id_5e6b59e006ec38c8b0f23cae05a5187a0468be24 oa:motivatedBy oa:tagging .
+
+nl:id_8bb96dfe38a93fc2b230272a3463a19cd6201d5b a oa:Annotation .
+nl:id_8bb96dfe38a93fc2b230272a3463a19cd6201d5b terms:title "Salomo's judgement" .
+nl:id_8bb96dfe38a93fc2b230272a3463a19cd6201d5b ui:annotationField bible:ICBibleTheme .
+nl:id_8bb96dfe38a93fc2b230272a3463a19cd6201d5b ui:typingTime 0 .
+nl:id_8bb96dfe38a93fc2b230272a3463a19cd6201d5b oa:annotatedAt "2016-05-04T22:16:53+02:00"^^xsd:dateTime .
+nl:id_8bb96dfe38a93fc2b230272a3463a19cd6201d5b oa:annotatedBy user:everhoeff .
+nl:id_8bb96dfe38a93fc2b230272a3463a19cd6201d5b oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Salomo's judgement" ] .
+nl:id_8bb96dfe38a93fc2b230272a3463a19cd6201d5b oa:hasTarget ubvu:print-218010002016 .
+nl:id_8bb96dfe38a93fc2b230272a3463a19cd6201d5b oa:motivatedBy oa:tagging .
