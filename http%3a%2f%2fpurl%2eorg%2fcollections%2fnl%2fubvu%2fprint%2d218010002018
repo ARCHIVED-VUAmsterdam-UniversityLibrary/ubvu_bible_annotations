@@ -8,17 +8,29 @@
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_d225a2a2cab759a7c220afd08232a384eb50cad6> a oa:Annotation .
-<http://accurator.nl/id_d225a2a2cab759a7c220afd08232a384eb50cad6> terms:title "Elias" .
-<http://accurator.nl/id_d225a2a2cab759a7c220afd08232a384eb50cad6> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_d225a2a2cab759a7c220afd08232a384eb50cad6> ui:typingTime 0 .
-<http://accurator.nl/id_d225a2a2cab759a7c220afd08232a384eb50cad6> oa:annotatedAt "2016-05-04T21:59:53+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_d225a2a2cab759a7c220afd08232a384eb50cad6> oa:annotatedBy user:everhoeff .
-<http://accurator.nl/id_d225a2a2cab759a7c220afd08232a384eb50cad6> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Elias" ] .
-<http://accurator.nl/id_d225a2a2cab759a7c220afd08232a384eb50cad6> oa:hasTarget target:target_9d685e1fc1dfa699f4ea4372ce0a78270005fbd8 .
-<http://accurator.nl/id_d225a2a2cab759a7c220afd08232a384eb50cad6> oa:hasTarget ubvu:print-218010002018 .
-<http://accurator.nl/id_d225a2a2cab759a7c220afd08232a384eb50cad6> oa:motivatedBy oa:tagging .
+nl:id_512b9ce29cf8992d58f4729da9b40abe8bea726b a oa:Annotation .
+nl:id_512b9ce29cf8992d58f4729da9b40abe8bea726b terms:title "Baes builds Rama, Simri kills Baesa, Simri burns himself, Achab marries Jezubel, Elias predicts hunger " .
+nl:id_512b9ce29cf8992d58f4729da9b40abe8bea726b ui:annotationField bible:ICBibleTheme .
+nl:id_512b9ce29cf8992d58f4729da9b40abe8bea726b ui:typingTime 0 .
+nl:id_512b9ce29cf8992d58f4729da9b40abe8bea726b oa:annotatedAt "2016-05-04T22:00:29+02:00"^^xsd:dateTime .
+nl:id_512b9ce29cf8992d58f4729da9b40abe8bea726b oa:annotatedBy user:everhoeff .
+nl:id_512b9ce29cf8992d58f4729da9b40abe8bea726b oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Baes builds Rama, Simri kills Baesa, Simri burns himself, Achab marries Jezubel, Elias predicts hunger " ] .
+nl:id_512b9ce29cf8992d58f4729da9b40abe8bea726b oa:hasTarget ubvu:print-218010002018 .
+nl:id_512b9ce29cf8992d58f4729da9b40abe8bea726b oa:motivatedBy oa:tagging .
+
+nl:id_d225a2a2cab759a7c220afd08232a384eb50cad6 a oa:Annotation .
+nl:id_d225a2a2cab759a7c220afd08232a384eb50cad6 terms:title "Elias" .
+nl:id_d225a2a2cab759a7c220afd08232a384eb50cad6 ui:annotationField bible:BibleCharacter .
+nl:id_d225a2a2cab759a7c220afd08232a384eb50cad6 ui:typingTime 0 .
+nl:id_d225a2a2cab759a7c220afd08232a384eb50cad6 oa:annotatedAt "2016-05-04T21:59:53+02:00"^^xsd:dateTime .
+nl:id_d225a2a2cab759a7c220afd08232a384eb50cad6 oa:annotatedBy user:everhoeff .
+nl:id_d225a2a2cab759a7c220afd08232a384eb50cad6 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Elias" ] .
+nl:id_d225a2a2cab759a7c220afd08232a384eb50cad6 oa:hasTarget target:target_9d685e1fc1dfa699f4ea4372ce0a78270005fbd8 .
+nl:id_d225a2a2cab759a7c220afd08232a384eb50cad6 oa:hasTarget ubvu:print-218010002018 .
+nl:id_d225a2a2cab759a7c220afd08232a384eb50cad6 oa:motivatedBy oa:tagging .
 
 target:selector_9d685e1fc1dfa699f4ea4372ce0a78270005fbd8 a oa:FragmentSelector .
 target:selector_9d685e1fc1dfa699f4ea4372ce0a78270005fbd8 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
