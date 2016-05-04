@@ -72,6 +72,16 @@ nl:id_8bb96dfe38a93fc2b230272a3463a19cd6201d5b oa:hasBody [ a content:ContentAsT
 nl:id_8bb96dfe38a93fc2b230272a3463a19cd6201d5b oa:hasTarget ubvu:print-218010002016 .
 nl:id_8bb96dfe38a93fc2b230272a3463a19cd6201d5b oa:motivatedBy oa:tagging .
 
+nl:id_a6f871302d1e4466698d388dfc84db32bc1fd85b a oa:Annotation .
+nl:id_a6f871302d1e4466698d388dfc84db32bc1fd85b terms:title "jerob talks to Ahia" .
+nl:id_a6f871302d1e4466698d388dfc84db32bc1fd85b ui:annotationField bible:ICBibleTheme .
+nl:id_a6f871302d1e4466698d388dfc84db32bc1fd85b ui:typingTime 0 .
+nl:id_a6f871302d1e4466698d388dfc84db32bc1fd85b oa:annotatedAt "2016-05-04T22:22:23+02:00"^^xsd:dateTime .
+nl:id_a6f871302d1e4466698d388dfc84db32bc1fd85b oa:annotatedBy user:everhoeff .
+nl:id_a6f871302d1e4466698d388dfc84db32bc1fd85b oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "jerob talks to Ahia" ] .
+nl:id_a6f871302d1e4466698d388dfc84db32bc1fd85b oa:hasTarget ubvu:print-218010002016 .
+nl:id_a6f871302d1e4466698d388dfc84db32bc1fd85b oa:motivatedBy oa:tagging .
+
 target:selector_f9a5ec60a8a9e1c8eca3038faba98f31a3e1be06 a oa:FragmentSelector .
 target:selector_f9a5ec60a8a9e1c8eca3038faba98f31a3e1be06 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_f9a5ec60a8a9e1c8eca3038faba98f31a3e1be06 ui:h "0.12213740458015267"^^xsd:float .
