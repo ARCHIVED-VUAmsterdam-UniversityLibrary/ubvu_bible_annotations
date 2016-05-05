@@ -29,3 +29,13 @@ nl:id_c5b8ad7397a0461427ff931161b06b04a4d492f4 oa:annotatedBy user:everhoeff .
 nl:id_c5b8ad7397a0461427ff931161b06b04a4d492f4 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Paul honoured" ] .
 nl:id_c5b8ad7397a0461427ff931161b06b04a4d492f4 oa:hasTarget ubvu:print-218010002039 .
 nl:id_c5b8ad7397a0461427ff931161b06b04a4d492f4 oa:motivatedBy oa:tagging .
+
+nl:id_dbcdacc52fd797fbbd7828b7256251efe58c0de3 a oa:Annotation .
+nl:id_dbcdacc52fd797fbbd7828b7256251efe58c0de3 terms:title "Paul sails to Italy in a dangerous storm" .
+nl:id_dbcdacc52fd797fbbd7828b7256251efe58c0de3 ui:annotationField bible:ICBibleTheme .
+nl:id_dbcdacc52fd797fbbd7828b7256251efe58c0de3 ui:typingTime 0 .
+nl:id_dbcdacc52fd797fbbd7828b7256251efe58c0de3 oa:annotatedAt "2016-05-05T11:05:47+02:00"^^xsd:dateTime .
+nl:id_dbcdacc52fd797fbbd7828b7256251efe58c0de3 oa:annotatedBy user:everhoeff .
+nl:id_dbcdacc52fd797fbbd7828b7256251efe58c0de3 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Paul sails to Italy in a dangerous storm" ] .
+nl:id_dbcdacc52fd797fbbd7828b7256251efe58c0de3 oa:hasTarget ubvu:print-218010002039 .
+nl:id_dbcdacc52fd797fbbd7828b7256251efe58c0de3 oa:motivatedBy oa:tagging .
