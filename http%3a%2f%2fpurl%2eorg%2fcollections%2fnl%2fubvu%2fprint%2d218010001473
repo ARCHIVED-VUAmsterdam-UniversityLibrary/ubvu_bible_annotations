@@ -1,69 +1,17 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
-@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
-@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
-@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
-@prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
-@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
-@prefix nl: <http://accurator.nl/> .
 
-nl:id_2ab8b8aff255518a8a88822ffafdf3b959c83c36 a oa:Annotation .
-nl:id_2ab8b8aff255518a8a88822ffafdf3b959c83c36 terms:title "Abigaïl reist naar David" .
-nl:id_2ab8b8aff255518a8a88822ffafdf3b959c83c36 ui:annotationField bible:ICBibleTheme .
-nl:id_2ab8b8aff255518a8a88822ffafdf3b959c83c36 ui:typingTime 0 .
-nl:id_2ab8b8aff255518a8a88822ffafdf3b959c83c36 oa:annotatedAt "2016-04-23T16:20:56+02:00"^^xsd:dateTime .
-nl:id_2ab8b8aff255518a8a88822ffafdf3b959c83c36 oa:annotatedBy user:paulinevandijk .
-nl:id_2ab8b8aff255518a8a88822ffafdf3b959c83c36 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Abigaïl reist naar David" ] .
-nl:id_2ab8b8aff255518a8a88822ffafdf3b959c83c36 oa:hasTarget ubvu:print-218010001473 .
-nl:id_2ab8b8aff255518a8a88822ffafdf3b959c83c36 oa:motivatedBy oa:tagging .
-
-nl:id_5df35e0c0d2a6b91ce66f84cc469078068a73142 a oa:Annotation .
-nl:id_5df35e0c0d2a6b91ce66f84cc469078068a73142 terms:title "David" .
-nl:id_5df35e0c0d2a6b91ce66f84cc469078068a73142 ui:annotationField bible:BibleCharacter .
-nl:id_5df35e0c0d2a6b91ce66f84cc469078068a73142 ui:typingTime 0 .
-nl:id_5df35e0c0d2a6b91ce66f84cc469078068a73142 oa:annotatedAt "2016-04-23T16:20:37+02:00"^^xsd:dateTime .
-nl:id_5df35e0c0d2a6b91ce66f84cc469078068a73142 oa:annotatedBy user:paulinevandijk .
-nl:id_5df35e0c0d2a6b91ce66f84cc469078068a73142 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "David" ] .
-nl:id_5df35e0c0d2a6b91ce66f84cc469078068a73142 oa:hasTarget target:target_1a57840aa2982f67c3d7ffd70fe7acabc9613ec2 .
-nl:id_5df35e0c0d2a6b91ce66f84cc469078068a73142 oa:hasTarget ubvu:print-218010001473 .
-nl:id_5df35e0c0d2a6b91ce66f84cc469078068a73142 oa:motivatedBy oa:tagging .
-
-nl:id_6e89b403482a659e8d1b6825ea0dd58d602f32bb a oa:Annotation .
-nl:id_6e89b403482a659e8d1b6825ea0dd58d602f32bb terms:title "Abigaïl" .
-nl:id_6e89b403482a659e8d1b6825ea0dd58d602f32bb ui:annotationField bible:BibleCharacter .
-nl:id_6e89b403482a659e8d1b6825ea0dd58d602f32bb ui:typingTime 0 .
-nl:id_6e89b403482a659e8d1b6825ea0dd58d602f32bb oa:annotatedAt "2016-04-23T16:20:11+02:00"^^xsd:dateTime .
-nl:id_6e89b403482a659e8d1b6825ea0dd58d602f32bb oa:annotatedBy user:paulinevandijk .
-nl:id_6e89b403482a659e8d1b6825ea0dd58d602f32bb oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Abigaïl" ] .
-nl:id_6e89b403482a659e8d1b6825ea0dd58d602f32bb oa:hasTarget target:target_8ddf4ecab6faf842d529f71e980d0ade19595a5e .
-nl:id_6e89b403482a659e8d1b6825ea0dd58d602f32bb oa:hasTarget ubvu:print-218010001473 .
-nl:id_6e89b403482a659e8d1b6825ea0dd58d602f32bb oa:motivatedBy oa:tagging .
-
-target:selector_1a57840aa2982f67c3d7ffd70fe7acabc9613ec2 a oa:FragmentSelector .
-target:selector_1a57840aa2982f67c3d7ffd70fe7acabc9613ec2 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
-target:selector_1a57840aa2982f67c3d7ffd70fe7acabc9613ec2 ui:h "0.46328195829555757"^^xsd:float .
-target:selector_1a57840aa2982f67c3d7ffd70fe7acabc9613ec2 ui:w "0.23733333333333334"^^xsd:float .
-target:selector_1a57840aa2982f67c3d7ffd70fe7acabc9613ec2 ui:x "0.10933333333333334"^^xsd:float .
-target:selector_1a57840aa2982f67c3d7ffd70fe7acabc9613ec2 ui:y "0.4016319129646419"^^xsd:float .
-target:selector_1a57840aa2982f67c3d7ffd70fe7acabc9613ec2 rdf:value "#xywh=percent:11,40,24,46" .
-
-target:selector_8ddf4ecab6faf842d529f71e980d0ade19595a5e a oa:FragmentSelector .
-target:selector_8ddf4ecab6faf842d529f71e980d0ade19595a5e terms:conformsTo <http://www.w3.org/TR/media-frags/> .
-target:selector_8ddf4ecab6faf842d529f71e980d0ade19595a5e ui:h "0.24388032638259294"^^xsd:float .
-target:selector_8ddf4ecab6faf842d529f71e980d0ade19595a5e ui:w "0.392"^^xsd:float .
-target:selector_8ddf4ecab6faf842d529f71e980d0ade19595a5e ui:x "0.348"^^xsd:float .
-target:selector_8ddf4ecab6faf842d529f71e980d0ade19595a5e ui:y "0.5630099728014506"^^xsd:float .
-target:selector_8ddf4ecab6faf842d529f71e980d0ade19595a5e rdf:value "#xywh=percent:35,56,39,24" .
-
-target:target_1a57840aa2982f67c3d7ffd70fe7acabc9613ec2 a oa:SpecificResource .
-target:target_1a57840aa2982f67c3d7ffd70fe7acabc9613ec2 oa:hasSelector target:selector_1a57840aa2982f67c3d7ffd70fe7acabc9613ec2 .
-target:target_1a57840aa2982f67c3d7ffd70fe7acabc9613ec2 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/514> .
-
-target:target_8ddf4ecab6faf842d529f71e980d0ade19595a5e a oa:SpecificResource .
-target:target_8ddf4ecab6faf842d529f71e980d0ade19595a5e oa:hasSelector target:selector_8ddf4ecab6faf842d529f71e980d0ade19595a5e .
-target:target_8ddf4ecab6faf842d529f71e980d0ade19595a5e oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/514> .
+<http://accurator.nl/id_44cbe71210354c8ffba4900afe00e34c14866706> a oa:Annotation .
+<http://accurator.nl/id_44cbe71210354c8ffba4900afe00e34c14866706> terms:title "meeting of David and Abigail, who kneels before him" .
+<http://accurator.nl/id_44cbe71210354c8ffba4900afe00e34c14866706> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
+<http://accurator.nl/id_44cbe71210354c8ffba4900afe00e34c14866706> ui:typingTime 0 .
+<http://accurator.nl/id_44cbe71210354c8ffba4900afe00e34c14866706> oa:annotatedAt "2016-05-05T12:10:56+02:00"^^xsd:dateTime .
+<http://accurator.nl/id_44cbe71210354c8ffba4900afe00e34c14866706> oa:annotatedBy user:everhoeff .
+<http://accurator.nl/id_44cbe71210354c8ffba4900afe00e34c14866706> oa:hasBody <http://iconclass.org/71H2442> .
+<http://accurator.nl/id_44cbe71210354c8ffba4900afe00e34c14866706> oa:hasTarget ubvu:print-218010001473 .
+<http://accurator.nl/id_44cbe71210354c8ffba4900afe00e34c14866706> oa:motivatedBy oa:tagging .
