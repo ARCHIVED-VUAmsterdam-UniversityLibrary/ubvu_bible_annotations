@@ -1,5 +1,4 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
-@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -7,87 +6,14 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
-@prefix target: <http://localhost/.well-known/genid/oa/target/> .
-@prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
-@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
-@prefix nl: <http://accurator.nl/> .
 
-nl:id_2515e242447ddb3b37ba44d60864be30bdcc4e55 a oa:Annotation .
-nl:id_2515e242447ddb3b37ba44d60864be30bdcc4e55 terms:title "Sarai" .
-nl:id_2515e242447ddb3b37ba44d60864be30bdcc4e55 ui:annotationField bible:BibleCharacter .
-nl:id_2515e242447ddb3b37ba44d60864be30bdcc4e55 ui:typingTime 0 .
-nl:id_2515e242447ddb3b37ba44d60864be30bdcc4e55 oa:annotatedAt "2016-04-26T20:21:12+02:00"^^xsd:dateTime .
-nl:id_2515e242447ddb3b37ba44d60864be30bdcc4e55 oa:annotatedBy user:paulinevandijk .
-nl:id_2515e242447ddb3b37ba44d60864be30bdcc4e55 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Sarai" ] .
-nl:id_2515e242447ddb3b37ba44d60864be30bdcc4e55 oa:hasTarget target:target_a6c990ac1d4ca0deb7768091ec9d67cdec4f06ec .
-nl:id_2515e242447ddb3b37ba44d60864be30bdcc4e55 oa:hasTarget ubvu:print-218010001063 .
-nl:id_2515e242447ddb3b37ba44d60864be30bdcc4e55 oa:motivatedBy oa:tagging .
-
-nl:id_6ac8b2f8065a9a938d7cc073fba806751510b008 a oa:Annotation .
-nl:id_6ac8b2f8065a9a938d7cc073fba806751510b008 terms:title "Lot" .
-nl:id_6ac8b2f8065a9a938d7cc073fba806751510b008 ui:annotationField bible:BibleCharacter .
-nl:id_6ac8b2f8065a9a938d7cc073fba806751510b008 ui:typingTime 0 .
-nl:id_6ac8b2f8065a9a938d7cc073fba806751510b008 oa:annotatedAt "2016-04-26T20:21:41+02:00"^^xsd:dateTime .
-nl:id_6ac8b2f8065a9a938d7cc073fba806751510b008 oa:annotatedBy user:paulinevandijk .
-nl:id_6ac8b2f8065a9a938d7cc073fba806751510b008 oa:hasBody resource:Lot .
-nl:id_6ac8b2f8065a9a938d7cc073fba806751510b008 oa:hasTarget target:target_bf07a4fc8bcf73c8258483abbb045a0aad6531f0 .
-nl:id_6ac8b2f8065a9a938d7cc073fba806751510b008 oa:hasTarget ubvu:print-218010001063 .
-nl:id_6ac8b2f8065a9a938d7cc073fba806751510b008 oa:motivatedBy oa:tagging .
-
-nl:id_c0ad5a39cc9e33b4385c5efde04a13c81b023fdf a oa:Annotation .
-nl:id_c0ad5a39cc9e33b4385c5efde04a13c81b023fdf terms:title "Abraham verlaat Ur, de stad van de Chaldeeën" .
-nl:id_c0ad5a39cc9e33b4385c5efde04a13c81b023fdf ui:annotationField bible:ICBibleTheme .
-nl:id_c0ad5a39cc9e33b4385c5efde04a13c81b023fdf ui:typingTime 0 .
-nl:id_c0ad5a39cc9e33b4385c5efde04a13c81b023fdf oa:annotatedAt "2016-04-26T20:22:24+02:00"^^xsd:dateTime .
-nl:id_c0ad5a39cc9e33b4385c5efde04a13c81b023fdf oa:annotatedBy user:paulinevandijk .
-nl:id_c0ad5a39cc9e33b4385c5efde04a13c81b023fdf oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Abraham verlaat Ur, de stad van de Chaldeeën" ] .
-nl:id_c0ad5a39cc9e33b4385c5efde04a13c81b023fdf oa:hasTarget ubvu:print-218010001063 .
-nl:id_c0ad5a39cc9e33b4385c5efde04a13c81b023fdf oa:motivatedBy oa:tagging .
-
-nl:id_c97504f7ca6e91a935e3a858b532a9a309f63401 a oa:Annotation .
-nl:id_c97504f7ca6e91a935e3a858b532a9a309f63401 terms:title "Abraham" .
-nl:id_c97504f7ca6e91a935e3a858b532a9a309f63401 ui:annotationField bible:BibleCharacter .
-nl:id_c97504f7ca6e91a935e3a858b532a9a309f63401 ui:typingTime 0 .
-nl:id_c97504f7ca6e91a935e3a858b532a9a309f63401 oa:annotatedAt "2016-04-26T20:21:25+02:00"^^xsd:dateTime .
-nl:id_c97504f7ca6e91a935e3a858b532a9a309f63401 oa:annotatedBy user:paulinevandijk .
-nl:id_c97504f7ca6e91a935e3a858b532a9a309f63401 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Abraham" ] .
-nl:id_c97504f7ca6e91a935e3a858b532a9a309f63401 oa:hasTarget target:target_a245e6f370ce26c176e551d78e17072eaebf79cd .
-nl:id_c97504f7ca6e91a935e3a858b532a9a309f63401 oa:hasTarget ubvu:print-218010001063 .
-nl:id_c97504f7ca6e91a935e3a858b532a9a309f63401 oa:motivatedBy oa:tagging .
-
-target:selector_a245e6f370ce26c176e551d78e17072eaebf79cd a oa:FragmentSelector .
-target:selector_a245e6f370ce26c176e551d78e17072eaebf79cd terms:conformsTo <http://www.w3.org/TR/media-frags/> .
-target:selector_a245e6f370ce26c176e551d78e17072eaebf79cd ui:h "0.23108552631578946"^^xsd:float .
-target:selector_a245e6f370ce26c176e551d78e17072eaebf79cd ui:w "0.148"^^xsd:float .
-target:selector_a245e6f370ce26c176e551d78e17072eaebf79cd ui:x "0.6146666666666667"^^xsd:float .
-target:selector_a245e6f370ce26c176e551d78e17072eaebf79cd ui:y "0.4292763157894737"^^xsd:float .
-target:selector_a245e6f370ce26c176e551d78e17072eaebf79cd rdf:value "#xywh=percent:61,43,15,23" .
-
-target:selector_a6c990ac1d4ca0deb7768091ec9d67cdec4f06ec a oa:FragmentSelector .
-target:selector_a6c990ac1d4ca0deb7768091ec9d67cdec4f06ec terms:conformsTo <http://www.w3.org/TR/media-frags/> .
-target:selector_a6c990ac1d4ca0deb7768091ec9d67cdec4f06ec ui:h "0.15542763157894737"^^xsd:float .
-target:selector_a6c990ac1d4ca0deb7768091ec9d67cdec4f06ec ui:w "0.164"^^xsd:float .
-target:selector_a6c990ac1d4ca0deb7768091ec9d67cdec4f06ec ui:x "0.3546666666666667"^^xsd:float .
-target:selector_a6c990ac1d4ca0deb7768091ec9d67cdec4f06ec ui:y "0.41776315789473684"^^xsd:float .
-target:selector_a6c990ac1d4ca0deb7768091ec9d67cdec4f06ec rdf:value "#xywh=percent:35,42,16,16" .
-
-target:selector_bf07a4fc8bcf73c8258483abbb045a0aad6531f0 a oa:FragmentSelector .
-target:selector_bf07a4fc8bcf73c8258483abbb045a0aad6531f0 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
-target:selector_bf07a4fc8bcf73c8258483abbb045a0aad6531f0 ui:h "0.08552631578947369"^^xsd:float .
-target:selector_bf07a4fc8bcf73c8258483abbb045a0aad6531f0 ui:w "0.10266666666666667"^^xsd:float .
-target:selector_bf07a4fc8bcf73c8258483abbb045a0aad6531f0 ui:x "0.7693333333333333"^^xsd:float .
-target:selector_bf07a4fc8bcf73c8258483abbb045a0aad6531f0 ui:y "0.5180921052631579"^^xsd:float .
-target:selector_bf07a4fc8bcf73c8258483abbb045a0aad6531f0 rdf:value "#xywh=percent:77,52,10,9" .
-
-target:target_a245e6f370ce26c176e551d78e17072eaebf79cd a oa:SpecificResource .
-target:target_a245e6f370ce26c176e551d78e17072eaebf79cd oa:hasSelector target:selector_a245e6f370ce26c176e551d78e17072eaebf79cd .
-target:target_a245e6f370ce26c176e551d78e17072eaebf79cd oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/104> .
-
-target:target_a6c990ac1d4ca0deb7768091ec9d67cdec4f06ec a oa:SpecificResource .
-target:target_a6c990ac1d4ca0deb7768091ec9d67cdec4f06ec oa:hasSelector target:selector_a6c990ac1d4ca0deb7768091ec9d67cdec4f06ec .
-target:target_a6c990ac1d4ca0deb7768091ec9d67cdec4f06ec oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/104> .
-
-target:target_bf07a4fc8bcf73c8258483abbb045a0aad6531f0 a oa:SpecificResource .
-target:target_bf07a4fc8bcf73c8258483abbb045a0aad6531f0 oa:hasSelector target:selector_bf07a4fc8bcf73c8258483abbb045a0aad6531f0 .
-target:target_bf07a4fc8bcf73c8258483abbb045a0aad6531f0 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/104> .
+<http://accurator.nl/id_546e6556274f38032f449e4904247ab7b180ccdd> a oa:Annotation .
+<http://accurator.nl/id_546e6556274f38032f449e4904247ab7b180ccdd> terms:title "Abram and Lot depart out of Haran" .
+<http://accurator.nl/id_546e6556274f38032f449e4904247ab7b180ccdd> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
+<http://accurator.nl/id_546e6556274f38032f449e4904247ab7b180ccdd> ui:typingTime 0 .
+<http://accurator.nl/id_546e6556274f38032f449e4904247ab7b180ccdd> oa:annotatedAt "2016-05-05T12:45:58+02:00"^^xsd:dateTime .
+<http://accurator.nl/id_546e6556274f38032f449e4904247ab7b180ccdd> oa:annotatedBy user:everhoeff .
+<http://accurator.nl/id_546e6556274f38032f449e4904247ab7b180ccdd> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Abram and Lot depart out of Haran" ] .
+<http://accurator.nl/id_546e6556274f38032f449e4904247ab7b180ccdd> oa:hasTarget ubvu:print-218010001063 .
+<http://accurator.nl/id_546e6556274f38032f449e4904247ab7b180ccdd> oa:motivatedBy oa:tagging .
