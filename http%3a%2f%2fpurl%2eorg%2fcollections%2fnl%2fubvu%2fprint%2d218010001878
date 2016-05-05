@@ -8,17 +8,29 @@
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_707d125d7ff26d1c2b825c030b2bf0b59f27451b> a oa:Annotation .
-<http://accurator.nl/id_707d125d7ff26d1c2b825c030b2bf0b59f27451b> terms:title "christ" .
-<http://accurator.nl/id_707d125d7ff26d1c2b825c030b2bf0b59f27451b> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_707d125d7ff26d1c2b825c030b2bf0b59f27451b> ui:typingTime 0 .
-<http://accurator.nl/id_707d125d7ff26d1c2b825c030b2bf0b59f27451b> oa:annotatedAt "2016-05-05T11:11:24+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_707d125d7ff26d1c2b825c030b2bf0b59f27451b> oa:annotatedBy user:everhoeff .
-<http://accurator.nl/id_707d125d7ff26d1c2b825c030b2bf0b59f27451b> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "christ" ] .
-<http://accurator.nl/id_707d125d7ff26d1c2b825c030b2bf0b59f27451b> oa:hasTarget target:target_a1c7a55420ef60fb9b81702dc67e9caf9d35662b .
-<http://accurator.nl/id_707d125d7ff26d1c2b825c030b2bf0b59f27451b> oa:hasTarget ubvu:print-218010001878 .
-<http://accurator.nl/id_707d125d7ff26d1c2b825c030b2bf0b59f27451b> oa:motivatedBy oa:tagging .
+nl:id_707d125d7ff26d1c2b825c030b2bf0b59f27451b a oa:Annotation .
+nl:id_707d125d7ff26d1c2b825c030b2bf0b59f27451b terms:title "christ" .
+nl:id_707d125d7ff26d1c2b825c030b2bf0b59f27451b ui:annotationField bible:BibleCharacter .
+nl:id_707d125d7ff26d1c2b825c030b2bf0b59f27451b ui:typingTime 0 .
+nl:id_707d125d7ff26d1c2b825c030b2bf0b59f27451b oa:annotatedAt "2016-05-05T11:11:24+02:00"^^xsd:dateTime .
+nl:id_707d125d7ff26d1c2b825c030b2bf0b59f27451b oa:annotatedBy user:everhoeff .
+nl:id_707d125d7ff26d1c2b825c030b2bf0b59f27451b oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "christ" ] .
+nl:id_707d125d7ff26d1c2b825c030b2bf0b59f27451b oa:hasTarget target:target_a1c7a55420ef60fb9b81702dc67e9caf9d35662b .
+nl:id_707d125d7ff26d1c2b825c030b2bf0b59f27451b oa:hasTarget ubvu:print-218010001878 .
+nl:id_707d125d7ff26d1c2b825c030b2bf0b59f27451b oa:motivatedBy oa:tagging .
+
+nl:id_712cf9c7425a7b009b5eb0ec4e8d8da40d0bd66b a oa:Annotation .
+nl:id_712cf9c7425a7b009b5eb0ec4e8d8da40d0bd66b terms:title "The resurrection of Christ" .
+nl:id_712cf9c7425a7b009b5eb0ec4e8d8da40d0bd66b ui:annotationField bible:ICBibleTheme .
+nl:id_712cf9c7425a7b009b5eb0ec4e8d8da40d0bd66b ui:typingTime 0 .
+nl:id_712cf9c7425a7b009b5eb0ec4e8d8da40d0bd66b oa:annotatedAt "2016-05-05T11:12:06+02:00"^^xsd:dateTime .
+nl:id_712cf9c7425a7b009b5eb0ec4e8d8da40d0bd66b oa:annotatedBy user:everhoeff .
+nl:id_712cf9c7425a7b009b5eb0ec4e8d8da40d0bd66b oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The resurrection of Christ" ] .
+nl:id_712cf9c7425a7b009b5eb0ec4e8d8da40d0bd66b oa:hasTarget ubvu:print-218010001878 .
+nl:id_712cf9c7425a7b009b5eb0ec4e8d8da40d0bd66b oa:motivatedBy oa:tagging .
 
 target:selector_a1c7a55420ef60fb9b81702dc67e9caf9d35662b a oa:FragmentSelector .
 target:selector_a1c7a55420ef60fb9b81702dc67e9caf9d35662b terms:conformsTo <http://www.w3.org/TR/media-frags/> .
