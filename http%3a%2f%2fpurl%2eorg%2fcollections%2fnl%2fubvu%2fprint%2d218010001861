@@ -6,14 +6,40 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_6966b1a0236062e36981c33d641cff6865dc97bd> a oa:Annotation .
-<http://accurator.nl/id_6966b1a0236062e36981c33d641cff6865dc97bd> terms:title "Simeon of Cyrene bears the cross of Jesus Christ" .
-<http://accurator.nl/id_6966b1a0236062e36981c33d641cff6865dc97bd> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
-<http://accurator.nl/id_6966b1a0236062e36981c33d641cff6865dc97bd> ui:typingTime 0 .
-<http://accurator.nl/id_6966b1a0236062e36981c33d641cff6865dc97bd> oa:annotatedAt "2016-05-05T12:35:34+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_6966b1a0236062e36981c33d641cff6865dc97bd> oa:annotatedBy user:everhoeff .
-<http://accurator.nl/id_6966b1a0236062e36981c33d641cff6865dc97bd> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Simeon of Cyrene bears the cross of Jesus Christ" ] .
-<http://accurator.nl/id_6966b1a0236062e36981c33d641cff6865dc97bd> oa:hasTarget ubvu:print-218010001861 .
-<http://accurator.nl/id_6966b1a0236062e36981c33d641cff6865dc97bd> oa:motivatedBy oa:tagging .
+nl:id_443a2924cb3aeebc078eefd687ff1e9ea2892316 a oa:Annotation .
+nl:id_443a2924cb3aeebc078eefd687ff1e9ea2892316 terms:title "Simon of Cyrene" .
+nl:id_443a2924cb3aeebc078eefd687ff1e9ea2892316 ui:annotationField bible:BibleCharacter .
+nl:id_443a2924cb3aeebc078eefd687ff1e9ea2892316 ui:typingTime 0 .
+nl:id_443a2924cb3aeebc078eefd687ff1e9ea2892316 oa:annotatedAt "2016-05-05T12:36:30+02:00"^^xsd:dateTime .
+nl:id_443a2924cb3aeebc078eefd687ff1e9ea2892316 oa:annotatedBy user:everhoeff .
+nl:id_443a2924cb3aeebc078eefd687ff1e9ea2892316 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Simon of Cyrene" ] .
+nl:id_443a2924cb3aeebc078eefd687ff1e9ea2892316 oa:hasTarget target:target_2f846fc94cd5ab92efa37103bfda4f5ecf513a02 .
+nl:id_443a2924cb3aeebc078eefd687ff1e9ea2892316 oa:hasTarget ubvu:print-218010001861 .
+nl:id_443a2924cb3aeebc078eefd687ff1e9ea2892316 oa:motivatedBy oa:tagging .
+
+nl:id_6966b1a0236062e36981c33d641cff6865dc97bd a oa:Annotation .
+nl:id_6966b1a0236062e36981c33d641cff6865dc97bd terms:title "Simeon of Cyrene bears the cross of Jesus Christ" .
+nl:id_6966b1a0236062e36981c33d641cff6865dc97bd ui:annotationField bible:ICBibleTheme .
+nl:id_6966b1a0236062e36981c33d641cff6865dc97bd ui:typingTime 0 .
+nl:id_6966b1a0236062e36981c33d641cff6865dc97bd oa:annotatedAt "2016-05-05T12:35:34+02:00"^^xsd:dateTime .
+nl:id_6966b1a0236062e36981c33d641cff6865dc97bd oa:annotatedBy user:everhoeff .
+nl:id_6966b1a0236062e36981c33d641cff6865dc97bd oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Simeon of Cyrene bears the cross of Jesus Christ" ] .
+nl:id_6966b1a0236062e36981c33d641cff6865dc97bd oa:hasTarget ubvu:print-218010001861 .
+nl:id_6966b1a0236062e36981c33d641cff6865dc97bd oa:motivatedBy oa:tagging .
+
+target:selector_2f846fc94cd5ab92efa37103bfda4f5ecf513a02 a oa:FragmentSelector .
+target:selector_2f846fc94cd5ab92efa37103bfda4f5ecf513a02 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_2f846fc94cd5ab92efa37103bfda4f5ecf513a02 ui:h "0.24611398963730569"^^xsd:float .
+target:selector_2f846fc94cd5ab92efa37103bfda4f5ecf513a02 ui:w "0.228"^^xsd:float .
+target:selector_2f846fc94cd5ab92efa37103bfda4f5ecf513a02 ui:x "0.5346666666666666"^^xsd:float .
+target:selector_2f846fc94cd5ab92efa37103bfda4f5ecf513a02 ui:y "0.49740932642487046"^^xsd:float .
+target:selector_2f846fc94cd5ab92efa37103bfda4f5ecf513a02 rdf:value "#xywh=percent:53,50,23,25" .
+
+target:target_2f846fc94cd5ab92efa37103bfda4f5ecf513a02 a oa:SpecificResource .
+target:target_2f846fc94cd5ab92efa37103bfda4f5ecf513a02 oa:hasSelector target:selector_2f846fc94cd5ab92efa37103bfda4f5ecf513a02 .
+target:target_2f846fc94cd5ab92efa37103bfda4f5ecf513a02 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/900> .
