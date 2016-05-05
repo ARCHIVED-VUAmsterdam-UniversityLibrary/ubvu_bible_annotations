@@ -1,0 +1,19 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix user: <http://accurator.nl/user#> .
+
+<http://accurator.nl/id_c978f98d70fb1f50a0fb8c83f267c286e8658e28> a oa:Annotation .
+<http://accurator.nl/id_c978f98d70fb1f50a0fb8c83f267c286e8658e28> terms:title "The Lord appears to Moses in a burning bush" .
+<http://accurator.nl/id_c978f98d70fb1f50a0fb8c83f267c286e8658e28> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
+<http://accurator.nl/id_c978f98d70fb1f50a0fb8c83f267c286e8658e28> ui:typingTime 0 .
+<http://accurator.nl/id_c978f98d70fb1f50a0fb8c83f267c286e8658e28> oa:annotatedAt "2016-05-05T12:42:44+02:00"^^xsd:dateTime .
+<http://accurator.nl/id_c978f98d70fb1f50a0fb8c83f267c286e8658e28> oa:annotatedBy user:everhoeff .
+<http://accurator.nl/id_c978f98d70fb1f50a0fb8c83f267c286e8658e28> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The Lord appears to Moses in a burning bush" ] .
+<http://accurator.nl/id_c978f98d70fb1f50a0fb8c83f267c286e8658e28> oa:hasTarget ubvu:print-218010001201 .
+<http://accurator.nl/id_c978f98d70fb1f50a0fb8c83f267c286e8658e28> oa:motivatedBy oa:tagging .
