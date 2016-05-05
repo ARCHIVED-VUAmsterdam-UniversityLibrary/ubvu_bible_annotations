@@ -20,6 +20,16 @@ nl:id_39df1803cdc880bb850a018ebb85df69e2eb15bc oa:hasBody [ a content:ContentAsT
 nl:id_39df1803cdc880bb850a018ebb85df69e2eb15bc oa:hasTarget ubvu:print-218010002009 .
 nl:id_39df1803cdc880bb850a018ebb85df69e2eb15bc oa:motivatedBy oa:tagging .
 
+nl:id_e5aa9ef93cd3fb111349c826021cadf3be74e7a6 a oa:Annotation .
+nl:id_e5aa9ef93cd3fb111349c826021cadf3be74e7a6 terms:title "Gideon conquers the Midianites" .
+nl:id_e5aa9ef93cd3fb111349c826021cadf3be74e7a6 ui:annotationField bible:ICBibleTheme .
+nl:id_e5aa9ef93cd3fb111349c826021cadf3be74e7a6 ui:typingTime 0 .
+nl:id_e5aa9ef93cd3fb111349c826021cadf3be74e7a6 oa:annotatedAt "2016-05-05T12:25:49+02:00"^^xsd:dateTime .
+nl:id_e5aa9ef93cd3fb111349c826021cadf3be74e7a6 oa:annotatedBy user:everhoeff .
+nl:id_e5aa9ef93cd3fb111349c826021cadf3be74e7a6 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Gideon conquers the Midianites" ] .
+nl:id_e5aa9ef93cd3fb111349c826021cadf3be74e7a6 oa:hasTarget ubvu:print-218010002009 .
+nl:id_e5aa9ef93cd3fb111349c826021cadf3be74e7a6 oa:motivatedBy oa:tagging .
+
 nl:id_ea2d80e3b42bd65a9e1011d172a5c5eab7f81c0f a oa:Annotation .
 nl:id_ea2d80e3b42bd65a9e1011d172a5c5eab7f81c0f terms:title "Eglon killed by Ehud" .
 nl:id_ea2d80e3b42bd65a9e1011d172a5c5eab7f81c0f ui:annotationField bible:ICBibleTheme .
