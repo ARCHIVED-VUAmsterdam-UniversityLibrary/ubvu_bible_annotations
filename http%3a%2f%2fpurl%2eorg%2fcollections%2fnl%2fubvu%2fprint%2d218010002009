@@ -7,13 +7,25 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_ea2d80e3b42bd65a9e1011d172a5c5eab7f81c0f> a oa:Annotation .
-<http://accurator.nl/id_ea2d80e3b42bd65a9e1011d172a5c5eab7f81c0f> terms:title "Eglon killed by Ehud" .
-<http://accurator.nl/id_ea2d80e3b42bd65a9e1011d172a5c5eab7f81c0f> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
-<http://accurator.nl/id_ea2d80e3b42bd65a9e1011d172a5c5eab7f81c0f> ui:typingTime 0 .
-<http://accurator.nl/id_ea2d80e3b42bd65a9e1011d172a5c5eab7f81c0f> oa:annotatedAt "2016-05-05T12:21:33+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_ea2d80e3b42bd65a9e1011d172a5c5eab7f81c0f> oa:annotatedBy user:everhoeff .
-<http://accurator.nl/id_ea2d80e3b42bd65a9e1011d172a5c5eab7f81c0f> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Eglon killed by Ehud" ] .
-<http://accurator.nl/id_ea2d80e3b42bd65a9e1011d172a5c5eab7f81c0f> oa:hasTarget ubvu:print-218010002009 .
-<http://accurator.nl/id_ea2d80e3b42bd65a9e1011d172a5c5eab7f81c0f> oa:motivatedBy oa:tagging .
+nl:id_39df1803cdc880bb850a018ebb85df69e2eb15bc a oa:Annotation .
+nl:id_39df1803cdc880bb850a018ebb85df69e2eb15bc terms:title "Sisera killed by Jael" .
+nl:id_39df1803cdc880bb850a018ebb85df69e2eb15bc ui:annotationField bible:ICBibleTheme .
+nl:id_39df1803cdc880bb850a018ebb85df69e2eb15bc ui:typingTime 0 .
+nl:id_39df1803cdc880bb850a018ebb85df69e2eb15bc oa:annotatedAt "2016-05-05T12:22:16+02:00"^^xsd:dateTime .
+nl:id_39df1803cdc880bb850a018ebb85df69e2eb15bc oa:annotatedBy user:everhoeff .
+nl:id_39df1803cdc880bb850a018ebb85df69e2eb15bc oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Sisera killed by Jael" ] .
+nl:id_39df1803cdc880bb850a018ebb85df69e2eb15bc oa:hasTarget ubvu:print-218010002009 .
+nl:id_39df1803cdc880bb850a018ebb85df69e2eb15bc oa:motivatedBy oa:tagging .
+
+nl:id_ea2d80e3b42bd65a9e1011d172a5c5eab7f81c0f a oa:Annotation .
+nl:id_ea2d80e3b42bd65a9e1011d172a5c5eab7f81c0f terms:title "Eglon killed by Ehud" .
+nl:id_ea2d80e3b42bd65a9e1011d172a5c5eab7f81c0f ui:annotationField bible:ICBibleTheme .
+nl:id_ea2d80e3b42bd65a9e1011d172a5c5eab7f81c0f ui:typingTime 0 .
+nl:id_ea2d80e3b42bd65a9e1011d172a5c5eab7f81c0f oa:annotatedAt "2016-05-05T12:21:33+02:00"^^xsd:dateTime .
+nl:id_ea2d80e3b42bd65a9e1011d172a5c5eab7f81c0f oa:annotatedBy user:everhoeff .
+nl:id_ea2d80e3b42bd65a9e1011d172a5c5eab7f81c0f oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Eglon killed by Ehud" ] .
+nl:id_ea2d80e3b42bd65a9e1011d172a5c5eab7f81c0f oa:hasTarget ubvu:print-218010002009 .
+nl:id_ea2d80e3b42bd65a9e1011d172a5c5eab7f81c0f oa:motivatedBy oa:tagging .
