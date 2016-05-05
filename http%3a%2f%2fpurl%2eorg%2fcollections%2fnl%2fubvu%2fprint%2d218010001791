@@ -1,45 +1,17 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
-@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
-@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
-@prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
-@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
-@prefix nl: <http://accurator.nl/> .
 
-nl:id_69f43f1eaa98b7e02791b6c589b98a60f73d1243 a oa:Annotation .
-nl:id_69f43f1eaa98b7e02791b6c589b98a60f73d1243 terms:title "Samaritaan" .
-nl:id_69f43f1eaa98b7e02791b6c589b98a60f73d1243 ui:annotationField bible:BibleCharacter .
-nl:id_69f43f1eaa98b7e02791b6c589b98a60f73d1243 ui:typingTime 0 .
-nl:id_69f43f1eaa98b7e02791b6c589b98a60f73d1243 oa:annotatedAt "2016-04-24T15:00:26+02:00"^^xsd:dateTime .
-nl:id_69f43f1eaa98b7e02791b6c589b98a60f73d1243 oa:annotatedBy user:paulinevandijk .
-nl:id_69f43f1eaa98b7e02791b6c589b98a60f73d1243 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Samaritaan" ] .
-nl:id_69f43f1eaa98b7e02791b6c589b98a60f73d1243 oa:hasTarget target:target_a9109a17c775c6adc45758786fd192ddbbf5919a .
-nl:id_69f43f1eaa98b7e02791b6c589b98a60f73d1243 oa:hasTarget ubvu:print-218010001791 .
-nl:id_69f43f1eaa98b7e02791b6c589b98a60f73d1243 oa:motivatedBy oa:tagging .
-
-nl:id_8a94bb31972a1f9bceb5523e2663d0c612dbdb6a a oa:Annotation .
-nl:id_8a94bb31972a1f9bceb5523e2663d0c612dbdb6a terms:title "De barmhartige Samaritaan" .
-nl:id_8a94bb31972a1f9bceb5523e2663d0c612dbdb6a ui:annotationField bible:ICBibleTheme .
-nl:id_8a94bb31972a1f9bceb5523e2663d0c612dbdb6a ui:typingTime 0 .
-nl:id_8a94bb31972a1f9bceb5523e2663d0c612dbdb6a oa:annotatedAt "2016-04-24T15:00:39+02:00"^^xsd:dateTime .
-nl:id_8a94bb31972a1f9bceb5523e2663d0c612dbdb6a oa:annotatedBy user:paulinevandijk .
-nl:id_8a94bb31972a1f9bceb5523e2663d0c612dbdb6a oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "De barmhartige Samaritaan" ] .
-nl:id_8a94bb31972a1f9bceb5523e2663d0c612dbdb6a oa:hasTarget ubvu:print-218010001791 .
-nl:id_8a94bb31972a1f9bceb5523e2663d0c612dbdb6a oa:motivatedBy oa:tagging .
-
-target:selector_a9109a17c775c6adc45758786fd192ddbbf5919a a oa:FragmentSelector .
-target:selector_a9109a17c775c6adc45758786fd192ddbbf5919a terms:conformsTo <http://www.w3.org/TR/media-frags/> .
-target:selector_a9109a17c775c6adc45758786fd192ddbbf5919a ui:h "0.12887989203778677"^^xsd:float .
-target:selector_a9109a17c775c6adc45758786fd192ddbbf5919a ui:w "0.3319587628865979"^^xsd:float .
-target:selector_a9109a17c775c6adc45758786fd192ddbbf5919a ui:x "0.45257731958762887"^^xsd:float .
-target:selector_a9109a17c775c6adc45758786fd192ddbbf5919a ui:y "0.5188933873144399"^^xsd:float .
-target:selector_a9109a17c775c6adc45758786fd192ddbbf5919a rdf:value "#xywh=percent:45,52,33,13" .
-
-target:target_a9109a17c775c6adc45758786fd192ddbbf5919a a oa:SpecificResource .
-target:target_a9109a17c775c6adc45758786fd192ddbbf5919a oa:hasSelector target:selector_a9109a17c775c6adc45758786fd192ddbbf5919a .
-target:target_a9109a17c775c6adc45758786fd192ddbbf5919a oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/830> .
+<http://accurator.nl/id_02697fe29ef3b35a5e10e2946ac5737bb3a2e5d3> a oa:Annotation .
+<http://accurator.nl/id_02697fe29ef3b35a5e10e2946ac5737bb3a2e5d3> terms:title "the good Samaritan (Luke 10:30-37)" .
+<http://accurator.nl/id_02697fe29ef3b35a5e10e2946ac5737bb3a2e5d3> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
+<http://accurator.nl/id_02697fe29ef3b35a5e10e2946ac5737bb3a2e5d3> ui:typingTime 0 .
+<http://accurator.nl/id_02697fe29ef3b35a5e10e2946ac5737bb3a2e5d3> oa:annotatedAt "2016-05-05T12:44:33+02:00"^^xsd:dateTime .
+<http://accurator.nl/id_02697fe29ef3b35a5e10e2946ac5737bb3a2e5d3> oa:annotatedBy user:everhoeff .
+<http://accurator.nl/id_02697fe29ef3b35a5e10e2946ac5737bb3a2e5d3> oa:hasBody <http://iconclass.org/73C861> .
+<http://accurator.nl/id_02697fe29ef3b35a5e10e2946ac5737bb3a2e5d3> oa:hasTarget ubvu:print-218010001791 .
+<http://accurator.nl/id_02697fe29ef3b35a5e10e2946ac5737bb3a2e5d3> oa:motivatedBy oa:tagging .
