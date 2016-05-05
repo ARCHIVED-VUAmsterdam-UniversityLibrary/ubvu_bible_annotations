@@ -1,5 +1,4 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
-@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -7,109 +6,14 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
-@prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
-@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
-@prefix nl: <http://accurator.nl/> .
 
-nl:id_1fcb484edb0880a4ba83a340f6fa314fc8fb0f62 a oa:Annotation .
-nl:id_1fcb484edb0880a4ba83a340f6fa314fc8fb0f62 terms:title "Adam" .
-nl:id_1fcb484edb0880a4ba83a340f6fa314fc8fb0f62 ui:annotationField bible:BibleCharacter .
-nl:id_1fcb484edb0880a4ba83a340f6fa314fc8fb0f62 ui:typingTime 0 .
-nl:id_1fcb484edb0880a4ba83a340f6fa314fc8fb0f62 oa:annotatedAt "2016-04-25T16:24:32+02:00"^^xsd:dateTime .
-nl:id_1fcb484edb0880a4ba83a340f6fa314fc8fb0f62 oa:annotatedBy user:paulinevandijk .
-nl:id_1fcb484edb0880a4ba83a340f6fa314fc8fb0f62 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Adam" ] .
-nl:id_1fcb484edb0880a4ba83a340f6fa314fc8fb0f62 oa:hasTarget target:target_355397ff2aa6706900f08032b64077ae137b1051 .
-nl:id_1fcb484edb0880a4ba83a340f6fa314fc8fb0f62 oa:hasTarget ubvu:print-218010001032 .
-nl:id_1fcb484edb0880a4ba83a340f6fa314fc8fb0f62 oa:motivatedBy oa:tagging .
-
-nl:id_6c5860d302ea3545747f3f75331d081f2047daa1 a oa:Annotation .
-nl:id_6c5860d302ea3545747f3f75331d081f2047daa1 terms:title "Een levenlang zwoegen voor je eten" .
-nl:id_6c5860d302ea3545747f3f75331d081f2047daa1 ui:annotationField bible:ICBibleTheme .
-nl:id_6c5860d302ea3545747f3f75331d081f2047daa1 ui:typingTime 0 .
-nl:id_6c5860d302ea3545747f3f75331d081f2047daa1 oa:annotatedAt "2016-04-25T16:25:43+02:00"^^xsd:dateTime .
-nl:id_6c5860d302ea3545747f3f75331d081f2047daa1 oa:annotatedBy user:paulinevandijk .
-nl:id_6c5860d302ea3545747f3f75331d081f2047daa1 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Een levenlang zwoegen voor je eten" ] .
-nl:id_6c5860d302ea3545747f3f75331d081f2047daa1 oa:hasTarget ubvu:print-218010001032 .
-nl:id_6c5860d302ea3545747f3f75331d081f2047daa1 oa:motivatedBy oa:tagging .
-
-nl:id_b62408370f45ab1c7a9b26dd542133935e7b3c9b a oa:Annotation .
-nl:id_b62408370f45ab1c7a9b26dd542133935e7b3c9b terms:title "Abel" .
-nl:id_b62408370f45ab1c7a9b26dd542133935e7b3c9b ui:annotationField bible:BibleCharacter .
-nl:id_b62408370f45ab1c7a9b26dd542133935e7b3c9b ui:typingTime 0 .
-nl:id_b62408370f45ab1c7a9b26dd542133935e7b3c9b oa:annotatedAt "2016-04-25T16:25:11+02:00"^^xsd:dateTime .
-nl:id_b62408370f45ab1c7a9b26dd542133935e7b3c9b oa:annotatedBy user:paulinevandijk .
-nl:id_b62408370f45ab1c7a9b26dd542133935e7b3c9b oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Abel" ] .
-nl:id_b62408370f45ab1c7a9b26dd542133935e7b3c9b oa:hasTarget target:target_9545c26a716ce3c464e7371030e05b6b6ea2a6ff .
-nl:id_b62408370f45ab1c7a9b26dd542133935e7b3c9b oa:hasTarget ubvu:print-218010001032 .
-nl:id_b62408370f45ab1c7a9b26dd542133935e7b3c9b oa:motivatedBy oa:tagging .
-
-nl:id_bbcc7ae50e02835bdd1bb2798058e43186c51cac a oa:Annotation .
-nl:id_bbcc7ae50e02835bdd1bb2798058e43186c51cac terms:title "Kaïn" .
-nl:id_bbcc7ae50e02835bdd1bb2798058e43186c51cac ui:annotationField bible:BibleCharacter .
-nl:id_bbcc7ae50e02835bdd1bb2798058e43186c51cac ui:typingTime 0 .
-nl:id_bbcc7ae50e02835bdd1bb2798058e43186c51cac oa:annotatedAt "2016-04-25T16:25:00+02:00"^^xsd:dateTime .
-nl:id_bbcc7ae50e02835bdd1bb2798058e43186c51cac oa:annotatedBy user:paulinevandijk .
-nl:id_bbcc7ae50e02835bdd1bb2798058e43186c51cac oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Kaïn" ] .
-nl:id_bbcc7ae50e02835bdd1bb2798058e43186c51cac oa:hasTarget target:target_efc80c2f482b312d36b2d433e20ade5aad7e7603 .
-nl:id_bbcc7ae50e02835bdd1bb2798058e43186c51cac oa:hasTarget ubvu:print-218010001032 .
-nl:id_bbcc7ae50e02835bdd1bb2798058e43186c51cac oa:motivatedBy oa:tagging .
-
-nl:id_d9bba0a4048f13f6c9524bdb2a6872645dc808d5 a oa:Annotation .
-nl:id_d9bba0a4048f13f6c9524bdb2a6872645dc808d5 terms:title "Eva" .
-nl:id_d9bba0a4048f13f6c9524bdb2a6872645dc808d5 ui:annotationField bible:BibleCharacter .
-nl:id_d9bba0a4048f13f6c9524bdb2a6872645dc808d5 ui:typingTime 0 .
-nl:id_d9bba0a4048f13f6c9524bdb2a6872645dc808d5 oa:annotatedAt "2016-04-25T16:24:45+02:00"^^xsd:dateTime .
-nl:id_d9bba0a4048f13f6c9524bdb2a6872645dc808d5 oa:annotatedBy user:paulinevandijk .
-nl:id_d9bba0a4048f13f6c9524bdb2a6872645dc808d5 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Eva" ] .
-nl:id_d9bba0a4048f13f6c9524bdb2a6872645dc808d5 oa:hasTarget target:target_426bf566c4f4d23cc505a0b5057c8980247cb6c3 .
-nl:id_d9bba0a4048f13f6c9524bdb2a6872645dc808d5 oa:hasTarget ubvu:print-218010001032 .
-nl:id_d9bba0a4048f13f6c9524bdb2a6872645dc808d5 oa:motivatedBy oa:tagging .
-
-target:selector_355397ff2aa6706900f08032b64077ae137b1051 a oa:FragmentSelector .
-target:selector_355397ff2aa6706900f08032b64077ae137b1051 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
-target:selector_355397ff2aa6706900f08032b64077ae137b1051 ui:h "0.09491059147180192"^^xsd:float .
-target:selector_355397ff2aa6706900f08032b64077ae137b1051 ui:w "0.0711340206185567"^^xsd:float .
-target:selector_355397ff2aa6706900f08032b64077ae137b1051 ui:x "0.45257731958762887"^^xsd:float .
-target:selector_355397ff2aa6706900f08032b64077ae137b1051 ui:y "0.48762035763411277"^^xsd:float .
-target:selector_355397ff2aa6706900f08032b64077ae137b1051 rdf:value "#xywh=percent:45,49,7,9" .
-
-target:selector_426bf566c4f4d23cc505a0b5057c8980247cb6c3 a oa:FragmentSelector .
-target:selector_426bf566c4f4d23cc505a0b5057c8980247cb6c3 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
-target:selector_426bf566c4f4d23cc505a0b5057c8980247cb6c3 ui:h "0.08665749656121045"^^xsd:float .
-target:selector_426bf566c4f4d23cc505a0b5057c8980247cb6c3 ui:w "0.041237113402061855"^^xsd:float .
-target:selector_426bf566c4f4d23cc505a0b5057c8980247cb6c3 ui:x "0.5814432989690722"^^xsd:float .
-target:selector_426bf566c4f4d23cc505a0b5057c8980247cb6c3 ui:y "0.5206327372764786"^^xsd:float .
-target:selector_426bf566c4f4d23cc505a0b5057c8980247cb6c3 rdf:value "#xywh=percent:58,52,4,9" .
-
-target:selector_9545c26a716ce3c464e7371030e05b6b6ea2a6ff a oa:FragmentSelector .
-target:selector_9545c26a716ce3c464e7371030e05b6b6ea2a6ff terms:conformsTo <http://www.w3.org/TR/media-frags/> .
-target:selector_9545c26a716ce3c464e7371030e05b6b6ea2a6ff ui:h "0.024071526822558458"^^xsd:float .
-target:selector_9545c26a716ce3c464e7371030e05b6b6ea2a6ff ui:w "0.05154639175257732"^^xsd:float .
-target:selector_9545c26a716ce3c464e7371030e05b6b6ea2a6ff ui:x "0.5721649484536082"^^xsd:float .
-target:selector_9545c26a716ce3c464e7371030e05b6b6ea2a6ff ui:y "0.5433287482806052"^^xsd:float .
-target:selector_9545c26a716ce3c464e7371030e05b6b6ea2a6ff rdf:value "#xywh=percent:57,54,5,2" .
-
-target:selector_efc80c2f482b312d36b2d433e20ade5aad7e7603 a oa:FragmentSelector .
-target:selector_efc80c2f482b312d36b2d433e20ade5aad7e7603 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
-target:selector_efc80c2f482b312d36b2d433e20ade5aad7e7603 ui:h "0.07702888583218707"^^xsd:float .
-target:selector_efc80c2f482b312d36b2d433e20ade5aad7e7603 ui:w "0.031958762886597936"^^xsd:float .
-target:selector_efc80c2f482b312d36b2d433e20ade5aad7e7603 ui:x "0.6103092783505155"^^xsd:float .
-target:selector_efc80c2f482b312d36b2d433e20ade5aad7e7603 ui:y "0.5185694635488308"^^xsd:float .
-target:selector_efc80c2f482b312d36b2d433e20ade5aad7e7603 rdf:value "#xywh=percent:61,52,3,8" .
-
-target:target_355397ff2aa6706900f08032b64077ae137b1051 a oa:SpecificResource .
-target:target_355397ff2aa6706900f08032b64077ae137b1051 oa:hasSelector target:selector_355397ff2aa6706900f08032b64077ae137b1051 .
-target:target_355397ff2aa6706900f08032b64077ae137b1051 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/73> .
-
-target:target_426bf566c4f4d23cc505a0b5057c8980247cb6c3 a oa:SpecificResource .
-target:target_426bf566c4f4d23cc505a0b5057c8980247cb6c3 oa:hasSelector target:selector_426bf566c4f4d23cc505a0b5057c8980247cb6c3 .
-target:target_426bf566c4f4d23cc505a0b5057c8980247cb6c3 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/73> .
-
-target:target_9545c26a716ce3c464e7371030e05b6b6ea2a6ff a oa:SpecificResource .
-target:target_9545c26a716ce3c464e7371030e05b6b6ea2a6ff oa:hasSelector target:selector_9545c26a716ce3c464e7371030e05b6b6ea2a6ff .
-target:target_9545c26a716ce3c464e7371030e05b6b6ea2a6ff oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/73> .
-
-target:target_efc80c2f482b312d36b2d433e20ade5aad7e7603 a oa:SpecificResource .
-target:target_efc80c2f482b312d36b2d433e20ade5aad7e7603 oa:hasSelector target:selector_efc80c2f482b312d36b2d433e20ade5aad7e7603 .
-target:target_efc80c2f482b312d36b2d433e20ade5aad7e7603 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/73> .
+<http://accurator.nl/id_8ced62052c9c0c983ea47757fad3cdc2562d516d> a oa:Annotation .
+<http://accurator.nl/id_8ced62052c9c0c983ea47757fad3cdc2562d516d> terms:title "In sorrow you shall eat of the  ground all the days of your life- curse of Adam" .
+<http://accurator.nl/id_8ced62052c9c0c983ea47757fad3cdc2562d516d> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
+<http://accurator.nl/id_8ced62052c9c0c983ea47757fad3cdc2562d516d> ui:typingTime 0 .
+<http://accurator.nl/id_8ced62052c9c0c983ea47757fad3cdc2562d516d> oa:annotatedAt "2016-05-05T12:18:09+02:00"^^xsd:dateTime .
+<http://accurator.nl/id_8ced62052c9c0c983ea47757fad3cdc2562d516d> oa:annotatedBy user:everhoeff .
+<http://accurator.nl/id_8ced62052c9c0c983ea47757fad3cdc2562d516d> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "In sorrow you shall eat of the  ground all the days of your life- curse of Adam" ] .
+<http://accurator.nl/id_8ced62052c9c0c983ea47757fad3cdc2562d516d> oa:hasTarget ubvu:print-218010001032 .
+<http://accurator.nl/id_8ced62052c9c0c983ea47757fad3cdc2562d516d> oa:motivatedBy oa:tagging .
