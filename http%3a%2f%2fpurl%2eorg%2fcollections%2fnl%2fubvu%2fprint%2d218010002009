@@ -6,9 +6,22 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
+
+nl:id_118f186d32d7460cd5ea00da27acdfc653bd8474 a oa:Annotation .
+nl:id_118f186d32d7460cd5ea00da27acdfc653bd8474 terms:title "Gideon" .
+nl:id_118f186d32d7460cd5ea00da27acdfc653bd8474 ui:annotationField bible:BibleCharacter .
+nl:id_118f186d32d7460cd5ea00da27acdfc653bd8474 ui:typingTime 0 .
+nl:id_118f186d32d7460cd5ea00da27acdfc653bd8474 oa:annotatedAt "2016-05-05T12:27:30+02:00"^^xsd:dateTime .
+nl:id_118f186d32d7460cd5ea00da27acdfc653bd8474 oa:annotatedBy user:everhoeff .
+nl:id_118f186d32d7460cd5ea00da27acdfc653bd8474 oa:hasBody resource:Gideon .
+nl:id_118f186d32d7460cd5ea00da27acdfc653bd8474 oa:hasTarget target:target_696a15374c1f3811aef9d71d71e995f41e21c09e .
+nl:id_118f186d32d7460cd5ea00da27acdfc653bd8474 oa:hasTarget ubvu:print-218010002009 .
+nl:id_118f186d32d7460cd5ea00da27acdfc653bd8474 oa:motivatedBy oa:tagging .
 
 nl:id_39df1803cdc880bb850a018ebb85df69e2eb15bc a oa:Annotation .
 nl:id_39df1803cdc880bb850a018ebb85df69e2eb15bc terms:title "Sisera killed by Jael" .
@@ -39,3 +52,15 @@ nl:id_ea2d80e3b42bd65a9e1011d172a5c5eab7f81c0f oa:annotatedBy user:everhoeff .
 nl:id_ea2d80e3b42bd65a9e1011d172a5c5eab7f81c0f oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Eglon killed by Ehud" ] .
 nl:id_ea2d80e3b42bd65a9e1011d172a5c5eab7f81c0f oa:hasTarget ubvu:print-218010002009 .
 nl:id_ea2d80e3b42bd65a9e1011d172a5c5eab7f81c0f oa:motivatedBy oa:tagging .
+
+target:selector_696a15374c1f3811aef9d71d71e995f41e21c09e a oa:FragmentSelector .
+target:selector_696a15374c1f3811aef9d71d71e995f41e21c09e terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_696a15374c1f3811aef9d71d71e995f41e21c09e ui:h "0.12488436632747456"^^xsd:float .
+target:selector_696a15374c1f3811aef9d71d71e995f41e21c09e ui:w "0.12"^^xsd:float .
+target:selector_696a15374c1f3811aef9d71d71e995f41e21c09e ui:x "0.24266666666666667"^^xsd:float .
+target:selector_696a15374c1f3811aef9d71d71e995f41e21c09e ui:y "0.5772432932469935"^^xsd:float .
+target:selector_696a15374c1f3811aef9d71d71e995f41e21c09e rdf:value "#xywh=percent:24,58,12,12" .
+
+target:target_696a15374c1f3811aef9d71d71e995f41e21c09e a oa:SpecificResource .
+target:target_696a15374c1f3811aef9d71d71e995f41e21c09e oa:hasSelector target:selector_696a15374c1f3811aef9d71d71e995f41e21c09e .
+target:target_696a15374c1f3811aef9d71d71e995f41e21c09e oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/8> .
