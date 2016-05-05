@@ -1,5 +1,4 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
-@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -7,64 +6,14 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
-@prefix target: <http://localhost/.well-known/genid/oa/target/> .
-@prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
-@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
-@prefix nl: <http://accurator.nl/> .
 
-nl:id_37555bade155255faf1706bb502917fe8bc5b2a7 a oa:Annotation .
-nl:id_37555bade155255faf1706bb502917fe8bc5b2a7 terms:title "opwekking van de jongeling uit Naïn" .
-nl:id_37555bade155255faf1706bb502917fe8bc5b2a7 ui:annotationField bible:ICBibleTheme .
-nl:id_37555bade155255faf1706bb502917fe8bc5b2a7 ui:typingTime 0 .
-nl:id_37555bade155255faf1706bb502917fe8bc5b2a7 oa:annotatedAt "2016-04-23T16:49:43+02:00"^^xsd:dateTime .
-nl:id_37555bade155255faf1706bb502917fe8bc5b2a7 oa:annotatedBy user:paulinevandijk .
-nl:id_37555bade155255faf1706bb502917fe8bc5b2a7 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "opwekking van de jongeling uit Naïn" ] .
-nl:id_37555bade155255faf1706bb502917fe8bc5b2a7 oa:hasTarget ubvu:print-218010001767 .
-nl:id_37555bade155255faf1706bb502917fe8bc5b2a7 oa:motivatedBy oa:tagging .
-
-nl:id_3a71f95a6e11e71d0817b58cbfe64df6bf4c1041 a oa:Annotation .
-nl:id_3a71f95a6e11e71d0817b58cbfe64df6bf4c1041 terms:title "jongeling uit Naïn" .
-nl:id_3a71f95a6e11e71d0817b58cbfe64df6bf4c1041 ui:annotationField bible:BibleCharacter .
-nl:id_3a71f95a6e11e71d0817b58cbfe64df6bf4c1041 ui:typingTime 0 .
-nl:id_3a71f95a6e11e71d0817b58cbfe64df6bf4c1041 oa:annotatedAt "2016-04-23T16:49:20+02:00"^^xsd:dateTime .
-nl:id_3a71f95a6e11e71d0817b58cbfe64df6bf4c1041 oa:annotatedBy user:paulinevandijk .
-nl:id_3a71f95a6e11e71d0817b58cbfe64df6bf4c1041 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "jongeling uit Naïn" ] .
-nl:id_3a71f95a6e11e71d0817b58cbfe64df6bf4c1041 oa:hasTarget target:target_4e926db0b3e5718e53956b37b38582d54cee39f7 .
-nl:id_3a71f95a6e11e71d0817b58cbfe64df6bf4c1041 oa:hasTarget ubvu:print-218010001767 .
-nl:id_3a71f95a6e11e71d0817b58cbfe64df6bf4c1041 oa:motivatedBy oa:tagging .
-
-nl:id_febc301562ef811100151a1d3b755a157b310b3e a oa:Annotation .
-nl:id_febc301562ef811100151a1d3b755a157b310b3e terms:title "Jezus Christus" .
-nl:id_febc301562ef811100151a1d3b755a157b310b3e ui:annotationField bible:BibleCharacter .
-nl:id_febc301562ef811100151a1d3b755a157b310b3e ui:typingTime 0 .
-nl:id_febc301562ef811100151a1d3b755a157b310b3e oa:annotatedAt "2016-04-23T16:48:45+02:00"^^xsd:dateTime .
-nl:id_febc301562ef811100151a1d3b755a157b310b3e oa:annotatedBy user:paulinevandijk .
-nl:id_febc301562ef811100151a1d3b755a157b310b3e oa:hasBody resource:Jesus .
-nl:id_febc301562ef811100151a1d3b755a157b310b3e oa:hasTarget target:target_181976a018a7ea8663f788f2b4a2e50c0f4fb6c8 .
-nl:id_febc301562ef811100151a1d3b755a157b310b3e oa:hasTarget ubvu:print-218010001767 .
-nl:id_febc301562ef811100151a1d3b755a157b310b3e oa:motivatedBy oa:tagging .
-
-target:selector_181976a018a7ea8663f788f2b4a2e50c0f4fb6c8 a oa:FragmentSelector .
-target:selector_181976a018a7ea8663f788f2b4a2e50c0f4fb6c8 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
-target:selector_181976a018a7ea8663f788f2b4a2e50c0f4fb6c8 ui:h "0.23840445269016697"^^xsd:float .
-target:selector_181976a018a7ea8663f788f2b4a2e50c0f4fb6c8 ui:w "0.16292134831460675"^^xsd:float .
-target:selector_181976a018a7ea8663f788f2b4a2e50c0f4fb6c8 ui:x "0.11797752808988764"^^xsd:float .
-target:selector_181976a018a7ea8663f788f2b4a2e50c0f4fb6c8 ui:y "0.37662337662337664"^^xsd:float .
-target:selector_181976a018a7ea8663f788f2b4a2e50c0f4fb6c8 rdf:value "#xywh=percent:12,38,16,24" .
-
-target:selector_4e926db0b3e5718e53956b37b38582d54cee39f7 a oa:FragmentSelector .
-target:selector_4e926db0b3e5718e53956b37b38582d54cee39f7 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
-target:selector_4e926db0b3e5718e53956b37b38582d54cee39f7 ui:h "0.24211502782931354"^^xsd:float .
-target:selector_4e926db0b3e5718e53956b37b38582d54cee39f7 ui:w "0.2148876404494382"^^xsd:float .
-target:selector_4e926db0b3e5718e53956b37b38582d54cee39f7 ui:x "0.26825842696629215"^^xsd:float .
-target:selector_4e926db0b3e5718e53956b37b38582d54cee39f7 ui:y "0.42207792207792205"^^xsd:float .
-target:selector_4e926db0b3e5718e53956b37b38582d54cee39f7 rdf:value "#xywh=percent:27,42,21,24" .
-
-target:target_181976a018a7ea8663f788f2b4a2e50c0f4fb6c8 a oa:SpecificResource .
-target:target_181976a018a7ea8663f788f2b4a2e50c0f4fb6c8 oa:hasSelector target:selector_181976a018a7ea8663f788f2b4a2e50c0f4fb6c8 .
-target:target_181976a018a7ea8663f788f2b4a2e50c0f4fb6c8 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/806> .
-
-target:target_4e926db0b3e5718e53956b37b38582d54cee39f7 a oa:SpecificResource .
-target:target_4e926db0b3e5718e53956b37b38582d54cee39f7 oa:hasSelector target:selector_4e926db0b3e5718e53956b37b38582d54cee39f7 .
-target:target_4e926db0b3e5718e53956b37b38582d54cee39f7 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/806> .
+<http://accurator.nl/id_2680b2e90b12ff487c17352b141bb7511977ec8f> a oa:Annotation .
+<http://accurator.nl/id_2680b2e90b12ff487c17352b141bb7511977ec8f> terms:title "a dead young man restoured to life by Christ" .
+<http://accurator.nl/id_2680b2e90b12ff487c17352b141bb7511977ec8f> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
+<http://accurator.nl/id_2680b2e90b12ff487c17352b141bb7511977ec8f> ui:typingTime 0 .
+<http://accurator.nl/id_2680b2e90b12ff487c17352b141bb7511977ec8f> oa:annotatedAt "2016-05-05T12:40:55+02:00"^^xsd:dateTime .
+<http://accurator.nl/id_2680b2e90b12ff487c17352b141bb7511977ec8f> oa:annotatedBy user:everhoeff .
+<http://accurator.nl/id_2680b2e90b12ff487c17352b141bb7511977ec8f> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "a dead young man restoured to life by Christ" ] .
+<http://accurator.nl/id_2680b2e90b12ff487c17352b141bb7511977ec8f> oa:hasTarget ubvu:print-218010001767 .
+<http://accurator.nl/id_2680b2e90b12ff487c17352b141bb7511977ec8f> oa:motivatedBy oa:tagging .
