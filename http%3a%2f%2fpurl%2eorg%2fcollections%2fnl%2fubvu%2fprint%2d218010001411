@@ -35,6 +35,16 @@ nl:id_3f91268ddbae7b85b60723335ffd506d1afbdc51 oa:hasTarget target:target_a44f20
 nl:id_3f91268ddbae7b85b60723335ffd506d1afbdc51 oa:hasTarget ubvu:print-218010001411 .
 nl:id_3f91268ddbae7b85b60723335ffd506d1afbdc51 oa:motivatedBy oa:tagging .
 
+nl:id_e73bcef27f826950bf6c4cce5618c0e9e535045d a oa:Annotation .
+nl:id_e73bcef27f826950bf6c4cce5618c0e9e535045d terms:title "Boaz tells Ruth to reap in his field" .
+nl:id_e73bcef27f826950bf6c4cce5618c0e9e535045d ui:annotationField bible:ICBibleTheme .
+nl:id_e73bcef27f826950bf6c4cce5618c0e9e535045d ui:typingTime 0 .
+nl:id_e73bcef27f826950bf6c4cce5618c0e9e535045d oa:annotatedAt "2016-05-05T10:53:38+02:00"^^xsd:dateTime .
+nl:id_e73bcef27f826950bf6c4cce5618c0e9e535045d oa:annotatedBy user:everhoeff .
+nl:id_e73bcef27f826950bf6c4cce5618c0e9e535045d oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Boaz tells Ruth to reap in his field" ] .
+nl:id_e73bcef27f826950bf6c4cce5618c0e9e535045d oa:hasTarget ubvu:print-218010001411 .
+nl:id_e73bcef27f826950bf6c4cce5618c0e9e535045d oa:motivatedBy oa:tagging .
+
 target:selector_285eea25f455525b19d851d2673b089c80cde595 a oa:FragmentSelector .
 target:selector_285eea25f455525b19d851d2673b089c80cde595 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_285eea25f455525b19d851d2673b089c80cde595 ui:h "0.14913083257090576"^^xsd:float .
