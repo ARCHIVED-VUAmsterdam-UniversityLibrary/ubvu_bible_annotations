@@ -6,14 +6,41 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_c978f98d70fb1f50a0fb8c83f267c286e8658e28> a oa:Annotation .
-<http://accurator.nl/id_c978f98d70fb1f50a0fb8c83f267c286e8658e28> terms:title "The Lord appears to Moses in a burning bush" .
-<http://accurator.nl/id_c978f98d70fb1f50a0fb8c83f267c286e8658e28> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
-<http://accurator.nl/id_c978f98d70fb1f50a0fb8c83f267c286e8658e28> ui:typingTime 0 .
-<http://accurator.nl/id_c978f98d70fb1f50a0fb8c83f267c286e8658e28> oa:annotatedAt "2016-05-05T12:42:44+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_c978f98d70fb1f50a0fb8c83f267c286e8658e28> oa:annotatedBy user:everhoeff .
-<http://accurator.nl/id_c978f98d70fb1f50a0fb8c83f267c286e8658e28> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The Lord appears to Moses in a burning bush" ] .
-<http://accurator.nl/id_c978f98d70fb1f50a0fb8c83f267c286e8658e28> oa:hasTarget ubvu:print-218010001201 .
-<http://accurator.nl/id_c978f98d70fb1f50a0fb8c83f267c286e8658e28> oa:motivatedBy oa:tagging .
+nl:id_a6272e6a045e61085ccc2fb2c9a6fcc13e52e524 a oa:Annotation .
+nl:id_a6272e6a045e61085ccc2fb2c9a6fcc13e52e524 terms:title "Moses" .
+nl:id_a6272e6a045e61085ccc2fb2c9a6fcc13e52e524 ui:annotationField bible:BibleCharacter .
+nl:id_a6272e6a045e61085ccc2fb2c9a6fcc13e52e524 ui:typingTime 0 .
+nl:id_a6272e6a045e61085ccc2fb2c9a6fcc13e52e524 oa:annotatedAt "2016-05-05T12:43:00+02:00"^^xsd:dateTime .
+nl:id_a6272e6a045e61085ccc2fb2c9a6fcc13e52e524 oa:annotatedBy user:everhoeff .
+nl:id_a6272e6a045e61085ccc2fb2c9a6fcc13e52e524 oa:hasBody resource:Moses .
+nl:id_a6272e6a045e61085ccc2fb2c9a6fcc13e52e524 oa:hasTarget target:target_97454adbee64ba65c60ff17a72ac82220ccc1f88 .
+nl:id_a6272e6a045e61085ccc2fb2c9a6fcc13e52e524 oa:hasTarget ubvu:print-218010001201 .
+nl:id_a6272e6a045e61085ccc2fb2c9a6fcc13e52e524 oa:motivatedBy oa:tagging .
+
+nl:id_c978f98d70fb1f50a0fb8c83f267c286e8658e28 a oa:Annotation .
+nl:id_c978f98d70fb1f50a0fb8c83f267c286e8658e28 terms:title "The Lord appears to Moses in a burning bush" .
+nl:id_c978f98d70fb1f50a0fb8c83f267c286e8658e28 ui:annotationField bible:ICBibleTheme .
+nl:id_c978f98d70fb1f50a0fb8c83f267c286e8658e28 ui:typingTime 0 .
+nl:id_c978f98d70fb1f50a0fb8c83f267c286e8658e28 oa:annotatedAt "2016-05-05T12:42:44+02:00"^^xsd:dateTime .
+nl:id_c978f98d70fb1f50a0fb8c83f267c286e8658e28 oa:annotatedBy user:everhoeff .
+nl:id_c978f98d70fb1f50a0fb8c83f267c286e8658e28 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The Lord appears to Moses in a burning bush" ] .
+nl:id_c978f98d70fb1f50a0fb8c83f267c286e8658e28 oa:hasTarget ubvu:print-218010001201 .
+nl:id_c978f98d70fb1f50a0fb8c83f267c286e8658e28 oa:motivatedBy oa:tagging .
+
+target:selector_97454adbee64ba65c60ff17a72ac82220ccc1f88 a oa:FragmentSelector .
+target:selector_97454adbee64ba65c60ff17a72ac82220ccc1f88 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_97454adbee64ba65c60ff17a72ac82220ccc1f88 ui:h "0.22714932126696832"^^xsd:float .
+target:selector_97454adbee64ba65c60ff17a72ac82220ccc1f88 ui:w "0.2866666666666667"^^xsd:float .
+target:selector_97454adbee64ba65c60ff17a72ac82220ccc1f88 ui:x "0.11333333333333333"^^xsd:float .
+target:selector_97454adbee64ba65c60ff17a72ac82220ccc1f88 ui:y "0.5312217194570136"^^xsd:float .
+target:selector_97454adbee64ba65c60ff17a72ac82220ccc1f88 rdf:value "#xywh=percent:11,53,29,23" .
+
+target:target_97454adbee64ba65c60ff17a72ac82220ccc1f88 a oa:SpecificResource .
+target:target_97454adbee64ba65c60ff17a72ac82220ccc1f88 oa:hasSelector target:selector_97454adbee64ba65c60ff17a72ac82220ccc1f88 .
+target:target_97454adbee64ba65c60ff17a72ac82220ccc1f88 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/242> .
