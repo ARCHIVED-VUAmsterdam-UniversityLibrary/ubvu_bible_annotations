@@ -1,0 +1,19 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix user: <http://accurator.nl/user#> .
+
+<http://accurator.nl/id_cc4f7b4fb678ac4d66045f60f418b4fcadf0076d> a oa:Annotation .
+<http://accurator.nl/id_cc4f7b4fb678ac4d66045f60f418b4fcadf0076d> terms:title "Joshua makes a convenant with God" .
+<http://accurator.nl/id_cc4f7b4fb678ac4d66045f60f418b4fcadf0076d> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
+<http://accurator.nl/id_cc4f7b4fb678ac4d66045f60f418b4fcadf0076d> ui:typingTime 0 .
+<http://accurator.nl/id_cc4f7b4fb678ac4d66045f60f418b4fcadf0076d> oa:annotatedAt "2016-05-05T12:19:54+02:00"^^xsd:dateTime .
+<http://accurator.nl/id_cc4f7b4fb678ac4d66045f60f418b4fcadf0076d> oa:annotatedBy user:everhoeff .
+<http://accurator.nl/id_cc4f7b4fb678ac4d66045f60f418b4fcadf0076d> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Joshua makes a convenant with God" ] .
+<http://accurator.nl/id_cc4f7b4fb678ac4d66045f60f418b4fcadf0076d> oa:hasTarget ubvu:print-218010001359 .
+<http://accurator.nl/id_cc4f7b4fb678ac4d66045f60f418b4fcadf0076d> oa:motivatedBy oa:tagging .
