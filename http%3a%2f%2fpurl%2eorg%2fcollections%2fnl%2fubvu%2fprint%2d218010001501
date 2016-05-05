@@ -6,40 +6,14 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
-@prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
-@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
-@prefix nl: <http://accurator.nl/> .
 
-nl:id_c77c3252290daa91a35cd164b10854d70f0bf11d a oa:Annotation .
-nl:id_c77c3252290daa91a35cd164b10854d70f0bf11d terms:title "Salomo" .
-nl:id_c77c3252290daa91a35cd164b10854d70f0bf11d ui:annotationField bible:BibleCharacter .
-nl:id_c77c3252290daa91a35cd164b10854d70f0bf11d ui:typingTime 0 .
-nl:id_c77c3252290daa91a35cd164b10854d70f0bf11d oa:annotatedAt "2016-04-24T14:35:15+02:00"^^xsd:dateTime .
-nl:id_c77c3252290daa91a35cd164b10854d70f0bf11d oa:annotatedBy user:paulinevandijk .
-nl:id_c77c3252290daa91a35cd164b10854d70f0bf11d oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Salomo" ] .
-nl:id_c77c3252290daa91a35cd164b10854d70f0bf11d oa:hasTarget target:target_89f2715ebbe4447a84f2717a7da1588cd7ba2f31 .
-nl:id_c77c3252290daa91a35cd164b10854d70f0bf11d oa:hasTarget ubvu:print-218010001501 .
-nl:id_c77c3252290daa91a35cd164b10854d70f0bf11d oa:motivatedBy oa:tagging .
-
-nl:id_dfbb2c6dd6a90007bc3d123e8f74fcf0f5aae837 a oa:Annotation .
-nl:id_dfbb2c6dd6a90007bc3d123e8f74fcf0f5aae837 terms:title "Salomo geeft opdracht het kind in tweeën te hakken" .
-nl:id_dfbb2c6dd6a90007bc3d123e8f74fcf0f5aae837 ui:annotationField bible:ICBibleTheme .
-nl:id_dfbb2c6dd6a90007bc3d123e8f74fcf0f5aae837 ui:typingTime 0 .
-nl:id_dfbb2c6dd6a90007bc3d123e8f74fcf0f5aae837 oa:annotatedAt "2016-04-24T14:36:08+02:00"^^xsd:dateTime .
-nl:id_dfbb2c6dd6a90007bc3d123e8f74fcf0f5aae837 oa:annotatedBy user:paulinevandijk .
-nl:id_dfbb2c6dd6a90007bc3d123e8f74fcf0f5aae837 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Salomo geeft opdracht het kind in tweeën te hakken" ] .
-nl:id_dfbb2c6dd6a90007bc3d123e8f74fcf0f5aae837 oa:hasTarget ubvu:print-218010001501 .
-nl:id_dfbb2c6dd6a90007bc3d123e8f74fcf0f5aae837 oa:motivatedBy oa:tagging .
-
-target:selector_89f2715ebbe4447a84f2717a7da1588cd7ba2f31 a oa:FragmentSelector .
-target:selector_89f2715ebbe4447a84f2717a7da1588cd7ba2f31 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
-target:selector_89f2715ebbe4447a84f2717a7da1588cd7ba2f31 ui:h "0.07457386363636363"^^xsd:float .
-target:selector_89f2715ebbe4447a84f2717a7da1588cd7ba2f31 ui:w "0.058762886597938144"^^xsd:float .
-target:selector_89f2715ebbe4447a84f2717a7da1588cd7ba2f31 ui:x "0.1515463917525773"^^xsd:float .
-target:selector_89f2715ebbe4447a84f2717a7da1588cd7ba2f31 ui:y "0.4609375"^^xsd:float .
-target:selector_89f2715ebbe4447a84f2717a7da1588cd7ba2f31 rdf:value "#xywh=percent:15,46,6,7" .
-
-target:target_89f2715ebbe4447a84f2717a7da1588cd7ba2f31 a oa:SpecificResource .
-target:target_89f2715ebbe4447a84f2717a7da1588cd7ba2f31 oa:hasSelector target:selector_89f2715ebbe4447a84f2717a7da1588cd7ba2f31 .
-target:target_89f2715ebbe4447a84f2717a7da1588cd7ba2f31 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/542> .
+<http://accurator.nl/id_a730f4e0ac72ef1ea17a546ca9f4daf68117dea7> a oa:Annotation .
+<http://accurator.nl/id_a730f4e0ac72ef1ea17a546ca9f4daf68117dea7> terms:title "-" .
+<http://accurator.nl/id_a730f4e0ac72ef1ea17a546ca9f4daf68117dea7> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
+<http://accurator.nl/id_a730f4e0ac72ef1ea17a546ca9f4daf68117dea7> ui:typingTime 0 .
+<http://accurator.nl/id_a730f4e0ac72ef1ea17a546ca9f4daf68117dea7> oa:annotatedAt "2016-05-05T12:33:45+02:00"^^xsd:dateTime .
+<http://accurator.nl/id_a730f4e0ac72ef1ea17a546ca9f4daf68117dea7> oa:annotatedBy user:everhoeff .
+<http://accurator.nl/id_a730f4e0ac72ef1ea17a546ca9f4daf68117dea7> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "-" ] .
+<http://accurator.nl/id_a730f4e0ac72ef1ea17a546ca9f4daf68117dea7> oa:hasTarget ubvu:print-218010001501 .
+<http://accurator.nl/id_a730f4e0ac72ef1ea17a546ca9f4daf68117dea7> oa:motivatedBy oa:tagging .
