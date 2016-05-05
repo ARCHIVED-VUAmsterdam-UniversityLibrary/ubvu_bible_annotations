@@ -1,17 +1,45 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_44cbe71210354c8ffba4900afe00e34c14866706> a oa:Annotation .
-<http://accurator.nl/id_44cbe71210354c8ffba4900afe00e34c14866706> terms:title "meeting of David and Abigail, who kneels before him" .
-<http://accurator.nl/id_44cbe71210354c8ffba4900afe00e34c14866706> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
-<http://accurator.nl/id_44cbe71210354c8ffba4900afe00e34c14866706> ui:typingTime 0 .
-<http://accurator.nl/id_44cbe71210354c8ffba4900afe00e34c14866706> oa:annotatedAt "2016-05-05T12:10:56+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_44cbe71210354c8ffba4900afe00e34c14866706> oa:annotatedBy user:everhoeff .
-<http://accurator.nl/id_44cbe71210354c8ffba4900afe00e34c14866706> oa:hasBody <http://iconclass.org/71H2442> .
-<http://accurator.nl/id_44cbe71210354c8ffba4900afe00e34c14866706> oa:hasTarget ubvu:print-218010001473 .
-<http://accurator.nl/id_44cbe71210354c8ffba4900afe00e34c14866706> oa:motivatedBy oa:tagging .
+nl:id_44cbe71210354c8ffba4900afe00e34c14866706 a oa:Annotation .
+nl:id_44cbe71210354c8ffba4900afe00e34c14866706 terms:title "meeting of David and Abigail, who kneels before him" .
+nl:id_44cbe71210354c8ffba4900afe00e34c14866706 ui:annotationField bible:ICBibleTheme .
+nl:id_44cbe71210354c8ffba4900afe00e34c14866706 ui:typingTime 0 .
+nl:id_44cbe71210354c8ffba4900afe00e34c14866706 oa:annotatedAt "2016-05-05T12:10:56+02:00"^^xsd:dateTime .
+nl:id_44cbe71210354c8ffba4900afe00e34c14866706 oa:annotatedBy user:everhoeff .
+nl:id_44cbe71210354c8ffba4900afe00e34c14866706 oa:hasBody <http://iconclass.org/71H2442> .
+nl:id_44cbe71210354c8ffba4900afe00e34c14866706 oa:hasTarget ubvu:print-218010001473 .
+nl:id_44cbe71210354c8ffba4900afe00e34c14866706 oa:motivatedBy oa:tagging .
+
+nl:id_e01c5b34be38f7f6e0826ebed1b7005c5a81c08e a oa:Annotation .
+nl:id_e01c5b34be38f7f6e0826ebed1b7005c5a81c08e terms:title "David" .
+nl:id_e01c5b34be38f7f6e0826ebed1b7005c5a81c08e ui:annotationField bible:BibleCharacter .
+nl:id_e01c5b34be38f7f6e0826ebed1b7005c5a81c08e ui:typingTime 0 .
+nl:id_e01c5b34be38f7f6e0826ebed1b7005c5a81c08e oa:annotatedAt "2016-05-05T12:12:12+02:00"^^xsd:dateTime .
+nl:id_e01c5b34be38f7f6e0826ebed1b7005c5a81c08e oa:annotatedBy user:everhoeff .
+nl:id_e01c5b34be38f7f6e0826ebed1b7005c5a81c08e oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "David" ] .
+nl:id_e01c5b34be38f7f6e0826ebed1b7005c5a81c08e oa:hasTarget target:target_8fcf30c7735ed0ee561fbf58326e4f0ab86ce0aa .
+nl:id_e01c5b34be38f7f6e0826ebed1b7005c5a81c08e oa:hasTarget ubvu:print-218010001473 .
+nl:id_e01c5b34be38f7f6e0826ebed1b7005c5a81c08e oa:motivatedBy oa:tagging .
+
+target:selector_8fcf30c7735ed0ee561fbf58326e4f0ab86ce0aa a oa:FragmentSelector .
+target:selector_8fcf30c7735ed0ee561fbf58326e4f0ab86ce0aa terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_8fcf30c7735ed0ee561fbf58326e4f0ab86ce0aa ui:h "0.42792384406165007"^^xsd:float .
+target:selector_8fcf30c7735ed0ee561fbf58326e4f0ab86ce0aa ui:w "0.20666666666666667"^^xsd:float .
+target:selector_8fcf30c7735ed0ee561fbf58326e4f0ab86ce0aa ui:x "0.12266666666666666"^^xsd:float .
+target:selector_8fcf30c7735ed0ee561fbf58326e4f0ab86ce0aa ui:y "0.4016319129646419"^^xsd:float .
+target:selector_8fcf30c7735ed0ee561fbf58326e4f0ab86ce0aa rdf:value "#xywh=percent:12,40,21,43" .
+
+target:target_8fcf30c7735ed0ee561fbf58326e4f0ab86ce0aa a oa:SpecificResource .
+target:target_8fcf30c7735ed0ee561fbf58326e4f0ab86ce0aa oa:hasSelector target:selector_8fcf30c7735ed0ee561fbf58326e4f0ab86ce0aa .
+target:target_8fcf30c7735ed0ee561fbf58326e4f0ab86ce0aa oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/514> .
