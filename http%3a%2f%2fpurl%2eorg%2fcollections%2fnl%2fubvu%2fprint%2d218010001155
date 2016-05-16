@@ -1,14 +1,28 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
+
+nl:id_1b1706574fcdf6d9257dfaa8cb92dffab4f933ac a oa:Annotation .
+nl:id_1b1706574fcdf6d9257dfaa8cb92dffab4f933ac terms:title "Joseph" .
+nl:id_1b1706574fcdf6d9257dfaa8cb92dffab4f933ac ui:annotationField bible:BibleCharacter .
+nl:id_1b1706574fcdf6d9257dfaa8cb92dffab4f933ac ui:typingTime 0 .
+nl:id_1b1706574fcdf6d9257dfaa8cb92dffab4f933ac oa:annotatedAt "2016-05-16T14:02:22+02:00"^^xsd:dateTime .
+nl:id_1b1706574fcdf6d9257dfaa8cb92dffab4f933ac oa:annotatedBy user:everhoeff .
+nl:id_1b1706574fcdf6d9257dfaa8cb92dffab4f933ac oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Joseph" ] .
+nl:id_1b1706574fcdf6d9257dfaa8cb92dffab4f933ac oa:hasTarget target:target_af955d951db858ca8e80443d129561d0ef6fab4e .
+nl:id_1b1706574fcdf6d9257dfaa8cb92dffab4f933ac oa:hasTarget ubvu:print-218010001155 .
+nl:id_1b1706574fcdf6d9257dfaa8cb92dffab4f933ac oa:motivatedBy oa:tagging .
 
 nl:id_71a65cd4da19570f157a669976e267be55977302 a oa:Annotation .
 nl:id_71a65cd4da19570f157a669976e267be55977302 terms:title "the ark ~ story of Noah" .
@@ -31,6 +45,14 @@ nl:id_f696c6a62e886632c5601116bca661da160ac110 oa:hasTarget target:target_d912b3
 nl:id_f696c6a62e886632c5601116bca661da160ac110 oa:hasTarget ubvu:print-218010001155 .
 nl:id_f696c6a62e886632c5601116bca661da160ac110 oa:motivatedBy oa:tagging .
 
+target:selector_af955d951db858ca8e80443d129561d0ef6fab4e a oa:FragmentSelector .
+target:selector_af955d951db858ca8e80443d129561d0ef6fab4e terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_af955d951db858ca8e80443d129561d0ef6fab4e ui:h "0.30485611510791366"^^xsd:float .
+target:selector_af955d951db858ca8e80443d129561d0ef6fab4e ui:w "0.204"^^xsd:float .
+target:selector_af955d951db858ca8e80443d129561d0ef6fab4e ui:x "0.5586666666666666"^^xsd:float .
+target:selector_af955d951db858ca8e80443d129561d0ef6fab4e ui:y "0.48741007194244607"^^xsd:float .
+target:selector_af955d951db858ca8e80443d129561d0ef6fab4e rdf:value "#xywh=percent:56,49,20,30" .
+
 target:selector_d912b3c14a97db236aa981f9ca244ae5a30beab2 a oa:FragmentSelector .
 target:selector_d912b3c14a97db236aa981f9ca244ae5a30beab2 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_d912b3c14a97db236aa981f9ca244ae5a30beab2 ui:h "0.34236307721316644"^^xsd:float .
@@ -38,6 +60,10 @@ target:selector_d912b3c14a97db236aa981f9ca244ae5a30beab2 ui:w "0.307692307692307
 target:selector_d912b3c14a97db236aa981f9ca244ae5a30beab2 ui:x "0.2863247863247863"^^xsd:float .
 target:selector_d912b3c14a97db236aa981f9ca244ae5a30beab2 ui:y "0.44564842202134364"^^xsd:float .
 target:selector_d912b3c14a97db236aa981f9ca244ae5a30beab2 rdf:value "#xywh=percent:29,45,31,34" .
+
+target:target_af955d951db858ca8e80443d129561d0ef6fab4e a oa:SpecificResource .
+target:target_af955d951db858ca8e80443d129561d0ef6fab4e oa:hasSelector target:selector_af955d951db858ca8e80443d129561d0ef6fab4e .
+target:target_af955d951db858ca8e80443d129561d0ef6fab4e oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/196> .
 
 target:target_d912b3c14a97db236aa981f9ca244ae5a30beab2 a oa:SpecificResource .
 target:target_d912b3c14a97db236aa981f9ca244ae5a30beab2 oa:hasSelector target:selector_d912b3c14a97db236aa981f9ca244ae5a30beab2 .
