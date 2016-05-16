@@ -12,6 +12,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_3f836af647970f1fa0ba85a5a9dc6794341a1a13 a oa:Annotation .
+nl:id_3f836af647970f1fa0ba85a5a9dc6794341a1a13 terms:title "Jesus appears to Mary" .
+nl:id_3f836af647970f1fa0ba85a5a9dc6794341a1a13 ui:annotationField bible:ICBibleTheme .
+nl:id_3f836af647970f1fa0ba85a5a9dc6794341a1a13 ui:typingTime 0 .
+nl:id_3f836af647970f1fa0ba85a5a9dc6794341a1a13 oa:annotatedAt "2016-05-16T14:02:53+02:00"^^xsd:dateTime .
+nl:id_3f836af647970f1fa0ba85a5a9dc6794341a1a13 oa:annotatedBy user:everhoeff .
+nl:id_3f836af647970f1fa0ba85a5a9dc6794341a1a13 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jesus appears to Mary" ] .
+nl:id_3f836af647970f1fa0ba85a5a9dc6794341a1a13 oa:hasTarget ubvu:print-218010001887 .
+nl:id_3f836af647970f1fa0ba85a5a9dc6794341a1a13 oa:motivatedBy oa:tagging .
+
 nl:id_474f5a174b84613968b665d8c6e15b7c5de62dae a oa:Annotation .
 nl:id_474f5a174b84613968b665d8c6e15b7c5de62dae terms:title "Jezus Christus" .
 nl:id_474f5a174b84613968b665d8c6e15b7c5de62dae ui:annotationField bible:BibleCharacter .
