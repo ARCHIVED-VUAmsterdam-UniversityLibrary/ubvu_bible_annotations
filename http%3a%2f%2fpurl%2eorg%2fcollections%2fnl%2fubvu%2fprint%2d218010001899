@@ -6,6 +6,7 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
@@ -29,3 +30,26 @@ nl:id_4204d1c39a9aee9f02777a0f1cd3562f6d65e1a5 oa:annotatedBy user:everhoeff .
 nl:id_4204d1c39a9aee9f02777a0f1cd3562f6d65e1a5 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Christ appeared to his disciples at the Sea of Tiberias" ] .
 nl:id_4204d1c39a9aee9f02777a0f1cd3562f6d65e1a5 oa:hasTarget ubvu:print-218010001899 .
 nl:id_4204d1c39a9aee9f02777a0f1cd3562f6d65e1a5 oa:motivatedBy oa:tagging .
+
+nl:id_f2c3633623c5c8a2c528344c9d8c9724daf63e72 a oa:Annotation .
+nl:id_f2c3633623c5c8a2c528344c9d8c9724daf63e72 terms:title "Christ" .
+nl:id_f2c3633623c5c8a2c528344c9d8c9724daf63e72 ui:annotationField bible:BibleCharacter .
+nl:id_f2c3633623c5c8a2c528344c9d8c9724daf63e72 ui:typingTime 0 .
+nl:id_f2c3633623c5c8a2c528344c9d8c9724daf63e72 oa:annotatedAt "2016-05-16T13:54:47+02:00"^^xsd:dateTime .
+nl:id_f2c3633623c5c8a2c528344c9d8c9724daf63e72 oa:annotatedBy user:everhoeff .
+nl:id_f2c3633623c5c8a2c528344c9d8c9724daf63e72 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Christ" ] .
+nl:id_f2c3633623c5c8a2c528344c9d8c9724daf63e72 oa:hasTarget target:target_0ba69b71777e9fb7b3a4b3632d23f4d73a6defc7 .
+nl:id_f2c3633623c5c8a2c528344c9d8c9724daf63e72 oa:hasTarget ubvu:print-218010001899 .
+nl:id_f2c3633623c5c8a2c528344c9d8c9724daf63e72 oa:motivatedBy oa:tagging .
+
+target:selector_0ba69b71777e9fb7b3a4b3632d23f4d73a6defc7 a oa:FragmentSelector .
+target:selector_0ba69b71777e9fb7b3a4b3632d23f4d73a6defc7 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_0ba69b71777e9fb7b3a4b3632d23f4d73a6defc7 ui:h "0.19335604770017037"^^xsd:float .
+target:selector_0ba69b71777e9fb7b3a4b3632d23f4d73a6defc7 ui:w "0.18666666666666668"^^xsd:float .
+target:selector_0ba69b71777e9fb7b3a4b3632d23f4d73a6defc7 ui:x "0.176"^^xsd:float .
+target:selector_0ba69b71777e9fb7b3a4b3632d23f4d73a6defc7 ui:y "0.31771720613287907"^^xsd:float .
+target:selector_0ba69b71777e9fb7b3a4b3632d23f4d73a6defc7 rdf:value "#xywh=percent:18,32,19,19" .
+
+target:target_0ba69b71777e9fb7b3a4b3632d23f4d73a6defc7 a oa:SpecificResource .
+target:target_0ba69b71777e9fb7b3a4b3632d23f4d73a6defc7 oa:hasSelector target:selector_0ba69b71777e9fb7b3a4b3632d23f4d73a6defc7 .
+target:target_0ba69b71777e9fb7b3a4b3632d23f4d73a6defc7 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/938> .
