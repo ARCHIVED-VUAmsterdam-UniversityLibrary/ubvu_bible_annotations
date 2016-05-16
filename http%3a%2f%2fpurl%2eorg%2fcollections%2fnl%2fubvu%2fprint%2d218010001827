@@ -23,6 +23,16 @@ nl:id_045d9e8654e657a10651b229b08b5216a89075a9 oa:hasTarget target:target_303288
 nl:id_045d9e8654e657a10651b229b08b5216a89075a9 oa:hasTarget ubvu:print-218010001827 .
 nl:id_045d9e8654e657a10651b229b08b5216a89075a9 oa:motivatedBy oa:tagging .
 
+nl:id_749b2431ce8da50284061940b38c14f296aece79 a oa:Annotation .
+nl:id_749b2431ce8da50284061940b38c14f296aece79 terms:title "The last meal of Jesus" .
+nl:id_749b2431ce8da50284061940b38c14f296aece79 ui:annotationField bible:ICBibleTheme .
+nl:id_749b2431ce8da50284061940b38c14f296aece79 ui:typingTime 0 .
+nl:id_749b2431ce8da50284061940b38c14f296aece79 oa:annotatedAt "2016-05-16T13:52:26+02:00"^^xsd:dateTime .
+nl:id_749b2431ce8da50284061940b38c14f296aece79 oa:annotatedBy user:everhoeff .
+nl:id_749b2431ce8da50284061940b38c14f296aece79 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The last meal of Jesus" ] .
+nl:id_749b2431ce8da50284061940b38c14f296aece79 oa:hasTarget ubvu:print-218010001827 .
+nl:id_749b2431ce8da50284061940b38c14f296aece79 oa:motivatedBy oa:tagging .
+
 nl:id_b12c34b9c027c96bbd5b0b689aad15fd0a2990f6 a oa:Annotation .
 nl:id_b12c34b9c027c96bbd5b0b689aad15fd0a2990f6 terms:title "discipelen" .
 nl:id_b12c34b9c027c96bbd5b0b689aad15fd0a2990f6 ui:annotationField bible:BibleCharacter .
