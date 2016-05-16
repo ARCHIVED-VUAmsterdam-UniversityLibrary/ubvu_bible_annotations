@@ -1,12 +1,26 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
+
+nl:id_66d14bb0d6c9ec7f2c629a8b8757425bbd63667c a oa:Annotation .
+nl:id_66d14bb0d6c9ec7f2c629a8b8757425bbd63667c terms:title "Solomon" .
+nl:id_66d14bb0d6c9ec7f2c629a8b8757425bbd63667c ui:annotationField bible:BibleCharacter .
+nl:id_66d14bb0d6c9ec7f2c629a8b8757425bbd63667c ui:typingTime 0 .
+nl:id_66d14bb0d6c9ec7f2c629a8b8757425bbd63667c oa:annotatedAt "2016-05-16T13:41:00+02:00"^^xsd:dateTime .
+nl:id_66d14bb0d6c9ec7f2c629a8b8757425bbd63667c oa:annotatedBy user:everhoeff .
+nl:id_66d14bb0d6c9ec7f2c629a8b8757425bbd63667c oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Solomon" ] .
+nl:id_66d14bb0d6c9ec7f2c629a8b8757425bbd63667c oa:hasTarget target:target_19275c2465445a2be6c627c379f0a1d2e39da88b .
+nl:id_66d14bb0d6c9ec7f2c629a8b8757425bbd63667c oa:hasTarget ubvu:print-218010002025 .
+nl:id_66d14bb0d6c9ec7f2c629a8b8757425bbd63667c oa:motivatedBy oa:tagging .
 
 nl:id_764b267237baf47fcad838766477325a84886c58 a oa:Annotation .
 nl:id_764b267237baf47fcad838766477325a84886c58 terms:title "the book of Proverbs (with BOOK CHAPTER:VERSE)" .
@@ -27,3 +41,15 @@ nl:id_b375e24b2bca7dba2db5a2fdaba1d976fbc4b3bf oa:annotatedBy user:everhoeff .
 nl:id_b375e24b2bca7dba2db5a2fdaba1d976fbc4b3bf oa:hasBody <http://iconclass.org/71X1> .
 nl:id_b375e24b2bca7dba2db5a2fdaba1d976fbc4b3bf oa:hasTarget ubvu:print-218010002025 .
 nl:id_b375e24b2bca7dba2db5a2fdaba1d976fbc4b3bf oa:motivatedBy oa:tagging .
+
+target:selector_19275c2465445a2be6c627c379f0a1d2e39da88b a oa:FragmentSelector .
+target:selector_19275c2465445a2be6c627c379f0a1d2e39da88b terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_19275c2465445a2be6c627c379f0a1d2e39da88b ui:h "0.14012738853503184"^^xsd:float .
+target:selector_19275c2465445a2be6c627c379f0a1d2e39da88b ui:w "0.09739130434782609"^^xsd:float .
+target:selector_19275c2465445a2be6c627c379f0a1d2e39da88b ui:x "0.20173913043478262"^^xsd:float .
+target:selector_19275c2465445a2be6c627c379f0a1d2e39da88b ui:y "0.6203821656050955"^^xsd:float .
+target:selector_19275c2465445a2be6c627c379f0a1d2e39da88b rdf:value "#xywh=percent:20,62,10,14" .
+
+target:target_19275c2465445a2be6c627c379f0a1d2e39da88b a oa:SpecificResource .
+target:target_19275c2465445a2be6c627c379f0a1d2e39da88b oa:hasSelector target:selector_19275c2465445a2be6c627c379f0a1d2e39da88b .
+target:target_19275c2465445a2be6c627c379f0a1d2e39da88b oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/24> .
