@@ -32,6 +32,17 @@ nl:id_8d4340c3d6d82971f352297e1b6a23de45c81444 oa:hasTarget target:target_92befd
 nl:id_8d4340c3d6d82971f352297e1b6a23de45c81444 oa:hasTarget ubvu:print-218010001032 .
 nl:id_8d4340c3d6d82971f352297e1b6a23de45c81444 oa:motivatedBy oa:tagging .
 
+nl:id_ff40d149dbbf7ef0ed06c9941a075445eee79162 a oa:Annotation .
+nl:id_ff40d149dbbf7ef0ed06c9941a075445eee79162 terms:title "adam" .
+nl:id_ff40d149dbbf7ef0ed06c9941a075445eee79162 ui:annotationField bible:BibleCharacter .
+nl:id_ff40d149dbbf7ef0ed06c9941a075445eee79162 ui:typingTime 0 .
+nl:id_ff40d149dbbf7ef0ed06c9941a075445eee79162 oa:annotatedAt "2016-05-16T13:36:12+02:00"^^xsd:dateTime .
+nl:id_ff40d149dbbf7ef0ed06c9941a075445eee79162 oa:annotatedBy user:everhoeff .
+nl:id_ff40d149dbbf7ef0ed06c9941a075445eee79162 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "adam" ] .
+nl:id_ff40d149dbbf7ef0ed06c9941a075445eee79162 oa:hasTarget target:target_92befd879db8182e2c80284b58d54fe9992035c9 .
+nl:id_ff40d149dbbf7ef0ed06c9941a075445eee79162 oa:hasTarget ubvu:print-218010001032 .
+nl:id_ff40d149dbbf7ef0ed06c9941a075445eee79162 oa:motivatedBy oa:tagging .
+
 target:selector_92befd879db8182e2c80284b58d54fe9992035c9 a oa:FragmentSelector .
 target:selector_92befd879db8182e2c80284b58d54fe9992035c9 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_92befd879db8182e2c80284b58d54fe9992035c9 ui:h "0.10676156583629894"^^xsd:float .
