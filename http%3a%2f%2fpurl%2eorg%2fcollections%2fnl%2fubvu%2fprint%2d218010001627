@@ -11,6 +11,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_0261a997f7061aafaa2c0e362c24550e0414cbb2 a oa:Annotation .
+nl:id_0261a997f7061aafaa2c0e362c24550e0414cbb2 terms:title "Cruelty against seven brothers" .
+nl:id_0261a997f7061aafaa2c0e362c24550e0414cbb2 ui:annotationField bible:ICBibleTheme .
+nl:id_0261a997f7061aafaa2c0e362c24550e0414cbb2 ui:typingTime 0 .
+nl:id_0261a997f7061aafaa2c0e362c24550e0414cbb2 oa:annotatedAt "2016-05-16T13:43:39+02:00"^^xsd:dateTime .
+nl:id_0261a997f7061aafaa2c0e362c24550e0414cbb2 oa:annotatedBy user:everhoeff .
+nl:id_0261a997f7061aafaa2c0e362c24550e0414cbb2 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Cruelty against seven brothers" ] .
+nl:id_0261a997f7061aafaa2c0e362c24550e0414cbb2 oa:hasTarget ubvu:print-218010001627 .
+nl:id_0261a997f7061aafaa2c0e362c24550e0414cbb2 oa:motivatedBy oa:tagging .
+
 nl:id_ae9456a4b6921d672f132df89083d617bc61ec30 a oa:Annotation .
 nl:id_ae9456a4b6921d672f132df89083d617bc61ec30 terms:title "Antiochus" .
 nl:id_ae9456a4b6921d672f132df89083d617bc61ec30 ui:annotationField bible:BibleCharacter .
