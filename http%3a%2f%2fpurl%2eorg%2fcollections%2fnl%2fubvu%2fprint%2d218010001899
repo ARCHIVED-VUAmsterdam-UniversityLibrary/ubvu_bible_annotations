@@ -7,13 +7,25 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_1861c3da96d63b84e112e5485d7a31335784a846> a oa:Annotation .
-<http://accurator.nl/id_1861c3da96d63b84e112e5485d7a31335784a846> terms:title "christ appeard to his disciples at the Sea of Tiberias (John 21)" .
-<http://accurator.nl/id_1861c3da96d63b84e112e5485d7a31335784a846> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
-<http://accurator.nl/id_1861c3da96d63b84e112e5485d7a31335784a846> ui:typingTime 0 .
-<http://accurator.nl/id_1861c3da96d63b84e112e5485d7a31335784a846> oa:annotatedAt "2016-04-04T15:01:37+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_1861c3da96d63b84e112e5485d7a31335784a846> oa:annotatedBy user:hrmurris .
-<http://accurator.nl/id_1861c3da96d63b84e112e5485d7a31335784a846> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "christ appeard to his disciples at the Sea of Tiberias (John 21)" ] .
-<http://accurator.nl/id_1861c3da96d63b84e112e5485d7a31335784a846> oa:hasTarget ubvu:print-218010001899 .
-<http://accurator.nl/id_1861c3da96d63b84e112e5485d7a31335784a846> oa:motivatedBy oa:tagging .
+nl:id_1861c3da96d63b84e112e5485d7a31335784a846 a oa:Annotation .
+nl:id_1861c3da96d63b84e112e5485d7a31335784a846 terms:title "christ appeard to his disciples at the Sea of Tiberias (John 21)" .
+nl:id_1861c3da96d63b84e112e5485d7a31335784a846 ui:annotationField bible:ICBibleTheme .
+nl:id_1861c3da96d63b84e112e5485d7a31335784a846 ui:typingTime 0 .
+nl:id_1861c3da96d63b84e112e5485d7a31335784a846 oa:annotatedAt "2016-04-04T15:01:37+02:00"^^xsd:dateTime .
+nl:id_1861c3da96d63b84e112e5485d7a31335784a846 oa:annotatedBy user:hrmurris .
+nl:id_1861c3da96d63b84e112e5485d7a31335784a846 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "christ appeard to his disciples at the Sea of Tiberias (John 21)" ] .
+nl:id_1861c3da96d63b84e112e5485d7a31335784a846 oa:hasTarget ubvu:print-218010001899 .
+nl:id_1861c3da96d63b84e112e5485d7a31335784a846 oa:motivatedBy oa:tagging .
+
+nl:id_4204d1c39a9aee9f02777a0f1cd3562f6d65e1a5 a oa:Annotation .
+nl:id_4204d1c39a9aee9f02777a0f1cd3562f6d65e1a5 terms:title "Christ appeared to his disciples at the Sea of Tiberias" .
+nl:id_4204d1c39a9aee9f02777a0f1cd3562f6d65e1a5 ui:annotationField bible:ICBibleTheme .
+nl:id_4204d1c39a9aee9f02777a0f1cd3562f6d65e1a5 ui:typingTime 0 .
+nl:id_4204d1c39a9aee9f02777a0f1cd3562f6d65e1a5 oa:annotatedAt "2016-05-16T13:54:25+02:00"^^xsd:dateTime .
+nl:id_4204d1c39a9aee9f02777a0f1cd3562f6d65e1a5 oa:annotatedBy user:everhoeff .
+nl:id_4204d1c39a9aee9f02777a0f1cd3562f6d65e1a5 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Christ appeared to his disciples at the Sea of Tiberias" ] .
+nl:id_4204d1c39a9aee9f02777a0f1cd3562f6d65e1a5 oa:hasTarget ubvu:print-218010001899 .
+nl:id_4204d1c39a9aee9f02777a0f1cd3562f6d65e1a5 oa:motivatedBy oa:tagging .
