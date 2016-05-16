@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -7,6 +8,7 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
@@ -32,6 +34,17 @@ nl:id_40ea2bda2cc58e278cbfa6263e23823e5f102bee oa:hasTarget target:target_e80ec3
 nl:id_40ea2bda2cc58e278cbfa6263e23823e5f102bee oa:hasTarget ubvu:print-218010001396 .
 nl:id_40ea2bda2cc58e278cbfa6263e23823e5f102bee oa:motivatedBy oa:tagging .
 
+nl:id_ea3455b4bfadf274f1e49955b5882a55c24d4632 a oa:Annotation .
+nl:id_ea3455b4bfadf274f1e49955b5882a55c24d4632 terms:title "Samson" .
+nl:id_ea3455b4bfadf274f1e49955b5882a55c24d4632 ui:annotationField bible:BibleCharacter .
+nl:id_ea3455b4bfadf274f1e49955b5882a55c24d4632 ui:typingTime 0 .
+nl:id_ea3455b4bfadf274f1e49955b5882a55c24d4632 oa:annotatedAt "2016-05-16T14:11:26+02:00"^^xsd:dateTime .
+nl:id_ea3455b4bfadf274f1e49955b5882a55c24d4632 oa:annotatedBy user:everhoeff .
+nl:id_ea3455b4bfadf274f1e49955b5882a55c24d4632 oa:hasBody resource:Samson .
+nl:id_ea3455b4bfadf274f1e49955b5882a55c24d4632 oa:hasTarget target:target_51482c3154afb633883b859c403e1e85c5c70ed7 .
+nl:id_ea3455b4bfadf274f1e49955b5882a55c24d4632 oa:hasTarget ubvu:print-218010001396 .
+nl:id_ea3455b4bfadf274f1e49955b5882a55c24d4632 oa:motivatedBy oa:tagging .
+
 nl:id_fbc1c3aa4cb5e4062d32da9a9469dd1b3e151fd4 a oa:Annotation .
 nl:id_fbc1c3aa4cb5e4062d32da9a9469dd1b3e151fd4 terms:title "The Philistines put out Samsons eyes" .
 nl:id_fbc1c3aa4cb5e4062d32da9a9469dd1b3e151fd4 ui:annotationField bible:ICBibleTheme .
@@ -52,6 +65,14 @@ nl:id_fc32016bd394ee09982e1c46e4ca0be4d5d69486 oa:hasBody [ a content:ContentAsT
 nl:id_fc32016bd394ee09982e1c46e4ca0be4d5d69486 oa:hasTarget ubvu:print-218010001396 .
 nl:id_fc32016bd394ee09982e1c46e4ca0be4d5d69486 oa:motivatedBy oa:tagging .
 
+target:selector_51482c3154afb633883b859c403e1e85c5c70ed7 a oa:FragmentSelector .
+target:selector_51482c3154afb633883b859c403e1e85c5c70ed7 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_51482c3154afb633883b859c403e1e85c5c70ed7 ui:h "0.20389249304911955"^^xsd:float .
+target:selector_51482c3154afb633883b859c403e1e85c5c70ed7 ui:w "0.29333333333333333"^^xsd:float .
+target:selector_51482c3154afb633883b859c403e1e85c5c70ed7 ui:x "0.20266666666666666"^^xsd:float .
+target:selector_51482c3154afb633883b859c403e1e85c5c70ed7 ui:y "0.6014828544949027"^^xsd:float .
+target:selector_51482c3154afb633883b859c403e1e85c5c70ed7 rdf:value "#xywh=percent:20,60,29,20" .
+
 target:selector_e80ec33c6631bae48af57fae599374396559bdcc a oa:FragmentSelector .
 target:selector_e80ec33c6631bae48af57fae599374396559bdcc terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_e80ec33c6631bae48af57fae599374396559bdcc ui:h "0.3509501187648456"^^xsd:float .
@@ -59,6 +80,10 @@ target:selector_e80ec33c6631bae48af57fae599374396559bdcc ui:w "0.556410256410256
 target:selector_e80ec33c6631bae48af57fae599374396559bdcc ui:x "0.06837606837606838"^^xsd:float .
 target:selector_e80ec33c6631bae48af57fae599374396559bdcc ui:y "0.49524940617577196"^^xsd:float .
 target:selector_e80ec33c6631bae48af57fae599374396559bdcc rdf:value "#xywh=percent:7,50,56,35" .
+
+target:target_51482c3154afb633883b859c403e1e85c5c70ed7 a oa:SpecificResource .
+target:target_51482c3154afb633883b859c403e1e85c5c70ed7 oa:hasSelector target:selector_51482c3154afb633883b859c403e1e85c5c70ed7 .
+target:target_51482c3154afb633883b859c403e1e85c5c70ed7 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/437> .
 
 target:target_e80ec33c6631bae48af57fae599374396559bdcc a oa:SpecificResource .
 target:target_e80ec33c6631bae48af57fae599374396559bdcc oa:hasSelector target:selector_e80ec33c6631bae48af57fae599374396559bdcc .
