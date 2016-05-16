@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -11,6 +12,17 @@
 @prefix user: <http://accurator.nl/user#> .
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
+
+nl:id_225d5d234b5f766b29f992e27cfb96f84f483cac a oa:Annotation .
+nl:id_225d5d234b5f766b29f992e27cfb96f84f483cac terms:title "Jesus" .
+nl:id_225d5d234b5f766b29f992e27cfb96f84f483cac ui:annotationField bible:BibleCharacter .
+nl:id_225d5d234b5f766b29f992e27cfb96f84f483cac ui:typingTime 0 .
+nl:id_225d5d234b5f766b29f992e27cfb96f84f483cac oa:annotatedAt "2016-05-16T14:03:11+02:00"^^xsd:dateTime .
+nl:id_225d5d234b5f766b29f992e27cfb96f84f483cac oa:annotatedBy user:everhoeff .
+nl:id_225d5d234b5f766b29f992e27cfb96f84f483cac oa:hasBody resource:Jesus .
+nl:id_225d5d234b5f766b29f992e27cfb96f84f483cac oa:hasTarget target:target_62c5785e5ff2a3911da438c4ba0c2bff9e69d263 .
+nl:id_225d5d234b5f766b29f992e27cfb96f84f483cac oa:hasTarget ubvu:print-218010001887 .
+nl:id_225d5d234b5f766b29f992e27cfb96f84f483cac oa:motivatedBy oa:tagging .
 
 nl:id_3f836af647970f1fa0ba85a5a9dc6794341a1a13 a oa:Annotation .
 nl:id_3f836af647970f1fa0ba85a5a9dc6794341a1a13 terms:title "Jesus appears to Mary" .
@@ -51,6 +63,18 @@ target:selector_3e1553b8553e717bc745f864f1d5ee368c7ad5e5 ui:x "0.081196581196581
 target:selector_3e1553b8553e717bc745f864f1d5ee368c7ad5e5 ui:y "0.3415350663034539"^^xsd:float .
 target:selector_3e1553b8553e717bc745f864f1d5ee368c7ad5e5 rdf:value "#xywh=percent:8,34,44,42" .
 
+target:selector_62c5785e5ff2a3911da438c4ba0c2bff9e69d263 a oa:FragmentSelector .
+target:selector_62c5785e5ff2a3911da438c4ba0c2bff9e69d263 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_62c5785e5ff2a3911da438c4ba0c2bff9e69d263 ui:h "0.33418803418803417"^^xsd:float .
+target:selector_62c5785e5ff2a3911da438c4ba0c2bff9e69d263 ui:w "0.22933333333333333"^^xsd:float .
+target:selector_62c5785e5ff2a3911da438c4ba0c2bff9e69d263 ui:x "0.17066666666666666"^^xsd:float .
+target:selector_62c5785e5ff2a3911da438c4ba0c2bff9e69d263 ui:y "0.34615384615384615"^^xsd:float .
+target:selector_62c5785e5ff2a3911da438c4ba0c2bff9e69d263 rdf:value "#xywh=percent:17,35,23,33" .
+
 target:target_3e1553b8553e717bc745f864f1d5ee368c7ad5e5 a oa:SpecificResource .
 target:target_3e1553b8553e717bc745f864f1d5ee368c7ad5e5 oa:hasSelector target:selector_3e1553b8553e717bc745f864f1d5ee368c7ad5e5 .
 target:target_3e1553b8553e717bc745f864f1d5ee368c7ad5e5 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/926> .
+
+target:target_62c5785e5ff2a3911da438c4ba0c2bff9e69d263 a oa:SpecificResource .
+target:target_62c5785e5ff2a3911da438c4ba0c2bff9e69d263 oa:hasSelector target:selector_62c5785e5ff2a3911da438c4ba0c2bff9e69d263 .
+target:target_62c5785e5ff2a3911da438c4ba0c2bff9e69d263 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/926> .
