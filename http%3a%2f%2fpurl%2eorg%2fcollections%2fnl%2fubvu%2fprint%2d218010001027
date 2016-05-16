@@ -6,9 +6,21 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
+
+nl:id_1baa46f919cfd061025343a296c7927c59a7e2e0 a oa:Annotation .
+nl:id_1baa46f919cfd061025343a296c7927c59a7e2e0 terms:title "Adam" .
+nl:id_1baa46f919cfd061025343a296c7927c59a7e2e0 ui:annotationField bible:BibleCharacter .
+nl:id_1baa46f919cfd061025343a296c7927c59a7e2e0 ui:typingTime 0 .
+nl:id_1baa46f919cfd061025343a296c7927c59a7e2e0 oa:annotatedAt "2016-05-16T13:49:49+02:00"^^xsd:dateTime .
+nl:id_1baa46f919cfd061025343a296c7927c59a7e2e0 oa:annotatedBy user:everhoeff .
+nl:id_1baa46f919cfd061025343a296c7927c59a7e2e0 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Adam" ] .
+nl:id_1baa46f919cfd061025343a296c7927c59a7e2e0 oa:hasTarget target:target_03baf93fe51e163666b8206e3a0a4f6df4b02b2b .
+nl:id_1baa46f919cfd061025343a296c7927c59a7e2e0 oa:hasTarget ubvu:print-218010001027 .
+nl:id_1baa46f919cfd061025343a296c7927c59a7e2e0 oa:motivatedBy oa:tagging .
 
 nl:id_44fec78b5cf6eb5fc41491ca490bdd00dc164440 a oa:Annotation .
 nl:id_44fec78b5cf6eb5fc41491ca490bdd00dc164440 terms:title "God calls " .
@@ -39,3 +51,15 @@ nl:id_773a28264e01deaa09ea609df7d6a62c46b28d76 oa:annotatedBy user:joan .
 nl:id_773a28264e01deaa09ea609df7d6a62c46b28d76 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Genesis 3:9" ] .
 nl:id_773a28264e01deaa09ea609df7d6a62c46b28d76 oa:hasTarget ubvu:print-218010001027 .
 nl:id_773a28264e01deaa09ea609df7d6a62c46b28d76 oa:motivatedBy oa:tagging .
+
+target:selector_03baf93fe51e163666b8206e3a0a4f6df4b02b2b a oa:FragmentSelector .
+target:selector_03baf93fe51e163666b8206e3a0a4f6df4b02b2b terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_03baf93fe51e163666b8206e3a0a4f6df4b02b2b ui:h "0.2781569965870307"^^xsd:float .
+target:selector_03baf93fe51e163666b8206e3a0a4f6df4b02b2b ui:w "0.25333333333333335"^^xsd:float .
+target:selector_03baf93fe51e163666b8206e3a0a4f6df4b02b2b ui:x "0.10666666666666667"^^xsd:float .
+target:selector_03baf93fe51e163666b8206e3a0a4f6df4b02b2b ui:y "0.4863481228668942"^^xsd:float .
+target:selector_03baf93fe51e163666b8206e3a0a4f6df4b02b2b rdf:value "#xywh=percent:11,49,25,28" .
+
+target:target_03baf93fe51e163666b8206e3a0a4f6df4b02b2b a oa:SpecificResource .
+target:target_03baf93fe51e163666b8206e3a0a4f6df4b02b2b oa:hasSelector target:selector_03baf93fe51e163666b8206e3a0a4f6df4b02b2b .
+target:target_03baf93fe51e163666b8206e3a0a4f6df4b02b2b oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/68> .
