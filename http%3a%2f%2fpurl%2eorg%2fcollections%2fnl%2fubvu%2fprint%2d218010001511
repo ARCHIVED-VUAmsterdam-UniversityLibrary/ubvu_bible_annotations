@@ -23,6 +23,17 @@ nl:id_26cc2a376de36e6c3cdb97bc6ce6ab95d557cfb7 oa:hasBody [ a content:ContentAsT
 nl:id_26cc2a376de36e6c3cdb97bc6ce6ab95d557cfb7 oa:hasTarget ubvu:print-218010001511 .
 nl:id_26cc2a376de36e6c3cdb97bc6ce6ab95d557cfb7 oa:motivatedBy oa:tagging .
 
+nl:id_34f23e388d44986b4ce867069d14433be25f7ccc a oa:Annotation .
+nl:id_34f23e388d44986b4ce867069d14433be25f7ccc terms:title "Raven" .
+nl:id_34f23e388d44986b4ce867069d14433be25f7ccc ui:annotationField bible:BibleCharacter .
+nl:id_34f23e388d44986b4ce867069d14433be25f7ccc ui:typingTime 0 .
+nl:id_34f23e388d44986b4ce867069d14433be25f7ccc oa:annotatedAt "2016-05-20T10:46:31+02:00"^^xsd:dateTime .
+nl:id_34f23e388d44986b4ce867069d14433be25f7ccc oa:annotatedBy user:hogguer .
+nl:id_34f23e388d44986b4ce867069d14433be25f7ccc oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Raven" ] .
+nl:id_34f23e388d44986b4ce867069d14433be25f7ccc oa:hasTarget target:target_7b686f7fd8a226450a163fe5ef0b159e55fd544a .
+nl:id_34f23e388d44986b4ce867069d14433be25f7ccc oa:hasTarget ubvu:print-218010001511 .
+nl:id_34f23e388d44986b4ce867069d14433be25f7ccc oa:motivatedBy oa:tagging .
+
 nl:id_980a624684eef6577dd7103e905e1480a1677dac a oa:Annotation .
 nl:id_980a624684eef6577dd7103e905e1480a1677dac terms:title "Elia (profeet)" .
 nl:id_980a624684eef6577dd7103e905e1480a1677dac ui:annotationField bible:BibleCharacter .
@@ -53,6 +64,14 @@ target:selector_73c8ba37bd1e74d7949115f8feb4756f788b6608 ui:x "0.201030927835051
 target:selector_73c8ba37bd1e74d7949115f8feb4756f788b6608 ui:y "0.4062278839348903"^^xsd:float .
 target:selector_73c8ba37bd1e74d7949115f8feb4756f788b6608 rdf:value "#xywh=percent:20,41,22,36" .
 
+target:selector_7b686f7fd8a226450a163fe5ef0b159e55fd544a a oa:FragmentSelector .
+target:selector_7b686f7fd8a226450a163fe5ef0b159e55fd544a terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_7b686f7fd8a226450a163fe5ef0b159e55fd544a ui:h "0.2476525821596244"^^xsd:float .
+target:selector_7b686f7fd8a226450a163fe5ef0b159e55fd544a ui:w "0.43199315654405473"^^xsd:float .
+target:selector_7b686f7fd8a226450a163fe5ef0b159e55fd544a ui:x "0.32934131736526945"^^xsd:float .
+target:selector_7b686f7fd8a226450a163fe5ef0b159e55fd544a ui:y "0.0880281690140845"^^xsd:float .
+target:selector_7b686f7fd8a226450a163fe5ef0b159e55fd544a rdf:value "#xywh=percent:33,9,43,25" .
+
 target:selector_7cca0ed61ccc5b49d109c35b94fd2c0087c45f9f a oa:FragmentSelector .
 target:selector_7cca0ed61ccc5b49d109c35b94fd2c0087c45f9f terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_7cca0ed61ccc5b49d109c35b94fd2c0087c45f9f ui:h "0.41607981220657275"^^xsd:float .
@@ -64,6 +83,10 @@ target:selector_7cca0ed61ccc5b49d109c35b94fd2c0087c45f9f rdf:value "#xywh=percen
 target:target_73c8ba37bd1e74d7949115f8feb4756f788b6608 a oa:SpecificResource .
 target:target_73c8ba37bd1e74d7949115f8feb4756f788b6608 oa:hasSelector target:selector_73c8ba37bd1e74d7949115f8feb4756f788b6608 .
 target:target_73c8ba37bd1e74d7949115f8feb4756f788b6608 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/552> .
+
+target:target_7b686f7fd8a226450a163fe5ef0b159e55fd544a a oa:SpecificResource .
+target:target_7b686f7fd8a226450a163fe5ef0b159e55fd544a oa:hasSelector target:selector_7b686f7fd8a226450a163fe5ef0b159e55fd544a .
+target:target_7b686f7fd8a226450a163fe5ef0b159e55fd544a oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/552> .
 
 target:target_7cca0ed61ccc5b49d109c35b94fd2c0087c45f9f a oa:SpecificResource .
 target:target_7cca0ed61ccc5b49d109c35b94fd2c0087c45f9f oa:hasSelector target:selector_7cca0ed61ccc5b49d109c35b94fd2c0087c45f9f .
