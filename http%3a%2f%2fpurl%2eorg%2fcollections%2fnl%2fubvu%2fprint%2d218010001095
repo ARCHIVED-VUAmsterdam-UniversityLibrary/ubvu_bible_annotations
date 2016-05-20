@@ -24,6 +24,17 @@ nl:id_0de44f742ee0393fce96129fc32ba9def1a7094f oa:hasTarget target:target_d6f428
 nl:id_0de44f742ee0393fce96129fc32ba9def1a7094f oa:hasTarget ubvu:print-218010001095 .
 nl:id_0de44f742ee0393fce96129fc32ba9def1a7094f oa:motivatedBy oa:tagging .
 
+nl:id_179504483b9915d28342fc6ecd03917a2f0dc217 a oa:Annotation .
+nl:id_179504483b9915d28342fc6ecd03917a2f0dc217 terms:title "Ismaël, zoon van Hagar en Abraham" .
+nl:id_179504483b9915d28342fc6ecd03917a2f0dc217 ui:annotationField bible:BibleCharacter .
+nl:id_179504483b9915d28342fc6ecd03917a2f0dc217 ui:typingTime 0 .
+nl:id_179504483b9915d28342fc6ecd03917a2f0dc217 oa:annotatedAt "2016-05-20T10:31:36+02:00"^^xsd:dateTime .
+nl:id_179504483b9915d28342fc6ecd03917a2f0dc217 oa:annotatedBy user:hogguer .
+nl:id_179504483b9915d28342fc6ecd03917a2f0dc217 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Ismaël, zoon van Hagar en Abraham" ] .
+nl:id_179504483b9915d28342fc6ecd03917a2f0dc217 oa:hasTarget target:target_db3aa2fc16a7d8163a831533415cbb36219ba652 .
+nl:id_179504483b9915d28342fc6ecd03917a2f0dc217 oa:hasTarget ubvu:print-218010001095 .
+nl:id_179504483b9915d28342fc6ecd03917a2f0dc217 oa:motivatedBy oa:tagging .
+
 nl:id_26e4263d270f649284bc856a459de9ea0536a6f0 a oa:Annotation .
 nl:id_26e4263d270f649284bc856a459de9ea0536a6f0 terms:title "Hagar" .
 nl:id_26e4263d270f649284bc856a459de9ea0536a6f0 ui:annotationField bible:BibleCharacter .
