@@ -23,6 +23,16 @@ nl:id_24aa2afb327b70c740c8d65f34b4775581ee2c21 oa:hasTarget target:target_1538c8
 nl:id_24aa2afb327b70c740c8d65f34b4775581ee2c21 oa:hasTarget ubvu:print-218010001232 .
 nl:id_24aa2afb327b70c740c8d65f34b4775581ee2c21 oa:motivatedBy oa:tagging .
 
+nl:id_d149d0d742c1b73adddda8e9ab005df9f0ac2884 a oa:Annotation .
+nl:id_d149d0d742c1b73adddda8e9ab005df9f0ac2884 terms:title "Manna from heaven" .
+nl:id_d149d0d742c1b73adddda8e9ab005df9f0ac2884 ui:annotationField bible:ICBibleTheme .
+nl:id_d149d0d742c1b73adddda8e9ab005df9f0ac2884 ui:typingTime 0 .
+nl:id_d149d0d742c1b73adddda8e9ab005df9f0ac2884 oa:annotatedAt "2016-05-20T10:02:24+02:00"^^xsd:dateTime .
+nl:id_d149d0d742c1b73adddda8e9ab005df9f0ac2884 oa:annotatedBy user:hogguer .
+nl:id_d149d0d742c1b73adddda8e9ab005df9f0ac2884 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Manna from heaven" ] .
+nl:id_d149d0d742c1b73adddda8e9ab005df9f0ac2884 oa:hasTarget ubvu:print-218010001232 .
+nl:id_d149d0d742c1b73adddda8e9ab005df9f0ac2884 oa:motivatedBy oa:tagging .
+
 nl:id_dce4a37a923223010b5ed4c6e9df381e94c9de64 a oa:Annotation .
 nl:id_dce4a37a923223010b5ed4c6e9df381e94c9de64 terms:title "Gouden kruik met Manna" .
 nl:id_dce4a37a923223010b5ed4c6e9df381e94c9de64 ui:annotationField bible:BibleCharacter .
