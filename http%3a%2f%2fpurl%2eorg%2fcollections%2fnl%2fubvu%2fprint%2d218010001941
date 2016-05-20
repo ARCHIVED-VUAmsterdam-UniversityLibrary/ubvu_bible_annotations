@@ -12,6 +12,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_8e924ec458bfd20b1dba1a5ac3656da7124fdf4f a oa:Annotation .
+nl:id_8e924ec458bfd20b1dba1a5ac3656da7124fdf4f terms:title "the arrest of Paul in Jerusalem is foretold by Agabus, who binds his own hands and feet with Paul's girdle" .
+nl:id_8e924ec458bfd20b1dba1a5ac3656da7124fdf4f ui:annotationField bible:ICBibleTheme .
+nl:id_8e924ec458bfd20b1dba1a5ac3656da7124fdf4f ui:typingTime 0 .
+nl:id_8e924ec458bfd20b1dba1a5ac3656da7124fdf4f oa:annotatedAt "2016-05-20T10:25:41+02:00"^^xsd:dateTime .
+nl:id_8e924ec458bfd20b1dba1a5ac3656da7124fdf4f oa:annotatedBy user:hogguer .
+nl:id_8e924ec458bfd20b1dba1a5ac3656da7124fdf4f oa:hasBody <http://iconclass.org/73F223541> .
+nl:id_8e924ec458bfd20b1dba1a5ac3656da7124fdf4f oa:hasTarget ubvu:print-218010001941 .
+nl:id_8e924ec458bfd20b1dba1a5ac3656da7124fdf4f oa:motivatedBy oa:tagging .
+
 nl:id_ab5c934e0423ec80edccf2940d1b4ce0500fc048 a oa:Annotation .
 nl:id_ab5c934e0423ec80edccf2940d1b4ce0500fc048 terms:title "Agabus (profeet uit Juda)" .
 nl:id_ab5c934e0423ec80edccf2940d1b4ce0500fc048 ui:annotationField bible:BibleCharacter .
