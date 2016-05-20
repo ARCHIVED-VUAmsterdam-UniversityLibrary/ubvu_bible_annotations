@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -8,17 +9,30 @@
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_24aa2afb327b70c740c8d65f34b4775581ee2c21> a oa:Annotation .
-<http://accurator.nl/id_24aa2afb327b70c740c8d65f34b4775581ee2c21> terms:title "Gouden kroes met manna" .
-<http://accurator.nl/id_24aa2afb327b70c740c8d65f34b4775581ee2c21> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_24aa2afb327b70c740c8d65f34b4775581ee2c21> ui:typingTime 0 .
-<http://accurator.nl/id_24aa2afb327b70c740c8d65f34b4775581ee2c21> oa:annotatedAt "2016-04-21T12:54:15+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_24aa2afb327b70c740c8d65f34b4775581ee2c21> oa:annotatedBy user:hogguer .
-<http://accurator.nl/id_24aa2afb327b70c740c8d65f34b4775581ee2c21> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Gouden kroes met manna" ] .
-<http://accurator.nl/id_24aa2afb327b70c740c8d65f34b4775581ee2c21> oa:hasTarget target:target_1538c832cbf9d784381e89d005cfbd14edf4f8de .
-<http://accurator.nl/id_24aa2afb327b70c740c8d65f34b4775581ee2c21> oa:hasTarget ubvu:print-218010001232 .
-<http://accurator.nl/id_24aa2afb327b70c740c8d65f34b4775581ee2c21> oa:motivatedBy oa:tagging .
+nl:id_24aa2afb327b70c740c8d65f34b4775581ee2c21 a oa:Annotation .
+nl:id_24aa2afb327b70c740c8d65f34b4775581ee2c21 terms:title "Gouden kroes met manna" .
+nl:id_24aa2afb327b70c740c8d65f34b4775581ee2c21 ui:annotationField bible:BibleCharacter .
+nl:id_24aa2afb327b70c740c8d65f34b4775581ee2c21 ui:typingTime 0 .
+nl:id_24aa2afb327b70c740c8d65f34b4775581ee2c21 oa:annotatedAt "2016-04-21T12:54:15+02:00"^^xsd:dateTime .
+nl:id_24aa2afb327b70c740c8d65f34b4775581ee2c21 oa:annotatedBy user:hogguer .
+nl:id_24aa2afb327b70c740c8d65f34b4775581ee2c21 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Gouden kroes met manna" ] .
+nl:id_24aa2afb327b70c740c8d65f34b4775581ee2c21 oa:hasTarget target:target_1538c832cbf9d784381e89d005cfbd14edf4f8de .
+nl:id_24aa2afb327b70c740c8d65f34b4775581ee2c21 oa:hasTarget ubvu:print-218010001232 .
+nl:id_24aa2afb327b70c740c8d65f34b4775581ee2c21 oa:motivatedBy oa:tagging .
+
+nl:id_dce4a37a923223010b5ed4c6e9df381e94c9de64 a oa:Annotation .
+nl:id_dce4a37a923223010b5ed4c6e9df381e94c9de64 terms:title "Gouden kruik met Manna" .
+nl:id_dce4a37a923223010b5ed4c6e9df381e94c9de64 ui:annotationField bible:BibleCharacter .
+nl:id_dce4a37a923223010b5ed4c6e9df381e94c9de64 ui:typingTime 0 .
+nl:id_dce4a37a923223010b5ed4c6e9df381e94c9de64 oa:annotatedAt "2016-05-20T09:59:26+02:00"^^xsd:dateTime .
+nl:id_dce4a37a923223010b5ed4c6e9df381e94c9de64 oa:annotatedBy user:hogguer .
+nl:id_dce4a37a923223010b5ed4c6e9df381e94c9de64 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Gouden kruik met Manna" ] .
+nl:id_dce4a37a923223010b5ed4c6e9df381e94c9de64 oa:hasTarget target:target_4315a3463501ac9ca5a5a66fdaf3bdbcad2e7074 .
+nl:id_dce4a37a923223010b5ed4c6e9df381e94c9de64 oa:hasTarget ubvu:print-218010001232 .
+nl:id_dce4a37a923223010b5ed4c6e9df381e94c9de64 oa:motivatedBy oa:tagging .
 
 target:selector_1538c832cbf9d784381e89d005cfbd14edf4f8de a oa:FragmentSelector .
 target:selector_1538c832cbf9d784381e89d005cfbd14edf4f8de terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -28,6 +42,18 @@ target:selector_1538c832cbf9d784381e89d005cfbd14edf4f8de ui:x "0.502564102564102
 target:selector_1538c832cbf9d784381e89d005cfbd14edf4f8de ui:y "0.7998843262001156"^^xsd:float .
 target:selector_1538c832cbf9d784381e89d005cfbd14edf4f8de rdf:value "#xywh=percent:50,80,7,8" .
 
+target:selector_4315a3463501ac9ca5a5a66fdaf3bdbcad2e7074 a oa:FragmentSelector .
+target:selector_4315a3463501ac9ca5a5a66fdaf3bdbcad2e7074 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_4315a3463501ac9ca5a5a66fdaf3bdbcad2e7074 ui:h "0.08444187391555813"^^xsd:float .
+target:selector_4315a3463501ac9ca5a5a66fdaf3bdbcad2e7074 ui:w "0.07435897435897436"^^xsd:float .
+target:selector_4315a3463501ac9ca5a5a66fdaf3bdbcad2e7074 ui:x "0.5051282051282051"^^xsd:float .
+target:selector_4315a3463501ac9ca5a5a66fdaf3bdbcad2e7074 ui:y "0.7993059572006941"^^xsd:float .
+target:selector_4315a3463501ac9ca5a5a66fdaf3bdbcad2e7074 rdf:value "#xywh=percent:51,80,7,8" .
+
 target:target_1538c832cbf9d784381e89d005cfbd14edf4f8de a oa:SpecificResource .
 target:target_1538c832cbf9d784381e89d005cfbd14edf4f8de oa:hasSelector target:selector_1538c832cbf9d784381e89d005cfbd14edf4f8de .
 target:target_1538c832cbf9d784381e89d005cfbd14edf4f8de oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/273> .
+
+target:target_4315a3463501ac9ca5a5a66fdaf3bdbcad2e7074 a oa:SpecificResource .
+target:target_4315a3463501ac9ca5a5a66fdaf3bdbcad2e7074 oa:hasSelector target:selector_4315a3463501ac9ca5a5a66fdaf3bdbcad2e7074 .
+target:target_4315a3463501ac9ca5a5a66fdaf3bdbcad2e7074 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/273> .
