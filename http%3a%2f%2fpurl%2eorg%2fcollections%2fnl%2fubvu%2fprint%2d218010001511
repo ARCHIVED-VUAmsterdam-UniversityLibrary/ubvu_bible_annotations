@@ -45,6 +45,16 @@ nl:id_980a624684eef6577dd7103e905e1480a1677dac oa:hasTarget target:target_7cca0e
 nl:id_980a624684eef6577dd7103e905e1480a1677dac oa:hasTarget ubvu:print-218010001511 .
 nl:id_980a624684eef6577dd7103e905e1480a1677dac oa:motivatedBy oa:tagging .
 
+nl:id_be8707d2ba405f265d9254a0436b0fc92ea17f23 a oa:Annotation .
+nl:id_be8707d2ba405f265d9254a0436b0fc92ea17f23 terms:title "Spyzing of Elias by the ravens" .
+nl:id_be8707d2ba405f265d9254a0436b0fc92ea17f23 ui:annotationField bible:ICBibleTheme .
+nl:id_be8707d2ba405f265d9254a0436b0fc92ea17f23 ui:typingTime 0 .
+nl:id_be8707d2ba405f265d9254a0436b0fc92ea17f23 oa:annotatedAt "2016-05-20T10:48:55+02:00"^^xsd:dateTime .
+nl:id_be8707d2ba405f265d9254a0436b0fc92ea17f23 oa:annotatedBy user:hogguer .
+nl:id_be8707d2ba405f265d9254a0436b0fc92ea17f23 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Spyzing of Elias by the ravens" ] .
+nl:id_be8707d2ba405f265d9254a0436b0fc92ea17f23 oa:hasTarget ubvu:print-218010001511 .
+nl:id_be8707d2ba405f265d9254a0436b0fc92ea17f23 oa:motivatedBy oa:tagging .
+
 nl:id_e76edb69521a59e34171c2d92d60fec5e82c7f71 a oa:Annotation .
 nl:id_e76edb69521a59e34171c2d92d60fec5e82c7f71 terms:title "Elijah" .
 nl:id_e76edb69521a59e34171c2d92d60fec5e82c7f71 ui:annotationField bible:BibleCharacter .
