@@ -89,6 +89,16 @@ nl:id_784ac197b5ab080f49461c8ce65e3aaadb0d29af oa:hasTarget target:target_535ac9
 nl:id_784ac197b5ab080f49461c8ce65e3aaadb0d29af oa:hasTarget ubvu:print-218010001095 .
 nl:id_784ac197b5ab080f49461c8ce65e3aaadb0d29af oa:motivatedBy oa:tagging .
 
+nl:id_a362ff31ab8a769cd648c74bacf023885a7b52bc a oa:Annotation .
+nl:id_a362ff31ab8a769cd648c74bacf023885a7b52bc terms:title "the banishment of Hagar and Ishmael (Genesis 21:9-21)" .
+nl:id_a362ff31ab8a769cd648c74bacf023885a7b52bc ui:annotationField bible:ICBibleTheme .
+nl:id_a362ff31ab8a769cd648c74bacf023885a7b52bc ui:typingTime 0 .
+nl:id_a362ff31ab8a769cd648c74bacf023885a7b52bc oa:annotatedAt "2016-05-20T10:32:16+02:00"^^xsd:dateTime .
+nl:id_a362ff31ab8a769cd648c74bacf023885a7b52bc oa:annotatedBy user:hogguer .
+nl:id_a362ff31ab8a769cd648c74bacf023885a7b52bc oa:hasBody <http://iconclass.org/71C128> .
+nl:id_a362ff31ab8a769cd648c74bacf023885a7b52bc oa:hasTarget ubvu:print-218010001095 .
+nl:id_a362ff31ab8a769cd648c74bacf023885a7b52bc oa:motivatedBy oa:tagging .
+
 nl:id_a7102033d47b7d87e7ca0c8fd3fd9e87ff8c6cd6 a oa:Annotation .
 nl:id_a7102033d47b7d87e7ca0c8fd3fd9e87ff8c6cd6 terms:title "Abraham (aartsvader)" .
 nl:id_a7102033d47b7d87e7ca0c8fd3fd9e87ff8c6cd6 ui:annotationField bible:BibleCharacter .
