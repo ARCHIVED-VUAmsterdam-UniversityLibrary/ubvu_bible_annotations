@@ -13,6 +13,17 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_115908d3e8ef994bcfbe539eee1248df13c80853 a oa:Annotation .
+nl:id_115908d3e8ef994bcfbe539eee1248df13c80853 terms:title "Rivier de Kerit (Chertih brook)" .
+nl:id_115908d3e8ef994bcfbe539eee1248df13c80853 ui:annotationField bible:BibleCharacter .
+nl:id_115908d3e8ef994bcfbe539eee1248df13c80853 ui:typingTime 0 .
+nl:id_115908d3e8ef994bcfbe539eee1248df13c80853 oa:annotatedAt "2016-05-20T10:49:53+02:00"^^xsd:dateTime .
+nl:id_115908d3e8ef994bcfbe539eee1248df13c80853 oa:annotatedBy user:hogguer .
+nl:id_115908d3e8ef994bcfbe539eee1248df13c80853 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Rivier de Kerit (Chertih brook)" ] .
+nl:id_115908d3e8ef994bcfbe539eee1248df13c80853 oa:hasTarget target:target_bfe86e2a725ae660efa801e7a010cf349f15fbac .
+nl:id_115908d3e8ef994bcfbe539eee1248df13c80853 oa:hasTarget ubvu:print-218010001511 .
+nl:id_115908d3e8ef994bcfbe539eee1248df13c80853 oa:motivatedBy oa:tagging .
+
 nl:id_26cc2a376de36e6c3cdb97bc6ce6ab95d557cfb7 a oa:Annotation .
 nl:id_26cc2a376de36e6c3cdb97bc6ce6ab95d557cfb7 terms:title "Elijah fed by Ravans" .
 nl:id_26cc2a376de36e6c3cdb97bc6ce6ab95d557cfb7 ui:annotationField bible:ICBibleTheme .
@@ -90,6 +101,14 @@ target:selector_7cca0ed61ccc5b49d109c35b94fd2c0087c45f9f ui:x "0.130025662959794
 target:selector_7cca0ed61ccc5b49d109c35b94fd2c0087c45f9f ui:y "0.3779342723004695"^^xsd:float .
 target:selector_7cca0ed61ccc5b49d109c35b94fd2c0087c45f9f rdf:value "#xywh=percent:13,38,40,42" .
 
+target:selector_bfe86e2a725ae660efa801e7a010cf349f15fbac a oa:FragmentSelector .
+target:selector_bfe86e2a725ae660efa801e7a010cf349f15fbac terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_bfe86e2a725ae660efa801e7a010cf349f15fbac ui:h "0.1267605633802817"^^xsd:float .
+target:selector_bfe86e2a725ae660efa801e7a010cf349f15fbac ui:w "0.694017094017094"^^xsd:float .
+target:selector_bfe86e2a725ae660efa801e7a010cf349f15fbac ui:x "0.040170940170940174"^^xsd:float .
+target:selector_bfe86e2a725ae660efa801e7a010cf349f15fbac ui:y "0.7153755868544601"^^xsd:float .
+target:selector_bfe86e2a725ae660efa801e7a010cf349f15fbac rdf:value "#xywh=percent:4,72,69,13" .
+
 target:target_73c8ba37bd1e74d7949115f8feb4756f788b6608 a oa:SpecificResource .
 target:target_73c8ba37bd1e74d7949115f8feb4756f788b6608 oa:hasSelector target:selector_73c8ba37bd1e74d7949115f8feb4756f788b6608 .
 target:target_73c8ba37bd1e74d7949115f8feb4756f788b6608 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/552> .
@@ -101,3 +120,7 @@ target:target_7b686f7fd8a226450a163fe5ef0b159e55fd544a oa:hasSource <http://imag
 target:target_7cca0ed61ccc5b49d109c35b94fd2c0087c45f9f a oa:SpecificResource .
 target:target_7cca0ed61ccc5b49d109c35b94fd2c0087c45f9f oa:hasSelector target:selector_7cca0ed61ccc5b49d109c35b94fd2c0087c45f9f .
 target:target_7cca0ed61ccc5b49d109c35b94fd2c0087c45f9f oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/552> .
+
+target:target_bfe86e2a725ae660efa801e7a010cf349f15fbac a oa:SpecificResource .
+target:target_bfe86e2a725ae660efa801e7a010cf349f15fbac oa:hasSelector target:selector_bfe86e2a725ae660efa801e7a010cf349f15fbac .
+target:target_bfe86e2a725ae660efa801e7a010cf349f15fbac oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/552> .
