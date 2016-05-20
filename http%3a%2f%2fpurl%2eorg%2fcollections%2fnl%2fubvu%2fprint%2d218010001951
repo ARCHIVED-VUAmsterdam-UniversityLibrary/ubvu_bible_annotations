@@ -35,6 +35,16 @@ nl:id_3a7a5098be545e319aaf5dac376bb332409b05bf oa:hasTarget target:target_a3a256
 nl:id_3a7a5098be545e319aaf5dac376bb332409b05bf oa:hasTarget ubvu:print-218010001951 .
 nl:id_3a7a5098be545e319aaf5dac376bb332409b05bf oa:motivatedBy oa:tagging .
 
+nl:id_561df5f681242d05bf0c947e5edcbea80973a7d9 a oa:Annotation .
+nl:id_561df5f681242d05bf0c947e5edcbea80973a7d9 terms:title "The vision of John seeing Jezus Christ standing between seven candle holders en with seven stars in his right hand" .
+nl:id_561df5f681242d05bf0c947e5edcbea80973a7d9 ui:annotationField bible:ICBibleTheme .
+nl:id_561df5f681242d05bf0c947e5edcbea80973a7d9 ui:typingTime 0 .
+nl:id_561df5f681242d05bf0c947e5edcbea80973a7d9 oa:annotatedAt "2016-05-20T10:42:53+02:00"^^xsd:dateTime .
+nl:id_561df5f681242d05bf0c947e5edcbea80973a7d9 oa:annotatedBy user:hogguer .
+nl:id_561df5f681242d05bf0c947e5edcbea80973a7d9 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The vision of John seeing Jezus Christ standing between seven candle holders en with seven stars in his right hand" ] .
+nl:id_561df5f681242d05bf0c947e5edcbea80973a7d9 oa:hasTarget ubvu:print-218010001951 .
+nl:id_561df5f681242d05bf0c947e5edcbea80973a7d9 oa:motivatedBy oa:tagging .
+
 nl:id_69158d346fe186f7a7d46236db6e7c9ef1942067 a oa:Annotation .
 nl:id_69158d346fe186f7a7d46236db6e7c9ef1942067 terms:title "Johannes, evangelist" .
 nl:id_69158d346fe186f7a7d46236db6e7c9ef1942067 ui:annotationField bible:BibleCharacter .
