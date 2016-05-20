@@ -24,6 +24,16 @@ nl:id_bb407963859763d325e1a70ba27e0b4272568fd5 oa:hasTarget target:target_13c5a1
 nl:id_bb407963859763d325e1a70ba27e0b4272568fd5 oa:hasTarget ubvu:print-218010001170 .
 nl:id_bb407963859763d325e1a70ba27e0b4272568fd5 oa:motivatedBy oa:tagging .
 
+nl:id_d1bc727eff9fb25a6bed0dd298b6e2d13df57474 a oa:Annotation .
+nl:id_d1bc727eff9fb25a6bed0dd298b6e2d13df57474 terms:title "Joseph is advanced and the Pharao set him over the land of Egypt" .
+nl:id_d1bc727eff9fb25a6bed0dd298b6e2d13df57474 ui:annotationField bible:ICBibleTheme .
+nl:id_d1bc727eff9fb25a6bed0dd298b6e2d13df57474 ui:typingTime 0 .
+nl:id_d1bc727eff9fb25a6bed0dd298b6e2d13df57474 oa:annotatedAt "2016-05-20T09:55:11+02:00"^^xsd:dateTime .
+nl:id_d1bc727eff9fb25a6bed0dd298b6e2d13df57474 oa:annotatedBy user:hogguer .
+nl:id_d1bc727eff9fb25a6bed0dd298b6e2d13df57474 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Joseph is advanced and the Pharao set him over the land of Egypt" ] .
+nl:id_d1bc727eff9fb25a6bed0dd298b6e2d13df57474 oa:hasTarget ubvu:print-218010001170 .
+nl:id_d1bc727eff9fb25a6bed0dd298b6e2d13df57474 oa:motivatedBy oa:tagging .
+
 nl:id_e69ea9a2ff38fe163a203adbebbc9f85355ff866 a oa:Annotation .
 nl:id_e69ea9a2ff38fe163a203adbebbc9f85355ff866 terms:title "Farao" .
 nl:id_e69ea9a2ff38fe163a203adbebbc9f85355ff866 ui:annotationField bible:BibleCharacter .
