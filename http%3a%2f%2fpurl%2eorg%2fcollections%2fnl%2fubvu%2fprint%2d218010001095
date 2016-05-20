@@ -132,6 +132,17 @@ nl:id_d9e8d17ecf8f1e6d9c53fdb4d2d6a11551cbbb98 oa:hasTarget target:target_0df448
 nl:id_d9e8d17ecf8f1e6d9c53fdb4d2d6a11551cbbb98 oa:hasTarget ubvu:print-218010001095 .
 nl:id_d9e8d17ecf8f1e6d9c53fdb4d2d6a11551cbbb98 oa:motivatedBy oa:tagging .
 
+nl:id_e20c8de3e6ba51286b75863f6efd57e619700e9c a oa:Annotation .
+nl:id_e20c8de3e6ba51286b75863f6efd57e619700e9c terms:title "Hagar (Egyptische slavin van Sara)" .
+nl:id_e20c8de3e6ba51286b75863f6efd57e619700e9c ui:annotationField bible:BibleCharacter .
+nl:id_e20c8de3e6ba51286b75863f6efd57e619700e9c ui:typingTime 0 .
+nl:id_e20c8de3e6ba51286b75863f6efd57e619700e9c oa:annotatedAt "2016-05-20T10:30:49+02:00"^^xsd:dateTime .
+nl:id_e20c8de3e6ba51286b75863f6efd57e619700e9c oa:annotatedBy user:hogguer .
+nl:id_e20c8de3e6ba51286b75863f6efd57e619700e9c oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Hagar (Egyptische slavin van Sara)" ] .
+nl:id_e20c8de3e6ba51286b75863f6efd57e619700e9c oa:hasTarget target:target_9490354eefa77399f624cc90c9336cba87088f2d .
+nl:id_e20c8de3e6ba51286b75863f6efd57e619700e9c oa:hasTarget ubvu:print-218010001095 .
+nl:id_e20c8de3e6ba51286b75863f6efd57e619700e9c oa:motivatedBy oa:tagging .
+
 target:selector_0c7f66b0f9fe563e849c86baabedc733877971de a oa:FragmentSelector .
 target:selector_0c7f66b0f9fe563e849c86baabedc733877971de terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_0c7f66b0f9fe563e849c86baabedc733877971de ui:h "0.39029768467475195"^^xsd:float .
@@ -163,6 +174,14 @@ target:selector_535ac9ccb2c5abc6b69408ee9201ad346340b213 ui:w "0.096581196581196
 target:selector_535ac9ccb2c5abc6b69408ee9201ad346340b213 ui:x "0.6461538461538462"^^xsd:float .
 target:selector_535ac9ccb2c5abc6b69408ee9201ad346340b213 ui:y "0.4941597594374139"^^xsd:float .
 target:selector_535ac9ccb2c5abc6b69408ee9201ad346340b213 rdf:value "#xywh=percent:65,49,10,26" .
+
+target:selector_9490354eefa77399f624cc90c9336cba87088f2d a oa:FragmentSelector .
+target:selector_9490354eefa77399f624cc90c9336cba87088f2d terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_9490354eefa77399f624cc90c9336cba87088f2d ui:h "0.4013230429988975"^^xsd:float .
+target:selector_9490354eefa77399f624cc90c9336cba87088f2d ui:w "0.21813515825491872"^^xsd:float .
+target:selector_9490354eefa77399f624cc90c9336cba87088f2d ui:x "0.4354148845166809"^^xsd:float .
+target:selector_9490354eefa77399f624cc90c9336cba87088f2d ui:y "0.38257993384785005"^^xsd:float .
+target:selector_9490354eefa77399f624cc90c9336cba87088f2d rdf:value "#xywh=percent:44,38,22,40" .
 
 target:selector_a309990ce0bc70fdbd980cd28701bdeee2d6c48d a oa:FragmentSelector .
 target:selector_a309990ce0bc70fdbd980cd28701bdeee2d6c48d terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -219,6 +238,10 @@ target:target_1a7ebf1eb7ee6a89072b90af4480ff3cb443990d oa:hasSource <http://imag
 target:target_535ac9ccb2c5abc6b69408ee9201ad346340b213 a oa:SpecificResource .
 target:target_535ac9ccb2c5abc6b69408ee9201ad346340b213 oa:hasSelector target:selector_535ac9ccb2c5abc6b69408ee9201ad346340b213 .
 target:target_535ac9ccb2c5abc6b69408ee9201ad346340b213 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/136> .
+
+target:target_9490354eefa77399f624cc90c9336cba87088f2d a oa:SpecificResource .
+target:target_9490354eefa77399f624cc90c9336cba87088f2d oa:hasSelector target:selector_9490354eefa77399f624cc90c9336cba87088f2d .
+target:target_9490354eefa77399f624cc90c9336cba87088f2d oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/136> .
 
 target:target_a309990ce0bc70fdbd980cd28701bdeee2d6c48d a oa:SpecificResource .
 target:target_a309990ce0bc70fdbd980cd28701bdeee2d6c48d oa:hasSelector target:selector_a309990ce0bc70fdbd980cd28701bdeee2d6c48d .
