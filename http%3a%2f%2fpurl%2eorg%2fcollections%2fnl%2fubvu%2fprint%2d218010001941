@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -8,17 +9,38 @@
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_b526784e63f7eff214a22671dd4ff2708afbaced> a oa:Annotation .
-<http://accurator.nl/id_b526784e63f7eff214a22671dd4ff2708afbaced> terms:title "prophet Agabus" .
-<http://accurator.nl/id_b526784e63f7eff214a22671dd4ff2708afbaced> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_b526784e63f7eff214a22671dd4ff2708afbaced> ui:typingTime 0 .
-<http://accurator.nl/id_b526784e63f7eff214a22671dd4ff2708afbaced> oa:annotatedAt "2016-04-08T17:19:37+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_b526784e63f7eff214a22671dd4ff2708afbaced> oa:annotatedBy user:everhoeff .
-<http://accurator.nl/id_b526784e63f7eff214a22671dd4ff2708afbaced> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "prophet Agabus" ] .
-<http://accurator.nl/id_b526784e63f7eff214a22671dd4ff2708afbaced> oa:hasTarget target:target_da7a389e94bf1e7f5b507ca176ec2c9749677683 .
-<http://accurator.nl/id_b526784e63f7eff214a22671dd4ff2708afbaced> oa:hasTarget ubvu:print-218010001941 .
-<http://accurator.nl/id_b526784e63f7eff214a22671dd4ff2708afbaced> oa:motivatedBy oa:tagging .
+nl:id_ab5c934e0423ec80edccf2940d1b4ce0500fc048 a oa:Annotation .
+nl:id_ab5c934e0423ec80edccf2940d1b4ce0500fc048 terms:title "Agabus (profeet uit Juda)" .
+nl:id_ab5c934e0423ec80edccf2940d1b4ce0500fc048 ui:annotationField bible:BibleCharacter .
+nl:id_ab5c934e0423ec80edccf2940d1b4ce0500fc048 ui:typingTime 0 .
+nl:id_ab5c934e0423ec80edccf2940d1b4ce0500fc048 oa:annotatedAt "2016-05-20T10:24:12+02:00"^^xsd:dateTime .
+nl:id_ab5c934e0423ec80edccf2940d1b4ce0500fc048 oa:annotatedBy user:hogguer .
+nl:id_ab5c934e0423ec80edccf2940d1b4ce0500fc048 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Agabus (profeet uit Juda)" ] .
+nl:id_ab5c934e0423ec80edccf2940d1b4ce0500fc048 oa:hasTarget target:target_18ab362dd8f6b543d6e59625ff125b1075dc886e .
+nl:id_ab5c934e0423ec80edccf2940d1b4ce0500fc048 oa:hasTarget ubvu:print-218010001941 .
+nl:id_ab5c934e0423ec80edccf2940d1b4ce0500fc048 oa:motivatedBy oa:tagging .
+
+nl:id_b526784e63f7eff214a22671dd4ff2708afbaced a oa:Annotation .
+nl:id_b526784e63f7eff214a22671dd4ff2708afbaced terms:title "prophet Agabus" .
+nl:id_b526784e63f7eff214a22671dd4ff2708afbaced ui:annotationField bible:BibleCharacter .
+nl:id_b526784e63f7eff214a22671dd4ff2708afbaced ui:typingTime 0 .
+nl:id_b526784e63f7eff214a22671dd4ff2708afbaced oa:annotatedAt "2016-04-08T17:19:37+02:00"^^xsd:dateTime .
+nl:id_b526784e63f7eff214a22671dd4ff2708afbaced oa:annotatedBy user:everhoeff .
+nl:id_b526784e63f7eff214a22671dd4ff2708afbaced oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "prophet Agabus" ] .
+nl:id_b526784e63f7eff214a22671dd4ff2708afbaced oa:hasTarget target:target_da7a389e94bf1e7f5b507ca176ec2c9749677683 .
+nl:id_b526784e63f7eff214a22671dd4ff2708afbaced oa:hasTarget ubvu:print-218010001941 .
+nl:id_b526784e63f7eff214a22671dd4ff2708afbaced oa:motivatedBy oa:tagging .
+
+target:selector_18ab362dd8f6b543d6e59625ff125b1075dc886e a oa:FragmentSelector .
+target:selector_18ab362dd8f6b543d6e59625ff125b1075dc886e terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_18ab362dd8f6b543d6e59625ff125b1075dc886e ui:h "0.3023255813953488"^^xsd:float .
+target:selector_18ab362dd8f6b543d6e59625ff125b1075dc886e ui:w "0.3094017094017094"^^xsd:float .
+target:selector_18ab362dd8f6b543d6e59625ff125b1075dc886e ui:x "0.0829059829059829"^^xsd:float .
+target:selector_18ab362dd8f6b543d6e59625ff125b1075dc886e ui:y "0.4797187669010276"^^xsd:float .
+target:selector_18ab362dd8f6b543d6e59625ff125b1075dc886e rdf:value "#xywh=percent:8,48,31,30" .
 
 target:selector_da7a389e94bf1e7f5b507ca176ec2c9749677683 a oa:FragmentSelector .
 target:selector_da7a389e94bf1e7f5b507ca176ec2c9749677683 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -27,6 +49,10 @@ target:selector_da7a389e94bf1e7f5b507ca176ec2c9749677683 ui:w "0.416"^^xsd:float
 target:selector_da7a389e94bf1e7f5b507ca176ec2c9749677683 ui:x "0.112"^^xsd:float .
 target:selector_da7a389e94bf1e7f5b507ca176ec2c9749677683 ui:y "0.5046413502109705"^^xsd:float .
 target:selector_da7a389e94bf1e7f5b507ca176ec2c9749677683 rdf:value "#xywh=percent:11,50,42,26" .
+
+target:target_18ab362dd8f6b543d6e59625ff125b1075dc886e a oa:SpecificResource .
+target:target_18ab362dd8f6b543d6e59625ff125b1075dc886e oa:hasSelector target:selector_18ab362dd8f6b543d6e59625ff125b1075dc886e .
+target:target_18ab362dd8f6b543d6e59625ff125b1075dc886e oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/980> .
 
 target:target_da7a389e94bf1e7f5b507ca176ec2c9749677683 a oa:SpecificResource .
 target:target_da7a389e94bf1e7f5b507ca176ec2c9749677683 oa:hasSelector target:selector_da7a389e94bf1e7f5b507ca176ec2c9749677683 .
