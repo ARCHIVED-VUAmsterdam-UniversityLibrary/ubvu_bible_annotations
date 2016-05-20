@@ -77,6 +77,16 @@ nl:id_b5d5eb884efc86722f7580e6b01b22cbf5c302bb oa:hasTarget target:target_30001c
 nl:id_b5d5eb884efc86722f7580e6b01b22cbf5c302bb oa:hasTarget ubvu:print-218010001603 .
 nl:id_b5d5eb884efc86722f7580e6b01b22cbf5c302bb oa:motivatedBy oa:tagging .
 
+nl:id_b70c827f0a126ccce76206e40eb8e964e95673f0 a oa:Annotation .
+nl:id_b70c827f0a126ccce76206e40eb8e964e95673f0 terms:title "The first Holy Scene" .
+nl:id_b70c827f0a126ccce76206e40eb8e964e95673f0 ui:annotationField bible:ICBibleTheme .
+nl:id_b70c827f0a126ccce76206e40eb8e964e95673f0 ui:typingTime 0 .
+nl:id_b70c827f0a126ccce76206e40eb8e964e95673f0 oa:annotatedAt "2016-05-20T10:09:48+02:00"^^xsd:dateTime .
+nl:id_b70c827f0a126ccce76206e40eb8e964e95673f0 oa:annotatedBy user:hogguer .
+nl:id_b70c827f0a126ccce76206e40eb8e964e95673f0 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The first Holy Scene" ] .
+nl:id_b70c827f0a126ccce76206e40eb8e964e95673f0 oa:hasTarget ubvu:print-218010001603 .
+nl:id_b70c827f0a126ccce76206e40eb8e964e95673f0 oa:motivatedBy oa:tagging .
+
 nl:id_edf7ea027e8c1c07a4f9f7eedfd68db2ff2736d6 a oa:Annotation .
 nl:id_edf7ea027e8c1c07a4f9f7eedfd68db2ff2736d6 terms:title "Tobias" .
 nl:id_edf7ea027e8c1c07a4f9f7eedfd68db2ff2736d6 ui:annotationField bible:BibleCharacter .
