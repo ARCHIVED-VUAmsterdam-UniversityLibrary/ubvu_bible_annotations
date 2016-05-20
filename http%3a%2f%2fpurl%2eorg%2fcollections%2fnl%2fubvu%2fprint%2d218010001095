@@ -24,6 +24,17 @@ nl:id_0de44f742ee0393fce96129fc32ba9def1a7094f oa:hasTarget target:target_d6f428
 nl:id_0de44f742ee0393fce96129fc32ba9def1a7094f oa:hasTarget ubvu:print-218010001095 .
 nl:id_0de44f742ee0393fce96129fc32ba9def1a7094f oa:motivatedBy oa:tagging .
 
+nl:id_26e4263d270f649284bc856a459de9ea0536a6f0 a oa:Annotation .
+nl:id_26e4263d270f649284bc856a459de9ea0536a6f0 terms:title "Hagar" .
+nl:id_26e4263d270f649284bc856a459de9ea0536a6f0 ui:annotationField bible:BibleCharacter .
+nl:id_26e4263d270f649284bc856a459de9ea0536a6f0 ui:typingTime 0 .
+nl:id_26e4263d270f649284bc856a459de9ea0536a6f0 oa:annotatedAt "2016-05-20T10:27:37+02:00"^^xsd:dateTime .
+nl:id_26e4263d270f649284bc856a459de9ea0536a6f0 oa:annotatedBy user:hogguer .
+nl:id_26e4263d270f649284bc856a459de9ea0536a6f0 oa:hasBody resource:Hagar .
+nl:id_26e4263d270f649284bc856a459de9ea0536a6f0 oa:hasTarget target:target_0c7f66b0f9fe563e849c86baabedc733877971de .
+nl:id_26e4263d270f649284bc856a459de9ea0536a6f0 oa:hasTarget ubvu:print-218010001095 .
+nl:id_26e4263d270f649284bc856a459de9ea0536a6f0 oa:motivatedBy oa:tagging .
+
 nl:id_4b0c56ca2b65ed71a447717e5a5e53d27433e7b4 a oa:Annotation .
 nl:id_4b0c56ca2b65ed71a447717e5a5e53d27433e7b4 terms:title "the banishment of Hagar and Ishmael (Genesis 21:9-21)" .
 nl:id_4b0c56ca2b65ed71a447717e5a5e53d27433e7b4 ui:annotationField bible:ICBibleTheme .
@@ -88,6 +99,14 @@ nl:id_d77213f3553bba9e8b60eb3c84f212b9144cada9 oa:hasTarget target:target_a30999
 nl:id_d77213f3553bba9e8b60eb3c84f212b9144cada9 oa:hasTarget ubvu:print-218010001095 .
 nl:id_d77213f3553bba9e8b60eb3c84f212b9144cada9 oa:motivatedBy oa:tagging .
 
+target:selector_0c7f66b0f9fe563e849c86baabedc733877971de a oa:FragmentSelector .
+target:selector_0c7f66b0f9fe563e849c86baabedc733877971de terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_0c7f66b0f9fe563e849c86baabedc733877971de ui:h "0.39029768467475195"^^xsd:float .
+target:selector_0c7f66b0f9fe563e849c86baabedc733877971de ui:w "0.21043627031650983"^^xsd:float .
+target:selector_0c7f66b0f9fe563e849c86baabedc733877971de ui:x "0.4414029084687767"^^xsd:float .
+target:selector_0c7f66b0f9fe563e849c86baabedc733877971de ui:y "0.38533627342888643"^^xsd:float .
+target:selector_0c7f66b0f9fe563e849c86baabedc733877971de rdf:value "#xywh=percent:44,39,21,39" .
+
 target:selector_1a7ebf1eb7ee6a89072b90af4480ff3cb443990d a oa:FragmentSelector .
 target:selector_1a7ebf1eb7ee6a89072b90af4480ff3cb443990d terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_1a7ebf1eb7ee6a89072b90af4480ff3cb443990d ui:h "0.3498622253249828"^^xsd:float .
@@ -127,6 +146,10 @@ target:selector_d6f42826faa3fe5a39d4b269c7bbc70379b821d8 ui:w "0.122222222222222
 target:selector_d6f42826faa3fe5a39d4b269c7bbc70379b821d8 ui:x "0.6393162393162393"^^xsd:float .
 target:selector_d6f42826faa3fe5a39d4b269c7bbc70379b821d8 ui:y "0.49030301012611915"^^xsd:float .
 target:selector_d6f42826faa3fe5a39d4b269c7bbc70379b821d8 rdf:value "#xywh=percent:64,49,12,27" .
+
+target:target_0c7f66b0f9fe563e849c86baabedc733877971de a oa:SpecificResource .
+target:target_0c7f66b0f9fe563e849c86baabedc733877971de oa:hasSelector target:selector_0c7f66b0f9fe563e849c86baabedc733877971de .
+target:target_0c7f66b0f9fe563e849c86baabedc733877971de oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/136> .
 
 target:target_1a7ebf1eb7ee6a89072b90af4480ff3cb443990d a oa:SpecificResource .
 target:target_1a7ebf1eb7ee6a89072b90af4480ff3cb443990d oa:hasSelector target:selector_1a7ebf1eb7ee6a89072b90af4480ff3cb443990d .
