@@ -8,17 +8,29 @@
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_675afee64308357732f8b287a796bb463f133c19> a oa:Annotation .
-<http://accurator.nl/id_675afee64308357732f8b287a796bb463f133c19> terms:title "Manasse (Koning van Juda) " .
-<http://accurator.nl/id_675afee64308357732f8b287a796bb463f133c19> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_675afee64308357732f8b287a796bb463f133c19> ui:typingTime 0 .
-<http://accurator.nl/id_675afee64308357732f8b287a796bb463f133c19> oa:annotatedAt "2016-05-20T10:21:28+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_675afee64308357732f8b287a796bb463f133c19> oa:annotatedBy user:hogguer .
-<http://accurator.nl/id_675afee64308357732f8b287a796bb463f133c19> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Manasse (Koning van Juda) " ] .
-<http://accurator.nl/id_675afee64308357732f8b287a796bb463f133c19> oa:hasTarget target:target_d0f6050908f85c4d2452326fe2fff27316a72621 .
-<http://accurator.nl/id_675afee64308357732f8b287a796bb463f133c19> oa:hasTarget ubvu:print-218010001554 .
-<http://accurator.nl/id_675afee64308357732f8b287a796bb463f133c19> oa:motivatedBy oa:tagging .
+nl:id_278e85c812d952cfee71acf320ed2fe2b8ff51f5 a oa:Annotation .
+nl:id_278e85c812d952cfee71acf320ed2fe2b8ff51f5 terms:title "the prayer of Manasseh" .
+nl:id_278e85c812d952cfee71acf320ed2fe2b8ff51f5 ui:annotationField bible:ICBibleTheme .
+nl:id_278e85c812d952cfee71acf320ed2fe2b8ff51f5 ui:typingTime 0 .
+nl:id_278e85c812d952cfee71acf320ed2fe2b8ff51f5 oa:annotatedAt "2016-05-20T10:22:32+02:00"^^xsd:dateTime .
+nl:id_278e85c812d952cfee71acf320ed2fe2b8ff51f5 oa:annotatedBy user:hogguer .
+nl:id_278e85c812d952cfee71acf320ed2fe2b8ff51f5 oa:hasBody <http://iconclass.org/71L25221> .
+nl:id_278e85c812d952cfee71acf320ed2fe2b8ff51f5 oa:hasTarget ubvu:print-218010001554 .
+nl:id_278e85c812d952cfee71acf320ed2fe2b8ff51f5 oa:motivatedBy oa:tagging .
+
+nl:id_675afee64308357732f8b287a796bb463f133c19 a oa:Annotation .
+nl:id_675afee64308357732f8b287a796bb463f133c19 terms:title "Manasse (Koning van Juda) " .
+nl:id_675afee64308357732f8b287a796bb463f133c19 ui:annotationField bible:BibleCharacter .
+nl:id_675afee64308357732f8b287a796bb463f133c19 ui:typingTime 0 .
+nl:id_675afee64308357732f8b287a796bb463f133c19 oa:annotatedAt "2016-05-20T10:21:28+02:00"^^xsd:dateTime .
+nl:id_675afee64308357732f8b287a796bb463f133c19 oa:annotatedBy user:hogguer .
+nl:id_675afee64308357732f8b287a796bb463f133c19 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Manasse (Koning van Juda) " ] .
+nl:id_675afee64308357732f8b287a796bb463f133c19 oa:hasTarget target:target_d0f6050908f85c4d2452326fe2fff27316a72621 .
+nl:id_675afee64308357732f8b287a796bb463f133c19 oa:hasTarget ubvu:print-218010001554 .
+nl:id_675afee64308357732f8b287a796bb463f133c19 oa:motivatedBy oa:tagging .
 
 target:selector_d0f6050908f85c4d2452326fe2fff27316a72621 a oa:FragmentSelector .
 target:selector_d0f6050908f85c4d2452326fe2fff27316a72621 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
