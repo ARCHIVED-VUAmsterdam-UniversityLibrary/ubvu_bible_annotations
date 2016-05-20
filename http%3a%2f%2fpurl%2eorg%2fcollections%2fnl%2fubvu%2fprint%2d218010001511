@@ -67,6 +67,17 @@ nl:id_980a624684eef6577dd7103e905e1480a1677dac oa:hasTarget target:target_7cca0e
 nl:id_980a624684eef6577dd7103e905e1480a1677dac oa:hasTarget ubvu:print-218010001511 .
 nl:id_980a624684eef6577dd7103e905e1480a1677dac oa:motivatedBy oa:tagging .
 
+nl:id_ae12e44a2114268269094c3372c3c694158bcda1 a oa:Annotation .
+nl:id_ae12e44a2114268269094c3372c3c694158bcda1 terms:title "Elia (profeet) uit het dorp Tisbe in Gilead" .
+nl:id_ae12e44a2114268269094c3372c3c694158bcda1 ui:annotationField bible:BibleCharacter .
+nl:id_ae12e44a2114268269094c3372c3c694158bcda1 ui:typingTime 0 .
+nl:id_ae12e44a2114268269094c3372c3c694158bcda1 oa:annotatedAt "2016-05-20T10:53:19+02:00"^^xsd:dateTime .
+nl:id_ae12e44a2114268269094c3372c3c694158bcda1 oa:annotatedBy user:hogguer .
+nl:id_ae12e44a2114268269094c3372c3c694158bcda1 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Elia (profeet) uit het dorp Tisbe in Gilead" ] .
+nl:id_ae12e44a2114268269094c3372c3c694158bcda1 oa:hasTarget target:target_1052eae2316e01e688c7bc3c03759df1d1fc403e .
+nl:id_ae12e44a2114268269094c3372c3c694158bcda1 oa:hasTarget ubvu:print-218010001511 .
+nl:id_ae12e44a2114268269094c3372c3c694158bcda1 oa:motivatedBy oa:tagging .
+
 nl:id_be8707d2ba405f265d9254a0436b0fc92ea17f23 a oa:Annotation .
 nl:id_be8707d2ba405f265d9254a0436b0fc92ea17f23 terms:title "Spyzing of Elias by the ravens" .
 nl:id_be8707d2ba405f265d9254a0436b0fc92ea17f23 ui:annotationField bible:ICBibleTheme .
@@ -98,6 +109,14 @@ nl:id_e76edb69521a59e34171c2d92d60fec5e82c7f71 oa:hasBody resource:Elijah .
 nl:id_e76edb69521a59e34171c2d92d60fec5e82c7f71 oa:hasTarget target:target_73c8ba37bd1e74d7949115f8feb4756f788b6608 .
 nl:id_e76edb69521a59e34171c2d92d60fec5e82c7f71 oa:hasTarget ubvu:print-218010001511 .
 nl:id_e76edb69521a59e34171c2d92d60fec5e82c7f71 oa:motivatedBy oa:tagging .
+
+target:selector_1052eae2316e01e688c7bc3c03759df1d1fc403e a oa:FragmentSelector .
+target:selector_1052eae2316e01e688c7bc3c03759df1d1fc403e terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_1052eae2316e01e688c7bc3c03759df1d1fc403e ui:h "0.357981220657277"^^xsd:float .
+target:selector_1052eae2316e01e688c7bc3c03759df1d1fc403e ui:w "0.41367521367521365"^^xsd:float .
+target:selector_1052eae2316e01e688c7bc3c03759df1d1fc403e ui:x "0.10341880341880341"^^xsd:float .
+target:selector_1052eae2316e01e688c7bc3c03759df1d1fc403e ui:y "0.40082159624413144"^^xsd:float .
+target:selector_1052eae2316e01e688c7bc3c03759df1d1fc403e rdf:value "#xywh=percent:10,40,41,36" .
 
 target:selector_1cf906c1e806e1419cf282f5aed5f824d0cede6c a oa:FragmentSelector .
 target:selector_1cf906c1e806e1419cf282f5aed5f824d0cede6c terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -146,6 +165,10 @@ target:selector_d3e80b6f4df7f567c7efd1049a4d85ea7f5f5fff ui:w "0.395726495726495
 target:selector_d3e80b6f4df7f567c7efd1049a4d85ea7f5f5fff ui:x "0.12393162393162394"^^xsd:float .
 target:selector_d3e80b6f4df7f567c7efd1049a4d85ea7f5f5fff ui:y "0.3949530516431925"^^xsd:float .
 target:selector_d3e80b6f4df7f567c7efd1049a4d85ea7f5f5fff rdf:value "#xywh=percent:12,39,40,37" .
+
+target:target_1052eae2316e01e688c7bc3c03759df1d1fc403e a oa:SpecificResource .
+target:target_1052eae2316e01e688c7bc3c03759df1d1fc403e oa:hasSelector target:selector_1052eae2316e01e688c7bc3c03759df1d1fc403e .
+target:target_1052eae2316e01e688c7bc3c03759df1d1fc403e oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/552> .
 
 target:target_1cf906c1e806e1419cf282f5aed5f824d0cede6c a oa:SpecificResource .
 target:target_1cf906c1e806e1419cf282f5aed5f824d0cede6c oa:hasSelector target:selector_1cf906c1e806e1419cf282f5aed5f824d0cede6c .
