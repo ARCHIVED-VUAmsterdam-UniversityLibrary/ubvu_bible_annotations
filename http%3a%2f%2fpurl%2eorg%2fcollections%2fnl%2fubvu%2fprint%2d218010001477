@@ -1,9 +1,11 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
 @prefix media-frags: <http://www.w3.org/TR/media-frags/> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix resource: <http://bibleontology.com/resource/> .
@@ -42,6 +44,17 @@ nl:id_b20e0a0e47d1f8082056b1edb30117c4d37e871e oa:hasTarget target:target_ac32eb
 nl:id_b20e0a0e47d1f8082056b1edb30117c4d37e871e oa:hasTarget ubvu:print-218010001477 .
 nl:id_b20e0a0e47d1f8082056b1edb30117c4d37e871e oa:motivatedBy oa:tagging .
 
+nl:id_d7e36866eb19050bc4679572783c75d2a60b915d a oa:Annotation .
+nl:id_d7e36866eb19050bc4679572783c75d2a60b915d terms:title "The witch of Endor" .
+nl:id_d7e36866eb19050bc4679572783c75d2a60b915d ui:annotationField bible:BibleCharacter .
+nl:id_d7e36866eb19050bc4679572783c75d2a60b915d ui:typingTime 0 .
+nl:id_d7e36866eb19050bc4679572783c75d2a60b915d oa:annotatedAt "2016-05-22T14:23:50+02:00"^^xsd:dateTime .
+nl:id_d7e36866eb19050bc4679572783c75d2a60b915d oa:annotatedBy user:everhoeff .
+nl:id_d7e36866eb19050bc4679572783c75d2a60b915d oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The witch of Endor" ] .
+nl:id_d7e36866eb19050bc4679572783c75d2a60b915d oa:hasTarget target:target_dbd379f00ca9b1502aa9e258a3d26a7bfe1b3d42 .
+nl:id_d7e36866eb19050bc4679572783c75d2a60b915d oa:hasTarget ubvu:print-218010001477 .
+nl:id_d7e36866eb19050bc4679572783c75d2a60b915d oa:motivatedBy oa:tagging .
+
 nl:id_dce50d3c783fdbcacb3f422abfffc369540215ea a oa:Annotation .
 nl:id_dce50d3c783fdbcacb3f422abfffc369540215ea terms:title "Matthan" .
 nl:id_dce50d3c783fdbcacb3f422abfffc369540215ea ui:annotationField bible:BibleCharacter .
@@ -69,6 +82,14 @@ target:selector_b14567f37b6f97b5cbd6a48dacc277f57abc018c ui:x "0.282905982905982
 target:selector_b14567f37b6f97b5cbd6a48dacc277f57abc018c ui:y "0.24533293335106088"^^xsd:float .
 target:selector_b14567f37b6f97b5cbd6a48dacc277f57abc018c rdf:value "#xywh=percent:28,25,12,9" .
 
+target:selector_dbd379f00ca9b1502aa9e258a3d26a7bfe1b3d42 a oa:FragmentSelector .
+target:selector_dbd379f00ca9b1502aa9e258a3d26a7bfe1b3d42 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_dbd379f00ca9b1502aa9e258a3d26a7bfe1b3d42 ui:h "0.2764378478664193"^^xsd:float .
+target:selector_dbd379f00ca9b1502aa9e258a3d26a7bfe1b3d42 ui:w "0.31733333333333336"^^xsd:float .
+target:selector_dbd379f00ca9b1502aa9e258a3d26a7bfe1b3d42 ui:x "0.23733333333333334"^^xsd:float .
+target:selector_dbd379f00ca9b1502aa9e258a3d26a7bfe1b3d42 ui:y "0.24211502782931354"^^xsd:float .
+target:selector_dbd379f00ca9b1502aa9e258a3d26a7bfe1b3d42 rdf:value "#xywh=percent:24,24,32,28" .
+
 target:target_ac32ebdf3bccf1854d7c59a21b33b24bf1c67434 a oa:SpecificResource .
 target:target_ac32ebdf3bccf1854d7c59a21b33b24bf1c67434 oa:hasSelector target:selector_ac32ebdf3bccf1854d7c59a21b33b24bf1c67434 .
 target:target_ac32ebdf3bccf1854d7c59a21b33b24bf1c67434 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/518> .
@@ -76,3 +97,7 @@ target:target_ac32ebdf3bccf1854d7c59a21b33b24bf1c67434 oa:hasSource <http://imag
 target:target_b14567f37b6f97b5cbd6a48dacc277f57abc018c a oa:SpecificResource .
 target:target_b14567f37b6f97b5cbd6a48dacc277f57abc018c oa:hasSelector target:selector_b14567f37b6f97b5cbd6a48dacc277f57abc018c .
 target:target_b14567f37b6f97b5cbd6a48dacc277f57abc018c oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/518> .
+
+target:target_dbd379f00ca9b1502aa9e258a3d26a7bfe1b3d42 a oa:SpecificResource .
+target:target_dbd379f00ca9b1502aa9e258a3d26a7bfe1b3d42 oa:hasSelector target:selector_dbd379f00ca9b1502aa9e258a3d26a7bfe1b3d42 .
+target:target_dbd379f00ca9b1502aa9e258a3d26a7bfe1b3d42 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/518> .
