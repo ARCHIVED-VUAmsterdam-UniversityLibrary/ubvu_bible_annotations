@@ -44,6 +44,16 @@ nl:id_b581b68538732f33abaa9126f32d0733fbb7e7b4 oa:hasTarget target:target_d880a3
 nl:id_b581b68538732f33abaa9126f32d0733fbb7e7b4 oa:hasTarget ubvu:print-218010001727 .
 nl:id_b581b68538732f33abaa9126f32d0733fbb7e7b4 oa:motivatedBy oa:tagging .
 
+nl:id_d49389009bcb5239eb7fef38aef0b37dd2e8ac06 a oa:Annotation .
+nl:id_d49389009bcb5239eb7fef38aef0b37dd2e8ac06 terms:title "The great fishing" .
+nl:id_d49389009bcb5239eb7fef38aef0b37dd2e8ac06 ui:annotationField bible:ICBibleTheme .
+nl:id_d49389009bcb5239eb7fef38aef0b37dd2e8ac06 ui:typingTime 0 .
+nl:id_d49389009bcb5239eb7fef38aef0b37dd2e8ac06 oa:annotatedAt "2016-05-22T14:42:51+02:00"^^xsd:dateTime .
+nl:id_d49389009bcb5239eb7fef38aef0b37dd2e8ac06 oa:annotatedBy user:everhoeff .
+nl:id_d49389009bcb5239eb7fef38aef0b37dd2e8ac06 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The great fishing" ] .
+nl:id_d49389009bcb5239eb7fef38aef0b37dd2e8ac06 oa:hasTarget ubvu:print-218010001727 .
+nl:id_d49389009bcb5239eb7fef38aef0b37dd2e8ac06 oa:motivatedBy oa:tagging .
+
 target:selector_d880a327cfd7776e0c093f7758c1cdea9587ec96 a oa:FragmentSelector .
 target:selector_d880a327cfd7776e0c093f7758c1cdea9587ec96 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_d880a327cfd7776e0c093f7758c1cdea9587ec96 ui:h "0.20318725099601595"^^xsd:float .
