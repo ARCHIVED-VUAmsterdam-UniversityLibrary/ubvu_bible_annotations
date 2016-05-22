@@ -8,17 +8,29 @@
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_1bd46d3ca3bdefabbedd4f3a7eb1f4ead452c412> a oa:Annotation .
-<http://accurator.nl/id_1bd46d3ca3bdefabbedd4f3a7eb1f4ead452c412> terms:title "discipelen van Jezus" .
-<http://accurator.nl/id_1bd46d3ca3bdefabbedd4f3a7eb1f4ead452c412> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_1bd46d3ca3bdefabbedd4f3a7eb1f4ead452c412> ui:typingTime 0 .
-<http://accurator.nl/id_1bd46d3ca3bdefabbedd4f3a7eb1f4ead452c412> oa:annotatedAt "2016-04-04T16:04:28+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_1bd46d3ca3bdefabbedd4f3a7eb1f4ead452c412> oa:annotatedBy user:dick .
-<http://accurator.nl/id_1bd46d3ca3bdefabbedd4f3a7eb1f4ead452c412> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "discipelen van Jezus" ] .
-<http://accurator.nl/id_1bd46d3ca3bdefabbedd4f3a7eb1f4ead452c412> oa:hasTarget target:target_18cb591c7623c4366149eb3aa513e1942ca1058a .
-<http://accurator.nl/id_1bd46d3ca3bdefabbedd4f3a7eb1f4ead452c412> oa:hasTarget ubvu:print-218010001826 .
-<http://accurator.nl/id_1bd46d3ca3bdefabbedd4f3a7eb1f4ead452c412> oa:motivatedBy oa:tagging .
+nl:id_1bd46d3ca3bdefabbedd4f3a7eb1f4ead452c412 a oa:Annotation .
+nl:id_1bd46d3ca3bdefabbedd4f3a7eb1f4ead452c412 terms:title "discipelen van Jezus" .
+nl:id_1bd46d3ca3bdefabbedd4f3a7eb1f4ead452c412 ui:annotationField bible:BibleCharacter .
+nl:id_1bd46d3ca3bdefabbedd4f3a7eb1f4ead452c412 ui:typingTime 0 .
+nl:id_1bd46d3ca3bdefabbedd4f3a7eb1f4ead452c412 oa:annotatedAt "2016-04-04T16:04:28+02:00"^^xsd:dateTime .
+nl:id_1bd46d3ca3bdefabbedd4f3a7eb1f4ead452c412 oa:annotatedBy user:dick .
+nl:id_1bd46d3ca3bdefabbedd4f3a7eb1f4ead452c412 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "discipelen van Jezus" ] .
+nl:id_1bd46d3ca3bdefabbedd4f3a7eb1f4ead452c412 oa:hasTarget target:target_18cb591c7623c4366149eb3aa513e1942ca1058a .
+nl:id_1bd46d3ca3bdefabbedd4f3a7eb1f4ead452c412 oa:hasTarget ubvu:print-218010001826 .
+nl:id_1bd46d3ca3bdefabbedd4f3a7eb1f4ead452c412 oa:motivatedBy oa:tagging .
+
+nl:id_5e80124a914134d1bf9e179e045d46b0ddebe81e a oa:Annotation .
+nl:id_5e80124a914134d1bf9e179e045d46b0ddebe81e terms:title "the episode of the Last Supper" .
+nl:id_5e80124a914134d1bf9e179e045d46b0ddebe81e ui:annotationField bible:ICBibleTheme .
+nl:id_5e80124a914134d1bf9e179e045d46b0ddebe81e ui:typingTime 0 .
+nl:id_5e80124a914134d1bf9e179e045d46b0ddebe81e oa:annotatedAt "2016-05-22T14:57:23+02:00"^^xsd:dateTime .
+nl:id_5e80124a914134d1bf9e179e045d46b0ddebe81e oa:annotatedBy user:everhoeff .
+nl:id_5e80124a914134d1bf9e179e045d46b0ddebe81e oa:hasBody <http://iconclass.org/73D2> .
+nl:id_5e80124a914134d1bf9e179e045d46b0ddebe81e oa:hasTarget ubvu:print-218010001826 .
+nl:id_5e80124a914134d1bf9e179e045d46b0ddebe81e oa:motivatedBy oa:tagging .
 
 target:selector_18cb591c7623c4366149eb3aa513e1942ca1058a a oa:FragmentSelector .
 target:selector_18cb591c7623c4366149eb3aa513e1942ca1058a terms:conformsTo <http://www.w3.org/TR/media-frags/> .
