@@ -13,6 +13,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_0823a88de1c7898e7648be678f9d36ef35272b98 a oa:Annotation .
+nl:id_0823a88de1c7898e7648be678f9d36ef35272b98 terms:title "two sons of Aaron, Nadab and Abihu, offer incense in their censers to God, who punishes them for this by sending a fire that kills them" .
+nl:id_0823a88de1c7898e7648be678f9d36ef35272b98 ui:annotationField bible:ICBibleTheme .
+nl:id_0823a88de1c7898e7648be678f9d36ef35272b98 ui:typingTime 0 .
+nl:id_0823a88de1c7898e7648be678f9d36ef35272b98 oa:annotatedAt "2016-05-22T14:04:33+02:00"^^xsd:dateTime .
+nl:id_0823a88de1c7898e7648be678f9d36ef35272b98 oa:annotatedBy user:everhoeff .
+nl:id_0823a88de1c7898e7648be678f9d36ef35272b98 oa:hasBody <http://iconclass.org/71E231> .
+nl:id_0823a88de1c7898e7648be678f9d36ef35272b98 oa:hasTarget ubvu:print-218010002006 .
+nl:id_0823a88de1c7898e7648be678f9d36ef35272b98 oa:motivatedBy oa:tagging .
+
 nl:id_482d9b321d7599363092bb39d363d57ff8d96402 a oa:Annotation .
 nl:id_482d9b321d7599363092bb39d363d57ff8d96402 terms:title "Aäron" .
 nl:id_482d9b321d7599363092bb39d363d57ff8d96402 ui:annotationField bible:BibleCharacter .
