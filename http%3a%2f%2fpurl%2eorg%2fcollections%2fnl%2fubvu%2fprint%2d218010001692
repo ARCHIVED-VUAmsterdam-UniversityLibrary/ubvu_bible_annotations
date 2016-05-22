@@ -8,17 +8,29 @@
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_3b193b34f408f11254a37bd02d07a3d009795b97> a oa:Annotation .
-<http://accurator.nl/id_3b193b34f408f11254a37bd02d07a3d009795b97> terms:title "Herod's soldiers" .
-<http://accurator.nl/id_3b193b34f408f11254a37bd02d07a3d009795b97> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_3b193b34f408f11254a37bd02d07a3d009795b97> ui:typingTime 0 .
-<http://accurator.nl/id_3b193b34f408f11254a37bd02d07a3d009795b97> oa:annotatedAt "2016-04-04T16:01:08+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_3b193b34f408f11254a37bd02d07a3d009795b97> oa:annotatedBy user:dick .
-<http://accurator.nl/id_3b193b34f408f11254a37bd02d07a3d009795b97> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Herod's soldiers" ] .
-<http://accurator.nl/id_3b193b34f408f11254a37bd02d07a3d009795b97> oa:hasTarget target:target_aba3287db14b1adf3cce05973a59ce1bad99f31d .
-<http://accurator.nl/id_3b193b34f408f11254a37bd02d07a3d009795b97> oa:hasTarget ubvu:print-218010001692 .
-<http://accurator.nl/id_3b193b34f408f11254a37bd02d07a3d009795b97> oa:motivatedBy oa:tagging .
+nl:id_3b193b34f408f11254a37bd02d07a3d009795b97 a oa:Annotation .
+nl:id_3b193b34f408f11254a37bd02d07a3d009795b97 terms:title "Herod's soldiers" .
+nl:id_3b193b34f408f11254a37bd02d07a3d009795b97 ui:annotationField bible:BibleCharacter .
+nl:id_3b193b34f408f11254a37bd02d07a3d009795b97 ui:typingTime 0 .
+nl:id_3b193b34f408f11254a37bd02d07a3d009795b97 oa:annotatedAt "2016-04-04T16:01:08+02:00"^^xsd:dateTime .
+nl:id_3b193b34f408f11254a37bd02d07a3d009795b97 oa:annotatedBy user:dick .
+nl:id_3b193b34f408f11254a37bd02d07a3d009795b97 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Herod's soldiers" ] .
+nl:id_3b193b34f408f11254a37bd02d07a3d009795b97 oa:hasTarget target:target_aba3287db14b1adf3cce05973a59ce1bad99f31d .
+nl:id_3b193b34f408f11254a37bd02d07a3d009795b97 oa:hasTarget ubvu:print-218010001692 .
+nl:id_3b193b34f408f11254a37bd02d07a3d009795b97 oa:motivatedBy oa:tagging .
+
+nl:id_99298d36c4305a8ff26d14f3c87afc00db38b886 a oa:Annotation .
+nl:id_99298d36c4305a8ff26d14f3c87afc00db38b886 terms:title "Herod's cruelty against the children in Bethelem" .
+nl:id_99298d36c4305a8ff26d14f3c87afc00db38b886 ui:annotationField bible:ICBibleTheme .
+nl:id_99298d36c4305a8ff26d14f3c87afc00db38b886 ui:typingTime 0 .
+nl:id_99298d36c4305a8ff26d14f3c87afc00db38b886 oa:annotatedAt "2016-05-22T14:27:23+02:00"^^xsd:dateTime .
+nl:id_99298d36c4305a8ff26d14f3c87afc00db38b886 oa:annotatedBy user:everhoeff .
+nl:id_99298d36c4305a8ff26d14f3c87afc00db38b886 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Herod's cruelty against the children in Bethelem" ] .
+nl:id_99298d36c4305a8ff26d14f3c87afc00db38b886 oa:hasTarget ubvu:print-218010001692 .
+nl:id_99298d36c4305a8ff26d14f3c87afc00db38b886 oa:motivatedBy oa:tagging .
 
 target:selector_aba3287db14b1adf3cce05973a59ce1bad99f31d a oa:FragmentSelector .
 target:selector_aba3287db14b1adf3cce05973a59ce1bad99f31d terms:conformsTo <http://www.w3.org/TR/media-frags/> .
