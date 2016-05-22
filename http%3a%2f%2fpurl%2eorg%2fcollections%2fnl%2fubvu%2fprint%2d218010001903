@@ -13,6 +13,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_01d34e69a7f35e99bf9fe143435a404b6753e07c a oa:Annotation .
+nl:id_01d34e69a7f35e99bf9fe143435a404b6753e07c terms:title "Christ aloft in the sky ~ Ascension" .
+nl:id_01d34e69a7f35e99bf9fe143435a404b6753e07c ui:annotationField bible:ICBibleTheme .
+nl:id_01d34e69a7f35e99bf9fe143435a404b6753e07c ui:typingTime 0 .
+nl:id_01d34e69a7f35e99bf9fe143435a404b6753e07c oa:annotatedAt "2016-05-22T14:57:58+02:00"^^xsd:dateTime .
+nl:id_01d34e69a7f35e99bf9fe143435a404b6753e07c oa:annotatedBy user:everhoeff .
+nl:id_01d34e69a7f35e99bf9fe143435a404b6753e07c oa:hasBody <http://iconclass.org/73E422> .
+nl:id_01d34e69a7f35e99bf9fe143435a404b6753e07c oa:hasTarget ubvu:print-218010001903 .
+nl:id_01d34e69a7f35e99bf9fe143435a404b6753e07c oa:motivatedBy oa:tagging .
+
 nl:id_20c9ccce57009b7015922b85c81a36b17fb6e173 a oa:Annotation .
 nl:id_20c9ccce57009b7015922b85c81a36b17fb6e173 terms:title "Diciples or apostles" .
 nl:id_20c9ccce57009b7015922b85c81a36b17fb6e173 ui:annotationField bible:BibleCharacter .
