@@ -13,6 +13,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_2fb64ff15b987f04b1fb883078e5f85913de9aee a oa:Annotation .
+nl:id_2fb64ff15b987f04b1fb883078e5f85913de9aee terms:title "The Centurion's fairh" .
+nl:id_2fb64ff15b987f04b1fb883078e5f85913de9aee ui:annotationField bible:ICBibleTheme .
+nl:id_2fb64ff15b987f04b1fb883078e5f85913de9aee ui:typingTime 0 .
+nl:id_2fb64ff15b987f04b1fb883078e5f85913de9aee oa:annotatedAt "2016-05-22T13:56:30+02:00"^^xsd:dateTime .
+nl:id_2fb64ff15b987f04b1fb883078e5f85913de9aee oa:annotatedBy user:everhoeff .
+nl:id_2fb64ff15b987f04b1fb883078e5f85913de9aee oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The Centurion's fairh" ] .
+nl:id_2fb64ff15b987f04b1fb883078e5f85913de9aee oa:hasTarget ubvu:print-218010001747 .
+nl:id_2fb64ff15b987f04b1fb883078e5f85913de9aee oa:motivatedBy oa:tagging .
+
 nl:id_6733a328d9cf5ff9a18f65598d7e31491a1c2af1 a oa:Annotation .
 nl:id_6733a328d9cf5ff9a18f65598d7e31491a1c2af1 terms:title "Romeinse centurion" .
 nl:id_6733a328d9cf5ff9a18f65598d7e31491a1c2af1 ui:annotationField bible:BibleCharacter .
