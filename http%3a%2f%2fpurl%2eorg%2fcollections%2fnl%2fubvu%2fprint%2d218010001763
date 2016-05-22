@@ -45,6 +45,17 @@ nl:id_d1d18b5e4f8190515ddd63719dcaeec4e8b745a7 oa:hasTarget target:target_6d37b0
 nl:id_d1d18b5e4f8190515ddd63719dcaeec4e8b745a7 oa:hasTarget ubvu:print-218010001763 .
 nl:id_d1d18b5e4f8190515ddd63719dcaeec4e8b745a7 oa:motivatedBy oa:tagging .
 
+nl:id_d50adcfb242d8182f8bce08413709525947c0b2b a oa:Annotation .
+nl:id_d50adcfb242d8182f8bce08413709525947c0b2b terms:title "Mathew" .
+nl:id_d50adcfb242d8182f8bce08413709525947c0b2b ui:annotationField bible:BibleCharacter .
+nl:id_d50adcfb242d8182f8bce08413709525947c0b2b ui:typingTime 0 .
+nl:id_d50adcfb242d8182f8bce08413709525947c0b2b oa:annotatedAt "2016-05-22T14:12:07+02:00"^^xsd:dateTime .
+nl:id_d50adcfb242d8182f8bce08413709525947c0b2b oa:annotatedBy user:everhoeff .
+nl:id_d50adcfb242d8182f8bce08413709525947c0b2b oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Mathew" ] .
+nl:id_d50adcfb242d8182f8bce08413709525947c0b2b oa:hasTarget target:target_5385e03fe97a8c6b2657cc73eacf8306f4cc6b11 .
+nl:id_d50adcfb242d8182f8bce08413709525947c0b2b oa:hasTarget ubvu:print-218010001763 .
+nl:id_d50adcfb242d8182f8bce08413709525947c0b2b oa:motivatedBy oa:tagging .
+
 nl:id_f0f95688d40e3784a56cd6720fc43661b8860fee a oa:Annotation .
 nl:id_f0f95688d40e3784a56cd6720fc43661b8860fee terms:title "de roeping van Matteüs" .
 nl:id_f0f95688d40e3784a56cd6720fc43661b8860fee ui:annotationField bible:ICBibleTheme .
@@ -65,6 +76,14 @@ nl:id_f8c9391ca6d481b8b7332da4548ac9caafd053a1 oa:hasBody [ a content:ContentAsT
 nl:id_f8c9391ca6d481b8b7332da4548ac9caafd053a1 oa:hasTarget target:target_e9c3efe72d12b4fd8cb3caef3280016114237384 .
 nl:id_f8c9391ca6d481b8b7332da4548ac9caafd053a1 oa:hasTarget ubvu:print-218010001763 .
 nl:id_f8c9391ca6d481b8b7332da4548ac9caafd053a1 oa:motivatedBy oa:tagging .
+
+target:selector_5385e03fe97a8c6b2657cc73eacf8306f4cc6b11 a oa:FragmentSelector .
+target:selector_5385e03fe97a8c6b2657cc73eacf8306f4cc6b11 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_5385e03fe97a8c6b2657cc73eacf8306f4cc6b11 ui:h "0.13156100886162236"^^xsd:float .
+target:selector_5385e03fe97a8c6b2657cc73eacf8306f4cc6b11 ui:w "0.12474226804123711"^^xsd:float .
+target:selector_5385e03fe97a8c6b2657cc73eacf8306f4cc6b11 ui:x "0.24948453608247423"^^xsd:float .
+target:selector_5385e03fe97a8c6b2657cc73eacf8306f4cc6b11 ui:y "0.4785276073619632"^^xsd:float .
+target:selector_5385e03fe97a8c6b2657cc73eacf8306f4cc6b11 rdf:value "#xywh=percent:25,48,12,13" .
 
 target:selector_6d37b0432034b16865bb756e8fbb49de331fdf20 a oa:FragmentSelector .
 target:selector_6d37b0432034b16865bb756e8fbb49de331fdf20 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -89,6 +108,10 @@ target:selector_e9c3efe72d12b4fd8cb3caef3280016114237384 ui:w "0.208"^^xsd:float
 target:selector_e9c3efe72d12b4fd8cb3caef3280016114237384 ui:x "0.05733333333333333"^^xsd:float .
 target:selector_e9c3efe72d12b4fd8cb3caef3280016114237384 ui:y "0.42680776014109345"^^xsd:float .
 target:selector_e9c3efe72d12b4fd8cb3caef3280016114237384 rdf:value "#xywh=percent:6,43,21,28" .
+
+target:target_5385e03fe97a8c6b2657cc73eacf8306f4cc6b11 a oa:SpecificResource .
+target:target_5385e03fe97a8c6b2657cc73eacf8306f4cc6b11 oa:hasSelector target:selector_5385e03fe97a8c6b2657cc73eacf8306f4cc6b11 .
+target:target_5385e03fe97a8c6b2657cc73eacf8306f4cc6b11 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/802> .
 
 target:target_6d37b0432034b16865bb756e8fbb49de331fdf20 a oa:SpecificResource .
 target:target_6d37b0432034b16865bb756e8fbb49de331fdf20 oa:hasSelector target:selector_6d37b0432034b16865bb756e8fbb49de331fdf20 .
