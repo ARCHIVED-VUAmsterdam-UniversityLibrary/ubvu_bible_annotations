@@ -13,6 +13,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_53d85dd5775cdd653f36332a8406f06d3873e156 a oa:Annotation .
+nl:id_53d85dd5775cdd653f36332a8406f06d3873e156 terms:title "David kills Goliath" .
+nl:id_53d85dd5775cdd653f36332a8406f06d3873e156 ui:annotationField bible:ICBibleTheme .
+nl:id_53d85dd5775cdd653f36332a8406f06d3873e156 ui:typingTime 0 .
+nl:id_53d85dd5775cdd653f36332a8406f06d3873e156 oa:annotatedAt "2016-05-22T14:15:07+02:00"^^xsd:dateTime .
+nl:id_53d85dd5775cdd653f36332a8406f06d3873e156 oa:annotatedBy user:everhoeff .
+nl:id_53d85dd5775cdd653f36332a8406f06d3873e156 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "David kills Goliath" ] .
+nl:id_53d85dd5775cdd653f36332a8406f06d3873e156 oa:hasTarget ubvu:print-218010001461 .
+nl:id_53d85dd5775cdd653f36332a8406f06d3873e156 oa:motivatedBy oa:tagging .
+
 nl:id_c15b7898adad0464cea12de779648976a6696355 a oa:Annotation .
 nl:id_c15b7898adad0464cea12de779648976a6696355 terms:title "David" .
 nl:id_c15b7898adad0464cea12de779648976a6696355 ui:annotationField bible:BibleCharacter .
