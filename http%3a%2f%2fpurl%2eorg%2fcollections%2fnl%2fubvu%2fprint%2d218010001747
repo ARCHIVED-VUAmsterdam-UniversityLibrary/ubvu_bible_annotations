@@ -23,6 +23,17 @@ nl:id_2fb64ff15b987f04b1fb883078e5f85913de9aee oa:hasBody [ a content:ContentAsT
 nl:id_2fb64ff15b987f04b1fb883078e5f85913de9aee oa:hasTarget ubvu:print-218010001747 .
 nl:id_2fb64ff15b987f04b1fb883078e5f85913de9aee oa:motivatedBy oa:tagging .
 
+nl:id_3f1cf7ca600709b23428603b0a128182f147b699 a oa:Annotation .
+nl:id_3f1cf7ca600709b23428603b0a128182f147b699 terms:title "the faithful centurion" .
+nl:id_3f1cf7ca600709b23428603b0a128182f147b699 ui:annotationField bible:BibleCharacter .
+nl:id_3f1cf7ca600709b23428603b0a128182f147b699 ui:typingTime 0 .
+nl:id_3f1cf7ca600709b23428603b0a128182f147b699 oa:annotatedAt "2016-05-22T13:58:01+02:00"^^xsd:dateTime .
+nl:id_3f1cf7ca600709b23428603b0a128182f147b699 oa:annotatedBy user:everhoeff .
+nl:id_3f1cf7ca600709b23428603b0a128182f147b699 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "the faithful centurion" ] .
+nl:id_3f1cf7ca600709b23428603b0a128182f147b699 oa:hasTarget target:target_fdb077fe5e5daf979bff9ca5f17601d70628b077 .
+nl:id_3f1cf7ca600709b23428603b0a128182f147b699 oa:hasTarget ubvu:print-218010001747 .
+nl:id_3f1cf7ca600709b23428603b0a128182f147b699 oa:motivatedBy oa:tagging .
+
 nl:id_6733a328d9cf5ff9a18f65598d7e31491a1c2af1 a oa:Annotation .
 nl:id_6733a328d9cf5ff9a18f65598d7e31491a1c2af1 terms:title "Romeinse centurion" .
 nl:id_6733a328d9cf5ff9a18f65598d7e31491a1c2af1 ui:annotationField bible:BibleCharacter .
@@ -71,6 +82,14 @@ target:selector_c0aa8b4b84cffb18d07c50d125e0d21d68b83571 ui:x "0.388"^^xsd:float
 target:selector_c0aa8b4b84cffb18d07c50d125e0d21d68b83571 ui:y "0.35294117647058826"^^xsd:float .
 target:selector_c0aa8b4b84cffb18d07c50d125e0d21d68b83571 rdf:value "#xywh=percent:39,35,22,43" .
 
+target:selector_fdb077fe5e5daf979bff9ca5f17601d70628b077 a oa:FragmentSelector .
+target:selector_fdb077fe5e5daf979bff9ca5f17601d70628b077 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_fdb077fe5e5daf979bff9ca5f17601d70628b077 ui:h "0.4677528852681602"^^xsd:float .
+target:selector_fdb077fe5e5daf979bff9ca5f17601d70628b077 ui:w "0.40309278350515465"^^xsd:float .
+target:selector_fdb077fe5e5daf979bff9ca5f17601d70628b077 ui:x "0.3463917525773196"^^xsd:float .
+target:selector_fdb077fe5e5daf979bff9ca5f17601d70628b077 ui:y "0.36388323150033947"^^xsd:float .
+target:selector_fdb077fe5e5daf979bff9ca5f17601d70628b077 rdf:value "#xywh=percent:35,36,40,47" .
+
 target:target_639a4f13d84f8bc01ec8836c52020a13492c4c3b a oa:SpecificResource .
 target:target_639a4f13d84f8bc01ec8836c52020a13492c4c3b oa:hasSelector target:selector_639a4f13d84f8bc01ec8836c52020a13492c4c3b .
 target:target_639a4f13d84f8bc01ec8836c52020a13492c4c3b oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/786> .
@@ -78,3 +97,7 @@ target:target_639a4f13d84f8bc01ec8836c52020a13492c4c3b oa:hasSource <http://imag
 target:target_c0aa8b4b84cffb18d07c50d125e0d21d68b83571 a oa:SpecificResource .
 target:target_c0aa8b4b84cffb18d07c50d125e0d21d68b83571 oa:hasSelector target:selector_c0aa8b4b84cffb18d07c50d125e0d21d68b83571 .
 target:target_c0aa8b4b84cffb18d07c50d125e0d21d68b83571 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/786> .
+
+target:target_fdb077fe5e5daf979bff9ca5f17601d70628b077 a oa:SpecificResource .
+target:target_fdb077fe5e5daf979bff9ca5f17601d70628b077 oa:hasSelector target:selector_fdb077fe5e5daf979bff9ca5f17601d70628b077 .
+target:target_fdb077fe5e5daf979bff9ca5f17601d70628b077 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/786> .
