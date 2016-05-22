@@ -79,6 +79,16 @@ nl:id_810a44c1e8e6aed36f698651b56553dd309b190c oa:hasTarget target:target_4c087e
 nl:id_810a44c1e8e6aed36f698651b56553dd309b190c oa:hasTarget ubvu:print-218010002004 .
 nl:id_810a44c1e8e6aed36f698651b56553dd309b190c oa:motivatedBy oa:tagging .
 
+nl:id_817072e1ea10a0e3afd7ccc94b41b9c2c6df1b5b a oa:Annotation .
+nl:id_817072e1ea10a0e3afd7ccc94b41b9c2c6df1b5b terms:title "The Israelites go out of Egypt " .
+nl:id_817072e1ea10a0e3afd7ccc94b41b9c2c6df1b5b ui:annotationField bible:ICBibleTheme .
+nl:id_817072e1ea10a0e3afd7ccc94b41b9c2c6df1b5b ui:typingTime 0 .
+nl:id_817072e1ea10a0e3afd7ccc94b41b9c2c6df1b5b oa:annotatedAt "2016-05-22T14:48:26+02:00"^^xsd:dateTime .
+nl:id_817072e1ea10a0e3afd7ccc94b41b9c2c6df1b5b oa:annotatedBy user:everhoeff .
+nl:id_817072e1ea10a0e3afd7ccc94b41b9c2c6df1b5b oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The Israelites go out of Egypt " ] .
+nl:id_817072e1ea10a0e3afd7ccc94b41b9c2c6df1b5b oa:hasTarget ubvu:print-218010002004 .
+nl:id_817072e1ea10a0e3afd7ccc94b41b9c2c6df1b5b oa:motivatedBy oa:tagging .
+
 nl:id_988fd254064698e6c074b43a7779cc60927d6fe8 a oa:Annotation .
 nl:id_988fd254064698e6c074b43a7779cc60927d6fe8 terms:title "Mozes" .
 nl:id_988fd254064698e6c074b43a7779cc60927d6fe8 ui:annotationField bible:BibleCharacter .
