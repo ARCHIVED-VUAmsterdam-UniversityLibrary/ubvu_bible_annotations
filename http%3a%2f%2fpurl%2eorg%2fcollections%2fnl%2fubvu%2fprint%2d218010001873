@@ -13,6 +13,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_39460dba43ed5da1309ad447a22f0679de3b522b a oa:Annotation .
+nl:id_39460dba43ed5da1309ad447a22f0679de3b522b terms:title "Chris buried" .
+nl:id_39460dba43ed5da1309ad447a22f0679de3b522b ui:annotationField bible:ICBibleTheme .
+nl:id_39460dba43ed5da1309ad447a22f0679de3b522b ui:typingTime 0 .
+nl:id_39460dba43ed5da1309ad447a22f0679de3b522b oa:annotatedAt "2016-05-22T14:24:40+02:00"^^xsd:dateTime .
+nl:id_39460dba43ed5da1309ad447a22f0679de3b522b oa:annotatedBy user:everhoeff .
+nl:id_39460dba43ed5da1309ad447a22f0679de3b522b oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Chris buried" ] .
+nl:id_39460dba43ed5da1309ad447a22f0679de3b522b oa:hasTarget ubvu:print-218010001873 .
+nl:id_39460dba43ed5da1309ad447a22f0679de3b522b oa:motivatedBy oa:tagging .
+
 nl:id_3a61f00cb419a12a336e686f1cdcd0e571cf47bd a oa:Annotation .
 nl:id_3a61f00cb419a12a336e686f1cdcd0e571cf47bd terms:title "Jezus Christus" .
 nl:id_3a61f00cb419a12a336e686f1cdcd0e571cf47bd ui:annotationField bible:BibleCharacter .
