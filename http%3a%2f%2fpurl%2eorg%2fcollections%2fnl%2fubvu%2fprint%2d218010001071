@@ -1,17 +1,31 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_33dedc1c67c0197ade2401ef843cfea05b5fc3ae> a oa:Annotation .
-<http://accurator.nl/id_33dedc1c67c0197ade2401ef843cfea05b5fc3ae> terms:title "the meeting of Abraham and Melchizedek, the high priest and king of Salem, who brings bread and wine (Genesis 14:18-20)" .
-<http://accurator.nl/id_33dedc1c67c0197ade2401ef843cfea05b5fc3ae> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
-<http://accurator.nl/id_33dedc1c67c0197ade2401ef843cfea05b5fc3ae> ui:typingTime 0 .
-<http://accurator.nl/id_33dedc1c67c0197ade2401ef843cfea05b5fc3ae> oa:annotatedAt "2016-04-04T16:39:48+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_33dedc1c67c0197ade2401ef843cfea05b5fc3ae> oa:annotatedBy user:joan .
-<http://accurator.nl/id_33dedc1c67c0197ade2401ef843cfea05b5fc3ae> oa:hasBody <http://iconclass.org/71C117> .
-<http://accurator.nl/id_33dedc1c67c0197ade2401ef843cfea05b5fc3ae> oa:hasTarget ubvu:print-218010001071 .
-<http://accurator.nl/id_33dedc1c67c0197ade2401ef843cfea05b5fc3ae> oa:motivatedBy oa:tagging .
+nl:id_33dedc1c67c0197ade2401ef843cfea05b5fc3ae a oa:Annotation .
+nl:id_33dedc1c67c0197ade2401ef843cfea05b5fc3ae terms:title "the meeting of Abraham and Melchizedek, the high priest and king of Salem, who brings bread and wine (Genesis 14:18-20)" .
+nl:id_33dedc1c67c0197ade2401ef843cfea05b5fc3ae ui:annotationField bible:ICBibleTheme .
+nl:id_33dedc1c67c0197ade2401ef843cfea05b5fc3ae ui:typingTime 0 .
+nl:id_33dedc1c67c0197ade2401ef843cfea05b5fc3ae oa:annotatedAt "2016-04-04T16:39:48+02:00"^^xsd:dateTime .
+nl:id_33dedc1c67c0197ade2401ef843cfea05b5fc3ae oa:annotatedBy user:joan .
+nl:id_33dedc1c67c0197ade2401ef843cfea05b5fc3ae oa:hasBody <http://iconclass.org/71C117> .
+nl:id_33dedc1c67c0197ade2401ef843cfea05b5fc3ae oa:hasTarget ubvu:print-218010001071 .
+nl:id_33dedc1c67c0197ade2401ef843cfea05b5fc3ae oa:motivatedBy oa:tagging .
+
+nl:id_f311243e0f207329ead049dc9a0b0690dc8b3c7c a oa:Annotation .
+nl:id_f311243e0f207329ead049dc9a0b0690dc8b3c7c terms:title "Melchised king of Salem Blesses Abram" .
+nl:id_f311243e0f207329ead049dc9a0b0690dc8b3c7c ui:annotationField bible:ICBibleTheme .
+nl:id_f311243e0f207329ead049dc9a0b0690dc8b3c7c ui:typingTime 0 .
+nl:id_f311243e0f207329ead049dc9a0b0690dc8b3c7c oa:annotatedAt "2016-05-22T13:59:56+02:00"^^xsd:dateTime .
+nl:id_f311243e0f207329ead049dc9a0b0690dc8b3c7c oa:annotatedBy user:everhoeff .
+nl:id_f311243e0f207329ead049dc9a0b0690dc8b3c7c oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Melchised king of Salem Blesses Abram" ] .
+nl:id_f311243e0f207329ead049dc9a0b0690dc8b3c7c oa:hasTarget ubvu:print-218010001071 .
+nl:id_f311243e0f207329ead049dc9a0b0690dc8b3c7c oa:motivatedBy oa:tagging .
