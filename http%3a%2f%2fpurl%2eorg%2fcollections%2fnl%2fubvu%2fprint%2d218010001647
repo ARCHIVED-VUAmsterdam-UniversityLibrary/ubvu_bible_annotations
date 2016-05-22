@@ -29,3 +29,13 @@ nl:id_b0ba69330bfe2656e35be82d166fabec81c7d365 oa:annotatedBy user:ana240 .
 nl:id_b0ba69330bfe2656e35be82d166fabec81c7d365 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "tempel" ] .
 nl:id_b0ba69330bfe2656e35be82d166fabec81c7d365 oa:hasTarget ubvu:print-218010001647 .
 nl:id_b0ba69330bfe2656e35be82d166fabec81c7d365 oa:motivatedBy oa:tagging .
+
+nl:id_fd606f753966852e950a1e0e2b5781083c1bc685 a oa:Annotation .
+nl:id_fd606f753966852e950a1e0e2b5781083c1bc685 terms:title "annunciation of the birth of John the Baptist to Zacharias: while he is offering incense in the temple an angel (Gabriel) appears to him" .
+nl:id_fd606f753966852e950a1e0e2b5781083c1bc685 ui:annotationField bible:ICBibleTheme .
+nl:id_fd606f753966852e950a1e0e2b5781083c1bc685 ui:typingTime 0 .
+nl:id_fd606f753966852e950a1e0e2b5781083c1bc685 oa:annotatedAt "2016-05-22T14:55:39+02:00"^^xsd:dateTime .
+nl:id_fd606f753966852e950a1e0e2b5781083c1bc685 oa:annotatedBy user:everhoeff .
+nl:id_fd606f753966852e950a1e0e2b5781083c1bc685 oa:hasBody <http://iconclass.org/73A11> .
+nl:id_fd606f753966852e950a1e0e2b5781083c1bc685 oa:hasTarget ubvu:print-218010001647 .
+nl:id_fd606f753966852e950a1e0e2b5781083c1bc685 oa:motivatedBy oa:tagging .
