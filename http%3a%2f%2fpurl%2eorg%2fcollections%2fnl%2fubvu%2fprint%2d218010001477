@@ -10,6 +10,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_5af422fd3140a56b306f7c228003b302c1e4558e a oa:Annotation .
+nl:id_5af422fd3140a56b306f7c228003b302c1e4558e terms:title "Saul with the witch of Endor" .
+nl:id_5af422fd3140a56b306f7c228003b302c1e4558e ui:annotationField bible:ICBibleTheme .
+nl:id_5af422fd3140a56b306f7c228003b302c1e4558e ui:typingTime 0 .
+nl:id_5af422fd3140a56b306f7c228003b302c1e4558e oa:annotatedAt "2016-05-22T14:22:49+02:00"^^xsd:dateTime .
+nl:id_5af422fd3140a56b306f7c228003b302c1e4558e oa:annotatedBy user:everhoeff .
+nl:id_5af422fd3140a56b306f7c228003b302c1e4558e oa:hasBody <http://iconclass.org/71H315> .
+nl:id_5af422fd3140a56b306f7c228003b302c1e4558e oa:hasTarget ubvu:print-218010001477 .
+nl:id_5af422fd3140a56b306f7c228003b302c1e4558e oa:motivatedBy oa:tagging .
+
 nl:id_b1cd3e807f5c9d50ade3fbafd153c1a2e8f34fd4 a oa:Annotation .
 nl:id_b1cd3e807f5c9d50ade3fbafd153c1a2e8f34fd4 terms:title "Saul choosing an army" .
 nl:id_b1cd3e807f5c9d50ade3fbafd153c1a2e8f34fd4 ui:annotationField bible:ICBibleTheme .
