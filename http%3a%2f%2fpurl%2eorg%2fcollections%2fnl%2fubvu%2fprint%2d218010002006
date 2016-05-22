@@ -34,6 +34,16 @@ nl:id_482d9b321d7599363092bb39d363d57ff8d96402 oa:hasTarget target:target_0b0025
 nl:id_482d9b321d7599363092bb39d363d57ff8d96402 oa:hasTarget ubvu:print-218010002006 .
 nl:id_482d9b321d7599363092bb39d363d57ff8d96402 oa:motivatedBy oa:tagging .
 
+nl:id_712066055259f18fab2bac7f715e53e67d8b8abc a oa:Annotation .
+nl:id_712066055259f18fab2bac7f715e53e67d8b8abc terms:title "the sin of Nadab and Abihu (Leviticus 10:1-7)" .
+nl:id_712066055259f18fab2bac7f715e53e67d8b8abc ui:annotationField bible:ICBibleTheme .
+nl:id_712066055259f18fab2bac7f715e53e67d8b8abc ui:typingTime 0 .
+nl:id_712066055259f18fab2bac7f715e53e67d8b8abc oa:annotatedAt "2016-05-22T14:05:09+02:00"^^xsd:dateTime .
+nl:id_712066055259f18fab2bac7f715e53e67d8b8abc oa:annotatedBy user:everhoeff .
+nl:id_712066055259f18fab2bac7f715e53e67d8b8abc oa:hasBody <http://iconclass.org/71E23> .
+nl:id_712066055259f18fab2bac7f715e53e67d8b8abc oa:hasTarget ubvu:print-218010002006 .
+nl:id_712066055259f18fab2bac7f715e53e67d8b8abc oa:motivatedBy oa:tagging .
+
 nl:id_ccedbd19cd03714dc9017c7c94c93b8b3d46ec9d a oa:Annotation .
 nl:id_ccedbd19cd03714dc9017c7c94c93b8b3d46ec9d terms:title "Zalving van Aäron - Inwijding van het altaar" .
 nl:id_ccedbd19cd03714dc9017c7c94c93b8b3d46ec9d ui:annotationField bible:ICBibleTheme .
