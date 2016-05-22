@@ -13,6 +13,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_29ed344a1b22837f0ce57bb2c6636c81305f40c2 a oa:Annotation .
+nl:id_29ed344a1b22837f0ce57bb2c6636c81305f40c2 terms:title "Jesus called Matthew from the receipt of costums" .
+nl:id_29ed344a1b22837f0ce57bb2c6636c81305f40c2 ui:annotationField bible:ICBibleTheme .
+nl:id_29ed344a1b22837f0ce57bb2c6636c81305f40c2 ui:typingTime 0 .
+nl:id_29ed344a1b22837f0ce57bb2c6636c81305f40c2 oa:annotatedAt "2016-05-22T14:11:08+02:00"^^xsd:dateTime .
+nl:id_29ed344a1b22837f0ce57bb2c6636c81305f40c2 oa:annotatedBy user:everhoeff .
+nl:id_29ed344a1b22837f0ce57bb2c6636c81305f40c2 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jesus called Matthew from the receipt of costums" ] .
+nl:id_29ed344a1b22837f0ce57bb2c6636c81305f40c2 oa:hasTarget ubvu:print-218010001763 .
+nl:id_29ed344a1b22837f0ce57bb2c6636c81305f40c2 oa:motivatedBy oa:tagging .
+
 nl:id_d1d18b5e4f8190515ddd63719dcaeec4e8b745a7 a oa:Annotation .
 nl:id_d1d18b5e4f8190515ddd63719dcaeec4e8b745a7 terms:title "Jezus Christus" .
 nl:id_d1d18b5e4f8190515ddd63719dcaeec4e8b745a7 ui:annotationField bible:BibleCharacter .
