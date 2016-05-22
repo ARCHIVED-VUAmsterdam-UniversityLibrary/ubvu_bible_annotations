@@ -10,6 +10,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_23df7577199f7ec0b20a0d48353ea464bc51df45 a oa:Annotation .
+nl:id_23df7577199f7ec0b20a0d48353ea464bc51df45 terms:title "Rain upon the earth forty days and forty nights" .
+nl:id_23df7577199f7ec0b20a0d48353ea464bc51df45 ui:annotationField bible:ICBibleTheme .
+nl:id_23df7577199f7ec0b20a0d48353ea464bc51df45 ui:typingTime 0 .
+nl:id_23df7577199f7ec0b20a0d48353ea464bc51df45 oa:annotatedAt "2016-05-22T14:28:34+02:00"^^xsd:dateTime .
+nl:id_23df7577199f7ec0b20a0d48353ea464bc51df45 oa:annotatedBy user:everhoeff .
+nl:id_23df7577199f7ec0b20a0d48353ea464bc51df45 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Rain upon the earth forty days and forty nights" ] .
+nl:id_23df7577199f7ec0b20a0d48353ea464bc51df45 oa:hasTarget ubvu:print-218010001050 .
+nl:id_23df7577199f7ec0b20a0d48353ea464bc51df45 oa:motivatedBy oa:tagging .
+
 nl:id_5749a5f00c88c523309e6a0a64daf56127508a1a a oa:Annotation .
 nl:id_5749a5f00c88c523309e6a0a64daf56127508a1a terms:title "the Flood and destruction of mankind ~ story of Noah (Genesis 7:10 - 8:17)" .
 nl:id_5749a5f00c88c523309e6a0a64daf56127508a1a ui:annotationField bible:ICBibleTheme .
