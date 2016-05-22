@@ -67,6 +67,16 @@ nl:id_6b476b814be1c62012d70e8d9b79e0f714844176 oa:hasTarget target:target_978cca
 nl:id_6b476b814be1c62012d70e8d9b79e0f714844176 oa:hasTarget ubvu:print-218010001951 .
 nl:id_6b476b814be1c62012d70e8d9b79e0f714844176 oa:motivatedBy oa:tagging .
 
+nl:id_71dfc8636f1a2b00d5105194b2bf0bea2134eddc a oa:Annotation .
+nl:id_71dfc8636f1a2b00d5105194b2bf0bea2134eddc terms:title "The vision of the seven candle sticks" .
+nl:id_71dfc8636f1a2b00d5105194b2bf0bea2134eddc ui:annotationField bible:ICBibleTheme .
+nl:id_71dfc8636f1a2b00d5105194b2bf0bea2134eddc ui:typingTime 0 .
+nl:id_71dfc8636f1a2b00d5105194b2bf0bea2134eddc oa:annotatedAt "2016-05-22T14:26:11+02:00"^^xsd:dateTime .
+nl:id_71dfc8636f1a2b00d5105194b2bf0bea2134eddc oa:annotatedBy user:everhoeff .
+nl:id_71dfc8636f1a2b00d5105194b2bf0bea2134eddc oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The vision of the seven candle sticks" ] .
+nl:id_71dfc8636f1a2b00d5105194b2bf0bea2134eddc oa:hasTarget ubvu:print-218010001951 .
+nl:id_71dfc8636f1a2b00d5105194b2bf0bea2134eddc oa:motivatedBy oa:tagging .
+
 nl:id_f06ec126bb9d9d579a16e4a06b0d26a13a5e73cf a oa:Annotation .
 nl:id_f06ec126bb9d9d579a16e4a06b0d26a13a5e73cf terms:title "Visioen van de zeven kandelaren" .
 nl:id_f06ec126bb9d9d579a16e4a06b0d26a13a5e73cf ui:annotationField bible:ICBibleTheme .
