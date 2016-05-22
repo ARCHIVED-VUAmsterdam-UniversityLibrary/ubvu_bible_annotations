@@ -6,6 +6,7 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
@@ -20,6 +21,17 @@ nl:id_33dedc1c67c0197ade2401ef843cfea05b5fc3ae oa:hasBody <http://iconclass.org/
 nl:id_33dedc1c67c0197ade2401ef843cfea05b5fc3ae oa:hasTarget ubvu:print-218010001071 .
 nl:id_33dedc1c67c0197ade2401ef843cfea05b5fc3ae oa:motivatedBy oa:tagging .
 
+nl:id_e29a4f052cada87899bd18987a7a957da691193c a oa:Annotation .
+nl:id_e29a4f052cada87899bd18987a7a957da691193c terms:title "Abram" .
+nl:id_e29a4f052cada87899bd18987a7a957da691193c ui:annotationField bible:BibleCharacter .
+nl:id_e29a4f052cada87899bd18987a7a957da691193c ui:typingTime 0 .
+nl:id_e29a4f052cada87899bd18987a7a957da691193c oa:annotatedAt "2016-05-22T14:00:35+02:00"^^xsd:dateTime .
+nl:id_e29a4f052cada87899bd18987a7a957da691193c oa:annotatedBy user:everhoeff .
+nl:id_e29a4f052cada87899bd18987a7a957da691193c oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Abram" ] .
+nl:id_e29a4f052cada87899bd18987a7a957da691193c oa:hasTarget target:target_0129eeca5ca86806e6fd6a362a17e7db7895190f .
+nl:id_e29a4f052cada87899bd18987a7a957da691193c oa:hasTarget ubvu:print-218010001071 .
+nl:id_e29a4f052cada87899bd18987a7a957da691193c oa:motivatedBy oa:tagging .
+
 nl:id_f311243e0f207329ead049dc9a0b0690dc8b3c7c a oa:Annotation .
 nl:id_f311243e0f207329ead049dc9a0b0690dc8b3c7c terms:title "Melchised king of Salem Blesses Abram" .
 nl:id_f311243e0f207329ead049dc9a0b0690dc8b3c7c ui:annotationField bible:ICBibleTheme .
@@ -29,3 +41,15 @@ nl:id_f311243e0f207329ead049dc9a0b0690dc8b3c7c oa:annotatedBy user:everhoeff .
 nl:id_f311243e0f207329ead049dc9a0b0690dc8b3c7c oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Melchised king of Salem Blesses Abram" ] .
 nl:id_f311243e0f207329ead049dc9a0b0690dc8b3c7c oa:hasTarget ubvu:print-218010001071 .
 nl:id_f311243e0f207329ead049dc9a0b0690dc8b3c7c oa:motivatedBy oa:tagging .
+
+target:selector_0129eeca5ca86806e6fd6a362a17e7db7895190f a oa:FragmentSelector .
+target:selector_0129eeca5ca86806e6fd6a362a17e7db7895190f terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_0129eeca5ca86806e6fd6a362a17e7db7895190f ui:h "0.19524727039177905"^^xsd:float .
+target:selector_0129eeca5ca86806e6fd6a362a17e7db7895190f ui:w "0.2443298969072165"^^xsd:float .
+target:selector_0129eeca5ca86806e6fd6a362a17e7db7895190f ui:x "0.4731958762886598"^^xsd:float .
+target:selector_0129eeca5ca86806e6fd6a362a17e7db7895190f ui:y "0.4193962748876044"^^xsd:float .
+target:selector_0129eeca5ca86806e6fd6a362a17e7db7895190f rdf:value "#xywh=percent:47,42,24,20" .
+
+target:target_0129eeca5ca86806e6fd6a362a17e7db7895190f a oa:SpecificResource .
+target:target_0129eeca5ca86806e6fd6a362a17e7db7895190f oa:hasSelector target:selector_0129eeca5ca86806e6fd6a362a17e7db7895190f .
+target:target_0129eeca5ca86806e6fd6a362a17e7db7895190f oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/112> .
