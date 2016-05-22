@@ -68,6 +68,16 @@ nl:id_7485d3bb92c4623b190c903d6dda1ec15a61360d oa:hasTarget target:target_4c087e
 nl:id_7485d3bb92c4623b190c903d6dda1ec15a61360d oa:hasTarget ubvu:print-218010002004 .
 nl:id_7485d3bb92c4623b190c903d6dda1ec15a61360d oa:motivatedBy oa:tagging .
 
+nl:id_7b02a9e193edc475b08fbea19c1a04decb5db2d3 a oa:Annotation .
+nl:id_7b02a9e193edc475b08fbea19c1a04decb5db2d3 terms:title "The Israelites go out of Egypt, passage of the Red Sea" .
+nl:id_7b02a9e193edc475b08fbea19c1a04decb5db2d3 ui:annotationField bible:ICBibleTheme .
+nl:id_7b02a9e193edc475b08fbea19c1a04decb5db2d3 ui:typingTime 0 .
+nl:id_7b02a9e193edc475b08fbea19c1a04decb5db2d3 oa:annotatedAt "2016-05-22T14:50:17+02:00"^^xsd:dateTime .
+nl:id_7b02a9e193edc475b08fbea19c1a04decb5db2d3 oa:annotatedBy user:everhoeff .
+nl:id_7b02a9e193edc475b08fbea19c1a04decb5db2d3 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The Israelites go out of Egypt, passage of the Red Sea" ] .
+nl:id_7b02a9e193edc475b08fbea19c1a04decb5db2d3 oa:hasTarget ubvu:print-218010002004 .
+nl:id_7b02a9e193edc475b08fbea19c1a04decb5db2d3 oa:motivatedBy oa:tagging .
+
 nl:id_810a44c1e8e6aed36f698651b56553dd309b190c a oa:Annotation .
 nl:id_810a44c1e8e6aed36f698651b56553dd309b190c terms:title "God" .
 nl:id_810a44c1e8e6aed36f698651b56553dd309b190c ui:annotationField bible:BibleCharacter .
