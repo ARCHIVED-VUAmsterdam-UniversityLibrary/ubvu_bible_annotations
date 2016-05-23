@@ -1,9 +1,11 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
 @prefix media-frags: <http://www.w3.org/TR/media-frags/> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix resource: <http://bibleontology.com/resource/> .
@@ -32,6 +34,16 @@ nl:id_9875b2e1d4e12e568ca36af8cdce1919d45ff7d8 oa:hasBody resource:Jesus .
 nl:id_9875b2e1d4e12e568ca36af8cdce1919d45ff7d8 oa:hasTarget target:target_b002b77ac2360efe5dc0306a47f4f20f750a1235 .
 nl:id_9875b2e1d4e12e568ca36af8cdce1919d45ff7d8 oa:hasTarget ubvu:print-218010002031 .
 nl:id_9875b2e1d4e12e568ca36af8cdce1919d45ff7d8 oa:motivatedBy oa:tagging .
+
+nl:id_e5b3840780b09be07f8dc850019ee3c4211d7600 a oa:Annotation .
+nl:id_e5b3840780b09be07f8dc850019ee3c4211d7600 terms:title "Birth of Christ and the kings from the East" .
+nl:id_e5b3840780b09be07f8dc850019ee3c4211d7600 ui:annotationField bible:ICBibleTheme .
+nl:id_e5b3840780b09be07f8dc850019ee3c4211d7600 ui:typingTime 0 .
+nl:id_e5b3840780b09be07f8dc850019ee3c4211d7600 oa:annotatedAt "2016-05-23T15:06:38+02:00"^^xsd:dateTime .
+nl:id_e5b3840780b09be07f8dc850019ee3c4211d7600 oa:annotatedBy user:everhoeff .
+nl:id_e5b3840780b09be07f8dc850019ee3c4211d7600 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Birth of Christ and the kings from the East" ] .
+nl:id_e5b3840780b09be07f8dc850019ee3c4211d7600 oa:hasTarget ubvu:print-218010002031 .
+nl:id_e5b3840780b09be07f8dc850019ee3c4211d7600 oa:motivatedBy oa:tagging .
 
 target:selector_b002b77ac2360efe5dc0306a47f4f20f750a1235 a oa:FragmentSelector .
 target:selector_b002b77ac2360efe5dc0306a47f4f20f750a1235 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
