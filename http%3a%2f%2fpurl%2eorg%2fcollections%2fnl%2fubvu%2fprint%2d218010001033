@@ -45,6 +45,17 @@ nl:id_545a8af110a0421c95c258900a6c0c9db364dd6e oa:hasTarget target:target_f726a0
 nl:id_545a8af110a0421c95c258900a6c0c9db364dd6e oa:hasTarget ubvu:print-218010001033 .
 nl:id_545a8af110a0421c95c258900a6c0c9db364dd6e oa:motivatedBy oa:tagging .
 
+nl:id_a3e42ab05ecbac759fe0504cd47d30c2bf0141b3 a oa:Annotation .
+nl:id_a3e42ab05ecbac759fe0504cd47d30c2bf0141b3 terms:title " " .
+nl:id_a3e42ab05ecbac759fe0504cd47d30c2bf0141b3 ui:annotationField bible:BibleCharacter .
+nl:id_a3e42ab05ecbac759fe0504cd47d30c2bf0141b3 ui:typingTime 0 .
+nl:id_a3e42ab05ecbac759fe0504cd47d30c2bf0141b3 oa:annotatedAt "2016-05-23T14:51:27+02:00"^^xsd:dateTime .
+nl:id_a3e42ab05ecbac759fe0504cd47d30c2bf0141b3 oa:annotatedBy user:everhoeff .
+nl:id_a3e42ab05ecbac759fe0504cd47d30c2bf0141b3 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars " " ] .
+nl:id_a3e42ab05ecbac759fe0504cd47d30c2bf0141b3 oa:hasTarget target:target_712264ffeebef0dbf143190e8cd2523f23712cee .
+nl:id_a3e42ab05ecbac759fe0504cd47d30c2bf0141b3 oa:hasTarget ubvu:print-218010001033 .
+nl:id_a3e42ab05ecbac759fe0504cd47d30c2bf0141b3 oa:motivatedBy oa:tagging .
+
 nl:id_c7149a4a5c31f88ea395a27280b2b76c710d4e84 a oa:Annotation .
 nl:id_c7149a4a5c31f88ea395a27280b2b76c710d4e84 terms:title "Cain rises up against his brother Abel and kills him" .
 nl:id_c7149a4a5c31f88ea395a27280b2b76c710d4e84 ui:annotationField bible:ICBibleTheme .
