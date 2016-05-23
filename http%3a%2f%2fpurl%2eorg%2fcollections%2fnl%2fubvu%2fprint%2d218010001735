@@ -13,6 +13,17 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_5433afde3de287ba8511e4a5310e7e00681fbacc a oa:Annotation .
+nl:id_5433afde3de287ba8511e4a5310e7e00681fbacc terms:title "Nicodemus" .
+nl:id_5433afde3de287ba8511e4a5310e7e00681fbacc ui:annotationField bible:BibleCharacter .
+nl:id_5433afde3de287ba8511e4a5310e7e00681fbacc ui:typingTime 0 .
+nl:id_5433afde3de287ba8511e4a5310e7e00681fbacc oa:annotatedAt "2016-05-23T14:56:42+02:00"^^xsd:dateTime .
+nl:id_5433afde3de287ba8511e4a5310e7e00681fbacc oa:annotatedBy user:everhoeff .
+nl:id_5433afde3de287ba8511e4a5310e7e00681fbacc oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Nicodemus" ] .
+nl:id_5433afde3de287ba8511e4a5310e7e00681fbacc oa:hasTarget target:target_bc9a2d328c7f6bbbd9d95b13c0427119c882af35 .
+nl:id_5433afde3de287ba8511e4a5310e7e00681fbacc oa:hasTarget ubvu:print-218010001735 .
+nl:id_5433afde3de287ba8511e4a5310e7e00681fbacc oa:motivatedBy oa:tagging .
+
 nl:id_60d0731ba868d889db766824e535f94c4392179a a oa:Annotation .
 nl:id_60d0731ba868d889db766824e535f94c4392179a terms:title "Christ talking with Nicodemus at night (John 3:1-21)" .
 nl:id_60d0731ba868d889db766824e535f94c4392179a ui:annotationField bible:ICBibleTheme .
@@ -74,6 +85,14 @@ target:selector_ac68ab0d5021401d1803bc7b8cf99a93df7f84dd ui:x "0.133333333333333
 target:selector_ac68ab0d5021401d1803bc7b8cf99a93df7f84dd ui:y "0.4047201877936864"^^xsd:float .
 target:selector_ac68ab0d5021401d1803bc7b8cf99a93df7f84dd rdf:value "#xywh=percent:13,40,20,12" .
 
+target:selector_bc9a2d328c7f6bbbd9d95b13c0427119c882af35 a oa:FragmentSelector .
+target:selector_bc9a2d328c7f6bbbd9d95b13c0427119c882af35 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_bc9a2d328c7f6bbbd9d95b13c0427119c882af35 ui:h "0.2655172413793103"^^xsd:float .
+target:selector_bc9a2d328c7f6bbbd9d95b13c0427119c882af35 ui:w "0.4121739130434783"^^xsd:float .
+target:selector_bc9a2d328c7f6bbbd9d95b13c0427119c882af35 ui:x "0.3391304347826087"^^xsd:float .
+target:selector_bc9a2d328c7f6bbbd9d95b13c0427119c882af35 ui:y "0.37471264367816093"^^xsd:float .
+target:selector_bc9a2d328c7f6bbbd9d95b13c0427119c882af35 rdf:value "#xywh=percent:34,37,41,27" .
+
 target:selector_caf430080ab5c7d6a65cf291fa39e95713e3c677 a oa:FragmentSelector .
 target:selector_caf430080ab5c7d6a65cf291fa39e95713e3c677 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_caf430080ab5c7d6a65cf291fa39e95713e3c677 ui:h "0.08988128886376484"^^xsd:float .
@@ -85,6 +104,10 @@ target:selector_caf430080ab5c7d6a65cf291fa39e95713e3c677 rdf:value "#xywh=percen
 target:target_ac68ab0d5021401d1803bc7b8cf99a93df7f84dd a oa:SpecificResource .
 target:target_ac68ab0d5021401d1803bc7b8cf99a93df7f84dd oa:hasSelector target:selector_ac68ab0d5021401d1803bc7b8cf99a93df7f84dd .
 target:target_ac68ab0d5021401d1803bc7b8cf99a93df7f84dd oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/774> .
+
+target:target_bc9a2d328c7f6bbbd9d95b13c0427119c882af35 a oa:SpecificResource .
+target:target_bc9a2d328c7f6bbbd9d95b13c0427119c882af35 oa:hasSelector target:selector_bc9a2d328c7f6bbbd9d95b13c0427119c882af35 .
+target:target_bc9a2d328c7f6bbbd9d95b13c0427119c882af35 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/774> .
 
 target:target_caf430080ab5c7d6a65cf291fa39e95713e3c677 a oa:SpecificResource .
 target:target_caf430080ab5c7d6a65cf291fa39e95713e3c677 oa:hasSelector target:selector_caf430080ab5c7d6a65cf291fa39e95713e3c677 .
