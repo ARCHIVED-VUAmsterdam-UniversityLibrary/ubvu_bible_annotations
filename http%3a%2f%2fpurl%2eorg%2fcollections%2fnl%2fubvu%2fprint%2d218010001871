@@ -24,6 +24,16 @@ nl:id_32cd19d3743b642e27d4660ec5587574ac163eb2 oa:hasTarget target:target_159a03
 nl:id_32cd19d3743b642e27d4660ec5587574ac163eb2 oa:hasTarget ubvu:print-218010001871 .
 nl:id_32cd19d3743b642e27d4660ec5587574ac163eb2 oa:motivatedBy oa:tagging .
 
+nl:id_a2326a68b294b2ba35b292cf4667b54298545617 a oa:Annotation .
+nl:id_a2326a68b294b2ba35b292cf4667b54298545617 terms:title "The burial of Christ" .
+nl:id_a2326a68b294b2ba35b292cf4667b54298545617 ui:annotationField bible:ICBibleTheme .
+nl:id_a2326a68b294b2ba35b292cf4667b54298545617 ui:typingTime 0 .
+nl:id_a2326a68b294b2ba35b292cf4667b54298545617 oa:annotatedAt "2016-05-23T14:52:11+02:00"^^xsd:dateTime .
+nl:id_a2326a68b294b2ba35b292cf4667b54298545617 oa:annotatedBy user:everhoeff .
+nl:id_a2326a68b294b2ba35b292cf4667b54298545617 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The burial of Christ" ] .
+nl:id_a2326a68b294b2ba35b292cf4667b54298545617 oa:hasTarget ubvu:print-218010001871 .
+nl:id_a2326a68b294b2ba35b292cf4667b54298545617 oa:motivatedBy oa:tagging .
+
 nl:id_ce4d85c3971681fc5d9d738a2101ab94a673bbf7 a oa:Annotation .
 nl:id_ce4d85c3971681fc5d9d738a2101ab94a673bbf7 terms:title "Jezus Christus" .
 nl:id_ce4d85c3971681fc5d9d738a2101ab94a673bbf7 ui:annotationField bible:BibleCharacter .
