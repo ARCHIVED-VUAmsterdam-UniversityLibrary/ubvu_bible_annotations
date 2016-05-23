@@ -12,6 +12,17 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_12768c07fd35ac283f183a73e1ff78f2a2493dcf a oa:Annotation .
+nl:id_12768c07fd35ac283f183a73e1ff78f2a2493dcf terms:title "Cain" .
+nl:id_12768c07fd35ac283f183a73e1ff78f2a2493dcf ui:annotationField bible:BibleCharacter .
+nl:id_12768c07fd35ac283f183a73e1ff78f2a2493dcf ui:typingTime 0 .
+nl:id_12768c07fd35ac283f183a73e1ff78f2a2493dcf oa:annotatedAt "2016-05-23T14:51:24+02:00"^^xsd:dateTime .
+nl:id_12768c07fd35ac283f183a73e1ff78f2a2493dcf oa:annotatedBy user:everhoeff .
+nl:id_12768c07fd35ac283f183a73e1ff78f2a2493dcf oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Cain" ] .
+nl:id_12768c07fd35ac283f183a73e1ff78f2a2493dcf oa:hasTarget target:target_712264ffeebef0dbf143190e8cd2523f23712cee .
+nl:id_12768c07fd35ac283f183a73e1ff78f2a2493dcf oa:hasTarget ubvu:print-218010001033 .
+nl:id_12768c07fd35ac283f183a73e1ff78f2a2493dcf oa:motivatedBy oa:tagging .
+
 nl:id_3e955389b5edb18897c432fb7a6e072013f33db1 a oa:Annotation .
 nl:id_3e955389b5edb18897c432fb7a6e072013f33db1 terms:title "Kaïn" .
 nl:id_3e955389b5edb18897c432fb7a6e072013f33db1 ui:annotationField bible:BibleCharacter .
@@ -54,6 +65,14 @@ nl:id_f34bfa70c9744b274a378ad02975ed988a86c27f oa:hasBody [ a content:ContentAsT
 nl:id_f34bfa70c9744b274a378ad02975ed988a86c27f oa:hasTarget ubvu:print-218010001033 .
 nl:id_f34bfa70c9744b274a378ad02975ed988a86c27f oa:motivatedBy oa:tagging .
 
+target:selector_712264ffeebef0dbf143190e8cd2523f23712cee a oa:FragmentSelector .
+target:selector_712264ffeebef0dbf143190e8cd2523f23712cee terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_712264ffeebef0dbf143190e8cd2523f23712cee ui:h "0.15938303341902313"^^xsd:float .
+target:selector_712264ffeebef0dbf143190e8cd2523f23712cee ui:w "0.2853333333333333"^^xsd:float .
+target:selector_712264ffeebef0dbf143190e8cd2523f23712cee ui:x "0.36933333333333335"^^xsd:float .
+target:selector_712264ffeebef0dbf143190e8cd2523f23712cee ui:y "0.442159383033419"^^xsd:float .
+target:selector_712264ffeebef0dbf143190e8cd2523f23712cee rdf:value "#xywh=percent:37,44,29,16" .
+
 target:selector_de8bbd6432ae013e8e8b8a05091704ba9bc1f0af a oa:FragmentSelector .
 target:selector_de8bbd6432ae013e8e8b8a05091704ba9bc1f0af terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_de8bbd6432ae013e8e8b8a05091704ba9bc1f0af ui:h "0.4649423246263214"^^xsd:float .
@@ -69,6 +88,10 @@ target:selector_f726a0599423dc40ec3632413edee10d410e9771 ui:w "0.487179487179487
 target:selector_f726a0599423dc40ec3632413edee10d410e9771 ui:x "0.40897435897435896"^^xsd:float .
 target:selector_f726a0599423dc40ec3632413edee10d410e9771 ui:y "0.5119878945934583"^^xsd:float .
 target:selector_f726a0599423dc40ec3632413edee10d410e9771 rdf:value "#xywh=percent:41,51,49,31" .
+
+target:target_712264ffeebef0dbf143190e8cd2523f23712cee a oa:SpecificResource .
+target:target_712264ffeebef0dbf143190e8cd2523f23712cee oa:hasSelector target:selector_712264ffeebef0dbf143190e8cd2523f23712cee .
+target:target_712264ffeebef0dbf143190e8cd2523f23712cee oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/74> .
 
 target:target_de8bbd6432ae013e8e8b8a05091704ba9bc1f0af a oa:SpecificResource .
 target:target_de8bbd6432ae013e8e8b8a05091704ba9bc1f0af oa:hasSelector target:selector_de8bbd6432ae013e8e8b8a05091704ba9bc1f0af .
