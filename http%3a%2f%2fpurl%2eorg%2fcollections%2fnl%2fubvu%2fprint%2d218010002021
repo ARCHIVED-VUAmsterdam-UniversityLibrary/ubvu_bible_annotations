@@ -12,6 +12,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_2b5db39492c52dda3fbba57ac174c026cea3ec97 a oa:Annotation .
+nl:id_2b5db39492c52dda3fbba57ac174c026cea3ec97 terms:title "Jerusalem and the temple burnt by Nebuchadnezzar" .
+nl:id_2b5db39492c52dda3fbba57ac174c026cea3ec97 ui:annotationField bible:ICBibleTheme .
+nl:id_2b5db39492c52dda3fbba57ac174c026cea3ec97 ui:typingTime 0 .
+nl:id_2b5db39492c52dda3fbba57ac174c026cea3ec97 oa:annotatedAt "2016-05-23T14:55:13+02:00"^^xsd:dateTime .
+nl:id_2b5db39492c52dda3fbba57ac174c026cea3ec97 oa:annotatedBy user:everhoeff .
+nl:id_2b5db39492c52dda3fbba57ac174c026cea3ec97 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jerusalem and the temple burnt by Nebuchadnezzar" ] .
+nl:id_2b5db39492c52dda3fbba57ac174c026cea3ec97 oa:hasTarget ubvu:print-218010002021 .
+nl:id_2b5db39492c52dda3fbba57ac174c026cea3ec97 oa:motivatedBy oa:tagging .
+
 nl:id_37f252d9512877b98ed33046d0fb24418cb68991 a oa:Annotation .
 nl:id_37f252d9512877b98ed33046d0fb24418cb68991 terms:title "Cyrus" .
 nl:id_37f252d9512877b98ed33046d0fb24418cb68991 ui:annotationField bible:BibleCharacter .
