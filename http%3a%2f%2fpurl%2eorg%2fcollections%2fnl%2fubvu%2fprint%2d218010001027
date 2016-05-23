@@ -56,6 +56,16 @@ nl:id_44fec78b5cf6eb5fc41491ca490bdd00dc164440 oa:hasBody [ a content:ContentAsT
 nl:id_44fec78b5cf6eb5fc41491ca490bdd00dc164440 oa:hasTarget ubvu:print-218010001027 .
 nl:id_44fec78b5cf6eb5fc41491ca490bdd00dc164440 oa:motivatedBy oa:tagging .
 
+nl:id_67c56d12b60e4405389c985a78bb626ce6a5ed0c a oa:Annotation .
+nl:id_67c56d12b60e4405389c985a78bb626ce6a5ed0c terms:title "God calls Adam and Eve to account for their deed" .
+nl:id_67c56d12b60e4405389c985a78bb626ce6a5ed0c ui:annotationField bible:ICBibleTheme .
+nl:id_67c56d12b60e4405389c985a78bb626ce6a5ed0c ui:typingTime 0 .
+nl:id_67c56d12b60e4405389c985a78bb626ce6a5ed0c oa:annotatedAt "2016-05-23T14:39:42+02:00"^^xsd:dateTime .
+nl:id_67c56d12b60e4405389c985a78bb626ce6a5ed0c oa:annotatedBy user:everhoeff .
+nl:id_67c56d12b60e4405389c985a78bb626ce6a5ed0c oa:hasBody <http://iconclass.org/71A521> .
+nl:id_67c56d12b60e4405389c985a78bb626ce6a5ed0c oa:hasTarget ubvu:print-218010001027 .
+nl:id_67c56d12b60e4405389c985a78bb626ce6a5ed0c oa:motivatedBy oa:tagging .
+
 nl:id_76cc5049e5bda37738959d3d2a98f600d609ebe9 a oa:Annotation .
 nl:id_76cc5049e5bda37738959d3d2a98f600d609ebe9 terms:title "God calls Adam and said: where are you?" .
 nl:id_76cc5049e5bda37738959d3d2a98f600d609ebe9 ui:annotationField bible:ICBibleTheme .
