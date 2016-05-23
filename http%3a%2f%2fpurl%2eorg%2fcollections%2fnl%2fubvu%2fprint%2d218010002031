@@ -46,6 +46,17 @@ nl:id_a5750e7069e753f17b031951c114f7ebac36c054 oa:hasTarget target:target_97cdab
 nl:id_a5750e7069e753f17b031951c114f7ebac36c054 oa:hasTarget ubvu:print-218010002031 .
 nl:id_a5750e7069e753f17b031951c114f7ebac36c054 oa:motivatedBy oa:tagging .
 
+nl:id_c1902db1de1b41958fc371afc216cf6fc104228f a oa:Annotation .
+nl:id_c1902db1de1b41958fc371afc216cf6fc104228f terms:title "Maria mother of Jesus" .
+nl:id_c1902db1de1b41958fc371afc216cf6fc104228f ui:annotationField bible:BibleCharacter .
+nl:id_c1902db1de1b41958fc371afc216cf6fc104228f ui:typingTime 0 .
+nl:id_c1902db1de1b41958fc371afc216cf6fc104228f oa:annotatedAt "2016-05-23T15:07:36+02:00"^^xsd:dateTime .
+nl:id_c1902db1de1b41958fc371afc216cf6fc104228f oa:annotatedBy user:everhoeff .
+nl:id_c1902db1de1b41958fc371afc216cf6fc104228f oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Maria mother of Jesus" ] .
+nl:id_c1902db1de1b41958fc371afc216cf6fc104228f oa:hasTarget target:target_010b42939ddd9cf2e85761147724c44e726fe788 .
+nl:id_c1902db1de1b41958fc371afc216cf6fc104228f oa:hasTarget ubvu:print-218010002031 .
+nl:id_c1902db1de1b41958fc371afc216cf6fc104228f oa:motivatedBy oa:tagging .
+
 nl:id_e5b3840780b09be07f8dc850019ee3c4211d7600 a oa:Annotation .
 nl:id_e5b3840780b09be07f8dc850019ee3c4211d7600 terms:title "Birth of Christ and the kings from the East" .
 nl:id_e5b3840780b09be07f8dc850019ee3c4211d7600 ui:annotationField bible:ICBibleTheme .
@@ -55,6 +66,14 @@ nl:id_e5b3840780b09be07f8dc850019ee3c4211d7600 oa:annotatedBy user:everhoeff .
 nl:id_e5b3840780b09be07f8dc850019ee3c4211d7600 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Birth of Christ and the kings from the East" ] .
 nl:id_e5b3840780b09be07f8dc850019ee3c4211d7600 oa:hasTarget ubvu:print-218010002031 .
 nl:id_e5b3840780b09be07f8dc850019ee3c4211d7600 oa:motivatedBy oa:tagging .
+
+target:selector_010b42939ddd9cf2e85761147724c44e726fe788 a oa:FragmentSelector .
+target:selector_010b42939ddd9cf2e85761147724c44e726fe788 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_010b42939ddd9cf2e85761147724c44e726fe788 ui:h "0.08771929824561403"^^xsd:float .
+target:selector_010b42939ddd9cf2e85761147724c44e726fe788 ui:w "0.06434782608695652"^^xsd:float .
+target:selector_010b42939ddd9cf2e85761147724c44e726fe788 ui:x "0.4591304347826087"^^xsd:float .
+target:selector_010b42939ddd9cf2e85761147724c44e726fe788 ui:y "0.5824561403508772"^^xsd:float .
+target:selector_010b42939ddd9cf2e85761147724c44e726fe788 rdf:value "#xywh=percent:46,58,6,9" .
 
 target:selector_97cdabbffd2ca50d64855b839f9acaea7e479d28 a oa:FragmentSelector .
 target:selector_97cdabbffd2ca50d64855b839f9acaea7e479d28 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -79,6 +98,10 @@ target:selector_e7ccdaa44a35cb19a4dfe700d78f2d12383dae5a ui:w "0.278632478632478
 target:selector_e7ccdaa44a35cb19a4dfe700d78f2d12383dae5a ui:x "0.29572649572649573"^^xsd:float .
 target:selector_e7ccdaa44a35cb19a4dfe700d78f2d12383dae5a ui:y "0.5899310032480952"^^xsd:float .
 target:selector_e7ccdaa44a35cb19a4dfe700d78f2d12383dae5a rdf:value "#xywh=percent:30,59,28,8" .
+
+target:target_010b42939ddd9cf2e85761147724c44e726fe788 a oa:SpecificResource .
+target:target_010b42939ddd9cf2e85761147724c44e726fe788 oa:hasSelector target:selector_010b42939ddd9cf2e85761147724c44e726fe788 .
+target:target_010b42939ddd9cf2e85761147724c44e726fe788 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/30> .
 
 target:target_97cdabbffd2ca50d64855b839f9acaea7e479d28 a oa:SpecificResource .
 target:target_97cdabbffd2ca50d64855b839f9acaea7e479d28 oa:hasSelector target:selector_97cdabbffd2ca50d64855b839f9acaea7e479d28 .
