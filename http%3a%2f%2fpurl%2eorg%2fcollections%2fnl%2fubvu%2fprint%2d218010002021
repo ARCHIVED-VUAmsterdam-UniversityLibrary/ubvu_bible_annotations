@@ -33,6 +33,16 @@ nl:id_37f252d9512877b98ed33046d0fb24418cb68991 oa:hasTarget target:target_bccbbc
 nl:id_37f252d9512877b98ed33046d0fb24418cb68991 oa:hasTarget ubvu:print-218010002021 .
 nl:id_37f252d9512877b98ed33046d0fb24418cb68991 oa:motivatedBy oa:tagging .
 
+nl:id_535662dd3803926a2dd52076431ec1671c91bc45 a oa:Annotation .
+nl:id_535662dd3803926a2dd52076431ec1671c91bc45 terms:title "Cyrus proclaims the end of the Babylonian Captivity and orders a temple to be built in Jerusalem" .
+nl:id_535662dd3803926a2dd52076431ec1671c91bc45 ui:annotationField bible:ICBibleTheme .
+nl:id_535662dd3803926a2dd52076431ec1671c91bc45 ui:typingTime 0 .
+nl:id_535662dd3803926a2dd52076431ec1671c91bc45 oa:annotatedAt "2016-05-23T14:55:43+02:00"^^xsd:dateTime .
+nl:id_535662dd3803926a2dd52076431ec1671c91bc45 oa:annotatedBy user:everhoeff .
+nl:id_535662dd3803926a2dd52076431ec1671c91bc45 oa:hasBody <http://iconclass.org/71R112> .
+nl:id_535662dd3803926a2dd52076431ec1671c91bc45 oa:hasTarget ubvu:print-218010002021 .
+nl:id_535662dd3803926a2dd52076431ec1671c91bc45 oa:motivatedBy oa:tagging .
+
 nl:id_71330d8f1086827888fa4ba9f4617735519d309b a oa:Annotation .
 nl:id_71330d8f1086827888fa4ba9f4617735519d309b terms:title "destruction of the temple by Nebucadnezar (2Chron.36,17)" .
 nl:id_71330d8f1086827888fa4ba9f4617735519d309b ui:annotationField bible:ICBibleTheme .
