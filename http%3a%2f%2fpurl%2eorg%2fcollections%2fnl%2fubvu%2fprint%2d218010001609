@@ -6,6 +6,7 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
@@ -20,6 +21,17 @@ nl:id_37630a6f62f462f6de3b140a8d79d87f7f11290d oa:hasBody [ a content:ContentAsT
 nl:id_37630a6f62f462f6de3b140a8d79d87f7f11290d oa:hasTarget ubvu:print-218010001609 .
 nl:id_37630a6f62f462f6de3b140a8d79d87f7f11290d oa:motivatedBy oa:tagging .
 
+nl:id_677080dd7d4ac021c683ab72c2e08c1bc7e14dac a oa:Annotation .
+nl:id_677080dd7d4ac021c683ab72c2e08c1bc7e14dac terms:title "Judeth" .
+nl:id_677080dd7d4ac021c683ab72c2e08c1bc7e14dac ui:annotationField bible:BibleCharacter .
+nl:id_677080dd7d4ac021c683ab72c2e08c1bc7e14dac ui:typingTime 0 .
+nl:id_677080dd7d4ac021c683ab72c2e08c1bc7e14dac oa:annotatedAt "2016-05-23T14:44:52+02:00"^^xsd:dateTime .
+nl:id_677080dd7d4ac021c683ab72c2e08c1bc7e14dac oa:annotatedBy user:everhoeff .
+nl:id_677080dd7d4ac021c683ab72c2e08c1bc7e14dac oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Judeth" ] .
+nl:id_677080dd7d4ac021c683ab72c2e08c1bc7e14dac oa:hasTarget target:target_bbd50ac0943c7f9f2be42730032b2f24e2d4a1cc .
+nl:id_677080dd7d4ac021c683ab72c2e08c1bc7e14dac oa:hasTarget ubvu:print-218010001609 .
+nl:id_677080dd7d4ac021c683ab72c2e08c1bc7e14dac oa:motivatedBy oa:tagging .
+
 nl:id_a58e9db835f9b103bbcdb3e216db1b194cba9412 a oa:Annotation .
 nl:id_a58e9db835f9b103bbcdb3e216db1b194cba9412 terms:title "Judith's execution of Holofernes (Judith 13:4-8)" .
 nl:id_a58e9db835f9b103bbcdb3e216db1b194cba9412 ui:annotationField bible:ICBibleTheme .
@@ -29,3 +41,15 @@ nl:id_a58e9db835f9b103bbcdb3e216db1b194cba9412 oa:annotatedBy user:hrmurris .
 nl:id_a58e9db835f9b103bbcdb3e216db1b194cba9412 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Judith's execution of Holofernes (Judith 13:4-8)" ] .
 nl:id_a58e9db835f9b103bbcdb3e216db1b194cba9412 oa:hasTarget ubvu:print-218010001609 .
 nl:id_a58e9db835f9b103bbcdb3e216db1b194cba9412 oa:motivatedBy oa:tagging .
+
+target:selector_bbd50ac0943c7f9f2be42730032b2f24e2d4a1cc a oa:FragmentSelector .
+target:selector_bbd50ac0943c7f9f2be42730032b2f24e2d4a1cc terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_bbd50ac0943c7f9f2be42730032b2f24e2d4a1cc ui:h "0.21332133213321333"^^xsd:float .
+target:selector_bbd50ac0943c7f9f2be42730032b2f24e2d4a1cc ui:w "0.3253333333333333"^^xsd:float .
+target:selector_bbd50ac0943c7f9f2be42730032b2f24e2d4a1cc ui:x "0.24533333333333332"^^xsd:float .
+target:selector_bbd50ac0943c7f9f2be42730032b2f24e2d4a1cc ui:y "0.34293429342934295"^^xsd:float .
+target:selector_bbd50ac0943c7f9f2be42730032b2f24e2d4a1cc rdf:value "#xywh=percent:25,34,33,21" .
+
+target:target_bbd50ac0943c7f9f2be42730032b2f24e2d4a1cc a oa:SpecificResource .
+target:target_bbd50ac0943c7f9f2be42730032b2f24e2d4a1cc oa:hasSelector target:selector_bbd50ac0943c7f9f2be42730032b2f24e2d4a1cc .
+target:target_bbd50ac0943c7f9f2be42730032b2f24e2d4a1cc oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/648> .
