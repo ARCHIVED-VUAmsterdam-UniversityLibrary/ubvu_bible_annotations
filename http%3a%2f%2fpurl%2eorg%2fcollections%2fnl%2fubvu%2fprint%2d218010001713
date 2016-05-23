@@ -33,6 +33,16 @@ nl:id_1ceb07dbfd54381bbaf185edc5aff89de2c64857 oa:hasBody [ a content:ContentAsT
 nl:id_1ceb07dbfd54381bbaf185edc5aff89de2c64857 oa:hasTarget ubvu:print-218010001713 .
 nl:id_1ceb07dbfd54381bbaf185edc5aff89de2c64857 oa:motivatedBy oa:tagging .
 
+nl:id_e8cfcc966f29f684284883420e3a352f9bb57aaf a oa:Annotation .
+nl:id_e8cfcc966f29f684284883420e3a352f9bb57aaf terms:title "Jesus in the Mount" .
+nl:id_e8cfcc966f29f684284883420e3a352f9bb57aaf ui:annotationField bible:ICBibleTheme .
+nl:id_e8cfcc966f29f684284883420e3a352f9bb57aaf ui:typingTime 0 .
+nl:id_e8cfcc966f29f684284883420e3a352f9bb57aaf oa:annotatedAt "2016-05-23T14:48:57+02:00"^^xsd:dateTime .
+nl:id_e8cfcc966f29f684284883420e3a352f9bb57aaf oa:annotatedBy user:everhoeff .
+nl:id_e8cfcc966f29f684284883420e3a352f9bb57aaf oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jesus in the Mount" ] .
+nl:id_e8cfcc966f29f684284883420e3a352f9bb57aaf oa:hasTarget ubvu:print-218010001713 .
+nl:id_e8cfcc966f29f684284883420e3a352f9bb57aaf oa:motivatedBy oa:tagging .
+
 target:selector_c95b1a4ce566b86a7e982f0473d0eba09dbdf63e a oa:FragmentSelector .
 target:selector_c95b1a4ce566b86a7e982f0473d0eba09dbdf63e terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_c95b1a4ce566b86a7e982f0473d0eba09dbdf63e ui:h "0.2606761565836299"^^xsd:float .
