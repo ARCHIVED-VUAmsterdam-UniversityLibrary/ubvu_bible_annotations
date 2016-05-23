@@ -34,6 +34,16 @@ nl:id_545a8af110a0421c95c258900a6c0c9db364dd6e oa:hasTarget target:target_f726a0
 nl:id_545a8af110a0421c95c258900a6c0c9db364dd6e oa:hasTarget ubvu:print-218010001033 .
 nl:id_545a8af110a0421c95c258900a6c0c9db364dd6e oa:motivatedBy oa:tagging .
 
+nl:id_c7149a4a5c31f88ea395a27280b2b76c710d4e84 a oa:Annotation .
+nl:id_c7149a4a5c31f88ea395a27280b2b76c710d4e84 terms:title "Cain rises up against his brother Abel and kills him" .
+nl:id_c7149a4a5c31f88ea395a27280b2b76c710d4e84 ui:annotationField bible:ICBibleTheme .
+nl:id_c7149a4a5c31f88ea395a27280b2b76c710d4e84 ui:typingTime 0 .
+nl:id_c7149a4a5c31f88ea395a27280b2b76c710d4e84 oa:annotatedAt "2016-05-23T14:51:03+02:00"^^xsd:dateTime .
+nl:id_c7149a4a5c31f88ea395a27280b2b76c710d4e84 oa:annotatedBy user:everhoeff .
+nl:id_c7149a4a5c31f88ea395a27280b2b76c710d4e84 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Cain rises up against his brother Abel and kills him" ] .
+nl:id_c7149a4a5c31f88ea395a27280b2b76c710d4e84 oa:hasTarget ubvu:print-218010001033 .
+nl:id_c7149a4a5c31f88ea395a27280b2b76c710d4e84 oa:motivatedBy oa:tagging .
+
 nl:id_f34bfa70c9744b274a378ad02975ed988a86c27f a oa:Annotation .
 nl:id_f34bfa70c9744b274a378ad02975ed988a86c27f terms:title "Kain kills Abel" .
 nl:id_f34bfa70c9744b274a378ad02975ed988a86c27f ui:annotationField bible:ICBibleTheme .
