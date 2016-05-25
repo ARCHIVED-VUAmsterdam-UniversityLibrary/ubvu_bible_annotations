@@ -1,14 +1,28 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
+
+nl:id_44cec17cf8ffe2b5597bd10b08afc5b519bc6324 a oa:Annotation .
+nl:id_44cec17cf8ffe2b5597bd10b08afc5b519bc6324 terms:title "Gideon" .
+nl:id_44cec17cf8ffe2b5597bd10b08afc5b519bc6324 ui:annotationField bible:BibleCharacter .
+nl:id_44cec17cf8ffe2b5597bd10b08afc5b519bc6324 ui:typingTime 0 .
+nl:id_44cec17cf8ffe2b5597bd10b08afc5b519bc6324 oa:annotatedAt "2016-05-25T17:24:46+02:00"^^xsd:dateTime .
+nl:id_44cec17cf8ffe2b5597bd10b08afc5b519bc6324 oa:annotatedBy user:everhoeff .
+nl:id_44cec17cf8ffe2b5597bd10b08afc5b519bc6324 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Gideon" ] .
+nl:id_44cec17cf8ffe2b5597bd10b08afc5b519bc6324 oa:hasTarget target:target_d117a0662c828b09b6244e54fc3b99c0ffc06f78 .
+nl:id_44cec17cf8ffe2b5597bd10b08afc5b519bc6324 oa:hasTarget ubvu:print-218010001378 .
+nl:id_44cec17cf8ffe2b5597bd10b08afc5b519bc6324 oa:motivatedBy oa:tagging .
 
 nl:id_92171acc228d781e83108ba65c0aa9e05dd526e6 a oa:Annotation .
 nl:id_92171acc228d781e83108ba65c0aa9e05dd526e6 terms:title "Gideon and the angel of the Lord (Judges 6:11-24)" .
@@ -49,6 +63,18 @@ target:selector_37b4c9804e7cdb2a57de68cabc01dfa42b2959d4 ui:x "0.499196579109909
 target:selector_37b4c9804e7cdb2a57de68cabc01dfa42b2959d4 ui:y "0.78311659595599"^^xsd:float .
 target:selector_37b4c9804e7cdb2a57de68cabc01dfa42b2959d4 rdf:value "#xywh=percent:50,78,11,9" .
 
+target:selector_d117a0662c828b09b6244e54fc3b99c0ffc06f78 a oa:FragmentSelector .
+target:selector_d117a0662c828b09b6244e54fc3b99c0ffc06f78 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_d117a0662c828b09b6244e54fc3b99c0ffc06f78 ui:h "0.09908069458631256"^^xsd:float .
+target:selector_d117a0662c828b09b6244e54fc3b99c0ffc06f78 ui:w "0.10879284649776454"^^xsd:float .
+target:selector_d117a0662c828b09b6244e54fc3b99c0ffc06f78 ui:x "0.5052160953800298"^^xsd:float .
+target:selector_d117a0662c828b09b6244e54fc3b99c0ffc06f78 ui:y "0.7814096016343207"^^xsd:float .
+target:selector_d117a0662c828b09b6244e54fc3b99c0ffc06f78 rdf:value "#xywh=percent:51,78,11,10" .
+
 target:target_37b4c9804e7cdb2a57de68cabc01dfa42b2959d4 a oa:SpecificResource .
 target:target_37b4c9804e7cdb2a57de68cabc01dfa42b2959d4 oa:hasSelector target:selector_37b4c9804e7cdb2a57de68cabc01dfa42b2959d4 .
 target:target_37b4c9804e7cdb2a57de68cabc01dfa42b2959d4 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/419> .
+
+target:target_d117a0662c828b09b6244e54fc3b99c0ffc06f78 a oa:SpecificResource .
+target:target_d117a0662c828b09b6244e54fc3b99c0ffc06f78 oa:hasSelector target:selector_d117a0662c828b09b6244e54fc3b99c0ffc06f78 .
+target:target_d117a0662c828b09b6244e54fc3b99c0ffc06f78 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/419> .
