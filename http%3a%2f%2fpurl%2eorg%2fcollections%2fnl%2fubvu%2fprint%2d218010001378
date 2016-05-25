@@ -10,6 +10,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_92171acc228d781e83108ba65c0aa9e05dd526e6 a oa:Annotation .
+nl:id_92171acc228d781e83108ba65c0aa9e05dd526e6 terms:title "Gideon and the angel of the Lord (Judges 6:11-24)" .
+nl:id_92171acc228d781e83108ba65c0aa9e05dd526e6 ui:annotationField bible:ICBibleTheme .
+nl:id_92171acc228d781e83108ba65c0aa9e05dd526e6 ui:typingTime 0 .
+nl:id_92171acc228d781e83108ba65c0aa9e05dd526e6 oa:annotatedAt "2016-05-25T17:24:27+02:00"^^xsd:dateTime .
+nl:id_92171acc228d781e83108ba65c0aa9e05dd526e6 oa:annotatedBy user:everhoeff .
+nl:id_92171acc228d781e83108ba65c0aa9e05dd526e6 oa:hasBody <http://iconclass.org/71F212> .
+nl:id_92171acc228d781e83108ba65c0aa9e05dd526e6 oa:hasTarget ubvu:print-218010001378 .
+nl:id_92171acc228d781e83108ba65c0aa9e05dd526e6 oa:motivatedBy oa:tagging .
+
 nl:id_af81cca3bac8801a4608809d8a93c8ab980da864 a oa:Annotation .
 nl:id_af81cca3bac8801a4608809d8a93c8ab980da864 terms:title "the angel of the Lord appears to Gideon, who is usually shown threshing wheat" .
 nl:id_af81cca3bac8801a4608809d8a93c8ab980da864 ui:annotationField bible:ICBibleTheme .
