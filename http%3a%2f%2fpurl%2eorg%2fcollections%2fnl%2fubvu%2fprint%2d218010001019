@@ -54,6 +54,16 @@ nl:id_821e5275749b1b34abc5c1cecd307261d9260fe9 oa:hasBody <http://iconclass.org/
 nl:id_821e5275749b1b34abc5c1cecd307261d9260fe9 oa:hasTarget ubvu:print-218010001019 .
 nl:id_821e5275749b1b34abc5c1cecd307261d9260fe9 oa:motivatedBy oa:tagging .
 
+nl:id_bd454013e733913eff1e38277a4d950eb2fccdbb a oa:Annotation .
+nl:id_bd454013e733913eff1e38277a4d950eb2fccdbb terms:title "Adam and Eve naked in Paradise" .
+nl:id_bd454013e733913eff1e38277a4d950eb2fccdbb ui:annotationField bible:ICBibleTheme .
+nl:id_bd454013e733913eff1e38277a4d950eb2fccdbb ui:typingTime 0 .
+nl:id_bd454013e733913eff1e38277a4d950eb2fccdbb oa:annotatedAt "2016-05-25T17:25:56+02:00"^^xsd:dateTime .
+nl:id_bd454013e733913eff1e38277a4d950eb2fccdbb oa:annotatedBy user:everhoeff .
+nl:id_bd454013e733913eff1e38277a4d950eb2fccdbb oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Adam and Eve naked in Paradise" ] .
+nl:id_bd454013e733913eff1e38277a4d950eb2fccdbb oa:hasTarget ubvu:print-218010001019 .
+nl:id_bd454013e733913eff1e38277a4d950eb2fccdbb oa:motivatedBy oa:tagging .
+
 nl:id_c5de644d61652baac99720def66231a7ebce08b1 a oa:Annotation .
 nl:id_c5de644d61652baac99720def66231a7ebce08b1 terms:title "Eva" .
 nl:id_c5de644d61652baac99720def66231a7ebce08b1 ui:annotationField bible:BibleCharacter .
