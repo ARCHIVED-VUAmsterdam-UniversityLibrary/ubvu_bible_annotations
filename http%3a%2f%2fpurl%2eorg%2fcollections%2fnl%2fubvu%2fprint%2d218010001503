@@ -34,6 +34,16 @@ nl:id_9e19e46a1e1a92318474a04a0cd47b9737a4d487 oa:hasBody [ a content:ContentAsT
 nl:id_9e19e46a1e1a92318474a04a0cd47b9737a4d487 oa:hasTarget ubvu:print-218010001503 .
 nl:id_9e19e46a1e1a92318474a04a0cd47b9737a4d487 oa:motivatedBy oa:tagging .
 
+nl:id_ccca7b47a6a21c3bc8c83aebb542246176ea90c9 a oa:Annotation .
+nl:id_ccca7b47a6a21c3bc8c83aebb542246176ea90c9 terms:title "Ahija's prophesy to Jeroboam" .
+nl:id_ccca7b47a6a21c3bc8c83aebb542246176ea90c9 ui:annotationField bible:ICBibleTheme .
+nl:id_ccca7b47a6a21c3bc8c83aebb542246176ea90c9 ui:typingTime 0 .
+nl:id_ccca7b47a6a21c3bc8c83aebb542246176ea90c9 oa:annotatedAt "2016-05-25T17:18:22+02:00"^^xsd:dateTime .
+nl:id_ccca7b47a6a21c3bc8c83aebb542246176ea90c9 oa:annotatedBy user:everhoeff .
+nl:id_ccca7b47a6a21c3bc8c83aebb542246176ea90c9 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Ahija's prophesy to Jeroboam" ] .
+nl:id_ccca7b47a6a21c3bc8c83aebb542246176ea90c9 oa:hasTarget ubvu:print-218010001503 .
+nl:id_ccca7b47a6a21c3bc8c83aebb542246176ea90c9 oa:motivatedBy oa:tagging .
+
 nl:id_f73ce927daca07dfb03e9d6754f33ea2bd5c8b0a a oa:Annotation .
 nl:id_f73ce927daca07dfb03e9d6754f33ea2bd5c8b0a terms:title "Achia " .
 nl:id_f73ce927daca07dfb03e9d6754f33ea2bd5c8b0a ui:annotationField bible:BibleCharacter .
