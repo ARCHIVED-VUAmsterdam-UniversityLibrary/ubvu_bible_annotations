@@ -11,6 +11,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_6dfdc5b5f501677d04968c92d648cde5e81c4f0d a oa:Annotation .
+nl:id_6dfdc5b5f501677d04968c92d648cde5e81c4f0d terms:title "Jacob's ladder" .
+nl:id_6dfdc5b5f501677d04968c92d648cde5e81c4f0d ui:annotationField bible:ICBibleTheme .
+nl:id_6dfdc5b5f501677d04968c92d648cde5e81c4f0d ui:typingTime 0 .
+nl:id_6dfdc5b5f501677d04968c92d648cde5e81c4f0d oa:annotatedAt "2016-05-25T17:15:36+02:00"^^xsd:dateTime .
+nl:id_6dfdc5b5f501677d04968c92d648cde5e81c4f0d oa:annotatedBy user:everhoeff .
+nl:id_6dfdc5b5f501677d04968c92d648cde5e81c4f0d oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jacob's ladder" ] .
+nl:id_6dfdc5b5f501677d04968c92d648cde5e81c4f0d oa:hasTarget ubvu:print-218010001131 .
+nl:id_6dfdc5b5f501677d04968c92d648cde5e81c4f0d oa:motivatedBy oa:tagging .
+
 nl:id_d2a58b4b5005310e5805a85e6cf7a23020bbd531 a oa:Annotation .
 nl:id_d2a58b4b5005310e5805a85e6cf7a23020bbd531 terms:title "Jakob" .
 nl:id_d2a58b4b5005310e5805a85e6cf7a23020bbd531 ui:annotationField bible:BibleCharacter .
