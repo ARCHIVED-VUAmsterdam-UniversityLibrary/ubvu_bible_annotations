@@ -6,9 +6,22 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
+
+nl:id_5a9cdfd3fda29787216c9b65ffc2c74843dd32da a oa:Annotation .
+nl:id_5a9cdfd3fda29787216c9b65ffc2c74843dd32da terms:title "Moses" .
+nl:id_5a9cdfd3fda29787216c9b65ffc2c74843dd32da ui:annotationField bible:BibleCharacter .
+nl:id_5a9cdfd3fda29787216c9b65ffc2c74843dd32da ui:typingTime 0 .
+nl:id_5a9cdfd3fda29787216c9b65ffc2c74843dd32da oa:annotatedAt "2016-05-27T09:50:29+02:00"^^xsd:dateTime .
+nl:id_5a9cdfd3fda29787216c9b65ffc2c74843dd32da oa:annotatedBy user:everhoeff .
+nl:id_5a9cdfd3fda29787216c9b65ffc2c74843dd32da oa:hasBody resource:Moses .
+nl:id_5a9cdfd3fda29787216c9b65ffc2c74843dd32da oa:hasTarget target:target_e8bc4aa7c400cff6a6d5f6070a056119a00cbf1a .
+nl:id_5a9cdfd3fda29787216c9b65ffc2c74843dd32da oa:hasTarget ubvu:print-218010001195 .
+nl:id_5a9cdfd3fda29787216c9b65ffc2c74843dd32da oa:motivatedBy oa:tagging .
 
 nl:id_62cf9016f90d7246b5e83a62a3afb2d6b3830871 a oa:Annotation .
 nl:id_62cf9016f90d7246b5e83a62a3afb2d6b3830871 terms:title "Moses drawn out of the water" .
@@ -39,3 +52,15 @@ nl:id_adf0a76637b6215b80bea2193b9f4cf1ab69bac5 oa:annotatedBy user:joan .
 nl:id_adf0a76637b6215b80bea2193b9f4cf1ab69bac5 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Moses drawn from the water" ] .
 nl:id_adf0a76637b6215b80bea2193b9f4cf1ab69bac5 oa:hasTarget ubvu:print-218010001195 .
 nl:id_adf0a76637b6215b80bea2193b9f4cf1ab69bac5 oa:motivatedBy oa:tagging .
+
+target:selector_e8bc4aa7c400cff6a6d5f6070a056119a00cbf1a a oa:FragmentSelector .
+target:selector_e8bc4aa7c400cff6a6d5f6070a056119a00cbf1a terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_e8bc4aa7c400cff6a6d5f6070a056119a00cbf1a ui:h "0.07071622846781506"^^xsd:float .
+target:selector_e8bc4aa7c400cff6a6d5f6070a056119a00cbf1a ui:w "0.24666666666666667"^^xsd:float .
+target:selector_e8bc4aa7c400cff6a6d5f6070a056119a00cbf1a ui:x "0.2"^^xsd:float .
+target:selector_e8bc4aa7c400cff6a6d5f6070a056119a00cbf1a ui:y "0.5648232094288305"^^xsd:float .
+target:selector_e8bc4aa7c400cff6a6d5f6070a056119a00cbf1a rdf:value "#xywh=percent:20,56,25,7" .
+
+target:target_e8bc4aa7c400cff6a6d5f6070a056119a00cbf1a a oa:SpecificResource .
+target:target_e8bc4aa7c400cff6a6d5f6070a056119a00cbf1a oa:hasSelector target:selector_e8bc4aa7c400cff6a6d5f6070a056119a00cbf1a .
+target:target_e8bc4aa7c400cff6a6d5f6070a056119a00cbf1a oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/236> .
