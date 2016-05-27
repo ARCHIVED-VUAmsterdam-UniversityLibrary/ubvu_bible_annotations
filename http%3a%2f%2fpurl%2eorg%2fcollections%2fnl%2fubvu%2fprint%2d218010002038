@@ -24,6 +24,16 @@ nl:id_0c08c7261d07384f2bacbc00298f8a4bfc37410c oa:hasTarget target:target_6749c9
 nl:id_0c08c7261d07384f2bacbc00298f8a4bfc37410c oa:hasTarget ubvu:print-218010002038 .
 nl:id_0c08c7261d07384f2bacbc00298f8a4bfc37410c oa:motivatedBy oa:tagging .
 
+nl:id_2f4bed334305a299e6a2599905f85c2df1bc2642 a oa:Annotation .
+nl:id_2f4bed334305a299e6a2599905f85c2df1bc2642 terms:title "multiplication of loaves and fishes for a multitude of four or five thousand people (Matthew 14:13-21, 15:32-39; Mark 6:32-44, 8:1-10; Luke 9:10-17; John 6:1-14)" .
+nl:id_2f4bed334305a299e6a2599905f85c2df1bc2642 ui:annotationField bible:ICBibleTheme .
+nl:id_2f4bed334305a299e6a2599905f85c2df1bc2642 ui:typingTime 0 .
+nl:id_2f4bed334305a299e6a2599905f85c2df1bc2642 oa:annotatedAt "2016-05-27T10:14:13+02:00"^^xsd:dateTime .
+nl:id_2f4bed334305a299e6a2599905f85c2df1bc2642 oa:annotatedBy user:everhoeff .
+nl:id_2f4bed334305a299e6a2599905f85c2df1bc2642 oa:hasBody <http://iconclass.org/73C612> .
+nl:id_2f4bed334305a299e6a2599905f85c2df1bc2642 oa:hasTarget ubvu:print-218010002038 .
+nl:id_2f4bed334305a299e6a2599905f85c2df1bc2642 oa:motivatedBy oa:tagging .
+
 nl:id_4ad4df1feb6557c86497f63da97944d455bc8890 a oa:Annotation .
 nl:id_4ad4df1feb6557c86497f63da97944d455bc8890 terms:title "Jezus Christus" .
 nl:id_4ad4df1feb6557c86497f63da97944d455bc8890 ui:annotationField bible:BibleCharacter .
