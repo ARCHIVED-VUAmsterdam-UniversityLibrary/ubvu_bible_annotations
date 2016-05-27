@@ -11,6 +11,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_40badc90d748ead5bb0547373987cd336cde59b5 a oa:Annotation .
+nl:id_40badc90d748ead5bb0547373987cd336cde59b5 terms:title "Peter delivered from prison by an Angel" .
+nl:id_40badc90d748ead5bb0547373987cd336cde59b5 ui:annotationField bible:ICBibleTheme .
+nl:id_40badc90d748ead5bb0547373987cd336cde59b5 ui:typingTime 0 .
+nl:id_40badc90d748ead5bb0547373987cd336cde59b5 oa:annotatedAt "2016-05-27T10:03:31+02:00"^^xsd:dateTime .
+nl:id_40badc90d748ead5bb0547373987cd336cde59b5 oa:annotatedBy user:everhoeff .
+nl:id_40badc90d748ead5bb0547373987cd336cde59b5 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Peter delivered from prison by an Angel" ] .
+nl:id_40badc90d748ead5bb0547373987cd336cde59b5 oa:hasTarget ubvu:print-218010001921 .
+nl:id_40badc90d748ead5bb0547373987cd336cde59b5 oa:motivatedBy oa:tagging .
+
 nl:id_553222f0d39e53611b53da68c52a03bc2f174ed6 a oa:Annotation .
 nl:id_553222f0d39e53611b53da68c52a03bc2f174ed6 terms:title "Petrus" .
 nl:id_553222f0d39e53611b53da68c52a03bc2f174ed6 ui:annotationField bible:BibleCharacter .
