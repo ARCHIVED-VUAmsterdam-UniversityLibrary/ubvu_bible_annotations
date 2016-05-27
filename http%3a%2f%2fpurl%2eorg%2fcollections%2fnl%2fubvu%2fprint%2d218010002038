@@ -177,6 +177,16 @@ nl:id_f33b9e07a873f370982651b1c72099e81f01acc2 oa:hasTarget target:target_430837
 nl:id_f33b9e07a873f370982651b1c72099e81f01acc2 oa:hasTarget ubvu:print-218010002038 .
 nl:id_f33b9e07a873f370982651b1c72099e81f01acc2 oa:motivatedBy oa:tagging .
 
+nl:id_f4e5d876e77f3c3e15b630fec164c29e8cf31bc7 a oa:Annotation .
+nl:id_f4e5d876e77f3c3e15b630fec164c29e8cf31bc7 terms:title "Jesus and the blind man" .
+nl:id_f4e5d876e77f3c3e15b630fec164c29e8cf31bc7 ui:annotationField bible:ICBibleTheme .
+nl:id_f4e5d876e77f3c3e15b630fec164c29e8cf31bc7 ui:typingTime 0 .
+nl:id_f4e5d876e77f3c3e15b630fec164c29e8cf31bc7 oa:annotatedAt "2016-05-27T10:08:25+02:00"^^xsd:dateTime .
+nl:id_f4e5d876e77f3c3e15b630fec164c29e8cf31bc7 oa:annotatedBy user:everhoeff .
+nl:id_f4e5d876e77f3c3e15b630fec164c29e8cf31bc7 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jesus and the blind man" ] .
+nl:id_f4e5d876e77f3c3e15b630fec164c29e8cf31bc7 oa:hasTarget ubvu:print-218010002038 .
+nl:id_f4e5d876e77f3c3e15b630fec164c29e8cf31bc7 oa:motivatedBy oa:tagging .
+
 nl:id_fe6e69bb2c20a04621c4620fcd7ded98e6ca9ef0 a oa:Annotation .
 nl:id_fe6e69bb2c20a04621c4620fcd7ded98e6ca9ef0 terms:title "vrouw uit Samaria" .
 nl:id_fe6e69bb2c20a04621c4620fcd7ded98e6ca9ef0 ui:annotationField bible:BibleCharacter .
