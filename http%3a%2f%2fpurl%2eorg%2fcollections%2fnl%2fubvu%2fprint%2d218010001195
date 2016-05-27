@@ -10,6 +10,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_62cf9016f90d7246b5e83a62a3afb2d6b3830871 a oa:Annotation .
+nl:id_62cf9016f90d7246b5e83a62a3afb2d6b3830871 terms:title "Moses drawn out of the water" .
+nl:id_62cf9016f90d7246b5e83a62a3afb2d6b3830871 ui:annotationField bible:ICBibleTheme .
+nl:id_62cf9016f90d7246b5e83a62a3afb2d6b3830871 ui:typingTime 0 .
+nl:id_62cf9016f90d7246b5e83a62a3afb2d6b3830871 oa:annotatedAt "2016-05-27T09:50:06+02:00"^^xsd:dateTime .
+nl:id_62cf9016f90d7246b5e83a62a3afb2d6b3830871 oa:annotatedBy user:everhoeff .
+nl:id_62cf9016f90d7246b5e83a62a3afb2d6b3830871 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Moses drawn out of the water" ] .
+nl:id_62cf9016f90d7246b5e83a62a3afb2d6b3830871 oa:hasTarget ubvu:print-218010001195 .
+nl:id_62cf9016f90d7246b5e83a62a3afb2d6b3830871 oa:motivatedBy oa:tagging .
+
 nl:id_7d8f4c0bcc75ac9a260d94db88337250d7006b86 a oa:Annotation .
 nl:id_7d8f4c0bcc75ac9a260d94db88337250d7006b86 terms:title "Exodus 2: 3-6" .
 nl:id_7d8f4c0bcc75ac9a260d94db88337250d7006b86 ui:annotationField bible:ICBibleTheme .
