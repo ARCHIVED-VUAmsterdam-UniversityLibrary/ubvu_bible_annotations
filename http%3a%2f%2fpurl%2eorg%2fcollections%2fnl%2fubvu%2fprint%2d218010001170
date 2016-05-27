@@ -13,6 +13,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_3f77b8e9bb6746fe6c735fe49ddd61ec9bba91a5 a oa:Annotation .
+nl:id_3f77b8e9bb6746fe6c735fe49ddd61ec9bba91a5 terms:title "Pharaoh took off his ring and put it upon Joseph's hand" .
+nl:id_3f77b8e9bb6746fe6c735fe49ddd61ec9bba91a5 ui:annotationField bible:ICBibleTheme .
+nl:id_3f77b8e9bb6746fe6c735fe49ddd61ec9bba91a5 ui:typingTime 0 .
+nl:id_3f77b8e9bb6746fe6c735fe49ddd61ec9bba91a5 oa:annotatedAt "2016-05-27T10:36:39+02:00"^^xsd:dateTime .
+nl:id_3f77b8e9bb6746fe6c735fe49ddd61ec9bba91a5 oa:annotatedBy user:everhoeff .
+nl:id_3f77b8e9bb6746fe6c735fe49ddd61ec9bba91a5 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Pharaoh took off his ring and put it upon Joseph's hand" ] .
+nl:id_3f77b8e9bb6746fe6c735fe49ddd61ec9bba91a5 oa:hasTarget ubvu:print-218010001170 .
+nl:id_3f77b8e9bb6746fe6c735fe49ddd61ec9bba91a5 oa:motivatedBy oa:tagging .
+
 nl:id_bb407963859763d325e1a70ba27e0b4272568fd5 a oa:Annotation .
 nl:id_bb407963859763d325e1a70ba27e0b4272568fd5 terms:title "Jozef (zoon van Jacob)" .
 nl:id_bb407963859763d325e1a70ba27e0b4272568fd5 ui:annotationField bible:BibleCharacter .
