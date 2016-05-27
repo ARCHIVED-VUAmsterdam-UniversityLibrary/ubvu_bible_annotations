@@ -13,6 +13,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_00d2cc383176f8dd73ba0276d4ad888f7cea8edd a oa:Annotation .
+nl:id_00d2cc383176f8dd73ba0276d4ad888f7cea8edd terms:title "Josepf tempted to whoredom" .
+nl:id_00d2cc383176f8dd73ba0276d4ad888f7cea8edd ui:annotationField bible:ICBibleTheme .
+nl:id_00d2cc383176f8dd73ba0276d4ad888f7cea8edd ui:typingTime 0 .
+nl:id_00d2cc383176f8dd73ba0276d4ad888f7cea8edd oa:annotatedAt "2016-05-27T10:23:47+02:00"^^xsd:dateTime .
+nl:id_00d2cc383176f8dd73ba0276d4ad888f7cea8edd oa:annotatedBy user:everhoeff .
+nl:id_00d2cc383176f8dd73ba0276d4ad888f7cea8edd oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Josepf tempted to whoredom" ] .
+nl:id_00d2cc383176f8dd73ba0276d4ad888f7cea8edd oa:hasTarget ubvu:print-218010001163 .
+nl:id_00d2cc383176f8dd73ba0276d4ad888f7cea8edd oa:motivatedBy oa:tagging .
+
 nl:id_8742e07d0bcb97d37558c1900a01f5dd8d0b6084 a oa:Annotation .
 nl:id_8742e07d0bcb97d37558c1900a01f5dd8d0b6084 terms:title "vrouw van Potifar" .
 nl:id_8742e07d0bcb97d37558c1900a01f5dd8d0b6084 ui:annotationField bible:BibleCharacter .
