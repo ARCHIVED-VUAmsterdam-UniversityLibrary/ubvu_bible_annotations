@@ -23,6 +23,17 @@ nl:id_00d2cc383176f8dd73ba0276d4ad888f7cea8edd oa:hasBody [ a content:ContentAsT
 nl:id_00d2cc383176f8dd73ba0276d4ad888f7cea8edd oa:hasTarget ubvu:print-218010001163 .
 nl:id_00d2cc383176f8dd73ba0276d4ad888f7cea8edd oa:motivatedBy oa:tagging .
 
+nl:id_7487d3795c87277f2ba49ef96f5a059ba0b7bb9e a oa:Annotation .
+nl:id_7487d3795c87277f2ba49ef96f5a059ba0b7bb9e terms:title "Wife op Potiphar" .
+nl:id_7487d3795c87277f2ba49ef96f5a059ba0b7bb9e ui:annotationField bible:BibleCharacter .
+nl:id_7487d3795c87277f2ba49ef96f5a059ba0b7bb9e ui:typingTime 0 .
+nl:id_7487d3795c87277f2ba49ef96f5a059ba0b7bb9e oa:annotatedAt "2016-05-27T10:25:09+02:00"^^xsd:dateTime .
+nl:id_7487d3795c87277f2ba49ef96f5a059ba0b7bb9e oa:annotatedBy user:everhoeff .
+nl:id_7487d3795c87277f2ba49ef96f5a059ba0b7bb9e oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Wife op Potiphar" ] .
+nl:id_7487d3795c87277f2ba49ef96f5a059ba0b7bb9e oa:hasTarget target:target_e8044953dcebae0461188f9a292d03faa1052da6 .
+nl:id_7487d3795c87277f2ba49ef96f5a059ba0b7bb9e oa:hasTarget ubvu:print-218010001163 .
+nl:id_7487d3795c87277f2ba49ef96f5a059ba0b7bb9e oa:motivatedBy oa:tagging .
+
 nl:id_8742e07d0bcb97d37558c1900a01f5dd8d0b6084 a oa:Annotation .
 nl:id_8742e07d0bcb97d37558c1900a01f5dd8d0b6084 terms:title "vrouw van Potifar" .
 nl:id_8742e07d0bcb97d37558c1900a01f5dd8d0b6084 ui:annotationField bible:BibleCharacter .
@@ -90,6 +101,14 @@ target:selector_be9063fd3745ecb1a885d7f13d61c727fb1fa9b6 ui:x "0.277333333333333
 target:selector_be9063fd3745ecb1a885d7f13d61c727fb1fa9b6 ui:y "0.335431654676259"^^xsd:float .
 target:selector_be9063fd3745ecb1a885d7f13d61c727fb1fa9b6 rdf:value "#xywh=percent:28,34,28,46" .
 
+target:selector_e8044953dcebae0461188f9a292d03faa1052da6 a oa:FragmentSelector .
+target:selector_e8044953dcebae0461188f9a292d03faa1052da6 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_e8044953dcebae0461188f9a292d03faa1052da6 ui:h "0.3075376884422111"^^xsd:float .
+target:selector_e8044953dcebae0461188f9a292d03faa1052da6 ui:w "0.32488822652757077"^^xsd:float .
+target:selector_e8044953dcebae0461188f9a292d03faa1052da6 ui:x "0.28614008941877794"^^xsd:float .
+target:selector_e8044953dcebae0461188f9a292d03faa1052da6 ui:y "0.33467336683417087"^^xsd:float .
+target:selector_e8044953dcebae0461188f9a292d03faa1052da6 rdf:value "#xywh=percent:29,33,32,31" .
+
 target:target_44a42422a539b9faf413a146234f66cdcd69db0e a oa:SpecificResource .
 target:target_44a42422a539b9faf413a146234f66cdcd69db0e oa:hasSelector target:selector_44a42422a539b9faf413a146234f66cdcd69db0e .
 target:target_44a42422a539b9faf413a146234f66cdcd69db0e oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/204> .
@@ -101,3 +120,7 @@ target:target_942c1b8581479a187ec867bc1ce330d3594b612d oa:hasSource <http://imag
 target:target_be9063fd3745ecb1a885d7f13d61c727fb1fa9b6 a oa:SpecificResource .
 target:target_be9063fd3745ecb1a885d7f13d61c727fb1fa9b6 oa:hasSelector target:selector_be9063fd3745ecb1a885d7f13d61c727fb1fa9b6 .
 target:target_be9063fd3745ecb1a885d7f13d61c727fb1fa9b6 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/204> .
+
+target:target_e8044953dcebae0461188f9a292d03faa1052da6 a oa:SpecificResource .
+target:target_e8044953dcebae0461188f9a292d03faa1052da6 oa:hasSelector target:selector_e8044953dcebae0461188f9a292d03faa1052da6 .
+target:target_e8044953dcebae0461188f9a292d03faa1052da6 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/204> .
