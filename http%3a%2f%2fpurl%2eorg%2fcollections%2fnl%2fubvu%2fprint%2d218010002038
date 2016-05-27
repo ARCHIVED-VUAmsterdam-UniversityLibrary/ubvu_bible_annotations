@@ -198,6 +198,16 @@ nl:id_fe6e69bb2c20a04621c4620fcd7ded98e6ca9ef0 oa:hasTarget target:target_6b8bce
 nl:id_fe6e69bb2c20a04621c4620fcd7ded98e6ca9ef0 oa:hasTarget ubvu:print-218010002038 .
 nl:id_fe6e69bb2c20a04621c4620fcd7ded98e6ca9ef0 oa:motivatedBy oa:tagging .
 
+nl:id_fe8e72fffac626d16ff06ae0b4ea4d7c704da2e9 a oa:Annotation .
+nl:id_fe8e72fffac626d16ff06ae0b4ea4d7c704da2e9 terms:title "Nicodemus and Jesus" .
+nl:id_fe8e72fffac626d16ff06ae0b4ea4d7c704da2e9 ui:annotationField bible:ICBibleTheme .
+nl:id_fe8e72fffac626d16ff06ae0b4ea4d7c704da2e9 ui:typingTime 0 .
+nl:id_fe8e72fffac626d16ff06ae0b4ea4d7c704da2e9 oa:annotatedAt "2016-05-27T10:09:54+02:00"^^xsd:dateTime .
+nl:id_fe8e72fffac626d16ff06ae0b4ea4d7c704da2e9 oa:annotatedBy user:everhoeff .
+nl:id_fe8e72fffac626d16ff06ae0b4ea4d7c704da2e9 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Nicodemus and Jesus" ] .
+nl:id_fe8e72fffac626d16ff06ae0b4ea4d7c704da2e9 oa:hasTarget ubvu:print-218010002038 .
+nl:id_fe8e72fffac626d16ff06ae0b4ea4d7c704da2e9 oa:motivatedBy oa:tagging .
+
 target:selector_03da62adff60a788abf048bf6b05126e78a12d6f a oa:FragmentSelector .
 target:selector_03da62adff60a788abf048bf6b05126e78a12d6f terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_03da62adff60a788abf048bf6b05126e78a12d6f ui:h "0.1044504995458674"^^xsd:float .
