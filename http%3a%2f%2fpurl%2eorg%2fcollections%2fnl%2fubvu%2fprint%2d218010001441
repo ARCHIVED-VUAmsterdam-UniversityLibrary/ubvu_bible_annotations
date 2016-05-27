@@ -32,6 +32,16 @@ nl:id_bb88d63b4222354bb7b824ed02927a1ee101445b oa:hasBody [ a content:ContentAsT
 nl:id_bb88d63b4222354bb7b824ed02927a1ee101445b oa:hasTarget ubvu:print-218010001441 .
 nl:id_bb88d63b4222354bb7b824ed02927a1ee101445b oa:motivatedBy oa:tagging .
 
+nl:id_d6198b491828921451b2475f2ec87d526d0dcbf3 a oa:Annotation .
+nl:id_d6198b491828921451b2475f2ec87d526d0dcbf3 terms:title "The mourning of the Israelites at Gibeah" .
+nl:id_d6198b491828921451b2475f2ec87d526d0dcbf3 ui:annotationField bible:ICBibleTheme .
+nl:id_d6198b491828921451b2475f2ec87d526d0dcbf3 ui:typingTime 0 .
+nl:id_d6198b491828921451b2475f2ec87d526d0dcbf3 oa:annotatedAt "2016-05-27T10:02:39+02:00"^^xsd:dateTime .
+nl:id_d6198b491828921451b2475f2ec87d526d0dcbf3 oa:annotatedBy user:everhoeff .
+nl:id_d6198b491828921451b2475f2ec87d526d0dcbf3 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The mourning of the Israelites at Gibeah" ] .
+nl:id_d6198b491828921451b2475f2ec87d526d0dcbf3 oa:hasTarget ubvu:print-218010001441 .
+nl:id_d6198b491828921451b2475f2ec87d526d0dcbf3 oa:motivatedBy oa:tagging .
+
 target:selector_303f2954c80331fe70c0e2d1bed581cf7b508af6 a oa:FragmentSelector .
 target:selector_303f2954c80331fe70c0e2d1bed581cf7b508af6 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_303f2954c80331fe70c0e2d1bed581cf7b508af6 ui:h "0.5062093435836783"^^xsd:float .
