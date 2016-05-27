@@ -34,6 +34,16 @@ nl:id_722f8372259698ff91d7f972b1ca74589fb78973 oa:hasTarget target:target_a97cc6
 nl:id_722f8372259698ff91d7f972b1ca74589fb78973 oa:hasTarget ubvu:print-218010001799 .
 nl:id_722f8372259698ff91d7f972b1ca74589fb78973 oa:motivatedBy oa:tagging .
 
+nl:id_928ce3df72cb73a8d670b6ee30b80f4e2c0bbcc0 a oa:Annotation .
+nl:id_928ce3df72cb73a8d670b6ee30b80f4e2c0bbcc0 terms:title "The woman taken in adultery" .
+nl:id_928ce3df72cb73a8d670b6ee30b80f4e2c0bbcc0 ui:annotationField bible:ICBibleTheme .
+nl:id_928ce3df72cb73a8d670b6ee30b80f4e2c0bbcc0 ui:typingTime 0 .
+nl:id_928ce3df72cb73a8d670b6ee30b80f4e2c0bbcc0 oa:annotatedAt "2016-05-27T09:54:44+02:00"^^xsd:dateTime .
+nl:id_928ce3df72cb73a8d670b6ee30b80f4e2c0bbcc0 oa:annotatedBy user:everhoeff .
+nl:id_928ce3df72cb73a8d670b6ee30b80f4e2c0bbcc0 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The woman taken in adultery" ] .
+nl:id_928ce3df72cb73a8d670b6ee30b80f4e2c0bbcc0 oa:hasTarget ubvu:print-218010001799 .
+nl:id_928ce3df72cb73a8d670b6ee30b80f4e2c0bbcc0 oa:motivatedBy oa:tagging .
+
 nl:id_992688d480040e97765f47375cb6abef73f77c94 a oa:Annotation .
 nl:id_992688d480040e97765f47375cb6abef73f77c94 terms:title "John the baptist" .
 nl:id_992688d480040e97765f47375cb6abef73f77c94 ui:annotationField bible:BibleCharacter .
