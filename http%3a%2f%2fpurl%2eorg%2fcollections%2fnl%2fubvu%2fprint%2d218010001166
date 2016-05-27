@@ -21,6 +21,16 @@ nl:id_5d678915a1fa7a94ab6bba6cd47b0924a67275ac oa:hasBody [ a content:ContentAsT
 nl:id_5d678915a1fa7a94ab6bba6cd47b0924a67275ac oa:hasTarget ubvu:print-218010001166 .
 nl:id_5d678915a1fa7a94ab6bba6cd47b0924a67275ac oa:motivatedBy oa:tagging .
 
+nl:id_8eb4425d6f07815f59f62962034cb5353a1b85bf a oa:Annotation .
+nl:id_8eb4425d6f07815f59f62962034cb5353a1b85bf terms:title "-" .
+nl:id_8eb4425d6f07815f59f62962034cb5353a1b85bf ui:annotationField bible:ICBibleTheme .
+nl:id_8eb4425d6f07815f59f62962034cb5353a1b85bf ui:typingTime 0 .
+nl:id_8eb4425d6f07815f59f62962034cb5353a1b85bf oa:annotatedAt "2016-05-27T10:22:48+02:00"^^xsd:dateTime .
+nl:id_8eb4425d6f07815f59f62962034cb5353a1b85bf oa:annotatedBy user:everhoeff .
+nl:id_8eb4425d6f07815f59f62962034cb5353a1b85bf oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "-" ] .
+nl:id_8eb4425d6f07815f59f62962034cb5353a1b85bf oa:hasTarget ubvu:print-218010001166 .
+nl:id_8eb4425d6f07815f59f62962034cb5353a1b85bf oa:motivatedBy oa:tagging .
+
 nl:id_c92a46d6dd8fb8ab9351b6135c46b092bf07df93 a oa:Annotation .
 nl:id_c92a46d6dd8fb8ab9351b6135c46b092bf07df93 terms:title "Josef" .
 nl:id_c92a46d6dd8fb8ab9351b6135c46b092bf07df93 ui:annotationField bible:BibleCharacter .
