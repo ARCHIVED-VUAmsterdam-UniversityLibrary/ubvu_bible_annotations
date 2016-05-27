@@ -6,6 +6,7 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
@@ -20,6 +21,17 @@ nl:id_263b8d3ab43ab02378d87caab2d24e8043b7eda8 oa:hasBody [ a content:ContentAsT
 nl:id_263b8d3ab43ab02378d87caab2d24e8043b7eda8 oa:hasTarget ubvu:print-218010001525 .
 nl:id_263b8d3ab43ab02378d87caab2d24e8043b7eda8 oa:motivatedBy oa:tagging .
 
+nl:id_a8d0afe7409f47dba00e6b9fb78a4dc448685b49 a oa:Annotation .
+nl:id_a8d0afe7409f47dba00e6b9fb78a4dc448685b49 terms:title "Jehoash" .
+nl:id_a8d0afe7409f47dba00e6b9fb78a4dc448685b49 ui:annotationField bible:BibleCharacter .
+nl:id_a8d0afe7409f47dba00e6b9fb78a4dc448685b49 ui:typingTime 0 .
+nl:id_a8d0afe7409f47dba00e6b9fb78a4dc448685b49 oa:annotatedAt "2016-05-27T09:56:18+02:00"^^xsd:dateTime .
+nl:id_a8d0afe7409f47dba00e6b9fb78a4dc448685b49 oa:annotatedBy user:everhoeff .
+nl:id_a8d0afe7409f47dba00e6b9fb78a4dc448685b49 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jehoash" ] .
+nl:id_a8d0afe7409f47dba00e6b9fb78a4dc448685b49 oa:hasTarget target:target_93965410422ce273bd9c391a3e558cd14ade8966 .
+nl:id_a8d0afe7409f47dba00e6b9fb78a4dc448685b49 oa:hasTarget ubvu:print-218010001525 .
+nl:id_a8d0afe7409f47dba00e6b9fb78a4dc448685b49 oa:motivatedBy oa:tagging .
+
 nl:id_cf80c03a85abca53dc4d77bb76dc85dcc8b17aa6 a oa:Annotation .
 nl:id_cf80c03a85abca53dc4d77bb76dc85dcc8b17aa6 terms:title "Jehoash is proclaimed king and Athalia is slain." .
 nl:id_cf80c03a85abca53dc4d77bb76dc85dcc8b17aa6 ui:annotationField bible:ICBibleTheme .
@@ -29,3 +41,15 @@ nl:id_cf80c03a85abca53dc4d77bb76dc85dcc8b17aa6 oa:annotatedBy user:everhoeff .
 nl:id_cf80c03a85abca53dc4d77bb76dc85dcc8b17aa6 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jehoash is proclaimed king and Athalia is slain." ] .
 nl:id_cf80c03a85abca53dc4d77bb76dc85dcc8b17aa6 oa:hasTarget ubvu:print-218010001525 .
 nl:id_cf80c03a85abca53dc4d77bb76dc85dcc8b17aa6 oa:motivatedBy oa:tagging .
+
+target:selector_93965410422ce273bd9c391a3e558cd14ade8966 a oa:FragmentSelector .
+target:selector_93965410422ce273bd9c391a3e558cd14ade8966 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_93965410422ce273bd9c391a3e558cd14ade8966 ui:h "0.17915904936014626"^^xsd:float .
+target:selector_93965410422ce273bd9c391a3e558cd14ade8966 ui:w "0.16533333333333333"^^xsd:float .
+target:selector_93965410422ce273bd9c391a3e558cd14ade8966 ui:x "0.528"^^xsd:float .
+target:selector_93965410422ce273bd9c391a3e558cd14ade8966 ui:y "0.3281535648994516"^^xsd:float .
+target:selector_93965410422ce273bd9c391a3e558cd14ade8966 rdf:value "#xywh=percent:53,33,17,18" .
+
+target:target_93965410422ce273bd9c391a3e558cd14ade8966 a oa:SpecificResource .
+target:target_93965410422ce273bd9c391a3e558cd14ade8966 oa:hasSelector target:selector_93965410422ce273bd9c391a3e558cd14ade8966 .
+target:target_93965410422ce273bd9c391a3e558cd14ade8966 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/566> .
