@@ -66,6 +66,16 @@ nl:id_8c47135f679bd0006b6e8d9deb667f54238e9b08 oa:hasTarget target:target_17d223
 nl:id_8c47135f679bd0006b6e8d9deb667f54238e9b08 oa:hasTarget ubvu:print-218010001603 .
 nl:id_8c47135f679bd0006b6e8d9deb667f54238e9b08 oa:motivatedBy oa:tagging .
 
+nl:id_aeb8938f968d282ebf6f6976673538050467d874 a oa:Annotation .
+nl:id_aeb8938f968d282ebf6f6976673538050467d874 terms:title "Tobias asks for Sarah in marriage" .
+nl:id_aeb8938f968d282ebf6f6976673538050467d874 ui:annotationField bible:ICBibleTheme .
+nl:id_aeb8938f968d282ebf6f6976673538050467d874 ui:typingTime 0 .
+nl:id_aeb8938f968d282ebf6f6976673538050467d874 oa:annotatedAt "2016-05-27T10:34:02+02:00"^^xsd:dateTime .
+nl:id_aeb8938f968d282ebf6f6976673538050467d874 oa:annotatedBy user:everhoeff .
+nl:id_aeb8938f968d282ebf6f6976673538050467d874 oa:hasBody <http://iconclass.org/71T62> .
+nl:id_aeb8938f968d282ebf6f6976673538050467d874 oa:hasTarget ubvu:print-218010001603 .
+nl:id_aeb8938f968d282ebf6f6976673538050467d874 oa:motivatedBy oa:tagging .
+
 nl:id_b5d5eb884efc86722f7580e6b01b22cbf5c302bb a oa:Annotation .
 nl:id_b5d5eb884efc86722f7580e6b01b22cbf5c302bb terms:title "Raguël" .
 nl:id_b5d5eb884efc86722f7580e6b01b22cbf5c302bb ui:annotationField bible:BibleCharacter .
