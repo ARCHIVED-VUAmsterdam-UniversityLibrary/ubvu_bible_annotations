@@ -123,6 +123,16 @@ nl:id_946646aa29fcc3d5c25480661c8ab79c2a26e769 oa:hasTarget target:target_0c44f6
 nl:id_946646aa29fcc3d5c25480661c8ab79c2a26e769 oa:hasTarget ubvu:print-218010002038 .
 nl:id_946646aa29fcc3d5c25480661c8ab79c2a26e769 oa:motivatedBy oa:tagging .
 
+nl:id_9aaf8c0c6c1244db278ad2c6caefb63b10bb9a8a a oa:Annotation .
+nl:id_9aaf8c0c6c1244db278ad2c6caefb63b10bb9a8a terms:title "Christ and the woman of Samaria: sitting at Jacob's well he asks her for a drink from her jug" .
+nl:id_9aaf8c0c6c1244db278ad2c6caefb63b10bb9a8a ui:annotationField bible:ICBibleTheme .
+nl:id_9aaf8c0c6c1244db278ad2c6caefb63b10bb9a8a ui:typingTime 0 .
+nl:id_9aaf8c0c6c1244db278ad2c6caefb63b10bb9a8a oa:annotatedAt "2016-05-27T10:12:58+02:00"^^xsd:dateTime .
+nl:id_9aaf8c0c6c1244db278ad2c6caefb63b10bb9a8a oa:annotatedBy user:everhoeff .
+nl:id_9aaf8c0c6c1244db278ad2c6caefb63b10bb9a8a oa:hasBody <http://iconclass.org/73C72212> .
+nl:id_9aaf8c0c6c1244db278ad2c6caefb63b10bb9a8a oa:hasTarget ubvu:print-218010002038 .
+nl:id_9aaf8c0c6c1244db278ad2c6caefb63b10bb9a8a oa:motivatedBy oa:tagging .
+
 nl:id_b00b6b05140e9943020c6ca1a47747646b26d5b5 a oa:Annotation .
 nl:id_b00b6b05140e9943020c6ca1a47747646b26d5b5 terms:title "Samaritaanse vrouw" .
 nl:id_b00b6b05140e9943020c6ca1a47747646b26d5b5 ui:annotationField bible:BibleCharacter .
