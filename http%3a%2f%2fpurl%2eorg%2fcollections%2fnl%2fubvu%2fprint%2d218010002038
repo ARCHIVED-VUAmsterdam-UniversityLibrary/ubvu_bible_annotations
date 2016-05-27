@@ -156,6 +156,16 @@ nl:id_de2c4e79d0af7b1147831b9a769986c712f218dd oa:hasTarget target:target_58fac1
 nl:id_de2c4e79d0af7b1147831b9a769986c712f218dd oa:hasTarget ubvu:print-218010002038 .
 nl:id_de2c4e79d0af7b1147831b9a769986c712f218dd oa:motivatedBy oa:tagging .
 
+nl:id_ea44a0d1c55acaab99983da46b16946339a6fa8b a oa:Annotation .
+nl:id_ea44a0d1c55acaab99983da46b16946339a6fa8b terms:title "Wedding at Cana" .
+nl:id_ea44a0d1c55acaab99983da46b16946339a6fa8b ui:annotationField bible:ICBibleTheme .
+nl:id_ea44a0d1c55acaab99983da46b16946339a6fa8b ui:typingTime 0 .
+nl:id_ea44a0d1c55acaab99983da46b16946339a6fa8b oa:annotatedAt "2016-05-27T10:06:54+02:00"^^xsd:dateTime .
+nl:id_ea44a0d1c55acaab99983da46b16946339a6fa8b oa:annotatedBy user:everhoeff .
+nl:id_ea44a0d1c55acaab99983da46b16946339a6fa8b oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Wedding at Cana" ] .
+nl:id_ea44a0d1c55acaab99983da46b16946339a6fa8b oa:hasTarget ubvu:print-218010002038 .
+nl:id_ea44a0d1c55acaab99983da46b16946339a6fa8b oa:motivatedBy oa:tagging .
+
 nl:id_f33b9e07a873f370982651b1c72099e81f01acc2 a oa:Annotation .
 nl:id_f33b9e07a873f370982651b1c72099e81f01acc2 terms:title "Fillipus" .
 nl:id_f33b9e07a873f370982651b1c72099e81f01acc2 ui:annotationField bible:BibleCharacter .
