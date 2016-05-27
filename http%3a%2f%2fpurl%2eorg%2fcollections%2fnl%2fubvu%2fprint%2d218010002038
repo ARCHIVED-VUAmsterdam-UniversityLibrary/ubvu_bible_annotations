@@ -143,6 +143,16 @@ nl:id_9aaf8c0c6c1244db278ad2c6caefb63b10bb9a8a oa:hasBody <http://iconclass.org/
 nl:id_9aaf8c0c6c1244db278ad2c6caefb63b10bb9a8a oa:hasTarget ubvu:print-218010002038 .
 nl:id_9aaf8c0c6c1244db278ad2c6caefb63b10bb9a8a oa:motivatedBy oa:tagging .
 
+nl:id_a12ac1e61eb16b4950d5b75a0ddc67c98eb60f48 a oa:Annotation .
+nl:id_a12ac1e61eb16b4950d5b75a0ddc67c98eb60f48 terms:title "An angel stirred the water, the first man who stepped in will be cured of his desease" .
+nl:id_a12ac1e61eb16b4950d5b75a0ddc67c98eb60f48 ui:annotationField bible:ICBibleTheme .
+nl:id_a12ac1e61eb16b4950d5b75a0ddc67c98eb60f48 ui:typingTime 0 .
+nl:id_a12ac1e61eb16b4950d5b75a0ddc67c98eb60f48 oa:annotatedAt "2016-05-27T10:18:24+02:00"^^xsd:dateTime .
+nl:id_a12ac1e61eb16b4950d5b75a0ddc67c98eb60f48 oa:annotatedBy user:everhoeff .
+nl:id_a12ac1e61eb16b4950d5b75a0ddc67c98eb60f48 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "An angel stirred the water, the first man who stepped in will be cured of his desease" ] .
+nl:id_a12ac1e61eb16b4950d5b75a0ddc67c98eb60f48 oa:hasTarget ubvu:print-218010002038 .
+nl:id_a12ac1e61eb16b4950d5b75a0ddc67c98eb60f48 oa:motivatedBy oa:tagging .
+
 nl:id_b00b6b05140e9943020c6ca1a47747646b26d5b5 a oa:Annotation .
 nl:id_b00b6b05140e9943020c6ca1a47747646b26d5b5 terms:title "Samaritaanse vrouw" .
 nl:id_b00b6b05140e9943020c6ca1a47747646b26d5b5 ui:annotationField bible:BibleCharacter .
