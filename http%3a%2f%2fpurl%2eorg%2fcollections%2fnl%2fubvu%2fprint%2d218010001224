@@ -29,3 +29,13 @@ nl:id_52cb59b23bed15374428a853d84ea67ee3f5309a oa:annotatedBy user:joan .
 nl:id_52cb59b23bed15374428a853d84ea67ee3f5309a oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Exodus 14:23" ] .
 nl:id_52cb59b23bed15374428a853d84ea67ee3f5309a oa:hasTarget ubvu:print-218010001224 .
 nl:id_52cb59b23bed15374428a853d84ea67ee3f5309a oa:motivatedBy oa:tagging .
+
+nl:id_bff66e72b2550cde3d099ad4218db2cc42519212 a oa:Annotation .
+nl:id_bff66e72b2550cde3d099ad4218db2cc42519212 terms:title "Pharaoh and his army drowned in the Red Sea" .
+nl:id_bff66e72b2550cde3d099ad4218db2cc42519212 ui:annotationField bible:ICBibleTheme .
+nl:id_bff66e72b2550cde3d099ad4218db2cc42519212 ui:typingTime 0 .
+nl:id_bff66e72b2550cde3d099ad4218db2cc42519212 oa:annotatedAt "2016-05-27T09:59:03+02:00"^^xsd:dateTime .
+nl:id_bff66e72b2550cde3d099ad4218db2cc42519212 oa:annotatedBy user:everhoeff .
+nl:id_bff66e72b2550cde3d099ad4218db2cc42519212 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Pharaoh and his army drowned in the Red Sea" ] .
+nl:id_bff66e72b2550cde3d099ad4218db2cc42519212 oa:hasTarget ubvu:print-218010001224 .
+nl:id_bff66e72b2550cde3d099ad4218db2cc42519212 oa:motivatedBy oa:tagging .
