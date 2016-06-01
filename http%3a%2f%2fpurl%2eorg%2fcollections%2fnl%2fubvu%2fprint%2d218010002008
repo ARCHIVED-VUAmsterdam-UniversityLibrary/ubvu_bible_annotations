@@ -13,6 +13,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_3de4a518f8f6c1d11aab43e26a4f0e176d0e28cb a oa:Annotation .
+nl:id_3de4a518f8f6c1d11aab43e26a4f0e176d0e28cb terms:title "Rahab and the spies" .
+nl:id_3de4a518f8f6c1d11aab43e26a4f0e176d0e28cb ui:annotationField bible:ICBibleTheme .
+nl:id_3de4a518f8f6c1d11aab43e26a4f0e176d0e28cb ui:typingTime 0 .
+nl:id_3de4a518f8f6c1d11aab43e26a4f0e176d0e28cb oa:annotatedAt "2016-06-01T15:02:54+02:00"^^xsd:dateTime .
+nl:id_3de4a518f8f6c1d11aab43e26a4f0e176d0e28cb oa:annotatedBy user:everhoeff .
+nl:id_3de4a518f8f6c1d11aab43e26a4f0e176d0e28cb oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Rahab and the spies" ] .
+nl:id_3de4a518f8f6c1d11aab43e26a4f0e176d0e28cb oa:hasTarget ubvu:print-218010002008 .
+nl:id_3de4a518f8f6c1d11aab43e26a4f0e176d0e28cb oa:motivatedBy oa:tagging .
+
 nl:id_41ddfdab0c72e7a99c2d28f3f8483cf1b36f2447 a oa:Annotation .
 nl:id_41ddfdab0c72e7a99c2d28f3f8483cf1b36f2447 terms:title "Josua" .
 nl:id_41ddfdab0c72e7a99c2d28f3f8483cf1b36f2447 ui:annotationField bible:BibleCharacter .
