@@ -32,6 +32,16 @@ nl:id_b0e97680871c5a4feedeb9691589e935db212874 oa:hasTarget target:target_4f7809
 nl:id_b0e97680871c5a4feedeb9691589e935db212874 oa:hasTarget ubvu:print-218010001367 .
 nl:id_b0e97680871c5a4feedeb9691589e935db212874 oa:motivatedBy oa:tagging .
 
+nl:id_b8f5f79ccff3ca8cf453ef38509df6cbe04c1b5c a oa:Annotation .
+nl:id_b8f5f79ccff3ca8cf453ef38509df6cbe04c1b5c terms:title "Eglon king of the Moabites killed" .
+nl:id_b8f5f79ccff3ca8cf453ef38509df6cbe04c1b5c ui:annotationField bible:ICBibleTheme .
+nl:id_b8f5f79ccff3ca8cf453ef38509df6cbe04c1b5c ui:typingTime 0 .
+nl:id_b8f5f79ccff3ca8cf453ef38509df6cbe04c1b5c oa:annotatedAt "2016-06-01T15:14:24+02:00"^^xsd:dateTime .
+nl:id_b8f5f79ccff3ca8cf453ef38509df6cbe04c1b5c oa:annotatedBy user:everhoeff .
+nl:id_b8f5f79ccff3ca8cf453ef38509df6cbe04c1b5c oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Eglon king of the Moabites killed" ] .
+nl:id_b8f5f79ccff3ca8cf453ef38509df6cbe04c1b5c oa:hasTarget ubvu:print-218010001367 .
+nl:id_b8f5f79ccff3ca8cf453ef38509df6cbe04c1b5c oa:motivatedBy oa:tagging .
+
 target:selector_4f78094c520aad48dd801eb77060cbf2ff4c7692 a oa:FragmentSelector .
 target:selector_4f78094c520aad48dd801eb77060cbf2ff4c7692 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_4f78094c520aad48dd801eb77060cbf2ff4c7692 ui:h "0.21559633027522937"^^xsd:float .
