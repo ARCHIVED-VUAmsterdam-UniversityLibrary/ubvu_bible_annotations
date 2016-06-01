@@ -1,23 +1,37 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_242e8d540c148c885e2503734d911a21f5df8193> a oa:Annotation .
-<http://accurator.nl/id_242e8d540c148c885e2503734d911a21f5df8193> terms:title "Jesus" .
-<http://accurator.nl/id_242e8d540c148c885e2503734d911a21f5df8193> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_242e8d540c148c885e2503734d911a21f5df8193> ui:typingTime 0 .
-<http://accurator.nl/id_242e8d540c148c885e2503734d911a21f5df8193> oa:annotatedAt "2016-04-08T17:02:04+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_242e8d540c148c885e2503734d911a21f5df8193> oa:annotatedBy user:raffa1991 .
-<http://accurator.nl/id_242e8d540c148c885e2503734d911a21f5df8193> oa:hasBody resource:Jesus .
-<http://accurator.nl/id_242e8d540c148c885e2503734d911a21f5df8193> oa:hasTarget target:target_cbf180afcb7011040b5db8fdbe6cd98d641223c8 .
-<http://accurator.nl/id_242e8d540c148c885e2503734d911a21f5df8193> oa:hasTarget ubvu:print-218010001895 .
-<http://accurator.nl/id_242e8d540c148c885e2503734d911a21f5df8193> oa:motivatedBy oa:tagging .
+nl:id_242e8d540c148c885e2503734d911a21f5df8193 a oa:Annotation .
+nl:id_242e8d540c148c885e2503734d911a21f5df8193 terms:title "Jesus" .
+nl:id_242e8d540c148c885e2503734d911a21f5df8193 ui:annotationField bible:BibleCharacter .
+nl:id_242e8d540c148c885e2503734d911a21f5df8193 ui:typingTime 0 .
+nl:id_242e8d540c148c885e2503734d911a21f5df8193 oa:annotatedAt "2016-04-08T17:02:04+02:00"^^xsd:dateTime .
+nl:id_242e8d540c148c885e2503734d911a21f5df8193 oa:annotatedBy user:raffa1991 .
+nl:id_242e8d540c148c885e2503734d911a21f5df8193 oa:hasBody resource:Jesus .
+nl:id_242e8d540c148c885e2503734d911a21f5df8193 oa:hasTarget target:target_cbf180afcb7011040b5db8fdbe6cd98d641223c8 .
+nl:id_242e8d540c148c885e2503734d911a21f5df8193 oa:hasTarget ubvu:print-218010001895 .
+nl:id_242e8d540c148c885e2503734d911a21f5df8193 oa:motivatedBy oa:tagging .
+
+nl:id_f9398757ae48ae64e0a0eb5decc0a7398404c783 a oa:Annotation .
+nl:id_f9398757ae48ae64e0a0eb5decc0a7398404c783 terms:title "Unbelieving Thomas" .
+nl:id_f9398757ae48ae64e0a0eb5decc0a7398404c783 ui:annotationField bible:ICBibleTheme .
+nl:id_f9398757ae48ae64e0a0eb5decc0a7398404c783 ui:typingTime 0 .
+nl:id_f9398757ae48ae64e0a0eb5decc0a7398404c783 oa:annotatedAt "2016-06-01T15:07:57+02:00"^^xsd:dateTime .
+nl:id_f9398757ae48ae64e0a0eb5decc0a7398404c783 oa:annotatedBy user:everhoeff .
+nl:id_f9398757ae48ae64e0a0eb5decc0a7398404c783 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Unbelieving Thomas" ] .
+nl:id_f9398757ae48ae64e0a0eb5decc0a7398404c783 oa:hasTarget ubvu:print-218010001895 .
+nl:id_f9398757ae48ae64e0a0eb5decc0a7398404c783 oa:motivatedBy oa:tagging .
 
 target:selector_cbf180afcb7011040b5db8fdbe6cd98d641223c8 a oa:FragmentSelector .
 target:selector_cbf180afcb7011040b5db8fdbe6cd98d641223c8 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
