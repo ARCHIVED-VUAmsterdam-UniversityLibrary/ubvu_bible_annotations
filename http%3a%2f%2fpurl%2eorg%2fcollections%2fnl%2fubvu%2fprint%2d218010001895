@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -23,6 +24,17 @@ nl:id_242e8d540c148c885e2503734d911a21f5df8193 oa:hasTarget target:target_cbf180
 nl:id_242e8d540c148c885e2503734d911a21f5df8193 oa:hasTarget ubvu:print-218010001895 .
 nl:id_242e8d540c148c885e2503734d911a21f5df8193 oa:motivatedBy oa:tagging .
 
+nl:id_5d8dd43349ac0128cd170e5966874f143b2cd99d a oa:Annotation .
+nl:id_5d8dd43349ac0128cd170e5966874f143b2cd99d terms:title "Thomas" .
+nl:id_5d8dd43349ac0128cd170e5966874f143b2cd99d ui:annotationField bible:BibleCharacter .
+nl:id_5d8dd43349ac0128cd170e5966874f143b2cd99d ui:typingTime 0 .
+nl:id_5d8dd43349ac0128cd170e5966874f143b2cd99d oa:annotatedAt "2016-06-01T15:08:21+02:00"^^xsd:dateTime .
+nl:id_5d8dd43349ac0128cd170e5966874f143b2cd99d oa:annotatedBy user:everhoeff .
+nl:id_5d8dd43349ac0128cd170e5966874f143b2cd99d oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Thomas" ] .
+nl:id_5d8dd43349ac0128cd170e5966874f143b2cd99d oa:hasTarget target:target_7f28b8516a6a438a5417a0bb2dee900ec738f07d .
+nl:id_5d8dd43349ac0128cd170e5966874f143b2cd99d oa:hasTarget ubvu:print-218010001895 .
+nl:id_5d8dd43349ac0128cd170e5966874f143b2cd99d oa:motivatedBy oa:tagging .
+
 nl:id_f9398757ae48ae64e0a0eb5decc0a7398404c783 a oa:Annotation .
 nl:id_f9398757ae48ae64e0a0eb5decc0a7398404c783 terms:title "Unbelieving Thomas" .
 nl:id_f9398757ae48ae64e0a0eb5decc0a7398404c783 ui:annotationField bible:ICBibleTheme .
@@ -33,6 +45,14 @@ nl:id_f9398757ae48ae64e0a0eb5decc0a7398404c783 oa:hasBody [ a content:ContentAsT
 nl:id_f9398757ae48ae64e0a0eb5decc0a7398404c783 oa:hasTarget ubvu:print-218010001895 .
 nl:id_f9398757ae48ae64e0a0eb5decc0a7398404c783 oa:motivatedBy oa:tagging .
 
+target:selector_7f28b8516a6a438a5417a0bb2dee900ec738f07d a oa:FragmentSelector .
+target:selector_7f28b8516a6a438a5417a0bb2dee900ec738f07d terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_7f28b8516a6a438a5417a0bb2dee900ec738f07d ui:h "0.20578420467185762"^^xsd:float .
+target:selector_7f28b8516a6a438a5417a0bb2dee900ec738f07d ui:w "0.2817391304347826"^^xsd:float .
+target:selector_7f28b8516a6a438a5417a0bb2dee900ec738f07d ui:x "0.1443478260869565"^^xsd:float .
+target:selector_7f28b8516a6a438a5417a0bb2dee900ec738f07d ui:y "0.3692992213570634"^^xsd:float .
+target:selector_7f28b8516a6a438a5417a0bb2dee900ec738f07d rdf:value "#xywh=percent:14,37,28,21" .
+
 target:selector_cbf180afcb7011040b5db8fdbe6cd98d641223c8 a oa:FragmentSelector .
 target:selector_cbf180afcb7011040b5db8fdbe6cd98d641223c8 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_cbf180afcb7011040b5db8fdbe6cd98d641223c8 ui:h "0.004923413566739606"^^xsd:float .
@@ -40,6 +60,10 @@ target:selector_cbf180afcb7011040b5db8fdbe6cd98d641223c8 ui:w "0.012820512820512
 target:selector_cbf180afcb7011040b5db8fdbe6cd98d641223c8 ui:x "0.5085470085470085"^^xsd:float .
 target:selector_cbf180afcb7011040b5db8fdbe6cd98d641223c8 ui:y "0.3741794310722101"^^xsd:float .
 target:selector_cbf180afcb7011040b5db8fdbe6cd98d641223c8 rdf:value "#xywh=percent:51,37,1,0" .
+
+target:target_7f28b8516a6a438a5417a0bb2dee900ec738f07d a oa:SpecificResource .
+target:target_7f28b8516a6a438a5417a0bb2dee900ec738f07d oa:hasSelector target:selector_7f28b8516a6a438a5417a0bb2dee900ec738f07d .
+target:target_7f28b8516a6a438a5417a0bb2dee900ec738f07d oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/934> .
 
 target:target_cbf180afcb7011040b5db8fdbe6cd98d641223c8 a oa:SpecificResource .
 target:target_cbf180afcb7011040b5db8fdbe6cd98d641223c8 oa:hasSelector target:selector_cbf180afcb7011040b5db8fdbe6cd98d641223c8 .
