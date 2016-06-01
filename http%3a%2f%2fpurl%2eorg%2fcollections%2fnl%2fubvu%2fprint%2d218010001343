@@ -33,6 +33,16 @@ nl:id_4da77f3dfbf6e449130b2c00748157ba23cac8a9 oa:hasTarget target:target_7185a5
 nl:id_4da77f3dfbf6e449130b2c00748157ba23cac8a9 oa:hasTarget ubvu:print-218010001343 .
 nl:id_4da77f3dfbf6e449130b2c00748157ba23cac8a9 oa:motivatedBy oa:tagging .
 
+nl:id_e321e43826b7c9f64bc04e6de78ccd53d8662bfd a oa:Annotation .
+nl:id_e321e43826b7c9f64bc04e6de78ccd53d8662bfd terms:title "Joshua's battle against the five kings; the sun and the moon stood still." .
+nl:id_e321e43826b7c9f64bc04e6de78ccd53d8662bfd ui:annotationField bible:ICBibleTheme .
+nl:id_e321e43826b7c9f64bc04e6de78ccd53d8662bfd ui:typingTime 0 .
+nl:id_e321e43826b7c9f64bc04e6de78ccd53d8662bfd oa:annotatedAt "2016-06-01T15:25:23+02:00"^^xsd:dateTime .
+nl:id_e321e43826b7c9f64bc04e6de78ccd53d8662bfd oa:annotatedBy user:everhoeff .
+nl:id_e321e43826b7c9f64bc04e6de78ccd53d8662bfd oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Joshua's battle against the five kings; the sun and the moon stood still." ] .
+nl:id_e321e43826b7c9f64bc04e6de78ccd53d8662bfd oa:hasTarget ubvu:print-218010001343 .
+nl:id_e321e43826b7c9f64bc04e6de78ccd53d8662bfd oa:motivatedBy oa:tagging .
+
 target:selector_7185a55414335ff7ffe5e3ece1a8456f0447184c a oa:FragmentSelector .
 target:selector_7185a55414335ff7ffe5e3ece1a8456f0447184c terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_7185a55414335ff7ffe5e3ece1a8456f0447184c ui:h "0.23113203948398806"^^xsd:float .
