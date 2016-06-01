@@ -21,6 +21,16 @@ nl:id_147b79a70db1636e7d69adf7a309d03775e776d4 oa:hasBody <http://iconclass.org/
 nl:id_147b79a70db1636e7d69adf7a309d03775e776d4 oa:hasTarget ubvu:print-218010001333 .
 nl:id_147b79a70db1636e7d69adf7a309d03775e776d4 oa:motivatedBy oa:tagging .
 
+nl:id_2b1924a14d18194fc5aee137ee68bbcd03d3a1fa a oa:Annotation .
+nl:id_2b1924a14d18194fc5aee137ee68bbcd03d3a1fa terms:title "Achan, his family and possessions (including the stolen spoils) are taken to the valley of Achor to be stoned" .
+nl:id_2b1924a14d18194fc5aee137ee68bbcd03d3a1fa ui:annotationField bible:ICBibleTheme .
+nl:id_2b1924a14d18194fc5aee137ee68bbcd03d3a1fa ui:typingTime 0 .
+nl:id_2b1924a14d18194fc5aee137ee68bbcd03d3a1fa oa:annotatedAt "2016-06-01T15:40:48+02:00"^^xsd:dateTime .
+nl:id_2b1924a14d18194fc5aee137ee68bbcd03d3a1fa oa:annotatedBy user:everhoeff .
+nl:id_2b1924a14d18194fc5aee137ee68bbcd03d3a1fa oa:hasBody <http://iconclass.org/71E5256> .
+nl:id_2b1924a14d18194fc5aee137ee68bbcd03d3a1fa oa:hasTarget ubvu:print-218010001333 .
+nl:id_2b1924a14d18194fc5aee137ee68bbcd03d3a1fa oa:motivatedBy oa:tagging .
+
 nl:id_48bdfc027aaeb85a52068596c9b6d34093f542d9 a oa:Annotation .
 nl:id_48bdfc027aaeb85a52068596c9b6d34093f542d9 terms:title "Achan" .
 nl:id_48bdfc027aaeb85a52068596c9b6d34093f542d9 ui:annotationField bible:BibleCharacter .
