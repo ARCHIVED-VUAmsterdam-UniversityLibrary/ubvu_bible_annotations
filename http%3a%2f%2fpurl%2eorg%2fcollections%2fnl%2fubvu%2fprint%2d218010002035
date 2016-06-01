@@ -119,6 +119,16 @@ nl:id_81cef377c824802fafa79c89be4c21e0ca150106 oa:hasTarget target:target_fa14e9
 nl:id_81cef377c824802fafa79c89be4c21e0ca150106 oa:hasTarget ubvu:print-218010002035 .
 nl:id_81cef377c824802fafa79c89be4c21e0ca150106 oa:motivatedBy oa:tagging .
 
+nl:id_88ab4c2e7329970e01854feffc8f21773433d6fc a oa:Annotation .
+nl:id_88ab4c2e7329970e01854feffc8f21773433d6fc terms:title "Christ's entry into Jerusalem" .
+nl:id_88ab4c2e7329970e01854feffc8f21773433d6fc ui:annotationField bible:ICBibleTheme .
+nl:id_88ab4c2e7329970e01854feffc8f21773433d6fc ui:typingTime 0 .
+nl:id_88ab4c2e7329970e01854feffc8f21773433d6fc oa:annotatedAt "2016-06-01T15:11:04+02:00"^^xsd:dateTime .
+nl:id_88ab4c2e7329970e01854feffc8f21773433d6fc oa:annotatedBy user:everhoeff .
+nl:id_88ab4c2e7329970e01854feffc8f21773433d6fc oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Christ's entry into Jerusalem" ] .
+nl:id_88ab4c2e7329970e01854feffc8f21773433d6fc oa:hasTarget ubvu:print-218010002035 .
+nl:id_88ab4c2e7329970e01854feffc8f21773433d6fc oa:motivatedBy oa:tagging .
+
 nl:id_901c31364a9424bca78fd6baf7b83cd6e0548915 a oa:Annotation .
 nl:id_901c31364a9424bca78fd6baf7b83cd6e0548915 terms:title "Jezus Christus" .
 nl:id_901c31364a9424bca78fd6baf7b83cd6e0548915 ui:annotationField bible:BibleCharacter .
