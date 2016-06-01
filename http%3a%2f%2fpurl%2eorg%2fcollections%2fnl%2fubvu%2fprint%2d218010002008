@@ -98,6 +98,16 @@ nl:id_7d83a0cc6f3c82d14e448321998467321fce4937 oa:hasBody [ a content:ContentAsT
 nl:id_7d83a0cc6f3c82d14e448321998467321fce4937 oa:hasTarget ubvu:print-218010002008 .
 nl:id_7d83a0cc6f3c82d14e448321998467321fce4937 oa:motivatedBy oa:tagging .
 
+nl:id_ab538881c0b125dbb1f6cba58e53b6e3ec276967 a oa:Annotation .
+nl:id_ab538881c0b125dbb1f6cba58e53b6e3ec276967 terms:title "Jerich compassed" .
+nl:id_ab538881c0b125dbb1f6cba58e53b6e3ec276967 ui:annotationField bible:ICBibleTheme .
+nl:id_ab538881c0b125dbb1f6cba58e53b6e3ec276967 ui:typingTime 0 .
+nl:id_ab538881c0b125dbb1f6cba58e53b6e3ec276967 oa:annotatedAt "2016-06-01T15:05:51+02:00"^^xsd:dateTime .
+nl:id_ab538881c0b125dbb1f6cba58e53b6e3ec276967 oa:annotatedBy user:everhoeff .
+nl:id_ab538881c0b125dbb1f6cba58e53b6e3ec276967 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jerich compassed" ] .
+nl:id_ab538881c0b125dbb1f6cba58e53b6e3ec276967 oa:hasTarget ubvu:print-218010002008 .
+nl:id_ab538881c0b125dbb1f6cba58e53b6e3ec276967 oa:motivatedBy oa:tagging .
+
 nl:id_d7e82b450bda2bb95f770cb136f6d190e7528ef5 a oa:Annotation .
 nl:id_d7e82b450bda2bb95f770cb136f6d190e7528ef5 terms:title "Josua" .
 nl:id_d7e82b450bda2bb95f770cb136f6d190e7528ef5 ui:annotationField bible:BibleCharacter .
