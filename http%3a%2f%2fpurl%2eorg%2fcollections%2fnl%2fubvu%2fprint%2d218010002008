@@ -129,6 +129,16 @@ nl:id_ec8005d32323ac0bb0c7e20e948aa29f0b7e6dd3 oa:hasBody [ a content:ContentAsT
 nl:id_ec8005d32323ac0bb0c7e20e948aa29f0b7e6dd3 oa:hasTarget ubvu:print-218010002008 .
 nl:id_ec8005d32323ac0bb0c7e20e948aa29f0b7e6dd3 oa:motivatedBy oa:tagging .
 
+nl:id_f5bce6a7e820e3019b0a00a38a4dbd5f75737080 a oa:Annotation .
+nl:id_f5bce6a7e820e3019b0a00a38a4dbd5f75737080 terms:title "Death of Achan" .
+nl:id_f5bce6a7e820e3019b0a00a38a4dbd5f75737080 ui:annotationField bible:ICBibleTheme .
+nl:id_f5bce6a7e820e3019b0a00a38a4dbd5f75737080 ui:typingTime 0 .
+nl:id_f5bce6a7e820e3019b0a00a38a4dbd5f75737080 oa:annotatedAt "2016-06-01T15:07:28+02:00"^^xsd:dateTime .
+nl:id_f5bce6a7e820e3019b0a00a38a4dbd5f75737080 oa:annotatedBy user:everhoeff .
+nl:id_f5bce6a7e820e3019b0a00a38a4dbd5f75737080 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Death of Achan" ] .
+nl:id_f5bce6a7e820e3019b0a00a38a4dbd5f75737080 oa:hasTarget ubvu:print-218010002008 .
+nl:id_f5bce6a7e820e3019b0a00a38a4dbd5f75737080 oa:motivatedBy oa:tagging .
+
 nl:id_fd0cf699f2570f37334bac919be49aecf3d48e60 a oa:Annotation .
 nl:id_fd0cf699f2570f37334bac919be49aecf3d48e60 terms:title "Rachab" .
 nl:id_fd0cf699f2570f37334bac919be49aecf3d48e60 ui:annotationField bible:BibleCharacter .
