@@ -23,6 +23,16 @@ nl:id_0762b933164923f69f9732b8bef3175553f92e8c oa:hasBody [ a content:ContentAsT
 nl:id_0762b933164923f69f9732b8bef3175553f92e8c oa:hasTarget ubvu:print-218010001409 .
 nl:id_0762b933164923f69f9732b8bef3175553f92e8c oa:motivatedBy oa:tagging .
 
+nl:id_10d456c0aa0b74fafe38d2df389f4af3c85ce5c3 a oa:Annotation .
+nl:id_10d456c0aa0b74fafe38d2df389f4af3c85ce5c3 terms:title "Ruth accompanies her mother in law" .
+nl:id_10d456c0aa0b74fafe38d2df389f4af3c85ce5c3 ui:annotationField bible:ICBibleTheme .
+nl:id_10d456c0aa0b74fafe38d2df389f4af3c85ce5c3 ui:typingTime 0 .
+nl:id_10d456c0aa0b74fafe38d2df389f4af3c85ce5c3 oa:annotatedAt "2016-06-01T15:27:41+02:00"^^xsd:dateTime .
+nl:id_10d456c0aa0b74fafe38d2df389f4af3c85ce5c3 oa:annotatedBy user:everhoeff .
+nl:id_10d456c0aa0b74fafe38d2df389f4af3c85ce5c3 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Ruth accompanies her mother in law" ] .
+nl:id_10d456c0aa0b74fafe38d2df389f4af3c85ce5c3 oa:hasTarget ubvu:print-218010001409 .
+nl:id_10d456c0aa0b74fafe38d2df389f4af3c85ce5c3 oa:motivatedBy oa:tagging .
+
 nl:id_329271ce82c3878e52e7df02db415f7d3b90299e a oa:Annotation .
 nl:id_329271ce82c3878e52e7df02db415f7d3b90299e terms:title "Ruth" .
 nl:id_329271ce82c3878e52e7df02db415f7d3b90299e ui:annotationField bible:BibleCharacter .
