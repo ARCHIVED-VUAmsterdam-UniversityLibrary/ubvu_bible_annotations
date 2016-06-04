@@ -54,6 +54,16 @@ nl:id_1a4d9690d8c248596bfa37a2c68755f53e7355cf oa:hasBody <http://iconclass.org/
 nl:id_1a4d9690d8c248596bfa37a2c68755f53e7355cf oa:hasTarget ubvu:print-218010002010 .
 nl:id_1a4d9690d8c248596bfa37a2c68755f53e7355cf oa:motivatedBy oa:tagging .
 
+nl:id_2356e73e9da8755a5b376d3f9e0f6387a8204985 a oa:Annotation .
+nl:id_2356e73e9da8755a5b376d3f9e0f6387a8204985 terms:title "Simson wil zijn vrouw bezoeken. Simson en Delila. Dood van Simson" .
+nl:id_2356e73e9da8755a5b376d3f9e0f6387a8204985 ui:annotationField bible:ICBibleTheme .
+nl:id_2356e73e9da8755a5b376d3f9e0f6387a8204985 ui:typingTime 0 .
+nl:id_2356e73e9da8755a5b376d3f9e0f6387a8204985 oa:annotatedAt "2016-06-04T16:39:08+02:00"^^xsd:dateTime .
+nl:id_2356e73e9da8755a5b376d3f9e0f6387a8204985 oa:annotatedBy user:paulinevandijk .
+nl:id_2356e73e9da8755a5b376d3f9e0f6387a8204985 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Simson wil zijn vrouw bezoeken. Simson en Delila. Dood van Simson" ] .
+nl:id_2356e73e9da8755a5b376d3f9e0f6387a8204985 oa:hasTarget ubvu:print-218010002010 .
+nl:id_2356e73e9da8755a5b376d3f9e0f6387a8204985 oa:motivatedBy oa:tagging .
+
 nl:id_2b8b6bc91b1ef5ff45efe56b60b57110818d246a a oa:Annotation .
 nl:id_2b8b6bc91b1ef5ff45efe56b60b57110818d246a terms:title "Simson" .
 nl:id_2b8b6bc91b1ef5ff45efe56b60b57110818d246a ui:annotationField bible:BibleCharacter .
