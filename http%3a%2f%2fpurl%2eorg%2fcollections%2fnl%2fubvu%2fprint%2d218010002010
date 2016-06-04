@@ -130,6 +130,17 @@ nl:id_b03c3510dfb85d032232170f66f1ef521222f6ec oa:hasTarget target:target_4a9fa3
 nl:id_b03c3510dfb85d032232170f66f1ef521222f6ec oa:hasTarget ubvu:print-218010002010 .
 nl:id_b03c3510dfb85d032232170f66f1ef521222f6ec oa:motivatedBy oa:tagging .
 
+nl:id_d8991a2ecefddeb9b086a9cee5822abfdda28122 a oa:Annotation .
+nl:id_d8991a2ecefddeb9b086a9cee5822abfdda28122 terms:title "Manoach" .
+nl:id_d8991a2ecefddeb9b086a9cee5822abfdda28122 ui:annotationField bible:BibleCharacter .
+nl:id_d8991a2ecefddeb9b086a9cee5822abfdda28122 ui:typingTime 0 .
+nl:id_d8991a2ecefddeb9b086a9cee5822abfdda28122 oa:annotatedAt "2016-06-04T16:25:33+02:00"^^xsd:dateTime .
+nl:id_d8991a2ecefddeb9b086a9cee5822abfdda28122 oa:annotatedBy user:paulinevandijk .
+nl:id_d8991a2ecefddeb9b086a9cee5822abfdda28122 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Manoach" ] .
+nl:id_d8991a2ecefddeb9b086a9cee5822abfdda28122 oa:hasTarget target:target_f6ecec2a090b35cd18c2b5bee01e3a7f793410e6 .
+nl:id_d8991a2ecefddeb9b086a9cee5822abfdda28122 oa:hasTarget ubvu:print-218010002010 .
+nl:id_d8991a2ecefddeb9b086a9cee5822abfdda28122 oa:motivatedBy oa:tagging .
+
 nl:id_dfb9bc59174ba22a88e8bb089c883d7459fe380e a oa:Annotation .
 nl:id_dfb9bc59174ba22a88e8bb089c883d7459fe380e terms:title "Samson takes the doors of the city-gate" .
 nl:id_dfb9bc59174ba22a88e8bb089c883d7459fe380e ui:annotationField bible:ICBibleTheme .
@@ -225,6 +236,14 @@ target:selector_f5097e7647787841e265946bb3e8eb0e870caa13 ui:x "0.115529912964910
 target:selector_f5097e7647787841e265946bb3e8eb0e870caa13 ui:y "0.36952411288531367"^^xsd:float .
 target:selector_f5097e7647787841e265946bb3e8eb0e870caa13 rdf:value "#xywh=percent:12,37,15,9" .
 
+target:selector_f6ecec2a090b35cd18c2b5bee01e3a7f793410e6 a oa:FragmentSelector .
+target:selector_f6ecec2a090b35cd18c2b5bee01e3a7f793410e6 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_f6ecec2a090b35cd18c2b5bee01e3a7f793410e6 ui:h "0.054388133498145856"^^xsd:float .
+target:selector_f6ecec2a090b35cd18c2b5bee01e3a7f793410e6 ui:w "0.0641025641025641"^^xsd:float .
+target:selector_f6ecec2a090b35cd18c2b5bee01e3a7f793410e6 ui:x "0.06666666666666667"^^xsd:float .
+target:selector_f6ecec2a090b35cd18c2b5bee01e3a7f793410e6 ui:y "0.13967861557478367"^^xsd:float .
+target:selector_f6ecec2a090b35cd18c2b5bee01e3a7f793410e6 rdf:value "#xywh=percent:7,14,6,5" .
+
 target:target_229df3fd3342a132ae5c4febb1abf17c7fcff18a a oa:SpecificResource .
 target:target_229df3fd3342a132ae5c4febb1abf17c7fcff18a oa:hasSelector target:selector_229df3fd3342a132ae5c4febb1abf17c7fcff18a .
 target:target_229df3fd3342a132ae5c4febb1abf17c7fcff18a oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/9> .
@@ -256,3 +275,7 @@ target:target_ae56ab184b4cef6a2ad27464e8634a29c818d73e oa:hasSource <http://imag
 target:target_f5097e7647787841e265946bb3e8eb0e870caa13 a oa:SpecificResource .
 target:target_f5097e7647787841e265946bb3e8eb0e870caa13 oa:hasSelector target:selector_f5097e7647787841e265946bb3e8eb0e870caa13 .
 target:target_f5097e7647787841e265946bb3e8eb0e870caa13 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/9> .
+
+target:target_f6ecec2a090b35cd18c2b5bee01e3a7f793410e6 a oa:SpecificResource .
+target:target_f6ecec2a090b35cd18c2b5bee01e3a7f793410e6 oa:hasSelector target:selector_f6ecec2a090b35cd18c2b5bee01e3a7f793410e6 .
+target:target_f6ecec2a090b35cd18c2b5bee01e3a7f793410e6 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/9> .
