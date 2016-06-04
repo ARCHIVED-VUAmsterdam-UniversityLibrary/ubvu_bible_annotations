@@ -76,6 +76,17 @@ nl:id_3590808e611b9de374c3bf3d11811f9a8af6f69b oa:hasTarget target:target_39984e
 nl:id_3590808e611b9de374c3bf3d11811f9a8af6f69b oa:hasTarget ubvu:print-218010002010 .
 nl:id_3590808e611b9de374c3bf3d11811f9a8af6f69b oa:motivatedBy oa:tagging .
 
+nl:id_37bd0a1d5b8fa3915fdeed91fdde01715baadd0a a oa:Annotation .
+nl:id_37bd0a1d5b8fa3915fdeed91fdde01715baadd0a terms:title "Simson" .
+nl:id_37bd0a1d5b8fa3915fdeed91fdde01715baadd0a ui:annotationField bible:BibleCharacter .
+nl:id_37bd0a1d5b8fa3915fdeed91fdde01715baadd0a ui:typingTime 0 .
+nl:id_37bd0a1d5b8fa3915fdeed91fdde01715baadd0a oa:annotatedAt "2016-06-04T16:35:50+02:00"^^xsd:dateTime .
+nl:id_37bd0a1d5b8fa3915fdeed91fdde01715baadd0a oa:annotatedBy user:paulinevandijk .
+nl:id_37bd0a1d5b8fa3915fdeed91fdde01715baadd0a oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Simson" ] .
+nl:id_37bd0a1d5b8fa3915fdeed91fdde01715baadd0a oa:hasTarget target:target_3584d081bb6304eb2930de0a897b0f17530024a5 .
+nl:id_37bd0a1d5b8fa3915fdeed91fdde01715baadd0a oa:hasTarget ubvu:print-218010002010 .
+nl:id_37bd0a1d5b8fa3915fdeed91fdde01715baadd0a oa:motivatedBy oa:tagging .
+
 nl:id_720eb17bfc51e7782592c5a11e5d7aba5e8441b6 a oa:Annotation .
 nl:id_720eb17bfc51e7782592c5a11e5d7aba5e8441b6 terms:title "Simson" .
 nl:id_720eb17bfc51e7782592c5a11e5d7aba5e8441b6 ui:annotationField bible:BibleCharacter .
