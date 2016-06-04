@@ -315,6 +315,16 @@ nl:id_f1a5e7e70d36d6c3df1766623e2fe78399a80da9 oa:hasTarget target:target_cbbe39
 nl:id_f1a5e7e70d36d6c3df1766623e2fe78399a80da9 oa:hasTarget ubvu:print-218010002010 .
 nl:id_f1a5e7e70d36d6c3df1766623e2fe78399a80da9 oa:motivatedBy oa:tagging .
 
+nl:id_f94a07e47067e4e7bf23766e5226f68ea52226c2 a oa:Annotation .
+nl:id_f94a07e47067e4e7bf23766e5226f68ea52226c2 terms:title "Aankondiging van de geboorte van Simson. Simsons huwelijk. " .
+nl:id_f94a07e47067e4e7bf23766e5226f68ea52226c2 ui:annotationField bible:ICBibleTheme .
+nl:id_f94a07e47067e4e7bf23766e5226f68ea52226c2 ui:typingTime 0 .
+nl:id_f94a07e47067e4e7bf23766e5226f68ea52226c2 oa:annotatedAt "2016-06-04T16:38:08+02:00"^^xsd:dateTime .
+nl:id_f94a07e47067e4e7bf23766e5226f68ea52226c2 oa:annotatedBy user:paulinevandijk .
+nl:id_f94a07e47067e4e7bf23766e5226f68ea52226c2 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Aankondiging van de geboorte van Simson. Simsons huwelijk. " ] .
+nl:id_f94a07e47067e4e7bf23766e5226f68ea52226c2 oa:hasTarget ubvu:print-218010002010 .
+nl:id_f94a07e47067e4e7bf23766e5226f68ea52226c2 oa:motivatedBy oa:tagging .
+
 nl:id_fbb37aeed04d0879427307577903cdca23b6469b a oa:Annotation .
 nl:id_fbb37aeed04d0879427307577903cdca23b6469b terms:title "Simson" .
 nl:id_fbb37aeed04d0879427307577903cdca23b6469b ui:annotationField bible:BibleCharacter .
