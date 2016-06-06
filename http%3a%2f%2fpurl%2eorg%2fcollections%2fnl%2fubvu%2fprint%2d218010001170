@@ -23,6 +23,16 @@ nl:id_3f77b8e9bb6746fe6c735fe49ddd61ec9bba91a5 oa:hasBody [ a content:ContentAsT
 nl:id_3f77b8e9bb6746fe6c735fe49ddd61ec9bba91a5 oa:hasTarget ubvu:print-218010001170 .
 nl:id_3f77b8e9bb6746fe6c735fe49ddd61ec9bba91a5 oa:motivatedBy oa:tagging .
 
+nl:id_ae6296e34b8593b1ed955620f2bb3e94534339e7 a oa:Annotation .
+nl:id_ae6296e34b8593b1ed955620f2bb3e94534339e7 terms:title "Farao geeft zijn zegelring aan Jozef" .
+nl:id_ae6296e34b8593b1ed955620f2bb3e94534339e7 ui:annotationField bible:ICBibleTheme .
+nl:id_ae6296e34b8593b1ed955620f2bb3e94534339e7 ui:typingTime 0 .
+nl:id_ae6296e34b8593b1ed955620f2bb3e94534339e7 oa:annotatedAt "2016-06-06T14:39:13+02:00"^^xsd:dateTime .
+nl:id_ae6296e34b8593b1ed955620f2bb3e94534339e7 oa:annotatedBy user:paulinevandijk .
+nl:id_ae6296e34b8593b1ed955620f2bb3e94534339e7 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Farao geeft zijn zegelring aan Jozef" ] .
+nl:id_ae6296e34b8593b1ed955620f2bb3e94534339e7 oa:hasTarget ubvu:print-218010001170 .
+nl:id_ae6296e34b8593b1ed955620f2bb3e94534339e7 oa:motivatedBy oa:tagging .
+
 nl:id_bb407963859763d325e1a70ba27e0b4272568fd5 a oa:Annotation .
 nl:id_bb407963859763d325e1a70ba27e0b4272568fd5 terms:title "Jozef (zoon van Jacob)" .
 nl:id_bb407963859763d325e1a70ba27e0b4272568fd5 ui:annotationField bible:BibleCharacter .
