@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -23,6 +24,17 @@ nl:id_54d81f915b04dea5124aab87c0be8b039602dad5 oa:hasTarget target:target_14b2fa
 nl:id_54d81f915b04dea5124aab87c0be8b039602dad5 oa:hasTarget ubvu:print-218010001445 .
 nl:id_54d81f915b04dea5124aab87c0be8b039602dad5 oa:motivatedBy oa:tagging .
 
+nl:id_576a059a3c85c9c2815655f07d696dcfd0457cf2 a oa:Annotation .
+nl:id_576a059a3c85c9c2815655f07d696dcfd0457cf2 terms:title "Samuel" .
+nl:id_576a059a3c85c9c2815655f07d696dcfd0457cf2 ui:annotationField bible:BibleCharacter .
+nl:id_576a059a3c85c9c2815655f07d696dcfd0457cf2 ui:typingTime 0 .
+nl:id_576a059a3c85c9c2815655f07d696dcfd0457cf2 oa:annotatedAt "2016-06-06T14:36:43+02:00"^^xsd:dateTime .
+nl:id_576a059a3c85c9c2815655f07d696dcfd0457cf2 oa:annotatedBy user:paulinevandijk .
+nl:id_576a059a3c85c9c2815655f07d696dcfd0457cf2 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Samuel" ] .
+nl:id_576a059a3c85c9c2815655f07d696dcfd0457cf2 oa:hasTarget target:target_af8144056695fb59ad658e850eb8f57cc09e5db2 .
+nl:id_576a059a3c85c9c2815655f07d696dcfd0457cf2 oa:hasTarget ubvu:print-218010001445 .
+nl:id_576a059a3c85c9c2815655f07d696dcfd0457cf2 oa:motivatedBy oa:tagging .
+
 nl:id_de3733d3b192be59ad9cc441a467c2abbc192fa4 a oa:Annotation .
 nl:id_de3733d3b192be59ad9cc441a467c2abbc192fa4 terms:title "Samuel calleth upon the Lord in the time of wheat harvest for rain" .
 nl:id_de3733d3b192be59ad9cc441a467c2abbc192fa4 ui:annotationField bible:ICBibleTheme .
@@ -41,6 +53,18 @@ target:selector_14b2fa51eb686bde731d8b90e967237c9d49eae7 ui:x "0.383505154639175
 target:selector_14b2fa51eb686bde731d8b90e967237c9d49eae7 ui:y "0.5352313167259787"^^xsd:float .
 target:selector_14b2fa51eb686bde731d8b90e967237c9d49eae7 rdf:value "#xywh=percent:38,54,23,33" .
 
+target:selector_af8144056695fb59ad658e850eb8f57cc09e5db2 a oa:FragmentSelector .
+target:selector_af8144056695fb59ad658e850eb8f57cc09e5db2 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_af8144056695fb59ad658e850eb8f57cc09e5db2 ui:h "0.2185053380782918"^^xsd:float .
+target:selector_af8144056695fb59ad658e850eb8f57cc09e5db2 ui:w "0.2907216494845361"^^xsd:float .
+target:selector_af8144056695fb59ad658e850eb8f57cc09e5db2 ui:x "0.2948453608247423"^^xsd:float .
+target:selector_af8144056695fb59ad658e850eb8f57cc09e5db2 ui:y "0.48825622775800714"^^xsd:float .
+target:selector_af8144056695fb59ad658e850eb8f57cc09e5db2 rdf:value "#xywh=percent:29,49,29,22" .
+
 target:target_14b2fa51eb686bde731d8b90e967237c9d49eae7 a oa:SpecificResource .
 target:target_14b2fa51eb686bde731d8b90e967237c9d49eae7 oa:hasSelector target:selector_14b2fa51eb686bde731d8b90e967237c9d49eae7 .
 target:target_14b2fa51eb686bde731d8b90e967237c9d49eae7 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/486> .
+
+target:target_af8144056695fb59ad658e850eb8f57cc09e5db2 a oa:SpecificResource .
+target:target_af8144056695fb59ad658e850eb8f57cc09e5db2 oa:hasSelector target:selector_af8144056695fb59ad658e850eb8f57cc09e5db2 .
+target:target_af8144056695fb59ad658e850eb8f57cc09e5db2 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/486> .
