@@ -45,6 +45,16 @@ nl:id_1e4cd3ac50cff9c29d1992a86e96b757d8f18c42 oa:hasBody [ a content:ContentAsT
 nl:id_1e4cd3ac50cff9c29d1992a86e96b757d8f18c42 oa:hasTarget ubvu:print-218010002012 .
 nl:id_1e4cd3ac50cff9c29d1992a86e96b757d8f18c42 oa:motivatedBy oa:tagging .
 
+nl:id_224b5191e05426d1ff202c0150149660be08ed19 a oa:Annotation .
+nl:id_224b5191e05426d1ff202c0150149660be08ed19 terms:title "Hanna brengt Samuel naar de tempel." .
+nl:id_224b5191e05426d1ff202c0150149660be08ed19 ui:annotationField bible:ICBibleTheme .
+nl:id_224b5191e05426d1ff202c0150149660be08ed19 ui:typingTime 0 .
+nl:id_224b5191e05426d1ff202c0150149660be08ed19 oa:annotatedAt "2016-06-06T14:25:12+02:00"^^xsd:dateTime .
+nl:id_224b5191e05426d1ff202c0150149660be08ed19 oa:annotatedBy user:paulinevandijk .
+nl:id_224b5191e05426d1ff202c0150149660be08ed19 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Hanna brengt Samuel naar de tempel." ] .
+nl:id_224b5191e05426d1ff202c0150149660be08ed19 oa:hasTarget ubvu:print-218010002012 .
+nl:id_224b5191e05426d1ff202c0150149660be08ed19 oa:motivatedBy oa:tagging .
+
 nl:id_40c76e3ca4bb1d568f304a4025783a396e9376b0 a oa:Annotation .
 nl:id_40c76e3ca4bb1d568f304a4025783a396e9376b0 terms:title "philistines brought the ark to Dagons Temple" .
 nl:id_40c76e3ca4bb1d568f304a4025783a396e9376b0 ui:annotationField bible:ICBibleTheme .
