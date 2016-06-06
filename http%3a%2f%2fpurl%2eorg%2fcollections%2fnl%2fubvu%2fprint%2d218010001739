@@ -44,6 +44,16 @@ nl:id_b46a2d1b84c57c673a219e338657f63697b0c1f8 oa:hasTarget target:target_9171e5
 nl:id_b46a2d1b84c57c673a219e338657f63697b0c1f8 oa:hasTarget ubvu:print-218010001739 .
 nl:id_b46a2d1b84c57c673a219e338657f63697b0c1f8 oa:motivatedBy oa:tagging .
 
+nl:id_c52ae6ee08671ec9352f1ac56fc62d656093922f a oa:Annotation .
+nl:id_c52ae6ee08671ec9352f1ac56fc62d656093922f terms:title "Jezus in gesprek met een Samaritaanse vrouw" .
+nl:id_c52ae6ee08671ec9352f1ac56fc62d656093922f ui:annotationField bible:ICBibleTheme .
+nl:id_c52ae6ee08671ec9352f1ac56fc62d656093922f ui:typingTime 0 .
+nl:id_c52ae6ee08671ec9352f1ac56fc62d656093922f oa:annotatedAt "2016-06-06T14:27:45+02:00"^^xsd:dateTime .
+nl:id_c52ae6ee08671ec9352f1ac56fc62d656093922f oa:annotatedBy user:paulinevandijk .
+nl:id_c52ae6ee08671ec9352f1ac56fc62d656093922f oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jezus in gesprek met een Samaritaanse vrouw" ] .
+nl:id_c52ae6ee08671ec9352f1ac56fc62d656093922f oa:hasTarget ubvu:print-218010001739 .
+nl:id_c52ae6ee08671ec9352f1ac56fc62d656093922f oa:motivatedBy oa:tagging .
+
 nl:id_d97b6494bfebc593a7a15825e62076500c860d25 a oa:Annotation .
 nl:id_d97b6494bfebc593a7a15825e62076500c860d25 terms:title "Ascension of Christ" .
 nl:id_d97b6494bfebc593a7a15825e62076500c860d25 ui:annotationField bible:ICBibleTheme .
