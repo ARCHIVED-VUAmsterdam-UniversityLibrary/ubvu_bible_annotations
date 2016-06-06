@@ -13,6 +13,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_0dcbe70c1d21b983e56d8390c1e6473f38627e1b a oa:Annotation .
+nl:id_0dcbe70c1d21b983e56d8390c1e6473f38627e1b terms:title "Jezus op bezoek bij Maria en Martha" .
+nl:id_0dcbe70c1d21b983e56d8390c1e6473f38627e1b ui:annotationField bible:ICBibleTheme .
+nl:id_0dcbe70c1d21b983e56d8390c1e6473f38627e1b ui:typingTime 0 .
+nl:id_0dcbe70c1d21b983e56d8390c1e6473f38627e1b oa:annotatedAt "2016-06-06T14:34:23+02:00"^^xsd:dateTime .
+nl:id_0dcbe70c1d21b983e56d8390c1e6473f38627e1b oa:annotatedBy user:paulinevandijk .
+nl:id_0dcbe70c1d21b983e56d8390c1e6473f38627e1b oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jezus op bezoek bij Maria en Martha" ] .
+nl:id_0dcbe70c1d21b983e56d8390c1e6473f38627e1b oa:hasTarget ubvu:print-218010001795 .
+nl:id_0dcbe70c1d21b983e56d8390c1e6473f38627e1b oa:motivatedBy oa:tagging .
+
 nl:id_4e7adc5ab40c593ad48f1e06a289afac022e9721 a oa:Annotation .
 nl:id_4e7adc5ab40c593ad48f1e06a289afac022e9721 terms:title "Martha complains to Christ about Mary" .
 nl:id_4e7adc5ab40c593ad48f1e06a289afac022e9721 ui:annotationField bible:ICBibleTheme .
