@@ -13,6 +13,17 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_15caffb8ecc20420b080683c1079aacb19f35860 a oa:Annotation .
+nl:id_15caffb8ecc20420b080683c1079aacb19f35860 terms:title "Samuel" .
+nl:id_15caffb8ecc20420b080683c1079aacb19f35860 ui:annotationField bible:BibleCharacter .
+nl:id_15caffb8ecc20420b080683c1079aacb19f35860 ui:typingTime 0 .
+nl:id_15caffb8ecc20420b080683c1079aacb19f35860 oa:annotatedAt "2016-06-06T14:21:14+02:00"^^xsd:dateTime .
+nl:id_15caffb8ecc20420b080683c1079aacb19f35860 oa:annotatedBy user:paulinevandijk .
+nl:id_15caffb8ecc20420b080683c1079aacb19f35860 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Samuel" ] .
+nl:id_15caffb8ecc20420b080683c1079aacb19f35860 oa:hasTarget target:target_849c6274f1d914a9b294fa4797eaa2650da99954 .
+nl:id_15caffb8ecc20420b080683c1079aacb19f35860 oa:hasTarget ubvu:print-218010002012 .
+nl:id_15caffb8ecc20420b080683c1079aacb19f35860 oa:motivatedBy oa:tagging .
+
 nl:id_1e4cd3ac50cff9c29d1992a86e96b757d8f18c42 a oa:Annotation .
 nl:id_1e4cd3ac50cff9c29d1992a86e96b757d8f18c42 terms:title "slaughting in beth semes" .
 nl:id_1e4cd3ac50cff9c29d1992a86e96b757d8f18c42 ui:annotationField bible:ICBibleTheme .
@@ -161,6 +172,14 @@ target:selector_70537dbf531fe0c092ef348b8727dccb94a6bd37 ui:x "0.536752136752136
 target:selector_70537dbf531fe0c092ef348b8727dccb94a6bd37 ui:y "0.12351135478713456"^^xsd:float .
 target:selector_70537dbf531fe0c092ef348b8727dccb94a6bd37 rdf:value "#xywh=percent:54,12,12,7" .
 
+target:selector_849c6274f1d914a9b294fa4797eaa2650da99954 a oa:FragmentSelector .
+target:selector_849c6274f1d914a9b294fa4797eaa2650da99954 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_849c6274f1d914a9b294fa4797eaa2650da99954 ui:h "0.026646928201332347"^^xsd:float .
+target:selector_849c6274f1d914a9b294fa4797eaa2650da99954 ui:w "0.07938144329896907"^^xsd:float .
+target:selector_849c6274f1d914a9b294fa4797eaa2650da99954 ui:x "0.1556701030927835"^^xsd:float .
+target:selector_849c6274f1d914a9b294fa4797eaa2650da99954 ui:y "0.15692079940784603"^^xsd:float .
+target:selector_849c6274f1d914a9b294fa4797eaa2650da99954 rdf:value "#xywh=percent:16,16,8,3" .
+
 target:target_17821970df5ab32535674b2afc3a719aa17d1a3a a oa:SpecificResource .
 target:target_17821970df5ab32535674b2afc3a719aa17d1a3a oa:hasSelector target:selector_17821970df5ab32535674b2afc3a719aa17d1a3a .
 target:target_17821970df5ab32535674b2afc3a719aa17d1a3a oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/11> .
@@ -172,3 +191,7 @@ target:target_4625b0778a8dc99753b737bbc060882480f4729d oa:hasSource <http://imag
 target:target_70537dbf531fe0c092ef348b8727dccb94a6bd37 a oa:SpecificResource .
 target:target_70537dbf531fe0c092ef348b8727dccb94a6bd37 oa:hasSelector target:selector_70537dbf531fe0c092ef348b8727dccb94a6bd37 .
 target:target_70537dbf531fe0c092ef348b8727dccb94a6bd37 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/11> .
+
+target:target_849c6274f1d914a9b294fa4797eaa2650da99954 a oa:SpecificResource .
+target:target_849c6274f1d914a9b294fa4797eaa2650da99954 oa:hasSelector target:selector_849c6274f1d914a9b294fa4797eaa2650da99954 .
+target:target_849c6274f1d914a9b294fa4797eaa2650da99954 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/11> .
