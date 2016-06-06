@@ -13,6 +13,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_082e6ccd698b0fa183070f6d2a0d5357b1c86cf2 a oa:Annotation .
+nl:id_082e6ccd698b0fa183070f6d2a0d5357b1c86cf2 terms:title "De roeping van Samuel" .
+nl:id_082e6ccd698b0fa183070f6d2a0d5357b1c86cf2 ui:annotationField bible:ICBibleTheme .
+nl:id_082e6ccd698b0fa183070f6d2a0d5357b1c86cf2 ui:typingTime 0 .
+nl:id_082e6ccd698b0fa183070f6d2a0d5357b1c86cf2 oa:annotatedAt "2016-06-06T14:25:22+02:00"^^xsd:dateTime .
+nl:id_082e6ccd698b0fa183070f6d2a0d5357b1c86cf2 oa:annotatedBy user:paulinevandijk .
+nl:id_082e6ccd698b0fa183070f6d2a0d5357b1c86cf2 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "De roeping van Samuel" ] .
+nl:id_082e6ccd698b0fa183070f6d2a0d5357b1c86cf2 oa:hasTarget ubvu:print-218010002012 .
+nl:id_082e6ccd698b0fa183070f6d2a0d5357b1c86cf2 oa:motivatedBy oa:tagging .
+
 nl:id_0ab445fa5da515e77e6761114110480495fa177e a oa:Annotation .
 nl:id_0ab445fa5da515e77e6761114110480495fa177e terms:title "Dagon" .
 nl:id_0ab445fa5da515e77e6761114110480495fa177e ui:annotationField bible:BibleCharacter .
