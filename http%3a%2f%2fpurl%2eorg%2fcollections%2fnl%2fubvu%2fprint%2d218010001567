@@ -46,6 +46,16 @@ nl:id_9f13548b4a1c74a23270f98342253732d127b83c oa:hasTarget target:target_f9da9f
 nl:id_9f13548b4a1c74a23270f98342253732d127b83c oa:hasTarget ubvu:print-218010001567 .
 nl:id_9f13548b4a1c74a23270f98342253732d127b83c oa:motivatedBy oa:tagging .
 
+nl:id_d15573baa6f73c4e9eee021c49270143bf9362c9 a oa:Annotation .
+nl:id_d15573baa6f73c4e9eee021c49270143bf9362c9 terms:title "De roeping van Jesaja" .
+nl:id_d15573baa6f73c4e9eee021c49270143bf9362c9 ui:annotationField bible:ICBibleTheme .
+nl:id_d15573baa6f73c4e9eee021c49270143bf9362c9 ui:typingTime 0 .
+nl:id_d15573baa6f73c4e9eee021c49270143bf9362c9 oa:annotatedAt "2016-06-06T14:18:28+02:00"^^xsd:dateTime .
+nl:id_d15573baa6f73c4e9eee021c49270143bf9362c9 oa:annotatedBy user:paulinevandijk .
+nl:id_d15573baa6f73c4e9eee021c49270143bf9362c9 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "De roeping van Jesaja" ] .
+nl:id_d15573baa6f73c4e9eee021c49270143bf9362c9 oa:hasTarget ubvu:print-218010001567 .
+nl:id_d15573baa6f73c4e9eee021c49270143bf9362c9 oa:motivatedBy oa:tagging .
+
 nl:id_e16097a675375ba286856edb814e1d2eedcd17a0 a oa:Annotation .
 nl:id_e16097a675375ba286856edb814e1d2eedcd17a0 terms:title "Heere" .
 nl:id_e16097a675375ba286856edb814e1d2eedcd17a0 ui:annotationField bible:BibleCharacter .
