@@ -23,6 +23,16 @@ nl:id_693e8ef9a93ddb6f803aa5ef410ab3b812f7600d oa:hasBody [ a content:ContentAsT
 nl:id_693e8ef9a93ddb6f803aa5ef410ab3b812f7600d oa:hasTarget ubvu:print-218010001303 .
 nl:id_693e8ef9a93ddb6f803aa5ef410ab3b812f7600d oa:motivatedBy oa:tagging .
 
+nl:id_70db349e08cdca5e401e709df0a3b0d18ef74d3b a oa:Annotation .
+nl:id_70db349e08cdca5e401e709df0a3b0d18ef74d3b terms:title "De veroverde gouden voorwerpen van de Midjanieten" .
+nl:id_70db349e08cdca5e401e709df0a3b0d18ef74d3b ui:annotationField bible:ICBibleTheme .
+nl:id_70db349e08cdca5e401e709df0a3b0d18ef74d3b ui:typingTime 0 .
+nl:id_70db349e08cdca5e401e709df0a3b0d18ef74d3b oa:annotatedAt "2016-06-06T14:32:08+02:00"^^xsd:dateTime .
+nl:id_70db349e08cdca5e401e709df0a3b0d18ef74d3b oa:annotatedBy user:paulinevandijk .
+nl:id_70db349e08cdca5e401e709df0a3b0d18ef74d3b oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "De veroverde gouden voorwerpen van de Midjanieten" ] .
+nl:id_70db349e08cdca5e401e709df0a3b0d18ef74d3b oa:hasTarget ubvu:print-218010001303 .
+nl:id_70db349e08cdca5e401e709df0a3b0d18ef74d3b oa:motivatedBy oa:tagging .
+
 nl:id_94d23471f1f3a802bbd4968ba554aa9aa847a176 a oa:Annotation .
 nl:id_94d23471f1f3a802bbd4968ba554aa9aa847a176 terms:title "Eleazar" .
 nl:id_94d23471f1f3a802bbd4968ba554aa9aa847a176 ui:annotationField bible:BibleCharacter .
