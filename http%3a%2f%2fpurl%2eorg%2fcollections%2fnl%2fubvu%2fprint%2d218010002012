@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -74,6 +75,17 @@ nl:id_a307ad732da14cb1e68b3407a8c3b7de69b443d3 oa:hasBody [ a content:ContentAsT
 nl:id_a307ad732da14cb1e68b3407a8c3b7de69b443d3 oa:hasTarget ubvu:print-218010002012 .
 nl:id_a307ad732da14cb1e68b3407a8c3b7de69b443d3 oa:motivatedBy oa:tagging .
 
+nl:id_c2883a1033407610f59a71112b25d498e1cc5b2b a oa:Annotation .
+nl:id_c2883a1033407610f59a71112b25d498e1cc5b2b terms:title "Hanna" .
+nl:id_c2883a1033407610f59a71112b25d498e1cc5b2b ui:annotationField bible:BibleCharacter .
+nl:id_c2883a1033407610f59a71112b25d498e1cc5b2b ui:typingTime 0 .
+nl:id_c2883a1033407610f59a71112b25d498e1cc5b2b oa:annotatedAt "2016-06-06T14:20:53+02:00"^^xsd:dateTime .
+nl:id_c2883a1033407610f59a71112b25d498e1cc5b2b oa:annotatedBy user:paulinevandijk .
+nl:id_c2883a1033407610f59a71112b25d498e1cc5b2b oa:hasBody resource:Hannah .
+nl:id_c2883a1033407610f59a71112b25d498e1cc5b2b oa:hasTarget target:target_4625b0778a8dc99753b737bbc060882480f4729d .
+nl:id_c2883a1033407610f59a71112b25d498e1cc5b2b oa:hasTarget ubvu:print-218010002012 .
+nl:id_c2883a1033407610f59a71112b25d498e1cc5b2b oa:motivatedBy oa:tagging .
+
 nl:id_c74508fafdf9a5e499cf658b4585bc64c01a7aa4 a oa:Annotation .
 nl:id_c74508fafdf9a5e499cf658b4585bc64c01a7aa4 terms:title "head of Dagon fallen to the ground" .
 nl:id_c74508fafdf9a5e499cf658b4585bc64c01a7aa4 ui:annotationField bible:ICBibleTheme .
@@ -114,6 +126,14 @@ nl:id_fd04341c50f4ef95b50e549b4c052b018554b6e3 oa:hasBody [ a content:ContentAsT
 nl:id_fd04341c50f4ef95b50e549b4c052b018554b6e3 oa:hasTarget ubvu:print-218010002012 .
 nl:id_fd04341c50f4ef95b50e549b4c052b018554b6e3 oa:motivatedBy oa:tagging .
 
+target:selector_4625b0778a8dc99753b737bbc060882480f4729d a oa:FragmentSelector .
+target:selector_4625b0778a8dc99753b737bbc060882480f4729d terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_4625b0778a8dc99753b737bbc060882480f4729d ui:h "0.05181347150259067"^^xsd:float .
+target:selector_4625b0778a8dc99753b737bbc060882480f4729d ui:w "0.05463917525773196"^^xsd:float .
+target:selector_4625b0778a8dc99753b737bbc060882480f4729d ui:x "0.22061855670103092"^^xsd:float .
+target:selector_4625b0778a8dc99753b737bbc060882480f4729d ui:y "0.1073279052553664"^^xsd:float .
+target:selector_4625b0778a8dc99753b737bbc060882480f4729d rdf:value "#xywh=percent:22,11,5,5" .
+
 target:selector_70537dbf531fe0c092ef348b8727dccb94a6bd37 a oa:FragmentSelector .
 target:selector_70537dbf531fe0c092ef348b8727dccb94a6bd37 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_70537dbf531fe0c092ef348b8727dccb94a6bd37 ui:h "0.07120932151087228"^^xsd:float .
@@ -121,6 +141,10 @@ target:selector_70537dbf531fe0c092ef348b8727dccb94a6bd37 ui:w "0.115384615384615
 target:selector_70537dbf531fe0c092ef348b8727dccb94a6bd37 ui:x "0.5367521367521367"^^xsd:float .
 target:selector_70537dbf531fe0c092ef348b8727dccb94a6bd37 ui:y "0.12351135478713456"^^xsd:float .
 target:selector_70537dbf531fe0c092ef348b8727dccb94a6bd37 rdf:value "#xywh=percent:54,12,12,7" .
+
+target:target_4625b0778a8dc99753b737bbc060882480f4729d a oa:SpecificResource .
+target:target_4625b0778a8dc99753b737bbc060882480f4729d oa:hasSelector target:selector_4625b0778a8dc99753b737bbc060882480f4729d .
+target:target_4625b0778a8dc99753b737bbc060882480f4729d oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/11> .
 
 target:target_70537dbf531fe0c092ef348b8727dccb94a6bd37 a oa:SpecificResource .
 target:target_70537dbf531fe0c092ef348b8727dccb94a6bd37 oa:hasSelector target:selector_70537dbf531fe0c092ef348b8727dccb94a6bd37 .
