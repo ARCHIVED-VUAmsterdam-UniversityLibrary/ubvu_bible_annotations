@@ -35,6 +35,16 @@ nl:id_576a059a3c85c9c2815655f07d696dcfd0457cf2 oa:hasTarget target:target_af8144
 nl:id_576a059a3c85c9c2815655f07d696dcfd0457cf2 oa:hasTarget ubvu:print-218010001445 .
 nl:id_576a059a3c85c9c2815655f07d696dcfd0457cf2 oa:motivatedBy oa:tagging .
 
+nl:id_d257d56bfd52056076863a300cb381106e98074b a oa:Annotation .
+nl:id_d257d56bfd52056076863a300cb381106e98074b terms:title "Samuel bidt God om regen" .
+nl:id_d257d56bfd52056076863a300cb381106e98074b ui:annotationField bible:ICBibleTheme .
+nl:id_d257d56bfd52056076863a300cb381106e98074b ui:typingTime 0 .
+nl:id_d257d56bfd52056076863a300cb381106e98074b oa:annotatedAt "2016-06-06T14:37:16+02:00"^^xsd:dateTime .
+nl:id_d257d56bfd52056076863a300cb381106e98074b oa:annotatedBy user:paulinevandijk .
+nl:id_d257d56bfd52056076863a300cb381106e98074b oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Samuel bidt God om regen" ] .
+nl:id_d257d56bfd52056076863a300cb381106e98074b oa:hasTarget ubvu:print-218010001445 .
+nl:id_d257d56bfd52056076863a300cb381106e98074b oa:motivatedBy oa:tagging .
+
 nl:id_de3733d3b192be59ad9cc441a467c2abbc192fa4 a oa:Annotation .
 nl:id_de3733d3b192be59ad9cc441a467c2abbc192fa4 terms:title "Samuel calleth upon the Lord in the time of wheat harvest for rain" .
 nl:id_de3733d3b192be59ad9cc441a467c2abbc192fa4 ui:annotationField bible:ICBibleTheme .
