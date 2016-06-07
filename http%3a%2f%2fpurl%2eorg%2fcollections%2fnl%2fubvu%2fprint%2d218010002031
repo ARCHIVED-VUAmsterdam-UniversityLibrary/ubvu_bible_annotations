@@ -99,6 +99,17 @@ nl:id_e5b3840780b09be07f8dc850019ee3c4211d7600 oa:hasBody [ a content:ContentAsT
 nl:id_e5b3840780b09be07f8dc850019ee3c4211d7600 oa:hasTarget ubvu:print-218010002031 .
 nl:id_e5b3840780b09be07f8dc850019ee3c4211d7600 oa:motivatedBy oa:tagging .
 
+nl:id_fdc51d01e8661f24287eef733196d973726bad20 a oa:Annotation .
+nl:id_fdc51d01e8661f24287eef733196d973726bad20 terms:title "Maria (moeder van Jezus Christus))" .
+nl:id_fdc51d01e8661f24287eef733196d973726bad20 ui:annotationField bible:BibleCharacter .
+nl:id_fdc51d01e8661f24287eef733196d973726bad20 ui:typingTime 0 .
+nl:id_fdc51d01e8661f24287eef733196d973726bad20 oa:annotatedAt "2016-06-07T14:22:45+02:00"^^xsd:dateTime .
+nl:id_fdc51d01e8661f24287eef733196d973726bad20 oa:annotatedBy user:paulinevandijk .
+nl:id_fdc51d01e8661f24287eef733196d973726bad20 oa:hasBody resource:Mary_Mother_of_Jesus .
+nl:id_fdc51d01e8661f24287eef733196d973726bad20 oa:hasTarget target:target_ef1984fd74146be8586f675c550ce68396567e52 .
+nl:id_fdc51d01e8661f24287eef733196d973726bad20 oa:hasTarget ubvu:print-218010002031 .
+nl:id_fdc51d01e8661f24287eef733196d973726bad20 oa:motivatedBy oa:tagging .
+
 target:selector_010b42939ddd9cf2e85761147724c44e726fe788 a oa:FragmentSelector .
 target:selector_010b42939ddd9cf2e85761147724c44e726fe788 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_010b42939ddd9cf2e85761147724c44e726fe788 ui:h "0.08771929824561403"^^xsd:float .
@@ -147,6 +158,14 @@ target:selector_e7ccdaa44a35cb19a4dfe700d78f2d12383dae5a ui:x "0.295726495726495
 target:selector_e7ccdaa44a35cb19a4dfe700d78f2d12383dae5a ui:y "0.5899310032480952"^^xsd:float .
 target:selector_e7ccdaa44a35cb19a4dfe700d78f2d12383dae5a rdf:value "#xywh=percent:30,59,28,8" .
 
+target:selector_ef1984fd74146be8586f675c550ce68396567e52 a oa:FragmentSelector .
+target:selector_ef1984fd74146be8586f675c550ce68396567e52 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_ef1984fd74146be8586f675c550ce68396567e52 ui:h "0.09084604715672677"^^xsd:float .
+target:selector_ef1984fd74146be8586f675c550ce68396567e52 ui:w "0.0731958762886598"^^xsd:float .
+target:selector_ef1984fd74146be8586f675c550ce68396567e52 ui:x "0.5855670103092784"^^xsd:float .
+target:selector_ef1984fd74146be8586f675c550ce68396567e52 ui:y "0.49029126213592233"^^xsd:float .
+target:selector_ef1984fd74146be8586f675c550ce68396567e52 rdf:value "#xywh=percent:59,49,7,9" .
+
 target:target_010b42939ddd9cf2e85761147724c44e726fe788 a oa:SpecificResource .
 target:target_010b42939ddd9cf2e85761147724c44e726fe788 oa:hasSelector target:selector_010b42939ddd9cf2e85761147724c44e726fe788 .
 target:target_010b42939ddd9cf2e85761147724c44e726fe788 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/30> .
@@ -170,3 +189,7 @@ target:target_b002b77ac2360efe5dc0306a47f4f20f750a1235 oa:hasSource <http://imag
 target:target_e7ccdaa44a35cb19a4dfe700d78f2d12383dae5a a oa:SpecificResource .
 target:target_e7ccdaa44a35cb19a4dfe700d78f2d12383dae5a oa:hasSelector target:selector_e7ccdaa44a35cb19a4dfe700d78f2d12383dae5a .
 target:target_e7ccdaa44a35cb19a4dfe700d78f2d12383dae5a oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/30> .
+
+target:target_ef1984fd74146be8586f675c550ce68396567e52 a oa:SpecificResource .
+target:target_ef1984fd74146be8586f675c550ce68396567e52 oa:hasSelector target:selector_ef1984fd74146be8586f675c550ce68396567e52 .
+target:target_ef1984fd74146be8586f675c550ce68396567e52 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/30> .
