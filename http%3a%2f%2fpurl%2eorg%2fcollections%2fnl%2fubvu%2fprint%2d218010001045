@@ -10,6 +10,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_3b04d25d335f52bc02279777562242d90373aa53 a oa:Annotation .
+nl:id_3b04d25d335f52bc02279777562242d90373aa53 terms:title "De verdorven wereld" .
+nl:id_3b04d25d335f52bc02279777562242d90373aa53 ui:annotationField bible:ICBibleTheme .
+nl:id_3b04d25d335f52bc02279777562242d90373aa53 ui:typingTime 0 .
+nl:id_3b04d25d335f52bc02279777562242d90373aa53 oa:annotatedAt "2016-06-07T14:19:03+02:00"^^xsd:dateTime .
+nl:id_3b04d25d335f52bc02279777562242d90373aa53 oa:annotatedBy user:paulinevandijk .
+nl:id_3b04d25d335f52bc02279777562242d90373aa53 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "De verdorven wereld" ] .
+nl:id_3b04d25d335f52bc02279777562242d90373aa53 oa:hasTarget ubvu:print-218010001045 .
+nl:id_3b04d25d335f52bc02279777562242d90373aa53 oa:motivatedBy oa:tagging .
+
 nl:id_67798df3407f5969d4a697f05ea5ed4798969e7a a oa:Annotation .
 nl:id_67798df3407f5969d4a697f05ea5ed4798969e7a terms:title "The earth was corrupt before God and filled with violance" .
 nl:id_67798df3407f5969d4a697f05ea5ed4798969e7a ui:annotationField bible:ICBibleTheme .
