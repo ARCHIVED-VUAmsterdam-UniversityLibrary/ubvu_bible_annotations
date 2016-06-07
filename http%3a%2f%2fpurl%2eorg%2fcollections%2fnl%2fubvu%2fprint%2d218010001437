@@ -35,6 +35,16 @@ nl:id_75e6d10484941d75d873f2253d754983bbb937cd oa:hasTarget target:target_3a06da
 nl:id_75e6d10484941d75d873f2253d754983bbb937cd oa:hasTarget ubvu:print-218010001437 .
 nl:id_75e6d10484941d75d873f2253d754983bbb937cd oa:motivatedBy oa:tagging .
 
+nl:id_cb5923d47c663fd69aa080582cea404a4992e85b a oa:Annotation .
+nl:id_cb5923d47c663fd69aa080582cea404a4992e85b terms:title "Saul onder de profeten" .
+nl:id_cb5923d47c663fd69aa080582cea404a4992e85b ui:annotationField bible:ICBibleTheme .
+nl:id_cb5923d47c663fd69aa080582cea404a4992e85b ui:typingTime 0 .
+nl:id_cb5923d47c663fd69aa080582cea404a4992e85b oa:annotatedAt "2016-06-07T14:20:09+02:00"^^xsd:dateTime .
+nl:id_cb5923d47c663fd69aa080582cea404a4992e85b oa:annotatedBy user:paulinevandijk .
+nl:id_cb5923d47c663fd69aa080582cea404a4992e85b oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Saul onder de profeten" ] .
+nl:id_cb5923d47c663fd69aa080582cea404a4992e85b oa:hasTarget ubvu:print-218010001437 .
+nl:id_cb5923d47c663fd69aa080582cea404a4992e85b oa:motivatedBy oa:tagging .
+
 nl:id_f2051bbffe91af9af2dadb501ae9511a0130d17b a oa:Annotation .
 nl:id_f2051bbffe91af9af2dadb501ae9511a0130d17b terms:title "Saul among the prophets" .
 nl:id_f2051bbffe91af9af2dadb501ae9511a0130d17b ui:annotationField bible:ICBibleTheme .
