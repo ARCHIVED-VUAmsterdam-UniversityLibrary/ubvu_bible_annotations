@@ -33,6 +33,16 @@ nl:id_405bb65ec62f66897cba8f9383a8f3e360fea115 oa:hasBody [ a content:ContentAsT
 nl:id_405bb65ec62f66897cba8f9383a8f3e360fea115 oa:hasTarget ubvu:print-218010001517 .
 nl:id_405bb65ec62f66897cba8f9383a8f3e360fea115 oa:motivatedBy oa:tagging .
 
+nl:id_c31e15bcff6a1495354fb811bd697c019d27c5d5 a oa:Annotation .
+nl:id_c31e15bcff6a1495354fb811bd697c019d27c5d5 terms:title "Hemelvaart van Elia" .
+nl:id_c31e15bcff6a1495354fb811bd697c019d27c5d5 ui:annotationField bible:ICBibleTheme .
+nl:id_c31e15bcff6a1495354fb811bd697c019d27c5d5 ui:typingTime 0 .
+nl:id_c31e15bcff6a1495354fb811bd697c019d27c5d5 oa:annotatedAt "2016-06-07T14:18:10+02:00"^^xsd:dateTime .
+nl:id_c31e15bcff6a1495354fb811bd697c019d27c5d5 oa:annotatedBy user:paulinevandijk .
+nl:id_c31e15bcff6a1495354fb811bd697c019d27c5d5 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Hemelvaart van Elia" ] .
+nl:id_c31e15bcff6a1495354fb811bd697c019d27c5d5 oa:hasTarget ubvu:print-218010001517 .
+nl:id_c31e15bcff6a1495354fb811bd697c019d27c5d5 oa:motivatedBy oa:tagging .
+
 target:selector_c0a6ff8cb6e436191f9e7349927a5eb406975e63 a oa:FragmentSelector .
 target:selector_c0a6ff8cb6e436191f9e7349927a5eb406975e63 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_c0a6ff8cb6e436191f9e7349927a5eb406975e63 ui:h "0.2720897615708275"^^xsd:float .
