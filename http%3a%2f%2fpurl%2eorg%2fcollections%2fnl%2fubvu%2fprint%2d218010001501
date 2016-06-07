@@ -12,6 +12,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_4c9352dd57abcb3db4d8bcd1984c2fcc98f2758a a oa:Annotation .
+nl:id_4c9352dd57abcb3db4d8bcd1984c2fcc98f2758a terms:title "Oordeel van Salomo over het dode kind" .
+nl:id_4c9352dd57abcb3db4d8bcd1984c2fcc98f2758a ui:annotationField bible:ICBibleTheme .
+nl:id_4c9352dd57abcb3db4d8bcd1984c2fcc98f2758a ui:typingTime 0 .
+nl:id_4c9352dd57abcb3db4d8bcd1984c2fcc98f2758a oa:annotatedAt "2016-06-07T14:35:47+02:00"^^xsd:dateTime .
+nl:id_4c9352dd57abcb3db4d8bcd1984c2fcc98f2758a oa:annotatedBy user:paulinevandijk .
+nl:id_4c9352dd57abcb3db4d8bcd1984c2fcc98f2758a oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Oordeel van Salomo over het dode kind" ] .
+nl:id_4c9352dd57abcb3db4d8bcd1984c2fcc98f2758a oa:hasTarget ubvu:print-218010001501 .
+nl:id_4c9352dd57abcb3db4d8bcd1984c2fcc98f2758a oa:motivatedBy oa:tagging .
+
 nl:id_a730f4e0ac72ef1ea17a546ca9f4daf68117dea7 a oa:Annotation .
 nl:id_a730f4e0ac72ef1ea17a546ca9f4daf68117dea7 terms:title "-" .
 nl:id_a730f4e0ac72ef1ea17a546ca9f4daf68117dea7 ui:annotationField bible:ICBibleTheme .
