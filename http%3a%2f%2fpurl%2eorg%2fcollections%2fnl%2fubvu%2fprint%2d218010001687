@@ -23,6 +23,16 @@ nl:id_086abc0a1ffed7af5cedc237ddc5772ad77452a8 oa:hasBody [ a content:ContentAsT
 nl:id_086abc0a1ffed7af5cedc237ddc5772ad77452a8 oa:hasTarget ubvu:print-218010001687 .
 nl:id_086abc0a1ffed7af5cedc237ddc5772ad77452a8 oa:motivatedBy oa:tagging .
 
+nl:id_0a586207e81a847efc1708f6c9a1c819a743c155 a oa:Annotation .
+nl:id_0a586207e81a847efc1708f6c9a1c819a743c155 terms:title "De vlucht voor Herodus" .
+nl:id_0a586207e81a847efc1708f6c9a1c819a743c155 ui:annotationField bible:ICBibleTheme .
+nl:id_0a586207e81a847efc1708f6c9a1c819a743c155 ui:typingTime 0 .
+nl:id_0a586207e81a847efc1708f6c9a1c819a743c155 oa:annotatedAt "2016-06-07T14:34:08+02:00"^^xsd:dateTime .
+nl:id_0a586207e81a847efc1708f6c9a1c819a743c155 oa:annotatedBy user:paulinevandijk .
+nl:id_0a586207e81a847efc1708f6c9a1c819a743c155 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "De vlucht voor Herodus" ] .
+nl:id_0a586207e81a847efc1708f6c9a1c819a743c155 oa:hasTarget ubvu:print-218010001687 .
+nl:id_0a586207e81a847efc1708f6c9a1c819a743c155 oa:motivatedBy oa:tagging .
+
 nl:id_0f655883eb1f6f7d7a769c32d03c02c83f9ba859 a oa:Annotation .
 nl:id_0f655883eb1f6f7d7a769c32d03c02c83f9ba859 terms:title "Jozef (man van Maria)" .
 nl:id_0f655883eb1f6f7d7a769c32d03c02c83f9ba859 ui:annotationField bible:BibleCharacter .
