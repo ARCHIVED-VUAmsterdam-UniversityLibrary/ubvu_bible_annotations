@@ -142,6 +142,16 @@ nl:id_c1902db1de1b41958fc371afc216cf6fc104228f oa:hasTarget target:target_010b42
 nl:id_c1902db1de1b41958fc371afc216cf6fc104228f oa:hasTarget ubvu:print-218010002031 .
 nl:id_c1902db1de1b41958fc371afc216cf6fc104228f oa:motivatedBy oa:tagging .
 
+nl:id_e2369a6dc48a326abc574ba9c5fa10c882befbb3 a oa:Annotation .
+nl:id_e2369a6dc48a326abc574ba9c5fa10c882befbb3 terms:title "Vlucht voor Herodes" .
+nl:id_e2369a6dc48a326abc574ba9c5fa10c882befbb3 ui:annotationField bible:ICBibleTheme .
+nl:id_e2369a6dc48a326abc574ba9c5fa10c882befbb3 ui:typingTime 0 .
+nl:id_e2369a6dc48a326abc574ba9c5fa10c882befbb3 oa:annotatedAt "2016-06-07T14:26:06+02:00"^^xsd:dateTime .
+nl:id_e2369a6dc48a326abc574ba9c5fa10c882befbb3 oa:annotatedBy user:paulinevandijk .
+nl:id_e2369a6dc48a326abc574ba9c5fa10c882befbb3 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Vlucht voor Herodes" ] .
+nl:id_e2369a6dc48a326abc574ba9c5fa10c882befbb3 oa:hasTarget ubvu:print-218010002031 .
+nl:id_e2369a6dc48a326abc574ba9c5fa10c882befbb3 oa:motivatedBy oa:tagging .
+
 nl:id_e5b3840780b09be07f8dc850019ee3c4211d7600 a oa:Annotation .
 nl:id_e5b3840780b09be07f8dc850019ee3c4211d7600 terms:title "Birth of Christ and the kings from the East" .
 nl:id_e5b3840780b09be07f8dc850019ee3c4211d7600 ui:annotationField bible:ICBibleTheme .
