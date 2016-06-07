@@ -68,6 +68,16 @@ nl:id_9ba177d42e8e0bb67033ae53befbaa932814cd8a oa:hasTarget target:target_d7f94b
 nl:id_9ba177d42e8e0bb67033ae53befbaa932814cd8a oa:hasTarget ubvu:print-218010001555 .
 nl:id_9ba177d42e8e0bb67033ae53befbaa932814cd8a oa:motivatedBy oa:tagging .
 
+nl:id_9f553c3a6867cc54daaef0a7a533d5e4b15f84d6 a oa:Annotation .
+nl:id_9f553c3a6867cc54daaef0a7a533d5e4b15f84d6 terms:title "Ahasveros geeft Mordechai de zegelring" .
+nl:id_9f553c3a6867cc54daaef0a7a533d5e4b15f84d6 ui:annotationField bible:ICBibleTheme .
+nl:id_9f553c3a6867cc54daaef0a7a533d5e4b15f84d6 ui:typingTime 0 .
+nl:id_9f553c3a6867cc54daaef0a7a533d5e4b15f84d6 oa:annotatedAt "2016-06-07T14:32:33+02:00"^^xsd:dateTime .
+nl:id_9f553c3a6867cc54daaef0a7a533d5e4b15f84d6 oa:annotatedBy user:paulinevandijk .
+nl:id_9f553c3a6867cc54daaef0a7a533d5e4b15f84d6 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Ahasveros geeft Mordechai de zegelring" ] .
+nl:id_9f553c3a6867cc54daaef0a7a533d5e4b15f84d6 oa:hasTarget ubvu:print-218010001555 .
+nl:id_9f553c3a6867cc54daaef0a7a533d5e4b15f84d6 oa:motivatedBy oa:tagging .
+
 target:selector_0f4d81599deaaa8d4fe21e2d193f3b40355c2b00 a oa:FragmentSelector .
 target:selector_0f4d81599deaaa8d4fe21e2d193f3b40355c2b00 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_0f4d81599deaaa8d4fe21e2d193f3b40355c2b00 ui:h "0.1868439468159552"^^xsd:float .
