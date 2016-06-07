@@ -65,6 +65,16 @@ nl:id_b63b1f72a7f87cb378e9170431c777eac7882247 oa:hasTarget target:target_9e524d
 nl:id_b63b1f72a7f87cb378e9170431c777eac7882247 oa:hasTarget ubvu:print-218010001195 .
 nl:id_b63b1f72a7f87cb378e9170431c777eac7882247 oa:motivatedBy oa:tagging .
 
+nl:id_f35bb2a7025bb5250f27a650d621618e4b25694f a oa:Annotation .
+nl:id_f35bb2a7025bb5250f27a650d621618e4b25694f terms:title "Mozes uit het water gehaald." .
+nl:id_f35bb2a7025bb5250f27a650d621618e4b25694f ui:annotationField bible:ICBibleTheme .
+nl:id_f35bb2a7025bb5250f27a650d621618e4b25694f ui:typingTime 0 .
+nl:id_f35bb2a7025bb5250f27a650d621618e4b25694f oa:annotatedAt "2016-06-07T14:13:20+02:00"^^xsd:dateTime .
+nl:id_f35bb2a7025bb5250f27a650d621618e4b25694f oa:annotatedBy user:paulinevandijk .
+nl:id_f35bb2a7025bb5250f27a650d621618e4b25694f oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Mozes uit het water gehaald." ] .
+nl:id_f35bb2a7025bb5250f27a650d621618e4b25694f oa:hasTarget ubvu:print-218010001195 .
+nl:id_f35bb2a7025bb5250f27a650d621618e4b25694f oa:motivatedBy oa:tagging .
+
 target:selector_9e524dae9e73f43579b64cd59c6bc3eee458e924 a oa:FragmentSelector .
 target:selector_9e524dae9e73f43579b64cd59c6bc3eee458e924 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_9e524dae9e73f43579b64cd59c6bc3eee458e924 ui:h "0.06236860546601261"^^xsd:float .
