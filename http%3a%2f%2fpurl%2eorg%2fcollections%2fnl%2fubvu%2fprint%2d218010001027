@@ -56,6 +56,17 @@ nl:id_44fec78b5cf6eb5fc41491ca490bdd00dc164440 oa:hasBody [ a content:ContentAsT
 nl:id_44fec78b5cf6eb5fc41491ca490bdd00dc164440 oa:hasTarget ubvu:print-218010001027 .
 nl:id_44fec78b5cf6eb5fc41491ca490bdd00dc164440 oa:motivatedBy oa:tagging .
 
+nl:id_59f89227337ae19f27350d68f8d11d8195690c7b a oa:Annotation .
+nl:id_59f89227337ae19f27350d68f8d11d8195690c7b terms:title "Eva" .
+nl:id_59f89227337ae19f27350d68f8d11d8195690c7b ui:annotationField bible:BibleCharacter .
+nl:id_59f89227337ae19f27350d68f8d11d8195690c7b ui:typingTime 0 .
+nl:id_59f89227337ae19f27350d68f8d11d8195690c7b oa:annotatedAt "2016-06-07T14:17:06+02:00"^^xsd:dateTime .
+nl:id_59f89227337ae19f27350d68f8d11d8195690c7b oa:annotatedBy user:paulinevandijk .
+nl:id_59f89227337ae19f27350d68f8d11d8195690c7b oa:hasBody resource:Eve .
+nl:id_59f89227337ae19f27350d68f8d11d8195690c7b oa:hasTarget target:target_a044df9d75f2d0166bb16d37e28daf21c51747e7 .
+nl:id_59f89227337ae19f27350d68f8d11d8195690c7b oa:hasTarget ubvu:print-218010001027 .
+nl:id_59f89227337ae19f27350d68f8d11d8195690c7b oa:motivatedBy oa:tagging .
+
 nl:id_67c56d12b60e4405389c985a78bb626ce6a5ed0c a oa:Annotation .
 nl:id_67c56d12b60e4405389c985a78bb626ce6a5ed0c terms:title "God calls Adam and Eve to account for their deed" .
 nl:id_67c56d12b60e4405389c985a78bb626ce6a5ed0c ui:annotationField bible:ICBibleTheme .
@@ -121,6 +132,14 @@ target:selector_6253c8ec349f4af838c701312ed0532c5be06894 ui:x "0.316"^^xsd:float
 target:selector_6253c8ec349f4af838c701312ed0532c5be06894 ui:y "0.5588737201365188"^^xsd:float .
 target:selector_6253c8ec349f4af838c701312ed0532c5be06894 rdf:value "#xywh=percent:32,56,25,20" .
 
+target:selector_a044df9d75f2d0166bb16d37e28daf21c51747e7 a oa:FragmentSelector .
+target:selector_a044df9d75f2d0166bb16d37e28daf21c51747e7 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_a044df9d75f2d0166bb16d37e28daf21c51747e7 ui:h "0.18151815181518152"^^xsd:float .
+target:selector_a044df9d75f2d0166bb16d37e28daf21c51747e7 ui:w "0.2134020618556701"^^xsd:float .
+target:selector_a044df9d75f2d0166bb16d37e28daf21c51747e7 ui:x "0.32577319587628867"^^xsd:float .
+target:selector_a044df9d75f2d0166bb16d37e28daf21c51747e7 ui:y "0.5577557755775577"^^xsd:float .
+target:selector_a044df9d75f2d0166bb16d37e28daf21c51747e7 rdf:value "#xywh=percent:33,56,21,18" .
+
 target:selector_b091fbd263519cff29edcf844ea3d20ac93efa3a a oa:FragmentSelector .
 target:selector_b091fbd263519cff29edcf844ea3d20ac93efa3a terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_b091fbd263519cff29edcf844ea3d20ac93efa3a ui:h "0.2085808580858086"^^xsd:float .
@@ -140,6 +159,10 @@ target:target_5bed93cd81fc8785efba9bd7f28c320127562547 oa:hasSource <http://imag
 target:target_6253c8ec349f4af838c701312ed0532c5be06894 a oa:SpecificResource .
 target:target_6253c8ec349f4af838c701312ed0532c5be06894 oa:hasSelector target:selector_6253c8ec349f4af838c701312ed0532c5be06894 .
 target:target_6253c8ec349f4af838c701312ed0532c5be06894 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/68> .
+
+target:target_a044df9d75f2d0166bb16d37e28daf21c51747e7 a oa:SpecificResource .
+target:target_a044df9d75f2d0166bb16d37e28daf21c51747e7 oa:hasSelector target:selector_a044df9d75f2d0166bb16d37e28daf21c51747e7 .
+target:target_a044df9d75f2d0166bb16d37e28daf21c51747e7 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/68> .
 
 target:target_b091fbd263519cff29edcf844ea3d20ac93efa3a a oa:SpecificResource .
 target:target_b091fbd263519cff29edcf844ea3d20ac93efa3a oa:hasSelector target:selector_b091fbd263519cff29edcf844ea3d20ac93efa3a .
