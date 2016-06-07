@@ -23,6 +23,16 @@ nl:id_86a2b51ec059a895dff3caf4abd0c47c4ec50b8c oa:hasTarget target:target_7037b4
 nl:id_86a2b51ec059a895dff3caf4abd0c47c4ec50b8c oa:hasTarget ubvu:print-218010001498 .
 nl:id_86a2b51ec059a895dff3caf4abd0c47c4ec50b8c oa:motivatedBy oa:tagging .
 
+nl:id_9ffb6232fc14d8babac3e994c7c6338514896e48 a oa:Annotation .
+nl:id_9ffb6232fc14d8babac3e994c7c6338514896e48 terms:title "Het oordeel van Salomo" .
+nl:id_9ffb6232fc14d8babac3e994c7c6338514896e48 ui:annotationField bible:ICBibleTheme .
+nl:id_9ffb6232fc14d8babac3e994c7c6338514896e48 ui:typingTime 0 .
+nl:id_9ffb6232fc14d8babac3e994c7c6338514896e48 oa:annotatedAt "2016-06-07T14:14:00+02:00"^^xsd:dateTime .
+nl:id_9ffb6232fc14d8babac3e994c7c6338514896e48 oa:annotatedBy user:paulinevandijk .
+nl:id_9ffb6232fc14d8babac3e994c7c6338514896e48 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Het oordeel van Salomo" ] .
+nl:id_9ffb6232fc14d8babac3e994c7c6338514896e48 oa:hasTarget ubvu:print-218010001498 .
+nl:id_9ffb6232fc14d8babac3e994c7c6338514896e48 oa:motivatedBy oa:tagging .
+
 nl:id_be5fc5a3b291deec73ab763bb160195ba7dfb671 a oa:Annotation .
 nl:id_be5fc5a3b291deec73ab763bb160195ba7dfb671 terms:title "Solomon's judgment" .
 nl:id_be5fc5a3b291deec73ab763bb160195ba7dfb671 ui:annotationField bible:ICBibleTheme .
