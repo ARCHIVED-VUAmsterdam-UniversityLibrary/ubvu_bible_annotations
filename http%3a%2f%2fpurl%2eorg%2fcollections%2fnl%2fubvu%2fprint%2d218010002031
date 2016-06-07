@@ -79,6 +79,16 @@ nl:id_62e20089c62112d9fcfe0b163778c096c8a3d910 oa:hasTarget target:target_4b03c3
 nl:id_62e20089c62112d9fcfe0b163778c096c8a3d910 oa:hasTarget ubvu:print-218010002031 .
 nl:id_62e20089c62112d9fcfe0b163778c096c8a3d910 oa:motivatedBy oa:tagging .
 
+nl:id_6dc6cc6328295fcdee9be78de7d14e24e9698472 a oa:Annotation .
+nl:id_6dc6cc6328295fcdee9be78de7d14e24e9698472 terms:title "Jozef krijgt een opdracht van een engel in een droom" .
+nl:id_6dc6cc6328295fcdee9be78de7d14e24e9698472 ui:annotationField bible:ICBibleTheme .
+nl:id_6dc6cc6328295fcdee9be78de7d14e24e9698472 ui:typingTime 0 .
+nl:id_6dc6cc6328295fcdee9be78de7d14e24e9698472 oa:annotatedAt "2016-06-07T14:25:47+02:00"^^xsd:dateTime .
+nl:id_6dc6cc6328295fcdee9be78de7d14e24e9698472 oa:annotatedBy user:paulinevandijk .
+nl:id_6dc6cc6328295fcdee9be78de7d14e24e9698472 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jozef krijgt een opdracht van een engel in een droom" ] .
+nl:id_6dc6cc6328295fcdee9be78de7d14e24e9698472 oa:hasTarget ubvu:print-218010002031 .
+nl:id_6dc6cc6328295fcdee9be78de7d14e24e9698472 oa:motivatedBy oa:tagging .
+
 nl:id_9875b2e1d4e12e568ca36af8cdce1919d45ff7d8 a oa:Annotation .
 nl:id_9875b2e1d4e12e568ca36af8cdce1919d45ff7d8 terms:title "Jezus Christus" .
 nl:id_9875b2e1d4e12e568ca36af8cdce1919d45ff7d8 ui:annotationField bible:BibleCharacter .
