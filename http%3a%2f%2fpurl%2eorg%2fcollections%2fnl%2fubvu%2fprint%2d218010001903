@@ -87,6 +87,16 @@ nl:id_e39f5e4422c3f745e84a2fea81b8f5594ccf8c36 oa:hasTarget target:target_0b4d7c
 nl:id_e39f5e4422c3f745e84a2fea81b8f5594ccf8c36 oa:hasTarget ubvu:print-218010001903 .
 nl:id_e39f5e4422c3f745e84a2fea81b8f5594ccf8c36 oa:motivatedBy oa:tagging .
 
+nl:id_ec23b98233809c0344b6d8b9f5f9584a077d8ac0 a oa:Annotation .
+nl:id_ec23b98233809c0344b6d8b9f5f9584a077d8ac0 terms:title "De hemelvaart van Jezus" .
+nl:id_ec23b98233809c0344b6d8b9f5f9584a077d8ac0 ui:annotationField bible:ICBibleTheme .
+nl:id_ec23b98233809c0344b6d8b9f5f9584a077d8ac0 ui:typingTime 0 .
+nl:id_ec23b98233809c0344b6d8b9f5f9584a077d8ac0 oa:annotatedAt "2016-06-07T14:37:53+02:00"^^xsd:dateTime .
+nl:id_ec23b98233809c0344b6d8b9f5f9584a077d8ac0 oa:annotatedBy user:paulinevandijk .
+nl:id_ec23b98233809c0344b6d8b9f5f9584a077d8ac0 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "De hemelvaart van Jezus" ] .
+nl:id_ec23b98233809c0344b6d8b9f5f9584a077d8ac0 oa:hasTarget ubvu:print-218010001903 .
+nl:id_ec23b98233809c0344b6d8b9f5f9584a077d8ac0 oa:motivatedBy oa:tagging .
+
 target:selector_0b4d7c81d14719e590939c98a09c7e26e605cf44 a oa:FragmentSelector .
 target:selector_0b4d7c81d14719e590939c98a09c7e26e605cf44 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_0b4d7c81d14719e590939c98a09c7e26e605cf44 ui:h "0.2506393861892583"^^xsd:float .
