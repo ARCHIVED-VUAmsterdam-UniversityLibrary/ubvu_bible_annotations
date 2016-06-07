@@ -33,6 +33,16 @@ nl:id_494b7bb634f33dae99e5519d6d721a0f6f59c178 oa:hasBody [ a content:ContentAsT
 nl:id_494b7bb634f33dae99e5519d6d721a0f6f59c178 oa:hasTarget ubvu:print-218010001940 .
 nl:id_494b7bb634f33dae99e5519d6d721a0f6f59c178 oa:motivatedBy oa:tagging .
 
+nl:id_7ea693bfab8a203a105c1cd6736c56eb4eebfe49 a oa:Annotation .
+nl:id_7ea693bfab8a203a105c1cd6736c56eb4eebfe49 terms:title "Paulus neemt afscheid van de gemeente Efeze" .
+nl:id_7ea693bfab8a203a105c1cd6736c56eb4eebfe49 ui:annotationField bible:ICBibleTheme .
+nl:id_7ea693bfab8a203a105c1cd6736c56eb4eebfe49 ui:typingTime 0 .
+nl:id_7ea693bfab8a203a105c1cd6736c56eb4eebfe49 oa:annotatedAt "2016-06-07T14:15:49+02:00"^^xsd:dateTime .
+nl:id_7ea693bfab8a203a105c1cd6736c56eb4eebfe49 oa:annotatedBy user:paulinevandijk .
+nl:id_7ea693bfab8a203a105c1cd6736c56eb4eebfe49 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Paulus neemt afscheid van de gemeente Efeze" ] .
+nl:id_7ea693bfab8a203a105c1cd6736c56eb4eebfe49 oa:hasTarget ubvu:print-218010001940 .
+nl:id_7ea693bfab8a203a105c1cd6736c56eb4eebfe49 oa:motivatedBy oa:tagging .
+
 nl:id_bef5220daf0a08f9555b9cddec3611cc2e8aa988 a oa:Annotation .
 nl:id_bef5220daf0a08f9555b9cddec3611cc2e8aa988 terms:title "Departure of Paul to Rhodes" .
 nl:id_bef5220daf0a08f9555b9cddec3611cc2e8aa988 ui:annotationField bible:ICBibleTheme .
