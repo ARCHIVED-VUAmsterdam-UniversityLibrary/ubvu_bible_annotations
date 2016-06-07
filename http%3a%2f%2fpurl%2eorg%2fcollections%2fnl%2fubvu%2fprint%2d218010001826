@@ -32,6 +32,16 @@ nl:id_5e80124a914134d1bf9e179e045d46b0ddebe81e oa:hasBody <http://iconclass.org/
 nl:id_5e80124a914134d1bf9e179e045d46b0ddebe81e oa:hasTarget ubvu:print-218010001826 .
 nl:id_5e80124a914134d1bf9e179e045d46b0ddebe81e oa:motivatedBy oa:tagging .
 
+nl:id_b633d49cd20e48d791884be1445d3e29ce887a73 a oa:Annotation .
+nl:id_b633d49cd20e48d791884be1445d3e29ce887a73 terms:title "Het laatste avondmaal" .
+nl:id_b633d49cd20e48d791884be1445d3e29ce887a73 ui:annotationField bible:ICBibleTheme .
+nl:id_b633d49cd20e48d791884be1445d3e29ce887a73 ui:typingTime 0 .
+nl:id_b633d49cd20e48d791884be1445d3e29ce887a73 oa:annotatedAt "2016-06-07T14:18:36+02:00"^^xsd:dateTime .
+nl:id_b633d49cd20e48d791884be1445d3e29ce887a73 oa:annotatedBy user:paulinevandijk .
+nl:id_b633d49cd20e48d791884be1445d3e29ce887a73 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Het laatste avondmaal" ] .
+nl:id_b633d49cd20e48d791884be1445d3e29ce887a73 oa:hasTarget ubvu:print-218010001826 .
+nl:id_b633d49cd20e48d791884be1445d3e29ce887a73 oa:motivatedBy oa:tagging .
+
 target:selector_18cb591c7623c4366149eb3aa513e1942ca1058a a oa:FragmentSelector .
 target:selector_18cb591c7623c4366149eb3aa513e1942ca1058a terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_18cb591c7623c4366149eb3aa513e1942ca1058a ui:h "0.40166963362309926"^^xsd:float .
