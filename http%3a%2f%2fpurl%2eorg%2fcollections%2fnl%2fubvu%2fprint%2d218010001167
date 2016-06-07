@@ -13,6 +13,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_50ba68997400194b8797035f2d58d6c939aa05c4 a oa:Annotation .
+nl:id_50ba68997400194b8797035f2d58d6c939aa05c4 terms:title "De droom van de farao door Jozef uitgelegd." .
+nl:id_50ba68997400194b8797035f2d58d6c939aa05c4 ui:annotationField bible:ICBibleTheme .
+nl:id_50ba68997400194b8797035f2d58d6c939aa05c4 ui:typingTime 0 .
+nl:id_50ba68997400194b8797035f2d58d6c939aa05c4 oa:annotatedAt "2016-06-07T14:29:55+02:00"^^xsd:dateTime .
+nl:id_50ba68997400194b8797035f2d58d6c939aa05c4 oa:annotatedBy user:paulinevandijk .
+nl:id_50ba68997400194b8797035f2d58d6c939aa05c4 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "De droom van de farao door Jozef uitgelegd." ] .
+nl:id_50ba68997400194b8797035f2d58d6c939aa05c4 oa:hasTarget ubvu:print-218010001167 .
+nl:id_50ba68997400194b8797035f2d58d6c939aa05c4 oa:motivatedBy oa:tagging .
+
 nl:id_5385951dc22f5116bef2b17a6db25e637c2276b6 a oa:Annotation .
 nl:id_5385951dc22f5116bef2b17a6db25e637c2276b6 terms:title "pharao king of Egypt" .
 nl:id_5385951dc22f5116bef2b17a6db25e637c2276b6 ui:annotationField bible:BibleCharacter .
