@@ -68,6 +68,16 @@ nl:id_53e7a9bb8156ce31e48a2c16244b285326f4d260 oa:hasTarget target:target_1520d1
 nl:id_53e7a9bb8156ce31e48a2c16244b285326f4d260 oa:hasTarget ubvu:print-218010002031 .
 nl:id_53e7a9bb8156ce31e48a2c16244b285326f4d260 oa:motivatedBy oa:tagging .
 
+nl:id_561713a3fcdf2b56d33ea17812b88612bf392011 a oa:Annotation .
+nl:id_561713a3fcdf2b56d33ea17812b88612bf392011 terms:title "Johannes doopt" .
+nl:id_561713a3fcdf2b56d33ea17812b88612bf392011 ui:annotationField bible:ICBibleTheme .
+nl:id_561713a3fcdf2b56d33ea17812b88612bf392011 ui:typingTime 0 .
+nl:id_561713a3fcdf2b56d33ea17812b88612bf392011 oa:annotatedAt "2016-06-07T14:27:13+02:00"^^xsd:dateTime .
+nl:id_561713a3fcdf2b56d33ea17812b88612bf392011 oa:annotatedBy user:paulinevandijk .
+nl:id_561713a3fcdf2b56d33ea17812b88612bf392011 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Johannes doopt" ] .
+nl:id_561713a3fcdf2b56d33ea17812b88612bf392011 oa:hasTarget ubvu:print-218010002031 .
+nl:id_561713a3fcdf2b56d33ea17812b88612bf392011 oa:motivatedBy oa:tagging .
+
 nl:id_62e20089c62112d9fcfe0b163778c096c8a3d910 a oa:Annotation .
 nl:id_62e20089c62112d9fcfe0b163778c096c8a3d910 terms:title "Jozef (man van Maria)" .
 nl:id_62e20089c62112d9fcfe0b163778c096c8a3d910 ui:annotationField bible:BibleCharacter .
