@@ -23,6 +23,17 @@ nl:id_086abc0a1ffed7af5cedc237ddc5772ad77452a8 oa:hasBody [ a content:ContentAsT
 nl:id_086abc0a1ffed7af5cedc237ddc5772ad77452a8 oa:hasTarget ubvu:print-218010001687 .
 nl:id_086abc0a1ffed7af5cedc237ddc5772ad77452a8 oa:motivatedBy oa:tagging .
 
+nl:id_0f655883eb1f6f7d7a769c32d03c02c83f9ba859 a oa:Annotation .
+nl:id_0f655883eb1f6f7d7a769c32d03c02c83f9ba859 terms:title "Jozef (man van Maria)" .
+nl:id_0f655883eb1f6f7d7a769c32d03c02c83f9ba859 ui:annotationField bible:BibleCharacter .
+nl:id_0f655883eb1f6f7d7a769c32d03c02c83f9ba859 ui:typingTime 0 .
+nl:id_0f655883eb1f6f7d7a769c32d03c02c83f9ba859 oa:annotatedAt "2016-06-07T14:33:21+02:00"^^xsd:dateTime .
+nl:id_0f655883eb1f6f7d7a769c32d03c02c83f9ba859 oa:annotatedBy user:paulinevandijk .
+nl:id_0f655883eb1f6f7d7a769c32d03c02c83f9ba859 oa:hasBody resource:Joseph_Husband_of_Maria .
+nl:id_0f655883eb1f6f7d7a769c32d03c02c83f9ba859 oa:hasTarget target:target_3c853901b58b5d8c184ee26289e4c0cbce488205 .
+nl:id_0f655883eb1f6f7d7a769c32d03c02c83f9ba859 oa:hasTarget ubvu:print-218010001687 .
+nl:id_0f655883eb1f6f7d7a769c32d03c02c83f9ba859 oa:motivatedBy oa:tagging .
+
 nl:id_59b5c1c63be2941cc9a616d26c49956b1c710fe5 a oa:Annotation .
 nl:id_59b5c1c63be2941cc9a616d26c49956b1c710fe5 terms:title "Maria (moeder van Jezus Christus))" .
 nl:id_59b5c1c63be2941cc9a616d26c49956b1c710fe5 ui:annotationField bible:BibleCharacter .
@@ -114,6 +125,14 @@ target:selector_301b2fc230eaa6d41c608c2c52ec93944b2fecab ui:x "0.400854700854700
 target:selector_301b2fc230eaa6d41c608c2c52ec93944b2fecab ui:y "0.43419094532813396"^^xsd:float .
 target:selector_301b2fc230eaa6d41c608c2c52ec93944b2fecab rdf:value "#xywh=percent:40,43,6,8" .
 
+target:selector_3c853901b58b5d8c184ee26289e4c0cbce488205 a oa:FragmentSelector .
+target:selector_3c853901b58b5d8c184ee26289e4c0cbce488205 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_3c853901b58b5d8c184ee26289e4c0cbce488205 ui:h "0.19655172413793104"^^xsd:float .
+target:selector_3c853901b58b5d8c184ee26289e4c0cbce488205 ui:w "0.15670103092783505"^^xsd:float .
+target:selector_3c853901b58b5d8c184ee26289e4c0cbce488205 ui:x "0.4917525773195876"^^xsd:float .
+target:selector_3c853901b58b5d8c184ee26289e4c0cbce488205 ui:y "0.4096551724137931"^^xsd:float .
+target:selector_3c853901b58b5d8c184ee26289e4c0cbce488205 rdf:value "#xywh=percent:49,41,16,20" .
+
 target:selector_a3da1b9b3e3d344eb9253958b30ed8ea28b6c318 a oa:FragmentSelector .
 target:selector_a3da1b9b3e3d344eb9253958b30ed8ea28b6c318 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_a3da1b9b3e3d344eb9253958b30ed8ea28b6c318 ui:h "0.39965691192958475"^^xsd:float .
@@ -137,6 +156,10 @@ target:target_1016558a826a475244af9f7e942b448ad99fc163 oa:hasSource <http://imag
 target:target_301b2fc230eaa6d41c608c2c52ec93944b2fecab a oa:SpecificResource .
 target:target_301b2fc230eaa6d41c608c2c52ec93944b2fecab oa:hasSelector target:selector_301b2fc230eaa6d41c608c2c52ec93944b2fecab .
 target:target_301b2fc230eaa6d41c608c2c52ec93944b2fecab oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/726> .
+
+target:target_3c853901b58b5d8c184ee26289e4c0cbce488205 a oa:SpecificResource .
+target:target_3c853901b58b5d8c184ee26289e4c0cbce488205 oa:hasSelector target:selector_3c853901b58b5d8c184ee26289e4c0cbce488205 .
+target:target_3c853901b58b5d8c184ee26289e4c0cbce488205 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/726> .
 
 target:target_a3da1b9b3e3d344eb9253958b30ed8ea28b6c318 a oa:SpecificResource .
 target:target_a3da1b9b3e3d344eb9253958b30ed8ea28b6c318 oa:hasSelector target:selector_a3da1b9b3e3d344eb9253958b30ed8ea28b6c318 .
