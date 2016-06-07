@@ -90,6 +90,16 @@ nl:id_9875b2e1d4e12e568ca36af8cdce1919d45ff7d8 oa:hasTarget target:target_b002b7
 nl:id_9875b2e1d4e12e568ca36af8cdce1919d45ff7d8 oa:hasTarget ubvu:print-218010002031 .
 nl:id_9875b2e1d4e12e568ca36af8cdce1919d45ff7d8 oa:motivatedBy oa:tagging .
 
+nl:id_99197e96848847562d36fdef6f601c47838ef91b a oa:Annotation .
+nl:id_99197e96848847562d36fdef6f601c47838ef91b terms:title "Christelijke deugden." .
+nl:id_99197e96848847562d36fdef6f601c47838ef91b ui:annotationField bible:ICBibleTheme .
+nl:id_99197e96848847562d36fdef6f601c47838ef91b ui:typingTime 0 .
+nl:id_99197e96848847562d36fdef6f601c47838ef91b oa:annotatedAt "2016-06-07T14:24:51+02:00"^^xsd:dateTime .
+nl:id_99197e96848847562d36fdef6f601c47838ef91b oa:annotatedBy user:paulinevandijk .
+nl:id_99197e96848847562d36fdef6f601c47838ef91b oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Christelijke deugden." ] .
+nl:id_99197e96848847562d36fdef6f601c47838ef91b oa:hasTarget ubvu:print-218010002031 .
+nl:id_99197e96848847562d36fdef6f601c47838ef91b oa:motivatedBy oa:tagging .
+
 nl:id_9bdc07793739988dc442299ac6c6b9ed9b730a4b a oa:Annotation .
 nl:id_9bdc07793739988dc442299ac6c6b9ed9b730a4b terms:title "Sayings of Christ (Matthew)" .
 nl:id_9bdc07793739988dc442299ac6c6b9ed9b730a4b ui:annotationField bible:ICBibleTheme .
