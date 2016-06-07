@@ -13,6 +13,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_016c7c9f05d4bbec78442b69b68382a19f68cd05 a oa:Annotation .
+nl:id_016c7c9f05d4bbec78442b69b68382a19f68cd05 terms:title "Magiërs uit het Oosten" .
+nl:id_016c7c9f05d4bbec78442b69b68382a19f68cd05 ui:annotationField bible:ICBibleTheme .
+nl:id_016c7c9f05d4bbec78442b69b68382a19f68cd05 ui:typingTime 0 .
+nl:id_016c7c9f05d4bbec78442b69b68382a19f68cd05 oa:annotatedAt "2016-06-07T14:27:40+02:00"^^xsd:dateTime .
+nl:id_016c7c9f05d4bbec78442b69b68382a19f68cd05 oa:annotatedBy user:paulinevandijk .
+nl:id_016c7c9f05d4bbec78442b69b68382a19f68cd05 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Magiërs uit het Oosten" ] .
+nl:id_016c7c9f05d4bbec78442b69b68382a19f68cd05 oa:hasTarget ubvu:print-218010002031 .
+nl:id_016c7c9f05d4bbec78442b69b68382a19f68cd05 oa:motivatedBy oa:tagging .
+
 nl:id_1bd5016156bd03b3bdd49ee18d88fce833827fa6 a oa:Annotation .
 nl:id_1bd5016156bd03b3bdd49ee18d88fce833827fa6 terms:title "Maria (moeder van Jezus Christus))" .
 nl:id_1bd5016156bd03b3bdd49ee18d88fce833827fa6 ui:annotationField bible:BibleCharacter .
