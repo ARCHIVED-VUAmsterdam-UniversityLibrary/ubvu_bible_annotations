@@ -1,9 +1,11 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
 @prefix media-frags: <http://www.w3.org/TR/media-frags/> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix resource: <http://bibleontology.com/resource/> .
@@ -42,6 +44,16 @@ nl:id_5888c1207f0150683194a276b31d46f806144943 oa:hasBody resource:Ezekiel .
 nl:id_5888c1207f0150683194a276b31d46f806144943 oa:hasTarget target:target_29a44688dda105ede8fd46d083a345ccfb9aabba .
 nl:id_5888c1207f0150683194a276b31d46f806144943 oa:hasTarget ubvu:print-218010001577 .
 nl:id_5888c1207f0150683194a276b31d46f806144943 oa:motivatedBy oa:tagging .
+
+nl:id_c56ac6c47d6d92294192d4312bc30d8e2252e009 a oa:Annotation .
+nl:id_c56ac6c47d6d92294192d4312bc30d8e2252e009 terms:title "Een dal vol beenderen" .
+nl:id_c56ac6c47d6d92294192d4312bc30d8e2252e009 ui:annotationField bible:ICBibleTheme .
+nl:id_c56ac6c47d6d92294192d4312bc30d8e2252e009 ui:typingTime 0 .
+nl:id_c56ac6c47d6d92294192d4312bc30d8e2252e009 oa:annotatedAt "2016-06-07T14:37:16+02:00"^^xsd:dateTime .
+nl:id_c56ac6c47d6d92294192d4312bc30d8e2252e009 oa:annotatedBy user:paulinevandijk .
+nl:id_c56ac6c47d6d92294192d4312bc30d8e2252e009 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Een dal vol beenderen" ] .
+nl:id_c56ac6c47d6d92294192d4312bc30d8e2252e009 oa:hasTarget ubvu:print-218010001577 .
+nl:id_c56ac6c47d6d92294192d4312bc30d8e2252e009 oa:motivatedBy oa:tagging .
 
 target:selector_21d0de858dd336a7d56d7e22249694d7669dc788 a oa:FragmentSelector .
 target:selector_21d0de858dd336a7d56d7e22249694d7669dc788 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
