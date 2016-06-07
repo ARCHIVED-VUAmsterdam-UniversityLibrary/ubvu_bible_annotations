@@ -22,6 +22,16 @@ nl:id_3b193b34f408f11254a37bd02d07a3d009795b97 oa:hasTarget target:target_aba328
 nl:id_3b193b34f408f11254a37bd02d07a3d009795b97 oa:hasTarget ubvu:print-218010001692 .
 nl:id_3b193b34f408f11254a37bd02d07a3d009795b97 oa:motivatedBy oa:tagging .
 
+nl:id_735715d299235ed9a3c6381206685c5af9d282a3 a oa:Annotation .
+nl:id_735715d299235ed9a3c6381206685c5af9d282a3 terms:title "De kindermoord in Betlehem" .
+nl:id_735715d299235ed9a3c6381206685c5af9d282a3 ui:annotationField bible:ICBibleTheme .
+nl:id_735715d299235ed9a3c6381206685c5af9d282a3 ui:typingTime 0 .
+nl:id_735715d299235ed9a3c6381206685c5af9d282a3 oa:annotatedAt "2016-06-07T14:40:19+02:00"^^xsd:dateTime .
+nl:id_735715d299235ed9a3c6381206685c5af9d282a3 oa:annotatedBy user:paulinevandijk .
+nl:id_735715d299235ed9a3c6381206685c5af9d282a3 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "De kindermoord in Betlehem" ] .
+nl:id_735715d299235ed9a3c6381206685c5af9d282a3 oa:hasTarget ubvu:print-218010001692 .
+nl:id_735715d299235ed9a3c6381206685c5af9d282a3 oa:motivatedBy oa:tagging .
+
 nl:id_99298d36c4305a8ff26d14f3c87afc00db38b886 a oa:Annotation .
 nl:id_99298d36c4305a8ff26d14f3c87afc00db38b886 terms:title "Herod's cruelty against the children in Bethelem" .
 nl:id_99298d36c4305a8ff26d14f3c87afc00db38b886 ui:annotationField bible:ICBibleTheme .
