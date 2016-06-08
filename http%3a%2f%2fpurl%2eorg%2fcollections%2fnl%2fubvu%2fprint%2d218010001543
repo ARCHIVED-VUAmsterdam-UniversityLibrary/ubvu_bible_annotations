@@ -66,6 +66,25 @@ nl:id_d2d25f3800fe0c5e483377afa7ef00060b8cedd8 oa:hasTarget target:target_82e591
 nl:id_d2d25f3800fe0c5e483377afa7ef00060b8cedd8 oa:hasTarget ubvu:print-218010001543 .
 nl:id_d2d25f3800fe0c5e483377afa7ef00060b8cedd8 oa:motivatedBy oa:tagging .
 
+nl:id_f3deb495fc337d5820c06b88943f66af2f1c5444 a oa:Annotation .
+nl:id_f3deb495fc337d5820c06b88943f66af2f1c5444 terms:title "Chanun (zoon van Nachas), koning van de Ammonieten" .
+nl:id_f3deb495fc337d5820c06b88943f66af2f1c5444 ui:annotationField bible:BibleCharacter .
+nl:id_f3deb495fc337d5820c06b88943f66af2f1c5444 ui:typingTime 0 .
+nl:id_f3deb495fc337d5820c06b88943f66af2f1c5444 oa:annotatedAt "2016-06-08T11:11:05+02:00"^^xsd:dateTime .
+nl:id_f3deb495fc337d5820c06b88943f66af2f1c5444 oa:annotatedBy user:hogguer .
+nl:id_f3deb495fc337d5820c06b88943f66af2f1c5444 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Chanun (zoon van Nachas), koning van de Ammonieten" ] .
+nl:id_f3deb495fc337d5820c06b88943f66af2f1c5444 oa:hasTarget target:target_4b53a5bfb8eeb693b253245bbda7ecd9317851f9 .
+nl:id_f3deb495fc337d5820c06b88943f66af2f1c5444 oa:hasTarget ubvu:print-218010001543 .
+nl:id_f3deb495fc337d5820c06b88943f66af2f1c5444 oa:motivatedBy oa:tagging .
+
+target:selector_4b53a5bfb8eeb693b253245bbda7ecd9317851f9 a oa:FragmentSelector .
+target:selector_4b53a5bfb8eeb693b253245bbda7ecd9317851f9 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_4b53a5bfb8eeb693b253245bbda7ecd9317851f9 ui:h "0.2074159907300116"^^xsd:float .
+target:selector_4b53a5bfb8eeb693b253245bbda7ecd9317851f9 ui:w "0.12564102564102564"^^xsd:float .
+target:selector_4b53a5bfb8eeb693b253245bbda7ecd9317851f9 ui:x "0.47094017094017093"^^xsd:float .
+target:selector_4b53a5bfb8eeb693b253245bbda7ecd9317851f9 ui:y "0.25434530706836617"^^xsd:float .
+target:selector_4b53a5bfb8eeb693b253245bbda7ecd9317851f9 rdf:value "#xywh=percent:47,25,13,21" .
+
 target:selector_82e5910eb0ce317402dd3f8a1acfea04cae898dd a oa:FragmentSelector .
 target:selector_82e5910eb0ce317402dd3f8a1acfea04cae898dd terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_82e5910eb0ce317402dd3f8a1acfea04cae898dd ui:h "0.2115732368896926"^^xsd:float .
@@ -89,6 +108,10 @@ target:selector_e3c66ea97bbb5336ba43948e3ec810ddb3b9efef ui:w "0.188888888888888
 target:selector_e3c66ea97bbb5336ba43948e3ec810ddb3b9efef ui:x "0.3299145299145299"^^xsd:float .
 target:selector_e3c66ea97bbb5336ba43948e3ec810ddb3b9efef ui:y "0.41541135573580534"^^xsd:float .
 target:selector_e3c66ea97bbb5336ba43948e3ec810ddb3b9efef rdf:value "#xywh=percent:33,42,19,42" .
+
+target:target_4b53a5bfb8eeb693b253245bbda7ecd9317851f9 a oa:SpecificResource .
+target:target_4b53a5bfb8eeb693b253245bbda7ecd9317851f9 oa:hasSelector target:selector_4b53a5bfb8eeb693b253245bbda7ecd9317851f9 .
+target:target_4b53a5bfb8eeb693b253245bbda7ecd9317851f9 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/584> .
 
 target:target_82e5910eb0ce317402dd3f8a1acfea04cae898dd a oa:SpecificResource .
 target:target_82e5910eb0ce317402dd3f8a1acfea04cae898dd oa:hasSelector target:selector_82e5910eb0ce317402dd3f8a1acfea04cae898dd .
