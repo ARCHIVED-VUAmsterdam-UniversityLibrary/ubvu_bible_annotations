@@ -1,9 +1,11 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
 @prefix media-frags: <http://www.w3.org/TR/media-frags/> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix resource: <http://bibleontology.com/resource/> .
@@ -21,6 +23,17 @@ nl:id_84d23e300513230c62145366f0eac53651481aa9 oa:hasBody resource:Jesus .
 nl:id_84d23e300513230c62145366f0eac53651481aa9 oa:hasTarget target:target_50971c6968957da005acbecee95a211e398df23a .
 nl:id_84d23e300513230c62145366f0eac53651481aa9 oa:hasTarget ubvu:print-218010001700 .
 nl:id_84d23e300513230c62145366f0eac53651481aa9 oa:motivatedBy oa:tagging .
+
+nl:id_af9d5f1b8c1f5ec42093091471126125301f7a5a a oa:Annotation .
+nl:id_af9d5f1b8c1f5ec42093091471126125301f7a5a terms:title "Pharisee" .
+nl:id_af9d5f1b8c1f5ec42093091471126125301f7a5a ui:annotationField bible:BibleCharacter .
+nl:id_af9d5f1b8c1f5ec42093091471126125301f7a5a ui:typingTime 0 .
+nl:id_af9d5f1b8c1f5ec42093091471126125301f7a5a oa:annotatedAt "2016-06-08T21:36:07+02:00"^^xsd:dateTime .
+nl:id_af9d5f1b8c1f5ec42093091471126125301f7a5a oa:annotatedBy user:everhoeff .
+nl:id_af9d5f1b8c1f5ec42093091471126125301f7a5a oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Pharisee" ] .
+nl:id_af9d5f1b8c1f5ec42093091471126125301f7a5a oa:hasTarget target:target_9a31db6aac310714066a12c06454b599280cf513 .
+nl:id_af9d5f1b8c1f5ec42093091471126125301f7a5a oa:hasTarget ubvu:print-218010001700 .
+nl:id_af9d5f1b8c1f5ec42093091471126125301f7a5a oa:motivatedBy oa:tagging .
 
 nl:id_e319d1c8e98496091506469ca0781fbdea2e3684 a oa:Annotation .
 nl:id_e319d1c8e98496091506469ca0781fbdea2e3684 terms:title "Jezus Christus" .
@@ -41,6 +54,14 @@ target:selector_50971c6968957da005acbecee95a211e398df23a ui:x "0.665333333333333
 target:selector_50971c6968957da005acbecee95a211e398df23a ui:y "0.6332082551594747"^^xsd:float .
 target:selector_50971c6968957da005acbecee95a211e398df23a rdf:value "#xywh=percent:67,63,21,8" .
 
+target:selector_9a31db6aac310714066a12c06454b599280cf513 a oa:FragmentSelector .
+target:selector_9a31db6aac310714066a12c06454b599280cf513 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_9a31db6aac310714066a12c06454b599280cf513 ui:h "0.199812382739212"^^xsd:float .
+target:selector_9a31db6aac310714066a12c06454b599280cf513 ui:w "0.184"^^xsd:float .
+target:selector_9a31db6aac310714066a12c06454b599280cf513 ui:x "0.4706666666666667"^^xsd:float .
+target:selector_9a31db6aac310714066a12c06454b599280cf513 ui:y "0.6191369606003753"^^xsd:float .
+target:selector_9a31db6aac310714066a12c06454b599280cf513 rdf:value "#xywh=percent:47,62,18,20" .
+
 target:selector_c186380464c584dd4ade62dd3f5bc6f1bb29551a a oa:FragmentSelector .
 target:selector_c186380464c584dd4ade62dd3f5bc6f1bb29551a terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_c186380464c584dd4ade62dd3f5bc6f1bb29551a ui:h "0.15586854460093896"^^xsd:float .
@@ -52,6 +73,10 @@ target:selector_c186380464c584dd4ade62dd3f5bc6f1bb29551a rdf:value "#xywh=percen
 target:target_50971c6968957da005acbecee95a211e398df23a a oa:SpecificResource .
 target:target_50971c6968957da005acbecee95a211e398df23a oa:hasSelector target:selector_50971c6968957da005acbecee95a211e398df23a .
 target:target_50971c6968957da005acbecee95a211e398df23a oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/739> .
+
+target:target_9a31db6aac310714066a12c06454b599280cf513 a oa:SpecificResource .
+target:target_9a31db6aac310714066a12c06454b599280cf513 oa:hasSelector target:selector_9a31db6aac310714066a12c06454b599280cf513 .
+target:target_9a31db6aac310714066a12c06454b599280cf513 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/739> .
 
 target:target_c186380464c584dd4ade62dd3f5bc6f1bb29551a a oa:SpecificResource .
 target:target_c186380464c584dd4ade62dd3f5bc6f1bb29551a oa:hasSelector target:selector_c186380464c584dd4ade62dd3f5bc6f1bb29551a .
