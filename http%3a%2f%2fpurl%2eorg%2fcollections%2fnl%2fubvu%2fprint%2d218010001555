@@ -111,6 +111,16 @@ nl:id_d3e1b067675576504204fb5c2f7360bb151b75ed oa:hasTarget target:target_af7a9b
 nl:id_d3e1b067675576504204fb5c2f7360bb151b75ed oa:hasTarget ubvu:print-218010001555 .
 nl:id_d3e1b067675576504204fb5c2f7360bb151b75ed oa:motivatedBy oa:tagging .
 
+nl:id_f84d191f496d92a33345841165cfbdc9a270c095 a oa:Annotation .
+nl:id_f84d191f496d92a33345841165cfbdc9a270c095 terms:title "Ahasverus gives his ring to Mordecai" .
+nl:id_f84d191f496d92a33345841165cfbdc9a270c095 ui:annotationField bible:ICBibleTheme .
+nl:id_f84d191f496d92a33345841165cfbdc9a270c095 ui:typingTime 0 .
+nl:id_f84d191f496d92a33345841165cfbdc9a270c095 oa:annotatedAt "2016-06-08T11:35:05+02:00"^^xsd:dateTime .
+nl:id_f84d191f496d92a33345841165cfbdc9a270c095 oa:annotatedBy user:hogguer .
+nl:id_f84d191f496d92a33345841165cfbdc9a270c095 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Ahasverus gives his ring to Mordecai" ] .
+nl:id_f84d191f496d92a33345841165cfbdc9a270c095 oa:hasTarget ubvu:print-218010001555 .
+nl:id_f84d191f496d92a33345841165cfbdc9a270c095 oa:motivatedBy oa:tagging .
+
 target:selector_0f4d81599deaaa8d4fe21e2d193f3b40355c2b00 a oa:FragmentSelector .
 target:selector_0f4d81599deaaa8d4fe21e2d193f3b40355c2b00 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_0f4d81599deaaa8d4fe21e2d193f3b40355c2b00 ui:h "0.1868439468159552"^^xsd:float .
