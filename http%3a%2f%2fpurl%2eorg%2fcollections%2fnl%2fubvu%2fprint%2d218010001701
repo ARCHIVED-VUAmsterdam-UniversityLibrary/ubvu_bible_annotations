@@ -12,6 +12,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_b6d9b2981dd28d06c36c241bfe5ebee9c452d566 a oa:Annotation .
+nl:id_b6d9b2981dd28d06c36c241bfe5ebee9c452d566 terms:title "John the Baptist preaching in the Wilderness of Judea" .
+nl:id_b6d9b2981dd28d06c36c241bfe5ebee9c452d566 ui:annotationField bible:ICBibleTheme .
+nl:id_b6d9b2981dd28d06c36c241bfe5ebee9c452d566 ui:typingTime 0 .
+nl:id_b6d9b2981dd28d06c36c241bfe5ebee9c452d566 oa:annotatedAt "2016-06-08T11:21:55+02:00"^^xsd:dateTime .
+nl:id_b6d9b2981dd28d06c36c241bfe5ebee9c452d566 oa:annotatedBy user:hogguer .
+nl:id_b6d9b2981dd28d06c36c241bfe5ebee9c452d566 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "John the Baptist preaching in the Wilderness of Judea" ] .
+nl:id_b6d9b2981dd28d06c36c241bfe5ebee9c452d566 oa:hasTarget ubvu:print-218010001701 .
+nl:id_b6d9b2981dd28d06c36c241bfe5ebee9c452d566 oa:motivatedBy oa:tagging .
+
 nl:id_c29cd4199eee7146288f50ec773a4f1f47099762 a oa:Annotation .
 nl:id_c29cd4199eee7146288f50ec773a4f1f47099762 terms:title "Johannes de Doper" .
 nl:id_c29cd4199eee7146288f50ec773a4f1f47099762 ui:annotationField bible:BibleCharacter .
