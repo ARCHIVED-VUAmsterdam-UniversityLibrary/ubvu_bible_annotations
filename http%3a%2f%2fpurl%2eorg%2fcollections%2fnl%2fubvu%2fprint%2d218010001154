@@ -7,13 +7,25 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_b6edf01e9747f01ff7542ec12607ba18eef876a2> a oa:Annotation .
-<http://accurator.nl/id_b6edf01e9747f01ff7542ec12607ba18eef876a2> terms:title "-" .
-<http://accurator.nl/id_b6edf01e9747f01ff7542ec12607ba18eef876a2> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
-<http://accurator.nl/id_b6edf01e9747f01ff7542ec12607ba18eef876a2> ui:typingTime 0 .
-<http://accurator.nl/id_b6edf01e9747f01ff7542ec12607ba18eef876a2> oa:annotatedAt "2016-05-05T11:06:01+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_b6edf01e9747f01ff7542ec12607ba18eef876a2> oa:annotatedBy user:everhoeff .
-<http://accurator.nl/id_b6edf01e9747f01ff7542ec12607ba18eef876a2> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "-" ] .
-<http://accurator.nl/id_b6edf01e9747f01ff7542ec12607ba18eef876a2> oa:hasTarget ubvu:print-218010001154 .
-<http://accurator.nl/id_b6edf01e9747f01ff7542ec12607ba18eef876a2> oa:motivatedBy oa:tagging .
+nl:id_8240c185585128aaf7548650fad95050d4458d7c a oa:Annotation .
+nl:id_8240c185585128aaf7548650fad95050d4458d7c terms:title "Simeon and Levi kill all the Shechemites and bring Dinah home, while the other brothers plunder the city" .
+nl:id_8240c185585128aaf7548650fad95050d4458d7c ui:annotationField bible:ICBibleTheme .
+nl:id_8240c185585128aaf7548650fad95050d4458d7c ui:typingTime 0 .
+nl:id_8240c185585128aaf7548650fad95050d4458d7c oa:annotatedAt "2016-06-08T10:56:00+02:00"^^xsd:dateTime .
+nl:id_8240c185585128aaf7548650fad95050d4458d7c oa:annotatedBy user:hogguer .
+nl:id_8240c185585128aaf7548650fad95050d4458d7c oa:hasBody <http://iconclass.org/71C3245> .
+nl:id_8240c185585128aaf7548650fad95050d4458d7c oa:hasTarget ubvu:print-218010001154 .
+nl:id_8240c185585128aaf7548650fad95050d4458d7c oa:motivatedBy oa:tagging .
+
+nl:id_b6edf01e9747f01ff7542ec12607ba18eef876a2 a oa:Annotation .
+nl:id_b6edf01e9747f01ff7542ec12607ba18eef876a2 terms:title "-" .
+nl:id_b6edf01e9747f01ff7542ec12607ba18eef876a2 ui:annotationField bible:ICBibleTheme .
+nl:id_b6edf01e9747f01ff7542ec12607ba18eef876a2 ui:typingTime 0 .
+nl:id_b6edf01e9747f01ff7542ec12607ba18eef876a2 oa:annotatedAt "2016-05-05T11:06:01+02:00"^^xsd:dateTime .
+nl:id_b6edf01e9747f01ff7542ec12607ba18eef876a2 oa:annotatedBy user:everhoeff .
+nl:id_b6edf01e9747f01ff7542ec12607ba18eef876a2 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "-" ] .
+nl:id_b6edf01e9747f01ff7542ec12607ba18eef876a2 oa:hasTarget ubvu:print-218010001154 .
+nl:id_b6edf01e9747f01ff7542ec12607ba18eef876a2 oa:motivatedBy oa:tagging .
