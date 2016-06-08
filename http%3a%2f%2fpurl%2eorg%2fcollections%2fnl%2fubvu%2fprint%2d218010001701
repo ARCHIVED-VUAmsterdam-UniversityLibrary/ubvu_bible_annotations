@@ -12,6 +12,17 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_9951ab77922676dfc0de5fc9107c7f9830280f12 a oa:Annotation .
+nl:id_9951ab77922676dfc0de5fc9107c7f9830280f12 terms:title "Johannes de Doper" .
+nl:id_9951ab77922676dfc0de5fc9107c7f9830280f12 ui:annotationField bible:BibleCharacter .
+nl:id_9951ab77922676dfc0de5fc9107c7f9830280f12 ui:typingTime 0 .
+nl:id_9951ab77922676dfc0de5fc9107c7f9830280f12 oa:annotatedAt "2016-06-08T11:21:59+02:00"^^xsd:dateTime .
+nl:id_9951ab77922676dfc0de5fc9107c7f9830280f12 oa:annotatedBy user:hogguer .
+nl:id_9951ab77922676dfc0de5fc9107c7f9830280f12 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Johannes de Doper" ] .
+nl:id_9951ab77922676dfc0de5fc9107c7f9830280f12 oa:hasTarget target:target_5e5ff5ae018807cc96dd4efaa2ac5ab89129f603 .
+nl:id_9951ab77922676dfc0de5fc9107c7f9830280f12 oa:hasTarget ubvu:print-218010001701 .
+nl:id_9951ab77922676dfc0de5fc9107c7f9830280f12 oa:motivatedBy oa:tagging .
+
 nl:id_b6d9b2981dd28d06c36c241bfe5ebee9c452d566 a oa:Annotation .
 nl:id_b6d9b2981dd28d06c36c241bfe5ebee9c452d566 terms:title "John the Baptist preaching in the Wilderness of Judea" .
 nl:id_b6d9b2981dd28d06c36c241bfe5ebee9c452d566 ui:annotationField bible:ICBibleTheme .
@@ -72,6 +83,14 @@ target:selector_506d015e602706add66c6601048dd66323685858 ui:x "0.196"^^xsd:float
 target:selector_506d015e602706add66c6601048dd66323685858 ui:y "0.2526595744680851"^^xsd:float .
 target:selector_506d015e602706add66c6601048dd66323685858 rdf:value "#xywh=percent:20,25,21,38" .
 
+target:selector_5e5ff5ae018807cc96dd4efaa2ac5ab89129f603 a oa:FragmentSelector .
+target:selector_5e5ff5ae018807cc96dd4efaa2ac5ab89129f603 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_5e5ff5ae018807cc96dd4efaa2ac5ab89129f603 ui:h "0.4198863636363636"^^xsd:float .
+target:selector_5e5ff5ae018807cc96dd4efaa2ac5ab89129f603 ui:w "0.2128205128205128"^^xsd:float .
+target:selector_5e5ff5ae018807cc96dd4efaa2ac5ab89129f603 ui:x "0.20256410256410257"^^xsd:float .
+target:selector_5e5ff5ae018807cc96dd4efaa2ac5ab89129f603 ui:y "0.23806818181818182"^^xsd:float .
+target:selector_5e5ff5ae018807cc96dd4efaa2ac5ab89129f603 rdf:value "#xywh=percent:20,24,21,42" .
+
 target:selector_8d079014885b748a3ab664eef68e6710dfb11e34 a oa:FragmentSelector .
 target:selector_8d079014885b748a3ab664eef68e6710dfb11e34 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_8d079014885b748a3ab664eef68e6710dfb11e34 ui:h "0.4326241134751773"^^xsd:float .
@@ -83,6 +102,10 @@ target:selector_8d079014885b748a3ab664eef68e6710dfb11e34 rdf:value "#xywh=percen
 target:target_506d015e602706add66c6601048dd66323685858 a oa:SpecificResource .
 target:target_506d015e602706add66c6601048dd66323685858 oa:hasSelector target:selector_506d015e602706add66c6601048dd66323685858 .
 target:target_506d015e602706add66c6601048dd66323685858 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/740> .
+
+target:target_5e5ff5ae018807cc96dd4efaa2ac5ab89129f603 a oa:SpecificResource .
+target:target_5e5ff5ae018807cc96dd4efaa2ac5ab89129f603 oa:hasSelector target:selector_5e5ff5ae018807cc96dd4efaa2ac5ab89129f603 .
+target:target_5e5ff5ae018807cc96dd4efaa2ac5ab89129f603 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/740> .
 
 target:target_8d079014885b748a3ab664eef68e6710dfb11e34 a oa:SpecificResource .
 target:target_8d079014885b748a3ab664eef68e6710dfb11e34 oa:hasSelector target:selector_8d079014885b748a3ab664eef68e6710dfb11e34 .
