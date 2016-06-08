@@ -35,6 +35,17 @@ nl:id_3f91268ddbae7b85b60723335ffd506d1afbdc51 oa:hasTarget target:target_a44f20
 nl:id_3f91268ddbae7b85b60723335ffd506d1afbdc51 oa:hasTarget ubvu:print-218010001411 .
 nl:id_3f91268ddbae7b85b60723335ffd506d1afbdc51 oa:motivatedBy oa:tagging .
 
+nl:id_df67d038b7b14c22444f81c901478aff5a70fc45 a oa:Annotation .
+nl:id_df67d038b7b14c22444f81c901478aff5a70fc45 terms:title "Boaz" .
+nl:id_df67d038b7b14c22444f81c901478aff5a70fc45 ui:annotationField bible:BibleCharacter .
+nl:id_df67d038b7b14c22444f81c901478aff5a70fc45 ui:typingTime 0 .
+nl:id_df67d038b7b14c22444f81c901478aff5a70fc45 oa:annotatedAt "2016-06-08T10:49:44+02:00"^^xsd:dateTime .
+nl:id_df67d038b7b14c22444f81c901478aff5a70fc45 oa:annotatedBy user:hogguer .
+nl:id_df67d038b7b14c22444f81c901478aff5a70fc45 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Boaz" ] .
+nl:id_df67d038b7b14c22444f81c901478aff5a70fc45 oa:hasTarget target:target_5474ff2bb7ee6ec8f97e97be8fbce0eb15d911c5 .
+nl:id_df67d038b7b14c22444f81c901478aff5a70fc45 oa:hasTarget ubvu:print-218010001411 .
+nl:id_df67d038b7b14c22444f81c901478aff5a70fc45 oa:motivatedBy oa:tagging .
+
 nl:id_e73bcef27f826950bf6c4cce5618c0e9e535045d a oa:Annotation .
 nl:id_e73bcef27f826950bf6c4cce5618c0e9e535045d terms:title "Boaz tells Ruth to reap in his field" .
 nl:id_e73bcef27f826950bf6c4cce5618c0e9e535045d ui:annotationField bible:ICBibleTheme .
@@ -53,6 +64,14 @@ target:selector_285eea25f455525b19d851d2673b089c80cde595 ui:x "0.278666666666666
 target:selector_285eea25f455525b19d851d2673b089c80cde595 ui:y "0.09240622140896615"^^xsd:float .
 target:selector_285eea25f455525b19d851d2673b089c80cde595 rdf:value "#xywh=percent:28,9,7,15" .
 
+target:selector_5474ff2bb7ee6ec8f97e97be8fbce0eb15d911c5 a oa:FragmentSelector .
+target:selector_5474ff2bb7ee6ec8f97e97be8fbce0eb15d911c5 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_5474ff2bb7ee6ec8f97e97be8fbce0eb15d911c5 ui:h "0.16715542521994134"^^xsd:float .
+target:selector_5474ff2bb7ee6ec8f97e97be8fbce0eb15d911c5 ui:w "0.10598290598290598"^^xsd:float .
+target:selector_5474ff2bb7ee6ec8f97e97be8fbce0eb15d911c5 ui:x "0.24871794871794872"^^xsd:float .
+target:selector_5474ff2bb7ee6ec8f97e97be8fbce0eb15d911c5 ui:y "0.08328445747800586"^^xsd:float .
+target:selector_5474ff2bb7ee6ec8f97e97be8fbce0eb15d911c5 rdf:value "#xywh=percent:25,8,11,17" .
+
 target:selector_a44f206562a1653da2b50653bcd8cc49b03341a4 a oa:FragmentSelector .
 target:selector_a44f206562a1653da2b50653bcd8cc49b03341a4 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_a44f206562a1653da2b50653bcd8cc49b03341a4 ui:h "0.10430009149130832"^^xsd:float .
@@ -64,6 +83,10 @@ target:selector_a44f206562a1653da2b50653bcd8cc49b03341a4 rdf:value "#xywh=percen
 target:target_285eea25f455525b19d851d2673b089c80cde595 a oa:SpecificResource .
 target:target_285eea25f455525b19d851d2673b089c80cde595 oa:hasSelector target:selector_285eea25f455525b19d851d2673b089c80cde595 .
 target:target_285eea25f455525b19d851d2673b089c80cde595 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/452> .
+
+target:target_5474ff2bb7ee6ec8f97e97be8fbce0eb15d911c5 a oa:SpecificResource .
+target:target_5474ff2bb7ee6ec8f97e97be8fbce0eb15d911c5 oa:hasSelector target:selector_5474ff2bb7ee6ec8f97e97be8fbce0eb15d911c5 .
+target:target_5474ff2bb7ee6ec8f97e97be8fbce0eb15d911c5 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/452> .
 
 target:target_a44f206562a1653da2b50653bcd8cc49b03341a4 a oa:SpecificResource .
 target:target_a44f206562a1653da2b50653bcd8cc49b03341a4 oa:hasSelector target:selector_a44f206562a1653da2b50653bcd8cc49b03341a4 .
