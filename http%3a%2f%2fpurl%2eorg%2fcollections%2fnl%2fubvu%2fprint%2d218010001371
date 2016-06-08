@@ -90,6 +90,16 @@ nl:id_98733d72e58166575e5e04f63aa514ba355a203a oa:hasTarget target:target_50a512
 nl:id_98733d72e58166575e5e04f63aa514ba355a203a oa:hasTarget ubvu:print-218010001371 .
 nl:id_98733d72e58166575e5e04f63aa514ba355a203a oa:motivatedBy oa:tagging .
 
+nl:id_dc5324ec4eb19c29ca9d79d13594527e05cf7070 a oa:Annotation .
+nl:id_dc5324ec4eb19c29ca9d79d13594527e05cf7070 terms:title "De dood van Sisera" .
+nl:id_dc5324ec4eb19c29ca9d79d13594527e05cf7070 ui:annotationField bible:ICBibleTheme .
+nl:id_dc5324ec4eb19c29ca9d79d13594527e05cf7070 ui:typingTime 0 .
+nl:id_dc5324ec4eb19c29ca9d79d13594527e05cf7070 oa:annotatedAt "2016-06-08T13:49:58+02:00"^^xsd:dateTime .
+nl:id_dc5324ec4eb19c29ca9d79d13594527e05cf7070 oa:annotatedBy user:paulinevandijk .
+nl:id_dc5324ec4eb19c29ca9d79d13594527e05cf7070 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "De dood van Sisera" ] .
+nl:id_dc5324ec4eb19c29ca9d79d13594527e05cf7070 oa:hasTarget ubvu:print-218010001371 .
+nl:id_dc5324ec4eb19c29ca9d79d13594527e05cf7070 oa:motivatedBy oa:tagging .
+
 target:selector_41bdb271ecde55bb49d579a30bfb3cbdb97ae34f a oa:FragmentSelector .
 target:selector_41bdb271ecde55bb49d579a30bfb3cbdb97ae34f terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_41bdb271ecde55bb49d579a30bfb3cbdb97ae34f ui:h "0.2543604651162791"^^xsd:float .
