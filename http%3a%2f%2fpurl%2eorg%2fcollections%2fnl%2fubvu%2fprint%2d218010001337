@@ -32,6 +32,16 @@ nl:id_af2f6af7724fdc083709e4940b29791b51b95d8b oa:hasBody [ a content:ContentAsT
 nl:id_af2f6af7724fdc083709e4940b29791b51b95d8b oa:hasTarget ubvu:print-218010001337 .
 nl:id_af2f6af7724fdc083709e4940b29791b51b95d8b oa:motivatedBy oa:tagging .
 
+nl:id_e89c7b296156b455a424e996836e627398bc0a8e a oa:Annotation .
+nl:id_e89c7b296156b455a424e996836e627398bc0a8e terms:title "The Gibeonites deceive Joshua" .
+nl:id_e89c7b296156b455a424e996836e627398bc0a8e ui:annotationField bible:ICBibleTheme .
+nl:id_e89c7b296156b455a424e996836e627398bc0a8e ui:typingTime 0 .
+nl:id_e89c7b296156b455a424e996836e627398bc0a8e oa:annotatedAt "2016-06-08T21:52:18+02:00"^^xsd:dateTime .
+nl:id_e89c7b296156b455a424e996836e627398bc0a8e oa:annotatedBy user:everhoeff .
+nl:id_e89c7b296156b455a424e996836e627398bc0a8e oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The Gibeonites deceive Joshua" ] .
+nl:id_e89c7b296156b455a424e996836e627398bc0a8e oa:hasTarget ubvu:print-218010001337 .
+nl:id_e89c7b296156b455a424e996836e627398bc0a8e oa:motivatedBy oa:tagging .
+
 target:selector_f1f91690d6d1a1d85697af4c826a40789437ac39 a oa:FragmentSelector .
 target:selector_f1f91690d6d1a1d85697af4c826a40789437ac39 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_f1f91690d6d1a1d85697af4c826a40789437ac39 ui:h "0.24814126394052044"^^xsd:float .
