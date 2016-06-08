@@ -54,6 +54,16 @@ nl:id_8479972a806e3752eaf389d44e97a2a4189bbf8f oa:hasTarget target:target_d7af2f
 nl:id_8479972a806e3752eaf389d44e97a2a4189bbf8f oa:hasTarget ubvu:print-218010001921 .
 nl:id_8479972a806e3752eaf389d44e97a2a4189bbf8f oa:motivatedBy oa:tagging .
 
+nl:id_dd9d3d0e70c3b0ce8a6a3425a02096dffa5413b1 a oa:Annotation .
+nl:id_dd9d3d0e70c3b0ce8a6a3425a02096dffa5413b1 terms:title "Petrus bevrijd uit de gevangenis" .
+nl:id_dd9d3d0e70c3b0ce8a6a3425a02096dffa5413b1 ui:annotationField bible:ICBibleTheme .
+nl:id_dd9d3d0e70c3b0ce8a6a3425a02096dffa5413b1 ui:typingTime 0 .
+nl:id_dd9d3d0e70c3b0ce8a6a3425a02096dffa5413b1 oa:annotatedAt "2016-06-08T14:00:24+02:00"^^xsd:dateTime .
+nl:id_dd9d3d0e70c3b0ce8a6a3425a02096dffa5413b1 oa:annotatedBy user:paulinevandijk .
+nl:id_dd9d3d0e70c3b0ce8a6a3425a02096dffa5413b1 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Petrus bevrijd uit de gevangenis" ] .
+nl:id_dd9d3d0e70c3b0ce8a6a3425a02096dffa5413b1 oa:hasTarget ubvu:print-218010001921 .
+nl:id_dd9d3d0e70c3b0ce8a6a3425a02096dffa5413b1 oa:motivatedBy oa:tagging .
+
 nl:id_f486390ebb2077ba3b8f11d422520e234ac0dbef a oa:Annotation .
 nl:id_f486390ebb2077ba3b8f11d422520e234ac0dbef terms:title "Petrus" .
 nl:id_f486390ebb2077ba3b8f11d422520e234ac0dbef ui:annotationField bible:BibleCharacter .
