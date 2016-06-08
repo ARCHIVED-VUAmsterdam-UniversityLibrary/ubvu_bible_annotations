@@ -23,6 +23,17 @@ nl:id_4eb8f310d754bd53baa67dedb62eeb6151441d9b oa:hasBody [ a content:ContentAsT
 nl:id_4eb8f310d754bd53baa67dedb62eeb6151441d9b oa:hasTarget ubvu:print-218010001543 .
 nl:id_4eb8f310d754bd53baa67dedb62eeb6151441d9b oa:motivatedBy oa:tagging .
 
+nl:id_7dec24e1ab652e74aec157913847122a3c1225c2 a oa:Annotation .
+nl:id_7dec24e1ab652e74aec157913847122a3c1225c2 terms:title "Chanun (zoon van Nachas), koning van de Ammonieten" .
+nl:id_7dec24e1ab652e74aec157913847122a3c1225c2 ui:annotationField bible:BibleCharacter .
+nl:id_7dec24e1ab652e74aec157913847122a3c1225c2 ui:typingTime 0 .
+nl:id_7dec24e1ab652e74aec157913847122a3c1225c2 oa:annotatedAt "2016-06-08T11:17:30+02:00"^^xsd:dateTime .
+nl:id_7dec24e1ab652e74aec157913847122a3c1225c2 oa:annotatedBy user:hogguer .
+nl:id_7dec24e1ab652e74aec157913847122a3c1225c2 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Chanun (zoon van Nachas), koning van de Ammonieten" ] .
+nl:id_7dec24e1ab652e74aec157913847122a3c1225c2 oa:hasTarget target:target_f765996de68eaeb2adb2fabe2c1334fa68f71f99 .
+nl:id_7dec24e1ab652e74aec157913847122a3c1225c2 oa:hasTarget ubvu:print-218010001543 .
+nl:id_7dec24e1ab652e74aec157913847122a3c1225c2 oa:motivatedBy oa:tagging .
+
 nl:id_a807bfc6b4f96d03683ae03abd0bf9e2411b7c62 a oa:Annotation .
 nl:id_a807bfc6b4f96d03683ae03abd0bf9e2411b7c62 terms:title "Dienaar van David" .
 nl:id_a807bfc6b4f96d03683ae03abd0bf9e2411b7c62 ui:annotationField bible:BibleCharacter .
@@ -119,6 +130,14 @@ target:selector_e3c66ea97bbb5336ba43948e3ec810ddb3b9efef ui:x "0.329914529914529
 target:selector_e3c66ea97bbb5336ba43948e3ec810ddb3b9efef ui:y "0.41541135573580534"^^xsd:float .
 target:selector_e3c66ea97bbb5336ba43948e3ec810ddb3b9efef rdf:value "#xywh=percent:33,42,19,42" .
 
+target:selector_f765996de68eaeb2adb2fabe2c1334fa68f71f99 a oa:FragmentSelector .
+target:selector_f765996de68eaeb2adb2fabe2c1334fa68f71f99 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_f765996de68eaeb2adb2fabe2c1334fa68f71f99 ui:h "0.2137891077636153"^^xsd:float .
+target:selector_f765996de68eaeb2adb2fabe2c1334fa68f71f99 ui:w "0.14957264957264957"^^xsd:float .
+target:selector_f765996de68eaeb2adb2fabe2c1334fa68f71f99 ui:x "0.4675213675213675"^^xsd:float .
+target:selector_f765996de68eaeb2adb2fabe2c1334fa68f71f99 ui:y "0.25318655851680183"^^xsd:float .
+target:selector_f765996de68eaeb2adb2fabe2c1334fa68f71f99 rdf:value "#xywh=percent:47,25,15,21" .
+
 target:target_4b53a5bfb8eeb693b253245bbda7ecd9317851f9 a oa:SpecificResource .
 target:target_4b53a5bfb8eeb693b253245bbda7ecd9317851f9 oa:hasSelector target:selector_4b53a5bfb8eeb693b253245bbda7ecd9317851f9 .
 target:target_4b53a5bfb8eeb693b253245bbda7ecd9317851f9 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/584> .
@@ -134,3 +153,7 @@ target:target_d4fb8c5711cb4e3a1cef89637053b661918d4467 oa:hasSource <http://imag
 target:target_e3c66ea97bbb5336ba43948e3ec810ddb3b9efef a oa:SpecificResource .
 target:target_e3c66ea97bbb5336ba43948e3ec810ddb3b9efef oa:hasSelector target:selector_e3c66ea97bbb5336ba43948e3ec810ddb3b9efef .
 target:target_e3c66ea97bbb5336ba43948e3ec810ddb3b9efef oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/584> .
+
+target:target_f765996de68eaeb2adb2fabe2c1334fa68f71f99 a oa:SpecificResource .
+target:target_f765996de68eaeb2adb2fabe2c1334fa68f71f99 oa:hasSelector target:selector_f765996de68eaeb2adb2fabe2c1334fa68f71f99 .
+target:target_f765996de68eaeb2adb2fabe2c1334fa68f71f99 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/584> .
