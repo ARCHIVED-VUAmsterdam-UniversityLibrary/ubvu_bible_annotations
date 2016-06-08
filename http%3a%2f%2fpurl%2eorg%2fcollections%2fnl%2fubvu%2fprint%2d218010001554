@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -21,6 +22,17 @@ nl:id_278e85c812d952cfee71acf320ed2fe2b8ff51f5 oa:hasBody <http://iconclass.org/
 nl:id_278e85c812d952cfee71acf320ed2fe2b8ff51f5 oa:hasTarget ubvu:print-218010001554 .
 nl:id_278e85c812d952cfee71acf320ed2fe2b8ff51f5 oa:motivatedBy oa:tagging .
 
+nl:id_351774eff8b9715b772172d298c5497375b8f4b5 a oa:Annotation .
+nl:id_351774eff8b9715b772172d298c5497375b8f4b5 terms:title "Safan" .
+nl:id_351774eff8b9715b772172d298c5497375b8f4b5 ui:annotationField bible:BibleCharacter .
+nl:id_351774eff8b9715b772172d298c5497375b8f4b5 ui:typingTime 0 .
+nl:id_351774eff8b9715b772172d298c5497375b8f4b5 oa:annotatedAt "2016-06-08T13:54:29+02:00"^^xsd:dateTime .
+nl:id_351774eff8b9715b772172d298c5497375b8f4b5 oa:annotatedBy user:paulinevandijk .
+nl:id_351774eff8b9715b772172d298c5497375b8f4b5 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Safan" ] .
+nl:id_351774eff8b9715b772172d298c5497375b8f4b5 oa:hasTarget target:target_04a0c608bb66153e49e9e71d35726406534b8d5a .
+nl:id_351774eff8b9715b772172d298c5497375b8f4b5 oa:hasTarget ubvu:print-218010001554 .
+nl:id_351774eff8b9715b772172d298c5497375b8f4b5 oa:motivatedBy oa:tagging .
+
 nl:id_675afee64308357732f8b287a796bb463f133c19 a oa:Annotation .
 nl:id_675afee64308357732f8b287a796bb463f133c19 terms:title "Manasse (Koning van Juda) " .
 nl:id_675afee64308357732f8b287a796bb463f133c19 ui:annotationField bible:BibleCharacter .
@@ -32,6 +44,14 @@ nl:id_675afee64308357732f8b287a796bb463f133c19 oa:hasTarget target:target_d0f605
 nl:id_675afee64308357732f8b287a796bb463f133c19 oa:hasTarget ubvu:print-218010001554 .
 nl:id_675afee64308357732f8b287a796bb463f133c19 oa:motivatedBy oa:tagging .
 
+target:selector_04a0c608bb66153e49e9e71d35726406534b8d5a a oa:FragmentSelector .
+target:selector_04a0c608bb66153e49e9e71d35726406534b8d5a terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_04a0c608bb66153e49e9e71d35726406534b8d5a ui:h "0.18419144307469182"^^xsd:float .
+target:selector_04a0c608bb66153e49e9e71d35726406534b8d5a ui:w "0.1515463917525773"^^xsd:float .
+target:selector_04a0c608bb66153e49e9e71d35726406534b8d5a ui:x "0.3989690721649485"^^xsd:float .
+target:selector_04a0c608bb66153e49e9e71d35726406534b8d5a ui:y "0.5960841189267585"^^xsd:float .
+target:selector_04a0c608bb66153e49e9e71d35726406534b8d5a rdf:value "#xywh=percent:40,60,15,18" .
+
 target:selector_d0f6050908f85c4d2452326fe2fff27316a72621 a oa:FragmentSelector .
 target:selector_d0f6050908f85c4d2452326fe2fff27316a72621 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_d0f6050908f85c4d2452326fe2fff27316a72621 ui:h "0.21286831028262176"^^xsd:float .
@@ -39,6 +59,10 @@ target:selector_d0f6050908f85c4d2452326fe2fff27316a72621 ui:w "0.175213675213675
 target:selector_d0f6050908f85c4d2452326fe2fff27316a72621 ui:x "0.6222222222222222"^^xsd:float .
 target:selector_d0f6050908f85c4d2452326fe2fff27316a72621 ui:y "0.5496091401082381"^^xsd:float .
 target:selector_d0f6050908f85c4d2452326fe2fff27316a72621 rdf:value "#xywh=percent:62,55,18,21" .
+
+target:target_04a0c608bb66153e49e9e71d35726406534b8d5a a oa:SpecificResource .
+target:target_04a0c608bb66153e49e9e71d35726406534b8d5a oa:hasSelector target:selector_04a0c608bb66153e49e9e71d35726406534b8d5a .
+target:target_04a0c608bb66153e49e9e71d35726406534b8d5a oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/595> .
 
 target:target_d0f6050908f85c4d2452326fe2fff27316a72621 a oa:SpecificResource .
 target:target_d0f6050908f85c4d2452326fe2fff27316a72621 oa:hasSelector target:selector_d0f6050908f85c4d2452326fe2fff27316a72621 .
