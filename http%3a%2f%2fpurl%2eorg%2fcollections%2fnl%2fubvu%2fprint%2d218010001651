@@ -1,9 +1,11 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
 @prefix media-frags: <http://www.w3.org/TR/media-frags/> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix resource: <http://bibleontology.com/resource/> .
@@ -21,6 +23,17 @@ nl:id_67902e4491f6f3959bd6344015afe8b5d9ac5834 oa:hasBody resource:Mary_Mother_o
 nl:id_67902e4491f6f3959bd6344015afe8b5d9ac5834 oa:hasTarget target:target_470988b9683e42eaf582e3df5be9b4447ac76cb6 .
 nl:id_67902e4491f6f3959bd6344015afe8b5d9ac5834 oa:hasTarget ubvu:print-218010001651 .
 nl:id_67902e4491f6f3959bd6344015afe8b5d9ac5834 oa:motivatedBy oa:tagging .
+
+nl:id_b2fc5ab340fcf4125d47dcc74081b78c11ec113e a oa:Annotation .
+nl:id_b2fc5ab340fcf4125d47dcc74081b78c11ec113e terms:title "Engel" .
+nl:id_b2fc5ab340fcf4125d47dcc74081b78c11ec113e ui:annotationField bible:BibleCharacter .
+nl:id_b2fc5ab340fcf4125d47dcc74081b78c11ec113e ui:typingTime 0 .
+nl:id_b2fc5ab340fcf4125d47dcc74081b78c11ec113e oa:annotatedAt "2016-06-08T10:40:55+02:00"^^xsd:dateTime .
+nl:id_b2fc5ab340fcf4125d47dcc74081b78c11ec113e oa:annotatedBy user:hogguer .
+nl:id_b2fc5ab340fcf4125d47dcc74081b78c11ec113e oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Engel" ] .
+nl:id_b2fc5ab340fcf4125d47dcc74081b78c11ec113e oa:hasTarget target:target_d5ec8a13fbf6c31b8b90125529c7bb4fcb34272c .
+nl:id_b2fc5ab340fcf4125d47dcc74081b78c11ec113e oa:hasTarget ubvu:print-218010001651 .
+nl:id_b2fc5ab340fcf4125d47dcc74081b78c11ec113e oa:motivatedBy oa:tagging .
 
 nl:id_c79c7ecb0a57f514ce75b0eff8d35d7d87cfabe0 a oa:Annotation .
 nl:id_c79c7ecb0a57f514ce75b0eff8d35d7d87cfabe0 terms:title "Maria (moeder van Jezus Christus))" .
@@ -41,6 +54,14 @@ target:selector_470988b9683e42eaf582e3df5be9b4447ac76cb6 ui:x "0.155555555555555
 target:selector_470988b9683e42eaf582e3df5be9b4447ac76cb6 ui:y "0.4043304704193376"^^xsd:float .
 target:selector_470988b9683e42eaf582e3df5be9b4447ac76cb6 rdf:value "#xywh=percent:16,40,10,10" .
 
+target:selector_d5ec8a13fbf6c31b8b90125529c7bb4fcb34272c a oa:FragmentSelector .
+target:selector_d5ec8a13fbf6c31b8b90125529c7bb4fcb34272c terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_d5ec8a13fbf6c31b8b90125529c7bb4fcb34272c ui:h "0.49173789173789173"^^xsd:float .
+target:selector_d5ec8a13fbf6c31b8b90125529c7bb4fcb34272c ui:w "0.4230769230769231"^^xsd:float .
+target:selector_d5ec8a13fbf6c31b8b90125529c7bb4fcb34272c ui:x "0.31794871794871793"^^xsd:float .
+target:selector_d5ec8a13fbf6c31b8b90125529c7bb4fcb34272c ui:y "0.3504273504273504"^^xsd:float .
+target:selector_d5ec8a13fbf6c31b8b90125529c7bb4fcb34272c rdf:value "#xywh=percent:32,35,42,49" .
+
 target:selector_fbddc5534a4909223cf5ee32643c0b46bbebae47 a oa:FragmentSelector .
 target:selector_fbddc5534a4909223cf5ee32643c0b46bbebae47 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_fbddc5534a4909223cf5ee32643c0b46bbebae47 ui:h "0.42792022792022794"^^xsd:float .
@@ -52,6 +73,10 @@ target:selector_fbddc5534a4909223cf5ee32643c0b46bbebae47 rdf:value "#xywh=percen
 target:target_470988b9683e42eaf582e3df5be9b4447ac76cb6 a oa:SpecificResource .
 target:target_470988b9683e42eaf582e3df5be9b4447ac76cb6 oa:hasSelector target:selector_470988b9683e42eaf582e3df5be9b4447ac76cb6 .
 target:target_470988b9683e42eaf582e3df5be9b4447ac76cb6 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/690> .
+
+target:target_d5ec8a13fbf6c31b8b90125529c7bb4fcb34272c a oa:SpecificResource .
+target:target_d5ec8a13fbf6c31b8b90125529c7bb4fcb34272c oa:hasSelector target:selector_d5ec8a13fbf6c31b8b90125529c7bb4fcb34272c .
+target:target_d5ec8a13fbf6c31b8b90125529c7bb4fcb34272c oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/690> .
 
 target:target_fbddc5534a4909223cf5ee32643c0b46bbebae47 a oa:SpecificResource .
 target:target_fbddc5534a4909223cf5ee32643c0b46bbebae47 oa:hasSelector target:selector_fbddc5534a4909223cf5ee32643c0b46bbebae47 .
