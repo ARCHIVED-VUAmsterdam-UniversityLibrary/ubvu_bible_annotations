@@ -45,6 +45,16 @@ nl:id_af50d68c7a8e62a67cfd4707362c0f3653c94b90 oa:hasTarget target:target_d4fb8c
 nl:id_af50d68c7a8e62a67cfd4707362c0f3653c94b90 oa:hasTarget ubvu:print-218010001543 .
 nl:id_af50d68c7a8e62a67cfd4707362c0f3653c94b90 oa:motivatedBy oa:tagging .
 
+nl:id_c194920f1f59ddf9244c88d7cd88aceb06b98841 a oa:Annotation .
+nl:id_c194920f1f59ddf9244c88d7cd88aceb06b98841 terms:title "Shaving and cutting off the garments of David's servants by Hanun, king of the Ammonites" .
+nl:id_c194920f1f59ddf9244c88d7cd88aceb06b98841 ui:annotationField bible:ICBibleTheme .
+nl:id_c194920f1f59ddf9244c88d7cd88aceb06b98841 ui:typingTime 0 .
+nl:id_c194920f1f59ddf9244c88d7cd88aceb06b98841 oa:annotatedAt "2016-06-08T11:16:55+02:00"^^xsd:dateTime .
+nl:id_c194920f1f59ddf9244c88d7cd88aceb06b98841 oa:annotatedBy user:hogguer .
+nl:id_c194920f1f59ddf9244c88d7cd88aceb06b98841 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Shaving and cutting off the garments of David's servants by Hanun, king of the Ammonites" ] .
+nl:id_c194920f1f59ddf9244c88d7cd88aceb06b98841 oa:hasTarget ubvu:print-218010001543 .
+nl:id_c194920f1f59ddf9244c88d7cd88aceb06b98841 oa:motivatedBy oa:tagging .
+
 nl:id_cc6339d8c09466f540f633f56a415595afcb78f5 a oa:Annotation .
 nl:id_cc6339d8c09466f540f633f56a415595afcb78f5 terms:title "David's messengers shaved by Hanun" .
 nl:id_cc6339d8c09466f540f633f56a415595afcb78f5 ui:annotationField bible:ICBibleTheme .
