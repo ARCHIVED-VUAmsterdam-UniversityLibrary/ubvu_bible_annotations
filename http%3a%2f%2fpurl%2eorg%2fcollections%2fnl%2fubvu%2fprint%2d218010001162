@@ -1,8 +1,10 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix resource: <http://bibleontology.com/resource/> .
@@ -30,6 +32,16 @@ nl:id_6e30cc1cba4012f963a3782d2085d88b1a9ccf8d oa:annotatedBy user:everhoeff .
 nl:id_6e30cc1cba4012f963a3782d2085d88b1a9ccf8d oa:hasBody <http://iconclass.org/71C332> .
 nl:id_6e30cc1cba4012f963a3782d2085d88b1a9ccf8d oa:hasTarget ubvu:print-218010001162 .
 nl:id_6e30cc1cba4012f963a3782d2085d88b1a9ccf8d oa:motivatedBy oa:tagging .
+
+nl:id_914b6c78f0d018e5f76d5205ee7ddee67662303f a oa:Annotation .
+nl:id_914b6c78f0d018e5f76d5205ee7ddee67662303f terms:title "Tamar is zwanger van haar schoonvader Juda" .
+nl:id_914b6c78f0d018e5f76d5205ee7ddee67662303f ui:annotationField bible:ICBibleTheme .
+nl:id_914b6c78f0d018e5f76d5205ee7ddee67662303f ui:typingTime 0 .
+nl:id_914b6c78f0d018e5f76d5205ee7ddee67662303f oa:annotatedAt "2016-06-08T14:09:21+02:00"^^xsd:dateTime .
+nl:id_914b6c78f0d018e5f76d5205ee7ddee67662303f oa:annotatedBy user:paulinevandijk .
+nl:id_914b6c78f0d018e5f76d5205ee7ddee67662303f oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Tamar is zwanger van haar schoonvader Juda" ] .
+nl:id_914b6c78f0d018e5f76d5205ee7ddee67662303f oa:hasTarget ubvu:print-218010001162 .
+nl:id_914b6c78f0d018e5f76d5205ee7ddee67662303f oa:motivatedBy oa:tagging .
 
 nl:id_e401c48065d649e0387e1abade48f5eddc5fd450 a oa:Annotation .
 nl:id_e401c48065d649e0387e1abade48f5eddc5fd450 terms:title "Tamar (familie van Juda)" .
