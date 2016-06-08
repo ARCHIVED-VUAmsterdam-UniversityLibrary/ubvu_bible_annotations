@@ -7,13 +7,25 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_d14ea51086b2755e9b61e213ae5de589ee563959> a oa:Annotation .
-<http://accurator.nl/id_d14ea51086b2755e9b61e213ae5de589ee563959> terms:title "Ontmoeting Jacob en Esau omringd door familie en leger (Genesis 33:4)" .
-<http://accurator.nl/id_d14ea51086b2755e9b61e213ae5de589ee563959> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
-<http://accurator.nl/id_d14ea51086b2755e9b61e213ae5de589ee563959> ui:typingTime 0 .
-<http://accurator.nl/id_d14ea51086b2755e9b61e213ae5de589ee563959> oa:annotatedAt "2016-04-04T15:48:44+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_d14ea51086b2755e9b61e213ae5de589ee563959> oa:annotatedBy user:hrmurris .
-<http://accurator.nl/id_d14ea51086b2755e9b61e213ae5de589ee563959> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Ontmoeting Jacob en Esau omringd door familie en leger (Genesis 33:4)" ] .
-<http://accurator.nl/id_d14ea51086b2755e9b61e213ae5de589ee563959> oa:hasTarget ubvu:print-218010001147 .
-<http://accurator.nl/id_d14ea51086b2755e9b61e213ae5de589ee563959> oa:motivatedBy oa:tagging .
+nl:id_d14ea51086b2755e9b61e213ae5de589ee563959 a oa:Annotation .
+nl:id_d14ea51086b2755e9b61e213ae5de589ee563959 terms:title "Ontmoeting Jacob en Esau omringd door familie en leger (Genesis 33:4)" .
+nl:id_d14ea51086b2755e9b61e213ae5de589ee563959 ui:annotationField bible:ICBibleTheme .
+nl:id_d14ea51086b2755e9b61e213ae5de589ee563959 ui:typingTime 0 .
+nl:id_d14ea51086b2755e9b61e213ae5de589ee563959 oa:annotatedAt "2016-04-04T15:48:44+02:00"^^xsd:dateTime .
+nl:id_d14ea51086b2755e9b61e213ae5de589ee563959 oa:annotatedBy user:hrmurris .
+nl:id_d14ea51086b2755e9b61e213ae5de589ee563959 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Ontmoeting Jacob en Esau omringd door familie en leger (Genesis 33:4)" ] .
+nl:id_d14ea51086b2755e9b61e213ae5de589ee563959 oa:hasTarget ubvu:print-218010001147 .
+nl:id_d14ea51086b2755e9b61e213ae5de589ee563959 oa:motivatedBy oa:tagging .
+
+nl:id_db745c46ce88c998bb77718b302879ba993c5cd1 a oa:Annotation .
+nl:id_db745c46ce88c998bb77718b302879ba993c5cd1 terms:title "Esau ran to meet Jacob and fell on his neck and kissed him" .
+nl:id_db745c46ce88c998bb77718b302879ba993c5cd1 ui:annotationField bible:ICBibleTheme .
+nl:id_db745c46ce88c998bb77718b302879ba993c5cd1 ui:typingTime 0 .
+nl:id_db745c46ce88c998bb77718b302879ba993c5cd1 oa:annotatedAt "2016-06-08T21:53:21+02:00"^^xsd:dateTime .
+nl:id_db745c46ce88c998bb77718b302879ba993c5cd1 oa:annotatedBy user:everhoeff .
+nl:id_db745c46ce88c998bb77718b302879ba993c5cd1 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Esau ran to meet Jacob and fell on his neck and kissed him" ] .
+nl:id_db745c46ce88c998bb77718b302879ba993c5cd1 oa:hasTarget ubvu:print-218010001147 .
+nl:id_db745c46ce88c998bb77718b302879ba993c5cd1 oa:motivatedBy oa:tagging .
