@@ -29,3 +29,13 @@ nl:id_cfd3232e6536f6f632ddea085c2d27946f5a4030 oa:annotatedBy user:everhoeff .
 nl:id_cfd3232e6536f6f632ddea085c2d27946f5a4030 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Joshua and the battle with the five kings" ] .
 nl:id_cfd3232e6536f6f632ddea085c2d27946f5a4030 oa:hasTarget ubvu:print-218010001342 .
 nl:id_cfd3232e6536f6f632ddea085c2d27946f5a4030 oa:motivatedBy oa:tagging .
+
+nl:id_d1ea639b8ace3d45a0dd26b814593f0886b11332 a oa:Annotation .
+nl:id_d1ea639b8ace3d45a0dd26b814593f0886b11332 terms:title "Slag bij Gibeon" .
+nl:id_d1ea639b8ace3d45a0dd26b814593f0886b11332 ui:annotationField bible:ICBibleTheme .
+nl:id_d1ea639b8ace3d45a0dd26b814593f0886b11332 ui:typingTime 0 .
+nl:id_d1ea639b8ace3d45a0dd26b814593f0886b11332 oa:annotatedAt "2016-06-08T13:58:35+02:00"^^xsd:dateTime .
+nl:id_d1ea639b8ace3d45a0dd26b814593f0886b11332 oa:annotatedBy user:paulinevandijk .
+nl:id_d1ea639b8ace3d45a0dd26b814593f0886b11332 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Slag bij Gibeon" ] .
+nl:id_d1ea639b8ace3d45a0dd26b814593f0886b11332 oa:hasTarget ubvu:print-218010001342 .
+nl:id_d1ea639b8ace3d45a0dd26b814593f0886b11332 oa:motivatedBy oa:tagging .
