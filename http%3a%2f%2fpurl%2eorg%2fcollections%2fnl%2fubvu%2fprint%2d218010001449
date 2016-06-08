@@ -33,6 +33,16 @@ nl:id_35244baf04129533d756b005404c372d587dda04 oa:hasTarget target:target_6962ab
 nl:id_35244baf04129533d756b005404c372d587dda04 oa:hasTarget ubvu:print-218010001449 .
 nl:id_35244baf04129533d756b005404c372d587dda04 oa:motivatedBy oa:tagging .
 
+nl:id_65fe288e4484efa9545301887bdeb983eb24d7bd a oa:Annotation .
+nl:id_65fe288e4484efa9545301887bdeb983eb24d7bd terms:title "Jonathan in gevecht met Filistijnen" .
+nl:id_65fe288e4484efa9545301887bdeb983eb24d7bd ui:annotationField bible:ICBibleTheme .
+nl:id_65fe288e4484efa9545301887bdeb983eb24d7bd ui:typingTime 0 .
+nl:id_65fe288e4484efa9545301887bdeb983eb24d7bd oa:annotatedAt "2016-06-08T14:04:31+02:00"^^xsd:dateTime .
+nl:id_65fe288e4484efa9545301887bdeb983eb24d7bd oa:annotatedBy user:paulinevandijk .
+nl:id_65fe288e4484efa9545301887bdeb983eb24d7bd oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jonathan in gevecht met Filistijnen" ] .
+nl:id_65fe288e4484efa9545301887bdeb983eb24d7bd oa:hasTarget ubvu:print-218010001449 .
+nl:id_65fe288e4484efa9545301887bdeb983eb24d7bd oa:motivatedBy oa:tagging .
+
 nl:id_7a1d685f2f7bc6fcb06f6f630a74b5bf45352338 a oa:Annotation .
 nl:id_7a1d685f2f7bc6fcb06f6f630a74b5bf45352338 terms:title "Jonathan" .
 nl:id_7a1d685f2f7bc6fcb06f6f630a74b5bf45352338 ui:annotationField bible:BibleCharacter .
