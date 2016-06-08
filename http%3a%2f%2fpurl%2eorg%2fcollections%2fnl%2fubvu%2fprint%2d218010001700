@@ -24,6 +24,16 @@ nl:id_84d23e300513230c62145366f0eac53651481aa9 oa:hasTarget target:target_50971c
 nl:id_84d23e300513230c62145366f0eac53651481aa9 oa:hasTarget ubvu:print-218010001700 .
 nl:id_84d23e300513230c62145366f0eac53651481aa9 oa:motivatedBy oa:tagging .
 
+nl:id_ae910b6d9f1d64cde9273640bad2f1432ad2c33e a oa:Annotation .
+nl:id_ae910b6d9f1d64cde9273640bad2f1432ad2c33e terms:title "A Pharisee besought Jesus to dine with him and he went in and sat down" .
+nl:id_ae910b6d9f1d64cde9273640bad2f1432ad2c33e ui:annotationField bible:ICBibleTheme .
+nl:id_ae910b6d9f1d64cde9273640bad2f1432ad2c33e ui:typingTime 0 .
+nl:id_ae910b6d9f1d64cde9273640bad2f1432ad2c33e oa:annotatedAt "2016-06-08T21:36:17+02:00"^^xsd:dateTime .
+nl:id_ae910b6d9f1d64cde9273640bad2f1432ad2c33e oa:annotatedBy user:everhoeff .
+nl:id_ae910b6d9f1d64cde9273640bad2f1432ad2c33e oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "A Pharisee besought Jesus to dine with him and he went in and sat down" ] .
+nl:id_ae910b6d9f1d64cde9273640bad2f1432ad2c33e oa:hasTarget ubvu:print-218010001700 .
+nl:id_ae910b6d9f1d64cde9273640bad2f1432ad2c33e oa:motivatedBy oa:tagging .
+
 nl:id_af9d5f1b8c1f5ec42093091471126125301f7a5a a oa:Annotation .
 nl:id_af9d5f1b8c1f5ec42093091471126125301f7a5a terms:title "Pharisee" .
 nl:id_af9d5f1b8c1f5ec42093091471126125301f7a5a ui:annotationField bible:BibleCharacter .
