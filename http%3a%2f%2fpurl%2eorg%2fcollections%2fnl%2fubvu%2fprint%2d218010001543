@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -21,6 +22,17 @@ nl:id_4eb8f310d754bd53baa67dedb62eeb6151441d9b oa:annotatedBy user:paulinevandij
 nl:id_4eb8f310d754bd53baa67dedb62eeb6151441d9b oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Chanun scheert de baarden af van Davids afgezanten en scheurt de onderkant van hun kleren af tot op hun achterwerk" ] .
 nl:id_4eb8f310d754bd53baa67dedb62eeb6151441d9b oa:hasTarget ubvu:print-218010001543 .
 nl:id_4eb8f310d754bd53baa67dedb62eeb6151441d9b oa:motivatedBy oa:tagging .
+
+nl:id_a807bfc6b4f96d03683ae03abd0bf9e2411b7c62 a oa:Annotation .
+nl:id_a807bfc6b4f96d03683ae03abd0bf9e2411b7c62 terms:title "Dienaar van David" .
+nl:id_a807bfc6b4f96d03683ae03abd0bf9e2411b7c62 ui:annotationField bible:BibleCharacter .
+nl:id_a807bfc6b4f96d03683ae03abd0bf9e2411b7c62 ui:typingTime 0 .
+nl:id_a807bfc6b4f96d03683ae03abd0bf9e2411b7c62 oa:annotatedAt "2016-06-08T11:09:40+02:00"^^xsd:dateTime .
+nl:id_a807bfc6b4f96d03683ae03abd0bf9e2411b7c62 oa:annotatedBy user:hogguer .
+nl:id_a807bfc6b4f96d03683ae03abd0bf9e2411b7c62 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Dienaar van David" ] .
+nl:id_a807bfc6b4f96d03683ae03abd0bf9e2411b7c62 oa:hasTarget target:target_e3c66ea97bbb5336ba43948e3ec810ddb3b9efef .
+nl:id_a807bfc6b4f96d03683ae03abd0bf9e2411b7c62 oa:hasTarget ubvu:print-218010001543 .
+nl:id_a807bfc6b4f96d03683ae03abd0bf9e2411b7c62 oa:motivatedBy oa:tagging .
 
 nl:id_cc6339d8c09466f540f633f56a415595afcb78f5 a oa:Annotation .
 nl:id_cc6339d8c09466f540f633f56a415595afcb78f5 terms:title "David's messengers shaved by Hanun" .
@@ -51,6 +63,18 @@ target:selector_82e5910eb0ce317402dd3f8a1acfea04cae898dd ui:x "0.485333333333333
 target:selector_82e5910eb0ce317402dd3f8a1acfea04cae898dd ui:y "0.2613019891500904"^^xsd:float .
 target:selector_82e5910eb0ce317402dd3f8a1acfea04cae898dd rdf:value "#xywh=percent:49,26,8,21" .
 
+target:selector_e3c66ea97bbb5336ba43948e3ec810ddb3b9efef a oa:FragmentSelector .
+target:selector_e3c66ea97bbb5336ba43948e3ec810ddb3b9efef terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_e3c66ea97bbb5336ba43948e3ec810ddb3b9efef ui:h "0.41888760139049824"^^xsd:float .
+target:selector_e3c66ea97bbb5336ba43948e3ec810ddb3b9efef ui:w "0.18888888888888888"^^xsd:float .
+target:selector_e3c66ea97bbb5336ba43948e3ec810ddb3b9efef ui:x "0.3299145299145299"^^xsd:float .
+target:selector_e3c66ea97bbb5336ba43948e3ec810ddb3b9efef ui:y "0.41541135573580534"^^xsd:float .
+target:selector_e3c66ea97bbb5336ba43948e3ec810ddb3b9efef rdf:value "#xywh=percent:33,42,19,42" .
+
 target:target_82e5910eb0ce317402dd3f8a1acfea04cae898dd a oa:SpecificResource .
 target:target_82e5910eb0ce317402dd3f8a1acfea04cae898dd oa:hasSelector target:selector_82e5910eb0ce317402dd3f8a1acfea04cae898dd .
 target:target_82e5910eb0ce317402dd3f8a1acfea04cae898dd oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/584> .
+
+target:target_e3c66ea97bbb5336ba43948e3ec810ddb3b9efef a oa:SpecificResource .
+target:target_e3c66ea97bbb5336ba43948e3ec810ddb3b9efef oa:hasSelector target:selector_e3c66ea97bbb5336ba43948e3ec810ddb3b9efef .
+target:target_e3c66ea97bbb5336ba43948e3ec810ddb3b9efef oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/584> .
