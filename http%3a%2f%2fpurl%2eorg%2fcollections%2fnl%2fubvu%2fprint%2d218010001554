@@ -13,6 +13,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_0ec4f86d9baa380818ba3afdb712dc6dec4cbff9 a oa:Annotation .
+nl:id_0ec4f86d9baa380818ba3afdb712dc6dec4cbff9 terms:title "Safan leest een boekrol voor aan koning Josia" .
+nl:id_0ec4f86d9baa380818ba3afdb712dc6dec4cbff9 ui:annotationField bible:ICBibleTheme .
+nl:id_0ec4f86d9baa380818ba3afdb712dc6dec4cbff9 ui:typingTime 0 .
+nl:id_0ec4f86d9baa380818ba3afdb712dc6dec4cbff9 oa:annotatedAt "2016-06-08T13:55:20+02:00"^^xsd:dateTime .
+nl:id_0ec4f86d9baa380818ba3afdb712dc6dec4cbff9 oa:annotatedBy user:paulinevandijk .
+nl:id_0ec4f86d9baa380818ba3afdb712dc6dec4cbff9 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Safan leest een boekrol voor aan koning Josia" ] .
+nl:id_0ec4f86d9baa380818ba3afdb712dc6dec4cbff9 oa:hasTarget ubvu:print-218010001554 .
+nl:id_0ec4f86d9baa380818ba3afdb712dc6dec4cbff9 oa:motivatedBy oa:tagging .
+
 nl:id_278e85c812d952cfee71acf320ed2fe2b8ff51f5 a oa:Annotation .
 nl:id_278e85c812d952cfee71acf320ed2fe2b8ff51f5 terms:title "the prayer of Manasseh" .
 nl:id_278e85c812d952cfee71acf320ed2fe2b8ff51f5 ui:annotationField bible:ICBibleTheme .
