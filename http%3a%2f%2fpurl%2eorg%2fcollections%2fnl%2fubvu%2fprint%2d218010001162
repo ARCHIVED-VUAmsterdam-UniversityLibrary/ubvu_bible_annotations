@@ -31,6 +31,17 @@ nl:id_6e30cc1cba4012f963a3782d2085d88b1a9ccf8d oa:hasBody <http://iconclass.org/
 nl:id_6e30cc1cba4012f963a3782d2085d88b1a9ccf8d oa:hasTarget ubvu:print-218010001162 .
 nl:id_6e30cc1cba4012f963a3782d2085d88b1a9ccf8d oa:motivatedBy oa:tagging .
 
+nl:id_e401c48065d649e0387e1abade48f5eddc5fd450 a oa:Annotation .
+nl:id_e401c48065d649e0387e1abade48f5eddc5fd450 terms:title "Tamar (familie van Juda)" .
+nl:id_e401c48065d649e0387e1abade48f5eddc5fd450 ui:annotationField bible:BibleCharacter .
+nl:id_e401c48065d649e0387e1abade48f5eddc5fd450 ui:typingTime 0 .
+nl:id_e401c48065d649e0387e1abade48f5eddc5fd450 oa:annotatedAt "2016-06-08T14:07:39+02:00"^^xsd:dateTime .
+nl:id_e401c48065d649e0387e1abade48f5eddc5fd450 oa:annotatedBy user:paulinevandijk .
+nl:id_e401c48065d649e0387e1abade48f5eddc5fd450 oa:hasBody resource:Tamal_related_with_Judah .
+nl:id_e401c48065d649e0387e1abade48f5eddc5fd450 oa:hasTarget target:target_7014c1a576a8c9e751dd7c85fd34062739495724 .
+nl:id_e401c48065d649e0387e1abade48f5eddc5fd450 oa:hasTarget ubvu:print-218010001162 .
+nl:id_e401c48065d649e0387e1abade48f5eddc5fd450 oa:motivatedBy oa:tagging .
+
 target:selector_7014c1a576a8c9e751dd7c85fd34062739495724 a oa:FragmentSelector .
 target:selector_7014c1a576a8c9e751dd7c85fd34062739495724 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_7014c1a576a8c9e751dd7c85fd34062739495724 ui:h "0.11418685121107267"^^xsd:float .
