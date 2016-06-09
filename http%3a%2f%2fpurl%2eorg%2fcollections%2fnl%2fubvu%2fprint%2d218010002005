@@ -66,6 +66,17 @@ nl:id_64f6b8d9b070723225b7e8c9060b1dee1a96e7fa oa:hasTarget target:target_5a981b
 nl:id_64f6b8d9b070723225b7e8c9060b1dee1a96e7fa oa:hasTarget ubvu:print-218010002005 .
 nl:id_64f6b8d9b070723225b7e8c9060b1dee1a96e7fa oa:motivatedBy oa:tagging .
 
+nl:id_76c66b00c7c5cddf7add2f3345dc0ec2aaec2442 a oa:Annotation .
+nl:id_76c66b00c7c5cddf7add2f3345dc0ec2aaec2442 terms:title "Mozes" .
+nl:id_76c66b00c7c5cddf7add2f3345dc0ec2aaec2442 ui:annotationField bible:BibleCharacter .
+nl:id_76c66b00c7c5cddf7add2f3345dc0ec2aaec2442 ui:typingTime 0 .
+nl:id_76c66b00c7c5cddf7add2f3345dc0ec2aaec2442 oa:annotatedAt "2016-06-09T15:08:09+02:00"^^xsd:dateTime .
+nl:id_76c66b00c7c5cddf7add2f3345dc0ec2aaec2442 oa:annotatedBy user:paulinevandijk .
+nl:id_76c66b00c7c5cddf7add2f3345dc0ec2aaec2442 oa:hasBody resource:Moses .
+nl:id_76c66b00c7c5cddf7add2f3345dc0ec2aaec2442 oa:hasTarget target:target_cd0914c0575584149357eda69794807953de885c .
+nl:id_76c66b00c7c5cddf7add2f3345dc0ec2aaec2442 oa:hasTarget ubvu:print-218010002005 .
+nl:id_76c66b00c7c5cddf7add2f3345dc0ec2aaec2442 oa:motivatedBy oa:tagging .
+
 nl:id_7a12bb7b6b2a8218e99281ec0ed42e6a4ef74b82 a oa:Annotation .
 nl:id_7a12bb7b6b2a8218e99281ec0ed42e6a4ef74b82 terms:title "Moses receives the tables of the law from God" .
 nl:id_7a12bb7b6b2a8218e99281ec0ed42e6a4ef74b82 ui:annotationField bible:ICBibleTheme .
@@ -189,6 +200,14 @@ target:selector_b57cc5dc1d9db8203d4fc77ea5ff529a26722f31 ui:x "0.186324786324786
 target:selector_b57cc5dc1d9db8203d4fc77ea5ff529a26722f31 ui:y "0.18477629285299244"^^xsd:float .
 target:selector_b57cc5dc1d9db8203d4fc77ea5ff529a26722f31 rdf:value "#xywh=percent:19,18,14,11" .
 
+target:selector_cd0914c0575584149357eda69794807953de885c a oa:FragmentSelector .
+target:selector_cd0914c0575584149357eda69794807953de885c terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_cd0914c0575584149357eda69794807953de885c ui:h "0.10161177295024527"^^xsd:float .
+target:selector_cd0914c0575584149357eda69794807953de885c ui:w "0.0731958762886598"^^xsd:float .
+target:selector_cd0914c0575584149357eda69794807953de885c ui:x "0.1670103092783505"^^xsd:float .
+target:selector_cd0914c0575584149357eda69794807953de885c ui:y "0.4793272599859846"^^xsd:float .
+target:selector_cd0914c0575584149357eda69794807953de885c rdf:value "#xywh=percent:17,48,7,10" .
+
 target:selector_f23ab3e9be3da4a55a4a67bd23d6754d119dbec3 a oa:FragmentSelector .
 target:selector_f23ab3e9be3da4a55a4a67bd23d6754d119dbec3 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_f23ab3e9be3da4a55a4a67bd23d6754d119dbec3 ui:h "0.09936083672283556"^^xsd:float .
@@ -228,6 +247,10 @@ target:target_b46e984e6159bc2c5858e027ae0004831f985846 oa:hasSource <http://imag
 target:target_b57cc5dc1d9db8203d4fc77ea5ff529a26722f31 a oa:SpecificResource .
 target:target_b57cc5dc1d9db8203d4fc77ea5ff529a26722f31 oa:hasSelector target:selector_b57cc5dc1d9db8203d4fc77ea5ff529a26722f31 .
 target:target_b57cc5dc1d9db8203d4fc77ea5ff529a26722f31 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/4> .
+
+target:target_cd0914c0575584149357eda69794807953de885c a oa:SpecificResource .
+target:target_cd0914c0575584149357eda69794807953de885c oa:hasSelector target:selector_cd0914c0575584149357eda69794807953de885c .
+target:target_cd0914c0575584149357eda69794807953de885c oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/4> .
 
 target:target_f23ab3e9be3da4a55a4a67bd23d6754d119dbec3 a oa:SpecificResource .
 target:target_f23ab3e9be3da4a55a4a67bd23d6754d119dbec3 oa:hasSelector target:selector_f23ab3e9be3da4a55a4a67bd23d6754d119dbec3 .
