@@ -35,6 +35,16 @@ nl:id_3ffbd2094478d54cc16b519766415fa8faabd05e oa:hasTarget target:target_f7c32a
 nl:id_3ffbd2094478d54cc16b519766415fa8faabd05e oa:hasTarget ubvu:print-218010001779 .
 nl:id_3ffbd2094478d54cc16b519766415fa8faabd05e oa:motivatedBy oa:tagging .
 
+nl:id_46424ed19d3c0a8d772d1c9d8f2a3a0bcba6142a a oa:Annotation .
+nl:id_46424ed19d3c0a8d772d1c9d8f2a3a0bcba6142a terms:title "Vijf broden en twee vissen." .
+nl:id_46424ed19d3c0a8d772d1c9d8f2a3a0bcba6142a ui:annotationField bible:ICBibleTheme .
+nl:id_46424ed19d3c0a8d772d1c9d8f2a3a0bcba6142a ui:typingTime 0 .
+nl:id_46424ed19d3c0a8d772d1c9d8f2a3a0bcba6142a oa:annotatedAt "2016-06-09T14:57:22+02:00"^^xsd:dateTime .
+nl:id_46424ed19d3c0a8d772d1c9d8f2a3a0bcba6142a oa:annotatedBy user:paulinevandijk .
+nl:id_46424ed19d3c0a8d772d1c9d8f2a3a0bcba6142a oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Vijf broden en twee vissen." ] .
+nl:id_46424ed19d3c0a8d772d1c9d8f2a3a0bcba6142a oa:hasTarget ubvu:print-218010001779 .
+nl:id_46424ed19d3c0a8d772d1c9d8f2a3a0bcba6142a oa:motivatedBy oa:tagging .
+
 nl:id_948d747f896808f88564fbe5fba7b1d0a6e1098a a oa:Annotation .
 nl:id_948d747f896808f88564fbe5fba7b1d0a6e1098a terms:title "a great multitude was feeded by five loaves" .
 nl:id_948d747f896808f88564fbe5fba7b1d0a6e1098a ui:annotationField bible:ICBibleTheme .
