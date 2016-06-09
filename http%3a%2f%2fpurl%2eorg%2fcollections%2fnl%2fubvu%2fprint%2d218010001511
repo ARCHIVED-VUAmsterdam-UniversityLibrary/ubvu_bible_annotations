@@ -121,6 +121,16 @@ nl:id_e76edb69521a59e34171c2d92d60fec5e82c7f71 oa:hasTarget target:target_73c8ba
 nl:id_e76edb69521a59e34171c2d92d60fec5e82c7f71 oa:hasTarget ubvu:print-218010001511 .
 nl:id_e76edb69521a59e34171c2d92d60fec5e82c7f71 oa:motivatedBy oa:tagging .
 
+nl:id_f974e0475557a4fbb92733248928dd883714cc69 a oa:Annotation .
+nl:id_f974e0475557a4fbb92733248928dd883714cc69 terms:title "Elia door de raven gevoed." .
+nl:id_f974e0475557a4fbb92733248928dd883714cc69 ui:annotationField bible:ICBibleTheme .
+nl:id_f974e0475557a4fbb92733248928dd883714cc69 ui:typingTime 0 .
+nl:id_f974e0475557a4fbb92733248928dd883714cc69 oa:annotatedAt "2016-06-09T15:14:29+02:00"^^xsd:dateTime .
+nl:id_f974e0475557a4fbb92733248928dd883714cc69 oa:annotatedBy user:paulinevandijk .
+nl:id_f974e0475557a4fbb92733248928dd883714cc69 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Elia door de raven gevoed." ] .
+nl:id_f974e0475557a4fbb92733248928dd883714cc69 oa:hasTarget ubvu:print-218010001511 .
+nl:id_f974e0475557a4fbb92733248928dd883714cc69 oa:motivatedBy oa:tagging .
+
 target:selector_1052eae2316e01e688c7bc3c03759df1d1fc403e a oa:FragmentSelector .
 target:selector_1052eae2316e01e688c7bc3c03759df1d1fc403e terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_1052eae2316e01e688c7bc3c03759df1d1fc403e ui:h "0.357981220657277"^^xsd:float .
