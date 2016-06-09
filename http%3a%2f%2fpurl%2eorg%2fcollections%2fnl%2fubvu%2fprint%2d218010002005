@@ -119,6 +119,16 @@ nl:id_98cc40d47e7360b5d589efce5f591b711cbc3ed1 oa:hasBody <http://iconclass.org/
 nl:id_98cc40d47e7360b5d589efce5f591b711cbc3ed1 oa:hasTarget ubvu:print-218010002005 .
 nl:id_98cc40d47e7360b5d589efce5f591b711cbc3ed1 oa:motivatedBy oa:tagging .
 
+nl:id_a0a92632247ccf1ccb6382fab5caf7458988b6f0 a oa:Annotation .
+nl:id_a0a92632247ccf1ccb6382fab5caf7458988b6f0 terms:title "De stenen platen geschonken. Het gouden stierkalf. Mozes brengt twee nieuwe stenen platen. Vaklieden aan het werk." .
+nl:id_a0a92632247ccf1ccb6382fab5caf7458988b6f0 ui:annotationField bible:ICBibleTheme .
+nl:id_a0a92632247ccf1ccb6382fab5caf7458988b6f0 ui:typingTime 0 .
+nl:id_a0a92632247ccf1ccb6382fab5caf7458988b6f0 oa:annotatedAt "2016-06-09T15:10:33+02:00"^^xsd:dateTime .
+nl:id_a0a92632247ccf1ccb6382fab5caf7458988b6f0 oa:annotatedBy user:paulinevandijk .
+nl:id_a0a92632247ccf1ccb6382fab5caf7458988b6f0 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "De stenen platen geschonken. Het gouden stierkalf. Mozes brengt twee nieuwe stenen platen. Vaklieden aan het werk." ] .
+nl:id_a0a92632247ccf1ccb6382fab5caf7458988b6f0 oa:hasTarget ubvu:print-218010002005 .
+nl:id_a0a92632247ccf1ccb6382fab5caf7458988b6f0 oa:motivatedBy oa:tagging .
+
 nl:id_d9114a7d69079ed0fa76e3265fcf44a660dc8acf a oa:Annotation .
 nl:id_d9114a7d69079ed0fa76e3265fcf44a660dc8acf terms:title "Mozes" .
 nl:id_d9114a7d69079ed0fa76e3265fcf44a660dc8acf ui:annotationField bible:BibleCharacter .
