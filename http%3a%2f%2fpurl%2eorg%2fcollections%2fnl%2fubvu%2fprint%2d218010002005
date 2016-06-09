@@ -34,6 +34,17 @@ nl:id_30b680d41727747f54dda3a554022a96417d5883 oa:hasBody <http://iconclass.org/
 nl:id_30b680d41727747f54dda3a554022a96417d5883 oa:hasTarget ubvu:print-218010002005 .
 nl:id_30b680d41727747f54dda3a554022a96417d5883 oa:motivatedBy oa:tagging .
 
+nl:id_4a1891d7d768b24fbe4479f3eaf613aa0ba016c4 a oa:Annotation .
+nl:id_4a1891d7d768b24fbe4479f3eaf613aa0ba016c4 terms:title "Mozes" .
+nl:id_4a1891d7d768b24fbe4479f3eaf613aa0ba016c4 ui:annotationField bible:BibleCharacter .
+nl:id_4a1891d7d768b24fbe4479f3eaf613aa0ba016c4 ui:typingTime 0 .
+nl:id_4a1891d7d768b24fbe4479f3eaf613aa0ba016c4 oa:annotatedAt "2016-06-09T15:04:16+02:00"^^xsd:dateTime .
+nl:id_4a1891d7d768b24fbe4479f3eaf613aa0ba016c4 oa:annotatedBy user:paulinevandijk .
+nl:id_4a1891d7d768b24fbe4479f3eaf613aa0ba016c4 oa:hasBody resource:Moses .
+nl:id_4a1891d7d768b24fbe4479f3eaf613aa0ba016c4 oa:hasTarget target:target_a1e297872b2f56153dc6d0b05d5fa2e22e59ca6f .
+nl:id_4a1891d7d768b24fbe4479f3eaf613aa0ba016c4 oa:hasTarget ubvu:print-218010002005 .
+nl:id_4a1891d7d768b24fbe4479f3eaf613aa0ba016c4 oa:motivatedBy oa:tagging .
+
 nl:id_569a71855b53a3d586ae787d569b95981c152179 a oa:Annotation .
 nl:id_569a71855b53a3d586ae787d569b95981c152179 terms:title "the people bring their golden ear-rings to Aaron" .
 nl:id_569a71855b53a3d586ae787d569b95981c152179 ui:annotationField bible:ICBibleTheme .
@@ -132,6 +143,14 @@ target:selector_5a981b7e66d2acc06d0efd93cbe318f3596ff9ca ui:x "0.517948717948718
 target:selector_5a981b7e66d2acc06d0efd93cbe318f3596ff9ca ui:y "0.48169668797210924"^^xsd:float .
 target:selector_5a981b7e66d2acc06d0efd93cbe318f3596ff9ca rdf:value "#xywh=percent:52,48,11,11" .
 
+target:selector_a1e297872b2f56153dc6d0b05d5fa2e22e59ca6f a oa:FragmentSelector .
+target:selector_a1e297872b2f56153dc6d0b05d5fa2e22e59ca6f terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_a1e297872b2f56153dc6d0b05d5fa2e22e59ca6f ui:h "0.09320252277505256"^^xsd:float .
+target:selector_a1e297872b2f56153dc6d0b05d5fa2e22e59ca6f ui:w "0.1309278350515464"^^xsd:float .
+target:selector_a1e297872b2f56153dc6d0b05d5fa2e22e59ca6f ui:x "0.10824742268041238"^^xsd:float .
+target:selector_a1e297872b2f56153dc6d0b05d5fa2e22e59ca6f ui:y "0.08759635599159075"^^xsd:float .
+target:selector_a1e297872b2f56153dc6d0b05d5fa2e22e59ca6f rdf:value "#xywh=percent:11,9,13,9" .
+
 target:selector_b57cc5dc1d9db8203d4fc77ea5ff529a26722f31 a oa:FragmentSelector .
 target:selector_b57cc5dc1d9db8203d4fc77ea5ff529a26722f31 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_b57cc5dc1d9db8203d4fc77ea5ff529a26722f31 ui:h "0.10981987216734457"^^xsd:float .
@@ -159,6 +178,10 @@ target:target_221c3fa7c22601d7a43e73593c25b086e68bbb4a oa:hasSource <http://imag
 target:target_5a981b7e66d2acc06d0efd93cbe318f3596ff9ca a oa:SpecificResource .
 target:target_5a981b7e66d2acc06d0efd93cbe318f3596ff9ca oa:hasSelector target:selector_5a981b7e66d2acc06d0efd93cbe318f3596ff9ca .
 target:target_5a981b7e66d2acc06d0efd93cbe318f3596ff9ca oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/4> .
+
+target:target_a1e297872b2f56153dc6d0b05d5fa2e22e59ca6f a oa:SpecificResource .
+target:target_a1e297872b2f56153dc6d0b05d5fa2e22e59ca6f oa:hasSelector target:selector_a1e297872b2f56153dc6d0b05d5fa2e22e59ca6f .
+target:target_a1e297872b2f56153dc6d0b05d5fa2e22e59ca6f oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/4> .
 
 target:target_b57cc5dc1d9db8203d4fc77ea5ff529a26722f31 a oa:SpecificResource .
 target:target_b57cc5dc1d9db8203d4fc77ea5ff529a26722f31 oa:hasSelector target:selector_b57cc5dc1d9db8203d4fc77ea5ff529a26722f31 .
