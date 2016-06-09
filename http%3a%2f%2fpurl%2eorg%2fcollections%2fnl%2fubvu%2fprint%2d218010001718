@@ -46,6 +46,16 @@ nl:id_63146681efe576f8aace7f7e21d1fe50f83a1f0c oa:hasTarget target:target_ef1180
 nl:id_63146681efe576f8aace7f7e21d1fe50f83a1f0c oa:hasTarget ubvu:print-218010001718 .
 nl:id_63146681efe576f8aace7f7e21d1fe50f83a1f0c oa:motivatedBy oa:tagging .
 
+nl:id_8689e4232ed1c1df2836a9863504c52431fd2950 a oa:Annotation .
+nl:id_8689e4232ed1c1df2836a9863504c52431fd2950 terms:title "Johannes doopt Jezus in de Jordaan" .
+nl:id_8689e4232ed1c1df2836a9863504c52431fd2950 ui:annotationField bible:ICBibleTheme .
+nl:id_8689e4232ed1c1df2836a9863504c52431fd2950 ui:typingTime 0 .
+nl:id_8689e4232ed1c1df2836a9863504c52431fd2950 oa:annotatedAt "2016-06-09T15:01:41+02:00"^^xsd:dateTime .
+nl:id_8689e4232ed1c1df2836a9863504c52431fd2950 oa:annotatedBy user:paulinevandijk .
+nl:id_8689e4232ed1c1df2836a9863504c52431fd2950 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Johannes doopt Jezus in de Jordaan" ] .
+nl:id_8689e4232ed1c1df2836a9863504c52431fd2950 oa:hasTarget ubvu:print-218010001718 .
+nl:id_8689e4232ed1c1df2836a9863504c52431fd2950 oa:motivatedBy oa:tagging .
+
 nl:id_f874ede4c912aa7ec18f2d4076db1a2b40e43030 a oa:Annotation .
 nl:id_f874ede4c912aa7ec18f2d4076db1a2b40e43030 terms:title "Jezus Christus" .
 nl:id_f874ede4c912aa7ec18f2d4076db1a2b40e43030 ui:annotationField bible:BibleCharacter .
