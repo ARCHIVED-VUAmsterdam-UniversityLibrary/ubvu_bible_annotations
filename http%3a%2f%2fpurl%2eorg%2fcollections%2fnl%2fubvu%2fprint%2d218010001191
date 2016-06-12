@@ -32,6 +32,16 @@ nl:id_41a70d88dc63119f8317d09e2367516a6d9d75b5 oa:hasTarget target:target_cd25fb
 nl:id_41a70d88dc63119f8317d09e2367516a6d9d75b5 oa:hasTarget ubvu:print-218010001191 .
 nl:id_41a70d88dc63119f8317d09e2367516a6d9d75b5 oa:motivatedBy oa:tagging .
 
+nl:id_58803f8be78d62e2335c86312735dfc2f2eb3da0 a oa:Annotation .
+nl:id_58803f8be78d62e2335c86312735dfc2f2eb3da0 terms:title "Jacobs body carried into Canaän t be buried." .
+nl:id_58803f8be78d62e2335c86312735dfc2f2eb3da0 ui:annotationField bible:ICBibleTheme .
+nl:id_58803f8be78d62e2335c86312735dfc2f2eb3da0 ui:typingTime 0 .
+nl:id_58803f8be78d62e2335c86312735dfc2f2eb3da0 oa:annotatedAt "2016-06-12T11:20:40+02:00"^^xsd:dateTime .
+nl:id_58803f8be78d62e2335c86312735dfc2f2eb3da0 oa:annotatedBy user:everhoeff .
+nl:id_58803f8be78d62e2335c86312735dfc2f2eb3da0 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jacobs body carried into Canaän t be buried." ] .
+nl:id_58803f8be78d62e2335c86312735dfc2f2eb3da0 oa:hasTarget ubvu:print-218010001191 .
+nl:id_58803f8be78d62e2335c86312735dfc2f2eb3da0 oa:motivatedBy oa:tagging .
+
 target:selector_cd25fbcd82043b4d61c90569a283cf1106ced1fc a oa:FragmentSelector .
 target:selector_cd25fbcd82043b4d61c90569a283cf1106ced1fc terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_cd25fbcd82043b4d61c90569a283cf1106ced1fc ui:h "0.07720254314259764"^^xsd:float .
