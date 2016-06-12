@@ -20,6 +20,16 @@ nl:id_15d6aa0f963fa9e0b1ff177ead41995ef40306ac oa:hasBody <http://iconclass.org/
 nl:id_15d6aa0f963fa9e0b1ff177ead41995ef40306ac oa:hasTarget ubvu:print-218010001380 .
 nl:id_15d6aa0f963fa9e0b1ff177ead41995ef40306ac oa:motivatedBy oa:tagging .
 
+nl:id_34d29cac5821c4c75f4aa6a763b2170864ea4f8d a oa:Annotation .
+nl:id_34d29cac5821c4c75f4aa6a763b2170864ea4f8d terms:title "Gideon overvalt de Midjanieten" .
+nl:id_34d29cac5821c4c75f4aa6a763b2170864ea4f8d ui:annotationField bible:ICBibleTheme .
+nl:id_34d29cac5821c4c75f4aa6a763b2170864ea4f8d ui:typingTime 0 .
+nl:id_34d29cac5821c4c75f4aa6a763b2170864ea4f8d oa:annotatedAt "2016-06-12T19:43:23+02:00"^^xsd:dateTime .
+nl:id_34d29cac5821c4c75f4aa6a763b2170864ea4f8d oa:annotatedBy user:paulinevandijk .
+nl:id_34d29cac5821c4c75f4aa6a763b2170864ea4f8d oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Gideon overvalt de Midjanieten" ] .
+nl:id_34d29cac5821c4c75f4aa6a763b2170864ea4f8d oa:hasTarget ubvu:print-218010001380 .
+nl:id_34d29cac5821c4c75f4aa6a763b2170864ea4f8d oa:motivatedBy oa:tagging .
+
 nl:id_f05553a50a9b1e7de82511ede08e6e58e4c9713f a oa:Annotation .
 nl:id_f05553a50a9b1e7de82511ede08e6e58e4c9713f terms:title "Gideons battle with the Medianites" .
 nl:id_f05553a50a9b1e7de82511ede08e6e58e4c9713f ui:annotationField bible:ICBibleTheme .
