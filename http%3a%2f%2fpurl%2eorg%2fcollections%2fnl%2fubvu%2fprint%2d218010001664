@@ -10,6 +10,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_131fb7a69ee323ca2adf71ad538193015575a192 a oa:Annotation .
+nl:id_131fb7a69ee323ca2adf71ad538193015575a192 terms:title "The annonciation of the birthe of Jesus" .
+nl:id_131fb7a69ee323ca2adf71ad538193015575a192 ui:annotationField bible:ICBibleTheme .
+nl:id_131fb7a69ee323ca2adf71ad538193015575a192 ui:typingTime 0 .
+nl:id_131fb7a69ee323ca2adf71ad538193015575a192 oa:annotatedAt "2016-06-12T11:24:40+02:00"^^xsd:dateTime .
+nl:id_131fb7a69ee323ca2adf71ad538193015575a192 oa:annotatedBy user:everhoeff .
+nl:id_131fb7a69ee323ca2adf71ad538193015575a192 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The annonciation of the birthe of Jesus" ] .
+nl:id_131fb7a69ee323ca2adf71ad538193015575a192 oa:hasTarget ubvu:print-218010001664 .
+nl:id_131fb7a69ee323ca2adf71ad538193015575a192 oa:motivatedBy oa:tagging .
+
 nl:id_2f370f3534c4fbbfaa538aaeed94664bc34b393d a oa:Annotation .
 nl:id_2f370f3534c4fbbfaa538aaeed94664bc34b393d terms:title "annunciation of Christ's birth to the shepherds (and/or shepherdesses) at night; a host of singing angels in the air" .
 nl:id_2f370f3534c4fbbfaa538aaeed94664bc34b393d ui:annotationField bible:ICBibleTheme .
