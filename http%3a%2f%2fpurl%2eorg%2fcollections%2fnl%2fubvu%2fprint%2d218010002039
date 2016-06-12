@@ -158,6 +158,16 @@ nl:id_dbcdacc52fd797fbbd7828b7256251efe58c0de3 oa:hasBody [ a content:ContentAsT
 nl:id_dbcdacc52fd797fbbd7828b7256251efe58c0de3 oa:hasTarget ubvu:print-218010002039 .
 nl:id_dbcdacc52fd797fbbd7828b7256251efe58c0de3 oa:motivatedBy oa:tagging .
 
+nl:id_e15b4ea8b5f2dfc4bdbf59bba96d0d12d230284c a oa:Annotation .
+nl:id_e15b4ea8b5f2dfc4bdbf59bba96d0d12d230284c terms:title "Paulus gearresteerd." .
+nl:id_e15b4ea8b5f2dfc4bdbf59bba96d0d12d230284c ui:annotationField bible:ICBibleTheme .
+nl:id_e15b4ea8b5f2dfc4bdbf59bba96d0d12d230284c ui:typingTime 0 .
+nl:id_e15b4ea8b5f2dfc4bdbf59bba96d0d12d230284c oa:annotatedAt "2016-06-12T20:00:00+02:00"^^xsd:dateTime .
+nl:id_e15b4ea8b5f2dfc4bdbf59bba96d0d12d230284c oa:annotatedBy user:paulinevandijk .
+nl:id_e15b4ea8b5f2dfc4bdbf59bba96d0d12d230284c oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Paulus gearresteerd." ] .
+nl:id_e15b4ea8b5f2dfc4bdbf59bba96d0d12d230284c oa:hasTarget ubvu:print-218010002039 .
+nl:id_e15b4ea8b5f2dfc4bdbf59bba96d0d12d230284c oa:motivatedBy oa:tagging .
+
 nl:id_e7412f69da50bebf6f60f03bb21f332201d9a2a3 a oa:Annotation .
 nl:id_e7412f69da50bebf6f60f03bb21f332201d9a2a3 terms:title "Paulus" .
 nl:id_e7412f69da50bebf6f60f03bb21f332201d9a2a3 ui:annotationField bible:BibleCharacter .
