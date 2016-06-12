@@ -6,6 +6,7 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
@@ -39,3 +40,26 @@ nl:id_dbcdacc52fd797fbbd7828b7256251efe58c0de3 oa:annotatedBy user:everhoeff .
 nl:id_dbcdacc52fd797fbbd7828b7256251efe58c0de3 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Paul sails to Italy in a dangerous storm" ] .
 nl:id_dbcdacc52fd797fbbd7828b7256251efe58c0de3 oa:hasTarget ubvu:print-218010002039 .
 nl:id_dbcdacc52fd797fbbd7828b7256251efe58c0de3 oa:motivatedBy oa:tagging .
+
+nl:id_f484daf2495aea464ddf045bf7851e13562cf10f a oa:Annotation .
+nl:id_f484daf2495aea464ddf045bf7851e13562cf10f terms:title "Herodes" .
+nl:id_f484daf2495aea464ddf045bf7851e13562cf10f ui:annotationField bible:BibleCharacter .
+nl:id_f484daf2495aea464ddf045bf7851e13562cf10f ui:typingTime 0 .
+nl:id_f484daf2495aea464ddf045bf7851e13562cf10f oa:annotatedAt "2016-06-12T19:44:44+02:00"^^xsd:dateTime .
+nl:id_f484daf2495aea464ddf045bf7851e13562cf10f oa:annotatedBy user:paulinevandijk .
+nl:id_f484daf2495aea464ddf045bf7851e13562cf10f oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Herodes" ] .
+nl:id_f484daf2495aea464ddf045bf7851e13562cf10f oa:hasTarget target:target_1a25f7e7296ddd85ccedfefaa7d381f3af0e619a .
+nl:id_f484daf2495aea464ddf045bf7851e13562cf10f oa:hasTarget ubvu:print-218010002039 .
+nl:id_f484daf2495aea464ddf045bf7851e13562cf10f oa:motivatedBy oa:tagging .
+
+target:selector_1a25f7e7296ddd85ccedfefaa7d381f3af0e619a a oa:FragmentSelector .
+target:selector_1a25f7e7296ddd85ccedfefaa7d381f3af0e619a terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_1a25f7e7296ddd85ccedfefaa7d381f3af0e619a ui:h "0.04853675945753034"^^xsd:float .
+target:selector_1a25f7e7296ddd85ccedfefaa7d381f3af0e619a ui:w "0.04639175257731959"^^xsd:float .
+target:selector_1a25f7e7296ddd85ccedfefaa7d381f3af0e619a ui:x "0.10927835051546392"^^xsd:float .
+target:selector_1a25f7e7296ddd85ccedfefaa7d381f3af0e619a ui:y "0.1470378301213419"^^xsd:float .
+target:selector_1a25f7e7296ddd85ccedfefaa7d381f3af0e619a rdf:value "#xywh=percent:11,15,5,5" .
+
+target:target_1a25f7e7296ddd85ccedfefaa7d381f3af0e619a a oa:SpecificResource .
+target:target_1a25f7e7296ddd85ccedfefaa7d381f3af0e619a oa:hasSelector target:selector_1a25f7e7296ddd85ccedfefaa7d381f3af0e619a .
+target:target_1a25f7e7296ddd85ccedfefaa7d381f3af0e619a oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/38> .
