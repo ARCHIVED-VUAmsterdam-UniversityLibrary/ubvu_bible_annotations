@@ -44,6 +44,16 @@ nl:id_83765e45dfbd4c45e3cfaeaec4c46b6535318df5 oa:hasTarget target:target_1e816c
 nl:id_83765e45dfbd4c45e3cfaeaec4c46b6535318df5 oa:hasTarget ubvu:print-218010002039 .
 nl:id_83765e45dfbd4c45e3cfaeaec4c46b6535318df5 oa:motivatedBy oa:tagging .
 
+nl:id_a27e4dbae60a843cf32b218a3fc56294b3d130f3 a oa:Annotation .
+nl:id_a27e4dbae60a843cf32b218a3fc56294b3d130f3 terms:title "De dood van Herodes. Paulus geroemt in Lystra. " .
+nl:id_a27e4dbae60a843cf32b218a3fc56294b3d130f3 ui:annotationField bible:ICBibleTheme .
+nl:id_a27e4dbae60a843cf32b218a3fc56294b3d130f3 ui:typingTime 0 .
+nl:id_a27e4dbae60a843cf32b218a3fc56294b3d130f3 oa:annotatedAt "2016-06-12T19:51:32+02:00"^^xsd:dateTime .
+nl:id_a27e4dbae60a843cf32b218a3fc56294b3d130f3 oa:annotatedBy user:paulinevandijk .
+nl:id_a27e4dbae60a843cf32b218a3fc56294b3d130f3 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "De dood van Herodes. Paulus geroemt in Lystra. " ] .
+nl:id_a27e4dbae60a843cf32b218a3fc56294b3d130f3 oa:hasTarget ubvu:print-218010002039 .
+nl:id_a27e4dbae60a843cf32b218a3fc56294b3d130f3 oa:motivatedBy oa:tagging .
+
 nl:id_a47ed313429aa872a692b8f0760825b7111b017e a oa:Annotation .
 nl:id_a47ed313429aa872a692b8f0760825b7111b017e terms:title "Paulus" .
 nl:id_a47ed313429aa872a692b8f0760825b7111b017e ui:annotationField bible:BibleCharacter .
