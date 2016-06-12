@@ -23,6 +23,16 @@ nl:id_7761ecc7cd4ca6f82da62db612aa62bf2611907b oa:hasTarget target:target_de0d99
 nl:id_7761ecc7cd4ca6f82da62db612aa62bf2611907b oa:hasTarget ubvu:print-218010001913 .
 nl:id_7761ecc7cd4ca6f82da62db612aa62bf2611907b oa:motivatedBy oa:tagging .
 
+nl:id_e660e9f8dd78fe88bd9b3f6a124f8e07189b399c a oa:Annotation .
+nl:id_e660e9f8dd78fe88bd9b3f6a124f8e07189b399c terms:title "Stephen stoned" .
+nl:id_e660e9f8dd78fe88bd9b3f6a124f8e07189b399c ui:annotationField bible:ICBibleTheme .
+nl:id_e660e9f8dd78fe88bd9b3f6a124f8e07189b399c ui:typingTime 0 .
+nl:id_e660e9f8dd78fe88bd9b3f6a124f8e07189b399c oa:annotatedAt "2016-06-12T11:26:42+02:00"^^xsd:dateTime .
+nl:id_e660e9f8dd78fe88bd9b3f6a124f8e07189b399c oa:annotatedBy user:everhoeff .
+nl:id_e660e9f8dd78fe88bd9b3f6a124f8e07189b399c oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Stephen stoned" ] .
+nl:id_e660e9f8dd78fe88bd9b3f6a124f8e07189b399c oa:hasTarget ubvu:print-218010001913 .
+nl:id_e660e9f8dd78fe88bd9b3f6a124f8e07189b399c oa:motivatedBy oa:tagging .
+
 nl:id_e8f6c9c533859fb3add3db28ef523f370db8958e a oa:Annotation .
 nl:id_e8f6c9c533859fb3add3db28ef523f370db8958e terms:title "Stephen(Stephanus)" .
 nl:id_e8f6c9c533859fb3add3db28ef523f370db8958e ui:annotationField bible:BibleCharacter .
