@@ -32,6 +32,16 @@ nl:id_4733a4677f88c24aca40c8657a5ccd2d6642be5c oa:hasBody [ a content:ContentAsT
 nl:id_4733a4677f88c24aca40c8657a5ccd2d6642be5c oa:hasTarget ubvu:print-218010002039 .
 nl:id_4733a4677f88c24aca40c8657a5ccd2d6642be5c oa:motivatedBy oa:tagging .
 
+nl:id_57ea1ba9bdfa0e6904ffc5c2e588462cd3b1590d a oa:Annotation .
+nl:id_57ea1ba9bdfa0e6904ffc5c2e588462cd3b1590d terms:title "Eutychus valt uit het raam tijdens een preek van Paulus." .
+nl:id_57ea1ba9bdfa0e6904ffc5c2e588462cd3b1590d ui:annotationField bible:ICBibleTheme .
+nl:id_57ea1ba9bdfa0e6904ffc5c2e588462cd3b1590d ui:typingTime 0 .
+nl:id_57ea1ba9bdfa0e6904ffc5c2e588462cd3b1590d oa:annotatedAt "2016-06-12T19:59:09+02:00"^^xsd:dateTime .
+nl:id_57ea1ba9bdfa0e6904ffc5c2e588462cd3b1590d oa:annotatedBy user:paulinevandijk .
+nl:id_57ea1ba9bdfa0e6904ffc5c2e588462cd3b1590d oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Eutychus valt uit het raam tijdens een preek van Paulus." ] .
+nl:id_57ea1ba9bdfa0e6904ffc5c2e588462cd3b1590d oa:hasTarget ubvu:print-218010002039 .
+nl:id_57ea1ba9bdfa0e6904ffc5c2e588462cd3b1590d oa:motivatedBy oa:tagging .
+
 nl:id_5f093353e74aeb72ebcb3cc14635e7fb82d17669 a oa:Annotation .
 nl:id_5f093353e74aeb72ebcb3cc14635e7fb82d17669 terms:title "Visioen van Paulus" .
 nl:id_5f093353e74aeb72ebcb3cc14635e7fb82d17669 ui:annotationField bible:ICBibleTheme .
