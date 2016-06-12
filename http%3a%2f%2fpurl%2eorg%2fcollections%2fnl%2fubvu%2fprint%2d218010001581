@@ -1,15 +1,27 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
 @prefix media-frags: <http://www.w3.org/TR/media-frags/> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
+
+nl:id_73c37168ef0020ca00c3d052c0c2142600bc79d6 a oa:Annotation .
+nl:id_73c37168ef0020ca00c3d052c0c2142600bc79d6 terms:title "De droom van Nebukadnezar" .
+nl:id_73c37168ef0020ca00c3d052c0c2142600bc79d6 ui:annotationField bible:ICBibleTheme .
+nl:id_73c37168ef0020ca00c3d052c0c2142600bc79d6 ui:typingTime 0 .
+nl:id_73c37168ef0020ca00c3d052c0c2142600bc79d6 oa:annotatedAt "2016-06-12T20:16:49+02:00"^^xsd:dateTime .
+nl:id_73c37168ef0020ca00c3d052c0c2142600bc79d6 oa:annotatedBy user:paulinevandijk .
+nl:id_73c37168ef0020ca00c3d052c0c2142600bc79d6 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "De droom van Nebukadnezar" ] .
+nl:id_73c37168ef0020ca00c3d052c0c2142600bc79d6 oa:hasTarget ubvu:print-218010001581 .
+nl:id_73c37168ef0020ca00c3d052c0c2142600bc79d6 oa:motivatedBy oa:tagging .
 
 nl:id_7836002c5eebdf6767877f071eac861a91ab717a a oa:Annotation .
 nl:id_7836002c5eebdf6767877f071eac861a91ab717a terms:title "Nebuchadnezzar" .
