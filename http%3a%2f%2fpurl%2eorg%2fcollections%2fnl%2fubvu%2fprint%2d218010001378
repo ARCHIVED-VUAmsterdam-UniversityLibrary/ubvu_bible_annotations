@@ -77,6 +77,16 @@ nl:id_c3cec8296fb72e20bd5c67f0010e32dfa6a2b3b3 oa:hasTarget target:target_eae90b
 nl:id_c3cec8296fb72e20bd5c67f0010e32dfa6a2b3b3 oa:hasTarget ubvu:print-218010001378 .
 nl:id_c3cec8296fb72e20bd5c67f0010e32dfa6a2b3b3 oa:motivatedBy oa:tagging .
 
+nl:id_f6916cb8248edb80ec7d8af21afbe2535fb67568 a oa:Annotation .
+nl:id_f6916cb8248edb80ec7d8af21afbe2535fb67568 terms:title "Gideon geroepen" .
+nl:id_f6916cb8248edb80ec7d8af21afbe2535fb67568 ui:annotationField bible:ICBibleTheme .
+nl:id_f6916cb8248edb80ec7d8af21afbe2535fb67568 ui:typingTime 0 .
+nl:id_f6916cb8248edb80ec7d8af21afbe2535fb67568 oa:annotatedAt "2016-06-12T19:38:37+02:00"^^xsd:dateTime .
+nl:id_f6916cb8248edb80ec7d8af21afbe2535fb67568 oa:annotatedBy user:paulinevandijk .
+nl:id_f6916cb8248edb80ec7d8af21afbe2535fb67568 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Gideon geroepen" ] .
+nl:id_f6916cb8248edb80ec7d8af21afbe2535fb67568 oa:hasTarget ubvu:print-218010001378 .
+nl:id_f6916cb8248edb80ec7d8af21afbe2535fb67568 oa:motivatedBy oa:tagging .
+
 target:selector_37b4c9804e7cdb2a57de68cabc01dfa42b2959d4 a oa:FragmentSelector .
 target:selector_37b4c9804e7cdb2a57de68cabc01dfa42b2959d4 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_37b4c9804e7cdb2a57de68cabc01dfa42b2959d4 ui:h "0.0898242273313928"^^xsd:float .
