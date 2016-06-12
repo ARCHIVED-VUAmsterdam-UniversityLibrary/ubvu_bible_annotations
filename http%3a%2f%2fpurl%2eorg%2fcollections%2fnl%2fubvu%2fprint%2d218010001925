@@ -56,6 +56,16 @@ nl:id_d299d44a400c61e1f5ce821ae3915557fa140913 oa:hasTarget target:target_871db4
 nl:id_d299d44a400c61e1f5ce821ae3915557fa140913 oa:hasTarget ubvu:print-218010001925 .
 nl:id_d299d44a400c61e1f5ce821ae3915557fa140913 oa:motivatedBy oa:tagging .
 
+nl:id_fa835bfbbdac3a77f73213c9e2618faa9266250a a oa:Annotation .
+nl:id_fa835bfbbdac3a77f73213c9e2618faa9266250a terms:title "De magiër Elymas (ook Barjesus genoemd) door Paulus met blindheid gestraft." .
+nl:id_fa835bfbbdac3a77f73213c9e2618faa9266250a ui:annotationField bible:ICBibleTheme .
+nl:id_fa835bfbbdac3a77f73213c9e2618faa9266250a ui:typingTime 0 .
+nl:id_fa835bfbbdac3a77f73213c9e2618faa9266250a oa:annotatedAt "2016-06-12T20:10:20+02:00"^^xsd:dateTime .
+nl:id_fa835bfbbdac3a77f73213c9e2618faa9266250a oa:annotatedBy user:paulinevandijk .
+nl:id_fa835bfbbdac3a77f73213c9e2618faa9266250a oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "De magiër Elymas (ook Barjesus genoemd) door Paulus met blindheid gestraft." ] .
+nl:id_fa835bfbbdac3a77f73213c9e2618faa9266250a oa:hasTarget ubvu:print-218010001925 .
+nl:id_fa835bfbbdac3a77f73213c9e2618faa9266250a oa:motivatedBy oa:tagging .
+
 target:selector_2d09879b4d99b15cbfb6982696215b3740d7e12d a oa:FragmentSelector .
 target:selector_2d09879b4d99b15cbfb6982696215b3740d7e12d terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_2d09879b4d99b15cbfb6982696215b3740d7e12d ui:h "0.20327868852459016"^^xsd:float .
