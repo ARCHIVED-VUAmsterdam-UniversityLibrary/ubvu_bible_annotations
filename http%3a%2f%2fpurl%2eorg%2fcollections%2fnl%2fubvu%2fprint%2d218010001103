@@ -34,6 +34,16 @@ nl:id_760e578bc30b9a9a0303173b7da0abc74eda51b9 oa:hasTarget target:target_9b870b
 nl:id_760e578bc30b9a9a0303173b7da0abc74eda51b9 oa:hasTarget ubvu:print-218010001103 .
 nl:id_760e578bc30b9a9a0303173b7da0abc74eda51b9 oa:motivatedBy oa:tagging .
 
+nl:id_a45318bd17354b154be92438b90263330e43b7bd a oa:Annotation .
+nl:id_a45318bd17354b154be92438b90263330e43b7bd terms:title "Abraham koopt de grot van Machpela" .
+nl:id_a45318bd17354b154be92438b90263330e43b7bd ui:annotationField bible:ICBibleTheme .
+nl:id_a45318bd17354b154be92438b90263330e43b7bd ui:typingTime 0 .
+nl:id_a45318bd17354b154be92438b90263330e43b7bd oa:annotatedAt "2016-06-12T19:42:15+02:00"^^xsd:dateTime .
+nl:id_a45318bd17354b154be92438b90263330e43b7bd oa:annotatedBy user:paulinevandijk .
+nl:id_a45318bd17354b154be92438b90263330e43b7bd oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Abraham koopt de grot van Machpela" ] .
+nl:id_a45318bd17354b154be92438b90263330e43b7bd oa:hasTarget ubvu:print-218010001103 .
+nl:id_a45318bd17354b154be92438b90263330e43b7bd oa:motivatedBy oa:tagging .
+
 nl:id_c9d99cae2457da9a11f546a23316af57d6544c69 a oa:Annotation .
 nl:id_c9d99cae2457da9a11f546a23316af57d6544c69 terms:title "Abraham" .
 nl:id_c9d99cae2457da9a11f546a23316af57d6544c69 ui:annotationField bible:BibleCharacter .
