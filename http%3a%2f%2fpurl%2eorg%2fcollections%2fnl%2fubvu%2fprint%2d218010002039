@@ -106,6 +106,16 @@ nl:id_83765e45dfbd4c45e3cfaeaec4c46b6535318df5 oa:hasTarget target:target_1e816c
 nl:id_83765e45dfbd4c45e3cfaeaec4c46b6535318df5 oa:hasTarget ubvu:print-218010002039 .
 nl:id_83765e45dfbd4c45e3cfaeaec4c46b6535318df5 oa:motivatedBy oa:tagging .
 
+nl:id_9c3ab0bdee1885ae6a7bd8d4923581effe33d67e a oa:Annotation .
+nl:id_9c3ab0bdee1885ae6a7bd8d4923581effe33d67e terms:title "Schipbreuk bij Malta" .
+nl:id_9c3ab0bdee1885ae6a7bd8d4923581effe33d67e ui:annotationField bible:ICBibleTheme .
+nl:id_9c3ab0bdee1885ae6a7bd8d4923581effe33d67e ui:typingTime 0 .
+nl:id_9c3ab0bdee1885ae6a7bd8d4923581effe33d67e oa:annotatedAt "2016-06-12T20:02:46+02:00"^^xsd:dateTime .
+nl:id_9c3ab0bdee1885ae6a7bd8d4923581effe33d67e oa:annotatedBy user:paulinevandijk .
+nl:id_9c3ab0bdee1885ae6a7bd8d4923581effe33d67e oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Schipbreuk bij Malta" ] .
+nl:id_9c3ab0bdee1885ae6a7bd8d4923581effe33d67e oa:hasTarget ubvu:print-218010002039 .
+nl:id_9c3ab0bdee1885ae6a7bd8d4923581effe33d67e oa:motivatedBy oa:tagging .
+
 nl:id_a27e4dbae60a843cf32b218a3fc56294b3d130f3 a oa:Annotation .
 nl:id_a27e4dbae60a843cf32b218a3fc56294b3d130f3 terms:title "De dood van Herodes. Paulus geroemt in Lystra. " .
 nl:id_a27e4dbae60a843cf32b218a3fc56294b3d130f3 ui:annotationField bible:ICBibleTheme .
