@@ -45,6 +45,16 @@ nl:id_80e4b6356357e7d3898e0ed5e49cab7df72ae538 oa:hasTarget target:target_f106a4
 nl:id_80e4b6356357e7d3898e0ed5e49cab7df72ae538 oa:hasTarget ubvu:print-218010001400 .
 nl:id_80e4b6356357e7d3898e0ed5e49cab7df72ae538 oa:motivatedBy oa:tagging .
 
+nl:id_8412430f9a021705040efb39a2ee94c538bd592c a oa:Annotation .
+nl:id_8412430f9a021705040efb39a2ee94c538bd592c terms:title "Simson verscheurt een leeuw." .
+nl:id_8412430f9a021705040efb39a2ee94c538bd592c ui:annotationField bible:ICBibleTheme .
+nl:id_8412430f9a021705040efb39a2ee94c538bd592c ui:typingTime 0 .
+nl:id_8412430f9a021705040efb39a2ee94c538bd592c oa:annotatedAt "2016-06-12T20:10:53+02:00"^^xsd:dateTime .
+nl:id_8412430f9a021705040efb39a2ee94c538bd592c oa:annotatedBy user:paulinevandijk .
+nl:id_8412430f9a021705040efb39a2ee94c538bd592c oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Simson verscheurt een leeuw." ] .
+nl:id_8412430f9a021705040efb39a2ee94c538bd592c oa:hasTarget ubvu:print-218010001400 .
+nl:id_8412430f9a021705040efb39a2ee94c538bd592c oa:motivatedBy oa:tagging .
+
 nl:id_d5ab0721fb921576f9407092aa72c68d4138e1c0 a oa:Annotation .
 nl:id_d5ab0721fb921576f9407092aa72c68d4138e1c0 terms:title "simson" .
 nl:id_d5ab0721fb921576f9407092aa72c68d4138e1c0 ui:annotationField bible:BibleCharacter .
