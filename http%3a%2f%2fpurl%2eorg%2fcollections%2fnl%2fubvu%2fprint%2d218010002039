@@ -22,6 +22,16 @@ nl:id_178b8cf2af8bc1d8abf3992530e24ed1e07b6cdf oa:hasBody [ a content:ContentAsT
 nl:id_178b8cf2af8bc1d8abf3992530e24ed1e07b6cdf oa:hasTarget ubvu:print-218010002039 .
 nl:id_178b8cf2af8bc1d8abf3992530e24ed1e07b6cdf oa:motivatedBy oa:tagging .
 
+nl:id_5f093353e74aeb72ebcb3cc14635e7fb82d17669 a oa:Annotation .
+nl:id_5f093353e74aeb72ebcb3cc14635e7fb82d17669 terms:title "Visioen van Paulus" .
+nl:id_5f093353e74aeb72ebcb3cc14635e7fb82d17669 ui:annotationField bible:ICBibleTheme .
+nl:id_5f093353e74aeb72ebcb3cc14635e7fb82d17669 ui:typingTime 0 .
+nl:id_5f093353e74aeb72ebcb3cc14635e7fb82d17669 oa:annotatedAt "2016-06-12T19:51:41+02:00"^^xsd:dateTime .
+nl:id_5f093353e74aeb72ebcb3cc14635e7fb82d17669 oa:annotatedBy user:paulinevandijk .
+nl:id_5f093353e74aeb72ebcb3cc14635e7fb82d17669 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Visioen van Paulus" ] .
+nl:id_5f093353e74aeb72ebcb3cc14635e7fb82d17669 oa:hasTarget ubvu:print-218010002039 .
+nl:id_5f093353e74aeb72ebcb3cc14635e7fb82d17669 oa:motivatedBy oa:tagging .
+
 nl:id_682706d9f85bfb6d55f6773ea6b268bf3f64b480 a oa:Annotation .
 nl:id_682706d9f85bfb6d55f6773ea6b268bf3f64b480 terms:title "Silas" .
 nl:id_682706d9f85bfb6d55f6773ea6b268bf3f64b480 ui:annotationField bible:BibleCharacter .
