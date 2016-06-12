@@ -23,6 +23,16 @@ nl:id_602d9b17a9602ed904a26341ee5abfdfbb84ff8f oa:hasTarget target:target_7163bb
 nl:id_602d9b17a9602ed904a26341ee5abfdfbb84ff8f oa:hasTarget ubvu:print-218010001605 .
 nl:id_602d9b17a9602ed904a26341ee5abfdfbb84ff8f oa:motivatedBy oa:tagging .
 
+nl:id_6a9db22b44e93c83e0908f9c32806b2737609229 a oa:Annotation .
+nl:id_6a9db22b44e93c83e0908f9c32806b2737609229 terms:title "Susanna vals beschuldigd" .
+nl:id_6a9db22b44e93c83e0908f9c32806b2737609229 ui:annotationField bible:ICBibleTheme .
+nl:id_6a9db22b44e93c83e0908f9c32806b2737609229 ui:typingTime 0 .
+nl:id_6a9db22b44e93c83e0908f9c32806b2737609229 oa:annotatedAt "2016-06-12T19:36:52+02:00"^^xsd:dateTime .
+nl:id_6a9db22b44e93c83e0908f9c32806b2737609229 oa:annotatedBy user:paulinevandijk .
+nl:id_6a9db22b44e93c83e0908f9c32806b2737609229 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Susanna vals beschuldigd" ] .
+nl:id_6a9db22b44e93c83e0908f9c32806b2737609229 oa:hasTarget ubvu:print-218010001605 .
+nl:id_6a9db22b44e93c83e0908f9c32806b2737609229 oa:motivatedBy oa:tagging .
+
 nl:id_be62a5f6cfd4c0e283bb6406c311dc37e202799a a oa:Annotation .
 nl:id_be62a5f6cfd4c0e283bb6406c311dc37e202799a terms:title "the story of Susanna and the elders (in which the youth Daniel intervenes on behalf of Susanna) (Daniel 13)" .
 nl:id_be62a5f6cfd4c0e283bb6406c311dc37e202799a ui:annotationField bible:ICBibleTheme .
