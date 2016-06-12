@@ -32,6 +32,16 @@ nl:id_4733a4677f88c24aca40c8657a5ccd2d6642be5c oa:hasBody [ a content:ContentAsT
 nl:id_4733a4677f88c24aca40c8657a5ccd2d6642be5c oa:hasTarget ubvu:print-218010002039 .
 nl:id_4733a4677f88c24aca40c8657a5ccd2d6642be5c oa:motivatedBy oa:tagging .
 
+nl:id_4b34d44680f05b73e82b3866201542fcf12a028f a oa:Annotation .
+nl:id_4b34d44680f05b73e82b3866201542fcf12a028f terms:title "Soldaten brengen Paulus naar Antipatris." .
+nl:id_4b34d44680f05b73e82b3866201542fcf12a028f ui:annotationField bible:ICBibleTheme .
+nl:id_4b34d44680f05b73e82b3866201542fcf12a028f ui:typingTime 0 .
+nl:id_4b34d44680f05b73e82b3866201542fcf12a028f oa:annotatedAt "2016-06-12T20:02:33+02:00"^^xsd:dateTime .
+nl:id_4b34d44680f05b73e82b3866201542fcf12a028f oa:annotatedBy user:paulinevandijk .
+nl:id_4b34d44680f05b73e82b3866201542fcf12a028f oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Soldaten brengen Paulus naar Antipatris." ] .
+nl:id_4b34d44680f05b73e82b3866201542fcf12a028f oa:hasTarget ubvu:print-218010002039 .
+nl:id_4b34d44680f05b73e82b3866201542fcf12a028f oa:motivatedBy oa:tagging .
+
 nl:id_57ea1ba9bdfa0e6904ffc5c2e588462cd3b1590d a oa:Annotation .
 nl:id_57ea1ba9bdfa0e6904ffc5c2e588462cd3b1590d terms:title "Eutychus valt uit het raam tijdens een preek van Paulus." .
 nl:id_57ea1ba9bdfa0e6904ffc5c2e588462cd3b1590d ui:annotationField bible:ICBibleTheme .
