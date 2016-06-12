@@ -95,6 +95,16 @@ nl:id_c5b8ad7397a0461427ff931161b06b04a4d492f4 oa:hasBody [ a content:ContentAsT
 nl:id_c5b8ad7397a0461427ff931161b06b04a4d492f4 oa:hasTarget ubvu:print-218010002039 .
 nl:id_c5b8ad7397a0461427ff931161b06b04a4d492f4 oa:motivatedBy oa:tagging .
 
+nl:id_ca36dc275af10c52bf082462070aecde2011f82e a oa:Annotation .
+nl:id_ca36dc275af10c52bf082462070aecde2011f82e terms:title "Paulus gestenigd." .
+nl:id_ca36dc275af10c52bf082462070aecde2011f82e ui:annotationField bible:ICBibleTheme .
+nl:id_ca36dc275af10c52bf082462070aecde2011f82e ui:typingTime 0 .
+nl:id_ca36dc275af10c52bf082462070aecde2011f82e oa:annotatedAt "2016-06-12T19:56:08+02:00"^^xsd:dateTime .
+nl:id_ca36dc275af10c52bf082462070aecde2011f82e oa:annotatedBy user:paulinevandijk .
+nl:id_ca36dc275af10c52bf082462070aecde2011f82e oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Paulus gestenigd." ] .
+nl:id_ca36dc275af10c52bf082462070aecde2011f82e oa:hasTarget ubvu:print-218010002039 .
+nl:id_ca36dc275af10c52bf082462070aecde2011f82e oa:motivatedBy oa:tagging .
+
 nl:id_d4b0774ef6943defaf0c54a1f9d99e870398fbaf a oa:Annotation .
 nl:id_d4b0774ef6943defaf0c54a1f9d99e870398fbaf terms:title "Paulus" .
 nl:id_d4b0774ef6943defaf0c54a1f9d99e870398fbaf ui:annotationField bible:BibleCharacter .
