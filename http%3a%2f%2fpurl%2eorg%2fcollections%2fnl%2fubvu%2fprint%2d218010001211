@@ -56,6 +56,16 @@ nl:id_d5dfac533d17a17751747100b801d016dfcb7aaf oa:hasBody <http://iconclass.org/
 nl:id_d5dfac533d17a17751747100b801d016dfcb7aaf oa:hasTarget ubvu:print-218010001211 .
 nl:id_d5dfac533d17a17751747100b801d016dfcb7aaf oa:motivatedBy oa:tagging .
 
+nl:id_ebbaa96a54fa14486aece6f699babeccb39512d6 a oa:Annotation .
+nl:id_ebbaa96a54fa14486aece6f699babeccb39512d6 terms:title "The rods of Moses and the Magitians turned into serpents" .
+nl:id_ebbaa96a54fa14486aece6f699babeccb39512d6 ui:annotationField bible:ICBibleTheme .
+nl:id_ebbaa96a54fa14486aece6f699babeccb39512d6 ui:typingTime 0 .
+nl:id_ebbaa96a54fa14486aece6f699babeccb39512d6 oa:annotatedAt "2016-06-12T11:18:02+02:00"^^xsd:dateTime .
+nl:id_ebbaa96a54fa14486aece6f699babeccb39512d6 oa:annotatedBy user:everhoeff .
+nl:id_ebbaa96a54fa14486aece6f699babeccb39512d6 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The rods of Moses and the Magitians turned into serpents" ] .
+nl:id_ebbaa96a54fa14486aece6f699babeccb39512d6 oa:hasTarget ubvu:print-218010001211 .
+nl:id_ebbaa96a54fa14486aece6f699babeccb39512d6 oa:motivatedBy oa:tagging .
+
 target:selector_1f9574170822d9e25a498a9524bf7ccf8060c17c a oa:FragmentSelector .
 target:selector_1f9574170822d9e25a498a9524bf7ccf8060c17c terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_1f9574170822d9e25a498a9524bf7ccf8060c17c ui:h "0.16917728852838934"^^xsd:float .
