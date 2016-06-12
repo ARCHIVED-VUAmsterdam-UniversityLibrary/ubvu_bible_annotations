@@ -24,6 +24,16 @@ nl:id_0d8faeb25babae701c99045b07e05f2d1e87bcb9 oa:hasTarget target:target_cb19bc
 nl:id_0d8faeb25babae701c99045b07e05f2d1e87bcb9 oa:hasTarget ubvu:print-218010001555 .
 nl:id_0d8faeb25babae701c99045b07e05f2d1e87bcb9 oa:motivatedBy oa:tagging .
 
+nl:id_3bcb141c037d24234cb8c70c0d82e2761dda4dcc a oa:Annotation .
+nl:id_3bcb141c037d24234cb8c70c0d82e2761dda4dcc terms:title "Ahasuerus gives his ring to Mordecai" .
+nl:id_3bcb141c037d24234cb8c70c0d82e2761dda4dcc ui:annotationField bible:ICBibleTheme .
+nl:id_3bcb141c037d24234cb8c70c0d82e2761dda4dcc ui:typingTime 0 .
+nl:id_3bcb141c037d24234cb8c70c0d82e2761dda4dcc oa:annotatedAt "2016-06-12T11:15:22+02:00"^^xsd:dateTime .
+nl:id_3bcb141c037d24234cb8c70c0d82e2761dda4dcc oa:annotatedBy user:everhoeff .
+nl:id_3bcb141c037d24234cb8c70c0d82e2761dda4dcc oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Ahasuerus gives his ring to Mordecai" ] .
+nl:id_3bcb141c037d24234cb8c70c0d82e2761dda4dcc oa:hasTarget ubvu:print-218010001555 .
+nl:id_3bcb141c037d24234cb8c70c0d82e2761dda4dcc oa:motivatedBy oa:tagging .
+
 nl:id_6319eda083e3cccb1a5dcbbf0041fc9feef93218 a oa:Annotation .
 nl:id_6319eda083e3cccb1a5dcbbf0041fc9feef93218 terms:title "Mordechai" .
 nl:id_6319eda083e3cccb1a5dcbbf0041fc9feef93218 ui:annotationField bible:BibleCharacter .
