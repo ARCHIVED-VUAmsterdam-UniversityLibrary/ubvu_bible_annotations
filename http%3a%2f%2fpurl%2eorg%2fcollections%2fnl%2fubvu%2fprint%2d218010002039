@@ -95,6 +95,17 @@ nl:id_c5b8ad7397a0461427ff931161b06b04a4d492f4 oa:hasBody [ a content:ContentAsT
 nl:id_c5b8ad7397a0461427ff931161b06b04a4d492f4 oa:hasTarget ubvu:print-218010002039 .
 nl:id_c5b8ad7397a0461427ff931161b06b04a4d492f4 oa:motivatedBy oa:tagging .
 
+nl:id_d4b0774ef6943defaf0c54a1f9d99e870398fbaf a oa:Annotation .
+nl:id_d4b0774ef6943defaf0c54a1f9d99e870398fbaf terms:title "Paulus" .
+nl:id_d4b0774ef6943defaf0c54a1f9d99e870398fbaf ui:annotationField bible:BibleCharacter .
+nl:id_d4b0774ef6943defaf0c54a1f9d99e870398fbaf ui:typingTime 0 .
+nl:id_d4b0774ef6943defaf0c54a1f9d99e870398fbaf oa:annotatedAt "2016-06-12T19:54:10+02:00"^^xsd:dateTime .
+nl:id_d4b0774ef6943defaf0c54a1f9d99e870398fbaf oa:annotatedBy user:paulinevandijk .
+nl:id_d4b0774ef6943defaf0c54a1f9d99e870398fbaf oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Paulus" ] .
+nl:id_d4b0774ef6943defaf0c54a1f9d99e870398fbaf oa:hasTarget target:target_0f04ca616563e8f92ce16861f770bfa27218f27f .
+nl:id_d4b0774ef6943defaf0c54a1f9d99e870398fbaf oa:hasTarget ubvu:print-218010002039 .
+nl:id_d4b0774ef6943defaf0c54a1f9d99e870398fbaf oa:motivatedBy oa:tagging .
+
 nl:id_dbcdacc52fd797fbbd7828b7256251efe58c0de3 a oa:Annotation .
 nl:id_dbcdacc52fd797fbbd7828b7256251efe58c0de3 terms:title "Paul sails to Italy in a dangerous storm" .
 nl:id_dbcdacc52fd797fbbd7828b7256251efe58c0de3 ui:annotationField bible:ICBibleTheme .
@@ -126,6 +137,14 @@ nl:id_f484daf2495aea464ddf045bf7851e13562cf10f oa:hasBody [ a content:ContentAsT
 nl:id_f484daf2495aea464ddf045bf7851e13562cf10f oa:hasTarget target:target_1a25f7e7296ddd85ccedfefaa7d381f3af0e619a .
 nl:id_f484daf2495aea464ddf045bf7851e13562cf10f oa:hasTarget ubvu:print-218010002039 .
 nl:id_f484daf2495aea464ddf045bf7851e13562cf10f oa:motivatedBy oa:tagging .
+
+target:selector_0f04ca616563e8f92ce16861f770bfa27218f27f a oa:FragmentSelector .
+target:selector_0f04ca616563e8f92ce16861f770bfa27218f27f terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_0f04ca616563e8f92ce16861f770bfa27218f27f ui:h "0.06281227694503926"^^xsd:float .
+target:selector_0f04ca616563e8f92ce16861f770bfa27218f27f ui:w "0.0443298969072165"^^xsd:float .
+target:selector_0f04ca616563e8f92ce16861f770bfa27218f27f ui:x "0.27835051546391754"^^xsd:float .
+target:selector_0f04ca616563e8f92ce16861f770bfa27218f27f ui:y "0.2398286937901499"^^xsd:float .
+target:selector_0f04ca616563e8f92ce16861f770bfa27218f27f rdf:value "#xywh=percent:28,24,4,6" .
 
 target:selector_1a25f7e7296ddd85ccedfefaa7d381f3af0e619a a oa:FragmentSelector .
 target:selector_1a25f7e7296ddd85ccedfefaa7d381f3af0e619a terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -166,6 +185,10 @@ target:selector_a4edbaa22222925db9e3d83b2bfdbb1087114e6f ui:w "0.102061855670103
 target:selector_a4edbaa22222925db9e3d83b2bfdbb1087114e6f ui:x "0.3752577319587629"^^xsd:float .
 target:selector_a4edbaa22222925db9e3d83b2bfdbb1087114e6f ui:y "0.21199143468950749"^^xsd:float .
 target:selector_a4edbaa22222925db9e3d83b2bfdbb1087114e6f rdf:value "#xywh=percent:38,21,10,12" .
+
+target:target_0f04ca616563e8f92ce16861f770bfa27218f27f a oa:SpecificResource .
+target:target_0f04ca616563e8f92ce16861f770bfa27218f27f oa:hasSelector target:selector_0f04ca616563e8f92ce16861f770bfa27218f27f .
+target:target_0f04ca616563e8f92ce16861f770bfa27218f27f oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/38> .
 
 target:target_1a25f7e7296ddd85ccedfefaa7d381f3af0e619a a oa:SpecificResource .
 target:target_1a25f7e7296ddd85ccedfefaa7d381f3af0e619a oa:hasSelector target:selector_1a25f7e7296ddd85ccedfefaa7d381f3af0e619a .
