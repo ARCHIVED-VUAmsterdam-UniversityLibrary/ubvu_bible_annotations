@@ -99,6 +99,17 @@ nl:id_a954f0d4d1c11b52c6e10ef2e571c0c0ef7e2f3c oa:hasTarget target:target_a3c313
 nl:id_a954f0d4d1c11b52c6e10ef2e571c0c0ef7e2f3c oa:hasTarget ubvu:print-218010002037 .
 nl:id_a954f0d4d1c11b52c6e10ef2e571c0c0ef7e2f3c oa:motivatedBy oa:tagging .
 
+nl:id_e6a977c7bae9a089baf466d67e4062bcfafe1194 a oa:Annotation .
+nl:id_e6a977c7bae9a089baf466d67e4062bcfafe1194 terms:title "Emmaüsgangers" .
+nl:id_e6a977c7bae9a089baf466d67e4062bcfafe1194 ui:annotationField bible:BibleCharacter .
+nl:id_e6a977c7bae9a089baf466d67e4062bcfafe1194 ui:typingTime 0 .
+nl:id_e6a977c7bae9a089baf466d67e4062bcfafe1194 oa:annotatedAt "2016-06-13T21:28:55+02:00"^^xsd:dateTime .
+nl:id_e6a977c7bae9a089baf466d67e4062bcfafe1194 oa:annotatedBy user:paulinevandijk .
+nl:id_e6a977c7bae9a089baf466d67e4062bcfafe1194 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Emmaüsgangers" ] .
+nl:id_e6a977c7bae9a089baf466d67e4062bcfafe1194 oa:hasTarget target:target_204ce6e67c2d9def5f8fa29e31bbf4a5bbc93509 .
+nl:id_e6a977c7bae9a089baf466d67e4062bcfafe1194 oa:hasTarget ubvu:print-218010002037 .
+nl:id_e6a977c7bae9a089baf466d67e4062bcfafe1194 oa:motivatedBy oa:tagging .
+
 nl:id_ec20445e28f2ed0aea81aa3cafd9d8af22fafd57 a oa:Annotation .
 nl:id_ec20445e28f2ed0aea81aa3cafd9d8af22fafd57 terms:title "the empty sepulcre" .
 nl:id_ec20445e28f2ed0aea81aa3cafd9d8af22fafd57 ui:annotationField bible:ICBibleTheme .
@@ -148,6 +159,14 @@ target:selector_0b2bf051e4ac4040d2426b76b252a49a630586ee ui:x "0.341281669150521
 target:selector_0b2bf051e4ac4040d2426b76b252a49a630586ee ui:y "0.18302658486707565"^^xsd:float .
 target:selector_0b2bf051e4ac4040d2426b76b252a49a630586ee rdf:value "#xywh=percent:34,18,13,11" .
 
+target:selector_204ce6e67c2d9def5f8fa29e31bbf4a5bbc93509 a oa:FragmentSelector .
+target:selector_204ce6e67c2d9def5f8fa29e31bbf4a5bbc93509 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_204ce6e67c2d9def5f8fa29e31bbf4a5bbc93509 ui:h "0.10332625619249823"^^xsd:float .
+target:selector_204ce6e67c2d9def5f8fa29e31bbf4a5bbc93509 ui:w "0.07216494845360824"^^xsd:float .
+target:selector_204ce6e67c2d9def5f8fa29e31bbf4a5bbc93509 ui:x "0.11443298969072165"^^xsd:float .
+target:selector_204ce6e67c2d9def5f8fa29e31bbf4a5bbc93509 ui:y "0.32696390658174096"^^xsd:float .
+target:selector_204ce6e67c2d9def5f8fa29e31bbf4a5bbc93509 rdf:value "#xywh=percent:11,33,7,10" .
+
 target:selector_237d2ff77de3b198dfdf0c61ce999cf4ec1eaaa8 a oa:FragmentSelector .
 target:selector_237d2ff77de3b198dfdf0c61ce999cf4ec1eaaa8 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_237d2ff77de3b198dfdf0c61ce999cf4ec1eaaa8 ui:h "0.09907997169143666"^^xsd:float .
@@ -191,6 +210,10 @@ target:selector_ea371c8b6377b320bf61f9b27ca605248367befd rdf:value "#xywh=percen
 target:target_0b2bf051e4ac4040d2426b76b252a49a630586ee a oa:SpecificResource .
 target:target_0b2bf051e4ac4040d2426b76b252a49a630586ee oa:hasSelector target:selector_0b2bf051e4ac4040d2426b76b252a49a630586ee .
 target:target_0b2bf051e4ac4040d2426b76b252a49a630586ee oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/36> .
+
+target:target_204ce6e67c2d9def5f8fa29e31bbf4a5bbc93509 a oa:SpecificResource .
+target:target_204ce6e67c2d9def5f8fa29e31bbf4a5bbc93509 oa:hasSelector target:selector_204ce6e67c2d9def5f8fa29e31bbf4a5bbc93509 .
+target:target_204ce6e67c2d9def5f8fa29e31bbf4a5bbc93509 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/36> .
 
 target:target_237d2ff77de3b198dfdf0c61ce999cf4ec1eaaa8 a oa:SpecificResource .
 target:target_237d2ff77de3b198dfdf0c61ce999cf4ec1eaaa8 oa:hasSelector target:selector_237d2ff77de3b198dfdf0c61ce999cf4ec1eaaa8 .
