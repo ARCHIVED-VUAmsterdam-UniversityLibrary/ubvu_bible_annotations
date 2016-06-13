@@ -24,6 +24,16 @@ nl:id_67902e4491f6f3959bd6344015afe8b5d9ac5834 oa:hasTarget target:target_470988
 nl:id_67902e4491f6f3959bd6344015afe8b5d9ac5834 oa:hasTarget ubvu:print-218010001651 .
 nl:id_67902e4491f6f3959bd6344015afe8b5d9ac5834 oa:motivatedBy oa:tagging .
 
+nl:id_a414becedc8772f4869e3d9e2842d961c9f11634 a oa:Annotation .
+nl:id_a414becedc8772f4869e3d9e2842d961c9f11634 terms:title "The annunciation of thr virgin Mary" .
+nl:id_a414becedc8772f4869e3d9e2842d961c9f11634 ui:annotationField bible:ICBibleTheme .
+nl:id_a414becedc8772f4869e3d9e2842d961c9f11634 ui:typingTime 0 .
+nl:id_a414becedc8772f4869e3d9e2842d961c9f11634 oa:annotatedAt "2016-06-13T21:18:15+02:00"^^xsd:dateTime .
+nl:id_a414becedc8772f4869e3d9e2842d961c9f11634 oa:annotatedBy user:everhoeff .
+nl:id_a414becedc8772f4869e3d9e2842d961c9f11634 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The annunciation of thr virgin Mary" ] .
+nl:id_a414becedc8772f4869e3d9e2842d961c9f11634 oa:hasTarget ubvu:print-218010001651 .
+nl:id_a414becedc8772f4869e3d9e2842d961c9f11634 oa:motivatedBy oa:tagging .
+
 nl:id_b2fc5ab340fcf4125d47dcc74081b78c11ec113e a oa:Annotation .
 nl:id_b2fc5ab340fcf4125d47dcc74081b78c11ec113e terms:title "Engel" .
 nl:id_b2fc5ab340fcf4125d47dcc74081b78c11ec113e ui:annotationField bible:BibleCharacter .
