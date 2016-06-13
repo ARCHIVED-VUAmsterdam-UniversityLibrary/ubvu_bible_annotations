@@ -66,6 +66,16 @@ nl:id_44e72a3cd0783e230eca2c29d7e0e6285d5dc6d4 oa:hasTarget target:target_f760a1
 nl:id_44e72a3cd0783e230eca2c29d7e0e6285d5dc6d4 oa:hasTarget ubvu:print-218010002014 .
 nl:id_44e72a3cd0783e230eca2c29d7e0e6285d5dc6d4 oa:motivatedBy oa:tagging .
 
+nl:id_50993e6e4938722e82bc035bd46ff97e72acde36 a oa:Annotation .
+nl:id_50993e6e4938722e82bc035bd46ff97e72acde36 terms:title "Saul in the cave" .
+nl:id_50993e6e4938722e82bc035bd46ff97e72acde36 ui:annotationField bible:ICBibleTheme .
+nl:id_50993e6e4938722e82bc035bd46ff97e72acde36 ui:typingTime 0 .
+nl:id_50993e6e4938722e82bc035bd46ff97e72acde36 oa:annotatedAt "2016-06-13T21:44:24+02:00"^^xsd:dateTime .
+nl:id_50993e6e4938722e82bc035bd46ff97e72acde36 oa:annotatedBy user:everhoeff .
+nl:id_50993e6e4938722e82bc035bd46ff97e72acde36 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Saul in the cave" ] .
+nl:id_50993e6e4938722e82bc035bd46ff97e72acde36 oa:hasTarget ubvu:print-218010002014 .
+nl:id_50993e6e4938722e82bc035bd46ff97e72acde36 oa:motivatedBy oa:tagging .
+
 nl:id_571dd3d2504d6a4d2cceb2465c7e16e751530a0d a oa:Annotation .
 nl:id_571dd3d2504d6a4d2cceb2465c7e16e751530a0d terms:title "murder of the priests" .
 nl:id_571dd3d2504d6a4d2cceb2465c7e16e751530a0d ui:annotationField bible:ICBibleTheme .
