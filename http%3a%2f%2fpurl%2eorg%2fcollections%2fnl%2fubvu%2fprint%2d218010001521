@@ -35,6 +35,16 @@ nl:id_6da7ca3c0af0bac04c3d3826e2001a4fc1a81600 oa:hasTarget target:target_9469aa
 nl:id_6da7ca3c0af0bac04c3d3826e2001a4fc1a81600 oa:hasTarget ubvu:print-218010001521 .
 nl:id_6da7ca3c0af0bac04c3d3826e2001a4fc1a81600 oa:motivatedBy oa:tagging .
 
+nl:id_a764a7096782de400c3e5da62bf49c7b8b4c5f13 a oa:Annotation .
+nl:id_a764a7096782de400c3e5da62bf49c7b8b4c5f13 terms:title "Naaman's gift refused by Elisha" .
+nl:id_a764a7096782de400c3e5da62bf49c7b8b4c5f13 ui:annotationField bible:ICBibleTheme .
+nl:id_a764a7096782de400c3e5da62bf49c7b8b4c5f13 ui:typingTime 0 .
+nl:id_a764a7096782de400c3e5da62bf49c7b8b4c5f13 oa:annotatedAt "2016-06-13T21:12:32+02:00"^^xsd:dateTime .
+nl:id_a764a7096782de400c3e5da62bf49c7b8b4c5f13 oa:annotatedBy user:everhoeff .
+nl:id_a764a7096782de400c3e5da62bf49c7b8b4c5f13 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Naaman's gift refused by Elisha" ] .
+nl:id_a764a7096782de400c3e5da62bf49c7b8b4c5f13 oa:hasTarget ubvu:print-218010001521 .
+nl:id_a764a7096782de400c3e5da62bf49c7b8b4c5f13 oa:motivatedBy oa:tagging .
+
 nl:id_d4cbc9b8b428c101eab0d7bc07f9236072039bf2 a oa:Annotation .
 nl:id_d4cbc9b8b428c101eab0d7bc07f9236072039bf2 terms:title "Elisa" .
 nl:id_d4cbc9b8b428c101eab0d7bc07f9236072039bf2 ui:annotationField bible:BibleCharacter .
