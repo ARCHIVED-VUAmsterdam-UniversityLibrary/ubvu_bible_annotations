@@ -44,6 +44,17 @@ nl:id_285288241d4de032c08c2e6b7c42eb2829b2375a oa:hasBody [ a content:ContentAsT
 nl:id_285288241d4de032c08c2e6b7c42eb2829b2375a oa:hasTarget ubvu:print-218010002015 .
 nl:id_285288241d4de032c08c2e6b7c42eb2829b2375a oa:motivatedBy oa:tagging .
 
+nl:id_456bc28716b5094b0cc28d71438716a8b68d98e5 a oa:Annotation .
+nl:id_456bc28716b5094b0cc28d71438716a8b68d98e5 terms:title "Saul" .
+nl:id_456bc28716b5094b0cc28d71438716a8b68d98e5 ui:annotationField bible:BibleCharacter .
+nl:id_456bc28716b5094b0cc28d71438716a8b68d98e5 ui:typingTime 0 .
+nl:id_456bc28716b5094b0cc28d71438716a8b68d98e5 oa:annotatedAt "2016-06-13T21:14:15+02:00"^^xsd:dateTime .
+nl:id_456bc28716b5094b0cc28d71438716a8b68d98e5 oa:annotatedBy user:paulinevandijk .
+nl:id_456bc28716b5094b0cc28d71438716a8b68d98e5 oa:hasBody resource:Saul .
+nl:id_456bc28716b5094b0cc28d71438716a8b68d98e5 oa:hasTarget target:target_e28c2e528502da1b22c1b544ffcec946409cd23f .
+nl:id_456bc28716b5094b0cc28d71438716a8b68d98e5 oa:hasTarget ubvu:print-218010002015 .
+nl:id_456bc28716b5094b0cc28d71438716a8b68d98e5 oa:motivatedBy oa:tagging .
+
 nl:id_4ad15cd8e06e1c638dad1feef7b15beba2d69c3f a oa:Annotation .
 nl:id_4ad15cd8e06e1c638dad1feef7b15beba2d69c3f terms:title "David and all the men of Israel play before the Lord on all manner of instrunebts" .
 nl:id_4ad15cd8e06e1c638dad1feef7b15beba2d69c3f ui:annotationField bible:ICBibleTheme .
@@ -140,6 +151,14 @@ target:selector_a03f2ef644c070d80d2f79b8cf8c255e1fe84249 ui:x "0.535051546391752
 target:selector_a03f2ef644c070d80d2f79b8cf8c255e1fe84249 ui:y "0.13670133729569092"^^xsd:float .
 target:selector_a03f2ef644c070d80d2f79b8cf8c255e1fe84249 rdf:value "#xywh=percent:54,14,2,2" .
 
+target:selector_e28c2e528502da1b22c1b544ffcec946409cd23f a oa:FragmentSelector .
+target:selector_e28c2e528502da1b22c1b544ffcec946409cd23f terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_e28c2e528502da1b22c1b544ffcec946409cd23f ui:h "0.1515601783060921"^^xsd:float .
+target:selector_e28c2e528502da1b22c1b544ffcec946409cd23f ui:w "0.18350515463917524"^^xsd:float .
+target:selector_e28c2e528502da1b22c1b544ffcec946409cd23f ui:x "0.19381443298969073"^^xsd:float .
+target:selector_e28c2e528502da1b22c1b544ffcec946409cd23f ui:y "0.2362555720653789"^^xsd:float .
+target:selector_e28c2e528502da1b22c1b544ffcec946409cd23f rdf:value "#xywh=percent:19,24,18,15" .
+
 target:target_1100bcedf1f110219dcb21b3d6e058aff64c6d22 a oa:SpecificResource .
 target:target_1100bcedf1f110219dcb21b3d6e058aff64c6d22 oa:hasSelector target:selector_1100bcedf1f110219dcb21b3d6e058aff64c6d22 .
 target:target_1100bcedf1f110219dcb21b3d6e058aff64c6d22 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/14> .
@@ -151,3 +170,7 @@ target:target_8f20a6dd2263cd7f31e577943b428f169c719644 oa:hasSource <http://imag
 target:target_a03f2ef644c070d80d2f79b8cf8c255e1fe84249 a oa:SpecificResource .
 target:target_a03f2ef644c070d80d2f79b8cf8c255e1fe84249 oa:hasSelector target:selector_a03f2ef644c070d80d2f79b8cf8c255e1fe84249 .
 target:target_a03f2ef644c070d80d2f79b8cf8c255e1fe84249 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/14> .
+
+target:target_e28c2e528502da1b22c1b544ffcec946409cd23f a oa:SpecificResource .
+target:target_e28c2e528502da1b22c1b544ffcec946409cd23f oa:hasSelector target:selector_e28c2e528502da1b22c1b544ffcec946409cd23f .
+target:target_e28c2e528502da1b22c1b544ffcec946409cd23f oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/14> .
