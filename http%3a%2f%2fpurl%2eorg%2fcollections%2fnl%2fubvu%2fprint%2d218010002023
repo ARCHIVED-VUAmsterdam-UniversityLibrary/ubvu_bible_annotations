@@ -96,6 +96,17 @@ nl:id_787ede9c993887518263a200155f1303c047cabf oa:hasBody <http://iconclass.org/
 nl:id_787ede9c993887518263a200155f1303c047cabf oa:hasTarget ubvu:print-218010002023 .
 nl:id_787ede9c993887518263a200155f1303c047cabf oa:motivatedBy oa:tagging .
 
+nl:id_a7ab761f412ac8ff9dd50ec6a6add0236332e8c2 a oa:Annotation .
+nl:id_a7ab761f412ac8ff9dd50ec6a6add0236332e8c2 terms:title "Mordecai" .
+nl:id_a7ab761f412ac8ff9dd50ec6a6add0236332e8c2 ui:annotationField bible:BibleCharacter .
+nl:id_a7ab761f412ac8ff9dd50ec6a6add0236332e8c2 ui:typingTime 0 .
+nl:id_a7ab761f412ac8ff9dd50ec6a6add0236332e8c2 oa:annotatedAt "2016-06-13T21:31:47+02:00"^^xsd:dateTime .
+nl:id_a7ab761f412ac8ff9dd50ec6a6add0236332e8c2 oa:annotatedBy user:everhoeff .
+nl:id_a7ab761f412ac8ff9dd50ec6a6add0236332e8c2 oa:hasBody resource:Mordecai .
+nl:id_a7ab761f412ac8ff9dd50ec6a6add0236332e8c2 oa:hasTarget target:target_2d41044ae14cf759176534addd296d5815f75a83 .
+nl:id_a7ab761f412ac8ff9dd50ec6a6add0236332e8c2 oa:hasTarget ubvu:print-218010002023 .
+nl:id_a7ab761f412ac8ff9dd50ec6a6add0236332e8c2 oa:motivatedBy oa:tagging .
+
 nl:id_b62c7c4f7776b8dd06c4c751c71083b63211ae5b a oa:Annotation .
 nl:id_b62c7c4f7776b8dd06c4c751c71083b63211ae5b terms:title "Ester, Ahasveos en beloning van Mordechai (Esther div teksten)" .
 nl:id_b62c7c4f7776b8dd06c4c751c71083b63211ae5b ui:annotationField bible:ICBibleTheme .
@@ -156,6 +167,14 @@ target:selector_0c38b39b365292a8e1fc3ef1f91a87b261168a94 ui:x "0.403418803418803
 target:selector_0c38b39b365292a8e1fc3ef1f91a87b261168a94 ui:y "0.22477770106073094"^^xsd:float .
 target:selector_0c38b39b365292a8e1fc3ef1f91a87b261168a94 rdf:value "#xywh=percent:40,22,10,11" .
 
+target:selector_2d41044ae14cf759176534addd296d5815f75a83 a oa:FragmentSelector .
+target:selector_2d41044ae14cf759176534addd296d5815f75a83 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_2d41044ae14cf759176534addd296d5815f75a83 ui:h "0.17453505007153075"^^xsd:float .
+target:selector_2d41044ae14cf759176534addd296d5815f75a83 ui:w "0.15876288659793814"^^xsd:float .
+target:selector_2d41044ae14cf759176534addd296d5815f75a83 ui:x "0.35051546391752575"^^xsd:float .
+target:selector_2d41044ae14cf759176534addd296d5815f75a83 ui:y "0.5271816881258942"^^xsd:float .
+target:selector_2d41044ae14cf759176534addd296d5815f75a83 rdf:value "#xywh=percent:35,53,16,17" .
+
 target:selector_972dbc5f73cadefeda3a2b52dc1c2b046412576a a oa:FragmentSelector .
 target:selector_972dbc5f73cadefeda3a2b52dc1c2b046412576a terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_972dbc5f73cadefeda3a2b52dc1c2b046412576a ui:h "0.1825726141078838"^^xsd:float .
@@ -183,6 +202,10 @@ target:selector_a000034cb171f1294a907962cc4350cdb433dd9f rdf:value "#xywh=percen
 target:target_0c38b39b365292a8e1fc3ef1f91a87b261168a94 a oa:SpecificResource .
 target:target_0c38b39b365292a8e1fc3ef1f91a87b261168a94 oa:hasSelector target:selector_0c38b39b365292a8e1fc3ef1f91a87b261168a94 .
 target:target_0c38b39b365292a8e1fc3ef1f91a87b261168a94 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/22> .
+
+target:target_2d41044ae14cf759176534addd296d5815f75a83 a oa:SpecificResource .
+target:target_2d41044ae14cf759176534addd296d5815f75a83 oa:hasSelector target:selector_2d41044ae14cf759176534addd296d5815f75a83 .
+target:target_2d41044ae14cf759176534addd296d5815f75a83 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/22> .
 
 target:target_972dbc5f73cadefeda3a2b52dc1c2b046412576a a oa:SpecificResource .
 target:target_972dbc5f73cadefeda3a2b52dc1c2b046412576a oa:hasSelector target:selector_972dbc5f73cadefeda3a2b52dc1c2b046412576a .
