@@ -77,6 +77,16 @@ nl:id_57f287d1c68ce63738bfc149846aa055b9489a44 oa:hasTarget target:target_6c41a8
 nl:id_57f287d1c68ce63738bfc149846aa055b9489a44 oa:hasTarget ubvu:print-218010002014 .
 nl:id_57f287d1c68ce63738bfc149846aa055b9489a44 oa:motivatedBy oa:tagging .
 
+nl:id_607c258bfeda56e9bdc09e67faf5a27a5d7b9a4f a oa:Annotation .
+nl:id_607c258bfeda56e9bdc09e67faf5a27a5d7b9a4f terms:title "Jonathan's arrow" .
+nl:id_607c258bfeda56e9bdc09e67faf5a27a5d7b9a4f ui:annotationField bible:ICBibleTheme .
+nl:id_607c258bfeda56e9bdc09e67faf5a27a5d7b9a4f ui:typingTime 0 .
+nl:id_607c258bfeda56e9bdc09e67faf5a27a5d7b9a4f oa:annotatedAt "2016-06-13T21:40:06+02:00"^^xsd:dateTime .
+nl:id_607c258bfeda56e9bdc09e67faf5a27a5d7b9a4f oa:annotatedBy user:everhoeff .
+nl:id_607c258bfeda56e9bdc09e67faf5a27a5d7b9a4f oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jonathan's arrow" ] .
+nl:id_607c258bfeda56e9bdc09e67faf5a27a5d7b9a4f oa:hasTarget ubvu:print-218010002014 .
+nl:id_607c258bfeda56e9bdc09e67faf5a27a5d7b9a4f oa:motivatedBy oa:tagging .
+
 nl:id_67b2c2aa823bf8ef21243aa22c62318625639489 a oa:Annotation .
 nl:id_67b2c2aa823bf8ef21243aa22c62318625639489 terms:title "Jonathan" .
 nl:id_67b2c2aa823bf8ef21243aa22c62318625639489 ui:annotationField bible:BibleCharacter .
