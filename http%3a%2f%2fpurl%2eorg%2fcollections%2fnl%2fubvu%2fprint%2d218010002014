@@ -45,6 +45,16 @@ nl:id_294e00f2b55f5c82eec08188bd34645c2669a58f oa:hasTarget target:target_cec845
 nl:id_294e00f2b55f5c82eec08188bd34645c2669a58f oa:hasTarget ubvu:print-218010002014 .
 nl:id_294e00f2b55f5c82eec08188bd34645c2669a58f oa:motivatedBy oa:tagging .
 
+nl:id_35013ef6c73a9ba8a99aaf7ece7ab34a1f1a07c1 a oa:Annotation .
+nl:id_35013ef6c73a9ba8a99aaf7ece7ab34a1f1a07c1 terms:title "David's flight" .
+nl:id_35013ef6c73a9ba8a99aaf7ece7ab34a1f1a07c1 ui:annotationField bible:ICBibleTheme .
+nl:id_35013ef6c73a9ba8a99aaf7ece7ab34a1f1a07c1 ui:typingTime 0 .
+nl:id_35013ef6c73a9ba8a99aaf7ece7ab34a1f1a07c1 oa:annotatedAt "2016-06-13T21:36:04+02:00"^^xsd:dateTime .
+nl:id_35013ef6c73a9ba8a99aaf7ece7ab34a1f1a07c1 oa:annotatedBy user:everhoeff .
+nl:id_35013ef6c73a9ba8a99aaf7ece7ab34a1f1a07c1 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "David's flight" ] .
+nl:id_35013ef6c73a9ba8a99aaf7ece7ab34a1f1a07c1 oa:hasTarget ubvu:print-218010002014 .
+nl:id_35013ef6c73a9ba8a99aaf7ece7ab34a1f1a07c1 oa:motivatedBy oa:tagging .
+
 nl:id_44e72a3cd0783e230eca2c29d7e0e6285d5dc6d4 a oa:Annotation .
 nl:id_44e72a3cd0783e230eca2c29d7e0e6285d5dc6d4 terms:title "Saul" .
 nl:id_44e72a3cd0783e230eca2c29d7e0e6285d5dc6d4 ui:annotationField bible:BibleCharacter .
