@@ -143,6 +143,16 @@ nl:id_a92110423e477997a761999b0f1fa10965a85cd6 oa:hasTarget target:target_97084c
 nl:id_a92110423e477997a761999b0f1fa10965a85cd6 oa:hasTarget ubvu:print-218010002014 .
 nl:id_a92110423e477997a761999b0f1fa10965a85cd6 oa:motivatedBy oa:tagging .
 
+nl:id_b22e822a1a427ebbd449a8569c9028fd9b6abe58 a oa:Annotation .
+nl:id_b22e822a1a427ebbd449a8569c9028fd9b6abe58 terms:title "Saul among the prophets" .
+nl:id_b22e822a1a427ebbd449a8569c9028fd9b6abe58 ui:annotationField bible:ICBibleTheme .
+nl:id_b22e822a1a427ebbd449a8569c9028fd9b6abe58 ui:typingTime 0 .
+nl:id_b22e822a1a427ebbd449a8569c9028fd9b6abe58 oa:annotatedAt "2016-06-13T21:38:36+02:00"^^xsd:dateTime .
+nl:id_b22e822a1a427ebbd449a8569c9028fd9b6abe58 oa:annotatedBy user:everhoeff .
+nl:id_b22e822a1a427ebbd449a8569c9028fd9b6abe58 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Saul among the prophets" ] .
+nl:id_b22e822a1a427ebbd449a8569c9028fd9b6abe58 oa:hasTarget ubvu:print-218010002014 .
+nl:id_b22e822a1a427ebbd449a8569c9028fd9b6abe58 oa:motivatedBy oa:tagging .
+
 nl:id_d90f165d03138c944dcea6143c4a1a3ca66831ea a oa:Annotation .
 nl:id_d90f165d03138c944dcea6143c4a1a3ca66831ea terms:title "Jonathan" .
 nl:id_d90f165d03138c944dcea6143c4a1a3ca66831ea ui:annotationField bible:BibleCharacter .
