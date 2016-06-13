@@ -55,6 +55,25 @@ nl:id_d8680d97419041d659d85c32bf98db197361d9f0 oa:hasTarget target:target_21c9f8
 nl:id_d8680d97419041d659d85c32bf98db197361d9f0 oa:hasTarget ubvu:print-218010001759 .
 nl:id_d8680d97419041d659d85c32bf98db197361d9f0 oa:motivatedBy oa:tagging .
 
+nl:id_e221d9e7cbab6be21578afe8b03471d5c5122b50 a oa:Annotation .
+nl:id_e221d9e7cbab6be21578afe8b03471d5c5122b50 terms:title "paralysed man" .
+nl:id_e221d9e7cbab6be21578afe8b03471d5c5122b50 ui:annotationField bible:BibleCharacter .
+nl:id_e221d9e7cbab6be21578afe8b03471d5c5122b50 ui:typingTime 0 .
+nl:id_e221d9e7cbab6be21578afe8b03471d5c5122b50 oa:annotatedAt "2016-06-13T21:09:59+02:00"^^xsd:dateTime .
+nl:id_e221d9e7cbab6be21578afe8b03471d5c5122b50 oa:annotatedBy user:everhoeff .
+nl:id_e221d9e7cbab6be21578afe8b03471d5c5122b50 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "paralysed man" ] .
+nl:id_e221d9e7cbab6be21578afe8b03471d5c5122b50 oa:hasTarget target:target_1e35e86a5cb95680674660082752700e8e0eedbe .
+nl:id_e221d9e7cbab6be21578afe8b03471d5c5122b50 oa:hasTarget ubvu:print-218010001759 .
+nl:id_e221d9e7cbab6be21578afe8b03471d5c5122b50 oa:motivatedBy oa:tagging .
+
+target:selector_1e35e86a5cb95680674660082752700e8e0eedbe a oa:FragmentSelector .
+target:selector_1e35e86a5cb95680674660082752700e8e0eedbe terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_1e35e86a5cb95680674660082752700e8e0eedbe ui:h "0.16530054644808742"^^xsd:float .
+target:selector_1e35e86a5cb95680674660082752700e8e0eedbe ui:w "0.25257731958762886"^^xsd:float .
+target:selector_1e35e86a5cb95680674660082752700e8e0eedbe ui:x "0.20412371134020618"^^xsd:float .
+target:selector_1e35e86a5cb95680674660082752700e8e0eedbe ui:y "0.4651639344262295"^^xsd:float .
+target:selector_1e35e86a5cb95680674660082752700e8e0eedbe rdf:value "#xywh=percent:20,47,25,17" .
+
 target:selector_21c9f8402e44ec35965a7685941a7a88b23457e6 a oa:FragmentSelector .
 target:selector_21c9f8402e44ec35965a7685941a7a88b23457e6 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_21c9f8402e44ec35965a7685941a7a88b23457e6 ui:h "0.2659010600706714"^^xsd:float .
@@ -70,6 +89,10 @@ target:selector_9f27f3d9e1d83c8f0232d249351832deb587908d ui:w "0.192"^^xsd:float
 target:selector_9f27f3d9e1d83c8f0232d249351832deb587908d ui:x "0.18666666666666668"^^xsd:float .
 target:selector_9f27f3d9e1d83c8f0232d249351832deb587908d ui:y "0.46113074204946997"^^xsd:float .
 target:selector_9f27f3d9e1d83c8f0232d249351832deb587908d rdf:value "#xywh=percent:19,46,19,14" .
+
+target:target_1e35e86a5cb95680674660082752700e8e0eedbe a oa:SpecificResource .
+target:target_1e35e86a5cb95680674660082752700e8e0eedbe oa:hasSelector target:selector_1e35e86a5cb95680674660082752700e8e0eedbe .
+target:target_1e35e86a5cb95680674660082752700e8e0eedbe oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/798> .
 
 target:target_21c9f8402e44ec35965a7685941a7a88b23457e6 a oa:SpecificResource .
 target:target_21c9f8402e44ec35965a7685941a7a88b23457e6 oa:hasSelector target:selector_21c9f8402e44ec35965a7685941a7a88b23457e6 .
