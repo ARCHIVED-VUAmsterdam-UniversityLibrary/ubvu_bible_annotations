@@ -97,6 +97,16 @@ nl:id_607c258bfeda56e9bdc09e67faf5a27a5d7b9a4f oa:hasBody [ a content:ContentAsT
 nl:id_607c258bfeda56e9bdc09e67faf5a27a5d7b9a4f oa:hasTarget ubvu:print-218010002014 .
 nl:id_607c258bfeda56e9bdc09e67faf5a27a5d7b9a4f oa:motivatedBy oa:tagging .
 
+nl:id_677d9291fa366fa040eb5ca9b5419ceb71d73088 a oa:Annotation .
+nl:id_677d9291fa366fa040eb5ca9b5419ceb71d73088 terms:title "David and the priest and the hallowed bread" .
+nl:id_677d9291fa366fa040eb5ca9b5419ceb71d73088 ui:annotationField bible:ICBibleTheme .
+nl:id_677d9291fa366fa040eb5ca9b5419ceb71d73088 ui:typingTime 0 .
+nl:id_677d9291fa366fa040eb5ca9b5419ceb71d73088 oa:annotatedAt "2016-06-13T21:43:11+02:00"^^xsd:dateTime .
+nl:id_677d9291fa366fa040eb5ca9b5419ceb71d73088 oa:annotatedBy user:everhoeff .
+nl:id_677d9291fa366fa040eb5ca9b5419ceb71d73088 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "David and the priest and the hallowed bread" ] .
+nl:id_677d9291fa366fa040eb5ca9b5419ceb71d73088 oa:hasTarget ubvu:print-218010002014 .
+nl:id_677d9291fa366fa040eb5ca9b5419ceb71d73088 oa:motivatedBy oa:tagging .
+
 nl:id_67b2c2aa823bf8ef21243aa22c62318625639489 a oa:Annotation .
 nl:id_67b2c2aa823bf8ef21243aa22c62318625639489 terms:title "Jonathan" .
 nl:id_67b2c2aa823bf8ef21243aa22c62318625639489 ui:annotationField bible:BibleCharacter .
