@@ -121,6 +121,16 @@ nl:id_a954f0d4d1c11b52c6e10ef2e571c0c0ef7e2f3c oa:hasTarget target:target_a3c313
 nl:id_a954f0d4d1c11b52c6e10ef2e571c0c0ef7e2f3c oa:hasTarget ubvu:print-218010002037 .
 nl:id_a954f0d4d1c11b52c6e10ef2e571c0c0ef7e2f3c oa:motivatedBy oa:tagging .
 
+nl:id_bac1071e864f663ee2455e3a64155261f3f4e5d7 a oa:Annotation .
+nl:id_bac1071e864f663ee2455e3a64155261f3f4e5d7 terms:title "Jezus gestorven, opgestaan en ten hemel gevaren." .
+nl:id_bac1071e864f663ee2455e3a64155261f3f4e5d7 ui:annotationField bible:ICBibleTheme .
+nl:id_bac1071e864f663ee2455e3a64155261f3f4e5d7 ui:typingTime 0 .
+nl:id_bac1071e864f663ee2455e3a64155261f3f4e5d7 oa:annotatedAt "2016-06-13T21:39:24+02:00"^^xsd:dateTime .
+nl:id_bac1071e864f663ee2455e3a64155261f3f4e5d7 oa:annotatedBy user:paulinevandijk .
+nl:id_bac1071e864f663ee2455e3a64155261f3f4e5d7 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jezus gestorven, opgestaan en ten hemel gevaren." ] .
+nl:id_bac1071e864f663ee2455e3a64155261f3f4e5d7 oa:hasTarget ubvu:print-218010002037 .
+nl:id_bac1071e864f663ee2455e3a64155261f3f4e5d7 oa:motivatedBy oa:tagging .
+
 nl:id_c306c02fd9973bc6d99fb86930a2f201ff427af7 a oa:Annotation .
 nl:id_c306c02fd9973bc6d99fb86930a2f201ff427af7 terms:title "Jezus Christus" .
 nl:id_c306c02fd9973bc6d99fb86930a2f201ff427af7 ui:annotationField bible:BibleCharacter .
