@@ -86,6 +86,17 @@ nl:id_517be981ce9eee1fc3fcefdf1b83705e6d6cea87 oa:hasBody [ a content:ContentAsT
 nl:id_517be981ce9eee1fc3fcefdf1b83705e6d6cea87 oa:hasTarget ubvu:print-218010002015 .
 nl:id_517be981ce9eee1fc3fcefdf1b83705e6d6cea87 oa:motivatedBy oa:tagging .
 
+nl:id_54d7aac0a45bd226bb38c4f24c5c93f030f40b8b a oa:Annotation .
+nl:id_54d7aac0a45bd226bb38c4f24c5c93f030f40b8b terms:title "David" .
+nl:id_54d7aac0a45bd226bb38c4f24c5c93f030f40b8b ui:annotationField bible:BibleCharacter .
+nl:id_54d7aac0a45bd226bb38c4f24c5c93f030f40b8b ui:typingTime 0 .
+nl:id_54d7aac0a45bd226bb38c4f24c5c93f030f40b8b oa:annotatedAt "2016-06-13T21:16:30+02:00"^^xsd:dateTime .
+nl:id_54d7aac0a45bd226bb38c4f24c5c93f030f40b8b oa:annotatedBy user:paulinevandijk .
+nl:id_54d7aac0a45bd226bb38c4f24c5c93f030f40b8b oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "David" ] .
+nl:id_54d7aac0a45bd226bb38c4f24c5c93f030f40b8b oa:hasTarget target:target_b960788a44b695dda854b41e119f77c5a57bc264 .
+nl:id_54d7aac0a45bd226bb38c4f24c5c93f030f40b8b oa:hasTarget ubvu:print-218010002015 .
+nl:id_54d7aac0a45bd226bb38c4f24c5c93f030f40b8b oa:motivatedBy oa:tagging .
+
 nl:id_7a72a35d39e90d65dac000b3ff559fcb6b61dc25 a oa:Annotation .
 nl:id_7a72a35d39e90d65dac000b3ff559fcb6b61dc25 terms:title "the woman at En- dor that hath a familiar spirit- Sam 28: 12" .
 nl:id_7a72a35d39e90d65dac000b3ff559fcb6b61dc25 ui:annotationField bible:ICBibleTheme .
@@ -181,6 +192,14 @@ target:selector_a03f2ef644c070d80d2f79b8cf8c255e1fe84249 ui:x "0.535051546391752
 target:selector_a03f2ef644c070d80d2f79b8cf8c255e1fe84249 ui:y "0.13670133729569092"^^xsd:float .
 target:selector_a03f2ef644c070d80d2f79b8cf8c255e1fe84249 rdf:value "#xywh=percent:54,14,2,2" .
 
+target:selector_b960788a44b695dda854b41e119f77c5a57bc264 a oa:FragmentSelector .
+target:selector_b960788a44b695dda854b41e119f77c5a57bc264 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_b960788a44b695dda854b41e119f77c5a57bc264 ui:h "0.08543833580980684"^^xsd:float .
+target:selector_b960788a44b695dda854b41e119f77c5a57bc264 ui:w "0.07525773195876288"^^xsd:float .
+target:selector_b960788a44b695dda854b41e119f77c5a57bc264 ui:x "0.20515463917525772"^^xsd:float .
+target:selector_b960788a44b695dda854b41e119f77c5a57bc264 ui:y "0.49554234769687966"^^xsd:float .
+target:selector_b960788a44b695dda854b41e119f77c5a57bc264 rdf:value "#xywh=percent:21,50,8,9" .
+
 target:selector_e28c2e528502da1b22c1b544ffcec946409cd23f a oa:FragmentSelector .
 target:selector_e28c2e528502da1b22c1b544ffcec946409cd23f terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_e28c2e528502da1b22c1b544ffcec946409cd23f ui:h "0.1515601783060921"^^xsd:float .
@@ -212,6 +231,10 @@ target:target_8f20a6dd2263cd7f31e577943b428f169c719644 oa:hasSource <http://imag
 target:target_a03f2ef644c070d80d2f79b8cf8c255e1fe84249 a oa:SpecificResource .
 target:target_a03f2ef644c070d80d2f79b8cf8c255e1fe84249 oa:hasSelector target:selector_a03f2ef644c070d80d2f79b8cf8c255e1fe84249 .
 target:target_a03f2ef644c070d80d2f79b8cf8c255e1fe84249 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/14> .
+
+target:target_b960788a44b695dda854b41e119f77c5a57bc264 a oa:SpecificResource .
+target:target_b960788a44b695dda854b41e119f77c5a57bc264 oa:hasSelector target:selector_b960788a44b695dda854b41e119f77c5a57bc264 .
+target:target_b960788a44b695dda854b41e119f77c5a57bc264 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/14> .
 
 target:target_e28c2e528502da1b22c1b544ffcec946409cd23f a oa:SpecificResource .
 target:target_e28c2e528502da1b22c1b544ffcec946409cd23f oa:hasSelector target:selector_e28c2e528502da1b22c1b544ffcec946409cd23f .
