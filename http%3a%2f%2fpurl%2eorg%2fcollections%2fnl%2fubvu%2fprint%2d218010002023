@@ -117,6 +117,16 @@ nl:id_bfcb1b20e17d2269deb400a5e0ba601a8dce229d oa:hasTarget target:target_9d2b91
 nl:id_bfcb1b20e17d2269deb400a5e0ba601a8dce229d oa:hasTarget ubvu:print-218010002023 .
 nl:id_bfcb1b20e17d2269deb400a5e0ba601a8dce229d oa:motivatedBy oa:tagging .
 
+nl:id_c6518e5559e061ea494eef799b3487db0abf7c9f a oa:Annotation .
+nl:id_c6518e5559e061ea494eef799b3487db0abf7c9f terms:title "Mordecai on a horseback" .
+nl:id_c6518e5559e061ea494eef799b3487db0abf7c9f ui:annotationField bible:ICBibleTheme .
+nl:id_c6518e5559e061ea494eef799b3487db0abf7c9f ui:typingTime 0 .
+nl:id_c6518e5559e061ea494eef799b3487db0abf7c9f oa:annotatedAt "2016-06-13T21:31:09+02:00"^^xsd:dateTime .
+nl:id_c6518e5559e061ea494eef799b3487db0abf7c9f oa:annotatedBy user:everhoeff .
+nl:id_c6518e5559e061ea494eef799b3487db0abf7c9f oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Mordecai on a horseback" ] .
+nl:id_c6518e5559e061ea494eef799b3487db0abf7c9f oa:hasTarget ubvu:print-218010002023 .
+nl:id_c6518e5559e061ea494eef799b3487db0abf7c9f oa:motivatedBy oa:tagging .
+
 nl:id_ccf704b904fe06ec7a542b987ac979fafb1e1115 a oa:Annotation .
 nl:id_ccf704b904fe06ec7a542b987ac979fafb1e1115 terms:title "Ahasuerus has the most attractive maidens of his kingdom put into his harem in order to select a new queen from among them ~ story of Esther" .
 nl:id_ccf704b904fe06ec7a542b987ac979fafb1e1115 ui:annotationField bible:ICBibleTheme .
