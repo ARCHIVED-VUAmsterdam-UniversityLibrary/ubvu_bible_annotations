@@ -76,6 +76,16 @@ nl:id_5114740becae5ab17c49a0754bf722781b091a7a oa:hasTarget target:target_a00003
 nl:id_5114740becae5ab17c49a0754bf722781b091a7a oa:hasTarget ubvu:print-218010002023 .
 nl:id_5114740becae5ab17c49a0754bf722781b091a7a oa:motivatedBy oa:tagging .
 
+nl:id_764af5316865f65b478e6956ae34d7396be88ba4 a oa:Annotation .
+nl:id_764af5316865f65b478e6956ae34d7396be88ba4 terms:title "Esther crowned by Ahasuerus" .
+nl:id_764af5316865f65b478e6956ae34d7396be88ba4 ui:annotationField bible:ICBibleTheme .
+nl:id_764af5316865f65b478e6956ae34d7396be88ba4 ui:typingTime 0 .
+nl:id_764af5316865f65b478e6956ae34d7396be88ba4 oa:annotatedAt "2016-06-13T21:30:21+02:00"^^xsd:dateTime .
+nl:id_764af5316865f65b478e6956ae34d7396be88ba4 oa:annotatedBy user:everhoeff .
+nl:id_764af5316865f65b478e6956ae34d7396be88ba4 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Esther crowned by Ahasuerus" ] .
+nl:id_764af5316865f65b478e6956ae34d7396be88ba4 oa:hasTarget ubvu:print-218010002023 .
+nl:id_764af5316865f65b478e6956ae34d7396be88ba4 oa:motivatedBy oa:tagging .
+
 nl:id_787ede9c993887518263a200155f1303c047cabf a oa:Annotation .
 nl:id_787ede9c993887518263a200155f1303c047cabf terms:title "Mordecai rends his clothes, covers himself with sackcloth and ashes, walks through the city wailing bitterly, and stops before the palace entrance" .
 nl:id_787ede9c993887518263a200155f1303c047cabf ui:annotationField bible:ICBibleTheme .
