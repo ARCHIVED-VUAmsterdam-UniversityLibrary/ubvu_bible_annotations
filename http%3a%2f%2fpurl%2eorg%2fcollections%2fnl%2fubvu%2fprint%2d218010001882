@@ -11,6 +11,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_19bcb07bab3d11050bb3483e5a44c512cb1f1d6d a oa:Annotation .
+nl:id_19bcb07bab3d11050bb3483e5a44c512cb1f1d6d terms:title "-" .
+nl:id_19bcb07bab3d11050bb3483e5a44c512cb1f1d6d ui:annotationField bible:ICBibleTheme .
+nl:id_19bcb07bab3d11050bb3483e5a44c512cb1f1d6d ui:typingTime 0 .
+nl:id_19bcb07bab3d11050bb3483e5a44c512cb1f1d6d oa:annotatedAt "2016-06-13T21:48:06+02:00"^^xsd:dateTime .
+nl:id_19bcb07bab3d11050bb3483e5a44c512cb1f1d6d oa:annotatedBy user:everhoeff .
+nl:id_19bcb07bab3d11050bb3483e5a44c512cb1f1d6d oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "-" ] .
+nl:id_19bcb07bab3d11050bb3483e5a44c512cb1f1d6d oa:hasTarget ubvu:print-218010001882 .
+nl:id_19bcb07bab3d11050bb3483e5a44c512cb1f1d6d oa:motivatedBy oa:tagging .
+
 nl:id_335f97a60da387a075d4f70d9a34a5c8fff65b39 a oa:Annotation .
 nl:id_335f97a60da387a075d4f70d9a34a5c8fff65b39 terms:title "Engelen" .
 nl:id_335f97a60da387a075d4f70d9a34a5c8fff65b39 ui:annotationField bible:BibleCharacter .
