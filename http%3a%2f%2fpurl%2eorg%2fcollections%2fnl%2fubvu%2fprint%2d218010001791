@@ -1,17 +1,45 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_02697fe29ef3b35a5e10e2946ac5737bb3a2e5d3> a oa:Annotation .
-<http://accurator.nl/id_02697fe29ef3b35a5e10e2946ac5737bb3a2e5d3> terms:title "the good Samaritan (Luke 10:30-37)" .
-<http://accurator.nl/id_02697fe29ef3b35a5e10e2946ac5737bb3a2e5d3> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
-<http://accurator.nl/id_02697fe29ef3b35a5e10e2946ac5737bb3a2e5d3> ui:typingTime 0 .
-<http://accurator.nl/id_02697fe29ef3b35a5e10e2946ac5737bb3a2e5d3> oa:annotatedAt "2016-05-05T12:44:33+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_02697fe29ef3b35a5e10e2946ac5737bb3a2e5d3> oa:annotatedBy user:everhoeff .
-<http://accurator.nl/id_02697fe29ef3b35a5e10e2946ac5737bb3a2e5d3> oa:hasBody <http://iconclass.org/73C861> .
-<http://accurator.nl/id_02697fe29ef3b35a5e10e2946ac5737bb3a2e5d3> oa:hasTarget ubvu:print-218010001791 .
-<http://accurator.nl/id_02697fe29ef3b35a5e10e2946ac5737bb3a2e5d3> oa:motivatedBy oa:tagging .
+nl:id_02697fe29ef3b35a5e10e2946ac5737bb3a2e5d3 a oa:Annotation .
+nl:id_02697fe29ef3b35a5e10e2946ac5737bb3a2e5d3 terms:title "the good Samaritan (Luke 10:30-37)" .
+nl:id_02697fe29ef3b35a5e10e2946ac5737bb3a2e5d3 ui:annotationField bible:ICBibleTheme .
+nl:id_02697fe29ef3b35a5e10e2946ac5737bb3a2e5d3 ui:typingTime 0 .
+nl:id_02697fe29ef3b35a5e10e2946ac5737bb3a2e5d3 oa:annotatedAt "2016-05-05T12:44:33+02:00"^^xsd:dateTime .
+nl:id_02697fe29ef3b35a5e10e2946ac5737bb3a2e5d3 oa:annotatedBy user:everhoeff .
+nl:id_02697fe29ef3b35a5e10e2946ac5737bb3a2e5d3 oa:hasBody <http://iconclass.org/73C861> .
+nl:id_02697fe29ef3b35a5e10e2946ac5737bb3a2e5d3 oa:hasTarget ubvu:print-218010001791 .
+nl:id_02697fe29ef3b35a5e10e2946ac5737bb3a2e5d3 oa:motivatedBy oa:tagging .
+
+nl:id_942f7e61b4b00c8524939b3e0073af09911766f6 a oa:Annotation .
+nl:id_942f7e61b4b00c8524939b3e0073af09911766f6 terms:title "Samaritaan" .
+nl:id_942f7e61b4b00c8524939b3e0073af09911766f6 ui:annotationField bible:BibleCharacter .
+nl:id_942f7e61b4b00c8524939b3e0073af09911766f6 ui:typingTime 0 .
+nl:id_942f7e61b4b00c8524939b3e0073af09911766f6 oa:annotatedAt "2016-06-13T21:40:51+02:00"^^xsd:dateTime .
+nl:id_942f7e61b4b00c8524939b3e0073af09911766f6 oa:annotatedBy user:paulinevandijk .
+nl:id_942f7e61b4b00c8524939b3e0073af09911766f6 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Samaritaan" ] .
+nl:id_942f7e61b4b00c8524939b3e0073af09911766f6 oa:hasTarget target:target_52d168a861f1b506478a51c62ebaed89c5b58ae4 .
+nl:id_942f7e61b4b00c8524939b3e0073af09911766f6 oa:hasTarget ubvu:print-218010001791 .
+nl:id_942f7e61b4b00c8524939b3e0073af09911766f6 oa:motivatedBy oa:tagging .
+
+target:selector_52d168a861f1b506478a51c62ebaed89c5b58ae4 a oa:FragmentSelector .
+target:selector_52d168a861f1b506478a51c62ebaed89c5b58ae4 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_52d168a861f1b506478a51c62ebaed89c5b58ae4 ui:h "0.1634023503077784"^^xsd:float .
+target:selector_52d168a861f1b506478a51c62ebaed89c5b58ae4 ui:w "0.32222222222222224"^^xsd:float .
+target:selector_52d168a861f1b506478a51c62ebaed89c5b58ae4 ui:x "0.4461538461538462"^^xsd:float .
+target:selector_52d168a861f1b506478a51c62ebaed89c5b58ae4 ui:y "0.5170677112479015"^^xsd:float .
+target:selector_52d168a861f1b506478a51c62ebaed89c5b58ae4 rdf:value "#xywh=percent:45,52,32,16" .
+
+target:target_52d168a861f1b506478a51c62ebaed89c5b58ae4 a oa:SpecificResource .
+target:target_52d168a861f1b506478a51c62ebaed89c5b58ae4 oa:hasSelector target:selector_52d168a861f1b506478a51c62ebaed89c5b58ae4 .
+target:target_52d168a861f1b506478a51c62ebaed89c5b58ae4 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/830> .
