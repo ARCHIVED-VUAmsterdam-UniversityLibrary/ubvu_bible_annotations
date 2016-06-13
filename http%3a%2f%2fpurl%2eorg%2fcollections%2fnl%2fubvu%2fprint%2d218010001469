@@ -29,3 +29,13 @@ nl:id_10804b0018b9fc4e7f0c240f434dae23f2f462da oa:annotatedBy user:joan .
 nl:id_10804b0018b9fc4e7f0c240f434dae23f2f462da oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "David shows Saul the skirt of his robe" ] .
 nl:id_10804b0018b9fc4e7f0c240f434dae23f2f462da oa:hasTarget ubvu:print-218010001469 .
 nl:id_10804b0018b9fc4e7f0c240f434dae23f2f462da oa:motivatedBy oa:tagging .
+
+nl:id_9783bea3890f74bf93ab367256753f540d647bfa a oa:Annotation .
+nl:id_9783bea3890f74bf93ab367256753f540d647bfa terms:title "David shewed Saul the skirt of his robe" .
+nl:id_9783bea3890f74bf93ab367256753f540d647bfa ui:annotationField bible:ICBibleTheme .
+nl:id_9783bea3890f74bf93ab367256753f540d647bfa ui:typingTime 0 .
+nl:id_9783bea3890f74bf93ab367256753f540d647bfa oa:annotatedAt "2016-06-13T21:10:47+02:00"^^xsd:dateTime .
+nl:id_9783bea3890f74bf93ab367256753f540d647bfa oa:annotatedBy user:everhoeff .
+nl:id_9783bea3890f74bf93ab367256753f540d647bfa oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "David shewed Saul the skirt of his robe" ] .
+nl:id_9783bea3890f74bf93ab367256753f540d647bfa oa:hasTarget ubvu:print-218010001469 .
+nl:id_9783bea3890f74bf93ab367256753f540d647bfa oa:motivatedBy oa:tagging .
