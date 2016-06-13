@@ -95,6 +95,17 @@ nl:id_7d2e37576b02580ec8be6c371661a1410c27b0bb oa:hasBody [ a content:ContentAsT
 nl:id_7d2e37576b02580ec8be6c371661a1410c27b0bb oa:hasTarget ubvu:print-218010002015 .
 nl:id_7d2e37576b02580ec8be6c371661a1410c27b0bb oa:motivatedBy oa:tagging .
 
+nl:id_9e1bee243e2d82605bed71a4ff73183b0955818d a oa:Annotation .
+nl:id_9e1bee243e2d82605bed71a4ff73183b0955818d terms:title "Samuel" .
+nl:id_9e1bee243e2d82605bed71a4ff73183b0955818d ui:annotationField bible:BibleCharacter .
+nl:id_9e1bee243e2d82605bed71a4ff73183b0955818d ui:typingTime 0 .
+nl:id_9e1bee243e2d82605bed71a4ff73183b0955818d oa:annotatedAt "2016-06-13T21:14:04+02:00"^^xsd:dateTime .
+nl:id_9e1bee243e2d82605bed71a4ff73183b0955818d oa:annotatedBy user:paulinevandijk .
+nl:id_9e1bee243e2d82605bed71a4ff73183b0955818d oa:hasBody resource:Samuel .
+nl:id_9e1bee243e2d82605bed71a4ff73183b0955818d oa:hasTarget target:target_8f20a6dd2263cd7f31e577943b428f169c719644 .
+nl:id_9e1bee243e2d82605bed71a4ff73183b0955818d oa:hasTarget ubvu:print-218010002015 .
+nl:id_9e1bee243e2d82605bed71a4ff73183b0955818d oa:motivatedBy oa:tagging .
+
 nl:id_d9531dca4f61a185c1f29fa4860efdf0a7380add a oa:Annotation .
 nl:id_d9531dca4f61a185c1f29fa4860efdf0a7380add terms:title "Hanun, king of the Ammonites, mistreats David's messengers: their beards are shaven off and their clothes are cut off" .
 nl:id_d9531dca4f61a185c1f29fa4860efdf0a7380add ui:annotationField bible:ICBibleTheme .
@@ -113,6 +124,14 @@ target:selector_1100bcedf1f110219dcb21b3d6e058aff64c6d22 ui:x "0.562886597938144
 target:selector_1100bcedf1f110219dcb21b3d6e058aff64c6d22 ui:y "0.31723625557206536"^^xsd:float .
 target:selector_1100bcedf1f110219dcb21b3d6e058aff64c6d22 rdf:value "#xywh=percent:56,32,5,9" .
 
+target:selector_8f20a6dd2263cd7f31e577943b428f169c719644 a oa:FragmentSelector .
+target:selector_8f20a6dd2263cd7f31e577943b428f169c719644 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_8f20a6dd2263cd7f31e577943b428f169c719644 ui:h "0.1723625557206538"^^xsd:float .
+target:selector_8f20a6dd2263cd7f31e577943b428f169c719644 ui:w "0.10515463917525773"^^xsd:float .
+target:selector_8f20a6dd2263cd7f31e577943b428f169c719644 ui:x "0.4402061855670103"^^xsd:float .
+target:selector_8f20a6dd2263cd7f31e577943b428f169c719644 ui:y "0.17979197622585438"^^xsd:float .
+target:selector_8f20a6dd2263cd7f31e577943b428f169c719644 rdf:value "#xywh=percent:44,18,11,17" .
+
 target:selector_a03f2ef644c070d80d2f79b8cf8c255e1fe84249 a oa:FragmentSelector .
 target:selector_a03f2ef644c070d80d2f79b8cf8c255e1fe84249 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_a03f2ef644c070d80d2f79b8cf8c255e1fe84249 ui:h "0.019316493313521546"^^xsd:float .
@@ -124,6 +143,10 @@ target:selector_a03f2ef644c070d80d2f79b8cf8c255e1fe84249 rdf:value "#xywh=percen
 target:target_1100bcedf1f110219dcb21b3d6e058aff64c6d22 a oa:SpecificResource .
 target:target_1100bcedf1f110219dcb21b3d6e058aff64c6d22 oa:hasSelector target:selector_1100bcedf1f110219dcb21b3d6e058aff64c6d22 .
 target:target_1100bcedf1f110219dcb21b3d6e058aff64c6d22 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/14> .
+
+target:target_8f20a6dd2263cd7f31e577943b428f169c719644 a oa:SpecificResource .
+target:target_8f20a6dd2263cd7f31e577943b428f169c719644 oa:hasSelector target:selector_8f20a6dd2263cd7f31e577943b428f169c719644 .
+target:target_8f20a6dd2263cd7f31e577943b428f169c719644 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/14> .
 
 target:target_a03f2ef644c070d80d2f79b8cf8c255e1fe84249 a oa:SpecificResource .
 target:target_a03f2ef644c070d80d2f79b8cf8c255e1fe84249 oa:hasSelector target:selector_a03f2ef644c070d80d2f79b8cf8c255e1fe84249 .
