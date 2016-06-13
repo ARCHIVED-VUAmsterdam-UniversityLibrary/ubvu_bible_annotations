@@ -22,6 +22,16 @@ nl:id_3b038b99a35ef79765cb8f2cdcb94541a8c0c601 oa:hasTarget target:target_c54d1c
 nl:id_3b038b99a35ef79765cb8f2cdcb94541a8c0c601 oa:hasTarget ubvu:print-218010001115 .
 nl:id_3b038b99a35ef79765cb8f2cdcb94541a8c0c601 oa:motivatedBy oa:tagging .
 
+nl:id_c2adbad2f476ccbf178f1ebef37d0bce36c5cfc6 a oa:Annotation .
+nl:id_c2adbad2f476ccbf178f1ebef37d0bce36c5cfc6 terms:title "Abraham is buried by Isaac and Ishmael in the cave of Machpelah" .
+nl:id_c2adbad2f476ccbf178f1ebef37d0bce36c5cfc6 ui:annotationField bible:ICBibleTheme .
+nl:id_c2adbad2f476ccbf178f1ebef37d0bce36c5cfc6 ui:typingTime 0 .
+nl:id_c2adbad2f476ccbf178f1ebef37d0bce36c5cfc6 oa:annotatedAt "2016-06-13T21:01:30+02:00"^^xsd:dateTime .
+nl:id_c2adbad2f476ccbf178f1ebef37d0bce36c5cfc6 oa:annotatedBy user:everhoeff .
+nl:id_c2adbad2f476ccbf178f1ebef37d0bce36c5cfc6 oa:hasBody <http://iconclass.org/71C2241> .
+nl:id_c2adbad2f476ccbf178f1ebef37d0bce36c5cfc6 oa:hasTarget ubvu:print-218010001115 .
+nl:id_c2adbad2f476ccbf178f1ebef37d0bce36c5cfc6 oa:motivatedBy oa:tagging .
+
 nl:id_f56b64b52d9a119cea3b7bfb9e3ca950303f6947 a oa:Annotation .
 nl:id_f56b64b52d9a119cea3b7bfb9e3ca950303f6947 terms:title "Isaac and Ismael bury Abraham" .
 nl:id_f56b64b52d9a119cea3b7bfb9e3ca950303f6947 ui:annotationField bible:ICBibleTheme .
