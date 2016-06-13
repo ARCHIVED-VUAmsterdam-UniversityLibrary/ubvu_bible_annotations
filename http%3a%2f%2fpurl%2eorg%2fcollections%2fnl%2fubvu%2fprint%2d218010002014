@@ -183,6 +183,16 @@ nl:id_b22e822a1a427ebbd449a8569c9028fd9b6abe58 oa:hasBody [ a content:ContentAsT
 nl:id_b22e822a1a427ebbd449a8569c9028fd9b6abe58 oa:hasTarget ubvu:print-218010002014 .
 nl:id_b22e822a1a427ebbd449a8569c9028fd9b6abe58 oa:motivatedBy oa:tagging .
 
+nl:id_cd30acac745d336db80dbaa118dbd3f47a8f59cc a oa:Annotation .
+nl:id_cd30acac745d336db80dbaa118dbd3f47a8f59cc terms:title "Abjathar and David " .
+nl:id_cd30acac745d336db80dbaa118dbd3f47a8f59cc ui:annotationField bible:ICBibleTheme .
+nl:id_cd30acac745d336db80dbaa118dbd3f47a8f59cc ui:typingTime 0 .
+nl:id_cd30acac745d336db80dbaa118dbd3f47a8f59cc oa:annotatedAt "2016-06-13T21:43:35+02:00"^^xsd:dateTime .
+nl:id_cd30acac745d336db80dbaa118dbd3f47a8f59cc oa:annotatedBy user:everhoeff .
+nl:id_cd30acac745d336db80dbaa118dbd3f47a8f59cc oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Abjathar and David " ] .
+nl:id_cd30acac745d336db80dbaa118dbd3f47a8f59cc oa:hasTarget ubvu:print-218010002014 .
+nl:id_cd30acac745d336db80dbaa118dbd3f47a8f59cc oa:motivatedBy oa:tagging .
+
 nl:id_d90f165d03138c944dcea6143c4a1a3ca66831ea a oa:Annotation .
 nl:id_d90f165d03138c944dcea6143c4a1a3ca66831ea terms:title "Jonathan" .
 nl:id_d90f165d03138c944dcea6143c4a1a3ca66831ea ui:annotationField bible:BibleCharacter .
