@@ -6,9 +6,22 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
+
+nl:id_0895e770ad21f74c78e1a96fac72793551db190d a oa:Annotation .
+nl:id_0895e770ad21f74c78e1a96fac72793551db190d terms:title "Saul" .
+nl:id_0895e770ad21f74c78e1a96fac72793551db190d ui:annotationField bible:BibleCharacter .
+nl:id_0895e770ad21f74c78e1a96fac72793551db190d ui:typingTime 0 .
+nl:id_0895e770ad21f74c78e1a96fac72793551db190d oa:annotatedAt "2016-06-13T21:11:23+02:00"^^xsd:dateTime .
+nl:id_0895e770ad21f74c78e1a96fac72793551db190d oa:annotatedBy user:paulinevandijk .
+nl:id_0895e770ad21f74c78e1a96fac72793551db190d oa:hasBody resource:Saul .
+nl:id_0895e770ad21f74c78e1a96fac72793551db190d oa:hasTarget target:target_a03f2ef644c070d80d2f79b8cf8c255e1fe84249 .
+nl:id_0895e770ad21f74c78e1a96fac72793551db190d oa:hasTarget ubvu:print-218010002015 .
+nl:id_0895e770ad21f74c78e1a96fac72793551db190d oa:motivatedBy oa:tagging .
 
 nl:id_0a42426278b517ccc91fcbe9bb8389bf8741d2b2 a oa:Annotation .
 nl:id_0a42426278b517ccc91fcbe9bb8389bf8741d2b2 terms:title "Israel fled before the Philistines and slain  in mount Gilboa" .
@@ -79,3 +92,15 @@ nl:id_d9531dca4f61a185c1f29fa4860efdf0a7380add oa:annotatedBy user:everhoeff .
 nl:id_d9531dca4f61a185c1f29fa4860efdf0a7380add oa:hasBody <http://iconclass.org/71H5251> .
 nl:id_d9531dca4f61a185c1f29fa4860efdf0a7380add oa:hasTarget ubvu:print-218010002015 .
 nl:id_d9531dca4f61a185c1f29fa4860efdf0a7380add oa:motivatedBy oa:tagging .
+
+target:selector_a03f2ef644c070d80d2f79b8cf8c255e1fe84249 a oa:FragmentSelector .
+target:selector_a03f2ef644c070d80d2f79b8cf8c255e1fe84249 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_a03f2ef644c070d80d2f79b8cf8c255e1fe84249 ui:h "0.019316493313521546"^^xsd:float .
+target:selector_a03f2ef644c070d80d2f79b8cf8c255e1fe84249 ui:w "0.018556701030927835"^^xsd:float .
+target:selector_a03f2ef644c070d80d2f79b8cf8c255e1fe84249 ui:x "0.5350515463917526"^^xsd:float .
+target:selector_a03f2ef644c070d80d2f79b8cf8c255e1fe84249 ui:y "0.13670133729569092"^^xsd:float .
+target:selector_a03f2ef644c070d80d2f79b8cf8c255e1fe84249 rdf:value "#xywh=percent:54,14,2,2" .
+
+target:target_a03f2ef644c070d80d2f79b8cf8c255e1fe84249 a oa:SpecificResource .
+target:target_a03f2ef644c070d80d2f79b8cf8c255e1fe84249 oa:hasSelector target:selector_a03f2ef644c070d80d2f79b8cf8c255e1fe84249 .
+target:target_a03f2ef644c070d80d2f79b8cf8c255e1fe84249 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/14> .
