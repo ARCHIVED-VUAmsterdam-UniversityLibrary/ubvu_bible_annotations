@@ -24,6 +24,16 @@ nl:id_1b0bf3311c678c820fa25d0609febc182d473f50 oa:hasTarget target:target_f1be75
 nl:id_1b0bf3311c678c820fa25d0609febc182d473f50 oa:hasTarget ubvu:print-218010001727 .
 nl:id_1b0bf3311c678c820fa25d0609febc182d473f50 oa:motivatedBy oa:tagging .
 
+nl:id_4536b0d0f9eaccf8e55ec88365fa830ca0e422fc a oa:Annotation .
+nl:id_4536b0d0f9eaccf8e55ec88365fa830ca0e422fc terms:title "De grote visvangst." .
+nl:id_4536b0d0f9eaccf8e55ec88365fa830ca0e422fc ui:annotationField bible:ICBibleTheme .
+nl:id_4536b0d0f9eaccf8e55ec88365fa830ca0e422fc ui:typingTime 0 .
+nl:id_4536b0d0f9eaccf8e55ec88365fa830ca0e422fc oa:annotatedAt "2016-06-13T21:08:11+02:00"^^xsd:dateTime .
+nl:id_4536b0d0f9eaccf8e55ec88365fa830ca0e422fc oa:annotatedBy user:paulinevandijk .
+nl:id_4536b0d0f9eaccf8e55ec88365fa830ca0e422fc oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "De grote visvangst." ] .
+nl:id_4536b0d0f9eaccf8e55ec88365fa830ca0e422fc oa:hasTarget ubvu:print-218010001727 .
+nl:id_4536b0d0f9eaccf8e55ec88365fa830ca0e422fc oa:motivatedBy oa:tagging .
+
 nl:id_4f74d19fdd44d818d05b13c3082f68d696f5d436 a oa:Annotation .
 nl:id_4f74d19fdd44d818d05b13c3082f68d696f5d436 terms:title "vissers" .
 nl:id_4f74d19fdd44d818d05b13c3082f68d696f5d436 ui:annotationField bible:BibleCharacter .
