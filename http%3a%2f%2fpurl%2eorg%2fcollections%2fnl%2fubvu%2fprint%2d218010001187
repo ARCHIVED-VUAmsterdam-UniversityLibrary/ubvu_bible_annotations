@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -31,6 +32,17 @@ nl:id_20f87390c26af959f4c211ab733091aec8898ef6 oa:hasBody [ a content:ContentAsT
 nl:id_20f87390c26af959f4c211ab733091aec8898ef6 oa:hasTarget ubvu:print-218010001187 .
 nl:id_20f87390c26af959f4c211ab733091aec8898ef6 oa:motivatedBy oa:tagging .
 
+nl:id_468b75d92c5c0096abe93be5dd45537f86846f92 a oa:Annotation .
+nl:id_468b75d92c5c0096abe93be5dd45537f86846f92 terms:title "jacob (son of Isac)" .
+nl:id_468b75d92c5c0096abe93be5dd45537f86846f92 ui:annotationField bible:BibleCharacter .
+nl:id_468b75d92c5c0096abe93be5dd45537f86846f92 ui:typingTime 0 .
+nl:id_468b75d92c5c0096abe93be5dd45537f86846f92 oa:annotatedAt "2016-06-13T20:46:06+02:00"^^xsd:dateTime .
+nl:id_468b75d92c5c0096abe93be5dd45537f86846f92 oa:annotatedBy user:everhoeff .
+nl:id_468b75d92c5c0096abe93be5dd45537f86846f92 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "jacob (son of Isac)" ] .
+nl:id_468b75d92c5c0096abe93be5dd45537f86846f92 oa:hasTarget target:target_c35fed6ee08456d072798a4e641fea901ef73ab7 .
+nl:id_468b75d92c5c0096abe93be5dd45537f86846f92 oa:hasTarget ubvu:print-218010001187 .
+nl:id_468b75d92c5c0096abe93be5dd45537f86846f92 oa:motivatedBy oa:tagging .
+
 nl:id_5f49e47a547ac85478a5408dc8e3f582e6ba702a a oa:Annotation .
 nl:id_5f49e47a547ac85478a5408dc8e3f582e6ba702a terms:title "Jakob" .
 nl:id_5f49e47a547ac85478a5408dc8e3f582e6ba702a ui:annotationField bible:BibleCharacter .
@@ -60,6 +72,18 @@ target:selector_b42c156efb523ab2be8669f528a56b1e9d826d0c ui:x "0.040170940170940
 target:selector_b42c156efb523ab2be8669f528a56b1e9d826d0c ui:y "0.37797305928941494"^^xsd:float .
 target:selector_b42c156efb523ab2be8669f528a56b1e9d826d0c rdf:value "#xywh=percent:4,38,25,14" .
 
+target:selector_c35fed6ee08456d072798a4e641fea901ef73ab7 a oa:FragmentSelector .
+target:selector_c35fed6ee08456d072798a4e641fea901ef73ab7 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_c35fed6ee08456d072798a4e641fea901ef73ab7 ui:h "0.17526501766784452"^^xsd:float .
+target:selector_c35fed6ee08456d072798a4e641fea901ef73ab7 ui:w "0.1865979381443299"^^xsd:float .
+target:selector_c35fed6ee08456d072798a4e641fea901ef73ab7 ui:x "0.08041237113402062"^^xsd:float .
+target:selector_c35fed6ee08456d072798a4e641fea901ef73ab7 ui:y "0.3710247349823322"^^xsd:float .
+target:selector_c35fed6ee08456d072798a4e641fea901ef73ab7 rdf:value "#xywh=percent:8,37,19,18" .
+
 target:target_b42c156efb523ab2be8669f528a56b1e9d826d0c a oa:SpecificResource .
 target:target_b42c156efb523ab2be8669f528a56b1e9d826d0c oa:hasSelector target:selector_b42c156efb523ab2be8669f528a56b1e9d826d0c .
 target:target_b42c156efb523ab2be8669f528a56b1e9d826d0c oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/228> .
+
+target:target_c35fed6ee08456d072798a4e641fea901ef73ab7 a oa:SpecificResource .
+target:target_c35fed6ee08456d072798a4e641fea901ef73ab7 oa:hasSelector target:selector_c35fed6ee08456d072798a4e641fea901ef73ab7 .
+target:target_c35fed6ee08456d072798a4e641fea901ef73ab7 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/228> .
