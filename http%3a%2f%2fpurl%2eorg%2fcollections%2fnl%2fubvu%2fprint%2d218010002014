@@ -66,6 +66,16 @@ nl:id_44e72a3cd0783e230eca2c29d7e0e6285d5dc6d4 oa:hasTarget target:target_f760a1
 nl:id_44e72a3cd0783e230eca2c29d7e0e6285d5dc6d4 oa:hasTarget ubvu:print-218010002014 .
 nl:id_44e72a3cd0783e230eca2c29d7e0e6285d5dc6d4 oa:motivatedBy oa:tagging .
 
+nl:id_571dd3d2504d6a4d2cceb2465c7e16e751530a0d a oa:Annotation .
+nl:id_571dd3d2504d6a4d2cceb2465c7e16e751530a0d terms:title "murder of the priests" .
+nl:id_571dd3d2504d6a4d2cceb2465c7e16e751530a0d ui:annotationField bible:ICBibleTheme .
+nl:id_571dd3d2504d6a4d2cceb2465c7e16e751530a0d ui:typingTime 0 .
+nl:id_571dd3d2504d6a4d2cceb2465c7e16e751530a0d oa:annotatedAt "2016-06-13T21:40:41+02:00"^^xsd:dateTime .
+nl:id_571dd3d2504d6a4d2cceb2465c7e16e751530a0d oa:annotatedBy user:everhoeff .
+nl:id_571dd3d2504d6a4d2cceb2465c7e16e751530a0d oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "murder of the priests" ] .
+nl:id_571dd3d2504d6a4d2cceb2465c7e16e751530a0d oa:hasTarget ubvu:print-218010002014 .
+nl:id_571dd3d2504d6a4d2cceb2465c7e16e751530a0d oa:motivatedBy oa:tagging .
+
 nl:id_57f287d1c68ce63738bfc149846aa055b9489a44 a oa:Annotation .
 nl:id_57f287d1c68ce63738bfc149846aa055b9489a44 terms:title "David" .
 nl:id_57f287d1c68ce63738bfc149846aa055b9489a44 ui:annotationField bible:BibleCharacter .
