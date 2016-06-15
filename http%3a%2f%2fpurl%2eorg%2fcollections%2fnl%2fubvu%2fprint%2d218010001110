@@ -1,15 +1,28 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
 @prefix media-frags: <http://www.w3.org/TR/media-frags/> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
+
+nl:id_0c07603c368f381df5b7744010f28a4204a8e5e8 a oa:Annotation .
+nl:id_0c07603c368f381df5b7744010f28a4204a8e5e8 terms:title "Rebekka" .
+nl:id_0c07603c368f381df5b7744010f28a4204a8e5e8 ui:annotationField bible:BibleCharacter .
+nl:id_0c07603c368f381df5b7744010f28a4204a8e5e8 ui:typingTime 0 .
+nl:id_0c07603c368f381df5b7744010f28a4204a8e5e8 oa:annotatedAt "2016-06-15T16:48:43+02:00"^^xsd:dateTime .
+nl:id_0c07603c368f381df5b7744010f28a4204a8e5e8 oa:annotatedBy user:everhoeff .
+nl:id_0c07603c368f381df5b7744010f28a4204a8e5e8 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Rebekka" ] .
+nl:id_0c07603c368f381df5b7744010f28a4204a8e5e8 oa:hasTarget target:target_075d0ec8b3dd3b45e78b89b32bb380f75760bba0 .
+nl:id_0c07603c368f381df5b7744010f28a4204a8e5e8 oa:hasTarget ubvu:print-218010001110 .
+nl:id_0c07603c368f381df5b7744010f28a4204a8e5e8 oa:motivatedBy oa:tagging .
 
 nl:id_7f20d75094753ae62e82e25bf6b419448af91022 a oa:Annotation .
 nl:id_7f20d75094753ae62e82e25bf6b419448af91022 terms:title "Eliëzer (zoon van Jorim)" .
@@ -54,6 +67,14 @@ nl:id_fa241b8b5b6b0cffd00e9690f0bddfa8a2266d71 oa:hasTarget target:target_4851d0
 nl:id_fa241b8b5b6b0cffd00e9690f0bddfa8a2266d71 oa:hasTarget ubvu:print-218010001110 .
 nl:id_fa241b8b5b6b0cffd00e9690f0bddfa8a2266d71 oa:motivatedBy oa:tagging .
 
+target:selector_075d0ec8b3dd3b45e78b89b32bb380f75760bba0 a oa:FragmentSelector .
+target:selector_075d0ec8b3dd3b45e78b89b32bb380f75760bba0 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_075d0ec8b3dd3b45e78b89b32bb380f75760bba0 ui:h "0.13070976809557272"^^xsd:float .
+target:selector_075d0ec8b3dd3b45e78b89b32bb380f75760bba0 ui:w "0.07010309278350516"^^xsd:float .
+target:selector_075d0ec8b3dd3b45e78b89b32bb380f75760bba0 ui:x "0.5670103092783505"^^xsd:float .
+target:selector_075d0ec8b3dd3b45e78b89b32bb380f75760bba0 ui:y "0.5769501054111033"^^xsd:float .
+target:selector_075d0ec8b3dd3b45e78b89b32bb380f75760bba0 rdf:value "#xywh=percent:57,58,7,13" .
+
 target:selector_34e73b417b83f622528af068b74566b7822312ca a oa:FragmentSelector .
 target:selector_34e73b417b83f622528af068b74566b7822312ca terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_34e73b417b83f622528af068b74566b7822312ca ui:h "0.1365404789990718"^^xsd:float .
@@ -77,6 +98,10 @@ target:selector_7161343fce7645e7e7eb54e14e69711eecb1075c ui:w "0.107316237229567
 target:selector_7161343fce7645e7e7eb54e14e69711eecb1075c ui:x "0.5580683781550481"^^xsd:float .
 target:selector_7161343fce7645e7e7eb54e14e69711eecb1075c ui:y "0.5760046592894583"^^xsd:float .
 target:selector_7161343fce7645e7e7eb54e14e69711eecb1075c rdf:value "#xywh=percent:56,58,11,13" .
+
+target:target_075d0ec8b3dd3b45e78b89b32bb380f75760bba0 a oa:SpecificResource .
+target:target_075d0ec8b3dd3b45e78b89b32bb380f75760bba0 oa:hasSelector target:selector_075d0ec8b3dd3b45e78b89b32bb380f75760bba0 .
+target:target_075d0ec8b3dd3b45e78b89b32bb380f75760bba0 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/151> .
 
 target:target_34e73b417b83f622528af068b74566b7822312ca a oa:SpecificResource .
 target:target_34e73b417b83f622528af068b74566b7822312ca oa:hasSelector target:selector_34e73b417b83f622528af068b74566b7822312ca .
