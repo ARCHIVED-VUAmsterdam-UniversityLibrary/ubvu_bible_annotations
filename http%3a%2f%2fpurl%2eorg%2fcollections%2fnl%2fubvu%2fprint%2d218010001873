@@ -77,6 +77,16 @@ nl:id_7fd2a88be91acaf5f8ef04fd03c19425fb185b4b oa:hasBody [ a content:ContentAsT
 nl:id_7fd2a88be91acaf5f8ef04fd03c19425fb185b4b oa:hasTarget ubvu:print-218010001873 .
 nl:id_7fd2a88be91acaf5f8ef04fd03c19425fb185b4b oa:motivatedBy oa:tagging .
 
+nl:id_8f2f41fbc56f6f21d149f33f894c67eb1b3eb286 a oa:Annotation .
+nl:id_8f2f41fbc56f6f21d149f33f894c67eb1b3eb286 terms:title "Josef van Arimatea legt het lichaam van Jezus in het nieuwe rotsgraf." .
+nl:id_8f2f41fbc56f6f21d149f33f894c67eb1b3eb286 ui:annotationField bible:ICBibleTheme .
+nl:id_8f2f41fbc56f6f21d149f33f894c67eb1b3eb286 ui:typingTime 0 .
+nl:id_8f2f41fbc56f6f21d149f33f894c67eb1b3eb286 oa:annotatedAt "2016-06-15T19:07:15+02:00"^^xsd:dateTime .
+nl:id_8f2f41fbc56f6f21d149f33f894c67eb1b3eb286 oa:annotatedBy user:paulinevandijk .
+nl:id_8f2f41fbc56f6f21d149f33f894c67eb1b3eb286 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Josef van Arimatea legt het lichaam van Jezus in het nieuwe rotsgraf." ] .
+nl:id_8f2f41fbc56f6f21d149f33f894c67eb1b3eb286 oa:hasTarget ubvu:print-218010001873 .
+nl:id_8f2f41fbc56f6f21d149f33f894c67eb1b3eb286 oa:motivatedBy oa:tagging .
+
 nl:id_acc1a9cea6f0bf5aefa8d09739d238dc2b8151e0 a oa:Annotation .
 nl:id_acc1a9cea6f0bf5aefa8d09739d238dc2b8151e0 terms:title "Jezus Christus" .
 nl:id_acc1a9cea6f0bf5aefa8d09739d238dc2b8151e0 ui:annotationField bible:BibleCharacter .
