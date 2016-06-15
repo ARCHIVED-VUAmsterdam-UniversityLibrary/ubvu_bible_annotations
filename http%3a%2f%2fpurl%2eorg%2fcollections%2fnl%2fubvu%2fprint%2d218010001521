@@ -57,6 +57,17 @@ nl:id_6da7ca3c0af0bac04c3d3826e2001a4fc1a81600 oa:hasTarget target:target_9469aa
 nl:id_6da7ca3c0af0bac04c3d3826e2001a4fc1a81600 oa:hasTarget ubvu:print-218010001521 .
 nl:id_6da7ca3c0af0bac04c3d3826e2001a4fc1a81600 oa:motivatedBy oa:tagging .
 
+nl:id_97e2d07f2ecbe79970e261568d0592ec2b5a8d75 a oa:Annotation .
+nl:id_97e2d07f2ecbe79970e261568d0592ec2b5a8d75 terms:title "Elisa" .
+nl:id_97e2d07f2ecbe79970e261568d0592ec2b5a8d75 ui:annotationField bible:BibleCharacter .
+nl:id_97e2d07f2ecbe79970e261568d0592ec2b5a8d75 ui:typingTime 0 .
+nl:id_97e2d07f2ecbe79970e261568d0592ec2b5a8d75 oa:annotatedAt "2016-06-15T19:02:26+02:00"^^xsd:dateTime .
+nl:id_97e2d07f2ecbe79970e261568d0592ec2b5a8d75 oa:annotatedBy user:paulinevandijk .
+nl:id_97e2d07f2ecbe79970e261568d0592ec2b5a8d75 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Elisa" ] .
+nl:id_97e2d07f2ecbe79970e261568d0592ec2b5a8d75 oa:hasTarget target:target_a0f8e780b446a976e42451dba5b3a9b095f967fc .
+nl:id_97e2d07f2ecbe79970e261568d0592ec2b5a8d75 oa:hasTarget ubvu:print-218010001521 .
+nl:id_97e2d07f2ecbe79970e261568d0592ec2b5a8d75 oa:motivatedBy oa:tagging .
+
 nl:id_a764a7096782de400c3e5da62bf49c7b8b4c5f13 a oa:Annotation .
 nl:id_a764a7096782de400c3e5da62bf49c7b8b4c5f13 terms:title "Naaman's gift refused by Elisha" .
 nl:id_a764a7096782de400c3e5da62bf49c7b8b4c5f13 ui:annotationField bible:ICBibleTheme .
@@ -105,6 +116,14 @@ target:selector_9469aa1ebf59feb4cfd49f498be7ba479e1c173a ui:x "0.069230769230769
 target:selector_9469aa1ebf59feb4cfd49f498be7ba479e1c173a ui:y "0.3580607476635514"^^xsd:float .
 target:selector_9469aa1ebf59feb4cfd49f498be7ba479e1c173a rdf:value "#xywh=percent:7,36,37,10" .
 
+target:selector_a0f8e780b446a976e42451dba5b3a9b095f967fc a oa:FragmentSelector .
+target:selector_a0f8e780b446a976e42451dba5b3a9b095f967fc terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_a0f8e780b446a976e42451dba5b3a9b095f967fc ui:h "0.2616822429906542"^^xsd:float .
+target:selector_a0f8e780b446a976e42451dba5b3a9b095f967fc ui:w "0.1700854700854701"^^xsd:float .
+target:selector_a0f8e780b446a976e42451dba5b3a9b095f967fc ui:x "0.5273504273504274"^^xsd:float .
+target:selector_a0f8e780b446a976e42451dba5b3a9b095f967fc ui:y "0.33703271028037385"^^xsd:float .
+target:selector_a0f8e780b446a976e42451dba5b3a9b095f967fc rdf:value "#xywh=percent:53,34,17,26" .
+
 target:selector_ec5bdd73cb68ef6d92ff901794c6c0fdcb43730a a oa:FragmentSelector .
 target:selector_ec5bdd73cb68ef6d92ff901794c6c0fdcb43730a terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_ec5bdd73cb68ef6d92ff901794c6c0fdcb43730a ui:h "0.2558139534883721"^^xsd:float .
@@ -136,6 +155,10 @@ target:target_32db92ad662ef8daedc4065ea79db5cfa2b01fa3 oa:hasSource <http://imag
 target:target_9469aa1ebf59feb4cfd49f498be7ba479e1c173a a oa:SpecificResource .
 target:target_9469aa1ebf59feb4cfd49f498be7ba479e1c173a oa:hasSelector target:selector_9469aa1ebf59feb4cfd49f498be7ba479e1c173a .
 target:target_9469aa1ebf59feb4cfd49f498be7ba479e1c173a oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/562> .
+
+target:target_a0f8e780b446a976e42451dba5b3a9b095f967fc a oa:SpecificResource .
+target:target_a0f8e780b446a976e42451dba5b3a9b095f967fc oa:hasSelector target:selector_a0f8e780b446a976e42451dba5b3a9b095f967fc .
+target:target_a0f8e780b446a976e42451dba5b3a9b095f967fc oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/562> .
 
 target:target_ec5bdd73cb68ef6d92ff901794c6c0fdcb43730a a oa:SpecificResource .
 target:target_ec5bdd73cb68ef6d92ff901794c6c0fdcb43730a oa:hasSelector target:selector_ec5bdd73cb68ef6d92ff901794c6c0fdcb43730a .
