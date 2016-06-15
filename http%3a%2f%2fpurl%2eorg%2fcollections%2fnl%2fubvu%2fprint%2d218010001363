@@ -22,6 +22,16 @@ nl:id_59dd62569ca11cd5651af1be569d1aa05febcdda oa:hasBody <http://iconclass.org/
 nl:id_59dd62569ca11cd5651af1be569d1aa05febcdda oa:hasTarget ubvu:print-218010001363 .
 nl:id_59dd62569ca11cd5651af1be569d1aa05febcdda oa:motivatedBy oa:tagging .
 
+nl:id_6bfb26392abca445bb2b8eec44802e06336e97a7 a oa:Annotation .
+nl:id_6bfb26392abca445bb2b8eec44802e06336e97a7 terms:title "Judeeërs hakken de duimen en zijn grote tenen af bij Abinobezek." .
+nl:id_6bfb26392abca445bb2b8eec44802e06336e97a7 ui:annotationField bible:ICBibleTheme .
+nl:id_6bfb26392abca445bb2b8eec44802e06336e97a7 ui:typingTime 0 .
+nl:id_6bfb26392abca445bb2b8eec44802e06336e97a7 oa:annotatedAt "2016-06-15T18:51:24+02:00"^^xsd:dateTime .
+nl:id_6bfb26392abca445bb2b8eec44802e06336e97a7 oa:annotatedBy user:paulinevandijk .
+nl:id_6bfb26392abca445bb2b8eec44802e06336e97a7 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Judeeërs hakken de duimen en zijn grote tenen af bij Abinobezek." ] .
+nl:id_6bfb26392abca445bb2b8eec44802e06336e97a7 oa:hasTarget ubvu:print-218010001363 .
+nl:id_6bfb26392abca445bb2b8eec44802e06336e97a7 oa:motivatedBy oa:tagging .
+
 nl:id_e0897bb228b447880d0334a9ab72b9d4db83a058 a oa:Annotation .
 nl:id_e0897bb228b447880d0334a9ab72b9d4db83a058 terms:title "Adoni-Bezek" .
 nl:id_e0897bb228b447880d0334a9ab72b9d4db83a058 ui:annotationField bible:BibleCharacter .
