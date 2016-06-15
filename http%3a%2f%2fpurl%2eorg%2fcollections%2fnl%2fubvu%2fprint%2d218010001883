@@ -12,6 +12,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_6d4b3aeb65e35a733bb9a6d0d485e2c24d52fbbb a oa:Annotation .
+nl:id_6d4b3aeb65e35a733bb9a6d0d485e2c24d52fbbb terms:title "Christ's resurrection is declared by an angel to the women" .
+nl:id_6d4b3aeb65e35a733bb9a6d0d485e2c24d52fbbb ui:annotationField bible:ICBibleTheme .
+nl:id_6d4b3aeb65e35a733bb9a6d0d485e2c24d52fbbb ui:typingTime 0 .
+nl:id_6d4b3aeb65e35a733bb9a6d0d485e2c24d52fbbb oa:annotatedAt "2016-06-15T16:59:42+02:00"^^xsd:dateTime .
+nl:id_6d4b3aeb65e35a733bb9a6d0d485e2c24d52fbbb oa:annotatedBy user:everhoeff .
+nl:id_6d4b3aeb65e35a733bb9a6d0d485e2c24d52fbbb oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Christ's resurrection is declared by an angel to the women" ] .
+nl:id_6d4b3aeb65e35a733bb9a6d0d485e2c24d52fbbb oa:hasTarget ubvu:print-218010001883 .
+nl:id_6d4b3aeb65e35a733bb9a6d0d485e2c24d52fbbb oa:motivatedBy oa:tagging .
+
 nl:id_88ddafaa32486853c9a30a665bee1c2aaa5ee667 a oa:Annotation .
 nl:id_88ddafaa32486853c9a30a665bee1c2aaa5ee667 terms:title "Vrouwen aan het graf van Jezus" .
 nl:id_88ddafaa32486853c9a30a665bee1c2aaa5ee667 ui:annotationField bible:ICBibleTheme .
