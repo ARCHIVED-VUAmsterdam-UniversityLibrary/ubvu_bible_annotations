@@ -84,6 +84,17 @@ nl:id_c165348bc65779889ef7b9623b01bd6410b4bcf8 oa:hasTarget target:target_28f4f5
 nl:id_c165348bc65779889ef7b9623b01bd6410b4bcf8 oa:hasTarget ubvu:print-218010002021 .
 nl:id_c165348bc65779889ef7b9623b01bd6410b4bcf8 oa:motivatedBy oa:tagging .
 
+nl:id_eb7010aa515dc8e58343e97ff5f3bf88ad36c238 a oa:Annotation .
+nl:id_eb7010aa515dc8e58343e97ff5f3bf88ad36c238 terms:title "Cyrus" .
+nl:id_eb7010aa515dc8e58343e97ff5f3bf88ad36c238 ui:annotationField bible:BibleCharacter .
+nl:id_eb7010aa515dc8e58343e97ff5f3bf88ad36c238 ui:typingTime 0 .
+nl:id_eb7010aa515dc8e58343e97ff5f3bf88ad36c238 oa:annotatedAt "2016-06-15T18:58:04+02:00"^^xsd:dateTime .
+nl:id_eb7010aa515dc8e58343e97ff5f3bf88ad36c238 oa:annotatedBy user:paulinevandijk .
+nl:id_eb7010aa515dc8e58343e97ff5f3bf88ad36c238 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Cyrus" ] .
+nl:id_eb7010aa515dc8e58343e97ff5f3bf88ad36c238 oa:hasTarget target:target_9c21a6a640622f1f85e1a53a4d6a9105280abe8f .
+nl:id_eb7010aa515dc8e58343e97ff5f3bf88ad36c238 oa:hasTarget ubvu:print-218010002021 .
+nl:id_eb7010aa515dc8e58343e97ff5f3bf88ad36c238 oa:motivatedBy oa:tagging .
+
 nl:id_ebfab7ffefa5494c7649187f83b644f94dacdb83 a oa:Annotation .
 nl:id_ebfab7ffefa5494c7649187f83b644f94dacdb83 terms:title "Cyrus proclaims the end of the Babylonian Captivity and orders a temple to be built in Jerusalem" .
 nl:id_ebfab7ffefa5494c7649187f83b644f94dacdb83 ui:annotationField bible:ICBibleTheme .
@@ -112,6 +123,14 @@ target:selector_28f4f50d879f4ac1559984041edcfca292877bf2 ui:x "0.435726485293135
 target:selector_28f4f50d879f4ac1559984041edcfca292877bf2 ui:y "0.5968919660790397"^^xsd:float .
 target:selector_28f4f50d879f4ac1559984041edcfca292877bf2 rdf:value "#xywh=percent:44,60,10,13" .
 
+target:selector_9c21a6a640622f1f85e1a53a4d6a9105280abe8f a oa:FragmentSelector .
+target:selector_9c21a6a640622f1f85e1a53a4d6a9105280abe8f terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_9c21a6a640622f1f85e1a53a4d6a9105280abe8f ui:h "0.12673506336753168"^^xsd:float .
+target:selector_9c21a6a640622f1f85e1a53a4d6a9105280abe8f ui:w "0.09914529914529914"^^xsd:float .
+target:selector_9c21a6a640622f1f85e1a53a4d6a9105280abe8f ui:x "0.08888888888888889"^^xsd:float .
+target:selector_9c21a6a640622f1f85e1a53a4d6a9105280abe8f ui:y "0.4767652383826192"^^xsd:float .
+target:selector_9c21a6a640622f1f85e1a53a4d6a9105280abe8f rdf:value "#xywh=percent:9,48,10,13" .
+
 target:selector_bccbbcc11d2c5c608f35c6db4874c19791427315 a oa:FragmentSelector .
 target:selector_bccbbcc11d2c5c608f35c6db4874c19791427315 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_bccbbcc11d2c5c608f35c6db4874c19791427315 ui:h "0.12649364851293754"^^xsd:float .
@@ -123,6 +142,10 @@ target:selector_bccbbcc11d2c5c608f35c6db4874c19791427315 rdf:value "#xywh=percen
 target:target_28f4f50d879f4ac1559984041edcfca292877bf2 a oa:SpecificResource .
 target:target_28f4f50d879f4ac1559984041edcfca292877bf2 oa:hasSelector target:selector_28f4f50d879f4ac1559984041edcfca292877bf2 .
 target:target_28f4f50d879f4ac1559984041edcfca292877bf2 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/20> .
+
+target:target_9c21a6a640622f1f85e1a53a4d6a9105280abe8f a oa:SpecificResource .
+target:target_9c21a6a640622f1f85e1a53a4d6a9105280abe8f oa:hasSelector target:selector_9c21a6a640622f1f85e1a53a4d6a9105280abe8f .
+target:target_9c21a6a640622f1f85e1a53a4d6a9105280abe8f oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/20> .
 
 target:target_bccbbcc11d2c5c608f35c6db4874c19791427315 a oa:SpecificResource .
 target:target_bccbbcc11d2c5c608f35c6db4874c19791427315 oa:hasSelector target:selector_bccbbcc11d2c5c608f35c6db4874c19791427315 .
