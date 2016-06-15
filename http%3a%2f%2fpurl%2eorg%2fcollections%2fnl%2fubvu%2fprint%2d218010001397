@@ -46,6 +46,16 @@ nl:id_3156cf97b47bc1081a6a733caf7e882d532dc34c oa:hasTarget target:target_8c3014
 nl:id_3156cf97b47bc1081a6a733caf7e882d532dc34c oa:hasTarget ubvu:print-218010001397 .
 nl:id_3156cf97b47bc1081a6a733caf7e882d532dc34c oa:motivatedBy oa:tagging .
 
+nl:id_edee32d339e1dae0d5512b71492921a6774c376f a oa:Annotation .
+nl:id_edee32d339e1dae0d5512b71492921a6774c376f terms:title "Simson rukt de deuren uit de stadspoort." .
+nl:id_edee32d339e1dae0d5512b71492921a6774c376f ui:annotationField bible:ICBibleTheme .
+nl:id_edee32d339e1dae0d5512b71492921a6774c376f ui:typingTime 0 .
+nl:id_edee32d339e1dae0d5512b71492921a6774c376f oa:annotatedAt "2016-06-15T19:01:24+02:00"^^xsd:dateTime .
+nl:id_edee32d339e1dae0d5512b71492921a6774c376f oa:annotatedBy user:paulinevandijk .
+nl:id_edee32d339e1dae0d5512b71492921a6774c376f oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Simson rukt de deuren uit de stadspoort." ] .
+nl:id_edee32d339e1dae0d5512b71492921a6774c376f oa:hasTarget ubvu:print-218010001397 .
+nl:id_edee32d339e1dae0d5512b71492921a6774c376f oa:motivatedBy oa:tagging .
+
 target:selector_4123b796cf9391226e81acf44c072728729aba0b a oa:FragmentSelector .
 target:selector_4123b796cf9391226e81acf44c072728729aba0b terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_4123b796cf9391226e81acf44c072728729aba0b ui:h "0.11959521619135234"^^xsd:float .
