@@ -56,6 +56,16 @@ nl:id_a15c53f9422f37a8b6e80fd7fb987f8c9f5ca221 oa:hasBody <http://iconclass.org/
 nl:id_a15c53f9422f37a8b6e80fd7fb987f8c9f5ca221 oa:hasTarget ubvu:print-218010001110 .
 nl:id_a15c53f9422f37a8b6e80fd7fb987f8c9f5ca221 oa:motivatedBy oa:tagging .
 
+nl:id_d82dbbb8a7f6d1dc54464c65caf0d6a445334416 a oa:Annotation .
+nl:id_d82dbbb8a7f6d1dc54464c65caf0d6a445334416 terms:title "Rebekka gives the servant of Abraham drink" .
+nl:id_d82dbbb8a7f6d1dc54464c65caf0d6a445334416 ui:annotationField bible:ICBibleTheme .
+nl:id_d82dbbb8a7f6d1dc54464c65caf0d6a445334416 ui:typingTime 0 .
+nl:id_d82dbbb8a7f6d1dc54464c65caf0d6a445334416 oa:annotatedAt "2016-06-15T16:49:15+02:00"^^xsd:dateTime .
+nl:id_d82dbbb8a7f6d1dc54464c65caf0d6a445334416 oa:annotatedBy user:everhoeff .
+nl:id_d82dbbb8a7f6d1dc54464c65caf0d6a445334416 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Rebekka gives the servant of Abraham drink" ] .
+nl:id_d82dbbb8a7f6d1dc54464c65caf0d6a445334416 oa:hasTarget ubvu:print-218010001110 .
+nl:id_d82dbbb8a7f6d1dc54464c65caf0d6a445334416 oa:motivatedBy oa:tagging .
+
 nl:id_ee095a534dea047e7c936e08b78e88367d377fbc a oa:Annotation .
 nl:id_ee095a534dea047e7c936e08b78e88367d377fbc terms:title "Rebekka" .
 nl:id_ee095a534dea047e7c936e08b78e88367d377fbc ui:annotationField bible:BibleCharacter .
