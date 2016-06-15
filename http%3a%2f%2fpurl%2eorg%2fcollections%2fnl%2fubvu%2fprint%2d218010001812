@@ -34,6 +34,16 @@ nl:id_51fb1c917baeb264e6ae1eb8c1f6b4601db58afd oa:hasBody <http://iconclass.org/
 nl:id_51fb1c917baeb264e6ae1eb8c1f6b4601db58afd oa:hasTarget ubvu:print-218010001812 .
 nl:id_51fb1c917baeb264e6ae1eb8c1f6b4601db58afd oa:motivatedBy oa:tagging .
 
+nl:id_666659e63e6797d7b10dcaeb6a608d6cd69777f3 a oa:Annotation .
+nl:id_666659e63e6797d7b10dcaeb6a608d6cd69777f3 terms:title "Christ's ridingin triumpf into Jerusalem" .
+nl:id_666659e63e6797d7b10dcaeb6a608d6cd69777f3 ui:annotationField bible:ICBibleTheme .
+nl:id_666659e63e6797d7b10dcaeb6a608d6cd69777f3 ui:typingTime 0 .
+nl:id_666659e63e6797d7b10dcaeb6a608d6cd69777f3 oa:annotatedAt "2016-06-15T16:54:52+02:00"^^xsd:dateTime .
+nl:id_666659e63e6797d7b10dcaeb6a608d6cd69777f3 oa:annotatedBy user:everhoeff .
+nl:id_666659e63e6797d7b10dcaeb6a608d6cd69777f3 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Christ's ridingin triumpf into Jerusalem" ] .
+nl:id_666659e63e6797d7b10dcaeb6a608d6cd69777f3 oa:hasTarget ubvu:print-218010001812 .
+nl:id_666659e63e6797d7b10dcaeb6a608d6cd69777f3 oa:motivatedBy oa:tagging .
+
 nl:id_b83e0034a35e3230ea690709b05afee21b869560 a oa:Annotation .
 nl:id_b83e0034a35e3230ea690709b05afee21b869560 terms:title "Jezus" .
 nl:id_b83e0034a35e3230ea690709b05afee21b869560 ui:annotationField bible:BibleCharacter .
