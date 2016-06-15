@@ -34,6 +34,16 @@ nl:id_67a1e2bf2373875298c80fde745390496984b861 oa:hasBody [ a content:ContentAsT
 nl:id_67a1e2bf2373875298c80fde745390496984b861 oa:hasTarget ubvu:print-218010001539 .
 nl:id_67a1e2bf2373875298c80fde745390496984b861 oa:motivatedBy oa:tagging .
 
+nl:id_6f4746407b4d6f5f6110769afe3016b6122c1a6f a oa:Annotation .
+nl:id_6f4746407b4d6f5f6110769afe3016b6122c1a6f terms:title "Jerusalum burn't by Nebuzar-adan" .
+nl:id_6f4746407b4d6f5f6110769afe3016b6122c1a6f ui:annotationField bible:ICBibleTheme .
+nl:id_6f4746407b4d6f5f6110769afe3016b6122c1a6f ui:typingTime 0 .
+nl:id_6f4746407b4d6f5f6110769afe3016b6122c1a6f oa:annotatedAt "2016-06-15T16:56:38+02:00"^^xsd:dateTime .
+nl:id_6f4746407b4d6f5f6110769afe3016b6122c1a6f oa:annotatedBy user:everhoeff .
+nl:id_6f4746407b4d6f5f6110769afe3016b6122c1a6f oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jerusalum burn't by Nebuzar-adan" ] .
+nl:id_6f4746407b4d6f5f6110769afe3016b6122c1a6f oa:hasTarget ubvu:print-218010001539 .
+nl:id_6f4746407b4d6f5f6110769afe3016b6122c1a6f oa:motivatedBy oa:tagging .
+
 nl:id_9c8fb6fbb482f8424014db505268dead611af499 a oa:Annotation .
 nl:id_9c8fb6fbb482f8424014db505268dead611af499 terms:title "Nebuzaradan" .
 nl:id_9c8fb6fbb482f8424014db505268dead611af499 ui:annotationField bible:BibleCharacter .
