@@ -34,6 +34,17 @@ nl:id_079832feeac649afae9593cd6aeeeffca73b0935 oa:hasTarget target:target_b782c6
 nl:id_079832feeac649afae9593cd6aeeeffca73b0935 oa:hasTarget ubvu:print-218010001945 .
 nl:id_079832feeac649afae9593cd6aeeeffca73b0935 oa:motivatedBy oa:tagging .
 
+nl:id_638acf7584439f94b667bff75cbc2c6d54f0f5c4 a oa:Annotation .
+nl:id_638acf7584439f94b667bff75cbc2c6d54f0f5c4 terms:title "Paul" .
+nl:id_638acf7584439f94b667bff75cbc2c6d54f0f5c4 ui:annotationField bible:BibleCharacter .
+nl:id_638acf7584439f94b667bff75cbc2c6d54f0f5c4 ui:typingTime 0 .
+nl:id_638acf7584439f94b667bff75cbc2c6d54f0f5c4 oa:annotatedAt "2016-06-15T16:53:26+02:00"^^xsd:dateTime .
+nl:id_638acf7584439f94b667bff75cbc2c6d54f0f5c4 oa:annotatedBy user:everhoeff .
+nl:id_638acf7584439f94b667bff75cbc2c6d54f0f5c4 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Paul" ] .
+nl:id_638acf7584439f94b667bff75cbc2c6d54f0f5c4 oa:hasTarget target:target_1aac250655dcf8cbf995ebba9413c533627f57c6 .
+nl:id_638acf7584439f94b667bff75cbc2c6d54f0f5c4 oa:hasTarget ubvu:print-218010001945 .
+nl:id_638acf7584439f94b667bff75cbc2c6d54f0f5c4 oa:motivatedBy oa:tagging .
+
 nl:id_b1f598138e7e9c7fff27c067f2621e2c1a1793e4 a oa:Annotation .
 nl:id_b1f598138e7e9c7fff27c067f2621e2c1a1793e4 terms:title "Paulus is bitten by the viper, but felt no harm" .
 nl:id_b1f598138e7e9c7fff27c067f2621e2c1a1793e4 ui:annotationField bible:ICBibleTheme .
@@ -72,6 +83,14 @@ target:selector_01ffc4c68e6c27ccc586a38f14b3b3b6c6e39c5b ui:x "0.347422680412371
 target:selector_01ffc4c68e6c27ccc586a38f14b3b3b6c6e39c5b ui:y "0.31750162654521796"^^xsd:float .
 target:selector_01ffc4c68e6c27ccc586a38f14b3b3b6c6e39c5b rdf:value "#xywh=percent:35,32,24,18" .
 
+target:selector_1aac250655dcf8cbf995ebba9413c533627f57c6 a oa:FragmentSelector .
+target:selector_1aac250655dcf8cbf995ebba9413c533627f57c6 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_1aac250655dcf8cbf995ebba9413c533627f57c6 ui:h "0.3998316498316498"^^xsd:float .
+target:selector_1aac250655dcf8cbf995ebba9413c533627f57c6 ui:w "0.304"^^xsd:float .
+target:selector_1aac250655dcf8cbf995ebba9413c533627f57c6 ui:x "0.31333333333333335"^^xsd:float .
+target:selector_1aac250655dcf8cbf995ebba9413c533627f57c6 ui:y "0.3021885521885522"^^xsd:float .
+target:selector_1aac250655dcf8cbf995ebba9413c533627f57c6 rdf:value "#xywh=percent:31,30,30,40" .
+
 target:selector_b782c6aaadfb724bacb3d81e721239307abbceec a oa:FragmentSelector .
 target:selector_b782c6aaadfb724bacb3d81e721239307abbceec terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_b782c6aaadfb724bacb3d81e721239307abbceec ui:h "0.39017805664589517"^^xsd:float .
@@ -83,6 +102,10 @@ target:selector_b782c6aaadfb724bacb3d81e721239307abbceec rdf:value "#xywh=percen
 target:target_01ffc4c68e6c27ccc586a38f14b3b3b6c6e39c5b a oa:SpecificResource .
 target:target_01ffc4c68e6c27ccc586a38f14b3b3b6c6e39c5b oa:hasSelector target:selector_01ffc4c68e6c27ccc586a38f14b3b3b6c6e39c5b .
 target:target_01ffc4c68e6c27ccc586a38f14b3b3b6c6e39c5b oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/984> .
+
+target:target_1aac250655dcf8cbf995ebba9413c533627f57c6 a oa:SpecificResource .
+target:target_1aac250655dcf8cbf995ebba9413c533627f57c6 oa:hasSelector target:selector_1aac250655dcf8cbf995ebba9413c533627f57c6 .
+target:target_1aac250655dcf8cbf995ebba9413c533627f57c6 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/984> .
 
 target:target_b782c6aaadfb724bacb3d81e721239307abbceec a oa:SpecificResource .
 target:target_b782c6aaadfb724bacb3d81e721239307abbceec oa:hasSelector target:selector_b782c6aaadfb724bacb3d81e721239307abbceec .
