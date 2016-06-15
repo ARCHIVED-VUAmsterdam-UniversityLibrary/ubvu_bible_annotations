@@ -29,3 +29,13 @@ nl:id_11ae70dd19dcc811d8a39eef2e4ba2f391818878 oa:annotatedBy user:jbn415 .
 nl:id_11ae70dd19dcc811d8a39eef2e4ba2f391818878 oa:hasBody <http://iconclass.org/71B33> .
 nl:id_11ae70dd19dcc811d8a39eef2e4ba2f391818878 oa:hasTarget ubvu:print-218010001051 .
 nl:id_11ae70dd19dcc811d8a39eef2e4ba2f391818878 oa:motivatedBy oa:tagging .
+
+nl:id_50363f32f39e74f506e8c559805282d0e1b26298 a oa:Annotation .
+nl:id_50363f32f39e74f506e8c559805282d0e1b26298 terms:title "De zondvloed" .
+nl:id_50363f32f39e74f506e8c559805282d0e1b26298 ui:annotationField bible:ICBibleTheme .
+nl:id_50363f32f39e74f506e8c559805282d0e1b26298 ui:typingTime 0 .
+nl:id_50363f32f39e74f506e8c559805282d0e1b26298 oa:annotatedAt "2016-06-15T19:01:44+02:00"^^xsd:dateTime .
+nl:id_50363f32f39e74f506e8c559805282d0e1b26298 oa:annotatedBy user:paulinevandijk .
+nl:id_50363f32f39e74f506e8c559805282d0e1b26298 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "De zondvloed" ] .
+nl:id_50363f32f39e74f506e8c559805282d0e1b26298 oa:hasTarget ubvu:print-218010001051 .
+nl:id_50363f32f39e74f506e8c559805282d0e1b26298 oa:motivatedBy oa:tagging .
