@@ -22,6 +22,16 @@ nl:id_2b5db39492c52dda3fbba57ac174c026cea3ec97 oa:hasBody [ a content:ContentAsT
 nl:id_2b5db39492c52dda3fbba57ac174c026cea3ec97 oa:hasTarget ubvu:print-218010002021 .
 nl:id_2b5db39492c52dda3fbba57ac174c026cea3ec97 oa:motivatedBy oa:tagging .
 
+nl:id_2dc1d0354d5aacaf8837ab7f3002999f454f121c a oa:Annotation .
+nl:id_2dc1d0354d5aacaf8837ab7f3002999f454f121c terms:title "NEbukadnessar haalt de tempel in Jeruzalem leeg en verwoest deze." .
+nl:id_2dc1d0354d5aacaf8837ab7f3002999f454f121c ui:annotationField bible:ICBibleTheme .
+nl:id_2dc1d0354d5aacaf8837ab7f3002999f454f121c ui:typingTime 0 .
+nl:id_2dc1d0354d5aacaf8837ab7f3002999f454f121c oa:annotatedAt "2016-06-15T18:57:26+02:00"^^xsd:dateTime .
+nl:id_2dc1d0354d5aacaf8837ab7f3002999f454f121c oa:annotatedBy user:paulinevandijk .
+nl:id_2dc1d0354d5aacaf8837ab7f3002999f454f121c oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "NEbukadnessar haalt de tempel in Jeruzalem leeg en verwoest deze." ] .
+nl:id_2dc1d0354d5aacaf8837ab7f3002999f454f121c oa:hasTarget ubvu:print-218010002021 .
+nl:id_2dc1d0354d5aacaf8837ab7f3002999f454f121c oa:motivatedBy oa:tagging .
+
 nl:id_37f252d9512877b98ed33046d0fb24418cb68991 a oa:Annotation .
 nl:id_37f252d9512877b98ed33046d0fb24418cb68991 terms:title "Cyrus" .
 nl:id_37f252d9512877b98ed33046d0fb24418cb68991 ui:annotationField bible:BibleCharacter .
