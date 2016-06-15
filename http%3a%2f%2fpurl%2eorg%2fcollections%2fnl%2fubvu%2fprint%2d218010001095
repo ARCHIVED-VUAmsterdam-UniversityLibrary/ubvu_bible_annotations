@@ -154,6 +154,17 @@ nl:id_c1e591e3c0099fdd31096f1792b47cd0d402e51b oa:hasTarget target:target_1a7ebf
 nl:id_c1e591e3c0099fdd31096f1792b47cd0d402e51b oa:hasTarget ubvu:print-218010001095 .
 nl:id_c1e591e3c0099fdd31096f1792b47cd0d402e51b oa:motivatedBy oa:tagging .
 
+nl:id_ca42b80fb78b539557054cd87e3e080f6c89f1dc a oa:Annotation .
+nl:id_ca42b80fb78b539557054cd87e3e080f6c89f1dc terms:title "Isaak" .
+nl:id_ca42b80fb78b539557054cd87e3e080f6c89f1dc ui:annotationField bible:BibleCharacter .
+nl:id_ca42b80fb78b539557054cd87e3e080f6c89f1dc ui:typingTime 0 .
+nl:id_ca42b80fb78b539557054cd87e3e080f6c89f1dc oa:annotatedAt "2016-06-15T19:09:19+02:00"^^xsd:dateTime .
+nl:id_ca42b80fb78b539557054cd87e3e080f6c89f1dc oa:annotatedBy user:paulinevandijk .
+nl:id_ca42b80fb78b539557054cd87e3e080f6c89f1dc oa:hasBody resource:Isaac .
+nl:id_ca42b80fb78b539557054cd87e3e080f6c89f1dc oa:hasTarget target:target_ff51949bee66fa9affe10c18e0ed6d2b2657e8dd .
+nl:id_ca42b80fb78b539557054cd87e3e080f6c89f1dc oa:hasTarget ubvu:print-218010001095 .
+nl:id_ca42b80fb78b539557054cd87e3e080f6c89f1dc oa:motivatedBy oa:tagging .
+
 nl:id_cbaa352c3d0579a88257d9c6d425a31342d92aa4 a oa:Annotation .
 nl:id_cbaa352c3d0579a88257d9c6d425a31342d92aa4 terms:title "Abraham sends away Hagar" .
 nl:id_cbaa352c3d0579a88257d9c6d425a31342d92aa4 ui:annotationField bible:ICBibleTheme .
@@ -301,6 +312,14 @@ target:selector_f3f8da4f899c133d8093c2bb5ffff50e01218044 ui:x "0.121471343028229
 target:selector_f3f8da4f899c133d8093c2bb5ffff50e01218044 ui:y "0.38202866593164275"^^xsd:float .
 target:selector_f3f8da4f899c133d8093c2bb5ffff50e01218044 rdf:value "#xywh=percent:12,38,19,39" .
 
+target:selector_ff51949bee66fa9affe10c18e0ed6d2b2657e8dd a oa:FragmentSelector .
+target:selector_ff51949bee66fa9affe10c18e0ed6d2b2657e8dd terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_ff51949bee66fa9affe10c18e0ed6d2b2657e8dd ui:h "0.10358126721763085"^^xsd:float .
+target:selector_ff51949bee66fa9affe10c18e0ed6d2b2657e8dd ui:w "0.05897435897435897"^^xsd:float .
+target:selector_ff51949bee66fa9affe10c18e0ed6d2b2657e8dd ui:x "0.3487179487179487"^^xsd:float .
+target:selector_ff51949bee66fa9affe10c18e0ed6d2b2657e8dd ui:y "0.3950413223140496"^^xsd:float .
+target:selector_ff51949bee66fa9affe10c18e0ed6d2b2657e8dd rdf:value "#xywh=percent:35,40,6,10" .
+
 target:target_0c7f66b0f9fe563e849c86baabedc733877971de a oa:SpecificResource .
 target:target_0c7f66b0f9fe563e849c86baabedc733877971de oa:hasSelector target:selector_0c7f66b0f9fe563e849c86baabedc733877971de .
 target:target_0c7f66b0f9fe563e849c86baabedc733877971de oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/136> .
@@ -352,3 +371,7 @@ target:target_db3aa2fc16a7d8163a831533415cbb36219ba652 oa:hasSource <http://imag
 target:target_f3f8da4f899c133d8093c2bb5ffff50e01218044 a oa:SpecificResource .
 target:target_f3f8da4f899c133d8093c2bb5ffff50e01218044 oa:hasSelector target:selector_f3f8da4f899c133d8093c2bb5ffff50e01218044 .
 target:target_f3f8da4f899c133d8093c2bb5ffff50e01218044 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/136> .
+
+target:target_ff51949bee66fa9affe10c18e0ed6d2b2657e8dd a oa:SpecificResource .
+target:target_ff51949bee66fa9affe10c18e0ed6d2b2657e8dd oa:hasSelector target:selector_ff51949bee66fa9affe10c18e0ed6d2b2657e8dd .
+target:target_ff51949bee66fa9affe10c18e0ed6d2b2657e8dd oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/136> .
