@@ -54,6 +54,16 @@ nl:id_b31f309338201f520cd2b5ed952036d8a58678a7 oa:hasBody [ a content:ContentAsT
 nl:id_b31f309338201f520cd2b5ed952036d8a58678a7 oa:hasTarget ubvu:print-218010001945 .
 nl:id_b31f309338201f520cd2b5ed952036d8a58678a7 oa:motivatedBy oa:tagging .
 
+nl:id_d80fcf2e5cc6453287cb22b622caf0064db76389 a oa:Annotation .
+nl:id_d80fcf2e5cc6453287cb22b622caf0064db76389 terms:title "Paul shakes off the viper and felt no harm" .
+nl:id_d80fcf2e5cc6453287cb22b622caf0064db76389 ui:annotationField bible:ICBibleTheme .
+nl:id_d80fcf2e5cc6453287cb22b622caf0064db76389 ui:typingTime 0 .
+nl:id_d80fcf2e5cc6453287cb22b622caf0064db76389 oa:annotatedAt "2016-06-15T16:53:10+02:00"^^xsd:dateTime .
+nl:id_d80fcf2e5cc6453287cb22b622caf0064db76389 oa:annotatedBy user:everhoeff .
+nl:id_d80fcf2e5cc6453287cb22b622caf0064db76389 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Paul shakes off the viper and felt no harm" ] .
+nl:id_d80fcf2e5cc6453287cb22b622caf0064db76389 oa:hasTarget ubvu:print-218010001945 .
+nl:id_d80fcf2e5cc6453287cb22b622caf0064db76389 oa:motivatedBy oa:tagging .
+
 target:selector_01ffc4c68e6c27ccc586a38f14b3b3b6c6e39c5b a oa:FragmentSelector .
 target:selector_01ffc4c68e6c27ccc586a38f14b3b3b6c6e39c5b terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_01ffc4c68e6c27ccc586a38f14b3b3b6c6e39c5b ui:h "0.18282368249837344"^^xsd:float .
