@@ -95,6 +95,16 @@ nl:id_c165348bc65779889ef7b9623b01bd6410b4bcf8 oa:hasTarget target:target_28f4f5
 nl:id_c165348bc65779889ef7b9623b01bd6410b4bcf8 oa:hasTarget ubvu:print-218010002021 .
 nl:id_c165348bc65779889ef7b9623b01bd6410b4bcf8 oa:motivatedBy oa:tagging .
 
+nl:id_c6e86d2eafdc5819b6d6baff5a7bdb66d92c7f00 a oa:Annotation .
+nl:id_c6e86d2eafdc5819b6d6baff5a7bdb66d92c7f00 terms:title "Cyrus geeft opdracht om de tempel in Jeruzalem te herbouwen." .
+nl:id_c6e86d2eafdc5819b6d6baff5a7bdb66d92c7f00 ui:annotationField bible:ICBibleTheme .
+nl:id_c6e86d2eafdc5819b6d6baff5a7bdb66d92c7f00 ui:typingTime 0 .
+nl:id_c6e86d2eafdc5819b6d6baff5a7bdb66d92c7f00 oa:annotatedAt "2016-06-15T19:00:17+02:00"^^xsd:dateTime .
+nl:id_c6e86d2eafdc5819b6d6baff5a7bdb66d92c7f00 oa:annotatedBy user:paulinevandijk .
+nl:id_c6e86d2eafdc5819b6d6baff5a7bdb66d92c7f00 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Cyrus geeft opdracht om de tempel in Jeruzalem te herbouwen." ] .
+nl:id_c6e86d2eafdc5819b6d6baff5a7bdb66d92c7f00 oa:hasTarget ubvu:print-218010002021 .
+nl:id_c6e86d2eafdc5819b6d6baff5a7bdb66d92c7f00 oa:motivatedBy oa:tagging .
+
 nl:id_eb7010aa515dc8e58343e97ff5f3bf88ad36c238 a oa:Annotation .
 nl:id_eb7010aa515dc8e58343e97ff5f3bf88ad36c238 terms:title "Cyrus" .
 nl:id_eb7010aa515dc8e58343e97ff5f3bf88ad36c238 ui:annotationField bible:BibleCharacter .
