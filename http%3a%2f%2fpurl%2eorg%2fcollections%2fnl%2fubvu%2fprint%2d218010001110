@@ -24,6 +24,17 @@ nl:id_0c07603c368f381df5b7744010f28a4204a8e5e8 oa:hasTarget target:target_075d0e
 nl:id_0c07603c368f381df5b7744010f28a4204a8e5e8 oa:hasTarget ubvu:print-218010001110 .
 nl:id_0c07603c368f381df5b7744010f28a4204a8e5e8 oa:motivatedBy oa:tagging .
 
+nl:id_712b71a0217ef4e1a446b65a21367931107847a5 a oa:Annotation .
+nl:id_712b71a0217ef4e1a446b65a21367931107847a5 terms:title "The servant of Abraham" .
+nl:id_712b71a0217ef4e1a446b65a21367931107847a5 ui:annotationField bible:BibleCharacter .
+nl:id_712b71a0217ef4e1a446b65a21367931107847a5 ui:typingTime 0 .
+nl:id_712b71a0217ef4e1a446b65a21367931107847a5 oa:annotatedAt "2016-06-15T16:49:08+02:00"^^xsd:dateTime .
+nl:id_712b71a0217ef4e1a446b65a21367931107847a5 oa:annotatedBy user:everhoeff .
+nl:id_712b71a0217ef4e1a446b65a21367931107847a5 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The servant of Abraham" ] .
+nl:id_712b71a0217ef4e1a446b65a21367931107847a5 oa:hasTarget target:target_bc12175293f8caf0a6748b7dfd56a67d41b19b9d .
+nl:id_712b71a0217ef4e1a446b65a21367931107847a5 oa:hasTarget ubvu:print-218010001110 .
+nl:id_712b71a0217ef4e1a446b65a21367931107847a5 oa:motivatedBy oa:tagging .
+
 nl:id_7f20d75094753ae62e82e25bf6b419448af91022 a oa:Annotation .
 nl:id_7f20d75094753ae62e82e25bf6b419448af91022 terms:title "Eliëzer (zoon van Jorim)" .
 nl:id_7f20d75094753ae62e82e25bf6b419448af91022 ui:annotationField bible:BibleCharacter .
@@ -99,6 +110,14 @@ target:selector_7161343fce7645e7e7eb54e14e69711eecb1075c ui:x "0.558068378155048
 target:selector_7161343fce7645e7e7eb54e14e69711eecb1075c ui:y "0.5760046592894583"^^xsd:float .
 target:selector_7161343fce7645e7e7eb54e14e69711eecb1075c rdf:value "#xywh=percent:56,58,11,13" .
 
+target:selector_bc12175293f8caf0a6748b7dfd56a67d41b19b9d a oa:FragmentSelector .
+target:selector_bc12175293f8caf0a6748b7dfd56a67d41b19b9d terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_bc12175293f8caf0a6748b7dfd56a67d41b19b9d ui:h "0.12719606465214336"^^xsd:float .
+target:selector_bc12175293f8caf0a6748b7dfd56a67d41b19b9d ui:w "0.07731958762886598"^^xsd:float .
+target:selector_bc12175293f8caf0a6748b7dfd56a67d41b19b9d ui:x "0.4948453608247423"^^xsd:float .
+target:selector_bc12175293f8caf0a6748b7dfd56a67d41b19b9d ui:y "0.5783555867884751"^^xsd:float .
+target:selector_bc12175293f8caf0a6748b7dfd56a67d41b19b9d rdf:value "#xywh=percent:49,58,8,13" .
+
 target:target_075d0ec8b3dd3b45e78b89b32bb380f75760bba0 a oa:SpecificResource .
 target:target_075d0ec8b3dd3b45e78b89b32bb380f75760bba0 oa:hasSelector target:selector_075d0ec8b3dd3b45e78b89b32bb380f75760bba0 .
 target:target_075d0ec8b3dd3b45e78b89b32bb380f75760bba0 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/151> .
@@ -114,3 +133,7 @@ target:target_4851d0f2ff936fc8d13ed48ba99cb0735f1cfcb3 oa:hasSource <http://imag
 target:target_7161343fce7645e7e7eb54e14e69711eecb1075c a oa:SpecificResource .
 target:target_7161343fce7645e7e7eb54e14e69711eecb1075c oa:hasSelector target:selector_7161343fce7645e7e7eb54e14e69711eecb1075c .
 target:target_7161343fce7645e7e7eb54e14e69711eecb1075c oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/151> .
+
+target:target_bc12175293f8caf0a6748b7dfd56a67d41b19b9d a oa:SpecificResource .
+target:target_bc12175293f8caf0a6748b7dfd56a67d41b19b9d oa:hasSelector target:selector_bc12175293f8caf0a6748b7dfd56a67d41b19b9d .
+target:target_bc12175293f8caf0a6748b7dfd56a67d41b19b9d oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/151> .
