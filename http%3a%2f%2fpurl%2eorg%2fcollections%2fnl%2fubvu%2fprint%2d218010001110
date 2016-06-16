@@ -24,6 +24,16 @@ nl:id_0c07603c368f381df5b7744010f28a4204a8e5e8 oa:hasTarget target:target_075d0e
 nl:id_0c07603c368f381df5b7744010f28a4204a8e5e8 oa:hasTarget ubvu:print-218010001110 .
 nl:id_0c07603c368f381df5b7744010f28a4204a8e5e8 oa:motivatedBy oa:tagging .
 
+nl:id_3615508451e5f325ca1459862c9b318381e1aa9b a oa:Annotation .
+nl:id_3615508451e5f325ca1459862c9b318381e1aa9b terms:title "De knecht van Abraham ontmoet Rebekka bij de put." .
+nl:id_3615508451e5f325ca1459862c9b318381e1aa9b ui:annotationField bible:ICBibleTheme .
+nl:id_3615508451e5f325ca1459862c9b318381e1aa9b ui:typingTime 0 .
+nl:id_3615508451e5f325ca1459862c9b318381e1aa9b oa:annotatedAt "2016-06-16T19:20:09+02:00"^^xsd:dateTime .
+nl:id_3615508451e5f325ca1459862c9b318381e1aa9b oa:annotatedBy user:paulinevandijk .
+nl:id_3615508451e5f325ca1459862c9b318381e1aa9b oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "De knecht van Abraham ontmoet Rebekka bij de put." ] .
+nl:id_3615508451e5f325ca1459862c9b318381e1aa9b oa:hasTarget ubvu:print-218010001110 .
+nl:id_3615508451e5f325ca1459862c9b318381e1aa9b oa:motivatedBy oa:tagging .
+
 nl:id_712b71a0217ef4e1a446b65a21367931107847a5 a oa:Annotation .
 nl:id_712b71a0217ef4e1a446b65a21367931107847a5 terms:title "The servant of Abraham" .
 nl:id_712b71a0217ef4e1a446b65a21367931107847a5 ui:annotationField bible:BibleCharacter .
