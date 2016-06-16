@@ -12,6 +12,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_28df32f82fc632cf8024fcf398a5d9bfca7065bc a oa:Annotation .
+nl:id_28df32f82fc632cf8024fcf398a5d9bfca7065bc terms:title "Daniël in de leeuwenkuil." .
+nl:id_28df32f82fc632cf8024fcf398a5d9bfca7065bc ui:annotationField bible:ICBibleTheme .
+nl:id_28df32f82fc632cf8024fcf398a5d9bfca7065bc ui:typingTime 0 .
+nl:id_28df32f82fc632cf8024fcf398a5d9bfca7065bc oa:annotatedAt "2016-06-16T19:14:48+02:00"^^xsd:dateTime .
+nl:id_28df32f82fc632cf8024fcf398a5d9bfca7065bc oa:annotatedBy user:paulinevandijk .
+nl:id_28df32f82fc632cf8024fcf398a5d9bfca7065bc oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Daniël in de leeuwenkuil." ] .
+nl:id_28df32f82fc632cf8024fcf398a5d9bfca7065bc oa:hasTarget ubvu:print-218010001591 .
+nl:id_28df32f82fc632cf8024fcf398a5d9bfca7065bc oa:motivatedBy oa:tagging .
+
 nl:id_5a172bb4c0b23b56cc1d92c77994ead2b00ad06b a oa:Annotation .
 nl:id_5a172bb4c0b23b56cc1d92c77994ead2b00ad06b terms:title "Daniël" .
 nl:id_5a172bb4c0b23b56cc1d92c77994ead2b00ad06b ui:annotationField bible:BibleCharacter .
