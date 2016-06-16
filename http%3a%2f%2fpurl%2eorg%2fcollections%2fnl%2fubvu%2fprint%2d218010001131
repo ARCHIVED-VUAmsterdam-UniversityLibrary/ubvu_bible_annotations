@@ -12,6 +12,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_304192ae4ac055570f0ac4adef93f2db4702708c a oa:Annotation .
+nl:id_304192ae4ac055570f0ac4adef93f2db4702708c terms:title "De droom van Jacob in Betel." .
+nl:id_304192ae4ac055570f0ac4adef93f2db4702708c ui:annotationField bible:ICBibleTheme .
+nl:id_304192ae4ac055570f0ac4adef93f2db4702708c ui:typingTime 0 .
+nl:id_304192ae4ac055570f0ac4adef93f2db4702708c oa:annotatedAt "2016-06-16T19:23:41+02:00"^^xsd:dateTime .
+nl:id_304192ae4ac055570f0ac4adef93f2db4702708c oa:annotatedBy user:paulinevandijk .
+nl:id_304192ae4ac055570f0ac4adef93f2db4702708c oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "De droom van Jacob in Betel." ] .
+nl:id_304192ae4ac055570f0ac4adef93f2db4702708c oa:hasTarget ubvu:print-218010001131 .
+nl:id_304192ae4ac055570f0ac4adef93f2db4702708c oa:motivatedBy oa:tagging .
+
 nl:id_6dfdc5b5f501677d04968c92d648cde5e81c4f0d a oa:Annotation .
 nl:id_6dfdc5b5f501677d04968c92d648cde5e81c4f0d terms:title "Jacob's ladder" .
 nl:id_6dfdc5b5f501677d04968c92d648cde5e81c4f0d ui:annotationField bible:ICBibleTheme .
