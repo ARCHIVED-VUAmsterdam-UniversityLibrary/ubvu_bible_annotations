@@ -66,6 +66,16 @@ nl:id_d43f6350b125a8f1d5df7426cb12b3d9bef622e3 oa:hasTarget target:target_b14daf
 nl:id_d43f6350b125a8f1d5df7426cb12b3d9bef622e3 oa:hasTarget ubvu:print-218010001413 .
 nl:id_d43f6350b125a8f1d5df7426cb12b3d9bef622e3 oa:motivatedBy oa:tagging .
 
+nl:id_e139b5052fbee08007f956f99fbefed4f2930683 a oa:Annotation .
+nl:id_e139b5052fbee08007f956f99fbefed4f2930683 terms:title "Ruth leest aren op het land van Boaz." .
+nl:id_e139b5052fbee08007f956f99fbefed4f2930683 ui:annotationField bible:ICBibleTheme .
+nl:id_e139b5052fbee08007f956f99fbefed4f2930683 ui:typingTime 0 .
+nl:id_e139b5052fbee08007f956f99fbefed4f2930683 oa:annotatedAt "2016-06-16T19:26:43+02:00"^^xsd:dateTime .
+nl:id_e139b5052fbee08007f956f99fbefed4f2930683 oa:annotatedBy user:paulinevandijk .
+nl:id_e139b5052fbee08007f956f99fbefed4f2930683 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Ruth leest aren op het land van Boaz." ] .
+nl:id_e139b5052fbee08007f956f99fbefed4f2930683 oa:hasTarget ubvu:print-218010001413 .
+nl:id_e139b5052fbee08007f956f99fbefed4f2930683 oa:motivatedBy oa:tagging .
+
 nl:id_e26ebc830ec58ba542f2c5a2c88b2d835f509aff a oa:Annotation .
 nl:id_e26ebc830ec58ba542f2c5a2c88b2d835f509aff terms:title "Ruth" .
 nl:id_e26ebc830ec58ba542f2c5a2c88b2d835f509aff ui:annotationField bible:BibleCharacter .
