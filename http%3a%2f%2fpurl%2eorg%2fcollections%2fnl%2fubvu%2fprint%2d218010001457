@@ -12,6 +12,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_44a7481d320510c66c8a7f4b7e46c4833709f0be a oa:Annotation .
+nl:id_44a7481d320510c66c8a7f4b7e46c4833709f0be terms:title "David wordt door Samuël gezalfd" .
+nl:id_44a7481d320510c66c8a7f4b7e46c4833709f0be ui:annotationField bible:ICBibleTheme .
+nl:id_44a7481d320510c66c8a7f4b7e46c4833709f0be ui:typingTime 0 .
+nl:id_44a7481d320510c66c8a7f4b7e46c4833709f0be oa:annotatedAt "2016-06-16T19:13:59+02:00"^^xsd:dateTime .
+nl:id_44a7481d320510c66c8a7f4b7e46c4833709f0be oa:annotatedBy user:paulinevandijk .
+nl:id_44a7481d320510c66c8a7f4b7e46c4833709f0be oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "David wordt door Samuël gezalfd" ] .
+nl:id_44a7481d320510c66c8a7f4b7e46c4833709f0be oa:hasTarget ubvu:print-218010001457 .
+nl:id_44a7481d320510c66c8a7f4b7e46c4833709f0be oa:motivatedBy oa:tagging .
+
 nl:id_920c9e985504c34cb645f5d0034fbabef56b70fa a oa:Annotation .
 nl:id_920c9e985504c34cb645f5d0034fbabef56b70fa terms:title "David" .
 nl:id_920c9e985504c34cb645f5d0034fbabef56b70fa ui:annotationField bible:BibleCharacter .
