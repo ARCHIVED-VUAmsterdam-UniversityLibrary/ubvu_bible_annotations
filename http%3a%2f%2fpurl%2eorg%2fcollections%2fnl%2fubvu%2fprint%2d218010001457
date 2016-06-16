@@ -12,6 +12,17 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_920c9e985504c34cb645f5d0034fbabef56b70fa a oa:Annotation .
+nl:id_920c9e985504c34cb645f5d0034fbabef56b70fa terms:title "David" .
+nl:id_920c9e985504c34cb645f5d0034fbabef56b70fa ui:annotationField bible:BibleCharacter .
+nl:id_920c9e985504c34cb645f5d0034fbabef56b70fa ui:typingTime 0 .
+nl:id_920c9e985504c34cb645f5d0034fbabef56b70fa oa:annotatedAt "2016-06-16T19:12:32+02:00"^^xsd:dateTime .
+nl:id_920c9e985504c34cb645f5d0034fbabef56b70fa oa:annotatedBy user:paulinevandijk .
+nl:id_920c9e985504c34cb645f5d0034fbabef56b70fa oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "David" ] .
+nl:id_920c9e985504c34cb645f5d0034fbabef56b70fa oa:hasTarget target:target_e8a32c5e4f9b75aa7ad69e62ce3f06e7c731d0bd .
+nl:id_920c9e985504c34cb645f5d0034fbabef56b70fa oa:hasTarget ubvu:print-218010001457 .
+nl:id_920c9e985504c34cb645f5d0034fbabef56b70fa oa:motivatedBy oa:tagging .
+
 nl:id_a9b0f74b37a9f43284cef87c3bcaf413968a9867 a oa:Annotation .
 nl:id_a9b0f74b37a9f43284cef87c3bcaf413968a9867 terms:title "david son of Jess" .
 nl:id_a9b0f74b37a9f43284cef87c3bcaf413968a9867 ui:annotationField bible:BibleCharacter .
@@ -69,6 +80,14 @@ target:selector_de204fd3fe0a955189694d007853e3eb2d7de8a3 ui:x "0.409278350515463
 target:selector_de204fd3fe0a955189694d007853e3eb2d7de8a3 ui:y "0.5230007077140835"^^xsd:float .
 target:selector_de204fd3fe0a955189694d007853e3eb2d7de8a3 rdf:value "#xywh=percent:41,52,35,23" .
 
+target:selector_e8a32c5e4f9b75aa7ad69e62ce3f06e7c731d0bd a oa:FragmentSelector .
+target:selector_e8a32c5e4f9b75aa7ad69e62ce3f06e7c731d0bd terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_e8a32c5e4f9b75aa7ad69e62ce3f06e7c731d0bd ui:h "0.11737089201877934"^^xsd:float .
+target:selector_e8a32c5e4f9b75aa7ad69e62ce3f06e7c731d0bd ui:w "0.25555555555555554"^^xsd:float .
+target:selector_e8a32c5e4f9b75aa7ad69e62ce3f06e7c731d0bd ui:x "0.41965811965811967"^^xsd:float .
+target:selector_e8a32c5e4f9b75aa7ad69e62ce3f06e7c731d0bd ui:y "0.5246478873239436"^^xsd:float .
+target:selector_e8a32c5e4f9b75aa7ad69e62ce3f06e7c731d0bd rdf:value "#xywh=percent:42,52,26,12" .
+
 target:target_14b1e3048e30c14bf8d5aa92435ba9bbed72589c a oa:SpecificResource .
 target:target_14b1e3048e30c14bf8d5aa92435ba9bbed72589c oa:hasSelector target:selector_14b1e3048e30c14bf8d5aa92435ba9bbed72589c .
 target:target_14b1e3048e30c14bf8d5aa92435ba9bbed72589c oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/498> .
@@ -80,3 +99,7 @@ target:target_9310746a7069635adc40e972059534dd5858f057 oa:hasSource <http://imag
 target:target_de204fd3fe0a955189694d007853e3eb2d7de8a3 a oa:SpecificResource .
 target:target_de204fd3fe0a955189694d007853e3eb2d7de8a3 oa:hasSelector target:selector_de204fd3fe0a955189694d007853e3eb2d7de8a3 .
 target:target_de204fd3fe0a955189694d007853e3eb2d7de8a3 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/498> .
+
+target:target_e8a32c5e4f9b75aa7ad69e62ce3f06e7c731d0bd a oa:SpecificResource .
+target:target_e8a32c5e4f9b75aa7ad69e62ce3f06e7c731d0bd oa:hasSelector target:selector_e8a32c5e4f9b75aa7ad69e62ce3f06e7c731d0bd .
+target:target_e8a32c5e4f9b75aa7ad69e62ce3f06e7c731d0bd oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/498> .
