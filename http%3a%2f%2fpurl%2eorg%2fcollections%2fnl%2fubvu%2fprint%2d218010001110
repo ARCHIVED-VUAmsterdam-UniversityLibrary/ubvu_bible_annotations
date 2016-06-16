@@ -56,6 +56,17 @@ nl:id_a15c53f9422f37a8b6e80fd7fb987f8c9f5ca221 oa:hasBody <http://iconclass.org/
 nl:id_a15c53f9422f37a8b6e80fd7fb987f8c9f5ca221 oa:hasTarget ubvu:print-218010001110 .
 nl:id_a15c53f9422f37a8b6e80fd7fb987f8c9f5ca221 oa:motivatedBy oa:tagging .
 
+nl:id_d055b951a79fbe9cb5c0e7076af6f6acd503eed9 a oa:Annotation .
+nl:id_d055b951a79fbe9cb5c0e7076af6f6acd503eed9 terms:title "Rebekka" .
+nl:id_d055b951a79fbe9cb5c0e7076af6f6acd503eed9 ui:annotationField bible:BibleCharacter .
+nl:id_d055b951a79fbe9cb5c0e7076af6f6acd503eed9 ui:typingTime 0 .
+nl:id_d055b951a79fbe9cb5c0e7076af6f6acd503eed9 oa:annotatedAt "2016-06-16T19:17:15+02:00"^^xsd:dateTime .
+nl:id_d055b951a79fbe9cb5c0e7076af6f6acd503eed9 oa:annotatedBy user:paulinevandijk .
+nl:id_d055b951a79fbe9cb5c0e7076af6f6acd503eed9 oa:hasBody resource:Rebekah .
+nl:id_d055b951a79fbe9cb5c0e7076af6f6acd503eed9 oa:hasTarget target:target_0d4f616061c34bfbde183a3a2797230470e1c9b9 .
+nl:id_d055b951a79fbe9cb5c0e7076af6f6acd503eed9 oa:hasTarget ubvu:print-218010001110 .
+nl:id_d055b951a79fbe9cb5c0e7076af6f6acd503eed9 oa:motivatedBy oa:tagging .
+
 nl:id_d82dbbb8a7f6d1dc54464c65caf0d6a445334416 a oa:Annotation .
 nl:id_d82dbbb8a7f6d1dc54464c65caf0d6a445334416 terms:title "Rebekka gives the servant of Abraham drink" .
 nl:id_d82dbbb8a7f6d1dc54464c65caf0d6a445334416 ui:annotationField bible:ICBibleTheme .
@@ -96,6 +107,14 @@ target:selector_075d0ec8b3dd3b45e78b89b32bb380f75760bba0 ui:x "0.567010309278350
 target:selector_075d0ec8b3dd3b45e78b89b32bb380f75760bba0 ui:y "0.5769501054111033"^^xsd:float .
 target:selector_075d0ec8b3dd3b45e78b89b32bb380f75760bba0 rdf:value "#xywh=percent:57,58,7,13" .
 
+target:selector_0d4f616061c34bfbde183a3a2797230470e1c9b9 a oa:FragmentSelector .
+target:selector_0d4f616061c34bfbde183a3a2797230470e1c9b9 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_0d4f616061c34bfbde183a3a2797230470e1c9b9 ui:h "0.1322073383808969"^^xsd:float .
+target:selector_0d4f616061c34bfbde183a3a2797230470e1c9b9 ui:w "0.07264957264957266"^^xsd:float .
+target:selector_0d4f616061c34bfbde183a3a2797230470e1c9b9 ui:x "0.5675213675213675"^^xsd:float .
+target:selector_0d4f616061c34bfbde183a3a2797230470e1c9b9 ui:y "0.5730926033779848"^^xsd:float .
+target:selector_0d4f616061c34bfbde183a3a2797230470e1c9b9 rdf:value "#xywh=percent:57,57,7,13" .
+
 target:selector_34e73b417b83f622528af068b74566b7822312ca a oa:FragmentSelector .
 target:selector_34e73b417b83f622528af068b74566b7822312ca terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_34e73b417b83f622528af068b74566b7822312ca ui:h "0.1365404789990718"^^xsd:float .
@@ -131,6 +150,10 @@ target:selector_bc12175293f8caf0a6748b7dfd56a67d41b19b9d rdf:value "#xywh=percen
 target:target_075d0ec8b3dd3b45e78b89b32bb380f75760bba0 a oa:SpecificResource .
 target:target_075d0ec8b3dd3b45e78b89b32bb380f75760bba0 oa:hasSelector target:selector_075d0ec8b3dd3b45e78b89b32bb380f75760bba0 .
 target:target_075d0ec8b3dd3b45e78b89b32bb380f75760bba0 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/151> .
+
+target:target_0d4f616061c34bfbde183a3a2797230470e1c9b9 a oa:SpecificResource .
+target:target_0d4f616061c34bfbde183a3a2797230470e1c9b9 oa:hasSelector target:selector_0d4f616061c34bfbde183a3a2797230470e1c9b9 .
+target:target_0d4f616061c34bfbde183a3a2797230470e1c9b9 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/151> .
 
 target:target_34e73b417b83f622528af068b74566b7822312ca a oa:SpecificResource .
 target:target_34e73b417b83f622528af068b74566b7822312ca oa:hasSelector target:selector_34e73b417b83f622528af068b74566b7822312ca .
