@@ -46,6 +46,17 @@ nl:id_c1af7ab8a910a8c9164ce5ebdcfaada73f26f365 oa:hasTarget target:target_12feac
 nl:id_c1af7ab8a910a8c9164ce5ebdcfaada73f26f365 oa:hasTarget ubvu:print-218010001311 .
 nl:id_c1af7ab8a910a8c9164ce5ebdcfaada73f26f365 oa:motivatedBy oa:tagging .
 
+nl:id_db6e70c517446d23eb1f05ea5f07ab1dc2ebc663 a oa:Annotation .
+nl:id_db6e70c517446d23eb1f05ea5f07ab1dc2ebc663 terms:title "Jozua" .
+nl:id_db6e70c517446d23eb1f05ea5f07ab1dc2ebc663 ui:annotationField bible:BibleCharacter .
+nl:id_db6e70c517446d23eb1f05ea5f07ab1dc2ebc663 ui:typingTime 0 .
+nl:id_db6e70c517446d23eb1f05ea5f07ab1dc2ebc663 oa:annotatedAt "2016-06-16T19:21:33+02:00"^^xsd:dateTime .
+nl:id_db6e70c517446d23eb1f05ea5f07ab1dc2ebc663 oa:annotatedBy user:paulinevandijk .
+nl:id_db6e70c517446d23eb1f05ea5f07ab1dc2ebc663 oa:hasBody resource:Joshua .
+nl:id_db6e70c517446d23eb1f05ea5f07ab1dc2ebc663 oa:hasTarget target:target_1d4f6853a3c5a7e98509182ddc65e336b41efb3d .
+nl:id_db6e70c517446d23eb1f05ea5f07ab1dc2ebc663 oa:hasTarget ubvu:print-218010001311 .
+nl:id_db6e70c517446d23eb1f05ea5f07ab1dc2ebc663 oa:motivatedBy oa:tagging .
+
 nl:id_ef1a0f74ea7dd3babd7af678a5422881cfa780f6 a oa:Annotation .
 nl:id_ef1a0f74ea7dd3babd7af678a5422881cfa780f6 terms:title "Joshua succeeder of Mozes" .
 nl:id_ef1a0f74ea7dd3babd7af678a5422881cfa780f6 ui:annotationField bible:BibleCharacter .
@@ -64,6 +75,14 @@ target:selector_12feac4fe3fb37f2bf2c8ffe301ffb8c1a7d07cd ui:w "0.072649572649572
 target:selector_12feac4fe3fb37f2bf2c8ffe301ffb8c1a7d07cd ui:x "0.13931623931623932"^^xsd:float .
 target:selector_12feac4fe3fb37f2bf2c8ffe301ffb8c1a7d07cd ui:y "0.3852411388727484"^^xsd:float .
 target:selector_12feac4fe3fb37f2bf2c8ffe301ffb8c1a7d07cd rdf:value "#xywh=percent:14,39,7,17" .
+
+target:selector_1d4f6853a3c5a7e98509182ddc65e336b41efb3d a oa:FragmentSelector .
+target:selector_1d4f6853a3c5a7e98509182ddc65e336b41efb3d terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_1d4f6853a3c5a7e98509182ddc65e336b41efb3d ui:h "0.12783265543288785"^^xsd:float .
+target:selector_1d4f6853a3c5a7e98509182ddc65e336b41efb3d ui:w "0.1170940170940171"^^xsd:float .
+target:selector_1d4f6853a3c5a7e98509182ddc65e336b41efb3d ui:x "0.21367521367521367"^^xsd:float .
+target:selector_1d4f6853a3c5a7e98509182ddc65e336b41efb3d ui:y "0.4061592097617664"^^xsd:float .
+target:selector_1d4f6853a3c5a7e98509182ddc65e336b41efb3d rdf:value "#xywh=percent:21,41,12,13" .
 
 target:selector_2d471ca33b0ca4f1b27b46e540f9161f44f7c43d a oa:FragmentSelector .
 target:selector_2d471ca33b0ca4f1b27b46e540f9161f44f7c43d terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -92,6 +111,10 @@ target:selector_457d812bfbb0a5f721e0c0505ae622b7da26c8e8 rdf:value "#xywh=percen
 target:target_12feac4fe3fb37f2bf2c8ffe301ffb8c1a7d07cd a oa:SpecificResource .
 target:target_12feac4fe3fb37f2bf2c8ffe301ffb8c1a7d07cd oa:hasSelector target:selector_12feac4fe3fb37f2bf2c8ffe301ffb8c1a7d07cd .
 target:target_12feac4fe3fb37f2bf2c8ffe301ffb8c1a7d07cd oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/352> .
+
+target:target_1d4f6853a3c5a7e98509182ddc65e336b41efb3d a oa:SpecificResource .
+target:target_1d4f6853a3c5a7e98509182ddc65e336b41efb3d oa:hasSelector target:selector_1d4f6853a3c5a7e98509182ddc65e336b41efb3d .
+target:target_1d4f6853a3c5a7e98509182ddc65e336b41efb3d oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/352> .
 
 target:target_2d471ca33b0ca4f1b27b46e540f9161f44f7c43d a oa:SpecificResource .
 target:target_2d471ca33b0ca4f1b27b46e540f9161f44f7c43d oa:hasSelector target:selector_2d471ca33b0ca4f1b27b46e540f9161f44f7c43d .
