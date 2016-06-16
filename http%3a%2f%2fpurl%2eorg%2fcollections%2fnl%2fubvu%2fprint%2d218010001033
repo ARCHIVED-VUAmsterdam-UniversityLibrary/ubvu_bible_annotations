@@ -67,6 +67,17 @@ nl:id_a3e42ab05ecbac759fe0504cd47d30c2bf0141b3 oa:hasTarget target:target_712264
 nl:id_a3e42ab05ecbac759fe0504cd47d30c2bf0141b3 oa:hasTarget ubvu:print-218010001033 .
 nl:id_a3e42ab05ecbac759fe0504cd47d30c2bf0141b3 oa:motivatedBy oa:tagging .
 
+nl:id_bddf28b95426add0db7c578db00f5d13b2723735 a oa:Annotation .
+nl:id_bddf28b95426add0db7c578db00f5d13b2723735 terms:title "Kaïn" .
+nl:id_bddf28b95426add0db7c578db00f5d13b2723735 ui:annotationField bible:BibleCharacter .
+nl:id_bddf28b95426add0db7c578db00f5d13b2723735 ui:typingTime 0 .
+nl:id_bddf28b95426add0db7c578db00f5d13b2723735 oa:annotatedAt "2016-06-16T19:10:06+02:00"^^xsd:dateTime .
+nl:id_bddf28b95426add0db7c578db00f5d13b2723735 oa:annotatedBy user:paulinevandijk .
+nl:id_bddf28b95426add0db7c578db00f5d13b2723735 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Kaïn" ] .
+nl:id_bddf28b95426add0db7c578db00f5d13b2723735 oa:hasTarget target:target_3c61481367d69da67f3625d38f639bbb216b10c2 .
+nl:id_bddf28b95426add0db7c578db00f5d13b2723735 oa:hasTarget ubvu:print-218010001033 .
+nl:id_bddf28b95426add0db7c578db00f5d13b2723735 oa:motivatedBy oa:tagging .
+
 nl:id_c7149a4a5c31f88ea395a27280b2b76c710d4e84 a oa:Annotation .
 nl:id_c7149a4a5c31f88ea395a27280b2b76c710d4e84 terms:title "Cain rises up against his brother Abel and kills him" .
 nl:id_c7149a4a5c31f88ea395a27280b2b76c710d4e84 ui:annotationField bible:ICBibleTheme .
@@ -95,6 +106,14 @@ target:selector_2025e092fc953e81065c5120d82178bde31592bc ui:x "0.521333333333333
 target:selector_2025e092fc953e81065c5120d82178bde31592bc ui:y "0.5595544130248501"^^xsd:float .
 target:selector_2025e092fc953e81065c5120d82178bde31592bc rdf:value "#xywh=percent:52,56,26,16" .
 
+target:selector_3c61481367d69da67f3625d38f639bbb216b10c2 a oa:FragmentSelector .
+target:selector_3c61481367d69da67f3625d38f639bbb216b10c2 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_3c61481367d69da67f3625d38f639bbb216b10c2 ui:h "0.17792421746293247"^^xsd:float .
+target:selector_3c61481367d69da67f3625d38f639bbb216b10c2 ui:w "0.2709401709401709"^^xsd:float .
+target:selector_3c61481367d69da67f3625d38f639bbb216b10c2 ui:x "0.3803418803418803"^^xsd:float .
+target:selector_3c61481367d69da67f3625d38f639bbb216b10c2 ui:y "0.41790225151015925"^^xsd:float .
+target:selector_3c61481367d69da67f3625d38f639bbb216b10c2 rdf:value "#xywh=percent:38,42,27,18" .
+
 target:selector_712264ffeebef0dbf143190e8cd2523f23712cee a oa:FragmentSelector .
 target:selector_712264ffeebef0dbf143190e8cd2523f23712cee terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_712264ffeebef0dbf143190e8cd2523f23712cee ui:h "0.15938303341902313"^^xsd:float .
@@ -122,6 +141,10 @@ target:selector_f726a0599423dc40ec3632413edee10d410e9771 rdf:value "#xywh=percen
 target:target_2025e092fc953e81065c5120d82178bde31592bc a oa:SpecificResource .
 target:target_2025e092fc953e81065c5120d82178bde31592bc oa:hasSelector target:selector_2025e092fc953e81065c5120d82178bde31592bc .
 target:target_2025e092fc953e81065c5120d82178bde31592bc oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/74> .
+
+target:target_3c61481367d69da67f3625d38f639bbb216b10c2 a oa:SpecificResource .
+target:target_3c61481367d69da67f3625d38f639bbb216b10c2 oa:hasSelector target:selector_3c61481367d69da67f3625d38f639bbb216b10c2 .
+target:target_3c61481367d69da67f3625d38f639bbb216b10c2 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/74> .
 
 target:target_712264ffeebef0dbf143190e8cd2523f23712cee a oa:SpecificResource .
 target:target_712264ffeebef0dbf143190e8cd2523f23712cee oa:hasSelector target:selector_712264ffeebef0dbf143190e8cd2523f23712cee .
