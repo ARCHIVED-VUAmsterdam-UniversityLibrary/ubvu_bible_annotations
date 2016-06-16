@@ -57,6 +57,16 @@ nl:id_db6e70c517446d23eb1f05ea5f07ab1dc2ebc663 oa:hasTarget target:target_1d4f68
 nl:id_db6e70c517446d23eb1f05ea5f07ab1dc2ebc663 oa:hasTarget ubvu:print-218010001311 .
 nl:id_db6e70c517446d23eb1f05ea5f07ab1dc2ebc663 oa:motivatedBy oa:tagging .
 
+nl:id_e0234761a7fb7661fba6022570cad9803fb66534 a oa:Annotation .
+nl:id_e0234761a7fb7661fba6022570cad9803fb66534 terms:title "Jozua ingehuldigd als opvolger van Mozes." .
+nl:id_e0234761a7fb7661fba6022570cad9803fb66534 ui:annotationField bible:ICBibleTheme .
+nl:id_e0234761a7fb7661fba6022570cad9803fb66534 ui:typingTime 0 .
+nl:id_e0234761a7fb7661fba6022570cad9803fb66534 oa:annotatedAt "2016-06-16T19:22:38+02:00"^^xsd:dateTime .
+nl:id_e0234761a7fb7661fba6022570cad9803fb66534 oa:annotatedBy user:paulinevandijk .
+nl:id_e0234761a7fb7661fba6022570cad9803fb66534 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jozua ingehuldigd als opvolger van Mozes." ] .
+nl:id_e0234761a7fb7661fba6022570cad9803fb66534 oa:hasTarget ubvu:print-218010001311 .
+nl:id_e0234761a7fb7661fba6022570cad9803fb66534 oa:motivatedBy oa:tagging .
+
 nl:id_ef1a0f74ea7dd3babd7af678a5422881cfa780f6 a oa:Annotation .
 nl:id_ef1a0f74ea7dd3babd7af678a5422881cfa780f6 terms:title "Joshua succeeder of Mozes" .
 nl:id_ef1a0f74ea7dd3babd7af678a5422881cfa780f6 ui:annotationField bible:BibleCharacter .
