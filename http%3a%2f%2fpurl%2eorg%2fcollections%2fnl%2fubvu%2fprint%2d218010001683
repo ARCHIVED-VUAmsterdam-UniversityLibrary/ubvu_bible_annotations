@@ -23,6 +23,16 @@ nl:id_1ff437c199f4366dc235f311227217ccefc3f3c9 oa:hasBody <http://iconclass.org/
 nl:id_1ff437c199f4366dc235f311227217ccefc3f3c9 oa:hasTarget ubvu:print-218010001683 .
 nl:id_1ff437c199f4366dc235f311227217ccefc3f3c9 oa:motivatedBy oa:tagging .
 
+nl:id_276b59d27ac1ccc43f06e35ebdb7c22d40b035ae a oa:Annotation .
+nl:id_276b59d27ac1ccc43f06e35ebdb7c22d40b035ae terms:title "Magiërs uit het Oosten bieden Maria en het kind geschenken aan." .
+nl:id_276b59d27ac1ccc43f06e35ebdb7c22d40b035ae ui:annotationField bible:ICBibleTheme .
+nl:id_276b59d27ac1ccc43f06e35ebdb7c22d40b035ae ui:typingTime 0 .
+nl:id_276b59d27ac1ccc43f06e35ebdb7c22d40b035ae oa:annotatedAt "2016-06-18T14:24:04+02:00"^^xsd:dateTime .
+nl:id_276b59d27ac1ccc43f06e35ebdb7c22d40b035ae oa:annotatedBy user:paulinevandijk .
+nl:id_276b59d27ac1ccc43f06e35ebdb7c22d40b035ae oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Magiërs uit het Oosten bieden Maria en het kind geschenken aan." ] .
+nl:id_276b59d27ac1ccc43f06e35ebdb7c22d40b035ae oa:hasTarget ubvu:print-218010001683 .
+nl:id_276b59d27ac1ccc43f06e35ebdb7c22d40b035ae oa:motivatedBy oa:tagging .
+
 nl:id_381c9d9d72bb47414b270e2fc7dbe0346ef0a3a2 a oa:Annotation .
 nl:id_381c9d9d72bb47414b270e2fc7dbe0346ef0a3a2 terms:title "Jezus Christus" .
 nl:id_381c9d9d72bb47414b270e2fc7dbe0346ef0a3a2 ui:annotationField bible:BibleCharacter .
