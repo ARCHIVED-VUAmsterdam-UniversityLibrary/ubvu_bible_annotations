@@ -55,6 +55,17 @@ nl:id_580fc9f85833df1f1beef13cd7892682bed28399 oa:hasBody [ a content:ContentAsT
 nl:id_580fc9f85833df1f1beef13cd7892682bed28399 oa:hasTarget ubvu:print-218010001683 .
 nl:id_580fc9f85833df1f1beef13cd7892682bed28399 oa:motivatedBy oa:tagging .
 
+nl:id_65e4f771f5b1925d1c36c07ce48d39b80f5ece9f a oa:Annotation .
+nl:id_65e4f771f5b1925d1c36c07ce48d39b80f5ece9f terms:title "Jozef (man van Maria)" .
+nl:id_65e4f771f5b1925d1c36c07ce48d39b80f5ece9f ui:annotationField bible:BibleCharacter .
+nl:id_65e4f771f5b1925d1c36c07ce48d39b80f5ece9f ui:typingTime 0 .
+nl:id_65e4f771f5b1925d1c36c07ce48d39b80f5ece9f oa:annotatedAt "2016-06-18T14:23:13+02:00"^^xsd:dateTime .
+nl:id_65e4f771f5b1925d1c36c07ce48d39b80f5ece9f oa:annotatedBy user:paulinevandijk .
+nl:id_65e4f771f5b1925d1c36c07ce48d39b80f5ece9f oa:hasBody resource:Joseph_Husband_of_Maria .
+nl:id_65e4f771f5b1925d1c36c07ce48d39b80f5ece9f oa:hasTarget target:target_0e98645c194bb67164889613e48c4852e11fb73a .
+nl:id_65e4f771f5b1925d1c36c07ce48d39b80f5ece9f oa:hasTarget ubvu:print-218010001683 .
+nl:id_65e4f771f5b1925d1c36c07ce48d39b80f5ece9f oa:motivatedBy oa:tagging .
+
 nl:id_8b13dd3bb32dec0bb0c6f4092821c26565cf918f a oa:Annotation .
 nl:id_8b13dd3bb32dec0bb0c6f4092821c26565cf918f terms:title "adoration of the kings: the Wise Men present their gifts to the Christ-child (gold, frankincense and myrrh)" .
 nl:id_8b13dd3bb32dec0bb0c6f4092821c26565cf918f ui:annotationField bible:ICBibleTheme .
@@ -75,6 +86,14 @@ nl:id_bd9abfd37dbcefebec5f8acbe6a3563e7137cfc1 oa:hasBody <http://iconclass.org/
 nl:id_bd9abfd37dbcefebec5f8acbe6a3563e7137cfc1 oa:hasTarget ubvu:print-218010001683 .
 nl:id_bd9abfd37dbcefebec5f8acbe6a3563e7137cfc1 oa:motivatedBy oa:tagging .
 
+target:selector_0e98645c194bb67164889613e48c4852e11fb73a a oa:FragmentSelector .
+target:selector_0e98645c194bb67164889613e48c4852e11fb73a terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_0e98645c194bb67164889613e48c4852e11fb73a ui:h "0.10080183276059565"^^xsd:float .
+target:selector_0e98645c194bb67164889613e48c4852e11fb73a ui:w "0.19145299145299147"^^xsd:float .
+target:selector_0e98645c194bb67164889613e48c4852e11fb73a ui:x "0.5"^^xsd:float .
+target:selector_0e98645c194bb67164889613e48c4852e11fb73a ui:y "0.3465063001145475"^^xsd:float .
+target:selector_0e98645c194bb67164889613e48c4852e11fb73a rdf:value "#xywh=percent:50,35,19,10" .
+
 target:selector_10ef3d227fe81ac304d0c3df27c67ca4423c4222 a oa:FragmentSelector .
 target:selector_10ef3d227fe81ac304d0c3df27c67ca4423c4222 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_10ef3d227fe81ac304d0c3df27c67ca4423c4222 ui:h "0.11053837342497136"^^xsd:float .
@@ -90,6 +109,10 @@ target:selector_dddabf7c6dc0707c8e06a51dcd21bf81fa69a2ad ui:w "0.105128205128205
 target:selector_dddabf7c6dc0707c8e06a51dcd21bf81fa69a2ad ui:x "0.47692307692307695"^^xsd:float .
 target:selector_dddabf7c6dc0707c8e06a51dcd21bf81fa69a2ad ui:y "0.49427262313860254"^^xsd:float .
 target:selector_dddabf7c6dc0707c8e06a51dcd21bf81fa69a2ad rdf:value "#xywh=percent:48,49,11,7" .
+
+target:target_0e98645c194bb67164889613e48c4852e11fb73a a oa:SpecificResource .
+target:target_0e98645c194bb67164889613e48c4852e11fb73a oa:hasSelector target:selector_0e98645c194bb67164889613e48c4852e11fb73a .
+target:target_0e98645c194bb67164889613e48c4852e11fb73a oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/722> .
 
 target:target_10ef3d227fe81ac304d0c3df27c67ca4423c4222 a oa:SpecificResource .
 target:target_10ef3d227fe81ac304d0c3df27c67ca4423c4222 oa:hasSelector target:selector_10ef3d227fe81ac304d0c3df27c67ca4423c4222 .
