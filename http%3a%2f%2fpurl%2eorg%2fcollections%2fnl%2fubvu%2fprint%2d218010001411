@@ -56,6 +56,16 @@ nl:id_4c1fa339ac7a8aaa9900400b7483eb8db876fd33 oa:hasBody [ a content:ContentAsT
 nl:id_4c1fa339ac7a8aaa9900400b7483eb8db876fd33 oa:hasTarget ubvu:print-218010001411 .
 nl:id_4c1fa339ac7a8aaa9900400b7483eb8db876fd33 oa:motivatedBy oa:tagging .
 
+nl:id_aae4aa8a79b15463ab2d58b9230b181a99f7cd48 a oa:Annotation .
+nl:id_aae4aa8a79b15463ab2d58b9230b181a99f7cd48 terms:title "Ruth knielt uit dankbaarheid voor Boaz neer. " .
+nl:id_aae4aa8a79b15463ab2d58b9230b181a99f7cd48 ui:annotationField bible:ICBibleTheme .
+nl:id_aae4aa8a79b15463ab2d58b9230b181a99f7cd48 ui:typingTime 0 .
+nl:id_aae4aa8a79b15463ab2d58b9230b181a99f7cd48 oa:annotatedAt "2016-06-18T14:31:16+02:00"^^xsd:dateTime .
+nl:id_aae4aa8a79b15463ab2d58b9230b181a99f7cd48 oa:annotatedBy user:paulinevandijk .
+nl:id_aae4aa8a79b15463ab2d58b9230b181a99f7cd48 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Ruth knielt uit dankbaarheid voor Boaz neer. " ] .
+nl:id_aae4aa8a79b15463ab2d58b9230b181a99f7cd48 oa:hasTarget ubvu:print-218010001411 .
+nl:id_aae4aa8a79b15463ab2d58b9230b181a99f7cd48 oa:motivatedBy oa:tagging .
+
 nl:id_b1e6319aad7c51bd0b8688129f5f283e8613d4b6 a oa:Annotation .
 nl:id_b1e6319aad7c51bd0b8688129f5f283e8613d4b6 terms:title "Ruth" .
 nl:id_b1e6319aad7c51bd0b8688129f5f283e8613d4b6 ui:annotationField bible:BibleCharacter .
