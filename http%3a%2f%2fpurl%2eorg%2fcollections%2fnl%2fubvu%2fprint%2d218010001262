@@ -29,3 +29,13 @@ nl:id_8c626b8f2c13c4a72c2c719efd1e2f07b8228008 oa:annotatedBy user:everhoeff .
 nl:id_8c626b8f2c13c4a72c2c719efd1e2f07b8228008 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "-" ] .
 nl:id_8c626b8f2c13c4a72c2c719efd1e2f07b8228008 oa:hasTarget ubvu:print-218010001262 .
 nl:id_8c626b8f2c13c4a72c2c719efd1e2f07b8228008 oa:motivatedBy oa:tagging .
+
+nl:id_c449c0063839551ccf244c8388a9fb9f5221529a a oa:Annotation .
+nl:id_c449c0063839551ccf244c8388a9fb9f5221529a terms:title "De woede van de Heer gaat als vuur rond in het kamp van het klagende volk" .
+nl:id_c449c0063839551ccf244c8388a9fb9f5221529a ui:annotationField bible:ICBibleTheme .
+nl:id_c449c0063839551ccf244c8388a9fb9f5221529a ui:typingTime 0 .
+nl:id_c449c0063839551ccf244c8388a9fb9f5221529a oa:annotatedAt "2016-06-18T14:28:25+02:00"^^xsd:dateTime .
+nl:id_c449c0063839551ccf244c8388a9fb9f5221529a oa:annotatedBy user:paulinevandijk .
+nl:id_c449c0063839551ccf244c8388a9fb9f5221529a oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "De woede van de Heer gaat als vuur rond in het kamp van het klagende volk" ] .
+nl:id_c449c0063839551ccf244c8388a9fb9f5221529a oa:hasTarget ubvu:print-218010001262 .
+nl:id_c449c0063839551ccf244c8388a9fb9f5221529a oa:motivatedBy oa:tagging .
