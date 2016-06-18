@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -34,6 +35,17 @@ nl:id_760d2b14cc19064488065f3b71edbbb119090a62 oa:hasTarget target:target_de4821
 nl:id_760d2b14cc19064488065f3b71edbbb119090a62 oa:hasTarget ubvu:print-218010001675 .
 nl:id_760d2b14cc19064488065f3b71edbbb119090a62 oa:motivatedBy oa:tagging .
 
+nl:id_7cd812bd35896ae2f600fb53232334e94d9904ce a oa:Annotation .
+nl:id_7cd812bd35896ae2f600fb53232334e94d9904ce terms:title "Jezus" .
+nl:id_7cd812bd35896ae2f600fb53232334e94d9904ce ui:annotationField bible:BibleCharacter .
+nl:id_7cd812bd35896ae2f600fb53232334e94d9904ce ui:typingTime 0 .
+nl:id_7cd812bd35896ae2f600fb53232334e94d9904ce oa:annotatedAt "2016-06-18T14:31:54+02:00"^^xsd:dateTime .
+nl:id_7cd812bd35896ae2f600fb53232334e94d9904ce oa:annotatedBy user:paulinevandijk .
+nl:id_7cd812bd35896ae2f600fb53232334e94d9904ce oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jezus" ] .
+nl:id_7cd812bd35896ae2f600fb53232334e94d9904ce oa:hasTarget target:target_c4839e7cd4c0073991111a5197c891eca5746c5b .
+nl:id_7cd812bd35896ae2f600fb53232334e94d9904ce oa:hasTarget ubvu:print-218010001675 .
+nl:id_7cd812bd35896ae2f600fb53232334e94d9904ce oa:motivatedBy oa:tagging .
+
 nl:id_a7750e96f98149d2083f49d629d072af8975017d a oa:Annotation .
 nl:id_a7750e96f98149d2083f49d629d072af8975017d terms:title "circumcision of the Christ-child by the priest in the temple (Luke 2:21)" .
 nl:id_a7750e96f98149d2083f49d629d072af8975017d ui:annotationField bible:ICBibleTheme .
@@ -44,6 +56,14 @@ nl:id_a7750e96f98149d2083f49d629d072af8975017d oa:hasBody <http://iconclass.org/
 nl:id_a7750e96f98149d2083f49d629d072af8975017d oa:hasTarget ubvu:print-218010001675 .
 nl:id_a7750e96f98149d2083f49d629d072af8975017d oa:motivatedBy oa:tagging .
 
+target:selector_c4839e7cd4c0073991111a5197c891eca5746c5b a oa:FragmentSelector .
+target:selector_c4839e7cd4c0073991111a5197c891eca5746c5b terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_c4839e7cd4c0073991111a5197c891eca5746c5b ui:h "0.055204140310523286"^^xsd:float .
+target:selector_c4839e7cd4c0073991111a5197c891eca5746c5b ui:w "0.11623931623931624"^^xsd:float .
+target:selector_c4839e7cd4c0073991111a5197c891eca5746c5b ui:x "0.5042735042735043"^^xsd:float .
+target:selector_c4839e7cd4c0073991111a5197c891eca5746c5b ui:y "0.5445658424381828"^^xsd:float .
+target:selector_c4839e7cd4c0073991111a5197c891eca5746c5b rdf:value "#xywh=percent:50,54,12,6" .
+
 target:selector_de48211b0f617eb465f9eabb37a0a39951a60a40 a oa:FragmentSelector .
 target:selector_de48211b0f617eb465f9eabb37a0a39951a60a40 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_de48211b0f617eb465f9eabb37a0a39951a60a40 ui:h "0.10810810810810811"^^xsd:float .
@@ -51,6 +71,10 @@ target:selector_de48211b0f617eb465f9eabb37a0a39951a60a40 ui:w "0.135042735042735
 target:selector_de48211b0f617eb465f9eabb37a0a39951a60a40 ui:x "0.46923076923076923"^^xsd:float .
 target:selector_de48211b0f617eb465f9eabb37a0a39951a60a40 ui:y "0.5353363721517395"^^xsd:float .
 target:selector_de48211b0f617eb465f9eabb37a0a39951a60a40 rdf:value "#xywh=percent:47,54,14,11" .
+
+target:target_c4839e7cd4c0073991111a5197c891eca5746c5b a oa:SpecificResource .
+target:target_c4839e7cd4c0073991111a5197c891eca5746c5b oa:hasSelector target:selector_c4839e7cd4c0073991111a5197c891eca5746c5b .
+target:target_c4839e7cd4c0073991111a5197c891eca5746c5b oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/714> .
 
 target:target_de48211b0f617eb465f9eabb37a0a39951a60a40 a oa:SpecificResource .
 target:target_de48211b0f617eb465f9eabb37a0a39951a60a40 oa:hasSelector target:selector_de48211b0f617eb465f9eabb37a0a39951a60a40 .
