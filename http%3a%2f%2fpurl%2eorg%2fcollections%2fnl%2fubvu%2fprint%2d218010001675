@@ -24,6 +24,16 @@ nl:id_5d897c1256ebc2167a87fb5b06f00b50cf8c1cd5 oa:hasTarget target:target_de4821
 nl:id_5d897c1256ebc2167a87fb5b06f00b50cf8c1cd5 oa:hasTarget ubvu:print-218010001675 .
 nl:id_5d897c1256ebc2167a87fb5b06f00b50cf8c1cd5 oa:motivatedBy oa:tagging .
 
+nl:id_6ad78f325c147f37f45333f3ebaebe57d09ef4cc a oa:Annotation .
+nl:id_6ad78f325c147f37f45333f3ebaebe57d09ef4cc terms:title "De besnijdenis van Jezus." .
+nl:id_6ad78f325c147f37f45333f3ebaebe57d09ef4cc ui:annotationField bible:ICBibleTheme .
+nl:id_6ad78f325c147f37f45333f3ebaebe57d09ef4cc ui:typingTime 0 .
+nl:id_6ad78f325c147f37f45333f3ebaebe57d09ef4cc oa:annotatedAt "2016-06-18T14:32:09+02:00"^^xsd:dateTime .
+nl:id_6ad78f325c147f37f45333f3ebaebe57d09ef4cc oa:annotatedBy user:paulinevandijk .
+nl:id_6ad78f325c147f37f45333f3ebaebe57d09ef4cc oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "De besnijdenis van Jezus." ] .
+nl:id_6ad78f325c147f37f45333f3ebaebe57d09ef4cc oa:hasTarget ubvu:print-218010001675 .
+nl:id_6ad78f325c147f37f45333f3ebaebe57d09ef4cc oa:motivatedBy oa:tagging .
+
 nl:id_760d2b14cc19064488065f3b71edbbb119090a62 a oa:Annotation .
 nl:id_760d2b14cc19064488065f3b71edbbb119090a62 terms:title "Christ" .
 nl:id_760d2b14cc19064488065f3b71edbbb119090a62 ui:annotationField bible:BibleCharacter .
