@@ -23,6 +23,16 @@ nl:id_9777ffaf094e12b204863d6165a7500a47b62801 oa:hasTarget target:target_9b4f4c
 nl:id_9777ffaf094e12b204863d6165a7500a47b62801 oa:hasTarget ubvu:print-218010001355 .
 nl:id_9777ffaf094e12b204863d6165a7500a47b62801 oa:motivatedBy oa:tagging .
 
+nl:id_a43df19588de3bd7d2dcc38703a9d2a7a0f845a8 a oa:Annotation .
+nl:id_a43df19588de3bd7d2dcc38703a9d2a7a0f845a8 terms:title "De stam van Ruben, Gad en de eerste helft van de stam van Manasse leggen uit waarom ze een altaar hebben gebouwd." .
+nl:id_a43df19588de3bd7d2dcc38703a9d2a7a0f845a8 ui:annotationField bible:ICBibleTheme .
+nl:id_a43df19588de3bd7d2dcc38703a9d2a7a0f845a8 ui:typingTime 0 .
+nl:id_a43df19588de3bd7d2dcc38703a9d2a7a0f845a8 oa:annotatedAt "2016-06-18T14:19:04+02:00"^^xsd:dateTime .
+nl:id_a43df19588de3bd7d2dcc38703a9d2a7a0f845a8 oa:annotatedBy user:paulinevandijk .
+nl:id_a43df19588de3bd7d2dcc38703a9d2a7a0f845a8 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "De stam van Ruben, Gad en de eerste helft van de stam van Manasse leggen uit waarom ze een altaar hebben gebouwd." ] .
+nl:id_a43df19588de3bd7d2dcc38703a9d2a7a0f845a8 oa:hasTarget ubvu:print-218010001355 .
+nl:id_a43df19588de3bd7d2dcc38703a9d2a7a0f845a8 oa:motivatedBy oa:tagging .
+
 nl:id_c4fe034665626efbed2f9a1d9ea225ac8e88a30d a oa:Annotation .
 nl:id_c4fe034665626efbed2f9a1d9ea225ac8e88a30d terms:title "The Rubenites answer in defense of their altar Jusua xxII. 15-13" .
 nl:id_c4fe034665626efbed2f9a1d9ea225ac8e88a30d ui:annotationField bible:ICBibleTheme .
