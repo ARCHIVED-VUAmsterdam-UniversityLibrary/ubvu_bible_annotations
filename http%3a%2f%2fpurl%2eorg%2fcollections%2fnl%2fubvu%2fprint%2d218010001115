@@ -34,6 +34,16 @@ nl:id_4d06ca7ae207e69dfac3a1afbfc979684de3292c oa:hasTarget target:target_f4d1db
 nl:id_4d06ca7ae207e69dfac3a1afbfc979684de3292c oa:hasTarget ubvu:print-218010001115 .
 nl:id_4d06ca7ae207e69dfac3a1afbfc979684de3292c oa:motivatedBy oa:tagging .
 
+nl:id_aa79084332ccb0846e8fd0e50d789d2f027fbdc2 a oa:Annotation .
+nl:id_aa79084332ccb0846e8fd0e50d789d2f027fbdc2 terms:title "Isaak enh Ismaél begraven Abraham in de grot van Machpela." .
+nl:id_aa79084332ccb0846e8fd0e50d789d2f027fbdc2 ui:annotationField bible:ICBibleTheme .
+nl:id_aa79084332ccb0846e8fd0e50d789d2f027fbdc2 ui:typingTime 0 .
+nl:id_aa79084332ccb0846e8fd0e50d789d2f027fbdc2 oa:annotatedAt "2016-06-18T14:20:48+02:00"^^xsd:dateTime .
+nl:id_aa79084332ccb0846e8fd0e50d789d2f027fbdc2 oa:annotatedBy user:paulinevandijk .
+nl:id_aa79084332ccb0846e8fd0e50d789d2f027fbdc2 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Isaak enh Ismaél begraven Abraham in de grot van Machpela." ] .
+nl:id_aa79084332ccb0846e8fd0e50d789d2f027fbdc2 oa:hasTarget ubvu:print-218010001115 .
+nl:id_aa79084332ccb0846e8fd0e50d789d2f027fbdc2 oa:motivatedBy oa:tagging .
+
 nl:id_c2adbad2f476ccbf178f1ebef37d0bce36c5cfc6 a oa:Annotation .
 nl:id_c2adbad2f476ccbf178f1ebef37d0bce36c5cfc6 terms:title "Abraham is buried by Isaac and Ishmael in the cave of Machpelah" .
 nl:id_c2adbad2f476ccbf178f1ebef37d0bce36c5cfc6 ui:annotationField bible:ICBibleTheme .
