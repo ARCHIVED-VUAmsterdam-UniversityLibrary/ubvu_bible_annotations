@@ -6,14 +6,41 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_c4fe034665626efbed2f9a1d9ea225ac8e88a30d> a oa:Annotation .
-<http://accurator.nl/id_c4fe034665626efbed2f9a1d9ea225ac8e88a30d> terms:title "The Rubenites answer in defense of their altar Jusua xxII. 15-13" .
-<http://accurator.nl/id_c4fe034665626efbed2f9a1d9ea225ac8e88a30d> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
-<http://accurator.nl/id_c4fe034665626efbed2f9a1d9ea225ac8e88a30d> ui:typingTime 0 .
-<http://accurator.nl/id_c4fe034665626efbed2f9a1d9ea225ac8e88a30d> oa:annotatedAt "2016-05-04T21:42:14+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_c4fe034665626efbed2f9a1d9ea225ac8e88a30d> oa:annotatedBy user:everhoeff .
-<http://accurator.nl/id_c4fe034665626efbed2f9a1d9ea225ac8e88a30d> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The Rubenites answer in defense of their altar Jusua xxII. 15-13" ] .
-<http://accurator.nl/id_c4fe034665626efbed2f9a1d9ea225ac8e88a30d> oa:hasTarget ubvu:print-218010001355 .
-<http://accurator.nl/id_c4fe034665626efbed2f9a1d9ea225ac8e88a30d> oa:motivatedBy oa:tagging .
+nl:id_9777ffaf094e12b204863d6165a7500a47b62801 a oa:Annotation .
+nl:id_9777ffaf094e12b204863d6165a7500a47b62801 terms:title "Pinechas" .
+nl:id_9777ffaf094e12b204863d6165a7500a47b62801 ui:annotationField bible:BibleCharacter .
+nl:id_9777ffaf094e12b204863d6165a7500a47b62801 ui:typingTime 0 .
+nl:id_9777ffaf094e12b204863d6165a7500a47b62801 oa:annotatedAt "2016-06-18T14:18:10+02:00"^^xsd:dateTime .
+nl:id_9777ffaf094e12b204863d6165a7500a47b62801 oa:annotatedBy user:paulinevandijk .
+nl:id_9777ffaf094e12b204863d6165a7500a47b62801 oa:hasBody resource:Phinehas .
+nl:id_9777ffaf094e12b204863d6165a7500a47b62801 oa:hasTarget target:target_9b4f4cfb07be1ad9defaabbeb3032d687640f668 .
+nl:id_9777ffaf094e12b204863d6165a7500a47b62801 oa:hasTarget ubvu:print-218010001355 .
+nl:id_9777ffaf094e12b204863d6165a7500a47b62801 oa:motivatedBy oa:tagging .
+
+nl:id_c4fe034665626efbed2f9a1d9ea225ac8e88a30d a oa:Annotation .
+nl:id_c4fe034665626efbed2f9a1d9ea225ac8e88a30d terms:title "The Rubenites answer in defense of their altar Jusua xxII. 15-13" .
+nl:id_c4fe034665626efbed2f9a1d9ea225ac8e88a30d ui:annotationField bible:ICBibleTheme .
+nl:id_c4fe034665626efbed2f9a1d9ea225ac8e88a30d ui:typingTime 0 .
+nl:id_c4fe034665626efbed2f9a1d9ea225ac8e88a30d oa:annotatedAt "2016-05-04T21:42:14+02:00"^^xsd:dateTime .
+nl:id_c4fe034665626efbed2f9a1d9ea225ac8e88a30d oa:annotatedBy user:everhoeff .
+nl:id_c4fe034665626efbed2f9a1d9ea225ac8e88a30d oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The Rubenites answer in defense of their altar Jusua xxII. 15-13" ] .
+nl:id_c4fe034665626efbed2f9a1d9ea225ac8e88a30d oa:hasTarget ubvu:print-218010001355 .
+nl:id_c4fe034665626efbed2f9a1d9ea225ac8e88a30d oa:motivatedBy oa:tagging .
+
+target:selector_9b4f4cfb07be1ad9defaabbeb3032d687640f668 a oa:FragmentSelector .
+target:selector_9b4f4cfb07be1ad9defaabbeb3032d687640f668 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_9b4f4cfb07be1ad9defaabbeb3032d687640f668 ui:h "0.2755765819041987"^^xsd:float .
+target:selector_9b4f4cfb07be1ad9defaabbeb3032d687640f668 ui:w "0.18205128205128204"^^xsd:float .
+target:selector_9b4f4cfb07be1ad9defaabbeb3032d687640f668 ui:x "0.4205128205128205"^^xsd:float .
+target:selector_9b4f4cfb07be1ad9defaabbeb3032d687640f668 ui:y "0.462448255470136"^^xsd:float .
+target:selector_9b4f4cfb07be1ad9defaabbeb3032d687640f668 rdf:value "#xywh=percent:42,46,18,28" .
+
+target:target_9b4f4cfb07be1ad9defaabbeb3032d687640f668 a oa:SpecificResource .
+target:target_9b4f4cfb07be1ad9defaabbeb3032d687640f668 oa:hasSelector target:selector_9b4f4cfb07be1ad9defaabbeb3032d687640f668 .
+target:target_9b4f4cfb07be1ad9defaabbeb3032d687640f668 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/396> .
