@@ -45,6 +45,17 @@ nl:id_a5bf5561db89c679e12fee6dd2691de291569447 oa:hasTarget target:target_b076f3
 nl:id_a5bf5561db89c679e12fee6dd2691de291569447 oa:hasTarget ubvu:print-218010001127 .
 nl:id_a5bf5561db89c679e12fee6dd2691de291569447 oa:motivatedBy oa:tagging .
 
+nl:id_f12218165b4c76410ea39179e2f6f1424c9475a2 a oa:Annotation .
+nl:id_f12218165b4c76410ea39179e2f6f1424c9475a2 terms:title "Jacob son of Isaac" .
+nl:id_f12218165b4c76410ea39179e2f6f1424c9475a2 ui:annotationField bible:BibleCharacter .
+nl:id_f12218165b4c76410ea39179e2f6f1424c9475a2 ui:typingTime 0 .
+nl:id_f12218165b4c76410ea39179e2f6f1424c9475a2 oa:annotatedAt "2016-06-21T17:53:27+02:00"^^xsd:dateTime .
+nl:id_f12218165b4c76410ea39179e2f6f1424c9475a2 oa:annotatedBy user:everhoeff .
+nl:id_f12218165b4c76410ea39179e2f6f1424c9475a2 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jacob son of Isaac" ] .
+nl:id_f12218165b4c76410ea39179e2f6f1424c9475a2 oa:hasTarget target:target_1efc36098e1b03405b842962b7002156f70a05e3 .
+nl:id_f12218165b4c76410ea39179e2f6f1424c9475a2 oa:hasTarget ubvu:print-218010001127 .
+nl:id_f12218165b4c76410ea39179e2f6f1424c9475a2 oa:motivatedBy oa:tagging .
+
 nl:id_f4054cc886be76246601837c15dbeed0186cfc6b a oa:Annotation .
 nl:id_f4054cc886be76246601837c15dbeed0186cfc6b terms:title "Isaac lying in bed blesses Jacob who, disguised in Esau's clothes, brings food to his father; Jacob's hands and neck are covered with goatskins" .
 nl:id_f4054cc886be76246601837c15dbeed0186cfc6b ui:annotationField bible:ICBibleTheme .
@@ -54,6 +65,14 @@ nl:id_f4054cc886be76246601837c15dbeed0186cfc6b oa:annotatedBy user:everhoeff .
 nl:id_f4054cc886be76246601837c15dbeed0186cfc6b oa:hasBody <http://iconclass.org/71C274> .
 nl:id_f4054cc886be76246601837c15dbeed0186cfc6b oa:hasTarget ubvu:print-218010001127 .
 nl:id_f4054cc886be76246601837c15dbeed0186cfc6b oa:motivatedBy oa:tagging .
+
+target:selector_1efc36098e1b03405b842962b7002156f70a05e3 a oa:FragmentSelector .
+target:selector_1efc36098e1b03405b842962b7002156f70a05e3 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_1efc36098e1b03405b842962b7002156f70a05e3 ui:h "0.24893435635123615"^^xsd:float .
+target:selector_1efc36098e1b03405b842962b7002156f70a05e3 ui:w "0.20933333333333334"^^xsd:float .
+target:selector_1efc36098e1b03405b842962b7002156f70a05e3 ui:x "0.31333333333333335"^^xsd:float .
+target:selector_1efc36098e1b03405b842962b7002156f70a05e3 ui:y "0.5225916453537937"^^xsd:float .
+target:selector_1efc36098e1b03405b842962b7002156f70a05e3 rdf:value "#xywh=percent:31,52,21,25" .
 
 target:selector_b076f3140d8d1fc792b0cf7c67351e0e9df75ce3 a oa:FragmentSelector .
 target:selector_b076f3140d8d1fc792b0cf7c67351e0e9df75ce3 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -70,6 +89,10 @@ target:selector_fcbb5205ff563faee3005a779ca97f30248a07b3 ui:w "0.234666666666666
 target:selector_fcbb5205ff563faee3005a779ca97f30248a07b3 ui:x "0.12666666666666668"^^xsd:float .
 target:selector_fcbb5205ff563faee3005a779ca97f30248a07b3 ui:y "0.43478260869565216"^^xsd:float .
 target:selector_fcbb5205ff563faee3005a779ca97f30248a07b3 rdf:value "#xywh=percent:13,43,23,31" .
+
+target:target_1efc36098e1b03405b842962b7002156f70a05e3 a oa:SpecificResource .
+target:target_1efc36098e1b03405b842962b7002156f70a05e3 oa:hasSelector target:selector_1efc36098e1b03405b842962b7002156f70a05e3 .
+target:target_1efc36098e1b03405b842962b7002156f70a05e3 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/168> .
 
 target:target_b076f3140d8d1fc792b0cf7c67351e0e9df75ce3 a oa:SpecificResource .
 target:target_b076f3140d8d1fc792b0cf7c67351e0e9df75ce3 oa:hasSelector target:selector_b076f3140d8d1fc792b0cf7c67351e0e9df75ce3 .
