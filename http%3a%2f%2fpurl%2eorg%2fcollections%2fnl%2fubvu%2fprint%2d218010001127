@@ -4,9 +4,22 @@
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
+
+nl:id_5402d8b1b513a30ce4da43d705e965d87b4c4d9a a oa:Annotation .
+nl:id_5402d8b1b513a30ce4da43d705e965d87b4c4d9a terms:title "Isaac" .
+nl:id_5402d8b1b513a30ce4da43d705e965d87b4c4d9a ui:annotationField bible:BibleCharacter .
+nl:id_5402d8b1b513a30ce4da43d705e965d87b4c4d9a ui:typingTime 0 .
+nl:id_5402d8b1b513a30ce4da43d705e965d87b4c4d9a oa:annotatedAt "2016-06-21T17:52:25+02:00"^^xsd:dateTime .
+nl:id_5402d8b1b513a30ce4da43d705e965d87b4c4d9a oa:annotatedBy user:everhoeff .
+nl:id_5402d8b1b513a30ce4da43d705e965d87b4c4d9a oa:hasBody resource:Isaac .
+nl:id_5402d8b1b513a30ce4da43d705e965d87b4c4d9a oa:hasTarget target:target_fcbb5205ff563faee3005a779ca97f30248a07b3 .
+nl:id_5402d8b1b513a30ce4da43d705e965d87b4c4d9a oa:hasTarget ubvu:print-218010001127 .
+nl:id_5402d8b1b513a30ce4da43d705e965d87b4c4d9a oa:motivatedBy oa:tagging .
 
 nl:id_806519c726d8663cc8eff146c920f7f1bc4f1e19 a oa:Annotation .
 nl:id_806519c726d8663cc8eff146c920f7f1bc4f1e19 terms:title "Isaac lying in bed blesses Jacob who, disguised in Esau's clothes, brings food to his father; Jacob's hands and neck are covered with goatskins" .
@@ -27,3 +40,15 @@ nl:id_f4054cc886be76246601837c15dbeed0186cfc6b oa:annotatedBy user:everhoeff .
 nl:id_f4054cc886be76246601837c15dbeed0186cfc6b oa:hasBody <http://iconclass.org/71C274> .
 nl:id_f4054cc886be76246601837c15dbeed0186cfc6b oa:hasTarget ubvu:print-218010001127 .
 nl:id_f4054cc886be76246601837c15dbeed0186cfc6b oa:motivatedBy oa:tagging .
+
+target:selector_fcbb5205ff563faee3005a779ca97f30248a07b3 a oa:FragmentSelector .
+target:selector_fcbb5205ff563faee3005a779ca97f30248a07b3 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_fcbb5205ff563faee3005a779ca97f30248a07b3 ui:h "0.309462915601023"^^xsd:float .
+target:selector_fcbb5205ff563faee3005a779ca97f30248a07b3 ui:w "0.23466666666666666"^^xsd:float .
+target:selector_fcbb5205ff563faee3005a779ca97f30248a07b3 ui:x "0.12666666666666668"^^xsd:float .
+target:selector_fcbb5205ff563faee3005a779ca97f30248a07b3 ui:y "0.43478260869565216"^^xsd:float .
+target:selector_fcbb5205ff563faee3005a779ca97f30248a07b3 rdf:value "#xywh=percent:13,43,23,31" .
+
+target:target_fcbb5205ff563faee3005a779ca97f30248a07b3 a oa:SpecificResource .
+target:target_fcbb5205ff563faee3005a779ca97f30248a07b3 oa:hasSelector target:selector_fcbb5205ff563faee3005a779ca97f30248a07b3 .
+target:target_fcbb5205ff563faee3005a779ca97f30248a07b3 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/168> .
