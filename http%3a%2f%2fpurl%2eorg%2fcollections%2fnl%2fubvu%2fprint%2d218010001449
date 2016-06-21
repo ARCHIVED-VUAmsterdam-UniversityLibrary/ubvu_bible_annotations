@@ -33,6 +33,17 @@ nl:id_35244baf04129533d756b005404c372d587dda04 oa:hasTarget target:target_6962ab
 nl:id_35244baf04129533d756b005404c372d587dda04 oa:hasTarget ubvu:print-218010001449 .
 nl:id_35244baf04129533d756b005404c372d587dda04 oa:motivatedBy oa:tagging .
 
+nl:id_392965eeca20ac0a9efb04c64d7d24483fde8f73 a oa:Annotation .
+nl:id_392965eeca20ac0a9efb04c64d7d24483fde8f73 terms:title "Jonathan" .
+nl:id_392965eeca20ac0a9efb04c64d7d24483fde8f73 ui:annotationField bible:BibleCharacter .
+nl:id_392965eeca20ac0a9efb04c64d7d24483fde8f73 ui:typingTime 0 .
+nl:id_392965eeca20ac0a9efb04c64d7d24483fde8f73 oa:annotatedAt "2016-06-21T17:54:49+02:00"^^xsd:dateTime .
+nl:id_392965eeca20ac0a9efb04c64d7d24483fde8f73 oa:annotatedBy user:everhoeff .
+nl:id_392965eeca20ac0a9efb04c64d7d24483fde8f73 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jonathan" ] .
+nl:id_392965eeca20ac0a9efb04c64d7d24483fde8f73 oa:hasTarget target:target_c469758c615b40b96bdd8b0115b03aef35e2d8f5 .
+nl:id_392965eeca20ac0a9efb04c64d7d24483fde8f73 oa:hasTarget ubvu:print-218010001449 .
+nl:id_392965eeca20ac0a9efb04c64d7d24483fde8f73 oa:motivatedBy oa:tagging .
+
 nl:id_5c458b83c5ab949183583b10674226861dfdb37b a oa:Annotation .
 nl:id_5c458b83c5ab949183583b10674226861dfdb37b terms:title "Jonathan and his armour-bearer kill about twenty Philistines" .
 nl:id_5c458b83c5ab949183583b10674226861dfdb37b ui:annotationField bible:ICBibleTheme .
@@ -80,6 +91,14 @@ target:selector_6962ab85012dcada1514939ffcefaf2153ca42a9 ui:x "0.017094017094017
 target:selector_6962ab85012dcada1514939ffcefaf2153ca42a9 ui:y "0.3700648202710666"^^xsd:float .
 target:selector_6962ab85012dcada1514939ffcefaf2153ca42a9 rdf:value "#xywh=percent:2,37,47,39" .
 
+target:selector_c469758c615b40b96bdd8b0115b03aef35e2d8f5 a oa:FragmentSelector .
+target:selector_c469758c615b40b96bdd8b0115b03aef35e2d8f5 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_c469758c615b40b96bdd8b0115b03aef35e2d8f5 ui:h "0.3961397058823529"^^xsd:float .
+target:selector_c469758c615b40b96bdd8b0115b03aef35e2d8f5 ui:w "0.27466666666666667"^^xsd:float .
+target:selector_c469758c615b40b96bdd8b0115b03aef35e2d8f5 ui:x "0.11333333333333333"^^xsd:float .
+target:selector_c469758c615b40b96bdd8b0115b03aef35e2d8f5 ui:y "0.3805147058823529"^^xsd:float .
+target:selector_c469758c615b40b96bdd8b0115b03aef35e2d8f5 rdf:value "#xywh=percent:11,38,27,40" .
+
 target:target_0e2d16a320b3d5ed497d6ac611ef12bfc634790c a oa:SpecificResource .
 target:target_0e2d16a320b3d5ed497d6ac611ef12bfc634790c oa:hasSelector target:selector_0e2d16a320b3d5ed497d6ac611ef12bfc634790c .
 target:target_0e2d16a320b3d5ed497d6ac611ef12bfc634790c oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/490> .
@@ -87,3 +106,7 @@ target:target_0e2d16a320b3d5ed497d6ac611ef12bfc634790c oa:hasSource <http://imag
 target:target_6962ab85012dcada1514939ffcefaf2153ca42a9 a oa:SpecificResource .
 target:target_6962ab85012dcada1514939ffcefaf2153ca42a9 oa:hasSelector target:selector_6962ab85012dcada1514939ffcefaf2153ca42a9 .
 target:target_6962ab85012dcada1514939ffcefaf2153ca42a9 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/490> .
+
+target:target_c469758c615b40b96bdd8b0115b03aef35e2d8f5 a oa:SpecificResource .
+target:target_c469758c615b40b96bdd8b0115b03aef35e2d8f5 oa:hasSelector target:selector_c469758c615b40b96bdd8b0115b03aef35e2d8f5 .
+target:target_c469758c615b40b96bdd8b0115b03aef35e2d8f5 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/490> .
