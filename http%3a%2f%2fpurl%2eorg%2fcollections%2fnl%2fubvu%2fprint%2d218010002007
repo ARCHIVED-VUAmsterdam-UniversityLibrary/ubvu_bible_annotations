@@ -121,6 +121,16 @@ nl:id_d2159de66c1df399627dd9d12cf77cfed20f4cf9 oa:hasTarget target:target_5f216d
 nl:id_d2159de66c1df399627dd9d12cf77cfed20f4cf9 oa:hasTarget ubvu:print-218010002007 .
 nl:id_d2159de66c1df399627dd9d12cf77cfed20f4cf9 oa:motivatedBy oa:tagging .
 
+nl:id_d9dc45ff74c0d061b9c8b22d58905419b6836a6f a oa:Annotation .
+nl:id_d9dc45ff74c0d061b9c8b22d58905419b6836a6f terms:title "The serpent upon a pole" .
+nl:id_d9dc45ff74c0d061b9c8b22d58905419b6836a6f ui:annotationField bible:ICBibleTheme .
+nl:id_d9dc45ff74c0d061b9c8b22d58905419b6836a6f ui:typingTime 0 .
+nl:id_d9dc45ff74c0d061b9c8b22d58905419b6836a6f oa:annotatedAt "2016-06-21T17:20:07+02:00"^^xsd:dateTime .
+nl:id_d9dc45ff74c0d061b9c8b22d58905419b6836a6f oa:annotatedBy user:everhoeff .
+nl:id_d9dc45ff74c0d061b9c8b22d58905419b6836a6f oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The serpent upon a pole" ] .
+nl:id_d9dc45ff74c0d061b9c8b22d58905419b6836a6f oa:hasTarget ubvu:print-218010002007 .
+nl:id_d9dc45ff74c0d061b9c8b22d58905419b6836a6f oa:motivatedBy oa:tagging .
+
 nl:id_e6e4fec12727eb0b9ec351fb8c7ddf1652c8d47d a oa:Annotation .
 nl:id_e6e4fec12727eb0b9ec351fb8c7ddf1652c8d47d terms:title "De dood van Aäron en Mozes met de koperen slang" .
 nl:id_e6e4fec12727eb0b9ec351fb8c7ddf1652c8d47d ui:annotationField bible:ICBibleTheme .
