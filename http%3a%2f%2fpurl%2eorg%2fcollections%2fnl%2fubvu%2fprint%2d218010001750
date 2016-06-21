@@ -1,17 +1,31 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_565264a38b16fa51133c00a61f9be9ce4de07f07> a oa:Annotation .
-<http://accurator.nl/id_565264a38b16fa51133c00a61f9be9ce4de07f07> terms:title "the centurion of Capernaum, kneeling before Christ, begs him to heal his paralytic servant (or son) (Matthew 8:5-13; Luke 7:1-10; John 4:46-54)" .
-<http://accurator.nl/id_565264a38b16fa51133c00a61f9be9ce4de07f07> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
-<http://accurator.nl/id_565264a38b16fa51133c00a61f9be9ce4de07f07> ui:typingTime 0 .
-<http://accurator.nl/id_565264a38b16fa51133c00a61f9be9ce4de07f07> oa:annotatedAt "2016-04-04T15:30:02+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_565264a38b16fa51133c00a61f9be9ce4de07f07> oa:annotatedBy user:spaapen1 .
-<http://accurator.nl/id_565264a38b16fa51133c00a61f9be9ce4de07f07> oa:hasBody <http://iconclass.org/73C423> .
-<http://accurator.nl/id_565264a38b16fa51133c00a61f9be9ce4de07f07> oa:hasTarget ubvu:print-218010001750 .
-<http://accurator.nl/id_565264a38b16fa51133c00a61f9be9ce4de07f07> oa:motivatedBy oa:tagging .
+nl:id_4fcb541c9ff7d83411536bc0cf3e97f861554636 a oa:Annotation .
+nl:id_4fcb541c9ff7d83411536bc0cf3e97f861554636 terms:title "A nobleman came to Jesus and besought him to heal his son" .
+nl:id_4fcb541c9ff7d83411536bc0cf3e97f861554636 ui:annotationField bible:ICBibleTheme .
+nl:id_4fcb541c9ff7d83411536bc0cf3e97f861554636 ui:typingTime 0 .
+nl:id_4fcb541c9ff7d83411536bc0cf3e97f861554636 oa:annotatedAt "2016-06-21T17:58:53+02:00"^^xsd:dateTime .
+nl:id_4fcb541c9ff7d83411536bc0cf3e97f861554636 oa:annotatedBy user:everhoeff .
+nl:id_4fcb541c9ff7d83411536bc0cf3e97f861554636 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "A nobleman came to Jesus and besought him to heal his son" ] .
+nl:id_4fcb541c9ff7d83411536bc0cf3e97f861554636 oa:hasTarget ubvu:print-218010001750 .
+nl:id_4fcb541c9ff7d83411536bc0cf3e97f861554636 oa:motivatedBy oa:tagging .
+
+nl:id_565264a38b16fa51133c00a61f9be9ce4de07f07 a oa:Annotation .
+nl:id_565264a38b16fa51133c00a61f9be9ce4de07f07 terms:title "the centurion of Capernaum, kneeling before Christ, begs him to heal his paralytic servant (or son) (Matthew 8:5-13; Luke 7:1-10; John 4:46-54)" .
+nl:id_565264a38b16fa51133c00a61f9be9ce4de07f07 ui:annotationField bible:ICBibleTheme .
+nl:id_565264a38b16fa51133c00a61f9be9ce4de07f07 ui:typingTime 0 .
+nl:id_565264a38b16fa51133c00a61f9be9ce4de07f07 oa:annotatedAt "2016-04-04T15:30:02+02:00"^^xsd:dateTime .
+nl:id_565264a38b16fa51133c00a61f9be9ce4de07f07 oa:annotatedBy user:spaapen1 .
+nl:id_565264a38b16fa51133c00a61f9be9ce4de07f07 oa:hasBody <http://iconclass.org/73C423> .
+nl:id_565264a38b16fa51133c00a61f9be9ce4de07f07 oa:hasTarget ubvu:print-218010001750 .
+nl:id_565264a38b16fa51133c00a61f9be9ce4de07f07 oa:motivatedBy oa:tagging .
