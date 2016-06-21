@@ -12,6 +12,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_05da49b4de7905a2841d040ff9c571e4d228f1ee a oa:Annotation .
+nl:id_05da49b4de7905a2841d040ff9c571e4d228f1ee terms:title "Aaron died on the top of the mount" .
+nl:id_05da49b4de7905a2841d040ff9c571e4d228f1ee ui:annotationField bible:ICBibleTheme .
+nl:id_05da49b4de7905a2841d040ff9c571e4d228f1ee ui:typingTime 0 .
+nl:id_05da49b4de7905a2841d040ff9c571e4d228f1ee oa:annotatedAt "2016-06-21T17:25:18+02:00"^^xsd:dateTime .
+nl:id_05da49b4de7905a2841d040ff9c571e4d228f1ee oa:annotatedBy user:everhoeff .
+nl:id_05da49b4de7905a2841d040ff9c571e4d228f1ee oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Aaron died on the top of the mount" ] .
+nl:id_05da49b4de7905a2841d040ff9c571e4d228f1ee oa:hasTarget ubvu:print-218010002007 .
+nl:id_05da49b4de7905a2841d040ff9c571e4d228f1ee oa:motivatedBy oa:tagging .
+
 nl:id_3392db800d95352df65a3c15112d2f7cb306578e a oa:Annotation .
 nl:id_3392db800d95352df65a3c15112d2f7cb306578e terms:title "Aaron stripted of his garments and given to his son Eliazar" .
 nl:id_3392db800d95352df65a3c15112d2f7cb306578e ui:annotationField bible:ICBibleTheme .
