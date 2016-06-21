@@ -12,6 +12,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_03618958cdbf5125468dae1d6473871da83478f9 a oa:Annotation .
+nl:id_03618958cdbf5125468dae1d6473871da83478f9 terms:title "Susanna resists the temptation of the two judges" .
+nl:id_03618958cdbf5125468dae1d6473871da83478f9 ui:annotationField bible:ICBibleTheme .
+nl:id_03618958cdbf5125468dae1d6473871da83478f9 ui:typingTime 0 .
+nl:id_03618958cdbf5125468dae1d6473871da83478f9 oa:annotatedAt "2016-06-21T17:39:37+02:00"^^xsd:dateTime .
+nl:id_03618958cdbf5125468dae1d6473871da83478f9 oa:annotatedBy user:everhoeff .
+nl:id_03618958cdbf5125468dae1d6473871da83478f9 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Susanna resists the temptation of the two judges" ] .
+nl:id_03618958cdbf5125468dae1d6473871da83478f9 oa:hasTarget ubvu:print-218010001605 .
+nl:id_03618958cdbf5125468dae1d6473871da83478f9 oa:motivatedBy oa:tagging .
+
 nl:id_602d9b17a9602ed904a26341ee5abfdfbb84ff8f a oa:Annotation .
 nl:id_602d9b17a9602ed904a26341ee5abfdfbb84ff8f terms:title "susanna" .
 nl:id_602d9b17a9602ed904a26341ee5abfdfbb84ff8f ui:annotationField bible:BibleCharacter .
