@@ -33,6 +33,16 @@ nl:id_35244baf04129533d756b005404c372d587dda04 oa:hasTarget target:target_6962ab
 nl:id_35244baf04129533d756b005404c372d587dda04 oa:hasTarget ubvu:print-218010001449 .
 nl:id_35244baf04129533d756b005404c372d587dda04 oa:motivatedBy oa:tagging .
 
+nl:id_5c458b83c5ab949183583b10674226861dfdb37b a oa:Annotation .
+nl:id_5c458b83c5ab949183583b10674226861dfdb37b terms:title "Jonathan and his armour-bearer kill about twenty Philistines" .
+nl:id_5c458b83c5ab949183583b10674226861dfdb37b ui:annotationField bible:ICBibleTheme .
+nl:id_5c458b83c5ab949183583b10674226861dfdb37b ui:typingTime 0 .
+nl:id_5c458b83c5ab949183583b10674226861dfdb37b oa:annotatedAt "2016-06-21T17:54:33+02:00"^^xsd:dateTime .
+nl:id_5c458b83c5ab949183583b10674226861dfdb37b oa:annotatedBy user:everhoeff .
+nl:id_5c458b83c5ab949183583b10674226861dfdb37b oa:hasBody <http://iconclass.org/71G222> .
+nl:id_5c458b83c5ab949183583b10674226861dfdb37b oa:hasTarget ubvu:print-218010001449 .
+nl:id_5c458b83c5ab949183583b10674226861dfdb37b oa:motivatedBy oa:tagging .
+
 nl:id_65fe288e4484efa9545301887bdeb983eb24d7bd a oa:Annotation .
 nl:id_65fe288e4484efa9545301887bdeb983eb24d7bd terms:title "Jonathan in gevecht met Filistijnen" .
 nl:id_65fe288e4484efa9545301887bdeb983eb24d7bd ui:annotationField bible:ICBibleTheme .
