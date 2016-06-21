@@ -12,6 +12,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_3392db800d95352df65a3c15112d2f7cb306578e a oa:Annotation .
+nl:id_3392db800d95352df65a3c15112d2f7cb306578e terms:title "Aaron stripted of his garments and given to his son Eliazar" .
+nl:id_3392db800d95352df65a3c15112d2f7cb306578e ui:annotationField bible:ICBibleTheme .
+nl:id_3392db800d95352df65a3c15112d2f7cb306578e ui:typingTime 0 .
+nl:id_3392db800d95352df65a3c15112d2f7cb306578e oa:annotatedAt "2016-06-21T17:24:20+02:00"^^xsd:dateTime .
+nl:id_3392db800d95352df65a3c15112d2f7cb306578e oa:annotatedBy user:everhoeff .
+nl:id_3392db800d95352df65a3c15112d2f7cb306578e oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Aaron stripted of his garments and given to his son Eliazar" ] .
+nl:id_3392db800d95352df65a3c15112d2f7cb306578e oa:hasTarget ubvu:print-218010002007 .
+nl:id_3392db800d95352df65a3c15112d2f7cb306578e oa:motivatedBy oa:tagging .
+
 nl:id_4b20c47e1492327a5210e29b7349a1e36ae8bc79 a oa:Annotation .
 nl:id_4b20c47e1492327a5210e29b7349a1e36ae8bc79 terms:title "Aäron" .
 nl:id_4b20c47e1492327a5210e29b7349a1e36ae8bc79 ui:annotationField bible:BibleCharacter .
