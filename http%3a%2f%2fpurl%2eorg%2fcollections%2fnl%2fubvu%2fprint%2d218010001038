@@ -33,6 +33,16 @@ nl:id_6ff569557ab5a461c691f411fce7ca8145b2c02f oa:hasTarget target:target_926c43
 nl:id_6ff569557ab5a461c691f411fce7ca8145b2c02f oa:hasTarget ubvu:print-218010001038 .
 nl:id_6ff569557ab5a461c691f411fce7ca8145b2c02f oa:motivatedBy oa:tagging .
 
+nl:id_9e11a390d25eb07771ef093561b8b203d2d1098f a oa:Annotation .
+nl:id_9e11a390d25eb07771ef093561b8b203d2d1098f terms:title "Cain, where is Abel your brother?" .
+nl:id_9e11a390d25eb07771ef093561b8b203d2d1098f ui:annotationField bible:ICBibleTheme .
+nl:id_9e11a390d25eb07771ef093561b8b203d2d1098f ui:typingTime 0 .
+nl:id_9e11a390d25eb07771ef093561b8b203d2d1098f oa:annotatedAt "2016-06-21T17:44:52+02:00"^^xsd:dateTime .
+nl:id_9e11a390d25eb07771ef093561b8b203d2d1098f oa:annotatedBy user:everhoeff .
+nl:id_9e11a390d25eb07771ef093561b8b203d2d1098f oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Cain, where is Abel your brother?" ] .
+nl:id_9e11a390d25eb07771ef093561b8b203d2d1098f oa:hasTarget ubvu:print-218010001038 .
+nl:id_9e11a390d25eb07771ef093561b8b203d2d1098f oa:motivatedBy oa:tagging .
+
 nl:id_f595b678e691c26c77928d74357d14dbfa9438a6 a oa:Annotation .
 nl:id_f595b678e691c26c77928d74357d14dbfa9438a6 terms:title "Kaïn" .
 nl:id_f595b678e691c26c77928d74357d14dbfa9438a6 ui:annotationField bible:BibleCharacter .
