@@ -45,6 +45,16 @@ nl:id_acd0fb5975e1c4f95b0d7da0bbca754299819187 oa:hasTarget target:target_60f72a
 nl:id_acd0fb5975e1c4f95b0d7da0bbca754299819187 oa:hasTarget ubvu:print-218010001724 .
 nl:id_acd0fb5975e1c4f95b0d7da0bbca754299819187 oa:motivatedBy oa:tagging .
 
+nl:id_c7a6123193911f9345d26cee87e0228eda8515c8 a oa:Annotation .
+nl:id_c7a6123193911f9345d26cee87e0228eda8515c8 terms:title "Jesus cleans a leper of his leprosy" .
+nl:id_c7a6123193911f9345d26cee87e0228eda8515c8 ui:annotationField bible:ICBibleTheme .
+nl:id_c7a6123193911f9345d26cee87e0228eda8515c8 ui:typingTime 0 .
+nl:id_c7a6123193911f9345d26cee87e0228eda8515c8 oa:annotatedAt "2016-06-21T17:42:09+02:00"^^xsd:dateTime .
+nl:id_c7a6123193911f9345d26cee87e0228eda8515c8 oa:annotatedBy user:everhoeff .
+nl:id_c7a6123193911f9345d26cee87e0228eda8515c8 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jesus cleans a leper of his leprosy" ] .
+nl:id_c7a6123193911f9345d26cee87e0228eda8515c8 oa:hasTarget ubvu:print-218010001724 .
+nl:id_c7a6123193911f9345d26cee87e0228eda8515c8 oa:motivatedBy oa:tagging .
+
 target:selector_0a3541456b6471d66de769874475166ab84e2971 a oa:FragmentSelector .
 target:selector_0a3541456b6471d66de769874475166ab84e2971 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_0a3541456b6471d66de769874475166ab84e2971 ui:h "0.14018691588785046"^^xsd:float .
