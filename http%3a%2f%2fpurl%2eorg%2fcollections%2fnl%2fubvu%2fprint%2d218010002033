@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -72,6 +73,17 @@ nl:id_d117c40bc288cc51580378b600389b1a9e6bf05b oa:hasBody [ a content:ContentAsT
 nl:id_d117c40bc288cc51580378b600389b1a9e6bf05b oa:hasTarget ubvu:print-218010002033 .
 nl:id_d117c40bc288cc51580378b600389b1a9e6bf05b oa:motivatedBy oa:tagging .
 
+nl:id_eb77487685483dd28711b78d87eced7edeacbf9a a oa:Annotation .
+nl:id_eb77487685483dd28711b78d87eced7edeacbf9a terms:title "Johannes de Doper" .
+nl:id_eb77487685483dd28711b78d87eced7edeacbf9a ui:annotationField bible:BibleCharacter .
+nl:id_eb77487685483dd28711b78d87eced7edeacbf9a ui:typingTime 0 .
+nl:id_eb77487685483dd28711b78d87eced7edeacbf9a oa:annotatedAt "2016-06-22T20:51:15+02:00"^^xsd:dateTime .
+nl:id_eb77487685483dd28711b78d87eced7edeacbf9a oa:annotatedBy user:paulinevandijk .
+nl:id_eb77487685483dd28711b78d87eced7edeacbf9a oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Johannes de Doper" ] .
+nl:id_eb77487685483dd28711b78d87eced7edeacbf9a oa:hasTarget target:target_9133a5e7df831f45783cff7442b3f64ea3c5cb03 .
+nl:id_eb77487685483dd28711b78d87eced7edeacbf9a oa:hasTarget ubvu:print-218010002033 .
+nl:id_eb77487685483dd28711b78d87eced7edeacbf9a oa:motivatedBy oa:tagging .
+
 nl:id_ebeb53f754a65f2aca8d168d3f46d83a129b6ef4 a oa:Annotation .
 nl:id_ebeb53f754a65f2aca8d168d3f46d83a129b6ef4 terms:title "Jesus walking on the water (Mt.14,28)" .
 nl:id_ebeb53f754a65f2aca8d168d3f46d83a129b6ef4 ui:annotationField bible:ICBibleTheme .
@@ -90,6 +102,18 @@ target:selector_33b70c2e69a46a0b4115607a7343683ec2cadbe9 ui:x "0.149572649572649
 target:selector_33b70c2e69a46a0b4115607a7343683ec2cadbe9 ui:y "0.1257242178447277"^^xsd:float .
 target:selector_33b70c2e69a46a0b4115607a7343683ec2cadbe9 rdf:value "#xywh=percent:15,13,5,8" .
 
+target:selector_9133a5e7df831f45783cff7442b3f64ea3c5cb03 a oa:FragmentSelector .
+target:selector_9133a5e7df831f45783cff7442b3f64ea3c5cb03 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_9133a5e7df831f45783cff7442b3f64ea3c5cb03 ui:h "0.08458864426419467"^^xsd:float .
+target:selector_9133a5e7df831f45783cff7442b3f64ea3c5cb03 ui:w "0.05726495726495726"^^xsd:float .
+target:selector_9133a5e7df831f45783cff7442b3f64ea3c5cb03 ui:x "0.5555555555555556"^^xsd:float .
+target:selector_9133a5e7df831f45783cff7442b3f64ea3c5cb03 ui:y "0.126882966396292"^^xsd:float .
+target:selector_9133a5e7df831f45783cff7442b3f64ea3c5cb03 rdf:value "#xywh=percent:56,13,6,8" .
+
 target:target_33b70c2e69a46a0b4115607a7343683ec2cadbe9 a oa:SpecificResource .
 target:target_33b70c2e69a46a0b4115607a7343683ec2cadbe9 oa:hasSelector target:selector_33b70c2e69a46a0b4115607a7343683ec2cadbe9 .
 target:target_33b70c2e69a46a0b4115607a7343683ec2cadbe9 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/32> .
+
+target:target_9133a5e7df831f45783cff7442b3f64ea3c5cb03 a oa:SpecificResource .
+target:target_9133a5e7df831f45783cff7442b3f64ea3c5cb03 oa:hasSelector target:selector_9133a5e7df831f45783cff7442b3f64ea3c5cb03 .
+target:target_9133a5e7df831f45783cff7442b3f64ea3c5cb03 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/32> .
