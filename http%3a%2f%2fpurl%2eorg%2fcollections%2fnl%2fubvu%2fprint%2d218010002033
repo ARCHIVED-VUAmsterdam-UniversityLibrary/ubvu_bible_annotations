@@ -12,6 +12,17 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_06f94382436680a8fecc5ac3d1f6a299ba90fafb a oa:Annotation .
+nl:id_06f94382436680a8fecc5ac3d1f6a299ba90fafb terms:title "dochter van Herodias" .
+nl:id_06f94382436680a8fecc5ac3d1f6a299ba90fafb ui:annotationField bible:BibleCharacter .
+nl:id_06f94382436680a8fecc5ac3d1f6a299ba90fafb ui:typingTime 0 .
+nl:id_06f94382436680a8fecc5ac3d1f6a299ba90fafb oa:annotatedAt "2016-06-22T20:53:08+02:00"^^xsd:dateTime .
+nl:id_06f94382436680a8fecc5ac3d1f6a299ba90fafb oa:annotatedBy user:paulinevandijk .
+nl:id_06f94382436680a8fecc5ac3d1f6a299ba90fafb oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "dochter van Herodias" ] .
+nl:id_06f94382436680a8fecc5ac3d1f6a299ba90fafb oa:hasTarget target:target_8fc2ada3505fb16bda889b28e2c3526e15c7084a .
+nl:id_06f94382436680a8fecc5ac3d1f6a299ba90fafb oa:hasTarget ubvu:print-218010002033 .
+nl:id_06f94382436680a8fecc5ac3d1f6a299ba90fafb oa:motivatedBy oa:tagging .
+
 nl:id_30228af3d2355e6f48a2ad1cd2b52340b8c7035b a oa:Annotation .
 nl:id_30228af3d2355e6f48a2ad1cd2b52340b8c7035b terms:title "De dochter van Herodias danst op het feest van Herodus." .
 nl:id_30228af3d2355e6f48a2ad1cd2b52340b8c7035b ui:annotationField bible:ICBibleTheme .
@@ -161,6 +172,14 @@ target:selector_760bcb234672033dbc76ccd59224abdcd0ecb2b6 ui:x "0.381196581196581
 target:selector_760bcb234672033dbc76ccd59224abdcd0ecb2b6 ui:y "0.2421784472769409"^^xsd:float .
 target:selector_760bcb234672033dbc76ccd59224abdcd0ecb2b6 rdf:value "#xywh=percent:38,24,5,6" .
 
+target:selector_8fc2ada3505fb16bda889b28e2c3526e15c7084a a oa:FragmentSelector .
+target:selector_8fc2ada3505fb16bda889b28e2c3526e15c7084a terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_8fc2ada3505fb16bda889b28e2c3526e15c7084a ui:h "0.1257242178447277"^^xsd:float .
+target:selector_8fc2ada3505fb16bda889b28e2c3526e15c7084a ui:w "0.0735042735042735"^^xsd:float .
+target:selector_8fc2ada3505fb16bda889b28e2c3526e15c7084a ui:x "0.33931623931623933"^^xsd:float .
+target:selector_8fc2ada3505fb16bda889b28e2c3526e15c7084a ui:y "0.22363847045191193"^^xsd:float .
+target:selector_8fc2ada3505fb16bda889b28e2c3526e15c7084a rdf:value "#xywh=percent:34,22,7,13" .
+
 target:selector_9133a5e7df831f45783cff7442b3f64ea3c5cb03 a oa:FragmentSelector .
 target:selector_9133a5e7df831f45783cff7442b3f64ea3c5cb03 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_9133a5e7df831f45783cff7442b3f64ea3c5cb03 ui:h "0.08458864426419467"^^xsd:float .
@@ -188,6 +207,10 @@ target:target_359095d2a87bfe0330e07bb321056303eb28d0b3 oa:hasSource <http://imag
 target:target_760bcb234672033dbc76ccd59224abdcd0ecb2b6 a oa:SpecificResource .
 target:target_760bcb234672033dbc76ccd59224abdcd0ecb2b6 oa:hasSelector target:selector_760bcb234672033dbc76ccd59224abdcd0ecb2b6 .
 target:target_760bcb234672033dbc76ccd59224abdcd0ecb2b6 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/32> .
+
+target:target_8fc2ada3505fb16bda889b28e2c3526e15c7084a a oa:SpecificResource .
+target:target_8fc2ada3505fb16bda889b28e2c3526e15c7084a oa:hasSelector target:selector_8fc2ada3505fb16bda889b28e2c3526e15c7084a .
+target:target_8fc2ada3505fb16bda889b28e2c3526e15c7084a oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/32> .
 
 target:target_9133a5e7df831f45783cff7442b3f64ea3c5cb03 a oa:SpecificResource .
 target:target_9133a5e7df831f45783cff7442b3f64ea3c5cb03 oa:hasSelector target:selector_9133a5e7df831f45783cff7442b3f64ea3c5cb03 .
