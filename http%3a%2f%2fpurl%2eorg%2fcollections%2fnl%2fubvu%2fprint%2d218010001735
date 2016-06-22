@@ -24,6 +24,16 @@ nl:id_5433afde3de287ba8511e4a5310e7e00681fbacc oa:hasTarget target:target_bc9a2d
 nl:id_5433afde3de287ba8511e4a5310e7e00681fbacc oa:hasTarget ubvu:print-218010001735 .
 nl:id_5433afde3de287ba8511e4a5310e7e00681fbacc oa:motivatedBy oa:tagging .
 
+nl:id_5ce0ee2b42b205bae87053f1ad0c3ce0f9b79a57 a oa:Annotation .
+nl:id_5ce0ee2b42b205bae87053f1ad0c3ce0f9b79a57 terms:title "Jezus in gesprek met Nicodemus" .
+nl:id_5ce0ee2b42b205bae87053f1ad0c3ce0f9b79a57 ui:annotationField bible:ICBibleTheme .
+nl:id_5ce0ee2b42b205bae87053f1ad0c3ce0f9b79a57 ui:typingTime 0 .
+nl:id_5ce0ee2b42b205bae87053f1ad0c3ce0f9b79a57 oa:annotatedAt "2016-06-22T20:44:52+02:00"^^xsd:dateTime .
+nl:id_5ce0ee2b42b205bae87053f1ad0c3ce0f9b79a57 oa:annotatedBy user:paulinevandijk .
+nl:id_5ce0ee2b42b205bae87053f1ad0c3ce0f9b79a57 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jezus in gesprek met Nicodemus" ] .
+nl:id_5ce0ee2b42b205bae87053f1ad0c3ce0f9b79a57 oa:hasTarget ubvu:print-218010001735 .
+nl:id_5ce0ee2b42b205bae87053f1ad0c3ce0f9b79a57 oa:motivatedBy oa:tagging .
+
 nl:id_60d0731ba868d889db766824e535f94c4392179a a oa:Annotation .
 nl:id_60d0731ba868d889db766824e535f94c4392179a terms:title "Christ talking with Nicodemus at night (John 3:1-21)" .
 nl:id_60d0731ba868d889db766824e535f94c4392179a ui:annotationField bible:ICBibleTheme .
