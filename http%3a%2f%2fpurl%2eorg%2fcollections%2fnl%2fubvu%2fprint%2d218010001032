@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -10,6 +11,17 @@
 @prefix user: <http://accurator.nl/user#> .
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
+
+nl:id_83291a65357e276a3a481a222ef68c8ae9737fa4 a oa:Annotation .
+nl:id_83291a65357e276a3a481a222ef68c8ae9737fa4 terms:title "Adam" .
+nl:id_83291a65357e276a3a481a222ef68c8ae9737fa4 ui:annotationField bible:BibleCharacter .
+nl:id_83291a65357e276a3a481a222ef68c8ae9737fa4 ui:typingTime 0 .
+nl:id_83291a65357e276a3a481a222ef68c8ae9737fa4 oa:annotatedAt "2016-06-22T21:07:23+02:00"^^xsd:dateTime .
+nl:id_83291a65357e276a3a481a222ef68c8ae9737fa4 oa:annotatedBy user:paulinevandijk .
+nl:id_83291a65357e276a3a481a222ef68c8ae9737fa4 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Adam" ] .
+nl:id_83291a65357e276a3a481a222ef68c8ae9737fa4 oa:hasTarget target:target_3c985c633016d13954d689f3b15a647eca8bb99a .
+nl:id_83291a65357e276a3a481a222ef68c8ae9737fa4 oa:hasTarget ubvu:print-218010001032 .
+nl:id_83291a65357e276a3a481a222ef68c8ae9737fa4 oa:motivatedBy oa:tagging .
 
 nl:id_8ced62052c9c0c983ea47757fad3cdc2562d516d a oa:Annotation .
 nl:id_8ced62052c9c0c983ea47757fad3cdc2562d516d terms:title "In sorrow you shall eat of the  ground all the days of your life- curse of Adam" .
@@ -43,6 +55,14 @@ nl:id_ff40d149dbbf7ef0ed06c9941a075445eee79162 oa:hasTarget target:target_92befd
 nl:id_ff40d149dbbf7ef0ed06c9941a075445eee79162 oa:hasTarget ubvu:print-218010001032 .
 nl:id_ff40d149dbbf7ef0ed06c9941a075445eee79162 oa:motivatedBy oa:tagging .
 
+target:selector_3c985c633016d13954d689f3b15a647eca8bb99a a oa:FragmentSelector .
+target:selector_3c985c633016d13954d689f3b15a647eca8bb99a terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_3c985c633016d13954d689f3b15a647eca8bb99a ui:h "0.11231470923603193"^^xsd:float .
+target:selector_3c985c633016d13954d689f3b15a647eca8bb99a ui:w "0.08461538461538462"^^xsd:float .
+target:selector_3c985c633016d13954d689f3b15a647eca8bb99a ui:x "0.4547008547008547"^^xsd:float .
+target:selector_3c985c633016d13954d689f3b15a647eca8bb99a ui:y "0.48517673888255414"^^xsd:float .
+target:selector_3c985c633016d13954d689f3b15a647eca8bb99a rdf:value "#xywh=percent:45,49,8,11" .
+
 target:selector_92befd879db8182e2c80284b58d54fe9992035c9 a oa:FragmentSelector .
 target:selector_92befd879db8182e2c80284b58d54fe9992035c9 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_92befd879db8182e2c80284b58d54fe9992035c9 ui:h "0.10676156583629894"^^xsd:float .
@@ -50,6 +70,10 @@ target:selector_92befd879db8182e2c80284b58d54fe9992035c9 ui:w "0.109333333333333
 target:selector_92befd879db8182e2c80284b58d54fe9992035c9 ui:x "0.42533333333333334"^^xsd:float .
 target:selector_92befd879db8182e2c80284b58d54fe9992035c9 ui:y "0.4884341637010676"^^xsd:float .
 target:selector_92befd879db8182e2c80284b58d54fe9992035c9 rdf:value "#xywh=percent:43,49,11,11" .
+
+target:target_3c985c633016d13954d689f3b15a647eca8bb99a a oa:SpecificResource .
+target:target_3c985c633016d13954d689f3b15a647eca8bb99a oa:hasSelector target:selector_3c985c633016d13954d689f3b15a647eca8bb99a .
+target:target_3c985c633016d13954d689f3b15a647eca8bb99a oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/73> .
 
 target:target_92befd879db8182e2c80284b58d54fe9992035c9 a oa:SpecificResource .
 target:target_92befd879db8182e2c80284b58d54fe9992035c9 oa:hasSelector target:selector_92befd879db8182e2c80284b58d54fe9992035c9 .
