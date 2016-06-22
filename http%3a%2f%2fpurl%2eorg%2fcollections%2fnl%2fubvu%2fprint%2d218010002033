@@ -23,6 +23,16 @@ nl:id_06f94382436680a8fecc5ac3d1f6a299ba90fafb oa:hasTarget target:target_8fc2ad
 nl:id_06f94382436680a8fecc5ac3d1f6a299ba90fafb oa:hasTarget ubvu:print-218010002033 .
 nl:id_06f94382436680a8fecc5ac3d1f6a299ba90fafb oa:motivatedBy oa:tagging .
 
+nl:id_1305ce985fd8eeb6f645bd213395fef95daf1026 a oa:Annotation .
+nl:id_1305ce985fd8eeb6f645bd213395fef95daf1026 terms:title "De dochter van Herodias brengt Herodes het hoofd van Johannes." .
+nl:id_1305ce985fd8eeb6f645bd213395fef95daf1026 ui:annotationField bible:ICBibleTheme .
+nl:id_1305ce985fd8eeb6f645bd213395fef95daf1026 ui:typingTime 0 .
+nl:id_1305ce985fd8eeb6f645bd213395fef95daf1026 oa:annotatedAt "2016-06-22T20:53:29+02:00"^^xsd:dateTime .
+nl:id_1305ce985fd8eeb6f645bd213395fef95daf1026 oa:annotatedBy user:paulinevandijk .
+nl:id_1305ce985fd8eeb6f645bd213395fef95daf1026 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "De dochter van Herodias brengt Herodes het hoofd van Johannes." ] .
+nl:id_1305ce985fd8eeb6f645bd213395fef95daf1026 oa:hasTarget ubvu:print-218010002033 .
+nl:id_1305ce985fd8eeb6f645bd213395fef95daf1026 oa:motivatedBy oa:tagging .
+
 nl:id_30228af3d2355e6f48a2ad1cd2b52340b8c7035b a oa:Annotation .
 nl:id_30228af3d2355e6f48a2ad1cd2b52340b8c7035b terms:title "De dochter van Herodias danst op het feest van Herodus." .
 nl:id_30228af3d2355e6f48a2ad1cd2b52340b8c7035b ui:annotationField bible:ICBibleTheme .
