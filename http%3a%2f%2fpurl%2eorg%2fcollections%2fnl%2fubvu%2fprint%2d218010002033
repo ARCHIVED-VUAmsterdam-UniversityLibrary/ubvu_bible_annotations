@@ -213,6 +213,17 @@ nl:id_b12d1189e3892ec5a73ad168824ec62fa625335c oa:hasBody <http://iconclass.org/
 nl:id_b12d1189e3892ec5a73ad168824ec62fa625335c oa:hasTarget ubvu:print-218010002033 .
 nl:id_b12d1189e3892ec5a73ad168824ec62fa625335c oa:motivatedBy oa:tagging .
 
+nl:id_bce7b2f7ab65de92be22ba841b65bb82f0854123 a oa:Annotation .
+nl:id_bce7b2f7ab65de92be22ba841b65bb82f0854123 terms:title "Jezus" .
+nl:id_bce7b2f7ab65de92be22ba841b65bb82f0854123 ui:annotationField bible:BibleCharacter .
+nl:id_bce7b2f7ab65de92be22ba841b65bb82f0854123 ui:typingTime 0 .
+nl:id_bce7b2f7ab65de92be22ba841b65bb82f0854123 oa:annotatedAt "2016-06-22T20:58:35+02:00"^^xsd:dateTime .
+nl:id_bce7b2f7ab65de92be22ba841b65bb82f0854123 oa:annotatedBy user:paulinevandijk .
+nl:id_bce7b2f7ab65de92be22ba841b65bb82f0854123 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jezus" ] .
+nl:id_bce7b2f7ab65de92be22ba841b65bb82f0854123 oa:hasTarget target:target_58e804925a7680b623d8e780215a294fc1590274 .
+nl:id_bce7b2f7ab65de92be22ba841b65bb82f0854123 oa:hasTarget ubvu:print-218010002033 .
+nl:id_bce7b2f7ab65de92be22ba841b65bb82f0854123 oa:motivatedBy oa:tagging .
+
 nl:id_c783e340536237732acfdf0c2a867c5903c71fb3 a oa:Annotation .
 nl:id_c783e340536237732acfdf0c2a867c5903c71fb3 terms:title "Jezus wandelt op het meer. " .
 nl:id_c783e340536237732acfdf0c2a867c5903c71fb3 ui:annotationField bible:ICBibleTheme .
@@ -341,6 +352,14 @@ target:selector_3689b00de3d324313325cf7440233524a21c5e13 ui:x "0.356410256410256
 target:selector_3689b00de3d324313325cf7440233524a21c5e13 ui:y "0.6993047508690614"^^xsd:float .
 target:selector_3689b00de3d324313325cf7440233524a21c5e13 rdf:value "#xywh=percent:36,70,12,12" .
 
+target:selector_58e804925a7680b623d8e780215a294fc1590274 a oa:FragmentSelector .
+target:selector_58e804925a7680b623d8e780215a294fc1590274 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_58e804925a7680b623d8e780215a294fc1590274 ui:h "0.09385863267670916"^^xsd:float .
+target:selector_58e804925a7680b623d8e780215a294fc1590274 ui:w "0.062393162393162394"^^xsd:float .
+target:selector_58e804925a7680b623d8e780215a294fc1590274 ui:x "0.6205128205128205"^^xsd:float .
+target:selector_58e804925a7680b623d8e780215a294fc1590274 ui:y "0.5081112398609502"^^xsd:float .
+target:selector_58e804925a7680b623d8e780215a294fc1590274 rdf:value "#xywh=percent:62,51,6,9" .
+
 target:selector_61b9e86461908219b954af864a60543425579a2f a oa:FragmentSelector .
 target:selector_61b9e86461908219b954af864a60543425579a2f terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_61b9e86461908219b954af864a60543425579a2f ui:h "0.1425260718424102"^^xsd:float .
@@ -452,6 +471,10 @@ target:target_359095d2a87bfe0330e07bb321056303eb28d0b3 oa:hasSource <http://imag
 target:target_3689b00de3d324313325cf7440233524a21c5e13 a oa:SpecificResource .
 target:target_3689b00de3d324313325cf7440233524a21c5e13 oa:hasSelector target:selector_3689b00de3d324313325cf7440233524a21c5e13 .
 target:target_3689b00de3d324313325cf7440233524a21c5e13 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/32> .
+
+target:target_58e804925a7680b623d8e780215a294fc1590274 a oa:SpecificResource .
+target:target_58e804925a7680b623d8e780215a294fc1590274 oa:hasSelector target:selector_58e804925a7680b623d8e780215a294fc1590274 .
+target:target_58e804925a7680b623d8e780215a294fc1590274 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/32> .
 
 target:target_61b9e86461908219b954af864a60543425579a2f a oa:SpecificResource .
 target:target_61b9e86461908219b954af864a60543425579a2f oa:hasSelector target:selector_61b9e86461908219b954af864a60543425579a2f .
