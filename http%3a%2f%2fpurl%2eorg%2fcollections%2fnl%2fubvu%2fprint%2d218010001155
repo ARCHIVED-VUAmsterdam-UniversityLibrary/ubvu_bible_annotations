@@ -56,6 +56,16 @@ nl:id_71a65cd4da19570f157a669976e267be55977302 oa:hasBody <http://iconclass.org/
 nl:id_71a65cd4da19570f157a669976e267be55977302 oa:hasTarget ubvu:print-218010001155 .
 nl:id_71a65cd4da19570f157a669976e267be55977302 oa:motivatedBy oa:tagging .
 
+nl:id_97efbfb74a6d1a99b2048004426dd36bc0f08d0e a oa:Annotation .
+nl:id_97efbfb74a6d1a99b2048004426dd36bc0f08d0e terms:title "Jozefs broers verkopen hem aan de Ismaëlieten." .
+nl:id_97efbfb74a6d1a99b2048004426dd36bc0f08d0e ui:annotationField bible:ICBibleTheme .
+nl:id_97efbfb74a6d1a99b2048004426dd36bc0f08d0e ui:typingTime 0 .
+nl:id_97efbfb74a6d1a99b2048004426dd36bc0f08d0e oa:annotatedAt "2016-06-22T20:47:36+02:00"^^xsd:dateTime .
+nl:id_97efbfb74a6d1a99b2048004426dd36bc0f08d0e oa:annotatedBy user:paulinevandijk .
+nl:id_97efbfb74a6d1a99b2048004426dd36bc0f08d0e oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jozefs broers verkopen hem aan de Ismaëlieten." ] .
+nl:id_97efbfb74a6d1a99b2048004426dd36bc0f08d0e oa:hasTarget ubvu:print-218010001155 .
+nl:id_97efbfb74a6d1a99b2048004426dd36bc0f08d0e oa:motivatedBy oa:tagging .
+
 nl:id_f696c6a62e886632c5601116bca661da160ac110 a oa:Annotation .
 nl:id_f696c6a62e886632c5601116bca661da160ac110 terms:title "Josech" .
 nl:id_f696c6a62e886632c5601116bca661da160ac110 ui:annotationField bible:BibleCharacter .
