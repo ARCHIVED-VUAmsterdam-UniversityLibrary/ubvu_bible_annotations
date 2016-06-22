@@ -66,6 +66,16 @@ nl:id_30228af3d2355e6f48a2ad1cd2b52340b8c7035b oa:hasBody [ a content:ContentAsT
 nl:id_30228af3d2355e6f48a2ad1cd2b52340b8c7035b oa:hasTarget ubvu:print-218010002033 .
 nl:id_30228af3d2355e6f48a2ad1cd2b52340b8c7035b oa:motivatedBy oa:tagging .
 
+nl:id_3ced649071501bb61e9a67a433862075578e9ea7 a oa:Annotation .
+nl:id_3ced649071501bb61e9a67a433862075578e9ea7 terms:title "De wonderbare spijziging." .
+nl:id_3ced649071501bb61e9a67a433862075578e9ea7 ui:annotationField bible:ICBibleTheme .
+nl:id_3ced649071501bb61e9a67a433862075578e9ea7 ui:typingTime 0 .
+nl:id_3ced649071501bb61e9a67a433862075578e9ea7 oa:annotatedAt "2016-06-22T20:56:00+02:00"^^xsd:dateTime .
+nl:id_3ced649071501bb61e9a67a433862075578e9ea7 oa:annotatedBy user:paulinevandijk .
+nl:id_3ced649071501bb61e9a67a433862075578e9ea7 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "De wonderbare spijziging." ] .
+nl:id_3ced649071501bb61e9a67a433862075578e9ea7 oa:hasTarget ubvu:print-218010002033 .
+nl:id_3ced649071501bb61e9a67a433862075578e9ea7 oa:motivatedBy oa:tagging .
+
 nl:id_4a6d6aec14570f61d96940bc0548de5f55c38fe7 a oa:Annotation .
 nl:id_4a6d6aec14570f61d96940bc0548de5f55c38fe7 terms:title "Herodias" .
 nl:id_4a6d6aec14570f61d96940bc0548de5f55c38fe7 ui:annotationField bible:BibleCharacter .
