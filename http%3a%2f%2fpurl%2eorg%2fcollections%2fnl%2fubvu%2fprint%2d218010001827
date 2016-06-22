@@ -34,6 +34,16 @@ nl:id_749b2431ce8da50284061940b38c14f296aece79 oa:hasBody [ a content:ContentAsT
 nl:id_749b2431ce8da50284061940b38c14f296aece79 oa:hasTarget ubvu:print-218010001827 .
 nl:id_749b2431ce8da50284061940b38c14f296aece79 oa:motivatedBy oa:tagging .
 
+nl:id_80fe919177d7a8d4d17c3a2980ab190db7d78d9f a oa:Annotation .
+nl:id_80fe919177d7a8d4d17c3a2980ab190db7d78d9f terms:title "Het laatste avondmaal" .
+nl:id_80fe919177d7a8d4d17c3a2980ab190db7d78d9f ui:annotationField bible:ICBibleTheme .
+nl:id_80fe919177d7a8d4d17c3a2980ab190db7d78d9f ui:typingTime 0 .
+nl:id_80fe919177d7a8d4d17c3a2980ab190db7d78d9f oa:annotatedAt "2016-06-22T20:36:59+02:00"^^xsd:dateTime .
+nl:id_80fe919177d7a8d4d17c3a2980ab190db7d78d9f oa:annotatedBy user:paulinevandijk .
+nl:id_80fe919177d7a8d4d17c3a2980ab190db7d78d9f oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Het laatste avondmaal" ] .
+nl:id_80fe919177d7a8d4d17c3a2980ab190db7d78d9f oa:hasTarget ubvu:print-218010001827 .
+nl:id_80fe919177d7a8d4d17c3a2980ab190db7d78d9f oa:motivatedBy oa:tagging .
+
 nl:id_9c445f38980766182345328a7e1bdb67f2492c36 a oa:Annotation .
 nl:id_9c445f38980766182345328a7e1bdb67f2492c36 terms:title "Jezus Christus" .
 nl:id_9c445f38980766182345328a7e1bdb67f2492c36 ui:annotationField bible:BibleCharacter .
