@@ -24,6 +24,17 @@ nl:id_1b1706574fcdf6d9257dfaa8cb92dffab4f933ac oa:hasTarget target:target_af955d
 nl:id_1b1706574fcdf6d9257dfaa8cb92dffab4f933ac oa:hasTarget ubvu:print-218010001155 .
 nl:id_1b1706574fcdf6d9257dfaa8cb92dffab4f933ac oa:motivatedBy oa:tagging .
 
+nl:id_6fc92c4a4fd8d89f5142f260d9a59a7997759092 a oa:Annotation .
+nl:id_6fc92c4a4fd8d89f5142f260d9a59a7997759092 terms:title "Jozef" .
+nl:id_6fc92c4a4fd8d89f5142f260d9a59a7997759092 ui:annotationField bible:BibleCharacter .
+nl:id_6fc92c4a4fd8d89f5142f260d9a59a7997759092 ui:typingTime 0 .
+nl:id_6fc92c4a4fd8d89f5142f260d9a59a7997759092 oa:annotatedAt "2016-06-22T20:45:27+02:00"^^xsd:dateTime .
+nl:id_6fc92c4a4fd8d89f5142f260d9a59a7997759092 oa:annotatedBy user:paulinevandijk .
+nl:id_6fc92c4a4fd8d89f5142f260d9a59a7997759092 oa:hasBody resource:Joseph .
+nl:id_6fc92c4a4fd8d89f5142f260d9a59a7997759092 oa:hasTarget target:target_209c0fecb1a5a4a6c62a45609130b856afc8f17d .
+nl:id_6fc92c4a4fd8d89f5142f260d9a59a7997759092 oa:hasTarget ubvu:print-218010001155 .
+nl:id_6fc92c4a4fd8d89f5142f260d9a59a7997759092 oa:motivatedBy oa:tagging .
+
 nl:id_71a65cd4da19570f157a669976e267be55977302 a oa:Annotation .
 nl:id_71a65cd4da19570f157a669976e267be55977302 terms:title "the ark ~ story of Noah" .
 nl:id_71a65cd4da19570f157a669976e267be55977302 ui:annotationField bible:ICBibleTheme .
@@ -45,6 +56,14 @@ nl:id_f696c6a62e886632c5601116bca661da160ac110 oa:hasTarget target:target_d912b3
 nl:id_f696c6a62e886632c5601116bca661da160ac110 oa:hasTarget ubvu:print-218010001155 .
 nl:id_f696c6a62e886632c5601116bca661da160ac110 oa:motivatedBy oa:tagging .
 
+target:selector_209c0fecb1a5a4a6c62a45609130b856afc8f17d a oa:FragmentSelector .
+target:selector_209c0fecb1a5a4a6c62a45609130b856afc8f17d terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_209c0fecb1a5a4a6c62a45609130b856afc8f17d ui:h "0.2414985590778098"^^xsd:float .
+target:selector_209c0fecb1a5a4a6c62a45609130b856afc8f17d ui:w "0.1683760683760684"^^xsd:float .
+target:selector_209c0fecb1a5a4a6c62a45609130b856afc8f17d ui:x "0.5888888888888889"^^xsd:float .
+target:selector_209c0fecb1a5a4a6c62a45609130b856afc8f17d ui:y "0.4789625360230548"^^xsd:float .
+target:selector_209c0fecb1a5a4a6c62a45609130b856afc8f17d rdf:value "#xywh=percent:59,48,17,24" .
+
 target:selector_af955d951db858ca8e80443d129561d0ef6fab4e a oa:FragmentSelector .
 target:selector_af955d951db858ca8e80443d129561d0ef6fab4e terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_af955d951db858ca8e80443d129561d0ef6fab4e ui:h "0.30485611510791366"^^xsd:float .
@@ -60,6 +79,10 @@ target:selector_d912b3c14a97db236aa981f9ca244ae5a30beab2 ui:w "0.307692307692307
 target:selector_d912b3c14a97db236aa981f9ca244ae5a30beab2 ui:x "0.2863247863247863"^^xsd:float .
 target:selector_d912b3c14a97db236aa981f9ca244ae5a30beab2 ui:y "0.44564842202134364"^^xsd:float .
 target:selector_d912b3c14a97db236aa981f9ca244ae5a30beab2 rdf:value "#xywh=percent:29,45,31,34" .
+
+target:target_209c0fecb1a5a4a6c62a45609130b856afc8f17d a oa:SpecificResource .
+target:target_209c0fecb1a5a4a6c62a45609130b856afc8f17d oa:hasSelector target:selector_209c0fecb1a5a4a6c62a45609130b856afc8f17d .
+target:target_209c0fecb1a5a4a6c62a45609130b856afc8f17d oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/196> .
 
 target:target_af955d951db858ca8e80443d129561d0ef6fab4e a oa:SpecificResource .
 target:target_af955d951db858ca8e80443d129561d0ef6fab4e oa:hasSelector target:selector_af955d951db858ca8e80443d129561d0ef6fab4e .
