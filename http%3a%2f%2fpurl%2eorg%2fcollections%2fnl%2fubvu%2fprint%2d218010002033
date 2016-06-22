@@ -35,6 +35,17 @@ nl:id_0c214117f78fb9175c5e6a9459661422a24da3db oa:hasTarget target:target_a6c74d
 nl:id_0c214117f78fb9175c5e6a9459661422a24da3db oa:hasTarget ubvu:print-218010002033 .
 nl:id_0c214117f78fb9175c5e6a9459661422a24da3db oa:motivatedBy oa:tagging .
 
+nl:id_0d77fce208c6b51feed4631b39b8a7c339659639 a oa:Annotation .
+nl:id_0d77fce208c6b51feed4631b39b8a7c339659639 terms:title "Jakobus" .
+nl:id_0d77fce208c6b51feed4631b39b8a7c339659639 ui:annotationField bible:BibleCharacter .
+nl:id_0d77fce208c6b51feed4631b39b8a7c339659639 ui:typingTime 0 .
+nl:id_0d77fce208c6b51feed4631b39b8a7c339659639 oa:annotatedAt "2016-06-22T20:56:59+02:00"^^xsd:dateTime .
+nl:id_0d77fce208c6b51feed4631b39b8a7c339659639 oa:annotatedBy user:paulinevandijk .
+nl:id_0d77fce208c6b51feed4631b39b8a7c339659639 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jakobus" ] .
+nl:id_0d77fce208c6b51feed4631b39b8a7c339659639 oa:hasTarget target:target_3689b00de3d324313325cf7440233524a21c5e13 .
+nl:id_0d77fce208c6b51feed4631b39b8a7c339659639 oa:hasTarget ubvu:print-218010002033 .
+nl:id_0d77fce208c6b51feed4631b39b8a7c339659639 oa:motivatedBy oa:tagging .
+
 nl:id_1305ce985fd8eeb6f645bd213395fef95daf1026 a oa:Annotation .
 nl:id_1305ce985fd8eeb6f645bd213395fef95daf1026 terms:title "De dochter van Herodias brengt Herodes het hoofd van Johannes." .
 nl:id_1305ce985fd8eeb6f645bd213395fef95daf1026 ui:annotationField bible:ICBibleTheme .
@@ -260,6 +271,14 @@ target:selector_359095d2a87bfe0330e07bb321056303eb28d0b3 ui:x "0.484615384615384
 target:selector_359095d2a87bfe0330e07bb321056303eb28d0b3 ui:y "0.22885283893395134"^^xsd:float .
 target:selector_359095d2a87bfe0330e07bb321056303eb28d0b3 rdf:value "#xywh=percent:48,23,9,11" .
 
+target:selector_3689b00de3d324313325cf7440233524a21c5e13 a oa:FragmentSelector .
+target:selector_3689b00de3d324313325cf7440233524a21c5e13 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_3689b00de3d324313325cf7440233524a21c5e13 ui:h "0.12398609501738123"^^xsd:float .
+target:selector_3689b00de3d324313325cf7440233524a21c5e13 ui:w "0.11965811965811966"^^xsd:float .
+target:selector_3689b00de3d324313325cf7440233524a21c5e13 ui:x "0.3564102564102564"^^xsd:float .
+target:selector_3689b00de3d324313325cf7440233524a21c5e13 ui:y "0.6993047508690614"^^xsd:float .
+target:selector_3689b00de3d324313325cf7440233524a21c5e13 rdf:value "#xywh=percent:36,70,12,12" .
+
 target:selector_61b9e86461908219b954af864a60543425579a2f a oa:FragmentSelector .
 target:selector_61b9e86461908219b954af864a60543425579a2f terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_61b9e86461908219b954af864a60543425579a2f ui:h "0.1425260718424102"^^xsd:float .
@@ -339,6 +358,10 @@ target:target_33b70c2e69a46a0b4115607a7343683ec2cadbe9 oa:hasSource <http://imag
 target:target_359095d2a87bfe0330e07bb321056303eb28d0b3 a oa:SpecificResource .
 target:target_359095d2a87bfe0330e07bb321056303eb28d0b3 oa:hasSelector target:selector_359095d2a87bfe0330e07bb321056303eb28d0b3 .
 target:target_359095d2a87bfe0330e07bb321056303eb28d0b3 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/32> .
+
+target:target_3689b00de3d324313325cf7440233524a21c5e13 a oa:SpecificResource .
+target:target_3689b00de3d324313325cf7440233524a21c5e13 oa:hasSelector target:selector_3689b00de3d324313325cf7440233524a21c5e13 .
+target:target_3689b00de3d324313325cf7440233524a21c5e13 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/32> .
 
 target:target_61b9e86461908219b954af864a60543425579a2f a oa:SpecificResource .
 target:target_61b9e86461908219b954af864a60543425579a2f oa:hasSelector target:selector_61b9e86461908219b954af864a60543425579a2f .
