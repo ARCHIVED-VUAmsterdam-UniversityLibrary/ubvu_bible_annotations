@@ -24,6 +24,16 @@ nl:id_0cd8775a2c1683fd52e4a4b9845a298ce8c34427 oa:hasTarget target:target_42850b
 nl:id_0cd8775a2c1683fd52e4a4b9845a298ce8c34427 oa:hasTarget ubvu:print-218010001032 .
 nl:id_0cd8775a2c1683fd52e4a4b9845a298ce8c34427 oa:motivatedBy oa:tagging .
 
+nl:id_7a6409b7f9120652442f0b0bb88e77bc3a92542a a oa:Annotation .
+nl:id_7a6409b7f9120652442f0b0bb88e77bc3a92542a terms:title "Adam zwoegt op de akker om voedsel te verkrijgen." .
+nl:id_7a6409b7f9120652442f0b0bb88e77bc3a92542a ui:annotationField bible:ICBibleTheme .
+nl:id_7a6409b7f9120652442f0b0bb88e77bc3a92542a ui:typingTime 0 .
+nl:id_7a6409b7f9120652442f0b0bb88e77bc3a92542a oa:annotatedAt "2016-06-22T21:08:40+02:00"^^xsd:dateTime .
+nl:id_7a6409b7f9120652442f0b0bb88e77bc3a92542a oa:annotatedBy user:paulinevandijk .
+nl:id_7a6409b7f9120652442f0b0bb88e77bc3a92542a oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Adam zwoegt op de akker om voedsel te verkrijgen." ] .
+nl:id_7a6409b7f9120652442f0b0bb88e77bc3a92542a oa:hasTarget ubvu:print-218010001032 .
+nl:id_7a6409b7f9120652442f0b0bb88e77bc3a92542a oa:motivatedBy oa:tagging .
+
 nl:id_83291a65357e276a3a481a222ef68c8ae9737fa4 a oa:Annotation .
 nl:id_83291a65357e276a3a481a222ef68c8ae9737fa4 terms:title "Adam" .
 nl:id_83291a65357e276a3a481a222ef68c8ae9737fa4 ui:annotationField bible:BibleCharacter .
