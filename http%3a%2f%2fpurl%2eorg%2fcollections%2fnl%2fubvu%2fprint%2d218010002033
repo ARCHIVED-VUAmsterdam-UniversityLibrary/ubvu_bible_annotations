@@ -67,6 +67,17 @@ nl:id_1c385082e14eeef6bb311b583e884ac389b56632 oa:hasTarget target:target_a26a1a
 nl:id_1c385082e14eeef6bb311b583e884ac389b56632 oa:hasTarget ubvu:print-218010002033 .
 nl:id_1c385082e14eeef6bb311b583e884ac389b56632 oa:motivatedBy oa:tagging .
 
+nl:id_2a243274e943890373a040c1335de65dc9e3f38a a oa:Annotation .
+nl:id_2a243274e943890373a040c1335de65dc9e3f38a terms:title "Elia" .
+nl:id_2a243274e943890373a040c1335de65dc9e3f38a ui:annotationField bible:BibleCharacter .
+nl:id_2a243274e943890373a040c1335de65dc9e3f38a ui:typingTime 0 .
+nl:id_2a243274e943890373a040c1335de65dc9e3f38a oa:annotatedAt "2016-06-22T20:57:43+02:00"^^xsd:dateTime .
+nl:id_2a243274e943890373a040c1335de65dc9e3f38a oa:annotatedBy user:paulinevandijk .
+nl:id_2a243274e943890373a040c1335de65dc9e3f38a oa:hasBody resource:Elijah .
+nl:id_2a243274e943890373a040c1335de65dc9e3f38a oa:hasTarget target:target_c835e93687ff3ba1b0d74107f9b0c19afb642ca0 .
+nl:id_2a243274e943890373a040c1335de65dc9e3f38a oa:hasTarget ubvu:print-218010002033 .
+nl:id_2a243274e943890373a040c1335de65dc9e3f38a oa:motivatedBy oa:tagging .
+
 nl:id_30228af3d2355e6f48a2ad1cd2b52340b8c7035b a oa:Annotation .
 nl:id_30228af3d2355e6f48a2ad1cd2b52340b8c7035b terms:title "De dochter van Herodias danst op het feest van Herodus." .
 nl:id_30228af3d2355e6f48a2ad1cd2b52340b8c7035b ui:annotationField bible:ICBibleTheme .
@@ -392,6 +403,14 @@ target:selector_c0bfb5ffe31382550df6c50b3e930a433e49a9d2 ui:x "0.279487179487179
 target:selector_c0bfb5ffe31382550df6c50b3e930a433e49a9d2 ui:y "0.5318655851680185"^^xsd:float .
 target:selector_c0bfb5ffe31382550df6c50b3e930a433e49a9d2 rdf:value "#xywh=percent:28,53,9,12" .
 
+target:selector_c835e93687ff3ba1b0d74107f9b0c19afb642ca0 a oa:FragmentSelector .
+target:selector_c835e93687ff3ba1b0d74107f9b0c19afb642ca0 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_c835e93687ff3ba1b0d74107f9b0c19afb642ca0 ui:h "0.11066048667439166"^^xsd:float .
+target:selector_c835e93687ff3ba1b0d74107f9b0c19afb642ca0 ui:w "0.10598290598290598"^^xsd:float .
+target:selector_c835e93687ff3ba1b0d74107f9b0c19afb642ca0 ui:x "0.45042735042735044"^^xsd:float .
+target:selector_c835e93687ff3ba1b0d74107f9b0c19afb642ca0 ui:y "0.533603707995365"^^xsd:float .
+target:selector_c835e93687ff3ba1b0d74107f9b0c19afb642ca0 rdf:value "#xywh=percent:45,53,11,11" .
+
 target:selector_cafcd292d3862fa76158c26c7742b4536dfde3a7 a oa:FragmentSelector .
 target:selector_cafcd292d3862fa76158c26c7742b4536dfde3a7 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_cafcd292d3862fa76158c26c7742b4536dfde3a7 ui:h "0.11529548088064889"^^xsd:float .
@@ -459,6 +478,10 @@ target:target_b2e51c68b97c364a339144bcd691d23d1b29da33 oa:hasSource <http://imag
 target:target_c0bfb5ffe31382550df6c50b3e930a433e49a9d2 a oa:SpecificResource .
 target:target_c0bfb5ffe31382550df6c50b3e930a433e49a9d2 oa:hasSelector target:selector_c0bfb5ffe31382550df6c50b3e930a433e49a9d2 .
 target:target_c0bfb5ffe31382550df6c50b3e930a433e49a9d2 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/32> .
+
+target:target_c835e93687ff3ba1b0d74107f9b0c19afb642ca0 a oa:SpecificResource .
+target:target_c835e93687ff3ba1b0d74107f9b0c19afb642ca0 oa:hasSelector target:selector_c835e93687ff3ba1b0d74107f9b0c19afb642ca0 .
+target:target_c835e93687ff3ba1b0d74107f9b0c19afb642ca0 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/32> .
 
 target:target_cafcd292d3862fa76158c26c7742b4536dfde3a7 a oa:SpecificResource .
 target:target_cafcd292d3862fa76158c26c7742b4536dfde3a7 oa:hasSelector target:selector_cafcd292d3862fa76158c26c7742b4536dfde3a7 .
