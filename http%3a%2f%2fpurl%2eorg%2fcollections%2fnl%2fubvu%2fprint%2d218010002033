@@ -8,6 +8,7 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
@@ -116,6 +117,17 @@ nl:id_7cf4004fddf10527ae6b1fd19be226cd4f118182 oa:annotatedBy user:spaapen1 .
 nl:id_7cf4004fddf10527ae6b1fd19be226cd4f118182 oa:hasBody <http://iconclass.org/73C713> .
 nl:id_7cf4004fddf10527ae6b1fd19be226cd4f118182 oa:hasTarget ubvu:print-218010002033 .
 nl:id_7cf4004fddf10527ae6b1fd19be226cd4f118182 oa:motivatedBy oa:tagging .
+
+nl:id_a3f88c8db4a07e257273923fd2ae2b503aa56abe a oa:Annotation .
+nl:id_a3f88c8db4a07e257273923fd2ae2b503aa56abe terms:title "Jezus Christus" .
+nl:id_a3f88c8db4a07e257273923fd2ae2b503aa56abe ui:annotationField bible:BibleCharacter .
+nl:id_a3f88c8db4a07e257273923fd2ae2b503aa56abe ui:typingTime 0 .
+nl:id_a3f88c8db4a07e257273923fd2ae2b503aa56abe oa:annotatedAt "2016-06-22T20:54:42+02:00"^^xsd:dateTime .
+nl:id_a3f88c8db4a07e257273923fd2ae2b503aa56abe oa:annotatedBy user:paulinevandijk .
+nl:id_a3f88c8db4a07e257273923fd2ae2b503aa56abe oa:hasBody resource:Jesus .
+nl:id_a3f88c8db4a07e257273923fd2ae2b503aa56abe oa:hasTarget target:target_b2e51c68b97c364a339144bcd691d23d1b29da33 .
+nl:id_a3f88c8db4a07e257273923fd2ae2b503aa56abe oa:hasTarget ubvu:print-218010002033 .
+nl:id_a3f88c8db4a07e257273923fd2ae2b503aa56abe oa:motivatedBy oa:tagging .
 
 nl:id_b12d1189e3892ec5a73ad168824ec62fa625335c a oa:Annotation .
 nl:id_b12d1189e3892ec5a73ad168824ec62fa625335c terms:title "Salome gives the head of John the Baptist to her mother" .
@@ -246,6 +258,14 @@ target:selector_a6c74d2dbccdbf8089c6ddd3c3e61164df9f5d03 ui:x "0.091452991452991
 target:selector_a6c74d2dbccdbf8089c6ddd3c3e61164df9f5d03 ui:y "0.328505214368482"^^xsd:float .
 target:selector_a6c74d2dbccdbf8089c6ddd3c3e61164df9f5d03 rdf:value "#xywh=percent:9,33,6,10" .
 
+target:selector_b2e51c68b97c364a339144bcd691d23d1b29da33 a oa:FragmentSelector .
+target:selector_b2e51c68b97c364a339144bcd691d23d1b29da33 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_b2e51c68b97c364a339144bcd691d23d1b29da33 ui:h "0.09443800695249131"^^xsd:float .
+target:selector_b2e51c68b97c364a339144bcd691d23d1b29da33 ui:w "0.08888888888888889"^^xsd:float .
+target:selector_b2e51c68b97c364a339144bcd691d23d1b29da33 ui:x "0.6051282051282051"^^xsd:float .
+target:selector_b2e51c68b97c364a339144bcd691d23d1b29da33 ui:y "0.33371958285052145"^^xsd:float .
+target:selector_b2e51c68b97c364a339144bcd691d23d1b29da33 rdf:value "#xywh=percent:61,33,9,9" .
+
 target:selector_cafcd292d3862fa76158c26c7742b4536dfde3a7 a oa:FragmentSelector .
 target:selector_cafcd292d3862fa76158c26c7742b4536dfde3a7 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_cafcd292d3862fa76158c26c7742b4536dfde3a7 ui:h "0.11529548088064889"^^xsd:float .
@@ -281,6 +301,10 @@ target:target_a26a1a07c24c7f2abc2703238f2ccd86871a2c60 oa:hasSource <http://imag
 target:target_a6c74d2dbccdbf8089c6ddd3c3e61164df9f5d03 a oa:SpecificResource .
 target:target_a6c74d2dbccdbf8089c6ddd3c3e61164df9f5d03 oa:hasSelector target:selector_a6c74d2dbccdbf8089c6ddd3c3e61164df9f5d03 .
 target:target_a6c74d2dbccdbf8089c6ddd3c3e61164df9f5d03 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/32> .
+
+target:target_b2e51c68b97c364a339144bcd691d23d1b29da33 a oa:SpecificResource .
+target:target_b2e51c68b97c364a339144bcd691d23d1b29da33 oa:hasSelector target:selector_b2e51c68b97c364a339144bcd691d23d1b29da33 .
+target:target_b2e51c68b97c364a339144bcd691d23d1b29da33 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/32> .
 
 target:target_cafcd292d3862fa76158c26c7742b4536dfde3a7 a oa:SpecificResource .
 target:target_cafcd292d3862fa76158c26c7742b4536dfde3a7 oa:hasSelector target:selector_cafcd292d3862fa76158c26c7742b4536dfde3a7 .
