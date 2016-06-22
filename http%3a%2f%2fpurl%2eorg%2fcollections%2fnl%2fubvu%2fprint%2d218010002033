@@ -172,6 +172,16 @@ nl:id_4b865dc9ff20c0cb1a92003eaaf45d6e8455c473 oa:hasBody [ a content:ContentAsT
 nl:id_4b865dc9ff20c0cb1a92003eaaf45d6e8455c473 oa:hasTarget ubvu:print-218010002033 .
 nl:id_4b865dc9ff20c0cb1a92003eaaf45d6e8455c473 oa:motivatedBy oa:tagging .
 
+nl:id_4c36a40306c83cb2074f3f3586d9ba4b4058be4d a oa:Annotation .
+nl:id_4c36a40306c83cb2074f3f3586d9ba4b4058be4d terms:title "Petrus krijgt opdracht van Jezus om zijn hengel uit te gooien." .
+nl:id_4c36a40306c83cb2074f3f3586d9ba4b4058be4d ui:annotationField bible:ICBibleTheme .
+nl:id_4c36a40306c83cb2074f3f3586d9ba4b4058be4d ui:typingTime 0 .
+nl:id_4c36a40306c83cb2074f3f3586d9ba4b4058be4d oa:annotatedAt "2016-06-22T21:06:25+02:00"^^xsd:dateTime .
+nl:id_4c36a40306c83cb2074f3f3586d9ba4b4058be4d oa:annotatedBy user:paulinevandijk .
+nl:id_4c36a40306c83cb2074f3f3586d9ba4b4058be4d oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Petrus krijgt opdracht van Jezus om zijn hengel uit te gooien." ] .
+nl:id_4c36a40306c83cb2074f3f3586d9ba4b4058be4d oa:hasTarget ubvu:print-218010002033 .
+nl:id_4c36a40306c83cb2074f3f3586d9ba4b4058be4d oa:motivatedBy oa:tagging .
+
 nl:id_4ccf6c06a0bd7050223b17a3ab326e375ef80b9b a oa:Annotation .
 nl:id_4ccf6c06a0bd7050223b17a3ab326e375ef80b9b terms:title "de dochter van Herodias" .
 nl:id_4ccf6c06a0bd7050223b17a3ab326e375ef80b9b ui:annotationField bible:BibleCharacter .
