@@ -13,6 +13,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_85b4224eb53fa165e6cee12657d1823a1d1de7b3 a oa:Annotation .
+nl:id_85b4224eb53fa165e6cee12657d1823a1d1de7b3 terms:title "Het volk belooft de Heer van Israël te dienen." .
+nl:id_85b4224eb53fa165e6cee12657d1823a1d1de7b3 ui:annotationField bible:ICBibleTheme .
+nl:id_85b4224eb53fa165e6cee12657d1823a1d1de7b3 ui:typingTime 0 .
+nl:id_85b4224eb53fa165e6cee12657d1823a1d1de7b3 oa:annotatedAt "2016-06-22T20:43:36+02:00"^^xsd:dateTime .
+nl:id_85b4224eb53fa165e6cee12657d1823a1d1de7b3 oa:annotatedBy user:paulinevandijk .
+nl:id_85b4224eb53fa165e6cee12657d1823a1d1de7b3 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Het volk belooft de Heer van Israël te dienen." ] .
+nl:id_85b4224eb53fa165e6cee12657d1823a1d1de7b3 oa:hasTarget ubvu:print-218010001359 .
+nl:id_85b4224eb53fa165e6cee12657d1823a1d1de7b3 oa:motivatedBy oa:tagging .
+
 nl:id_cc4f7b4fb678ac4d66045f60f418b4fcadf0076d a oa:Annotation .
 nl:id_cc4f7b4fb678ac4d66045f60f418b4fcadf0076d terms:title "Joshua makes a convenant with God" .
 nl:id_cc4f7b4fb678ac4d66045f60f418b4fcadf0076d ui:annotationField bible:ICBibleTheme .
