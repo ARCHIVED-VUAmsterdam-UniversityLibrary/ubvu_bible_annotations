@@ -45,6 +45,16 @@ nl:id_42e4826023014c36d1007f6ef6212abdc0eccb02 oa:hasTarget target:target_3a3f63
 nl:id_42e4826023014c36d1007f6ef6212abdc0eccb02 oa:hasTarget ubvu:print-218010001855 .
 nl:id_42e4826023014c36d1007f6ef6212abdc0eccb02 oa:motivatedBy oa:tagging .
 
+nl:id_bd1c2d231ab1a75b8e2a488d620b668f8640340f a oa:Annotation .
+nl:id_bd1c2d231ab1a75b8e2a488d620b668f8640340f terms:title "Jezus bespot" .
+nl:id_bd1c2d231ab1a75b8e2a488d620b668f8640340f ui:annotationField bible:ICBibleTheme .
+nl:id_bd1c2d231ab1a75b8e2a488d620b668f8640340f ui:typingTime 0 .
+nl:id_bd1c2d231ab1a75b8e2a488d620b668f8640340f oa:annotatedAt "2016-06-22T20:40:18+02:00"^^xsd:dateTime .
+nl:id_bd1c2d231ab1a75b8e2a488d620b668f8640340f oa:annotatedBy user:paulinevandijk .
+nl:id_bd1c2d231ab1a75b8e2a488d620b668f8640340f oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jezus bespot" ] .
+nl:id_bd1c2d231ab1a75b8e2a488d620b668f8640340f oa:hasTarget ubvu:print-218010001855 .
+nl:id_bd1c2d231ab1a75b8e2a488d620b668f8640340f oa:motivatedBy oa:tagging .
+
 nl:id_da6b8e4731d4c2c6a64663f1e19006a5a0d22573 a oa:Annotation .
 nl:id_da6b8e4731d4c2c6a64663f1e19006a5a0d22573 terms:title "Jezus Christus" .
 nl:id_da6b8e4731d4c2c6a64663f1e19006a5a0d22573 ui:annotationField bible:BibleCharacter .
