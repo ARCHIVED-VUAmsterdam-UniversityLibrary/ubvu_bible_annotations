@@ -67,6 +67,16 @@ nl:id_1c385082e14eeef6bb311b583e884ac389b56632 oa:hasTarget target:target_a26a1a
 nl:id_1c385082e14eeef6bb311b583e884ac389b56632 oa:hasTarget ubvu:print-218010002033 .
 nl:id_1c385082e14eeef6bb311b583e884ac389b56632 oa:motivatedBy oa:tagging .
 
+nl:id_1c5a03aa6c35695f9333bde485abad244327aa07 a oa:Annotation .
+nl:id_1c5a03aa6c35695f9333bde485abad244327aa07 terms:title "Een vader met een maanzieke zoon vraagt Jezus om hulp." .
+nl:id_1c5a03aa6c35695f9333bde485abad244327aa07 ui:annotationField bible:ICBibleTheme .
+nl:id_1c5a03aa6c35695f9333bde485abad244327aa07 ui:typingTime 0 .
+nl:id_1c5a03aa6c35695f9333bde485abad244327aa07 oa:annotatedAt "2016-06-22T21:00:55+02:00"^^xsd:dateTime .
+nl:id_1c5a03aa6c35695f9333bde485abad244327aa07 oa:annotatedBy user:paulinevandijk .
+nl:id_1c5a03aa6c35695f9333bde485abad244327aa07 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Een vader met een maanzieke zoon vraagt Jezus om hulp." ] .
+nl:id_1c5a03aa6c35695f9333bde485abad244327aa07 oa:hasTarget ubvu:print-218010002033 .
+nl:id_1c5a03aa6c35695f9333bde485abad244327aa07 oa:motivatedBy oa:tagging .
+
 nl:id_2a243274e943890373a040c1335de65dc9e3f38a a oa:Annotation .
 nl:id_2a243274e943890373a040c1335de65dc9e3f38a terms:title "Elia" .
 nl:id_2a243274e943890373a040c1335de65dc9e3f38a ui:annotationField bible:BibleCharacter .
