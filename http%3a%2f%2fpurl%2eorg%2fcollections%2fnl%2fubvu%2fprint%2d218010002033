@@ -116,6 +116,16 @@ nl:id_b12d1189e3892ec5a73ad168824ec62fa625335c oa:hasBody <http://iconclass.org/
 nl:id_b12d1189e3892ec5a73ad168824ec62fa625335c oa:hasTarget ubvu:print-218010002033 .
 nl:id_b12d1189e3892ec5a73ad168824ec62fa625335c oa:motivatedBy oa:tagging .
 
+nl:id_c783e340536237732acfdf0c2a867c5903c71fb3 a oa:Annotation .
+nl:id_c783e340536237732acfdf0c2a867c5903c71fb3 terms:title "Jezus wandelt op het meer. " .
+nl:id_c783e340536237732acfdf0c2a867c5903c71fb3 ui:annotationField bible:ICBibleTheme .
+nl:id_c783e340536237732acfdf0c2a867c5903c71fb3 ui:typingTime 0 .
+nl:id_c783e340536237732acfdf0c2a867c5903c71fb3 oa:annotatedAt "2016-06-22T20:54:05+02:00"^^xsd:dateTime .
+nl:id_c783e340536237732acfdf0c2a867c5903c71fb3 oa:annotatedBy user:paulinevandijk .
+nl:id_c783e340536237732acfdf0c2a867c5903c71fb3 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jezus wandelt op het meer. " ] .
+nl:id_c783e340536237732acfdf0c2a867c5903c71fb3 oa:hasTarget ubvu:print-218010002033 .
+nl:id_c783e340536237732acfdf0c2a867c5903c71fb3 oa:motivatedBy oa:tagging .
+
 nl:id_cf7d17b1034bf2c0625b8bbdda6dd8b4a1b9e476 a oa:Annotation .
 nl:id_cf7d17b1034bf2c0625b8bbdda6dd8b4a1b9e476 terms:title "Herodus" .
 nl:id_cf7d17b1034bf2c0625b8bbdda6dd8b4a1b9e476 ui:annotationField bible:BibleCharacter .
