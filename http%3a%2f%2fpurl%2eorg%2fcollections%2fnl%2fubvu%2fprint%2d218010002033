@@ -6,9 +6,21 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
+
+nl:id_4ccf6c06a0bd7050223b17a3ab326e375ef80b9b a oa:Annotation .
+nl:id_4ccf6c06a0bd7050223b17a3ab326e375ef80b9b terms:title "de dochter van Herodias" .
+nl:id_4ccf6c06a0bd7050223b17a3ab326e375ef80b9b ui:annotationField bible:BibleCharacter .
+nl:id_4ccf6c06a0bd7050223b17a3ab326e375ef80b9b ui:typingTime 0 .
+nl:id_4ccf6c06a0bd7050223b17a3ab326e375ef80b9b oa:annotatedAt "2016-06-22T20:50:02+02:00"^^xsd:dateTime .
+nl:id_4ccf6c06a0bd7050223b17a3ab326e375ef80b9b oa:annotatedBy user:paulinevandijk .
+nl:id_4ccf6c06a0bd7050223b17a3ab326e375ef80b9b oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "de dochter van Herodias" ] .
+nl:id_4ccf6c06a0bd7050223b17a3ab326e375ef80b9b oa:hasTarget target:target_33b70c2e69a46a0b4115607a7343683ec2cadbe9 .
+nl:id_4ccf6c06a0bd7050223b17a3ab326e375ef80b9b oa:hasTarget ubvu:print-218010002033 .
+nl:id_4ccf6c06a0bd7050223b17a3ab326e375ef80b9b oa:motivatedBy oa:tagging .
 
 nl:id_64ca2b3e5f814e742f514747c2a6d266f59dcf1c a oa:Annotation .
 nl:id_64ca2b3e5f814e742f514747c2a6d266f59dcf1c terms:title "John the Baptist beheaded (Mt.14,10)" .
@@ -59,3 +71,15 @@ nl:id_ebeb53f754a65f2aca8d168d3f46d83a129b6ef4 oa:annotatedBy user:spaapen1 .
 nl:id_ebeb53f754a65f2aca8d168d3f46d83a129b6ef4 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jesus walking on the water (Mt.14,28)" ] .
 nl:id_ebeb53f754a65f2aca8d168d3f46d83a129b6ef4 oa:hasTarget ubvu:print-218010002033 .
 nl:id_ebeb53f754a65f2aca8d168d3f46d83a129b6ef4 oa:motivatedBy oa:tagging .
+
+target:selector_33b70c2e69a46a0b4115607a7343683ec2cadbe9 a oa:FragmentSelector .
+target:selector_33b70c2e69a46a0b4115607a7343683ec2cadbe9 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_33b70c2e69a46a0b4115607a7343683ec2cadbe9 ui:h "0.08227114716106605"^^xsd:float .
+target:selector_33b70c2e69a46a0b4115607a7343683ec2cadbe9 ui:w "0.0547008547008547"^^xsd:float .
+target:selector_33b70c2e69a46a0b4115607a7343683ec2cadbe9 ui:x "0.14957264957264957"^^xsd:float .
+target:selector_33b70c2e69a46a0b4115607a7343683ec2cadbe9 ui:y "0.1257242178447277"^^xsd:float .
+target:selector_33b70c2e69a46a0b4115607a7343683ec2cadbe9 rdf:value "#xywh=percent:15,13,5,8" .
+
+target:target_33b70c2e69a46a0b4115607a7343683ec2cadbe9 a oa:SpecificResource .
+target:target_33b70c2e69a46a0b4115607a7343683ec2cadbe9 oa:hasSelector target:selector_33b70c2e69a46a0b4115607a7343683ec2cadbe9 .
+target:target_33b70c2e69a46a0b4115607a7343683ec2cadbe9 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/32> .
