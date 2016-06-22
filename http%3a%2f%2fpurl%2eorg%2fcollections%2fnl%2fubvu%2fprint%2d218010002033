@@ -118,6 +118,16 @@ nl:id_7cf4004fddf10527ae6b1fd19be226cd4f118182 oa:hasBody <http://iconclass.org/
 nl:id_7cf4004fddf10527ae6b1fd19be226cd4f118182 oa:hasTarget ubvu:print-218010002033 .
 nl:id_7cf4004fddf10527ae6b1fd19be226cd4f118182 oa:motivatedBy oa:tagging .
 
+nl:id_900d351ecfa21696e5c62a52d2887a62e4c14cc8 a oa:Annotation .
+nl:id_900d351ecfa21696e5c62a52d2887a62e4c14cc8 terms:title "Petrus door Jezus uit het water gered." .
+nl:id_900d351ecfa21696e5c62a52d2887a62e4c14cc8 ui:annotationField bible:ICBibleTheme .
+nl:id_900d351ecfa21696e5c62a52d2887a62e4c14cc8 ui:typingTime 0 .
+nl:id_900d351ecfa21696e5c62a52d2887a62e4c14cc8 oa:annotatedAt "2016-06-22T20:55:14+02:00"^^xsd:dateTime .
+nl:id_900d351ecfa21696e5c62a52d2887a62e4c14cc8 oa:annotatedBy user:paulinevandijk .
+nl:id_900d351ecfa21696e5c62a52d2887a62e4c14cc8 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Petrus door Jezus uit het water gered." ] .
+nl:id_900d351ecfa21696e5c62a52d2887a62e4c14cc8 oa:hasTarget ubvu:print-218010002033 .
+nl:id_900d351ecfa21696e5c62a52d2887a62e4c14cc8 oa:motivatedBy oa:tagging .
+
 nl:id_a3f88c8db4a07e257273923fd2ae2b503aa56abe a oa:Annotation .
 nl:id_a3f88c8db4a07e257273923fd2ae2b503aa56abe terms:title "Jezus Christus" .
 nl:id_a3f88c8db4a07e257273923fd2ae2b503aa56abe ui:annotationField bible:BibleCharacter .
