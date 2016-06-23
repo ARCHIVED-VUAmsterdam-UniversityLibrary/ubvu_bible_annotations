@@ -185,6 +185,16 @@ nl:id_609892c2a8e74edcd21716db7d90328a033eb3ac oa:hasBody [ a content:ContentAsT
 nl:id_609892c2a8e74edcd21716db7d90328a033eb3ac oa:hasTarget ubvu:print-218010002032 .
 nl:id_609892c2a8e74edcd21716db7d90328a033eb3ac oa:motivatedBy oa:tagging .
 
+nl:id_60e9eb701d9e024c5e96efae2ccedc1faaa440aa a oa:Annotation .
+nl:id_60e9eb701d9e024c5e96efae2ccedc1faaa440aa terms:title "Jezus kalmeert het woeste water op het meer van Galilea." .
+nl:id_60e9eb701d9e024c5e96efae2ccedc1faaa440aa ui:annotationField bible:ICBibleTheme .
+nl:id_60e9eb701d9e024c5e96efae2ccedc1faaa440aa ui:typingTime 0 .
+nl:id_60e9eb701d9e024c5e96efae2ccedc1faaa440aa oa:annotatedAt "2016-06-23T10:00:59+02:00"^^xsd:dateTime .
+nl:id_60e9eb701d9e024c5e96efae2ccedc1faaa440aa oa:annotatedBy user:paulinevandijk .
+nl:id_60e9eb701d9e024c5e96efae2ccedc1faaa440aa oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jezus kalmeert het woeste water op het meer van Galilea." ] .
+nl:id_60e9eb701d9e024c5e96efae2ccedc1faaa440aa oa:hasTarget ubvu:print-218010002032 .
+nl:id_60e9eb701d9e024c5e96efae2ccedc1faaa440aa oa:motivatedBy oa:tagging .
+
 nl:id_6bb5045d2c792925ebc0ed85c77dc0fce44344b1 a oa:Annotation .
 nl:id_6bb5045d2c792925ebc0ed85c77dc0fce44344b1 terms:title "'In den beginne ...' de ordening van chaos (Genesis 1:1-2)" .
 nl:id_6bb5045d2c792925ebc0ed85c77dc0fce44344b1 ui:annotationField bible:ICBibleTheme .
