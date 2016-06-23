@@ -24,6 +24,16 @@ nl:id_02dbfa801ff38af34fe95d77e3463850e406feda oa:hasTarget target:target_c360b4
 nl:id_02dbfa801ff38af34fe95d77e3463850e406feda oa:hasTarget ubvu:print-218010002032 .
 nl:id_02dbfa801ff38af34fe95d77e3463850e406feda oa:motivatedBy oa:tagging .
 
+nl:id_05903ec0c3274c465d8c10ba7b92c389b0a63e9a a oa:Annotation .
+nl:id_05903ec0c3274c465d8c10ba7b92c389b0a63e9a terms:title "De duivel verzoekt Jezus in de woestijn." .
+nl:id_05903ec0c3274c465d8c10ba7b92c389b0a63e9a ui:annotationField bible:ICBibleTheme .
+nl:id_05903ec0c3274c465d8c10ba7b92c389b0a63e9a ui:typingTime 0 .
+nl:id_05903ec0c3274c465d8c10ba7b92c389b0a63e9a oa:annotatedAt "2016-06-23T09:48:39+02:00"^^xsd:dateTime .
+nl:id_05903ec0c3274c465d8c10ba7b92c389b0a63e9a oa:annotatedBy user:paulinevandijk .
+nl:id_05903ec0c3274c465d8c10ba7b92c389b0a63e9a oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "De duivel verzoekt Jezus in de woestijn." ] .
+nl:id_05903ec0c3274c465d8c10ba7b92c389b0a63e9a oa:hasTarget ubvu:print-218010002032 .
+nl:id_05903ec0c3274c465d8c10ba7b92c389b0a63e9a oa:motivatedBy oa:tagging .
+
 nl:id_0a5747f091ddeca24312f6c304442c8f5d53011d a oa:Annotation .
 nl:id_0a5747f091ddeca24312f6c304442c8f5d53011d terms:title "duivel" .
 nl:id_0a5747f091ddeca24312f6c304442c8f5d53011d ui:annotationField bible:BibleCharacter .
