@@ -45,6 +45,16 @@ nl:id_91af8401f00b025bf59b76b48449227b28d4f45a oa:hasTarget target:target_636c1b
 nl:id_91af8401f00b025bf59b76b48449227b28d4f45a oa:hasTarget ubvu:print-218010001657 .
 nl:id_91af8401f00b025bf59b76b48449227b28d4f45a oa:motivatedBy oa:tagging .
 
+nl:id_a2d7efe7ef408c7292fd108a771ec3fd1898bc2a a oa:Annotation .
+nl:id_a2d7efe7ef408c7292fd108a771ec3fd1898bc2a terms:title "Maria en Elisabet" .
+nl:id_a2d7efe7ef408c7292fd108a771ec3fd1898bc2a ui:annotationField bible:ICBibleTheme .
+nl:id_a2d7efe7ef408c7292fd108a771ec3fd1898bc2a ui:typingTime 0 .
+nl:id_a2d7efe7ef408c7292fd108a771ec3fd1898bc2a oa:annotatedAt "2016-06-23T09:47:10+02:00"^^xsd:dateTime .
+nl:id_a2d7efe7ef408c7292fd108a771ec3fd1898bc2a oa:annotatedBy user:paulinevandijk .
+nl:id_a2d7efe7ef408c7292fd108a771ec3fd1898bc2a oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Maria en Elisabet" ] .
+nl:id_a2d7efe7ef408c7292fd108a771ec3fd1898bc2a oa:hasTarget ubvu:print-218010001657 .
+nl:id_a2d7efe7ef408c7292fd108a771ec3fd1898bc2a oa:motivatedBy oa:tagging .
+
 nl:id_ab60b8a237dc7aa2cfbd84e929d805ac71e78086 a oa:Annotation .
 nl:id_ab60b8a237dc7aa2cfbd84e929d805ac71e78086 terms:title "Elisabeth" .
 nl:id_ab60b8a237dc7aa2cfbd84e929d805ac71e78086 ui:annotationField bible:BibleCharacter .
