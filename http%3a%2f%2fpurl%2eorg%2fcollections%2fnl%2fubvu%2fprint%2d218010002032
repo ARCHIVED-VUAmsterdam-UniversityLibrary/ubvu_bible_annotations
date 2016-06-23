@@ -143,6 +143,16 @@ nl:id_506e0a5107781b8002a4557e49ce4dc2833d70d8 oa:hasTarget target:target_d25d30
 nl:id_506e0a5107781b8002a4557e49ce4dc2833d70d8 oa:hasTarget ubvu:print-218010002032 .
 nl:id_506e0a5107781b8002a4557e49ce4dc2833d70d8 oa:motivatedBy oa:tagging .
 
+nl:id_5d4bed35c8d9a0e7cb5efe6e4984d1f68087aee5 a oa:Annotation .
+nl:id_5d4bed35c8d9a0e7cb5efe6e4984d1f68087aee5 terms:title "Jezus geneest een man met huidvraat." .
+nl:id_5d4bed35c8d9a0e7cb5efe6e4984d1f68087aee5 ui:annotationField bible:ICBibleTheme .
+nl:id_5d4bed35c8d9a0e7cb5efe6e4984d1f68087aee5 ui:typingTime 0 .
+nl:id_5d4bed35c8d9a0e7cb5efe6e4984d1f68087aee5 oa:annotatedAt "2016-06-23T09:57:17+02:00"^^xsd:dateTime .
+nl:id_5d4bed35c8d9a0e7cb5efe6e4984d1f68087aee5 oa:annotatedBy user:paulinevandijk .
+nl:id_5d4bed35c8d9a0e7cb5efe6e4984d1f68087aee5 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jezus geneest een man met huidvraat." ] .
+nl:id_5d4bed35c8d9a0e7cb5efe6e4984d1f68087aee5 oa:hasTarget ubvu:print-218010002032 .
+nl:id_5d4bed35c8d9a0e7cb5efe6e4984d1f68087aee5 oa:motivatedBy oa:tagging .
+
 nl:id_6bb5045d2c792925ebc0ed85c77dc0fce44344b1 a oa:Annotation .
 nl:id_6bb5045d2c792925ebc0ed85c77dc0fce44344b1 terms:title "'In den beginne ...' de ordening van chaos (Genesis 1:1-2)" .
 nl:id_6bb5045d2c792925ebc0ed85c77dc0fce44344b1 ui:annotationField bible:ICBibleTheme .
