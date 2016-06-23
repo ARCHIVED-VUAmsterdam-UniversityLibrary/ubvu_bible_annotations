@@ -228,6 +228,17 @@ nl:id_89084ab785b895d5500f60eaea1f84d1daaefe99 oa:hasTarget target:target_34a447
 nl:id_89084ab785b895d5500f60eaea1f84d1daaefe99 oa:hasTarget ubvu:print-218010002032 .
 nl:id_89084ab785b895d5500f60eaea1f84d1daaefe99 oa:motivatedBy oa:tagging .
 
+nl:id_a05f70c2b0ba03b6653018271810d9475e4aa252 a oa:Annotation .
+nl:id_a05f70c2b0ba03b6653018271810d9475e4aa252 terms:title "Jezus" .
+nl:id_a05f70c2b0ba03b6653018271810d9475e4aa252 ui:annotationField bible:BibleCharacter .
+nl:id_a05f70c2b0ba03b6653018271810d9475e4aa252 ui:typingTime 0 .
+nl:id_a05f70c2b0ba03b6653018271810d9475e4aa252 oa:annotatedAt "2016-06-23T09:59:29+02:00"^^xsd:dateTime .
+nl:id_a05f70c2b0ba03b6653018271810d9475e4aa252 oa:annotatedBy user:paulinevandijk .
+nl:id_a05f70c2b0ba03b6653018271810d9475e4aa252 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jezus" ] .
+nl:id_a05f70c2b0ba03b6653018271810d9475e4aa252 oa:hasTarget target:target_f63e1144f64e20efbb94f65dcd400245951242f9 .
+nl:id_a05f70c2b0ba03b6653018271810d9475e4aa252 oa:hasTarget ubvu:print-218010002032 .
+nl:id_a05f70c2b0ba03b6653018271810d9475e4aa252 oa:motivatedBy oa:tagging .
+
 nl:id_a7130560c030e5e34e16b10ee6922c3de703af19 a oa:Annotation .
 nl:id_a7130560c030e5e34e16b10ee6922c3de703af19 terms:title "Jezus roept Simon (Petrus) en zijn broer Andreas om hem te volgen." .
 nl:id_a7130560c030e5e34e16b10ee6922c3de703af19 ui:annotationField bible:ICBibleTheme .
@@ -456,6 +467,14 @@ target:selector_d25d30c665ac8a779b8dd6b514b56ed09cdd9f72 ui:x "0.121367521367521
 target:selector_d25d30c665ac8a779b8dd6b514b56ed09cdd9f72 ui:y "0.30306535569693466"^^xsd:float .
 target:selector_d25d30c665ac8a779b8dd6b514b56ed09cdd9f72 rdf:value "#xywh=percent:12,30,4,10" .
 
+target:selector_f63e1144f64e20efbb94f65dcd400245951242f9 a oa:FragmentSelector .
+target:selector_f63e1144f64e20efbb94f65dcd400245951242f9 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_f63e1144f64e20efbb94f65dcd400245951242f9 ui:h "0.12724117987275882"^^xsd:float .
+target:selector_f63e1144f64e20efbb94f65dcd400245951242f9 ui:w "0.09572649572649573"^^xsd:float .
+target:selector_f63e1144f64e20efbb94f65dcd400245951242f9 ui:x "0.44529914529914527"^^xsd:float .
+target:selector_f63e1144f64e20efbb94f65dcd400245951242f9 ui:y "0.5934065934065934"^^xsd:float .
+target:selector_f63e1144f64e20efbb94f65dcd400245951242f9 rdf:value "#xywh=percent:45,59,10,13" .
+
 target:target_1a78596238719ce34003651ad414bb76857a18dd a oa:SpecificResource .
 target:target_1a78596238719ce34003651ad414bb76857a18dd oa:hasSelector target:selector_1a78596238719ce34003651ad414bb76857a18dd .
 target:target_1a78596238719ce34003651ad414bb76857a18dd oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/31> .
@@ -527,3 +546,7 @@ target:target_c705a93bde80b6f86391f2c9e6489d5877635031 oa:hasSource <http://imag
 target:target_d25d30c665ac8a779b8dd6b514b56ed09cdd9f72 a oa:SpecificResource .
 target:target_d25d30c665ac8a779b8dd6b514b56ed09cdd9f72 oa:hasSelector target:selector_d25d30c665ac8a779b8dd6b514b56ed09cdd9f72 .
 target:target_d25d30c665ac8a779b8dd6b514b56ed09cdd9f72 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/31> .
+
+target:target_f63e1144f64e20efbb94f65dcd400245951242f9 a oa:SpecificResource .
+target:target_f63e1144f64e20efbb94f65dcd400245951242f9 oa:hasSelector target:selector_f63e1144f64e20efbb94f65dcd400245951242f9 .
+target:target_f63e1144f64e20efbb94f65dcd400245951242f9 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/31> .
