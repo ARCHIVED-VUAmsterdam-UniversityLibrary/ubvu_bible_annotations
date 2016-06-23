@@ -67,6 +67,17 @@ nl:id_40eeb5675310b23b59f2a2a3e23a910195e00661 oa:hasTarget target:target_22a342
 nl:id_40eeb5675310b23b59f2a2a3e23a910195e00661 oa:hasTarget ubvu:print-218010002032 .
 nl:id_40eeb5675310b23b59f2a2a3e23a910195e00661 oa:motivatedBy oa:tagging .
 
+nl:id_4508e89712c9bffeb4827573f900cccb71f90fe7 a oa:Annotation .
+nl:id_4508e89712c9bffeb4827573f900cccb71f90fe7 terms:title "Jezus" .
+nl:id_4508e89712c9bffeb4827573f900cccb71f90fe7 ui:annotationField bible:BibleCharacter .
+nl:id_4508e89712c9bffeb4827573f900cccb71f90fe7 ui:typingTime 0 .
+nl:id_4508e89712c9bffeb4827573f900cccb71f90fe7 oa:annotatedAt "2016-06-23T09:49:06+02:00"^^xsd:dateTime .
+nl:id_4508e89712c9bffeb4827573f900cccb71f90fe7 oa:annotatedBy user:paulinevandijk .
+nl:id_4508e89712c9bffeb4827573f900cccb71f90fe7 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jezus" ] .
+nl:id_4508e89712c9bffeb4827573f900cccb71f90fe7 oa:hasTarget target:target_729344fd6a85a12c474bbd33c195f7b5481e0bb7 .
+nl:id_4508e89712c9bffeb4827573f900cccb71f90fe7 oa:hasTarget ubvu:print-218010002032 .
+nl:id_4508e89712c9bffeb4827573f900cccb71f90fe7 oa:motivatedBy oa:tagging .
+
 nl:id_6bb5045d2c792925ebc0ed85c77dc0fce44344b1 a oa:Annotation .
 nl:id_6bb5045d2c792925ebc0ed85c77dc0fce44344b1 terms:title "'In den beginne ...' de ordening van chaos (Genesis 1:1-2)" .
 nl:id_6bb5045d2c792925ebc0ed85c77dc0fce44344b1 ui:annotationField bible:ICBibleTheme .
@@ -142,6 +153,14 @@ target:selector_6a4e4a607504d2e0f9ff29599ad93b215ac80279 ui:x "0.422222222222222
 target:selector_6a4e4a607504d2e0f9ff29599ad93b215ac80279 ui:y "0.5997686524002314"^^xsd:float .
 target:selector_6a4e4a607504d2e0f9ff29599ad93b215ac80279 rdf:value "#xywh=percent:42,60,14,13" .
 
+target:selector_729344fd6a85a12c474bbd33c195f7b5481e0bb7 a oa:FragmentSelector .
+target:selector_729344fd6a85a12c474bbd33c195f7b5481e0bb7 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_729344fd6a85a12c474bbd33c195f7b5481e0bb7 ui:h "0.07865818392134181"^^xsd:float .
+target:selector_729344fd6a85a12c474bbd33c195f7b5481e0bb7 ui:w "0.05384615384615385"^^xsd:float .
+target:selector_729344fd6a85a12c474bbd33c195f7b5481e0bb7 ui:x "0.5717948717948718"^^xsd:float .
+target:selector_729344fd6a85a12c474bbd33c195f7b5481e0bb7 ui:y "0.1266628108733372"^^xsd:float .
+target:selector_729344fd6a85a12c474bbd33c195f7b5481e0bb7 rdf:value "#xywh=percent:57,13,5,8" .
+
 target:selector_964223ec5e23f667496319815bac2d5aeaaf2a30 a oa:FragmentSelector .
 target:selector_964223ec5e23f667496319815bac2d5aeaaf2a30 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_964223ec5e23f667496319815bac2d5aeaaf2a30 ui:h "0.16888374783111626"^^xsd:float .
@@ -173,6 +192,10 @@ target:target_5ad1818562d07e039447e7e85986a994a0d10722 oa:hasSource <http://imag
 target:target_6a4e4a607504d2e0f9ff29599ad93b215ac80279 a oa:SpecificResource .
 target:target_6a4e4a607504d2e0f9ff29599ad93b215ac80279 oa:hasSelector target:selector_6a4e4a607504d2e0f9ff29599ad93b215ac80279 .
 target:target_6a4e4a607504d2e0f9ff29599ad93b215ac80279 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/31> .
+
+target:target_729344fd6a85a12c474bbd33c195f7b5481e0bb7 a oa:SpecificResource .
+target:target_729344fd6a85a12c474bbd33c195f7b5481e0bb7 oa:hasSelector target:selector_729344fd6a85a12c474bbd33c195f7b5481e0bb7 .
+target:target_729344fd6a85a12c474bbd33c195f7b5481e0bb7 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/31> .
 
 target:target_964223ec5e23f667496319815bac2d5aeaaf2a30 a oa:SpecificResource .
 target:target_964223ec5e23f667496319815bac2d5aeaaf2a30 oa:hasSelector target:selector_964223ec5e23f667496319815bac2d5aeaaf2a30 .
