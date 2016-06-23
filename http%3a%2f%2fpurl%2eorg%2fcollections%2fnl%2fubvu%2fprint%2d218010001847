@@ -24,6 +24,16 @@ nl:id_03c907ca1c2aa8a88a5a86a33a2dafd99b61abf9 oa:hasTarget target:target_cbb5f2
 nl:id_03c907ca1c2aa8a88a5a86a33a2dafd99b61abf9 oa:hasTarget ubvu:print-218010001847 .
 nl:id_03c907ca1c2aa8a88a5a86a33a2dafd99b61abf9 oa:motivatedBy oa:tagging .
 
+nl:id_0e228d6170ee5b5e2494b1454c5b69ee9b5cbfc5 a oa:Annotation .
+nl:id_0e228d6170ee5b5e2494b1454c5b69ee9b5cbfc5 terms:title "Jezus wordt door de raad van oudsten naar Pilatus gestuurd." .
+nl:id_0e228d6170ee5b5e2494b1454c5b69ee9b5cbfc5 ui:annotationField bible:ICBibleTheme .
+nl:id_0e228d6170ee5b5e2494b1454c5b69ee9b5cbfc5 ui:typingTime 0 .
+nl:id_0e228d6170ee5b5e2494b1454c5b69ee9b5cbfc5 oa:annotatedAt "2016-06-23T10:06:00+02:00"^^xsd:dateTime .
+nl:id_0e228d6170ee5b5e2494b1454c5b69ee9b5cbfc5 oa:annotatedBy user:paulinevandijk .
+nl:id_0e228d6170ee5b5e2494b1454c5b69ee9b5cbfc5 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jezus wordt door de raad van oudsten naar Pilatus gestuurd." ] .
+nl:id_0e228d6170ee5b5e2494b1454c5b69ee9b5cbfc5 oa:hasTarget ubvu:print-218010001847 .
+nl:id_0e228d6170ee5b5e2494b1454c5b69ee9b5cbfc5 oa:motivatedBy oa:tagging .
+
 nl:id_dd2e8f13ce2438c3eeae54a92c9752f7fa9ab670 a oa:Annotation .
 nl:id_dd2e8f13ce2438c3eeae54a92c9752f7fa9ab670 terms:title "Jesus" .
 nl:id_dd2e8f13ce2438c3eeae54a92c9752f7fa9ab670 ui:annotationField bible:BibleCharacter .
