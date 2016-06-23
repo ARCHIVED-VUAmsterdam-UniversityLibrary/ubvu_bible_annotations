@@ -164,6 +164,16 @@ nl:id_5d4bed35c8d9a0e7cb5efe6e4984d1f68087aee5 oa:hasBody [ a content:ContentAsT
 nl:id_5d4bed35c8d9a0e7cb5efe6e4984d1f68087aee5 oa:hasTarget ubvu:print-218010002032 .
 nl:id_5d4bed35c8d9a0e7cb5efe6e4984d1f68087aee5 oa:motivatedBy oa:tagging .
 
+nl:id_609892c2a8e74edcd21716db7d90328a033eb3ac a oa:Annotation .
+nl:id_609892c2a8e74edcd21716db7d90328a033eb3ac terms:title "Jezus roept Matteüs" .
+nl:id_609892c2a8e74edcd21716db7d90328a033eb3ac ui:annotationField bible:ICBibleTheme .
+nl:id_609892c2a8e74edcd21716db7d90328a033eb3ac ui:typingTime 0 .
+nl:id_609892c2a8e74edcd21716db7d90328a033eb3ac oa:annotatedAt "2016-06-23T09:58:15+02:00"^^xsd:dateTime .
+nl:id_609892c2a8e74edcd21716db7d90328a033eb3ac oa:annotatedBy user:paulinevandijk .
+nl:id_609892c2a8e74edcd21716db7d90328a033eb3ac oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jezus roept Matteüs" ] .
+nl:id_609892c2a8e74edcd21716db7d90328a033eb3ac oa:hasTarget ubvu:print-218010002032 .
+nl:id_609892c2a8e74edcd21716db7d90328a033eb3ac oa:motivatedBy oa:tagging .
+
 nl:id_6bb5045d2c792925ebc0ed85c77dc0fce44344b1 a oa:Annotation .
 nl:id_6bb5045d2c792925ebc0ed85c77dc0fce44344b1 terms:title "'In den beginne ...' de ordening van chaos (Genesis 1:1-2)" .
 nl:id_6bb5045d2c792925ebc0ed85c77dc0fce44344b1 ui:annotationField bible:ICBibleTheme .
