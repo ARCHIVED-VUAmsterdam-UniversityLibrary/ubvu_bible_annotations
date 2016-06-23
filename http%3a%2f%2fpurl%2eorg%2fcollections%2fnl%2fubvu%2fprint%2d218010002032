@@ -121,6 +121,16 @@ nl:id_89084ab785b895d5500f60eaea1f84d1daaefe99 oa:hasTarget target:target_34a447
 nl:id_89084ab785b895d5500f60eaea1f84d1daaefe99 oa:hasTarget ubvu:print-218010002032 .
 nl:id_89084ab785b895d5500f60eaea1f84d1daaefe99 oa:motivatedBy oa:tagging .
 
+nl:id_a7130560c030e5e34e16b10ee6922c3de703af19 a oa:Annotation .
+nl:id_a7130560c030e5e34e16b10ee6922c3de703af19 terms:title "Jezus roept Simon (Petrus) en zijn broer Andreas om hem te volgen." .
+nl:id_a7130560c030e5e34e16b10ee6922c3de703af19 ui:annotationField bible:ICBibleTheme .
+nl:id_a7130560c030e5e34e16b10ee6922c3de703af19 ui:typingTime 0 .
+nl:id_a7130560c030e5e34e16b10ee6922c3de703af19 oa:annotatedAt "2016-06-23T09:50:32+02:00"^^xsd:dateTime .
+nl:id_a7130560c030e5e34e16b10ee6922c3de703af19 oa:annotatedBy user:paulinevandijk .
+nl:id_a7130560c030e5e34e16b10ee6922c3de703af19 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jezus roept Simon (Petrus) en zijn broer Andreas om hem te volgen." ] .
+nl:id_a7130560c030e5e34e16b10ee6922c3de703af19 oa:hasTarget ubvu:print-218010002032 .
+nl:id_a7130560c030e5e34e16b10ee6922c3de703af19 oa:motivatedBy oa:tagging .
+
 nl:id_e20820510cfd7555a7e0a8df896d724c567cabfa a oa:Annotation .
 nl:id_e20820510cfd7555a7e0a8df896d724c567cabfa terms:title "Mahalalel" .
 nl:id_e20820510cfd7555a7e0a8df896d724c567cabfa ui:annotationField bible:BibleCharacter .
