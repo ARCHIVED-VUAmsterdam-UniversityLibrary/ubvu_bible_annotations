@@ -24,6 +24,17 @@ nl:id_02dbfa801ff38af34fe95d77e3463850e406feda oa:hasTarget target:target_c360b4
 nl:id_02dbfa801ff38af34fe95d77e3463850e406feda oa:hasTarget ubvu:print-218010002032 .
 nl:id_02dbfa801ff38af34fe95d77e3463850e406feda oa:motivatedBy oa:tagging .
 
+nl:id_04fb2ae232c39790a2c591c557ae709e25c77ee3 a oa:Annotation .
+nl:id_04fb2ae232c39790a2c591c557ae709e25c77ee3 terms:title "Jezus" .
+nl:id_04fb2ae232c39790a2c591c557ae709e25c77ee3 ui:annotationField bible:BibleCharacter .
+nl:id_04fb2ae232c39790a2c591c557ae709e25c77ee3 ui:typingTime 0 .
+nl:id_04fb2ae232c39790a2c591c557ae709e25c77ee3 oa:annotatedAt "2016-06-23T09:55:01+02:00"^^xsd:dateTime .
+nl:id_04fb2ae232c39790a2c591c557ae709e25c77ee3 oa:annotatedBy user:paulinevandijk .
+nl:id_04fb2ae232c39790a2c591c557ae709e25c77ee3 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jezus" ] .
+nl:id_04fb2ae232c39790a2c591c557ae709e25c77ee3 oa:hasTarget target:target_6f9f65d0f009ba3a3e06e6d8a392b34bbedec77d .
+nl:id_04fb2ae232c39790a2c591c557ae709e25c77ee3 oa:hasTarget ubvu:print-218010002032 .
+nl:id_04fb2ae232c39790a2c591c557ae709e25c77ee3 oa:motivatedBy oa:tagging .
+
 nl:id_05903ec0c3274c465d8c10ba7b92c389b0a63e9a a oa:Annotation .
 nl:id_05903ec0c3274c465d8c10ba7b92c389b0a63e9a terms:title "De duivel verzoekt Jezus in de woestijn." .
 nl:id_05903ec0c3274c465d8c10ba7b92c389b0a63e9a ui:annotationField bible:ICBibleTheme .
@@ -265,6 +276,14 @@ target:selector_6a4e4a607504d2e0f9ff29599ad93b215ac80279 ui:x "0.422222222222222
 target:selector_6a4e4a607504d2e0f9ff29599ad93b215ac80279 ui:y "0.5997686524002314"^^xsd:float .
 target:selector_6a4e4a607504d2e0f9ff29599ad93b215ac80279 rdf:value "#xywh=percent:42,60,14,13" .
 
+target:selector_6f9f65d0f009ba3a3e06e6d8a392b34bbedec77d a oa:FragmentSelector .
+target:selector_6f9f65d0f009ba3a3e06e6d8a392b34bbedec77d terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_6f9f65d0f009ba3a3e06e6d8a392b34bbedec77d ui:h "0.05668016194331984"^^xsd:float .
+target:selector_6f9f65d0f009ba3a3e06e6d8a392b34bbedec77d ui:w "0.03675213675213675"^^xsd:float .
+target:selector_6f9f65d0f009ba3a3e06e6d8a392b34bbedec77d ui:x "0.11025641025641025"^^xsd:float .
+target:selector_6f9f65d0f009ba3a3e06e6d8a392b34bbedec77d ui:y "0.503181029496819"^^xsd:float .
+target:selector_6f9f65d0f009ba3a3e06e6d8a392b34bbedec77d rdf:value "#xywh=percent:11,50,4,6" .
+
 target:selector_729344fd6a85a12c474bbd33c195f7b5481e0bb7 a oa:FragmentSelector .
 target:selector_729344fd6a85a12c474bbd33c195f7b5481e0bb7 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_729344fd6a85a12c474bbd33c195f7b5481e0bb7 ui:h "0.07865818392134181"^^xsd:float .
@@ -344,6 +363,10 @@ target:target_5ad1818562d07e039447e7e85986a994a0d10722 oa:hasSource <http://imag
 target:target_6a4e4a607504d2e0f9ff29599ad93b215ac80279 a oa:SpecificResource .
 target:target_6a4e4a607504d2e0f9ff29599ad93b215ac80279 oa:hasSelector target:selector_6a4e4a607504d2e0f9ff29599ad93b215ac80279 .
 target:target_6a4e4a607504d2e0f9ff29599ad93b215ac80279 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/31> .
+
+target:target_6f9f65d0f009ba3a3e06e6d8a392b34bbedec77d a oa:SpecificResource .
+target:target_6f9f65d0f009ba3a3e06e6d8a392b34bbedec77d oa:hasSelector target:selector_6f9f65d0f009ba3a3e06e6d8a392b34bbedec77d .
+target:target_6f9f65d0f009ba3a3e06e6d8a392b34bbedec77d oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/31> .
 
 target:target_729344fd6a85a12c474bbd33c195f7b5481e0bb7 a oa:SpecificResource .
 target:target_729344fd6a85a12c474bbd33c195f7b5481e0bb7 oa:hasSelector target:selector_729344fd6a85a12c474bbd33c195f7b5481e0bb7 .
