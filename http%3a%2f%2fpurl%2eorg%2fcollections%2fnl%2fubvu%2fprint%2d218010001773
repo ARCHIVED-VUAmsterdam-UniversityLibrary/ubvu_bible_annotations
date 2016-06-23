@@ -44,6 +44,16 @@ nl:id_51001c1e2dca23c0dae0390c75bac676aceea121 oa:hasTarget target:target_83fffc
 nl:id_51001c1e2dca23c0dae0390c75bac676aceea121 oa:hasTarget ubvu:print-218010001773 .
 nl:id_51001c1e2dca23c0dae0390c75bac676aceea121 oa:motivatedBy oa:tagging .
 
+nl:id_f508326fdd3702d439fc6f2160db4bc3f6fac780 a oa:Annotation .
+nl:id_f508326fdd3702d439fc6f2160db4bc3f6fac780 terms:title "Het hoofd van Johannes de Doper wordt aan de dochter van Herodias gegeven." .
+nl:id_f508326fdd3702d439fc6f2160db4bc3f6fac780 ui:annotationField bible:ICBibleTheme .
+nl:id_f508326fdd3702d439fc6f2160db4bc3f6fac780 ui:typingTime 0 .
+nl:id_f508326fdd3702d439fc6f2160db4bc3f6fac780 oa:annotatedAt "2016-06-23T10:02:24+02:00"^^xsd:dateTime .
+nl:id_f508326fdd3702d439fc6f2160db4bc3f6fac780 oa:annotatedBy user:paulinevandijk .
+nl:id_f508326fdd3702d439fc6f2160db4bc3f6fac780 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Het hoofd van Johannes de Doper wordt aan de dochter van Herodias gegeven." ] .
+nl:id_f508326fdd3702d439fc6f2160db4bc3f6fac780 oa:hasTarget ubvu:print-218010001773 .
+nl:id_f508326fdd3702d439fc6f2160db4bc3f6fac780 oa:motivatedBy oa:tagging .
+
 target:selector_83fffce138a448fd0aee673a6921591c8b285830 a oa:FragmentSelector .
 target:selector_83fffce138a448fd0aee673a6921591c8b285830 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_83fffce138a448fd0aee673a6921591c8b285830 ui:h "0.06429780033840947"^^xsd:float .
