@@ -45,6 +45,16 @@ nl:id_0a5747f091ddeca24312f6c304442c8f5d53011d oa:hasTarget target:target_5ad181
 nl:id_0a5747f091ddeca24312f6c304442c8f5d53011d oa:hasTarget ubvu:print-218010002032 .
 nl:id_0a5747f091ddeca24312f6c304442c8f5d53011d oa:motivatedBy oa:tagging .
 
+nl:id_0af6e1dcba3b4cb369128b4878fc2c42f9987453 a oa:Annotation .
+nl:id_0af6e1dcba3b4cb369128b4878fc2c42f9987453 terms:title "Een centurio vraagt Jezus om hulp voor zijn zieke slaaf" .
+nl:id_0af6e1dcba3b4cb369128b4878fc2c42f9987453 ui:annotationField bible:ICBibleTheme .
+nl:id_0af6e1dcba3b4cb369128b4878fc2c42f9987453 ui:typingTime 0 .
+nl:id_0af6e1dcba3b4cb369128b4878fc2c42f9987453 oa:annotatedAt "2016-06-23T09:52:22+02:00"^^xsd:dateTime .
+nl:id_0af6e1dcba3b4cb369128b4878fc2c42f9987453 oa:annotatedBy user:paulinevandijk .
+nl:id_0af6e1dcba3b4cb369128b4878fc2c42f9987453 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Een centurio vraagt Jezus om hulp voor zijn zieke slaaf" ] .
+nl:id_0af6e1dcba3b4cb369128b4878fc2c42f9987453 oa:hasTarget ubvu:print-218010002032 .
+nl:id_0af6e1dcba3b4cb369128b4878fc2c42f9987453 oa:motivatedBy oa:tagging .
+
 nl:id_38d6e7a560966f2531dc9018c0d105dbc593a6ae a oa:Annotation .
 nl:id_38d6e7a560966f2531dc9018c0d105dbc593a6ae terms:title "Mattathias" .
 nl:id_38d6e7a560966f2531dc9018c0d105dbc593a6ae ui:annotationField bible:BibleCharacter .
