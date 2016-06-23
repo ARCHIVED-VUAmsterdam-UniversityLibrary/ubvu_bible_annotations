@@ -238,6 +238,16 @@ nl:id_a7130560c030e5e34e16b10ee6922c3de703af19 oa:hasBody [ a content:ContentAsT
 nl:id_a7130560c030e5e34e16b10ee6922c3de703af19 oa:hasTarget ubvu:print-218010002032 .
 nl:id_a7130560c030e5e34e16b10ee6922c3de703af19 oa:motivatedBy oa:tagging .
 
+nl:id_a9d9652576acb842a2c3c351229efbbd4ebbbe10 a oa:Annotation .
+nl:id_a9d9652576acb842a2c3c351229efbbd4ebbbe10 terms:title "Een vrouw, die al twaalf jaar aan bloedverlies lijdt, raakt de zoom van het bovenkleed van Jezus aan." .
+nl:id_a9d9652576acb842a2c3c351229efbbd4ebbbe10 ui:annotationField bible:ICBibleTheme .
+nl:id_a9d9652576acb842a2c3c351229efbbd4ebbbe10 ui:typingTime 0 .
+nl:id_a9d9652576acb842a2c3c351229efbbd4ebbbe10 oa:annotatedAt "2016-06-23T09:59:18+02:00"^^xsd:dateTime .
+nl:id_a9d9652576acb842a2c3c351229efbbd4ebbbe10 oa:annotatedBy user:paulinevandijk .
+nl:id_a9d9652576acb842a2c3c351229efbbd4ebbbe10 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Een vrouw, die al twaalf jaar aan bloedverlies lijdt, raakt de zoom van het bovenkleed van Jezus aan." ] .
+nl:id_a9d9652576acb842a2c3c351229efbbd4ebbbe10 oa:hasTarget ubvu:print-218010002032 .
+nl:id_a9d9652576acb842a2c3c351229efbbd4ebbbe10 oa:motivatedBy oa:tagging .
+
 nl:id_c2025c1a151be0a8168f7e3b42634fe087e606b7 a oa:Annotation .
 nl:id_c2025c1a151be0a8168f7e3b42634fe087e606b7 terms:title "Jezus beveelt demonen om de twee mannen te verlaten en in een kudde varkens te trekken." .
 nl:id_c2025c1a151be0a8168f7e3b42634fe087e606b7 ui:annotationField bible:ICBibleTheme .
