@@ -20,6 +20,16 @@ nl:id_5d343ef8d0dc4f9722704acdc305f4d1c670041d oa:hasBody [ a content:ContentAsT
 nl:id_5d343ef8d0dc4f9722704acdc305f4d1c670041d oa:hasTarget ubvu:print-218010002017 .
 nl:id_5d343ef8d0dc4f9722704acdc305f4d1c670041d oa:motivatedBy oa:tagging .
 
+nl:id_a3b621e86fb110d570eee1d8e9c8a5ffa7519579 a oa:Annotation .
+nl:id_a3b621e86fb110d570eee1d8e9c8a5ffa7519579 terms:title "Solomon buids the temple" .
+nl:id_a3b621e86fb110d570eee1d8e9c8a5ffa7519579 ui:annotationField bible:ICBibleTheme .
+nl:id_a3b621e86fb110d570eee1d8e9c8a5ffa7519579 ui:typingTime 0 .
+nl:id_a3b621e86fb110d570eee1d8e9c8a5ffa7519579 oa:annotatedAt "2016-06-29T18:47:17+02:00"^^xsd:dateTime .
+nl:id_a3b621e86fb110d570eee1d8e9c8a5ffa7519579 oa:annotatedBy user:everhoeff .
+nl:id_a3b621e86fb110d570eee1d8e9c8a5ffa7519579 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Solomon buids the temple" ] .
+nl:id_a3b621e86fb110d570eee1d8e9c8a5ffa7519579 oa:hasTarget ubvu:print-218010002017 .
+nl:id_a3b621e86fb110d570eee1d8e9c8a5ffa7519579 oa:motivatedBy oa:tagging .
+
 nl:id_d7c60eadcffb3abfd650166d22a7bcf2f3e8f56f a oa:Annotation .
 nl:id_d7c60eadcffb3abfd650166d22a7bcf2f3e8f56f terms:title "Solomon builds the temple" .
 nl:id_d7c60eadcffb3abfd650166d22a7bcf2f3e8f56f ui:annotationField bible:ICBibleTheme .
