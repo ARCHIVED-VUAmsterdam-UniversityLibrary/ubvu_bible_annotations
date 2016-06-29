@@ -55,6 +55,16 @@ nl:id_8412430f9a021705040efb39a2ee94c538bd592c oa:hasBody [ a content:ContentAsT
 nl:id_8412430f9a021705040efb39a2ee94c538bd592c oa:hasTarget ubvu:print-218010001400 .
 nl:id_8412430f9a021705040efb39a2ee94c538bd592c oa:motivatedBy oa:tagging .
 
+nl:id_b6950c16c85ea18423b4771d3bad745d2ea47a40 a oa:Annotation .
+nl:id_b6950c16c85ea18423b4771d3bad745d2ea47a40 terms:title "Samson tears the lion in pieces" .
+nl:id_b6950c16c85ea18423b4771d3bad745d2ea47a40 ui:annotationField bible:ICBibleTheme .
+nl:id_b6950c16c85ea18423b4771d3bad745d2ea47a40 ui:typingTime 0 .
+nl:id_b6950c16c85ea18423b4771d3bad745d2ea47a40 oa:annotatedAt "2016-06-29T18:50:36+02:00"^^xsd:dateTime .
+nl:id_b6950c16c85ea18423b4771d3bad745d2ea47a40 oa:annotatedBy user:everhoeff .
+nl:id_b6950c16c85ea18423b4771d3bad745d2ea47a40 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Samson tears the lion in pieces" ] .
+nl:id_b6950c16c85ea18423b4771d3bad745d2ea47a40 oa:hasTarget ubvu:print-218010001400 .
+nl:id_b6950c16c85ea18423b4771d3bad745d2ea47a40 oa:motivatedBy oa:tagging .
+
 nl:id_d5ab0721fb921576f9407092aa72c68d4138e1c0 a oa:Annotation .
 nl:id_d5ab0721fb921576f9407092aa72c68d4138e1c0 terms:title "simson" .
 nl:id_d5ab0721fb921576f9407092aa72c68d4138e1c0 ui:annotationField bible:BibleCharacter .
