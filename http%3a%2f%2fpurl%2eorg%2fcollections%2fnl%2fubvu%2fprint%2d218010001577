@@ -55,6 +55,16 @@ nl:id_c56ac6c47d6d92294192d4312bc30d8e2252e009 oa:hasBody [ a content:ContentAsT
 nl:id_c56ac6c47d6d92294192d4312bc30d8e2252e009 oa:hasTarget ubvu:print-218010001577 .
 nl:id_c56ac6c47d6d92294192d4312bc30d8e2252e009 oa:motivatedBy oa:tagging .
 
+nl:id_d568568b1befcd31a497de121ef4fc35407833f3 a oa:Annotation .
+nl:id_d568568b1befcd31a497de121ef4fc35407833f3 terms:title "A type of the resurrection of the dead" .
+nl:id_d568568b1befcd31a497de121ef4fc35407833f3 ui:annotationField bible:ICBibleTheme .
+nl:id_d568568b1befcd31a497de121ef4fc35407833f3 ui:typingTime 0 .
+nl:id_d568568b1befcd31a497de121ef4fc35407833f3 oa:annotatedAt "2016-06-29T18:45:36+02:00"^^xsd:dateTime .
+nl:id_d568568b1befcd31a497de121ef4fc35407833f3 oa:annotatedBy user:everhoeff .
+nl:id_d568568b1befcd31a497de121ef4fc35407833f3 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "A type of the resurrection of the dead" ] .
+nl:id_d568568b1befcd31a497de121ef4fc35407833f3 oa:hasTarget ubvu:print-218010001577 .
+nl:id_d568568b1befcd31a497de121ef4fc35407833f3 oa:motivatedBy oa:tagging .
+
 target:selector_21d0de858dd336a7d56d7e22249694d7669dc788 a oa:FragmentSelector .
 target:selector_21d0de858dd336a7d56d7e22249694d7669dc788 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_21d0de858dd336a7d56d7e22249694d7669dc788 ui:h "0.3173963133640553"^^xsd:float .
