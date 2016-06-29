@@ -13,6 +13,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_09489516664e4682b3919ef7a227033c3429aba1 a oa:Annotation .
+nl:id_09489516664e4682b3919ef7a227033c3429aba1 terms:title "Offerings made by the wise men of the East" .
+nl:id_09489516664e4682b3919ef7a227033c3429aba1 ui:annotationField bible:ICBibleTheme .
+nl:id_09489516664e4682b3919ef7a227033c3429aba1 ui:typingTime 0 .
+nl:id_09489516664e4682b3919ef7a227033c3429aba1 oa:annotatedAt "2016-06-29T18:43:42+02:00"^^xsd:dateTime .
+nl:id_09489516664e4682b3919ef7a227033c3429aba1 oa:annotatedBy user:everhoeff .
+nl:id_09489516664e4682b3919ef7a227033c3429aba1 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Offerings made by the wise men of the East" ] .
+nl:id_09489516664e4682b3919ef7a227033c3429aba1 oa:hasTarget ubvu:print-218010001683 .
+nl:id_09489516664e4682b3919ef7a227033c3429aba1 oa:motivatedBy oa:tagging .
+
 nl:id_1ff437c199f4366dc235f311227217ccefc3f3c9 a oa:Annotation .
 nl:id_1ff437c199f4366dc235f311227217ccefc3f3c9 terms:title "adoration of the kings: the Wise Men present their gifts to the Christ-child (gold, frankincense and myrrh)" .
 nl:id_1ff437c199f4366dc235f311227217ccefc3f3c9 ui:annotationField bible:ICBibleTheme .
