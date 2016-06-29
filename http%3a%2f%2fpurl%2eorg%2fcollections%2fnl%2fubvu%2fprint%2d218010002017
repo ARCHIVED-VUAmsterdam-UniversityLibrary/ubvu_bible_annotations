@@ -20,6 +20,16 @@ nl:id_4682d40fc0446ce0ac974d958b251a81daf174b1 oa:hasBody <http://iconclass.org/
 nl:id_4682d40fc0446ce0ac974d958b251a81daf174b1 oa:hasTarget ubvu:print-218010002017 .
 nl:id_4682d40fc0446ce0ac974d958b251a81daf174b1 oa:motivatedBy oa:tagging .
 
+nl:id_4c362605a65fd527e05e13464cc9bba31c4602ae a oa:Annotation .
+nl:id_4c362605a65fd527e05e13464cc9bba31c4602ae terms:title "Th temple burnt and plundered" .
+nl:id_4c362605a65fd527e05e13464cc9bba31c4602ae ui:annotationField bible:ICBibleTheme .
+nl:id_4c362605a65fd527e05e13464cc9bba31c4602ae ui:typingTime 0 .
+nl:id_4c362605a65fd527e05e13464cc9bba31c4602ae oa:annotatedAt "2016-06-29T18:49:41+02:00"^^xsd:dateTime .
+nl:id_4c362605a65fd527e05e13464cc9bba31c4602ae oa:annotatedBy user:everhoeff .
+nl:id_4c362605a65fd527e05e13464cc9bba31c4602ae oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Th temple burnt and plundered" ] .
+nl:id_4c362605a65fd527e05e13464cc9bba31c4602ae oa:hasTarget ubvu:print-218010002017 .
+nl:id_4c362605a65fd527e05e13464cc9bba31c4602ae oa:motivatedBy oa:tagging .
+
 nl:id_5d343ef8d0dc4f9722704acdc305f4d1c670041d a oa:Annotation .
 nl:id_5d343ef8d0dc4f9722704acdc305f4d1c670041d terms:title "burning and plundering of the temple" .
 nl:id_5d343ef8d0dc4f9722704acdc305f4d1c670041d ui:annotationField bible:ICBibleTheme .
