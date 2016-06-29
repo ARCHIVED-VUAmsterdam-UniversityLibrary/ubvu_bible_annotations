@@ -20,6 +20,16 @@ nl:id_96a2699b15733c38fb820b06eb4eb8600ba68b44 oa:hasBody [ a content:ContentAsT
 nl:id_96a2699b15733c38fb820b06eb4eb8600ba68b44 oa:hasTarget ubvu:print-218010001259 .
 nl:id_96a2699b15733c38fb820b06eb4eb8600ba68b44 oa:motivatedBy oa:tagging .
 
+nl:id_99ade59cf6e34e07ccd6c69b0e95d98a136b82cd a oa:Annotation .
+nl:id_99ade59cf6e34e07ccd6c69b0e95d98a136b82cd terms:title "the blasphemer's punishment (Leviticus 24:10-23)" .
+nl:id_99ade59cf6e34e07ccd6c69b0e95d98a136b82cd ui:annotationField bible:ICBibleTheme .
+nl:id_99ade59cf6e34e07ccd6c69b0e95d98a136b82cd ui:typingTime 0 .
+nl:id_99ade59cf6e34e07ccd6c69b0e95d98a136b82cd oa:annotatedAt "2016-06-29T18:52:05+02:00"^^xsd:dateTime .
+nl:id_99ade59cf6e34e07ccd6c69b0e95d98a136b82cd oa:annotatedBy user:everhoeff .
+nl:id_99ade59cf6e34e07ccd6c69b0e95d98a136b82cd oa:hasBody <http://iconclass.org/71E24> .
+nl:id_99ade59cf6e34e07ccd6c69b0e95d98a136b82cd oa:hasTarget ubvu:print-218010001259 .
+nl:id_99ade59cf6e34e07ccd6c69b0e95d98a136b82cd oa:motivatedBy oa:tagging .
+
 nl:id_dbc5e6657c91c15cda21fec9886297892377c114 a oa:Annotation .
 nl:id_dbc5e6657c91c15cda21fec9886297892377c114 terms:title "stoned" .
 nl:id_dbc5e6657c91c15cda21fec9886297892377c114 ui:annotationField bible:ICBibleTheme .
