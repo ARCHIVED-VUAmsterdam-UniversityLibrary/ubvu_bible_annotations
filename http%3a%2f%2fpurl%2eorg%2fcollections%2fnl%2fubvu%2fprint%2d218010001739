@@ -23,6 +23,16 @@ nl:id_63dfe72ddae79838012f50b9298543cc4c06344d oa:hasTarget target:target_045b39
 nl:id_63dfe72ddae79838012f50b9298543cc4c06344d oa:hasTarget ubvu:print-218010001739 .
 nl:id_63dfe72ddae79838012f50b9298543cc4c06344d oa:motivatedBy oa:tagging .
 
+nl:id_7473cd13a5f61d3996e19c56dbd9a90bbfc7ae4c a oa:Annotation .
+nl:id_7473cd13a5f61d3996e19c56dbd9a90bbfc7ae4c terms:title "Jesus and the woman of Samaria" .
+nl:id_7473cd13a5f61d3996e19c56dbd9a90bbfc7ae4c ui:annotationField bible:ICBibleTheme .
+nl:id_7473cd13a5f61d3996e19c56dbd9a90bbfc7ae4c ui:typingTime 0 .
+nl:id_7473cd13a5f61d3996e19c56dbd9a90bbfc7ae4c oa:annotatedAt "2016-07-01T21:09:40+02:00"^^xsd:dateTime .
+nl:id_7473cd13a5f61d3996e19c56dbd9a90bbfc7ae4c oa:annotatedBy user:everhoeff .
+nl:id_7473cd13a5f61d3996e19c56dbd9a90bbfc7ae4c oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jesus and the woman of Samaria" ] .
+nl:id_7473cd13a5f61d3996e19c56dbd9a90bbfc7ae4c oa:hasTarget ubvu:print-218010001739 .
+nl:id_7473cd13a5f61d3996e19c56dbd9a90bbfc7ae4c oa:motivatedBy oa:tagging .
+
 nl:id_9d0328a90ba764b10c0d40530bd22025cc7f5640 a oa:Annotation .
 nl:id_9d0328a90ba764b10c0d40530bd22025cc7f5640 terms:title "Jesus and the woman of Samaria" .
 nl:id_9d0328a90ba764b10c0d40530bd22025cc7f5640 ui:annotationField bible:ICBibleTheme .
