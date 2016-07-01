@@ -13,6 +13,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_073d7355d5de780d7776c8726cf27df016ddf11f a oa:Annotation .
+nl:id_073d7355d5de780d7776c8726cf27df016ddf11f terms:title "an angel appears to Joseph in a dream and admonishes him to return home" .
+nl:id_073d7355d5de780d7776c8726cf27df016ddf11f ui:annotationField bible:ICBibleTheme .
+nl:id_073d7355d5de780d7776c8726cf27df016ddf11f ui:typingTime 0 .
+nl:id_073d7355d5de780d7776c8726cf27df016ddf11f oa:annotatedAt "2016-07-01T21:07:10+02:00"^^xsd:dateTime .
+nl:id_073d7355d5de780d7776c8726cf27df016ddf11f oa:annotatedBy user:everhoeff .
+nl:id_073d7355d5de780d7776c8726cf27df016ddf11f oa:hasBody <http://iconclass.org/73B68> .
+nl:id_073d7355d5de780d7776c8726cf27df016ddf11f oa:hasTarget ubvu:print-218010001696 .
+nl:id_073d7355d5de780d7776c8726cf27df016ddf11f oa:motivatedBy oa:tagging .
+
 nl:id_2ea87913424376e6c7f827a44322f0ecd9f24b4c a oa:Annotation .
 nl:id_2ea87913424376e6c7f827a44322f0ecd9f24b4c terms:title "Jozef" .
 nl:id_2ea87913424376e6c7f827a44322f0ecd9f24b4c ui:annotationField bible:BibleCharacter .
