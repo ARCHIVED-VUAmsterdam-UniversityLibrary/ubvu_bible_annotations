@@ -24,6 +24,16 @@ nl:id_337cdada07a4b61de5d199ba64b25a742d3ec31c oa:hasTarget target:target_9c5790
 nl:id_337cdada07a4b61de5d199ba64b25a742d3ec31c oa:hasTarget ubvu:print-218010001575 .
 nl:id_337cdada07a4b61de5d199ba64b25a742d3ec31c oa:motivatedBy oa:tagging .
 
+nl:id_624fe3f893434b3ba698ec59f89ad3348db7f2bb a oa:Annotation .
+nl:id_624fe3f893434b3ba698ec59f89ad3348db7f2bb terms:title "Ezekiel's vision of God's entry into the temple; Ezekiel falls to the ground" .
+nl:id_624fe3f893434b3ba698ec59f89ad3348db7f2bb ui:annotationField bible:ICBibleTheme .
+nl:id_624fe3f893434b3ba698ec59f89ad3348db7f2bb ui:typingTime 0 .
+nl:id_624fe3f893434b3ba698ec59f89ad3348db7f2bb oa:annotatedAt "2016-07-01T21:02:42+02:00"^^xsd:dateTime .
+nl:id_624fe3f893434b3ba698ec59f89ad3348db7f2bb oa:annotatedBy user:everhoeff .
+nl:id_624fe3f893434b3ba698ec59f89ad3348db7f2bb oa:hasBody <http://iconclass.org/71O9342> .
+nl:id_624fe3f893434b3ba698ec59f89ad3348db7f2bb oa:hasTarget ubvu:print-218010001575 .
+nl:id_624fe3f893434b3ba698ec59f89ad3348db7f2bb oa:motivatedBy oa:tagging .
+
 nl:id_7103c54a3f0459d4b15032dd6377c35ae684256d a oa:Annotation .
 nl:id_7103c54a3f0459d4b15032dd6377c35ae684256d terms:title "Ezechiël" .
 nl:id_7103c54a3f0459d4b15032dd6377c35ae684256d ui:annotationField bible:BibleCharacter .
