@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -22,6 +23,17 @@ nl:id_3693550727cfa53b5b268ea3c07dc1107974befc oa:hasBody [ a content:ContentAsT
 nl:id_3693550727cfa53b5b268ea3c07dc1107974befc oa:hasTarget ubvu:print-218010001835 .
 nl:id_3693550727cfa53b5b268ea3c07dc1107974befc oa:motivatedBy oa:tagging .
 
+nl:id_93623fc242f9e8332731387ee000dd750f2618d0 a oa:Annotation .
+nl:id_93623fc242f9e8332731387ee000dd750f2618d0 terms:title "Jesus" .
+nl:id_93623fc242f9e8332731387ee000dd750f2618d0 ui:annotationField bible:BibleCharacter .
+nl:id_93623fc242f9e8332731387ee000dd750f2618d0 ui:typingTime 0 .
+nl:id_93623fc242f9e8332731387ee000dd750f2618d0 oa:annotatedAt "2016-07-01T21:01:20+02:00"^^xsd:dateTime .
+nl:id_93623fc242f9e8332731387ee000dd750f2618d0 oa:annotatedBy user:everhoeff .
+nl:id_93623fc242f9e8332731387ee000dd750f2618d0 oa:hasBody resource:Jesus .
+nl:id_93623fc242f9e8332731387ee000dd750f2618d0 oa:hasTarget target:target_797f92a52cc9dbe27b2f1ac998e13edcbd9d1f57 .
+nl:id_93623fc242f9e8332731387ee000dd750f2618d0 oa:hasTarget ubvu:print-218010001835 .
+nl:id_93623fc242f9e8332731387ee000dd750f2618d0 oa:motivatedBy oa:tagging .
+
 nl:id_9eed276062c1dd0aa99c565991b5da3bb3a43469 a oa:Annotation .
 nl:id_9eed276062c1dd0aa99c565991b5da3bb3a43469 terms:title "Christ and his apostles on the Mount of Olives" .
 nl:id_9eed276062c1dd0aa99c565991b5da3bb3a43469 ui:annotationField bible:ICBibleTheme .
@@ -43,6 +55,14 @@ nl:id_ab572ae572a0419effadad1a2523eec38791de4c oa:hasTarget target:target_e7f2a7
 nl:id_ab572ae572a0419effadad1a2523eec38791de4c oa:hasTarget ubvu:print-218010001835 .
 nl:id_ab572ae572a0419effadad1a2523eec38791de4c oa:motivatedBy oa:tagging .
 
+target:selector_797f92a52cc9dbe27b2f1ac998e13edcbd9d1f57 a oa:FragmentSelector .
+target:selector_797f92a52cc9dbe27b2f1ac998e13edcbd9d1f57 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_797f92a52cc9dbe27b2f1ac998e13edcbd9d1f57 ui:h "0.348695652173913"^^xsd:float .
+target:selector_797f92a52cc9dbe27b2f1ac998e13edcbd9d1f57 ui:w "0.32"^^xsd:float .
+target:selector_797f92a52cc9dbe27b2f1ac998e13edcbd9d1f57 ui:x "0.112"^^xsd:float .
+target:selector_797f92a52cc9dbe27b2f1ac998e13edcbd9d1f57 ui:y "0.41130434782608694"^^xsd:float .
+target:selector_797f92a52cc9dbe27b2f1ac998e13edcbd9d1f57 rdf:value "#xywh=percent:11,41,32,35" .
+
 target:selector_e7f2a7ef98a56eb29c87ec6f621fd274eeb6b8b4 a oa:FragmentSelector .
 target:selector_e7f2a7ef98a56eb29c87ec6f621fd274eeb6b8b4 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_e7f2a7ef98a56eb29c87ec6f621fd274eeb6b8b4 ui:h "0.3857302118171683"^^xsd:float .
@@ -50,6 +70,10 @@ target:selector_e7f2a7ef98a56eb29c87ec6f621fd274eeb6b8b4 ui:w "0.428717918069953
 target:selector_e7f2a7ef98a56eb29c87ec6f621fd274eeb6b8b4 ui:x "0.0494017087496244"^^xsd:float .
 target:selector_e7f2a7ef98a56eb29c87ec6f621fd274eeb6b8b4 ui:y "0.40821625742492335"^^xsd:float .
 target:selector_e7f2a7ef98a56eb29c87ec6f621fd274eeb6b8b4 rdf:value "#xywh=percent:5,41,43,39" .
+
+target:target_797f92a52cc9dbe27b2f1ac998e13edcbd9d1f57 a oa:SpecificResource .
+target:target_797f92a52cc9dbe27b2f1ac998e13edcbd9d1f57 oa:hasSelector target:selector_797f92a52cc9dbe27b2f1ac998e13edcbd9d1f57 .
+target:target_797f92a52cc9dbe27b2f1ac998e13edcbd9d1f57 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/874> .
 
 target:target_e7f2a7ef98a56eb29c87ec6f621fd274eeb6b8b4 a oa:SpecificResource .
 target:target_e7f2a7ef98a56eb29c87ec6f621fd274eeb6b8b4 oa:hasSelector target:selector_e7f2a7ef98a56eb29c87ec6f621fd274eeb6b8b4 .
