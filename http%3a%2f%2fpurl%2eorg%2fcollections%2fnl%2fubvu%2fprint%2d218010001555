@@ -175,6 +175,17 @@ nl:id_db61fba9cd23f8325e408a83907cd89bd5111979 oa:hasTarget target:target_17db48
 nl:id_db61fba9cd23f8325e408a83907cd89bd5111979 oa:hasTarget ubvu:print-218010001555 .
 nl:id_db61fba9cd23f8325e408a83907cd89bd5111979 oa:motivatedBy oa:tagging .
 
+nl:id_f7c753e032597140c7dbcdbb0c6c8e4949e09df1 a oa:Annotation .
+nl:id_f7c753e032597140c7dbcdbb0c6c8e4949e09df1 terms:title "Ahasuerus" .
+nl:id_f7c753e032597140c7dbcdbb0c6c8e4949e09df1 ui:annotationField bible:BibleCharacter .
+nl:id_f7c753e032597140c7dbcdbb0c6c8e4949e09df1 ui:typingTime 0 .
+nl:id_f7c753e032597140c7dbcdbb0c6c8e4949e09df1 oa:annotatedAt "2016-07-01T11:36:16+02:00"^^xsd:dateTime .
+nl:id_f7c753e032597140c7dbcdbb0c6c8e4949e09df1 oa:annotatedBy user:cristina .
+nl:id_f7c753e032597140c7dbcdbb0c6c8e4949e09df1 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Ahasuerus" ] .
+nl:id_f7c753e032597140c7dbcdbb0c6c8e4949e09df1 oa:hasTarget target:target_70b828083d5ef5901fbd42fab3fde5082320e834 .
+nl:id_f7c753e032597140c7dbcdbb0c6c8e4949e09df1 oa:hasTarget ubvu:print-218010001555 .
+nl:id_f7c753e032597140c7dbcdbb0c6c8e4949e09df1 oa:motivatedBy oa:tagging .
+
 nl:id_f84d191f496d92a33345841165cfbdc9a270c095 a oa:Annotation .
 nl:id_f84d191f496d92a33345841165cfbdc9a270c095 terms:title "Ahasverus gives his ring to Mordecai" .
 nl:id_f84d191f496d92a33345841165cfbdc9a270c095 ui:annotationField bible:ICBibleTheme .
@@ -219,6 +230,14 @@ target:selector_303d8b46f255f444fb0542cc40a537dcdd4c9fe9 ui:w "0.139175257731958
 target:selector_303d8b46f255f444fb0542cc40a537dcdd4c9fe9 ui:x "0.36391752577319586"^^xsd:float .
 target:selector_303d8b46f255f444fb0542cc40a537dcdd4c9fe9 ui:y "0.38628411476557034"^^xsd:float .
 target:selector_303d8b46f255f444fb0542cc40a537dcdd4c9fe9 rdf:value "#xywh=percent:36,39,14,20" .
+
+target:selector_70b828083d5ef5901fbd42fab3fde5082320e834 a oa:FragmentSelector .
+target:selector_70b828083d5ef5901fbd42fab3fde5082320e834 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_70b828083d5ef5901fbd42fab3fde5082320e834 ui:h "0.09860788863109049"^^xsd:float .
+target:selector_70b828083d5ef5901fbd42fab3fde5082320e834 ui:w "0.1188034188034188"^^xsd:float .
+target:selector_70b828083d5ef5901fbd42fab3fde5082320e834 ui:x "0.1170940170940171"^^xsd:float .
+target:selector_70b828083d5ef5901fbd42fab3fde5082320e834 ui:y "0.3190255220417633"^^xsd:float .
+target:selector_70b828083d5ef5901fbd42fab3fde5082320e834 rdf:value "#xywh=percent:12,32,12,10" .
 
 target:selector_756635983ecc607aeb537d1afcc8c2db01639c09 a oa:FragmentSelector .
 target:selector_756635983ecc607aeb537d1afcc8c2db01639c09 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -303,6 +322,10 @@ target:target_17db481a002045a085e93d368e513c1088ca7fc8 oa:hasSource <http://imag
 target:target_303d8b46f255f444fb0542cc40a537dcdd4c9fe9 a oa:SpecificResource .
 target:target_303d8b46f255f444fb0542cc40a537dcdd4c9fe9 oa:hasSelector target:selector_303d8b46f255f444fb0542cc40a537dcdd4c9fe9 .
 target:target_303d8b46f255f444fb0542cc40a537dcdd4c9fe9 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/596> .
+
+target:target_70b828083d5ef5901fbd42fab3fde5082320e834 a oa:SpecificResource .
+target:target_70b828083d5ef5901fbd42fab3fde5082320e834 oa:hasSelector target:selector_70b828083d5ef5901fbd42fab3fde5082320e834 .
+target:target_70b828083d5ef5901fbd42fab3fde5082320e834 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/596> .
 
 target:target_756635983ecc607aeb537d1afcc8c2db01639c09 a oa:SpecificResource .
 target:target_756635983ecc607aeb537d1afcc8c2db01639c09 oa:hasSelector target:selector_756635983ecc607aeb537d1afcc8c2db01639c09 .
