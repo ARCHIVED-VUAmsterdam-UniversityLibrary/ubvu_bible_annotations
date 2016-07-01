@@ -1,0 +1,19 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix user: <http://accurator.nl/user#> .
+@prefix nl: <http://accurator.nl/> .
+
+nl:id_ffad181bf6c2e17c0145c17cb62b975ed2e14beb a oa:Annotation .
+nl:id_ffad181bf6c2e17c0145c17cb62b975ed2e14beb terms:title "agree" .
+nl:id_ffad181bf6c2e17c0145c17cb62b975ed2e14beb ui:annotationField <http://accurator.nl/ui/annotation/review#Buttons> .
+nl:id_ffad181bf6c2e17c0145c17cb62b975ed2e14beb ui:typingTime 0 .
+nl:id_ffad181bf6c2e17c0145c17cb62b975ed2e14beb oa:annotatedAt "2016-07-01T14:27:58+02:00"^^xsd:dateTime .
+nl:id_ffad181bf6c2e17c0145c17cb62b975ed2e14beb oa:annotatedBy user:spv .
+nl:id_ffad181bf6c2e17c0145c17cb62b975ed2e14beb oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "agree" ] .
+nl:id_ffad181bf6c2e17c0145c17cb62b975ed2e14beb oa:hasTarget nl:id_11fc968beb8bf6a6d5db88f6b5171f2402bd323b .
+nl:id_ffad181bf6c2e17c0145c17cb62b975ed2e14beb oa:motivatedBy oa:moderating .
