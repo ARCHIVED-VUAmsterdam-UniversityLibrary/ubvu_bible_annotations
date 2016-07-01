@@ -13,6 +13,17 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_039d41493d0f0fbf3d9da9cd68573e6c365eac9a a oa:Annotation .
+nl:id_039d41493d0f0fbf3d9da9cd68573e6c365eac9a terms:title "Joseph_(Husband of Maria)" .
+nl:id_039d41493d0f0fbf3d9da9cd68573e6c365eac9a ui:annotationField bible:BibleCharacter .
+nl:id_039d41493d0f0fbf3d9da9cd68573e6c365eac9a ui:typingTime 0 .
+nl:id_039d41493d0f0fbf3d9da9cd68573e6c365eac9a oa:annotatedAt "2016-07-01T21:07:29+02:00"^^xsd:dateTime .
+nl:id_039d41493d0f0fbf3d9da9cd68573e6c365eac9a oa:annotatedBy user:everhoeff .
+nl:id_039d41493d0f0fbf3d9da9cd68573e6c365eac9a oa:hasBody resource:Joseph_Husband_of_Maria .
+nl:id_039d41493d0f0fbf3d9da9cd68573e6c365eac9a oa:hasTarget target:target_9ca304eff1518a7f143e9f1653db45deda08c88b .
+nl:id_039d41493d0f0fbf3d9da9cd68573e6c365eac9a oa:hasTarget ubvu:print-218010001696 .
+nl:id_039d41493d0f0fbf3d9da9cd68573e6c365eac9a oa:motivatedBy oa:tagging .
+
 nl:id_073d7355d5de780d7776c8726cf27df016ddf11f a oa:Annotation .
 nl:id_073d7355d5de780d7776c8726cf27df016ddf11f terms:title "an angel appears to Joseph in a dream and admonishes him to return home" .
 nl:id_073d7355d5de780d7776c8726cf27df016ddf11f ui:annotationField bible:ICBibleTheme .
@@ -82,6 +93,14 @@ target:selector_81ddb0c839f117351be2ea7c4506b4dfb80463a0 ui:x "0.380952380952380
 target:selector_81ddb0c839f117351be2ea7c4506b4dfb80463a0 ui:y "0.7090301003344481"^^xsd:float .
 target:selector_81ddb0c839f117351be2ea7c4506b4dfb80463a0 rdf:value "#xywh=percent:38,71,34,12" .
 
+target:selector_9ca304eff1518a7f143e9f1653db45deda08c88b a oa:FragmentSelector .
+target:selector_9ca304eff1518a7f143e9f1653db45deda08c88b terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_9ca304eff1518a7f143e9f1653db45deda08c88b ui:h "0.14031413612565444"^^xsd:float .
+target:selector_9ca304eff1518a7f143e9f1653db45deda08c88b ui:w "0.293591654247392"^^xsd:float .
+target:selector_9ca304eff1518a7f143e9f1653db45deda08c88b ui:x "0.37555886736214605"^^xsd:float .
+target:selector_9ca304eff1518a7f143e9f1653db45deda08c88b ui:y "0.694240837696335"^^xsd:float .
+target:selector_9ca304eff1518a7f143e9f1653db45deda08c88b rdf:value "#xywh=percent:38,69,29,14" .
+
 target:selector_c2ad4ad4ffaa25afa5f933187099d32e8a31d0c2 a oa:FragmentSelector .
 target:selector_c2ad4ad4ffaa25afa5f933187099d32e8a31d0c2 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_c2ad4ad4ffaa25afa5f933187099d32e8a31d0c2 ui:h "0.042363433667781496"^^xsd:float .
@@ -97,6 +116,10 @@ target:target_7aac6c99ed9c3bb0302aecbba4afaad891f1f05f oa:hasSource <http://imag
 target:target_81ddb0c839f117351be2ea7c4506b4dfb80463a0 a oa:SpecificResource .
 target:target_81ddb0c839f117351be2ea7c4506b4dfb80463a0 oa:hasSelector target:selector_81ddb0c839f117351be2ea7c4506b4dfb80463a0 .
 target:target_81ddb0c839f117351be2ea7c4506b4dfb80463a0 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/735> .
+
+target:target_9ca304eff1518a7f143e9f1653db45deda08c88b a oa:SpecificResource .
+target:target_9ca304eff1518a7f143e9f1653db45deda08c88b oa:hasSelector target:selector_9ca304eff1518a7f143e9f1653db45deda08c88b .
+target:target_9ca304eff1518a7f143e9f1653db45deda08c88b oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/735> .
 
 target:target_c2ad4ad4ffaa25afa5f933187099d32e8a31d0c2 a oa:SpecificResource .
 target:target_c2ad4ad4ffaa25afa5f933187099d32e8a31d0c2 oa:hasSelector target:selector_c2ad4ad4ffaa25afa5f933187099d32e8a31d0c2 .
