@@ -1,14 +1,26 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
+
+nl:id_3693550727cfa53b5b268ea3c07dc1107974befc a oa:Annotation .
+nl:id_3693550727cfa53b5b268ea3c07dc1107974befc terms:title "Jesus finds his disciples sleeping" .
+nl:id_3693550727cfa53b5b268ea3c07dc1107974befc ui:annotationField bible:ICBibleTheme .
+nl:id_3693550727cfa53b5b268ea3c07dc1107974befc ui:typingTime 0 .
+nl:id_3693550727cfa53b5b268ea3c07dc1107974befc oa:annotatedAt "2016-07-01T21:01:02+02:00"^^xsd:dateTime .
+nl:id_3693550727cfa53b5b268ea3c07dc1107974befc oa:annotatedBy user:everhoeff .
+nl:id_3693550727cfa53b5b268ea3c07dc1107974befc oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jesus finds his disciples sleeping" ] .
+nl:id_3693550727cfa53b5b268ea3c07dc1107974befc oa:hasTarget ubvu:print-218010001835 .
+nl:id_3693550727cfa53b5b268ea3c07dc1107974befc oa:motivatedBy oa:tagging .
 
 nl:id_9eed276062c1dd0aa99c565991b5da3bb3a43469 a oa:Annotation .
 nl:id_9eed276062c1dd0aa99c565991b5da3bb3a43469 terms:title "Christ and his apostles on the Mount of Olives" .
