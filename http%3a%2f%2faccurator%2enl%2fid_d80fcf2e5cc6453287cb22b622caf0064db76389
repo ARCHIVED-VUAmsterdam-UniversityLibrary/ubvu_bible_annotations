@@ -1,0 +1,18 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix nl: <http://accurator.nl/> .
+
+nl:id_99b2368c723e953e2c3aa5d9f75254a77fd22101 a oa:Annotation .
+nl:id_99b2368c723e953e2c3aa5d9f75254a77fd22101 terms:title "agree" .
+nl:id_99b2368c723e953e2c3aa5d9f75254a77fd22101 ui:annotationField <http://accurator.nl/ui/annotation/review#Buttons> .
+nl:id_99b2368c723e953e2c3aa5d9f75254a77fd22101 ui:typingTime 0 .
+nl:id_99b2368c723e953e2c3aa5d9f75254a77fd22101 oa:annotatedAt "2016-07-01T14:38:33+02:00"^^xsd:dateTime .
+nl:id_99b2368c723e953e2c3aa5d9f75254a77fd22101 oa:annotatedBy <http://bijbel.accurator.nl/user/admin> .
+nl:id_99b2368c723e953e2c3aa5d9f75254a77fd22101 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "agree" ] .
+nl:id_99b2368c723e953e2c3aa5d9f75254a77fd22101 oa:hasTarget nl:id_d80fcf2e5cc6453287cb22b622caf0064db76389 .
+nl:id_99b2368c723e953e2c3aa5d9f75254a77fd22101 oa:motivatedBy oa:moderating .
