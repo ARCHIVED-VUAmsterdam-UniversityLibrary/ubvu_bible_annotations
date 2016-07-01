@@ -12,6 +12,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_533f6e1f82151e7dcfe0248a02f8f9b80b474bb5 a oa:Annotation .
+nl:id_533f6e1f82151e7dcfe0248a02f8f9b80b474bb5 terms:title "both mothers come before Solomon ~ the judgement of Solomon" .
+nl:id_533f6e1f82151e7dcfe0248a02f8f9b80b474bb5 ui:annotationField bible:ICBibleTheme .
+nl:id_533f6e1f82151e7dcfe0248a02f8f9b80b474bb5 ui:typingTime 0 .
+nl:id_533f6e1f82151e7dcfe0248a02f8f9b80b474bb5 oa:annotatedAt "2016-07-01T21:04:08+02:00"^^xsd:dateTime .
+nl:id_533f6e1f82151e7dcfe0248a02f8f9b80b474bb5 oa:annotatedBy user:everhoeff .
+nl:id_533f6e1f82151e7dcfe0248a02f8f9b80b474bb5 oa:hasBody <http://iconclass.org/71I324> .
+nl:id_533f6e1f82151e7dcfe0248a02f8f9b80b474bb5 oa:hasTarget ubvu:print-218010001498 .
+nl:id_533f6e1f82151e7dcfe0248a02f8f9b80b474bb5 oa:motivatedBy oa:tagging .
+
 nl:id_86a2b51ec059a895dff3caf4abd0c47c4ec50b8c a oa:Annotation .
 nl:id_86a2b51ec059a895dff3caf4abd0c47c4ec50b8c terms:title "Salomo" .
 nl:id_86a2b51ec059a895dff3caf4abd0c47c4ec50b8c ui:annotationField bible:BibleCharacter .
