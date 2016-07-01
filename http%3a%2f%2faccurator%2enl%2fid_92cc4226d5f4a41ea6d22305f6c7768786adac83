@@ -6,14 +6,25 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix review: <http://accurator.nl/ui/annotation/review#> .
 @prefix nl: <http://accurator.nl/> .
 
 nl:id_9f585f17358b49e9055cdce485fecf242de59c96 a oa:Annotation .
 nl:id_9f585f17358b49e9055cdce485fecf242de59c96 terms:title "agree" .
-nl:id_9f585f17358b49e9055cdce485fecf242de59c96 ui:annotationField <http://accurator.nl/ui/annotation/review#Buttons> .
+nl:id_9f585f17358b49e9055cdce485fecf242de59c96 ui:annotationField review:Buttons .
 nl:id_9f585f17358b49e9055cdce485fecf242de59c96 ui:typingTime 0 .
 nl:id_9f585f17358b49e9055cdce485fecf242de59c96 oa:annotatedAt "2016-07-01T14:35:16+02:00"^^xsd:dateTime .
 nl:id_9f585f17358b49e9055cdce485fecf242de59c96 oa:annotatedBy user:spv .
 nl:id_9f585f17358b49e9055cdce485fecf242de59c96 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "agree" ] .
 nl:id_9f585f17358b49e9055cdce485fecf242de59c96 oa:hasTarget nl:id_92cc4226d5f4a41ea6d22305f6c7768786adac83 .
 nl:id_9f585f17358b49e9055cdce485fecf242de59c96 oa:motivatedBy oa:moderating .
+
+nl:id_cb63cfd73948d3e6ec3c5f69ca24338524f49478 a oa:Annotation .
+nl:id_cb63cfd73948d3e6ec3c5f69ca24338524f49478 terms:title "disagree" .
+nl:id_cb63cfd73948d3e6ec3c5f69ca24338524f49478 ui:annotationField review:Buttons .
+nl:id_cb63cfd73948d3e6ec3c5f69ca24338524f49478 ui:typingTime 0 .
+nl:id_cb63cfd73948d3e6ec3c5f69ca24338524f49478 oa:annotatedAt "2016-07-01T14:35:21+02:00"^^xsd:dateTime .
+nl:id_cb63cfd73948d3e6ec3c5f69ca24338524f49478 oa:annotatedBy user:spv .
+nl:id_cb63cfd73948d3e6ec3c5f69ca24338524f49478 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "disagree" ] .
+nl:id_cb63cfd73948d3e6ec3c5f69ca24338524f49478 oa:hasTarget nl:id_92cc4226d5f4a41ea6d22305f6c7768786adac83 .
+nl:id_cb63cfd73948d3e6ec3c5f69ca24338524f49478 oa:motivatedBy oa:moderating .
