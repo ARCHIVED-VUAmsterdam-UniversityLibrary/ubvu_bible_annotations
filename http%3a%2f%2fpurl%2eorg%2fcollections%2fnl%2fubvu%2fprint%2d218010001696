@@ -67,6 +67,17 @@ nl:id_2ea87913424376e6c7f827a44322f0ecd9f24b4c oa:hasTarget target:target_81ddb0
 nl:id_2ea87913424376e6c7f827a44322f0ecd9f24b4c oa:hasTarget ubvu:print-218010001696 .
 nl:id_2ea87913424376e6c7f827a44322f0ecd9f24b4c oa:motivatedBy oa:tagging .
 
+nl:id_58923fd1d9861b70d764e60ad5a1e4be656c8f20 a oa:Annotation .
+nl:id_58923fd1d9861b70d764e60ad5a1e4be656c8f20 terms:title "Maria mother of Jesus" .
+nl:id_58923fd1d9861b70d764e60ad5a1e4be656c8f20 ui:annotationField bible:BibleCharacter .
+nl:id_58923fd1d9861b70d764e60ad5a1e4be656c8f20 ui:typingTime 0 .
+nl:id_58923fd1d9861b70d764e60ad5a1e4be656c8f20 oa:annotatedAt "2016-07-01T21:08:50+02:00"^^xsd:dateTime .
+nl:id_58923fd1d9861b70d764e60ad5a1e4be656c8f20 oa:annotatedBy user:everhoeff .
+nl:id_58923fd1d9861b70d764e60ad5a1e4be656c8f20 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Maria mother of Jesus" ] .
+nl:id_58923fd1d9861b70d764e60ad5a1e4be656c8f20 oa:hasTarget target:target_a2feee72ae8f64d6fe3ac1d51dabd59293404ac8 .
+nl:id_58923fd1d9861b70d764e60ad5a1e4be656c8f20 oa:hasTarget ubvu:print-218010001696 .
+nl:id_58923fd1d9861b70d764e60ad5a1e4be656c8f20 oa:motivatedBy oa:tagging .
+
 nl:id_bdf97d69ed3ecf7ddb7d47b8130b490333951d61 a oa:Annotation .
 nl:id_bdf97d69ed3ecf7ddb7d47b8130b490333951d61 terms:title "Een engel vertelt Jozef om met Maria en het kind naar Egypte te gaan" .
 nl:id_bdf97d69ed3ecf7ddb7d47b8130b490333951d61 ui:annotationField bible:ICBibleTheme .
@@ -123,6 +134,14 @@ target:selector_9ca304eff1518a7f143e9f1653db45deda08c88b ui:x "0.375558867362146
 target:selector_9ca304eff1518a7f143e9f1653db45deda08c88b ui:y "0.694240837696335"^^xsd:float .
 target:selector_9ca304eff1518a7f143e9f1653db45deda08c88b rdf:value "#xywh=percent:38,69,29,14" .
 
+target:selector_a2feee72ae8f64d6fe3ac1d51dabd59293404ac8 a oa:FragmentSelector .
+target:selector_a2feee72ae8f64d6fe3ac1d51dabd59293404ac8 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_a2feee72ae8f64d6fe3ac1d51dabd59293404ac8 ui:h "0.16858638743455498"^^xsd:float .
+target:selector_a2feee72ae8f64d6fe3ac1d51dabd59293404ac8 ui:w "0.20566318926974664"^^xsd:float .
+target:selector_a2feee72ae8f64d6fe3ac1d51dabd59293404ac8 ui:x "0.7481371087928465"^^xsd:float .
+target:selector_a2feee72ae8f64d6fe3ac1d51dabd59293404ac8 ui:y "0.6680628272251309"^^xsd:float .
+target:selector_a2feee72ae8f64d6fe3ac1d51dabd59293404ac8 rdf:value "#xywh=percent:75,67,21,17" .
+
 target:selector_c2ad4ad4ffaa25afa5f933187099d32e8a31d0c2 a oa:FragmentSelector .
 target:selector_c2ad4ad4ffaa25afa5f933187099d32e8a31d0c2 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_c2ad4ad4ffaa25afa5f933187099d32e8a31d0c2 ui:h "0.042363433667781496"^^xsd:float .
@@ -150,6 +169,10 @@ target:target_81ddb0c839f117351be2ea7c4506b4dfb80463a0 oa:hasSource <http://imag
 target:target_9ca304eff1518a7f143e9f1653db45deda08c88b a oa:SpecificResource .
 target:target_9ca304eff1518a7f143e9f1653db45deda08c88b oa:hasSelector target:selector_9ca304eff1518a7f143e9f1653db45deda08c88b .
 target:target_9ca304eff1518a7f143e9f1653db45deda08c88b oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/735> .
+
+target:target_a2feee72ae8f64d6fe3ac1d51dabd59293404ac8 a oa:SpecificResource .
+target:target_a2feee72ae8f64d6fe3ac1d51dabd59293404ac8 oa:hasSelector target:selector_a2feee72ae8f64d6fe3ac1d51dabd59293404ac8 .
+target:target_a2feee72ae8f64d6fe3ac1d51dabd59293404ac8 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/735> .
 
 target:target_c2ad4ad4ffaa25afa5f933187099d32e8a31d0c2 a oa:SpecificResource .
 target:target_c2ad4ad4ffaa25afa5f933187099d32e8a31d0c2 oa:hasSelector target:selector_c2ad4ad4ffaa25afa5f933187099d32e8a31d0c2 .
