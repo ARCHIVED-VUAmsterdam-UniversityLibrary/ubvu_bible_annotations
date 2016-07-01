@@ -34,6 +34,17 @@ nl:id_073d7355d5de780d7776c8726cf27df016ddf11f oa:hasBody <http://iconclass.org/
 nl:id_073d7355d5de780d7776c8726cf27df016ddf11f oa:hasTarget ubvu:print-218010001696 .
 nl:id_073d7355d5de780d7776c8726cf27df016ddf11f oa:motivatedBy oa:tagging .
 
+nl:id_111aefd9afc691ea518616fcbf72c0020fdb09e8 a oa:Annotation .
+nl:id_111aefd9afc691ea518616fcbf72c0020fdb09e8 terms:title "Maria mother of Jesus" .
+nl:id_111aefd9afc691ea518616fcbf72c0020fdb09e8 ui:annotationField bible:BibleCharacter .
+nl:id_111aefd9afc691ea518616fcbf72c0020fdb09e8 ui:typingTime 0 .
+nl:id_111aefd9afc691ea518616fcbf72c0020fdb09e8 oa:annotatedAt "2016-07-01T21:08:15+02:00"^^xsd:dateTime .
+nl:id_111aefd9afc691ea518616fcbf72c0020fdb09e8 oa:annotatedBy user:everhoeff .
+nl:id_111aefd9afc691ea518616fcbf72c0020fdb09e8 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Maria mother of Jesus" ] .
+nl:id_111aefd9afc691ea518616fcbf72c0020fdb09e8 oa:hasTarget target:target_fc9dcbe55e5cf9bded5bd7abf4503104e73b809f .
+nl:id_111aefd9afc691ea518616fcbf72c0020fdb09e8 oa:hasTarget ubvu:print-218010001696 .
+nl:id_111aefd9afc691ea518616fcbf72c0020fdb09e8 oa:motivatedBy oa:tagging .
+
 nl:id_2dc5cbdde91b19c81db552961ef02cb672646d83 a oa:Annotation .
 nl:id_2dc5cbdde91b19c81db552961ef02cb672646d83 terms:title "Maria" .
 nl:id_2dc5cbdde91b19c81db552961ef02cb672646d83 ui:annotationField bible:BibleCharacter .
