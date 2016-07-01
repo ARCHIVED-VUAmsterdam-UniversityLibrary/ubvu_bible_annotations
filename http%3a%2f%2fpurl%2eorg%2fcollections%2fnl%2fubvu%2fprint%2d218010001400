@@ -12,17 +12,6 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
-nl:id_1d68d2acdd2101f5fdd27eb5bdbdfeb4c699635f a oa:Annotation .
-nl:id_1d68d2acdd2101f5fdd27eb5bdbdfeb4c699635f terms:title "samsong" .
-nl:id_1d68d2acdd2101f5fdd27eb5bdbdfeb4c699635f ui:annotationField bible:BibleCharacter .
-nl:id_1d68d2acdd2101f5fdd27eb5bdbdfeb4c699635f ui:typingTime 0 .
-nl:id_1d68d2acdd2101f5fdd27eb5bdbdfeb4c699635f oa:annotatedAt "2016-04-04T15:41:08+02:00"^^xsd:dateTime .
-nl:id_1d68d2acdd2101f5fdd27eb5bdbdfeb4c699635f oa:annotatedBy user:vubieb .
-nl:id_1d68d2acdd2101f5fdd27eb5bdbdfeb4c699635f oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "samsong" ] .
-nl:id_1d68d2acdd2101f5fdd27eb5bdbdfeb4c699635f oa:hasTarget target:target_f106a4dd30be120d7fb1c4ce211e3983d1b75ae1 .
-nl:id_1d68d2acdd2101f5fdd27eb5bdbdfeb4c699635f oa:hasTarget ubvu:print-218010001400 .
-nl:id_1d68d2acdd2101f5fdd27eb5bdbdfeb4c699635f oa:motivatedBy oa:tagging .
-
 nl:id_77a72d24c54b44badac344d7135becff24b04ad0 a oa:Annotation .
 nl:id_77a72d24c54b44badac344d7135becff24b04ad0 terms:title "samson" .
 nl:id_77a72d24c54b44badac344d7135becff24b04ad0 ui:annotationField bible:BibleCharacter .
