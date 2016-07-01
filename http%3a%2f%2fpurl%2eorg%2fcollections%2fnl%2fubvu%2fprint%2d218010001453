@@ -34,6 +34,17 @@ nl:id_568e5873d4ae466a01ba228b654abb76b899ab8c oa:hasBody [ a content:ContentAsT
 nl:id_568e5873d4ae466a01ba228b654abb76b899ab8c oa:hasTarget ubvu:print-218010001453 .
 nl:id_568e5873d4ae466a01ba228b654abb76b899ab8c oa:motivatedBy oa:tagging .
 
+nl:id_b17e42598c73429ac490789b7fd9f28b33c3904a a oa:Annotation .
+nl:id_b17e42598c73429ac490789b7fd9f28b33c3904a terms:title "Agag" .
+nl:id_b17e42598c73429ac490789b7fd9f28b33c3904a ui:annotationField bible:BibleCharacter .
+nl:id_b17e42598c73429ac490789b7fd9f28b33c3904a ui:typingTime 0 .
+nl:id_b17e42598c73429ac490789b7fd9f28b33c3904a oa:annotatedAt "2016-07-01T20:48:32+02:00"^^xsd:dateTime .
+nl:id_b17e42598c73429ac490789b7fd9f28b33c3904a oa:annotatedBy user:everhoeff .
+nl:id_b17e42598c73429ac490789b7fd9f28b33c3904a oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Agag" ] .
+nl:id_b17e42598c73429ac490789b7fd9f28b33c3904a oa:hasTarget target:target_89ca7b6278ce59aec2f8dadca850844ce42900f8 .
+nl:id_b17e42598c73429ac490789b7fd9f28b33c3904a oa:hasTarget ubvu:print-218010001453 .
+nl:id_b17e42598c73429ac490789b7fd9f28b33c3904a oa:motivatedBy oa:tagging .
+
 nl:id_b627230cba129fc31869f338a467c5e7420e7c2a a oa:Annotation .
 nl:id_b627230cba129fc31869f338a467c5e7420e7c2a terms:title "Samuel hew's Agag in pieces before the Lord in Gilead" .
 nl:id_b627230cba129fc31869f338a467c5e7420e7c2a ui:annotationField bible:ICBibleTheme .
@@ -63,6 +74,14 @@ target:selector_239bbd3e52200dfc797a1013891c8503cb28065d ui:x "0.411340206185567
 target:selector_239bbd3e52200dfc797a1013891c8503cb28065d ui:y "0.4755492558469171"^^xsd:float .
 target:selector_239bbd3e52200dfc797a1013891c8503cb28065d rdf:value "#xywh=percent:41,48,35,33" .
 
+target:selector_89ca7b6278ce59aec2f8dadca850844ce42900f8 a oa:FragmentSelector .
+target:selector_89ca7b6278ce59aec2f8dadca850844ce42900f8 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_89ca7b6278ce59aec2f8dadca850844ce42900f8 ui:h "0.15307057745187902"^^xsd:float .
+target:selector_89ca7b6278ce59aec2f8dadca850844ce42900f8 ui:w "0.5266666666666666"^^xsd:float .
+target:selector_89ca7b6278ce59aec2f8dadca850844ce42900f8 ui:x "0.07466666666666667"^^xsd:float .
+target:selector_89ca7b6278ce59aec2f8dadca850844ce42900f8 ui:y "0.7351054078826764"^^xsd:float .
+target:selector_89ca7b6278ce59aec2f8dadca850844ce42900f8 rdf:value "#xywh=percent:7,74,53,15" .
+
 target:selector_fb67198bfcfe32810ed83bc062b5231825f7643c a oa:FragmentSelector .
 target:selector_fb67198bfcfe32810ed83bc062b5231825f7643c terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_fb67198bfcfe32810ed83bc062b5231825f7643c ui:h "0.22608079376328843"^^xsd:float .
@@ -74,6 +93,10 @@ target:selector_fb67198bfcfe32810ed83bc062b5231825f7643c rdf:value "#xywh=percen
 target:target_239bbd3e52200dfc797a1013891c8503cb28065d a oa:SpecificResource .
 target:target_239bbd3e52200dfc797a1013891c8503cb28065d oa:hasSelector target:selector_239bbd3e52200dfc797a1013891c8503cb28065d .
 target:target_239bbd3e52200dfc797a1013891c8503cb28065d oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/494> .
+
+target:target_89ca7b6278ce59aec2f8dadca850844ce42900f8 a oa:SpecificResource .
+target:target_89ca7b6278ce59aec2f8dadca850844ce42900f8 oa:hasSelector target:selector_89ca7b6278ce59aec2f8dadca850844ce42900f8 .
+target:target_89ca7b6278ce59aec2f8dadca850844ce42900f8 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/494> .
 
 target:target_fb67198bfcfe32810ed83bc062b5231825f7643c a oa:SpecificResource .
 target:target_fb67198bfcfe32810ed83bc062b5231825f7643c oa:hasSelector target:selector_fb67198bfcfe32810ed83bc062b5231825f7643c .
