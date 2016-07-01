@@ -34,6 +34,16 @@ nl:id_568e5873d4ae466a01ba228b654abb76b899ab8c oa:hasBody [ a content:ContentAsT
 nl:id_568e5873d4ae466a01ba228b654abb76b899ab8c oa:hasTarget ubvu:print-218010001453 .
 nl:id_568e5873d4ae466a01ba228b654abb76b899ab8c oa:motivatedBy oa:tagging .
 
+nl:id_b627230cba129fc31869f338a467c5e7420e7c2a a oa:Annotation .
+nl:id_b627230cba129fc31869f338a467c5e7420e7c2a terms:title "Samuel hew's Agag in pieces before the Lord in Gilead" .
+nl:id_b627230cba129fc31869f338a467c5e7420e7c2a ui:annotationField bible:ICBibleTheme .
+nl:id_b627230cba129fc31869f338a467c5e7420e7c2a ui:typingTime 0 .
+nl:id_b627230cba129fc31869f338a467c5e7420e7c2a oa:annotatedAt "2016-07-01T20:48:16+02:00"^^xsd:dateTime .
+nl:id_b627230cba129fc31869f338a467c5e7420e7c2a oa:annotatedBy user:everhoeff .
+nl:id_b627230cba129fc31869f338a467c5e7420e7c2a oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Samuel hew's Agag in pieces before the Lord in Gilead" ] .
+nl:id_b627230cba129fc31869f338a467c5e7420e7c2a oa:hasTarget ubvu:print-218010001453 .
+nl:id_b627230cba129fc31869f338a467c5e7420e7c2a oa:motivatedBy oa:tagging .
+
 nl:id_e0322ef1dae7bab77475a667c2311a5493bac0aa a oa:Annotation .
 nl:id_e0322ef1dae7bab77475a667c2311a5493bac0aa terms:title "Samuel" .
 nl:id_e0322ef1dae7bab77475a667c2311a5493bac0aa ui:annotationField bible:BibleCharacter .
