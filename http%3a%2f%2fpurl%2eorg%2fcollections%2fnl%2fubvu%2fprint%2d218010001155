@@ -46,16 +46,6 @@ nl:id_6fc92c4a4fd8d89f5142f260d9a59a7997759092 oa:hasTarget target:target_209c0f
 nl:id_6fc92c4a4fd8d89f5142f260d9a59a7997759092 oa:hasTarget ubvu:print-218010001155 .
 nl:id_6fc92c4a4fd8d89f5142f260d9a59a7997759092 oa:motivatedBy oa:tagging .
 
-nl:id_71a65cd4da19570f157a669976e267be55977302 a oa:Annotation .
-nl:id_71a65cd4da19570f157a669976e267be55977302 terms:title "the ark ~ story of Noah" .
-nl:id_71a65cd4da19570f157a669976e267be55977302 ui:annotationField bible:ICBibleTheme .
-nl:id_71a65cd4da19570f157a669976e267be55977302 ui:typingTime 0 .
-nl:id_71a65cd4da19570f157a669976e267be55977302 oa:annotatedAt "2016-04-04T13:29:45+02:00"^^xsd:dateTime .
-nl:id_71a65cd4da19570f157a669976e267be55977302 oa:annotatedBy user:beer .
-nl:id_71a65cd4da19570f157a669976e267be55977302 oa:hasBody <http://iconclass.org/71B33111> .
-nl:id_71a65cd4da19570f157a669976e267be55977302 oa:hasTarget ubvu:print-218010001155 .
-nl:id_71a65cd4da19570f157a669976e267be55977302 oa:motivatedBy oa:tagging .
-
 nl:id_97efbfb74a6d1a99b2048004426dd36bc0f08d0e a oa:Annotation .
 nl:id_97efbfb74a6d1a99b2048004426dd36bc0f08d0e terms:title "Jozefs broers verkopen hem aan de Ismaëlieten." .
 nl:id_97efbfb74a6d1a99b2048004426dd36bc0f08d0e ui:annotationField bible:ICBibleTheme .
