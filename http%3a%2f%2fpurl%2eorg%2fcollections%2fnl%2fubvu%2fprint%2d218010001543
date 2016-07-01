@@ -45,17 +45,6 @@ nl:id_a807bfc6b4f96d03683ae03abd0bf9e2411b7c62 oa:hasTarget target:target_e3c66e
 nl:id_a807bfc6b4f96d03683ae03abd0bf9e2411b7c62 oa:hasTarget ubvu:print-218010001543 .
 nl:id_a807bfc6b4f96d03683ae03abd0bf9e2411b7c62 oa:motivatedBy oa:tagging .
 
-nl:id_af50d68c7a8e62a67cfd4707362c0f3653c94b90 a oa:Annotation .
-nl:id_af50d68c7a8e62a67cfd4707362c0f3653c94b90 terms:title "Dienaar van Davis" .
-nl:id_af50d68c7a8e62a67cfd4707362c0f3653c94b90 ui:annotationField bible:BibleCharacter .
-nl:id_af50d68c7a8e62a67cfd4707362c0f3653c94b90 ui:typingTime 0 .
-nl:id_af50d68c7a8e62a67cfd4707362c0f3653c94b90 oa:annotatedAt "2016-06-08T11:09:56+02:00"^^xsd:dateTime .
-nl:id_af50d68c7a8e62a67cfd4707362c0f3653c94b90 oa:annotatedBy user:hogguer .
-nl:id_af50d68c7a8e62a67cfd4707362c0f3653c94b90 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Dienaar van Davis" ] .
-nl:id_af50d68c7a8e62a67cfd4707362c0f3653c94b90 oa:hasTarget target:target_d4fb8c5711cb4e3a1cef89637053b661918d4467 .
-nl:id_af50d68c7a8e62a67cfd4707362c0f3653c94b90 oa:hasTarget ubvu:print-218010001543 .
-nl:id_af50d68c7a8e62a67cfd4707362c0f3653c94b90 oa:motivatedBy oa:tagging .
-
 nl:id_c194920f1f59ddf9244c88d7cd88aceb06b98841 a oa:Annotation .
 nl:id_c194920f1f59ddf9244c88d7cd88aceb06b98841 terms:title "Shaving and cutting off the garments of David's servants by Hanun, king of the Ammonites" .
 nl:id_c194920f1f59ddf9244c88d7cd88aceb06b98841 ui:annotationField bible:ICBibleTheme .
@@ -114,14 +103,6 @@ target:selector_82e5910eb0ce317402dd3f8a1acfea04cae898dd ui:x "0.485333333333333
 target:selector_82e5910eb0ce317402dd3f8a1acfea04cae898dd ui:y "0.2613019891500904"^^xsd:float .
 target:selector_82e5910eb0ce317402dd3f8a1acfea04cae898dd rdf:value "#xywh=percent:49,26,8,21" .
 
-target:selector_d4fb8c5711cb4e3a1cef89637053b661918d4467 a oa:FragmentSelector .
-target:selector_d4fb8c5711cb4e3a1cef89637053b661918d4467 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
-target:selector_d4fb8c5711cb4e3a1cef89637053b661918d4467 ui:h "0.18945538818076477"^^xsd:float .
-target:selector_d4fb8c5711cb4e3a1cef89637053b661918d4467 ui:w "0.14102564102564102"^^xsd:float .
-target:selector_d4fb8c5711cb4e3a1cef89637053b661918d4467 ui:x "0.02564102564102564"^^xsd:float .
-target:selector_d4fb8c5711cb4e3a1cef89637053b661918d4467 ui:y "0.380648899188876"^^xsd:float .
-target:selector_d4fb8c5711cb4e3a1cef89637053b661918d4467 rdf:value "#xywh=percent:3,38,14,19" .
-
 target:selector_e3c66ea97bbb5336ba43948e3ec810ddb3b9efef a oa:FragmentSelector .
 target:selector_e3c66ea97bbb5336ba43948e3ec810ddb3b9efef terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_e3c66ea97bbb5336ba43948e3ec810ddb3b9efef ui:h "0.41888760139049824"^^xsd:float .
@@ -145,10 +126,6 @@ target:target_4b53a5bfb8eeb693b253245bbda7ecd9317851f9 oa:hasSource <http://imag
 target:target_82e5910eb0ce317402dd3f8a1acfea04cae898dd a oa:SpecificResource .
 target:target_82e5910eb0ce317402dd3f8a1acfea04cae898dd oa:hasSelector target:selector_82e5910eb0ce317402dd3f8a1acfea04cae898dd .
 target:target_82e5910eb0ce317402dd3f8a1acfea04cae898dd oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/584> .
-
-target:target_d4fb8c5711cb4e3a1cef89637053b661918d4467 a oa:SpecificResource .
-target:target_d4fb8c5711cb4e3a1cef89637053b661918d4467 oa:hasSelector target:selector_d4fb8c5711cb4e3a1cef89637053b661918d4467 .
-target:target_d4fb8c5711cb4e3a1cef89637053b661918d4467 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/584> .
 
 target:target_e3c66ea97bbb5336ba43948e3ec810ddb3b9efef a oa:SpecificResource .
 target:target_e3c66ea97bbb5336ba43948e3ec810ddb3b9efef oa:hasSelector target:selector_e3c66ea97bbb5336ba43948e3ec810ddb3b9efef .
