@@ -66,6 +66,16 @@ nl:id_64f6b8d9b070723225b7e8c9060b1dee1a96e7fa oa:hasTarget target:target_5a981b
 nl:id_64f6b8d9b070723225b7e8c9060b1dee1a96e7fa oa:hasTarget ubvu:print-218010002005 .
 nl:id_64f6b8d9b070723225b7e8c9060b1dee1a96e7fa oa:motivatedBy oa:tagging .
 
+nl:id_7098fe730f29f8a8925cf6b27ba44334b756c123 a oa:Annotation .
+nl:id_7098fe730f29f8a8925cf6b27ba44334b756c123 terms:title "God gives Moses two stone tables" .
+nl:id_7098fe730f29f8a8925cf6b27ba44334b756c123 ui:annotationField bible:ICBibleTheme .
+nl:id_7098fe730f29f8a8925cf6b27ba44334b756c123 ui:typingTime 0 .
+nl:id_7098fe730f29f8a8925cf6b27ba44334b756c123 oa:annotatedAt "2016-07-05T17:36:49+02:00"^^xsd:dateTime .
+nl:id_7098fe730f29f8a8925cf6b27ba44334b756c123 oa:annotatedBy user:everhoeff .
+nl:id_7098fe730f29f8a8925cf6b27ba44334b756c123 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "God gives Moses two stone tables" ] .
+nl:id_7098fe730f29f8a8925cf6b27ba44334b756c123 oa:hasTarget ubvu:print-218010002005 .
+nl:id_7098fe730f29f8a8925cf6b27ba44334b756c123 oa:motivatedBy oa:tagging .
+
 nl:id_76c66b00c7c5cddf7add2f3345dc0ec2aaec2442 a oa:Annotation .
 nl:id_76c66b00c7c5cddf7add2f3345dc0ec2aaec2442 terms:title "Mozes" .
 nl:id_76c66b00c7c5cddf7add2f3345dc0ec2aaec2442 ui:annotationField bible:BibleCharacter .
