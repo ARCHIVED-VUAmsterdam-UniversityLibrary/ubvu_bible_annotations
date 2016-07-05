@@ -24,6 +24,16 @@ nl:id_5d897c1256ebc2167a87fb5b06f00b50cf8c1cd5 oa:hasTarget target:target_de4821
 nl:id_5d897c1256ebc2167a87fb5b06f00b50cf8c1cd5 oa:hasTarget ubvu:print-218010001675 .
 nl:id_5d897c1256ebc2167a87fb5b06f00b50cf8c1cd5 oa:motivatedBy oa:tagging .
 
+nl:id_5f0593c8e185041baf7891b80471ba5159b47fb4 a oa:Annotation .
+nl:id_5f0593c8e185041baf7891b80471ba5159b47fb4 terms:title "The circumcision of Christ" .
+nl:id_5f0593c8e185041baf7891b80471ba5159b47fb4 ui:annotationField bible:ICBibleTheme .
+nl:id_5f0593c8e185041baf7891b80471ba5159b47fb4 ui:typingTime 0 .
+nl:id_5f0593c8e185041baf7891b80471ba5159b47fb4 oa:annotatedAt "2016-07-05T17:43:47+02:00"^^xsd:dateTime .
+nl:id_5f0593c8e185041baf7891b80471ba5159b47fb4 oa:annotatedBy user:everhoeff .
+nl:id_5f0593c8e185041baf7891b80471ba5159b47fb4 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The circumcision of Christ" ] .
+nl:id_5f0593c8e185041baf7891b80471ba5159b47fb4 oa:hasTarget ubvu:print-218010001675 .
+nl:id_5f0593c8e185041baf7891b80471ba5159b47fb4 oa:motivatedBy oa:tagging .
+
 nl:id_6ad78f325c147f37f45333f3ebaebe57d09ef4cc a oa:Annotation .
 nl:id_6ad78f325c147f37f45333f3ebaebe57d09ef4cc terms:title "De besnijdenis van Jezus." .
 nl:id_6ad78f325c147f37f45333f3ebaebe57d09ef4cc ui:annotationField bible:ICBibleTheme .
