@@ -77,6 +77,16 @@ nl:id_cd2f389179cb10cf13e494ed5f08ab5f8a15b237 oa:hasTarget target:target_01a2b5
 nl:id_cd2f389179cb10cf13e494ed5f08ab5f8a15b237 oa:hasTarget ubvu:print-218010001795 .
 nl:id_cd2f389179cb10cf13e494ed5f08ab5f8a15b237 oa:motivatedBy oa:tagging .
 
+nl:id_e6ddb46929d0d06b5d298ce0c2a4a831d0b6d97b a oa:Annotation .
+nl:id_e6ddb46929d0d06b5d298ce0c2a4a831d0b6d97b terms:title "Martha complains of her sister to Christ" .
+nl:id_e6ddb46929d0d06b5d298ce0c2a4a831d0b6d97b ui:annotationField bible:ICBibleTheme .
+nl:id_e6ddb46929d0d06b5d298ce0c2a4a831d0b6d97b ui:typingTime 0 .
+nl:id_e6ddb46929d0d06b5d298ce0c2a4a831d0b6d97b oa:annotatedAt "2016-07-05T18:40:28+02:00"^^xsd:dateTime .
+nl:id_e6ddb46929d0d06b5d298ce0c2a4a831d0b6d97b oa:annotatedBy user:everhoeff .
+nl:id_e6ddb46929d0d06b5d298ce0c2a4a831d0b6d97b oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Martha complains of her sister to Christ" ] .
+nl:id_e6ddb46929d0d06b5d298ce0c2a4a831d0b6d97b oa:hasTarget ubvu:print-218010001795 .
+nl:id_e6ddb46929d0d06b5d298ce0c2a4a831d0b6d97b oa:motivatedBy oa:tagging .
+
 nl:id_ff5b56cb719d0c1551b642800d3d05c424735427 a oa:Annotation .
 nl:id_ff5b56cb719d0c1551b642800d3d05c424735427 terms:title "Martha" .
 nl:id_ff5b56cb719d0c1551b642800d3d05c424735427 ui:annotationField bible:BibleCharacter .
