@@ -24,6 +24,16 @@ nl:id_18869fa0d3676c301420433c390748cc4f2d87fa oa:hasTarget target:target_c51c3f
 nl:id_18869fa0d3676c301420433c390748cc4f2d87fa oa:hasTarget ubvu:print-218010002003 .
 nl:id_18869fa0d3676c301420433c390748cc4f2d87fa oa:motivatedBy oa:tagging .
 
+nl:id_413dc40377d46ff40f1c5bcbe86e0807ef720c86 a oa:Annotation .
+nl:id_413dc40377d46ff40f1c5bcbe86e0807ef720c86 terms:title "Joseph interpreting the dreams of the butler and the baker (the two dreams combined)" .
+nl:id_413dc40377d46ff40f1c5bcbe86e0807ef720c86 ui:annotationField bible:ICBibleTheme .
+nl:id_413dc40377d46ff40f1c5bcbe86e0807ef720c86 ui:typingTime 0 .
+nl:id_413dc40377d46ff40f1c5bcbe86e0807ef720c86 oa:annotatedAt "2016-07-05T17:45:52+02:00"^^xsd:dateTime .
+nl:id_413dc40377d46ff40f1c5bcbe86e0807ef720c86 oa:annotatedBy user:everhoeff .
+nl:id_413dc40377d46ff40f1c5bcbe86e0807ef720c86 oa:hasBody <http://iconclass.org/71D145> .
+nl:id_413dc40377d46ff40f1c5bcbe86e0807ef720c86 oa:hasTarget ubvu:print-218010002003 .
+nl:id_413dc40377d46ff40f1c5bcbe86e0807ef720c86 oa:motivatedBy oa:tagging .
+
 nl:id_52e963953ba94ce60dae46010047c03ecd894be3 a oa:Annotation .
 nl:id_52e963953ba94ce60dae46010047c03ecd894be3 terms:title "Farao" .
 nl:id_52e963953ba94ce60dae46010047c03ecd894be3 ui:annotationField bible:BibleCharacter .
