@@ -311,6 +311,16 @@ nl:id_ea03c5a73c401dd51dcd794c308b6571b09bde53 oa:hasTarget target:target_1a7859
 nl:id_ea03c5a73c401dd51dcd794c308b6571b09bde53 oa:hasTarget ubvu:print-218010002032 .
 nl:id_ea03c5a73c401dd51dcd794c308b6571b09bde53 oa:motivatedBy oa:tagging .
 
+nl:id_eb6f7b34cbeb3158dd28a8e62fdb6d59e3f4aa09 a oa:Annotation .
+nl:id_eb6f7b34cbeb3158dd28a8e62fdb6d59e3f4aa09 terms:title "Jesus baptisted" .
+nl:id_eb6f7b34cbeb3158dd28a8e62fdb6d59e3f4aa09 ui:annotationField bible:ICBibleTheme .
+nl:id_eb6f7b34cbeb3158dd28a8e62fdb6d59e3f4aa09 ui:typingTime 0 .
+nl:id_eb6f7b34cbeb3158dd28a8e62fdb6d59e3f4aa09 oa:annotatedAt "2016-07-05T18:11:56+02:00"^^xsd:dateTime .
+nl:id_eb6f7b34cbeb3158dd28a8e62fdb6d59e3f4aa09 oa:annotatedBy user:everhoeff .
+nl:id_eb6f7b34cbeb3158dd28a8e62fdb6d59e3f4aa09 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jesus baptisted" ] .
+nl:id_eb6f7b34cbeb3158dd28a8e62fdb6d59e3f4aa09 oa:hasTarget ubvu:print-218010002032 .
+nl:id_eb6f7b34cbeb3158dd28a8e62fdb6d59e3f4aa09 oa:motivatedBy oa:tagging .
+
 nl:id_f67f9ca89c8056b418999a0c0a9c83e7c06833d9 a oa:Annotation .
 nl:id_f67f9ca89c8056b418999a0c0a9c83e7c06833d9 terms:title "Jezus Christus" .
 nl:id_f67f9ca89c8056b418999a0c0a9c83e7c06833d9 ui:annotationField bible:BibleCharacter .
