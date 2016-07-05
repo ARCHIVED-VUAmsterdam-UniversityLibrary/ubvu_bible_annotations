@@ -238,6 +238,16 @@ nl:id_89084ab785b895d5500f60eaea1f84d1daaefe99 oa:hasTarget target:target_34a447
 nl:id_89084ab785b895d5500f60eaea1f84d1daaefe99 oa:hasTarget ubvu:print-218010002032 .
 nl:id_89084ab785b895d5500f60eaea1f84d1daaefe99 oa:motivatedBy oa:tagging .
 
+nl:id_98e71cd1656d5553e519f413879386476ef864e4 a oa:Annotation .
+nl:id_98e71cd1656d5553e519f413879386476ef864e4 terms:title "Jesus tempted by the devil" .
+nl:id_98e71cd1656d5553e519f413879386476ef864e4 ui:annotationField bible:ICBibleTheme .
+nl:id_98e71cd1656d5553e519f413879386476ef864e4 ui:typingTime 0 .
+nl:id_98e71cd1656d5553e519f413879386476ef864e4 oa:annotatedAt "2016-07-05T18:13:37+02:00"^^xsd:dateTime .
+nl:id_98e71cd1656d5553e519f413879386476ef864e4 oa:annotatedBy user:everhoeff .
+nl:id_98e71cd1656d5553e519f413879386476ef864e4 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jesus tempted by the devil" ] .
+nl:id_98e71cd1656d5553e519f413879386476ef864e4 oa:hasTarget ubvu:print-218010002032 .
+nl:id_98e71cd1656d5553e519f413879386476ef864e4 oa:motivatedBy oa:tagging .
+
 nl:id_a05f70c2b0ba03b6653018271810d9475e4aa252 a oa:Annotation .
 nl:id_a05f70c2b0ba03b6653018271810d9475e4aa252 terms:title "Jezus" .
 nl:id_a05f70c2b0ba03b6653018271810d9475e4aa252 ui:annotationField bible:BibleCharacter .
