@@ -139,6 +139,16 @@ nl:id_a0a92632247ccf1ccb6382fab5caf7458988b6f0 oa:hasBody [ a content:ContentAsT
 nl:id_a0a92632247ccf1ccb6382fab5caf7458988b6f0 oa:hasTarget ubvu:print-218010002005 .
 nl:id_a0a92632247ccf1ccb6382fab5caf7458988b6f0 oa:motivatedBy oa:tagging .
 
+nl:id_d7da064a0af7fe9a68499f70e8edf25047cec9c9 a oa:Annotation .
+nl:id_d7da064a0af7fe9a68499f70e8edf25047cec9c9 terms:title "Moses comes downfrom the Mount Sinai with the two tables" .
+nl:id_d7da064a0af7fe9a68499f70e8edf25047cec9c9 ui:annotationField bible:ICBibleTheme .
+nl:id_d7da064a0af7fe9a68499f70e8edf25047cec9c9 ui:typingTime 0 .
+nl:id_d7da064a0af7fe9a68499f70e8edf25047cec9c9 oa:annotatedAt "2016-07-05T17:37:52+02:00"^^xsd:dateTime .
+nl:id_d7da064a0af7fe9a68499f70e8edf25047cec9c9 oa:annotatedBy user:everhoeff .
+nl:id_d7da064a0af7fe9a68499f70e8edf25047cec9c9 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Moses comes downfrom the Mount Sinai with the two tables" ] .
+nl:id_d7da064a0af7fe9a68499f70e8edf25047cec9c9 oa:hasTarget ubvu:print-218010002005 .
+nl:id_d7da064a0af7fe9a68499f70e8edf25047cec9c9 oa:motivatedBy oa:tagging .
+
 nl:id_d9114a7d69079ed0fa76e3265fcf44a660dc8acf a oa:Annotation .
 nl:id_d9114a7d69079ed0fa76e3265fcf44a660dc8acf terms:title "Mozes" .
 nl:id_d9114a7d69079ed0fa76e3265fcf44a660dc8acf ui:annotationField bible:BibleCharacter .
