@@ -78,6 +78,16 @@ nl:id_7096f725c40f0e1fe17733696401a0edca3b4d89 oa:hasTarget target:target_666ecc
 nl:id_7096f725c40f0e1fe17733696401a0edca3b4d89 oa:hasTarget ubvu:print-218010002003 .
 nl:id_7096f725c40f0e1fe17733696401a0edca3b4d89 oa:motivatedBy oa:tagging .
 
+nl:id_a76436eb1d87df5be57719abea1d8f675266f51c a oa:Annotation .
+nl:id_a76436eb1d87df5be57719abea1d8f675266f51c terms:title "Joseph makes himself known unto his brothers" .
+nl:id_a76436eb1d87df5be57719abea1d8f675266f51c ui:annotationField bible:ICBibleTheme .
+nl:id_a76436eb1d87df5be57719abea1d8f675266f51c ui:typingTime 0 .
+nl:id_a76436eb1d87df5be57719abea1d8f675266f51c oa:annotatedAt "2016-07-05T17:50:28+02:00"^^xsd:dateTime .
+nl:id_a76436eb1d87df5be57719abea1d8f675266f51c oa:annotatedBy user:everhoeff .
+nl:id_a76436eb1d87df5be57719abea1d8f675266f51c oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Joseph makes himself known unto his brothers" ] .
+nl:id_a76436eb1d87df5be57719abea1d8f675266f51c oa:hasTarget ubvu:print-218010002003 .
+nl:id_a76436eb1d87df5be57719abea1d8f675266f51c oa:motivatedBy oa:tagging .
+
 nl:id_ad406ae3e57c43d56ec5e2d25d06690181daddeb a oa:Annotation .
 nl:id_ad406ae3e57c43d56ec5e2d25d06690181daddeb terms:title "Mozes" .
 nl:id_ad406ae3e57c43d56ec5e2d25d06690181daddeb ui:annotationField bible:BibleCharacter .
