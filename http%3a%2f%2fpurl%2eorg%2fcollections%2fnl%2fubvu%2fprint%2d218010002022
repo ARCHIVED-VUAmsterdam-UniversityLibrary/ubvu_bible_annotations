@@ -24,6 +24,16 @@ nl:id_39a91b02ffea015318d6de7d680ecccd82fae9bf oa:hasTarget target:target_b4854f
 nl:id_39a91b02ffea015318d6de7d680ecccd82fae9bf oa:hasTarget ubvu:print-218010002022 .
 nl:id_39a91b02ffea015318d6de7d680ecccd82fae9bf oa:motivatedBy oa:tagging .
 
+nl:id_688b0fe432cd8df394e7630e1a8922d95de25684 a oa:Annotation .
+nl:id_688b0fe432cd8df394e7630e1a8922d95de25684 terms:title "The foundation of the temple laid" .
+nl:id_688b0fe432cd8df394e7630e1a8922d95de25684 ui:annotationField bible:ICBibleTheme .
+nl:id_688b0fe432cd8df394e7630e1a8922d95de25684 ui:typingTime 0 .
+nl:id_688b0fe432cd8df394e7630e1a8922d95de25684 oa:annotatedAt "2016-07-05T18:27:23+02:00"^^xsd:dateTime .
+nl:id_688b0fe432cd8df394e7630e1a8922d95de25684 oa:annotatedBy user:everhoeff .
+nl:id_688b0fe432cd8df394e7630e1a8922d95de25684 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The foundation of the temple laid" ] .
+nl:id_688b0fe432cd8df394e7630e1a8922d95de25684 oa:hasTarget ubvu:print-218010002022 .
+nl:id_688b0fe432cd8df394e7630e1a8922d95de25684 oa:motivatedBy oa:tagging .
+
 nl:id_692cba96296764c1cb0b22150d1fa8cea6ef6fe0 a oa:Annotation .
 nl:id_692cba96296764c1cb0b22150d1fa8cea6ef6fe0 terms:title "Artaxerxes" .
 nl:id_692cba96296764c1cb0b22150d1fa8cea6ef6fe0 ui:annotationField bible:BibleCharacter .
