@@ -66,6 +66,16 @@ nl:id_da6b8e4731d4c2c6a64663f1e19006a5a0d22573 oa:hasTarget target:target_32a1c1
 nl:id_da6b8e4731d4c2c6a64663f1e19006a5a0d22573 oa:hasTarget ubvu:print-218010001855 .
 nl:id_da6b8e4731d4c2c6a64663f1e19006a5a0d22573 oa:motivatedBy oa:tagging .
 
+nl:id_fa77db0bbf1a3d2a6e8e52ed76cc3bb885eaf2f1 a oa:Annotation .
+nl:id_fa77db0bbf1a3d2a6e8e52ed76cc3bb885eaf2f1 terms:title "Christ mocked" .
+nl:id_fa77db0bbf1a3d2a6e8e52ed76cc3bb885eaf2f1 ui:annotationField bible:ICBibleTheme .
+nl:id_fa77db0bbf1a3d2a6e8e52ed76cc3bb885eaf2f1 ui:typingTime 0 .
+nl:id_fa77db0bbf1a3d2a6e8e52ed76cc3bb885eaf2f1 oa:annotatedAt "2016-07-05T18:25:18+02:00"^^xsd:dateTime .
+nl:id_fa77db0bbf1a3d2a6e8e52ed76cc3bb885eaf2f1 oa:annotatedBy user:everhoeff .
+nl:id_fa77db0bbf1a3d2a6e8e52ed76cc3bb885eaf2f1 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Christ mocked" ] .
+nl:id_fa77db0bbf1a3d2a6e8e52ed76cc3bb885eaf2f1 oa:hasTarget ubvu:print-218010001855 .
+nl:id_fa77db0bbf1a3d2a6e8e52ed76cc3bb885eaf2f1 oa:motivatedBy oa:tagging .
+
 target:selector_10933262439ba92dd5a5da18adf7a330882c87ec a oa:FragmentSelector .
 target:selector_10933262439ba92dd5a5da18adf7a330882c87ec terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_10933262439ba92dd5a5da18adf7a330882c87ec ui:h "0.31301939058171746"^^xsd:float .
