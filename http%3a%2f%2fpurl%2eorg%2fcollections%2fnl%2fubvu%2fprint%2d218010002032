@@ -88,6 +88,16 @@ nl:id_0af6e1dcba3b4cb369128b4878fc2c42f9987453 oa:hasBody [ a content:ContentAsT
 nl:id_0af6e1dcba3b4cb369128b4878fc2c42f9987453 oa:hasTarget ubvu:print-218010002032 .
 nl:id_0af6e1dcba3b4cb369128b4878fc2c42f9987453 oa:motivatedBy oa:tagging .
 
+nl:id_32bb7016c4fa9bf42f4715a40bf3ec1f23ee4a87 a oa:Annotation .
+nl:id_32bb7016c4fa9bf42f4715a40bf3ec1f23ee4a87 terms:title "Jesus stills the tempest" .
+nl:id_32bb7016c4fa9bf42f4715a40bf3ec1f23ee4a87 ui:annotationField bible:ICBibleTheme .
+nl:id_32bb7016c4fa9bf42f4715a40bf3ec1f23ee4a87 ui:typingTime 0 .
+nl:id_32bb7016c4fa9bf42f4715a40bf3ec1f23ee4a87 oa:annotatedAt "2016-07-05T18:14:40+02:00"^^xsd:dateTime .
+nl:id_32bb7016c4fa9bf42f4715a40bf3ec1f23ee4a87 oa:annotatedBy user:everhoeff .
+nl:id_32bb7016c4fa9bf42f4715a40bf3ec1f23ee4a87 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jesus stills the tempest" ] .
+nl:id_32bb7016c4fa9bf42f4715a40bf3ec1f23ee4a87 oa:hasTarget ubvu:print-218010002032 .
+nl:id_32bb7016c4fa9bf42f4715a40bf3ec1f23ee4a87 oa:motivatedBy oa:tagging .
+
 nl:id_38d6e7a560966f2531dc9018c0d105dbc593a6ae a oa:Annotation .
 nl:id_38d6e7a560966f2531dc9018c0d105dbc593a6ae terms:title "Mattathias" .
 nl:id_38d6e7a560966f2531dc9018c0d105dbc593a6ae ui:annotationField bible:BibleCharacter .
