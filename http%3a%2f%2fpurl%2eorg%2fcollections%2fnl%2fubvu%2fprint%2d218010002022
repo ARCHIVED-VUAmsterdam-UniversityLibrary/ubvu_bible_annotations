@@ -55,6 +55,16 @@ nl:id_692cba96296764c1cb0b22150d1fa8cea6ef6fe0 oa:hasTarget target:target_80f096
 nl:id_692cba96296764c1cb0b22150d1fa8cea6ef6fe0 oa:hasTarget ubvu:print-218010002022 .
 nl:id_692cba96296764c1cb0b22150d1fa8cea6ef6fe0 oa:motivatedBy oa:tagging .
 
+nl:id_7ff8b983f5e48e42385a940887e264f40afcc173 a oa:Annotation .
+nl:id_7ff8b983f5e48e42385a940887e264f40afcc173 terms:title "Builders of the wall, in one hand a burden , in the other hand a weapon" .
+nl:id_7ff8b983f5e48e42385a940887e264f40afcc173 ui:annotationField bible:ICBibleTheme .
+nl:id_7ff8b983f5e48e42385a940887e264f40afcc173 ui:typingTime 0 .
+nl:id_7ff8b983f5e48e42385a940887e264f40afcc173 oa:annotatedAt "2016-07-05T18:36:43+02:00"^^xsd:dateTime .
+nl:id_7ff8b983f5e48e42385a940887e264f40afcc173 oa:annotatedBy user:everhoeff .
+nl:id_7ff8b983f5e48e42385a940887e264f40afcc173 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Builders of the wall, in one hand a burden , in the other hand a weapon" ] .
+nl:id_7ff8b983f5e48e42385a940887e264f40afcc173 oa:hasTarget ubvu:print-218010002022 .
+nl:id_7ff8b983f5e48e42385a940887e264f40afcc173 oa:motivatedBy oa:tagging .
+
 nl:id_9b49dea979446cb07922c3978c8be62b4f5a269a a oa:Annotation .
 nl:id_9b49dea979446cb07922c3978c8be62b4f5a269a terms:title "Cyrus" .
 nl:id_9b49dea979446cb07922c3978c8be62b4f5a269a ui:annotationField bible:BibleCharacter .
