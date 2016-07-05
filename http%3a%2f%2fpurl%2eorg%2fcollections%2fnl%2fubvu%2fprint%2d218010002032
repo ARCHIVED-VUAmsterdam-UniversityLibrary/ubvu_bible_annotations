@@ -289,6 +289,16 @@ nl:id_a9d9652576acb842a2c3c351229efbbd4ebbbe10 oa:hasBody [ a content:ContentAsT
 nl:id_a9d9652576acb842a2c3c351229efbbd4ebbbe10 oa:hasTarget ubvu:print-218010002032 .
 nl:id_a9d9652576acb842a2c3c351229efbbd4ebbbe10 oa:motivatedBy oa:tagging .
 
+nl:id_af4b61f859ed080932c8386c5fe06d2be3d436af a oa:Annotation .
+nl:id_af4b61f859ed080932c8386c5fe06d2be3d436af terms:title "A leprosy was cleansed" .
+nl:id_af4b61f859ed080932c8386c5fe06d2be3d436af ui:annotationField bible:ICBibleTheme .
+nl:id_af4b61f859ed080932c8386c5fe06d2be3d436af ui:typingTime 0 .
+nl:id_af4b61f859ed080932c8386c5fe06d2be3d436af oa:annotatedAt "2016-07-05T18:22:10+02:00"^^xsd:dateTime .
+nl:id_af4b61f859ed080932c8386c5fe06d2be3d436af oa:annotatedBy user:everhoeff .
+nl:id_af4b61f859ed080932c8386c5fe06d2be3d436af oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "A leprosy was cleansed" ] .
+nl:id_af4b61f859ed080932c8386c5fe06d2be3d436af oa:hasTarget ubvu:print-218010002032 .
+nl:id_af4b61f859ed080932c8386c5fe06d2be3d436af oa:motivatedBy oa:tagging .
+
 nl:id_c2025c1a151be0a8168f7e3b42634fe087e606b7 a oa:Annotation .
 nl:id_c2025c1a151be0a8168f7e3b42634fe087e606b7 terms:title "Jezus beveelt demonen om de twee mannen te verlaten en in een kudde varkens te trekken." .
 nl:id_c2025c1a151be0a8168f7e3b42634fe087e606b7 ui:annotationField bible:ICBibleTheme .
