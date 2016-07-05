@@ -13,6 +13,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_073b2426525a3a02f2b55c90bbae63841f3f8c47 a oa:Annotation .
+nl:id_073b2426525a3a02f2b55c90bbae63841f3f8c47 terms:title "Jesus casts out devils into a herd of swine" .
+nl:id_073b2426525a3a02f2b55c90bbae63841f3f8c47 ui:annotationField bible:ICBibleTheme .
+nl:id_073b2426525a3a02f2b55c90bbae63841f3f8c47 ui:typingTime 0 .
+nl:id_073b2426525a3a02f2b55c90bbae63841f3f8c47 oa:annotatedAt "2016-07-05T18:09:11+02:00"^^xsd:dateTime .
+nl:id_073b2426525a3a02f2b55c90bbae63841f3f8c47 oa:annotatedBy user:everhoeff .
+nl:id_073b2426525a3a02f2b55c90bbae63841f3f8c47 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jesus casts out devils into a herd of swine" ] .
+nl:id_073b2426525a3a02f2b55c90bbae63841f3f8c47 oa:hasTarget ubvu:print-218010001746 .
+nl:id_073b2426525a3a02f2b55c90bbae63841f3f8c47 oa:motivatedBy oa:tagging .
+
 nl:id_10d74971a3320637f8640654f9659c9064b4aa57 a oa:Annotation .
 nl:id_10d74971a3320637f8640654f9659c9064b4aa57 terms:title "Christ healing possessed people" .
 nl:id_10d74971a3320637f8640654f9659c9064b4aa57 ui:annotationField bible:ICBibleTheme .
