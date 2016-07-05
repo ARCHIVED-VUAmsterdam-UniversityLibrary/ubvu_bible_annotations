@@ -56,6 +56,16 @@ nl:id_6ff4d2581426300b61b452791e92b2b4774d69d6 oa:hasTarget target:target_862c72
 nl:id_6ff4d2581426300b61b452791e92b2b4774d69d6 oa:hasTarget ubvu:print-218010001867 .
 nl:id_6ff4d2581426300b61b452791e92b2b4774d69d6 oa:motivatedBy oa:tagging .
 
+nl:id_71fffb1c6a58288730a86c4ac2e37b05d1bab9d1 a oa:Annotation .
+nl:id_71fffb1c6a58288730a86c4ac2e37b05d1bab9d1 terms:title "The crucification of Christ" .
+nl:id_71fffb1c6a58288730a86c4ac2e37b05d1bab9d1 ui:annotationField bible:ICBibleTheme .
+nl:id_71fffb1c6a58288730a86c4ac2e37b05d1bab9d1 ui:typingTime 0 .
+nl:id_71fffb1c6a58288730a86c4ac2e37b05d1bab9d1 oa:annotatedAt "2016-07-05T18:10:52+02:00"^^xsd:dateTime .
+nl:id_71fffb1c6a58288730a86c4ac2e37b05d1bab9d1 oa:annotatedBy user:everhoeff .
+nl:id_71fffb1c6a58288730a86c4ac2e37b05d1bab9d1 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The crucification of Christ" ] .
+nl:id_71fffb1c6a58288730a86c4ac2e37b05d1bab9d1 oa:hasTarget ubvu:print-218010001867 .
+nl:id_71fffb1c6a58288730a86c4ac2e37b05d1bab9d1 oa:motivatedBy oa:tagging .
+
 nl:id_beab6b5567cc8e44a3b7784c8b25f77a680da3af a oa:Annotation .
 nl:id_beab6b5567cc8e44a3b7784c8b25f77a680da3af terms:title "Jezus Christus" .
 nl:id_beab6b5567cc8e44a3b7784c8b25f77a680da3af ui:annotationField bible:BibleCharacter .
