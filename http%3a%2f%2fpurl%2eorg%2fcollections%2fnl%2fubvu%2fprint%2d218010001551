@@ -44,6 +44,16 @@ nl:id_d51aeed53226e3eb4e6fab8ebb6947f6f2c07f66 oa:hasTarget target:target_5899cc
 nl:id_d51aeed53226e3eb4e6fab8ebb6947f6f2c07f66 oa:hasTarget ubvu:print-218010001551 .
 nl:id_d51aeed53226e3eb4e6fab8ebb6947f6f2c07f66 oa:motivatedBy oa:tagging .
 
+nl:id_e8a3063124d727817d54b231f1b4d80a4b1a1bed a oa:Annotation .
+nl:id_e8a3063124d727817d54b231f1b4d80a4b1a1bed terms:title "Manasse in de gevangenis" .
+nl:id_e8a3063124d727817d54b231f1b4d80a4b1a1bed ui:annotationField bible:ICBibleTheme .
+nl:id_e8a3063124d727817d54b231f1b4d80a4b1a1bed ui:typingTime 0 .
+nl:id_e8a3063124d727817d54b231f1b4d80a4b1a1bed oa:annotatedAt "2016-07-10T13:01:57+02:00"^^xsd:dateTime .
+nl:id_e8a3063124d727817d54b231f1b4d80a4b1a1bed oa:annotatedBy user:paulinevandijk .
+nl:id_e8a3063124d727817d54b231f1b4d80a4b1a1bed oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Manasse in de gevangenis" ] .
+nl:id_e8a3063124d727817d54b231f1b4d80a4b1a1bed oa:hasTarget ubvu:print-218010001551 .
+nl:id_e8a3063124d727817d54b231f1b4d80a4b1a1bed oa:motivatedBy oa:tagging .
+
 target:selector_1493510ea67e5f1a18d41bddf0a687e8b3d54f55 a oa:FragmentSelector .
 target:selector_1493510ea67e5f1a18d41bddf0a687e8b3d54f55 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_1493510ea67e5f1a18d41bddf0a687e8b3d54f55 ui:h "0.27980364656381485"^^xsd:float .
