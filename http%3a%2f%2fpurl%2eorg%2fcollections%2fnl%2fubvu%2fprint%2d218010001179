@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -7,18 +8,32 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_6574a3c7a2ae134f7a220d8d32998b2452893aaa> a oa:Annotation .
-<http://accurator.nl/id_6574a3c7a2ae134f7a220d8d32998b2452893aaa> terms:title "josef son of jacob" .
-<http://accurator.nl/id_6574a3c7a2ae134f7a220d8d32998b2452893aaa> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_6574a3c7a2ae134f7a220d8d32998b2452893aaa> ui:typingTime 0 .
-<http://accurator.nl/id_6574a3c7a2ae134f7a220d8d32998b2452893aaa> oa:annotatedAt "2016-04-09T17:45:50+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_6574a3c7a2ae134f7a220d8d32998b2452893aaa> oa:annotatedBy user:everhoeff .
-<http://accurator.nl/id_6574a3c7a2ae134f7a220d8d32998b2452893aaa> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "josef son of jacob" ] .
-<http://accurator.nl/id_6574a3c7a2ae134f7a220d8d32998b2452893aaa> oa:hasTarget target:target_65fd0dc43567f4b3d4ac10e2325e1c4078b0d4a1 .
-<http://accurator.nl/id_6574a3c7a2ae134f7a220d8d32998b2452893aaa> oa:hasTarget ubvu:print-218010001179 .
-<http://accurator.nl/id_6574a3c7a2ae134f7a220d8d32998b2452893aaa> oa:motivatedBy oa:tagging .
+nl:id_084fac21883f246649b357224cf22afeffc87edb a oa:Annotation .
+nl:id_084fac21883f246649b357224cf22afeffc87edb terms:title "Jozef" .
+nl:id_084fac21883f246649b357224cf22afeffc87edb ui:annotationField bible:BibleCharacter .
+nl:id_084fac21883f246649b357224cf22afeffc87edb ui:typingTime 0 .
+nl:id_084fac21883f246649b357224cf22afeffc87edb oa:annotatedAt "2016-07-10T13:03:22+02:00"^^xsd:dateTime .
+nl:id_084fac21883f246649b357224cf22afeffc87edb oa:annotatedBy user:paulinevandijk .
+nl:id_084fac21883f246649b357224cf22afeffc87edb oa:hasBody resource:Joseph .
+nl:id_084fac21883f246649b357224cf22afeffc87edb oa:hasTarget target:target_c830619447799125c462cdefee0c3ad70e57f2ec .
+nl:id_084fac21883f246649b357224cf22afeffc87edb oa:hasTarget ubvu:print-218010001179 .
+nl:id_084fac21883f246649b357224cf22afeffc87edb oa:motivatedBy oa:tagging .
+
+nl:id_6574a3c7a2ae134f7a220d8d32998b2452893aaa a oa:Annotation .
+nl:id_6574a3c7a2ae134f7a220d8d32998b2452893aaa terms:title "josef son of jacob" .
+nl:id_6574a3c7a2ae134f7a220d8d32998b2452893aaa ui:annotationField bible:BibleCharacter .
+nl:id_6574a3c7a2ae134f7a220d8d32998b2452893aaa ui:typingTime 0 .
+nl:id_6574a3c7a2ae134f7a220d8d32998b2452893aaa oa:annotatedAt "2016-04-09T17:45:50+02:00"^^xsd:dateTime .
+nl:id_6574a3c7a2ae134f7a220d8d32998b2452893aaa oa:annotatedBy user:everhoeff .
+nl:id_6574a3c7a2ae134f7a220d8d32998b2452893aaa oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "josef son of jacob" ] .
+nl:id_6574a3c7a2ae134f7a220d8d32998b2452893aaa oa:hasTarget target:target_65fd0dc43567f4b3d4ac10e2325e1c4078b0d4a1 .
+nl:id_6574a3c7a2ae134f7a220d8d32998b2452893aaa oa:hasTarget ubvu:print-218010001179 .
+nl:id_6574a3c7a2ae134f7a220d8d32998b2452893aaa oa:motivatedBy oa:tagging .
 
 target:selector_65fd0dc43567f4b3d4ac10e2325e1c4078b0d4a1 a oa:FragmentSelector .
 target:selector_65fd0dc43567f4b3d4ac10e2325e1c4078b0d4a1 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -28,6 +43,18 @@ target:selector_65fd0dc43567f4b3d4ac10e2325e1c4078b0d4a1 ui:x "0.102666666666666
 target:selector_65fd0dc43567f4b3d4ac10e2325e1c4078b0d4a1 ui:y "0.35510579576816925"^^xsd:float .
 target:selector_65fd0dc43567f4b3d4ac10e2325e1c4078b0d4a1 rdf:value "#xywh=percent:10,36,16,28" .
 
+target:selector_c830619447799125c462cdefee0c3ad70e57f2ec a oa:FragmentSelector .
+target:selector_c830619447799125c462cdefee0c3ad70e57f2ec terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_c830619447799125c462cdefee0c3ad70e57f2ec ui:h "0.2706367924528302"^^xsd:float .
+target:selector_c830619447799125c462cdefee0c3ad70e57f2ec ui:w "0.11452991452991453"^^xsd:float .
+target:selector_c830619447799125c462cdefee0c3ad70e57f2ec ui:x "0.11282051282051282"^^xsd:float .
+target:selector_c830619447799125c462cdefee0c3ad70e57f2ec ui:y "0.3384433962264151"^^xsd:float .
+target:selector_c830619447799125c462cdefee0c3ad70e57f2ec rdf:value "#xywh=percent:11,34,11,27" .
+
 target:target_65fd0dc43567f4b3d4ac10e2325e1c4078b0d4a1 a oa:SpecificResource .
 target:target_65fd0dc43567f4b3d4ac10e2325e1c4078b0d4a1 oa:hasSelector target:selector_65fd0dc43567f4b3d4ac10e2325e1c4078b0d4a1 .
 target:target_65fd0dc43567f4b3d4ac10e2325e1c4078b0d4a1 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/220> .
+
+target:target_c830619447799125c462cdefee0c3ad70e57f2ec a oa:SpecificResource .
+target:target_c830619447799125c462cdefee0c3ad70e57f2ec oa:hasSelector target:selector_c830619447799125c462cdefee0c3ad70e57f2ec .
+target:target_c830619447799125c462cdefee0c3ad70e57f2ec oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/220> .
