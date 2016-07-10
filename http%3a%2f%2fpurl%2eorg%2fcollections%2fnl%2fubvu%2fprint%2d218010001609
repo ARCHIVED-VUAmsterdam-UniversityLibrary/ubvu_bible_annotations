@@ -76,6 +76,16 @@ nl:id_bc1af6fef08726050e471f3002c2bbfa90743753 oa:hasTarget target:target_88147e
 nl:id_bc1af6fef08726050e471f3002c2bbfa90743753 oa:hasTarget ubvu:print-218010001609 .
 nl:id_bc1af6fef08726050e471f3002c2bbfa90743753 oa:motivatedBy oa:tagging .
 
+nl:id_fafd0afe7baeee97cca156eebc8faa9034dc5af4 a oa:Annotation .
+nl:id_fafd0afe7baeee97cca156eebc8faa9034dc5af4 terms:title "Judith onthoofdt Holofernes" .
+nl:id_fafd0afe7baeee97cca156eebc8faa9034dc5af4 ui:annotationField bible:ICBibleTheme .
+nl:id_fafd0afe7baeee97cca156eebc8faa9034dc5af4 ui:typingTime 0 .
+nl:id_fafd0afe7baeee97cca156eebc8faa9034dc5af4 oa:annotatedAt "2016-07-10T12:55:11+02:00"^^xsd:dateTime .
+nl:id_fafd0afe7baeee97cca156eebc8faa9034dc5af4 oa:annotatedBy user:paulinevandijk .
+nl:id_fafd0afe7baeee97cca156eebc8faa9034dc5af4 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Judith onthoofdt Holofernes" ] .
+nl:id_fafd0afe7baeee97cca156eebc8faa9034dc5af4 oa:hasTarget ubvu:print-218010001609 .
+nl:id_fafd0afe7baeee97cca156eebc8faa9034dc5af4 oa:motivatedBy oa:tagging .
+
 target:selector_0067913c65870cd05ebf591dbc7e7522cb659a98 a oa:FragmentSelector .
 target:selector_0067913c65870cd05ebf591dbc7e7522cb659a98 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_0067913c65870cd05ebf591dbc7e7522cb659a98 ui:h "0.24625144175317185"^^xsd:float .
