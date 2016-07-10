@@ -24,6 +24,16 @@ nl:id_084fac21883f246649b357224cf22afeffc87edb oa:hasTarget target:target_c83061
 nl:id_084fac21883f246649b357224cf22afeffc87edb oa:hasTarget ubvu:print-218010001179 .
 nl:id_084fac21883f246649b357224cf22afeffc87edb oa:motivatedBy oa:tagging .
 
+nl:id_0afd316df55d29bcf2724b5213c96784102f818c a oa:Annotation .
+nl:id_0afd316df55d29bcf2724b5213c96784102f818c terms:title "Jozef maakt zich aan zijn broers bekend." .
+nl:id_0afd316df55d29bcf2724b5213c96784102f818c ui:annotationField bible:ICBibleTheme .
+nl:id_0afd316df55d29bcf2724b5213c96784102f818c ui:typingTime 0 .
+nl:id_0afd316df55d29bcf2724b5213c96784102f818c oa:annotatedAt "2016-07-10T13:03:49+02:00"^^xsd:dateTime .
+nl:id_0afd316df55d29bcf2724b5213c96784102f818c oa:annotatedBy user:paulinevandijk .
+nl:id_0afd316df55d29bcf2724b5213c96784102f818c oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jozef maakt zich aan zijn broers bekend." ] .
+nl:id_0afd316df55d29bcf2724b5213c96784102f818c oa:hasTarget ubvu:print-218010001179 .
+nl:id_0afd316df55d29bcf2724b5213c96784102f818c oa:motivatedBy oa:tagging .
+
 nl:id_6574a3c7a2ae134f7a220d8d32998b2452893aaa a oa:Annotation .
 nl:id_6574a3c7a2ae134f7a220d8d32998b2452893aaa terms:title "josef son of jacob" .
 nl:id_6574a3c7a2ae134f7a220d8d32998b2452893aaa ui:annotationField bible:BibleCharacter .
