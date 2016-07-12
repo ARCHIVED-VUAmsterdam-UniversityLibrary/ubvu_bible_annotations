@@ -68,6 +68,16 @@ nl:id_7437b80587bb5b6ce1643388af8d98de8b15c8d1 oa:hasTarget target:target_1f3041
 nl:id_7437b80587bb5b6ce1643388af8d98de8b15c8d1 oa:hasTarget ubvu:print-218010001831 .
 nl:id_7437b80587bb5b6ce1643388af8d98de8b15c8d1 oa:motivatedBy oa:tagging .
 
+nl:id_85bd7b9763697096de23c340f239842b5a2c913e a oa:Annotation .
+nl:id_85bd7b9763697096de23c340f239842b5a2c913e terms:title "Jezus in doodsangst" .
+nl:id_85bd7b9763697096de23c340f239842b5a2c913e ui:annotationField bible:ICBibleTheme .
+nl:id_85bd7b9763697096de23c340f239842b5a2c913e ui:typingTime 0 .
+nl:id_85bd7b9763697096de23c340f239842b5a2c913e oa:annotatedAt "2016-07-12T17:34:17+02:00"^^xsd:dateTime .
+nl:id_85bd7b9763697096de23c340f239842b5a2c913e oa:annotatedBy user:paulinevandijk .
+nl:id_85bd7b9763697096de23c340f239842b5a2c913e oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jezus in doodsangst" ] .
+nl:id_85bd7b9763697096de23c340f239842b5a2c913e oa:hasTarget ubvu:print-218010001831 .
+nl:id_85bd7b9763697096de23c340f239842b5a2c913e oa:motivatedBy oa:tagging .
+
 nl:id_b33f1b8be5015da77675da29ebe71aae2545581a a oa:Annotation .
 nl:id_b33f1b8be5015da77675da29ebe71aae2545581a terms:title "engel" .
 nl:id_b33f1b8be5015da77675da29ebe71aae2545581a ui:annotationField bible:BibleCharacter .
