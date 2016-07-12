@@ -6,14 +6,41 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_2a847b703f9f4fbc78f079cf1dc8100b832654d5> a oa:Annotation .
-<http://accurator.nl/id_2a847b703f9f4fbc78f079cf1dc8100b832654d5> terms:title "-" .
-<http://accurator.nl/id_2a847b703f9f4fbc78f079cf1dc8100b832654d5> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
-<http://accurator.nl/id_2a847b703f9f4fbc78f079cf1dc8100b832654d5> ui:typingTime 0 .
-<http://accurator.nl/id_2a847b703f9f4fbc78f079cf1dc8100b832654d5> oa:annotatedAt "2016-07-01T20:46:57+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_2a847b703f9f4fbc78f079cf1dc8100b832654d5> oa:annotatedBy user:everhoeff .
-<http://accurator.nl/id_2a847b703f9f4fbc78f079cf1dc8100b832654d5> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "-" ] .
-<http://accurator.nl/id_2a847b703f9f4fbc78f079cf1dc8100b832654d5> oa:hasTarget ubvu:print-218010001325 .
-<http://accurator.nl/id_2a847b703f9f4fbc78f079cf1dc8100b832654d5> oa:motivatedBy oa:tagging .
+nl:id_5ea3d7b2cca386f4ae1f894a4a6aeea426649b18 a oa:Annotation .
+nl:id_5ea3d7b2cca386f4ae1f894a4a6aeea426649b18 terms:title "-" .
+nl:id_5ea3d7b2cca386f4ae1f894a4a6aeea426649b18 ui:annotationField bible:ICBibleTheme .
+nl:id_5ea3d7b2cca386f4ae1f894a4a6aeea426649b18 ui:typingTime 0 .
+nl:id_5ea3d7b2cca386f4ae1f894a4a6aeea426649b18 oa:annotatedAt "2016-05-05T12:48:13+02:00"^^xsd:dateTime .
+nl:id_5ea3d7b2cca386f4ae1f894a4a6aeea426649b18 oa:annotatedBy user:everhoeff .
+nl:id_5ea3d7b2cca386f4ae1f894a4a6aeea426649b18 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "-" ] .
+nl:id_5ea3d7b2cca386f4ae1f894a4a6aeea426649b18 oa:hasTarget ubvu:print-218010001325 .
+nl:id_5ea3d7b2cca386f4ae1f894a4a6aeea426649b18 oa:motivatedBy oa:tagging .
+
+nl:id_9ec43bafde1a83d3f99065f23c1c8cbf449fd8da a oa:Annotation .
+nl:id_9ec43bafde1a83d3f99065f23c1c8cbf449fd8da terms:title "Rachab" .
+nl:id_9ec43bafde1a83d3f99065f23c1c8cbf449fd8da ui:annotationField bible:BibleCharacter .
+nl:id_9ec43bafde1a83d3f99065f23c1c8cbf449fd8da ui:typingTime 0 .
+nl:id_9ec43bafde1a83d3f99065f23c1c8cbf449fd8da oa:annotatedAt "2016-07-12T17:39:02+02:00"^^xsd:dateTime .
+nl:id_9ec43bafde1a83d3f99065f23c1c8cbf449fd8da oa:annotatedBy user:paulinevandijk .
+nl:id_9ec43bafde1a83d3f99065f23c1c8cbf449fd8da oa:hasBody resource:Rahab .
+nl:id_9ec43bafde1a83d3f99065f23c1c8cbf449fd8da oa:hasTarget target:target_910fbe142b58962af8e812f3fe29493b090185ed .
+nl:id_9ec43bafde1a83d3f99065f23c1c8cbf449fd8da oa:hasTarget ubvu:print-218010001325 .
+nl:id_9ec43bafde1a83d3f99065f23c1c8cbf449fd8da oa:motivatedBy oa:tagging .
+
+target:selector_910fbe142b58962af8e812f3fe29493b090185ed a oa:FragmentSelector .
+target:selector_910fbe142b58962af8e812f3fe29493b090185ed terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_910fbe142b58962af8e812f3fe29493b090185ed ui:h "0.03586371787208607"^^xsd:float .
+target:selector_910fbe142b58962af8e812f3fe29493b090185ed ui:w "0.02905982905982906"^^xsd:float .
+target:selector_910fbe142b58962af8e812f3fe29493b090185ed ui:x "0.0735042735042735"^^xsd:float .
+target:selector_910fbe142b58962af8e812f3fe29493b090185ed ui:y "0.40346682606096834"^^xsd:float .
+target:selector_910fbe142b58962af8e812f3fe29493b090185ed rdf:value "#xywh=percent:7,40,3,4" .
+
+target:target_910fbe142b58962af8e812f3fe29493b090185ed a oa:SpecificResource .
+target:target_910fbe142b58962af8e812f3fe29493b090185ed oa:hasSelector target:selector_910fbe142b58962af8e812f3fe29493b090185ed .
+target:target_910fbe142b58962af8e812f3fe29493b090185ed oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/366> .
