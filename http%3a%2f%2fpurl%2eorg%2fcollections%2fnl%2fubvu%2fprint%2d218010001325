@@ -33,6 +33,16 @@ nl:id_9ec43bafde1a83d3f99065f23c1c8cbf449fd8da oa:hasTarget target:target_910fbe
 nl:id_9ec43bafde1a83d3f99065f23c1c8cbf449fd8da oa:hasTarget ubvu:print-218010001325 .
 nl:id_9ec43bafde1a83d3f99065f23c1c8cbf449fd8da oa:motivatedBy oa:tagging .
 
+nl:id_cf4bcb907445a892fc190c14152adcfa9259dd2b a oa:Annotation .
+nl:id_cf4bcb907445a892fc190c14152adcfa9259dd2b terms:title "RAchab laat de spionnen langs een touw naar beneden zakken." .
+nl:id_cf4bcb907445a892fc190c14152adcfa9259dd2b ui:annotationField bible:ICBibleTheme .
+nl:id_cf4bcb907445a892fc190c14152adcfa9259dd2b ui:typingTime 0 .
+nl:id_cf4bcb907445a892fc190c14152adcfa9259dd2b oa:annotatedAt "2016-07-12T17:39:36+02:00"^^xsd:dateTime .
+nl:id_cf4bcb907445a892fc190c14152adcfa9259dd2b oa:annotatedBy user:paulinevandijk .
+nl:id_cf4bcb907445a892fc190c14152adcfa9259dd2b oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "RAchab laat de spionnen langs een touw naar beneden zakken." ] .
+nl:id_cf4bcb907445a892fc190c14152adcfa9259dd2b oa:hasTarget ubvu:print-218010001325 .
+nl:id_cf4bcb907445a892fc190c14152adcfa9259dd2b oa:motivatedBy oa:tagging .
+
 target:selector_910fbe142b58962af8e812f3fe29493b090185ed a oa:FragmentSelector .
 target:selector_910fbe142b58962af8e812f3fe29493b090185ed terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_910fbe142b58962af8e812f3fe29493b090185ed ui:h "0.03586371787208607"^^xsd:float .
