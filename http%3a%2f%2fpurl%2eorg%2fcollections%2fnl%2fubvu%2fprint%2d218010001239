@@ -21,6 +21,16 @@ nl:id_06f969907a7a294b3d67e98102aea0e7db01f278 oa:hasBody [ a content:ContentAsT
 nl:id_06f969907a7a294b3d67e98102aea0e7db01f278 oa:hasTarget ubvu:print-218010001239 .
 nl:id_06f969907a7a294b3d67e98102aea0e7db01f278 oa:motivatedBy oa:tagging .
 
+nl:id_286d33de77753dcb13d2206c5e052d7dbb9a88e3 a oa:Annotation .
+nl:id_286d33de77753dcb13d2206c5e052d7dbb9a88e3 terms:title "Mozes ontvangt de tien geboden op de berg Sinaï" .
+nl:id_286d33de77753dcb13d2206c5e052d7dbb9a88e3 ui:annotationField bible:ICBibleTheme .
+nl:id_286d33de77753dcb13d2206c5e052d7dbb9a88e3 ui:typingTime 0 .
+nl:id_286d33de77753dcb13d2206c5e052d7dbb9a88e3 oa:annotatedAt "2016-07-12T17:36:02+02:00"^^xsd:dateTime .
+nl:id_286d33de77753dcb13d2206c5e052d7dbb9a88e3 oa:annotatedBy user:paulinevandijk .
+nl:id_286d33de77753dcb13d2206c5e052d7dbb9a88e3 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Mozes ontvangt de tien geboden op de berg Sinaï" ] .
+nl:id_286d33de77753dcb13d2206c5e052d7dbb9a88e3 oa:hasTarget ubvu:print-218010001239 .
+nl:id_286d33de77753dcb13d2206c5e052d7dbb9a88e3 oa:motivatedBy oa:tagging .
+
 nl:id_5512695221c96a6fc56c76d9f1c45c2ed3efe9e0 a oa:Annotation .
 nl:id_5512695221c96a6fc56c76d9f1c45c2ed3efe9e0 terms:title "Mozes" .
 nl:id_5512695221c96a6fc56c76d9f1c45c2ed3efe9e0 ui:annotationField bible:BibleCharacter .
