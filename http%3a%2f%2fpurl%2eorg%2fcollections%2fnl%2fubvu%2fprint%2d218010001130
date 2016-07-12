@@ -35,6 +35,17 @@ nl:id_d22dae33c2232739c27428ad3e96e14e25a43286 oa:hasTarget target:target_6dacc5
 nl:id_d22dae33c2232739c27428ad3e96e14e25a43286 oa:hasTarget ubvu:print-218010001130 .
 nl:id_d22dae33c2232739c27428ad3e96e14e25a43286 oa:motivatedBy oa:tagging .
 
+nl:id_d2f5c95f2a17b5dab15c8e9cdfb3cc1901ed1db0 a oa:Annotation .
+nl:id_d2f5c95f2a17b5dab15c8e9cdfb3cc1901ed1db0 terms:title "Esau" .
+nl:id_d2f5c95f2a17b5dab15c8e9cdfb3cc1901ed1db0 ui:annotationField bible:BibleCharacter .
+nl:id_d2f5c95f2a17b5dab15c8e9cdfb3cc1901ed1db0 ui:typingTime 0 .
+nl:id_d2f5c95f2a17b5dab15c8e9cdfb3cc1901ed1db0 oa:annotatedAt "2016-07-12T17:40:55+02:00"^^xsd:dateTime .
+nl:id_d2f5c95f2a17b5dab15c8e9cdfb3cc1901ed1db0 oa:annotatedBy user:paulinevandijk .
+nl:id_d2f5c95f2a17b5dab15c8e9cdfb3cc1901ed1db0 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Esau" ] .
+nl:id_d2f5c95f2a17b5dab15c8e9cdfb3cc1901ed1db0 oa:hasTarget target:target_48c9d0b2d8f3c1ba0979f4f219842ed0ab00355e .
+nl:id_d2f5c95f2a17b5dab15c8e9cdfb3cc1901ed1db0 oa:hasTarget ubvu:print-218010001130 .
+nl:id_d2f5c95f2a17b5dab15c8e9cdfb3cc1901ed1db0 oa:motivatedBy oa:tagging .
+
 nl:id_d5fad3740754e58afda7285c1d9fca8730dead7e a oa:Annotation .
 nl:id_d5fad3740754e58afda7285c1d9fca8730dead7e terms:title "Isaac asks Esau to prepair him a meal" .
 nl:id_d5fad3740754e58afda7285c1d9fca8730dead7e ui:annotationField bible:ICBibleTheme .
@@ -44,6 +55,14 @@ nl:id_d5fad3740754e58afda7285c1d9fca8730dead7e oa:annotatedBy user:everhoeff .
 nl:id_d5fad3740754e58afda7285c1d9fca8730dead7e oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Isaac asks Esau to prepair him a meal" ] .
 nl:id_d5fad3740754e58afda7285c1d9fca8730dead7e oa:hasTarget ubvu:print-218010001130 .
 nl:id_d5fad3740754e58afda7285c1d9fca8730dead7e oa:motivatedBy oa:tagging .
+
+target:selector_48c9d0b2d8f3c1ba0979f4f219842ed0ab00355e a oa:FragmentSelector .
+target:selector_48c9d0b2d8f3c1ba0979f4f219842ed0ab00355e terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_48c9d0b2d8f3c1ba0979f4f219842ed0ab00355e ui:h "0.11657879320445226"^^xsd:float .
+target:selector_48c9d0b2d8f3c1ba0979f4f219842ed0ab00355e ui:w "0.08888888888888889"^^xsd:float .
+target:selector_48c9d0b2d8f3c1ba0979f4f219842ed0ab00355e ui:x "0.4863247863247863"^^xsd:float .
+target:selector_48c9d0b2d8f3c1ba0979f4f219842ed0ab00355e ui:y "0.6526069127123608"^^xsd:float .
+target:selector_48c9d0b2d8f3c1ba0979f4f219842ed0ab00355e rdf:value "#xywh=percent:49,65,9,12" .
 
 target:selector_6dacc54c589664fa28590b4ac3403c953828cc05 a oa:FragmentSelector .
 target:selector_6dacc54c589664fa28590b4ac3403c953828cc05 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -60,6 +79,10 @@ target:selector_f6c18504da06aa2e9609867c4c2da09c3fcf678e ui:w "0.117734724292101
 target:selector_f6c18504da06aa2e9609867c4c2da09c3fcf678e ui:x "0.46795827123695977"^^xsd:float .
 target:selector_f6c18504da06aa2e9609867c4c2da09c3fcf678e ui:y "0.6496424923391215"^^xsd:float .
 target:selector_f6c18504da06aa2e9609867c4c2da09c3fcf678e rdf:value "#xywh=percent:47,65,12,13" .
+
+target:target_48c9d0b2d8f3c1ba0979f4f219842ed0ab00355e a oa:SpecificResource .
+target:target_48c9d0b2d8f3c1ba0979f4f219842ed0ab00355e oa:hasSelector target:selector_48c9d0b2d8f3c1ba0979f4f219842ed0ab00355e .
+target:target_48c9d0b2d8f3c1ba0979f4f219842ed0ab00355e oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/171> .
 
 target:target_6dacc54c589664fa28590b4ac3403c953828cc05 a oa:SpecificResource .
 target:target_6dacc54c589664fa28590b4ac3403c953828cc05 oa:hasSelector target:selector_6dacc54c589664fa28590b4ac3403c953828cc05 .
