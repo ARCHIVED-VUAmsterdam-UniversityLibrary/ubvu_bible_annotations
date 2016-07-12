@@ -6,9 +6,21 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
+
+nl:id_51555c350bf4378b6dcab6437c4af3a162f60a6f a oa:Annotation .
+nl:id_51555c350bf4378b6dcab6437c4af3a162f60a6f terms:title "Ewi, Rekem, Sur, Chur en Reba" .
+nl:id_51555c350bf4378b6dcab6437c4af3a162f60a6f ui:annotationField bible:BibleCharacter .
+nl:id_51555c350bf4378b6dcab6437c4af3a162f60a6f ui:typingTime 0 .
+nl:id_51555c350bf4378b6dcab6437c4af3a162f60a6f oa:annotatedAt "2016-07-12T17:44:03+02:00"^^xsd:dateTime .
+nl:id_51555c350bf4378b6dcab6437c4af3a162f60a6f oa:annotatedBy user:paulinevandijk .
+nl:id_51555c350bf4378b6dcab6437c4af3a162f60a6f oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Ewi, Rekem, Sur, Chur en Reba" ] .
+nl:id_51555c350bf4378b6dcab6437c4af3a162f60a6f oa:hasTarget target:target_2b78e22ddfe532418275773dc4b80dc26cae32c0 .
+nl:id_51555c350bf4378b6dcab6437c4af3a162f60a6f oa:hasTarget ubvu:print-218010001297 .
+nl:id_51555c350bf4378b6dcab6437c4af3a162f60a6f oa:motivatedBy oa:tagging .
 
 nl:id_78479f0168202eb682bfb3785cf7e2ad357d83f7 a oa:Annotation .
 nl:id_78479f0168202eb682bfb3785cf7e2ad357d83f7 terms:title "Five kings of Median slain by Israel" .
@@ -29,3 +41,15 @@ nl:id_9cf2f2126c1f5b31c616c4bd9fb835b23fba6f27 oa:annotatedBy user:joan .
 nl:id_9cf2f2126c1f5b31c616c4bd9fb835b23fba6f27 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Kings of Midian killed" ] .
 nl:id_9cf2f2126c1f5b31c616c4bd9fb835b23fba6f27 oa:hasTarget ubvu:print-218010001297 .
 nl:id_9cf2f2126c1f5b31c616c4bd9fb835b23fba6f27 oa:motivatedBy oa:tagging .
+
+target:selector_2b78e22ddfe532418275773dc4b80dc26cae32c0 a oa:FragmentSelector .
+target:selector_2b78e22ddfe532418275773dc4b80dc26cae32c0 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_2b78e22ddfe532418275773dc4b80dc26cae32c0 ui:h "0.3655091230135374"^^xsd:float .
+target:selector_2b78e22ddfe532418275773dc4b80dc26cae32c0 ui:w "0.3504273504273504"^^xsd:float .
+target:selector_2b78e22ddfe532418275773dc4b80dc26cae32c0 ui:x "0.3871794871794872"^^xsd:float .
+target:selector_2b78e22ddfe532418275773dc4b80dc26cae32c0 ui:y "0.4549735138316657"^^xsd:float .
+target:selector_2b78e22ddfe532418275773dc4b80dc26cae32c0 rdf:value "#xywh=percent:39,45,35,37" .
+
+target:target_2b78e22ddfe532418275773dc4b80dc26cae32c0 a oa:SpecificResource .
+target:target_2b78e22ddfe532418275773dc4b80dc26cae32c0 oa:hasSelector target:selector_2b78e22ddfe532418275773dc4b80dc26cae32c0 .
+target:target_2b78e22ddfe532418275773dc4b80dc26cae32c0 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/338> .
