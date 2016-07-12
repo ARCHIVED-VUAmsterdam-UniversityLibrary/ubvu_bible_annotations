@@ -13,6 +13,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_28fb62b5ea49362f39ce7d5010cd575fae4d3aa6 a oa:Annotation .
+nl:id_28fb62b5ea49362f39ce7d5010cd575fae4d3aa6 terms:title "Simson worden de ogen uitgestoken." .
+nl:id_28fb62b5ea49362f39ce7d5010cd575fae4d3aa6 ui:annotationField bible:ICBibleTheme .
+nl:id_28fb62b5ea49362f39ce7d5010cd575fae4d3aa6 ui:typingTime 0 .
+nl:id_28fb62b5ea49362f39ce7d5010cd575fae4d3aa6 oa:annotatedAt "2016-07-12T17:38:05+02:00"^^xsd:dateTime .
+nl:id_28fb62b5ea49362f39ce7d5010cd575fae4d3aa6 oa:annotatedBy user:paulinevandijk .
+nl:id_28fb62b5ea49362f39ce7d5010cd575fae4d3aa6 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Simson worden de ogen uitgestoken." ] .
+nl:id_28fb62b5ea49362f39ce7d5010cd575fae4d3aa6 oa:hasTarget ubvu:print-218010001396 .
+nl:id_28fb62b5ea49362f39ce7d5010cd575fae4d3aa6 oa:motivatedBy oa:tagging .
+
 nl:id_37dbaee78fac6c0c003e38e5e035cf0a27a28671 a oa:Annotation .
 nl:id_37dbaee78fac6c0c003e38e5e035cf0a27a28671 terms:title "the Philistines defeated ~ the secret expedition of Jonathan" .
 nl:id_37dbaee78fac6c0c003e38e5e035cf0a27a28671 ui:annotationField bible:ICBibleTheme .
