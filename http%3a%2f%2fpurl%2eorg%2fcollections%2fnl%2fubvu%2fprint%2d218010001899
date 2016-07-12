@@ -23,6 +23,16 @@ nl:id_1861c3da96d63b84e112e5485d7a31335784a846 oa:hasBody [ a content:ContentAsT
 nl:id_1861c3da96d63b84e112e5485d7a31335784a846 oa:hasTarget ubvu:print-218010001899 .
 nl:id_1861c3da96d63b84e112e5485d7a31335784a846 oa:motivatedBy oa:tagging .
 
+nl:id_1dcfb2fe565d6b806ada1bf212124629b04bded7 a oa:Annotation .
+nl:id_1dcfb2fe565d6b806ada1bf212124629b04bded7 terms:title "Jezus verschijnt aan zijn leerlingen bij het meer van Tiberias" .
+nl:id_1dcfb2fe565d6b806ada1bf212124629b04bded7 ui:annotationField bible:ICBibleTheme .
+nl:id_1dcfb2fe565d6b806ada1bf212124629b04bded7 ui:typingTime 0 .
+nl:id_1dcfb2fe565d6b806ada1bf212124629b04bded7 oa:annotatedAt "2016-07-12T17:32:20+02:00"^^xsd:dateTime .
+nl:id_1dcfb2fe565d6b806ada1bf212124629b04bded7 oa:annotatedBy user:paulinevandijk .
+nl:id_1dcfb2fe565d6b806ada1bf212124629b04bded7 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jezus verschijnt aan zijn leerlingen bij het meer van Tiberias" ] .
+nl:id_1dcfb2fe565d6b806ada1bf212124629b04bded7 oa:hasTarget ubvu:print-218010001899 .
+nl:id_1dcfb2fe565d6b806ada1bf212124629b04bded7 oa:motivatedBy oa:tagging .
+
 nl:id_4204d1c39a9aee9f02777a0f1cd3562f6d65e1a5 a oa:Annotation .
 nl:id_4204d1c39a9aee9f02777a0f1cd3562f6d65e1a5 terms:title "Christ appeared to his disciples at the Sea of Tiberias" .
 nl:id_4204d1c39a9aee9f02777a0f1cd3562f6d65e1a5 ui:annotationField bible:ICBibleTheme .
