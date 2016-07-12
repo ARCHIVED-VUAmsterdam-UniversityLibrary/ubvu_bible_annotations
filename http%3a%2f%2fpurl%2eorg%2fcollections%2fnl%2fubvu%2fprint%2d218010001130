@@ -67,6 +67,16 @@ nl:id_d5fad3740754e58afda7285c1d9fca8730dead7e oa:hasBody [ a content:ContentAsT
 nl:id_d5fad3740754e58afda7285c1d9fca8730dead7e oa:hasTarget ubvu:print-218010001130 .
 nl:id_d5fad3740754e58afda7285c1d9fca8730dead7e oa:motivatedBy oa:tagging .
 
+nl:id_f4cf41fde995c85bb4fb452c7239604cc7aadf82 a oa:Annotation .
+nl:id_f4cf41fde995c85bb4fb452c7239604cc7aadf82 terms:title "Esau ontdekt dat Jakob hem de zegen ontnomen heeft." .
+nl:id_f4cf41fde995c85bb4fb452c7239604cc7aadf82 ui:annotationField bible:ICBibleTheme .
+nl:id_f4cf41fde995c85bb4fb452c7239604cc7aadf82 ui:typingTime 0 .
+nl:id_f4cf41fde995c85bb4fb452c7239604cc7aadf82 oa:annotatedAt "2016-07-12T17:42:14+02:00"^^xsd:dateTime .
+nl:id_f4cf41fde995c85bb4fb452c7239604cc7aadf82 oa:annotatedBy user:paulinevandijk .
+nl:id_f4cf41fde995c85bb4fb452c7239604cc7aadf82 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Esau ontdekt dat Jakob hem de zegen ontnomen heeft." ] .
+nl:id_f4cf41fde995c85bb4fb452c7239604cc7aadf82 oa:hasTarget ubvu:print-218010001130 .
+nl:id_f4cf41fde995c85bb4fb452c7239604cc7aadf82 oa:motivatedBy oa:tagging .
+
 target:selector_3b165e0b62a29cd2e0dae8dd50a43b29c7e3e7e7 a oa:FragmentSelector .
 target:selector_3b165e0b62a29cd2e0dae8dd50a43b29c7e3e7e7 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_3b165e0b62a29cd2e0dae8dd50a43b29c7e3e7e7 ui:h "0.10017574692442882"^^xsd:float .
