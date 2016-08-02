@@ -60,6 +60,16 @@ nl:id_66bc581ef11e743034676f9108765f7f40c7942a oa:hasBody [ a content:ContentAsT
 nl:id_66bc581ef11e743034676f9108765f7f40c7942a oa:hasTarget ubvu:print-218010002011 .
 nl:id_66bc581ef11e743034676f9108765f7f40c7942a oa:motivatedBy oa:tagging .
 
+nl:id_6f16f1f798737a355f91ff2dd70bc1d6dbbac725 a oa:Annotation .
+nl:id_6f16f1f798737a355f91ff2dd70bc1d6dbbac725 terms:title "Naomi complains her situation" .
+nl:id_6f16f1f798737a355f91ff2dd70bc1d6dbbac725 ui:annotationField bible:ICBibleTheme .
+nl:id_6f16f1f798737a355f91ff2dd70bc1d6dbbac725 ui:typingTime 0 .
+nl:id_6f16f1f798737a355f91ff2dd70bc1d6dbbac725 oa:annotatedAt "2016-08-02T13:21:41+02:00"^^xsd:dateTime .
+nl:id_6f16f1f798737a355f91ff2dd70bc1d6dbbac725 oa:annotatedBy user:everhoeff .
+nl:id_6f16f1f798737a355f91ff2dd70bc1d6dbbac725 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Naomi complains her situation" ] .
+nl:id_6f16f1f798737a355f91ff2dd70bc1d6dbbac725 oa:hasTarget ubvu:print-218010002011 .
+nl:id_6f16f1f798737a355f91ff2dd70bc1d6dbbac725 oa:motivatedBy oa:tagging .
+
 nl:id_7af68fd619227644a21718a28334fc141cfcfd60 a oa:Annotation .
 nl:id_7af68fd619227644a21718a28334fc141cfcfd60 terms:title "Eli and the prophesie of Samuel on the judgment of his sons" .
 nl:id_7af68fd619227644a21718a28334fc141cfcfd60 ui:annotationField bible:ICBibleTheme .
