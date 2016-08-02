@@ -40,6 +40,16 @@ nl:id_42ca3c6d48e532db8d22f4ce074b29fb908d8111 oa:hasBody [ a content:ContentAsT
 nl:id_42ca3c6d48e532db8d22f4ce074b29fb908d8111 oa:hasTarget ubvu:print-218010002011 .
 nl:id_42ca3c6d48e532db8d22f4ce074b29fb908d8111 oa:motivatedBy oa:tagging .
 
+nl:id_51d106981f7d7ae68b0f2127c640a21cdfa0d484 a oa:Annotation .
+nl:id_51d106981f7d7ae68b0f2127c640a21cdfa0d484 terms:title " The sins of Eli's sons and their punishment" .
+nl:id_51d106981f7d7ae68b0f2127c640a21cdfa0d484 ui:annotationField bible:ICBibleTheme .
+nl:id_51d106981f7d7ae68b0f2127c640a21cdfa0d484 ui:typingTime 0 .
+nl:id_51d106981f7d7ae68b0f2127c640a21cdfa0d484 oa:annotatedAt "2016-08-02T14:12:19+02:00"^^xsd:dateTime .
+nl:id_51d106981f7d7ae68b0f2127c640a21cdfa0d484 oa:annotatedBy user:everhoeff .
+nl:id_51d106981f7d7ae68b0f2127c640a21cdfa0d484 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars " The sins of Eli's sons and their punishment" ] .
+nl:id_51d106981f7d7ae68b0f2127c640a21cdfa0d484 oa:hasTarget ubvu:print-218010002011 .
+nl:id_51d106981f7d7ae68b0f2127c640a21cdfa0d484 oa:motivatedBy oa:tagging .
+
 nl:id_554fffc9b8b16fdd814096d35b1498d5d97bb54e a oa:Annotation .
 nl:id_554fffc9b8b16fdd814096d35b1498d5d97bb54e terms:title "Hannah unjustful judged by Eli" .
 nl:id_554fffc9b8b16fdd814096d35b1498d5d97bb54e ui:annotationField bible:ICBibleTheme .
