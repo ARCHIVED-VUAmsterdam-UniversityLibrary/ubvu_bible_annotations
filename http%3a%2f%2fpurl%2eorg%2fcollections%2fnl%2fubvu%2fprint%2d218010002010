@@ -118,6 +118,16 @@ nl:id_3a20a96128c7d739b09dbcc1659a2bc2a2c5a900 oa:hasTarget target:target_1b4fd1
 nl:id_3a20a96128c7d739b09dbcc1659a2bc2a2c5a900 oa:hasTarget ubvu:print-218010002010 .
 nl:id_3a20a96128c7d739b09dbcc1659a2bc2a2c5a900 oa:motivatedBy oa:tagging .
 
+nl:id_408adab3a6d00833accb3b4ec779200fafcdc8a9 a oa:Annotation .
+nl:id_408adab3a6d00833accb3b4ec779200fafcdc8a9 terms:title "Samson took the door of teh gate of the city" .
+nl:id_408adab3a6d00833accb3b4ec779200fafcdc8a9 ui:annotationField bible:ICBibleTheme .
+nl:id_408adab3a6d00833accb3b4ec779200fafcdc8a9 ui:typingTime 0 .
+nl:id_408adab3a6d00833accb3b4ec779200fafcdc8a9 oa:annotatedAt "2016-08-02T12:54:11+02:00"^^xsd:dateTime .
+nl:id_408adab3a6d00833accb3b4ec779200fafcdc8a9 oa:annotatedBy user:everhoeff .
+nl:id_408adab3a6d00833accb3b4ec779200fafcdc8a9 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Samson took the door of teh gate of the city" ] .
+nl:id_408adab3a6d00833accb3b4ec779200fafcdc8a9 oa:hasTarget ubvu:print-218010002010 .
+nl:id_408adab3a6d00833accb3b4ec779200fafcdc8a9 oa:motivatedBy oa:tagging .
+
 nl:id_5316dd9c2257d9e202bd2d9ad75d705a3d1afeab a oa:Annotation .
 nl:id_5316dd9c2257d9e202bd2d9ad75d705a3d1afeab terms:title "Simson " .
 nl:id_5316dd9c2257d9e202bd2d9ad75d705a3d1afeab ui:annotationField bible:BibleCharacter .
