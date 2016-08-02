@@ -206,6 +206,16 @@ nl:id_a67a481f2316923c06e32e87ce972d16d583901a oa:hasTarget target:target_4c08d2
 nl:id_a67a481f2316923c06e32e87ce972d16d583901a oa:hasTarget ubvu:print-218010002010 .
 nl:id_a67a481f2316923c06e32e87ce972d16d583901a oa:motivatedBy oa:tagging .
 
+nl:id_a97b1ab14b63ea39dff459112ada0bb2b9496d14 a oa:Annotation .
+nl:id_a97b1ab14b63ea39dff459112ada0bb2b9496d14 terms:title "An angel appears to Manoah's wife" .
+nl:id_a97b1ab14b63ea39dff459112ada0bb2b9496d14 ui:annotationField bible:ICBibleTheme .
+nl:id_a97b1ab14b63ea39dff459112ada0bb2b9496d14 ui:typingTime 0 .
+nl:id_a97b1ab14b63ea39dff459112ada0bb2b9496d14 oa:annotatedAt "2016-08-02T12:46:41+02:00"^^xsd:dateTime .
+nl:id_a97b1ab14b63ea39dff459112ada0bb2b9496d14 oa:annotatedBy user:everhoeff .
+nl:id_a97b1ab14b63ea39dff459112ada0bb2b9496d14 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "An angel appears to Manoah's wife" ] .
+nl:id_a97b1ab14b63ea39dff459112ada0bb2b9496d14 oa:hasTarget ubvu:print-218010002010 .
+nl:id_a97b1ab14b63ea39dff459112ada0bb2b9496d14 oa:motivatedBy oa:tagging .
+
 nl:id_abca65bc725e8e7cc9b4d5c38a0e4ed75d011533 a oa:Annotation .
 nl:id_abca65bc725e8e7cc9b4d5c38a0e4ed75d011533 terms:title "Simson" .
 nl:id_abca65bc725e8e7cc9b4d5c38a0e4ed75d011533 ui:annotationField bible:BibleCharacter .
