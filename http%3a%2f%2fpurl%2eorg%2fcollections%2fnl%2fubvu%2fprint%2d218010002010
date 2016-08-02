@@ -152,6 +152,16 @@ nl:id_7d2b05d4c89d4f4c1565ac1e765ec3331be5a383 oa:hasTarget target:target_3584d0
 nl:id_7d2b05d4c89d4f4c1565ac1e765ec3331be5a383 oa:hasTarget ubvu:print-218010002010 .
 nl:id_7d2b05d4c89d4f4c1565ac1e765ec3331be5a383 oa:motivatedBy oa:tagging .
 
+nl:id_8a41fafecee06b83ba033386c05ed44c64fc6eb4 a oa:Annotation .
+nl:id_8a41fafecee06b83ba033386c05ed44c64fc6eb4 terms:title "Samson tears apart a lion" .
+nl:id_8a41fafecee06b83ba033386c05ed44c64fc6eb4 ui:annotationField bible:ICBibleTheme .
+nl:id_8a41fafecee06b83ba033386c05ed44c64fc6eb4 ui:typingTime 0 .
+nl:id_8a41fafecee06b83ba033386c05ed44c64fc6eb4 oa:annotatedAt "2016-08-02T12:40:55+02:00"^^xsd:dateTime .
+nl:id_8a41fafecee06b83ba033386c05ed44c64fc6eb4 oa:annotatedBy user:everhoeff .
+nl:id_8a41fafecee06b83ba033386c05ed44c64fc6eb4 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Samson tears apart a lion" ] .
+nl:id_8a41fafecee06b83ba033386c05ed44c64fc6eb4 oa:hasTarget ubvu:print-218010002010 .
+nl:id_8a41fafecee06b83ba033386c05ed44c64fc6eb4 oa:motivatedBy oa:tagging .
+
 nl:id_8af4cbaa0249fd0c19e6b66987451992a1d2f062 a oa:Annotation .
 nl:id_8af4cbaa0249fd0c19e6b66987451992a1d2f062 terms:title "Simson" .
 nl:id_8af4cbaa0249fd0c19e6b66987451992a1d2f062 ui:annotationField bible:BibleCharacter .
