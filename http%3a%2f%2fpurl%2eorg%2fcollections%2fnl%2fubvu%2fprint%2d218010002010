@@ -291,6 +291,16 @@ nl:id_c742dc9195f7be80cd1982e03c9e2aafe2089122 oa:hasTarget target:target_e50062
 nl:id_c742dc9195f7be80cd1982e03c9e2aafe2089122 oa:hasTarget ubvu:print-218010002010 .
 nl:id_c742dc9195f7be80cd1982e03c9e2aafe2089122 oa:motivatedBy oa:tagging .
 
+nl:id_d2a582f7d0da09f83f9fe85cc25760404405cc9e a oa:Annotation .
+nl:id_d2a582f7d0da09f83f9fe85cc25760404405cc9e terms:title "Samson ffound a jawbone and slew 1000 men" .
+nl:id_d2a582f7d0da09f83f9fe85cc25760404405cc9e ui:annotationField bible:ICBibleTheme .
+nl:id_d2a582f7d0da09f83f9fe85cc25760404405cc9e ui:typingTime 0 .
+nl:id_d2a582f7d0da09f83f9fe85cc25760404405cc9e oa:annotatedAt "2016-08-02T12:53:00+02:00"^^xsd:dateTime .
+nl:id_d2a582f7d0da09f83f9fe85cc25760404405cc9e oa:annotatedBy user:everhoeff .
+nl:id_d2a582f7d0da09f83f9fe85cc25760404405cc9e oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Samson ffound a jawbone and slew 1000 men" ] .
+nl:id_d2a582f7d0da09f83f9fe85cc25760404405cc9e oa:hasTarget ubvu:print-218010002010 .
+nl:id_d2a582f7d0da09f83f9fe85cc25760404405cc9e oa:motivatedBy oa:tagging .
+
 nl:id_d8991a2ecefddeb9b086a9cee5822abfdda28122 a oa:Annotation .
 nl:id_d8991a2ecefddeb9b086a9cee5822abfdda28122 terms:title "Manoach" .
 nl:id_d8991a2ecefddeb9b086a9cee5822abfdda28122 ui:annotationField bible:BibleCharacter .
