@@ -299,6 +299,16 @@ nl:id_b848480da8bea497d8773c60940d3532a7b0ecf6 oa:hasTarget target:target_0a681d
 nl:id_b848480da8bea497d8773c60940d3532a7b0ecf6 oa:hasTarget ubvu:print-218010002010 .
 nl:id_b848480da8bea497d8773c60940d3532a7b0ecf6 oa:motivatedBy oa:tagging .
 
+nl:id_b8aea3f61c2a514c2b4610f88cb254f1f1469f81 a oa:Annotation .
+nl:id_b8aea3f61c2a514c2b4610f88cb254f1f1469f81 terms:title "The house fell upon the lords and upon all the people that were therein and upon Samson. All were dead." .
+nl:id_b8aea3f61c2a514c2b4610f88cb254f1f1469f81 ui:annotationField bible:ICBibleTheme .
+nl:id_b8aea3f61c2a514c2b4610f88cb254f1f1469f81 ui:typingTime 0 .
+nl:id_b8aea3f61c2a514c2b4610f88cb254f1f1469f81 oa:annotatedAt "2016-08-02T13:05:16+02:00"^^xsd:dateTime .
+nl:id_b8aea3f61c2a514c2b4610f88cb254f1f1469f81 oa:annotatedBy user:everhoeff .
+nl:id_b8aea3f61c2a514c2b4610f88cb254f1f1469f81 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The house fell upon the lords and upon all the people that were therein and upon Samson. All were dead." ] .
+nl:id_b8aea3f61c2a514c2b4610f88cb254f1f1469f81 oa:hasTarget ubvu:print-218010002010 .
+nl:id_b8aea3f61c2a514c2b4610f88cb254f1f1469f81 oa:motivatedBy oa:tagging .
+
 nl:id_c5086763e670944f796d7c586282d62ecdc84773 a oa:Annotation .
 nl:id_c5086763e670944f796d7c586282d62ecdc84773 terms:title "Vrouw van Manoach" .
 nl:id_c5086763e670944f796d7c586282d62ecdc84773 ui:annotationField bible:BibleCharacter .
