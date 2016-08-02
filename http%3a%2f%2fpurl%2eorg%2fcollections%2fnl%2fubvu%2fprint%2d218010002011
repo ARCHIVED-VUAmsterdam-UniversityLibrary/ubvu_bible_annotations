@@ -70,6 +70,16 @@ nl:id_7af68fd619227644a21718a28334fc141cfcfd60 oa:hasBody [ a content:ContentAsT
 nl:id_7af68fd619227644a21718a28334fc141cfcfd60 oa:hasTarget ubvu:print-218010002011 .
 nl:id_7af68fd619227644a21718a28334fc141cfcfd60 oa:motivatedBy oa:tagging .
 
+nl:id_840de98d2f29d4d81761bdd66077dff4990602ea a oa:Annotation .
+nl:id_840de98d2f29d4d81761bdd66077dff4990602ea terms:title "Boaz in the gate with the ten elders of the city." .
+nl:id_840de98d2f29d4d81761bdd66077dff4990602ea ui:annotationField bible:ICBibleTheme .
+nl:id_840de98d2f29d4d81761bdd66077dff4990602ea ui:typingTime 0 .
+nl:id_840de98d2f29d4d81761bdd66077dff4990602ea oa:annotatedAt "2016-08-02T13:20:29+02:00"^^xsd:dateTime .
+nl:id_840de98d2f29d4d81761bdd66077dff4990602ea oa:annotatedBy user:everhoeff .
+nl:id_840de98d2f29d4d81761bdd66077dff4990602ea oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Boaz in the gate with the ten elders of the city." ] .
+nl:id_840de98d2f29d4d81761bdd66077dff4990602ea oa:hasTarget ubvu:print-218010002011 .
+nl:id_840de98d2f29d4d81761bdd66077dff4990602ea oa:motivatedBy oa:tagging .
+
 nl:id_87024a6849a05ded82b76123e6d085708d8fc5f1 a oa:Annotation .
 nl:id_87024a6849a05ded82b76123e6d085708d8fc5f1 terms:title "Ruth" .
 nl:id_87024a6849a05ded82b76123e6d085708d8fc5f1 ui:annotationField bible:ICBibleTheme .
