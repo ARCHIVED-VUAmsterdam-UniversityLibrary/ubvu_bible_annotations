@@ -80,6 +80,16 @@ nl:id_87024a6849a05ded82b76123e6d085708d8fc5f1 oa:hasBody [ a content:ContentAsT
 nl:id_87024a6849a05ded82b76123e6d085708d8fc5f1 oa:hasTarget ubvu:print-218010002011 .
 nl:id_87024a6849a05ded82b76123e6d085708d8fc5f1 oa:motivatedBy oa:tagging .
 
+nl:id_987a1b50bcb34c8798bdcc316fde6e9c23be084b a oa:Annotation .
+nl:id_987a1b50bcb34c8798bdcc316fde6e9c23be084b terms:title "Ruth meets Boaz in his fields" .
+nl:id_987a1b50bcb34c8798bdcc316fde6e9c23be084b ui:annotationField bible:ICBibleTheme .
+nl:id_987a1b50bcb34c8798bdcc316fde6e9c23be084b ui:typingTime 0 .
+nl:id_987a1b50bcb34c8798bdcc316fde6e9c23be084b oa:annotatedAt "2016-08-02T13:14:49+02:00"^^xsd:dateTime .
+nl:id_987a1b50bcb34c8798bdcc316fde6e9c23be084b oa:annotatedBy user:everhoeff .
+nl:id_987a1b50bcb34c8798bdcc316fde6e9c23be084b oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Ruth meets Boaz in his fields" ] .
+nl:id_987a1b50bcb34c8798bdcc316fde6e9c23be084b oa:hasTarget ubvu:print-218010002011 .
+nl:id_987a1b50bcb34c8798bdcc316fde6e9c23be084b oa:motivatedBy oa:tagging .
+
 nl:id_a17abc11032f6e329ed130ad54d3fef832993cef a oa:Annotation .
 nl:id_a17abc11032f6e329ed130ad54d3fef832993cef terms:title "Ruth Naomi complains her situation" .
 nl:id_a17abc11032f6e329ed130ad54d3fef832993cef ui:annotationField bible:ICBibleTheme .
