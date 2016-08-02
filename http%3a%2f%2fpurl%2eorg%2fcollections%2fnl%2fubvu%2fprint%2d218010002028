@@ -10,6 +10,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_33225a0b7aa094b68ff253d91a8f7fea71561d02 a oa:Annotation .
+nl:id_33225a0b7aa094b68ff253d91a8f7fea71561d02 terms:title "Daniel's enemies torn apart by the lions" .
+nl:id_33225a0b7aa094b68ff253d91a8f7fea71561d02 ui:annotationField bible:ICBibleTheme .
+nl:id_33225a0b7aa094b68ff253d91a8f7fea71561d02 ui:typingTime 0 .
+nl:id_33225a0b7aa094b68ff253d91a8f7fea71561d02 oa:annotatedAt "2016-08-02T14:21:05+02:00"^^xsd:dateTime .
+nl:id_33225a0b7aa094b68ff253d91a8f7fea71561d02 oa:annotatedBy user:everhoeff .
+nl:id_33225a0b7aa094b68ff253d91a8f7fea71561d02 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Daniel's enemies torn apart by the lions" ] .
+nl:id_33225a0b7aa094b68ff253d91a8f7fea71561d02 oa:hasTarget ubvu:print-218010002028 .
+nl:id_33225a0b7aa094b68ff253d91a8f7fea71561d02 oa:motivatedBy oa:tagging .
+
 nl:id_53ec23eff48e6529276c4b4e5b71ae7e1781a9b0 a oa:Annotation .
 nl:id_53ec23eff48e6529276c4b4e5b71ae7e1781a9b0 terms:title "Daniel's first vision (Daniel 7)" .
 nl:id_53ec23eff48e6529276c4b4e5b71ae7e1781a9b0 ui:annotationField bible:ICBibleTheme .
