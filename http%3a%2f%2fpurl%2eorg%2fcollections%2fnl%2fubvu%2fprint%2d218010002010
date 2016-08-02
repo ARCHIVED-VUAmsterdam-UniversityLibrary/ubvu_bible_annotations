@@ -171,6 +171,16 @@ nl:id_720eb17bfc51e7782592c5a11e5d7aba5e8441b6 oa:hasTarget target:target_92e545
 nl:id_720eb17bfc51e7782592c5a11e5d7aba5e8441b6 oa:hasTarget ubvu:print-218010002010 .
 nl:id_720eb17bfc51e7782592c5a11e5d7aba5e8441b6 oa:motivatedBy oa:tagging .
 
+nl:id_7cd8143e6a208607b868ca8ae636ed2077f5429e a oa:Annotation .
+nl:id_7cd8143e6a208607b868ca8ae636ed2077f5429e terms:title "Samson bounded with withes  (wilgentenen)" .
+nl:id_7cd8143e6a208607b868ca8ae636ed2077f5429e ui:annotationField bible:ICBibleTheme .
+nl:id_7cd8143e6a208607b868ca8ae636ed2077f5429e ui:typingTime 0 .
+nl:id_7cd8143e6a208607b868ca8ae636ed2077f5429e oa:annotatedAt "2016-08-02T13:00:56+02:00"^^xsd:dateTime .
+nl:id_7cd8143e6a208607b868ca8ae636ed2077f5429e oa:annotatedBy user:everhoeff .
+nl:id_7cd8143e6a208607b868ca8ae636ed2077f5429e oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Samson bounded with withes  (wilgentenen)" ] .
+nl:id_7cd8143e6a208607b868ca8ae636ed2077f5429e oa:hasTarget ubvu:print-218010002010 .
+nl:id_7cd8143e6a208607b868ca8ae636ed2077f5429e oa:motivatedBy oa:tagging .
+
 nl:id_7d2b05d4c89d4f4c1565ac1e765ec3331be5a383 a oa:Annotation .
 nl:id_7d2b05d4c89d4f4c1565ac1e765ec3331be5a383 terms:title "Simson" .
 nl:id_7d2b05d4c89d4f4c1565ac1e765ec3331be5a383 ui:annotationField bible:BibleCharacter .
