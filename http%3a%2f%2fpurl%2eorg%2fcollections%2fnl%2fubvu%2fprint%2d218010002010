@@ -129,6 +129,17 @@ nl:id_3a20a96128c7d739b09dbcc1659a2bc2a2c5a900 oa:hasTarget target:target_1b4fd1
 nl:id_3a20a96128c7d739b09dbcc1659a2bc2a2c5a900 oa:hasTarget ubvu:print-218010002010 .
 nl:id_3a20a96128c7d739b09dbcc1659a2bc2a2c5a900 oa:motivatedBy oa:tagging .
 
+nl:id_3c878e33463d6a7a260a6fdb33c1ba39edbf0de6 a oa:Annotation .
+nl:id_3c878e33463d6a7a260a6fdb33c1ba39edbf0de6 terms:title "Samson" .
+nl:id_3c878e33463d6a7a260a6fdb33c1ba39edbf0de6 ui:annotationField bible:BibleCharacter .
+nl:id_3c878e33463d6a7a260a6fdb33c1ba39edbf0de6 ui:typingTime 0 .
+nl:id_3c878e33463d6a7a260a6fdb33c1ba39edbf0de6 oa:annotatedAt "2016-08-02T13:06:09+02:00"^^xsd:dateTime .
+nl:id_3c878e33463d6a7a260a6fdb33c1ba39edbf0de6 oa:annotatedBy user:everhoeff .
+nl:id_3c878e33463d6a7a260a6fdb33c1ba39edbf0de6 oa:hasBody resource:Samson .
+nl:id_3c878e33463d6a7a260a6fdb33c1ba39edbf0de6 oa:hasTarget target:target_b604aa9a0a1df824d7fd0d6b748080c5b350fe04 .
+nl:id_3c878e33463d6a7a260a6fdb33c1ba39edbf0de6 oa:hasTarget ubvu:print-218010002010 .
+nl:id_3c878e33463d6a7a260a6fdb33c1ba39edbf0de6 oa:motivatedBy oa:tagging .
+
 nl:id_408adab3a6d00833accb3b4ec779200fafcdc8a9 a oa:Annotation .
 nl:id_408adab3a6d00833accb3b4ec779200fafcdc8a9 terms:title "Samson took the door of teh gate of the city" .
 nl:id_408adab3a6d00833accb3b4ec779200fafcdc8a9 ui:annotationField bible:ICBibleTheme .
@@ -610,6 +621,14 @@ target:selector_ae56ab184b4cef6a2ad27464e8634a29c818d73e ui:x "0.465957250350560
 target:selector_ae56ab184b4cef6a2ad27464e8634a29c818d73e ui:y "0.35235474990825866"^^xsd:float .
 target:selector_ae56ab184b4cef6a2ad27464e8634a29c818d73e rdf:value "#xywh=percent:47,35,11,11" .
 
+target:selector_b604aa9a0a1df824d7fd0d6b748080c5b350fe04 a oa:FragmentSelector .
+target:selector_b604aa9a0a1df824d7fd0d6b748080c5b350fe04 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_b604aa9a0a1df824d7fd0d6b748080c5b350fe04 ui:h "0.17533718689788053"^^xsd:float .
+target:selector_b604aa9a0a1df824d7fd0d6b748080c5b350fe04 ui:w "0.21466666666666667"^^xsd:float .
+target:selector_b604aa9a0a1df824d7fd0d6b748080c5b350fe04 ui:x "0.24533333333333332"^^xsd:float .
+target:selector_b604aa9a0a1df824d7fd0d6b748080c5b350fe04 ui:y "0.20905587668593448"^^xsd:float .
+target:selector_b604aa9a0a1df824d7fd0d6b748080c5b350fe04 rdf:value "#xywh=percent:25,21,21,18" .
+
 target:selector_cbbe39ca4e78b8f96dd9fea2c333cf9086b38f8b a oa:FragmentSelector .
 target:selector_cbbe39ca4e78b8f96dd9fea2c333cf9086b38f8b terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_cbbe39ca4e78b8f96dd9fea2c333cf9086b38f8b ui:h "0.07169344870210136"^^xsd:float .
@@ -717,6 +736,10 @@ target:target_92e5458a6f6df728ac4e7b9b4bb6dc27594afd03 oa:hasSource <http://imag
 target:target_ae56ab184b4cef6a2ad27464e8634a29c818d73e a oa:SpecificResource .
 target:target_ae56ab184b4cef6a2ad27464e8634a29c818d73e oa:hasSelector target:selector_ae56ab184b4cef6a2ad27464e8634a29c818d73e .
 target:target_ae56ab184b4cef6a2ad27464e8634a29c818d73e oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/9> .
+
+target:target_b604aa9a0a1df824d7fd0d6b748080c5b350fe04 a oa:SpecificResource .
+target:target_b604aa9a0a1df824d7fd0d6b748080c5b350fe04 oa:hasSelector target:selector_b604aa9a0a1df824d7fd0d6b748080c5b350fe04 .
+target:target_b604aa9a0a1df824d7fd0d6b748080c5b350fe04 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/9> .
 
 target:target_cbbe39ca4e78b8f96dd9fea2c333cf9086b38f8b a oa:SpecificResource .
 target:target_cbbe39ca4e78b8f96dd9fea2c333cf9086b38f8b oa:hasSelector target:selector_cbbe39ca4e78b8f96dd9fea2c333cf9086b38f8b .
