@@ -99,3 +99,13 @@ nl:id_c2d3b3980627325d38ff29342f000b5f9b6ce042 oa:annotatedBy user:hrmurris .
 nl:id_c2d3b3980627325d38ff29342f000b5f9b6ce042 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Ruth Boaz acting with the shoe" ] .
 nl:id_c2d3b3980627325d38ff29342f000b5f9b6ce042 oa:hasTarget ubvu:print-218010002011 .
 nl:id_c2d3b3980627325d38ff29342f000b5f9b6ce042 oa:motivatedBy oa:tagging .
+
+nl:id_d80f80881fb07d5a2f8a6dc658cfdf209dbe182d a oa:Annotation .
+nl:id_d80f80881fb07d5a2f8a6dc658cfdf209dbe182d terms:title "Naomi sends away her daughters-in-law: Orpah returns home, Ruth stays" .
+nl:id_d80f80881fb07d5a2f8a6dc658cfdf209dbe182d ui:annotationField bible:ICBibleTheme .
+nl:id_d80f80881fb07d5a2f8a6dc658cfdf209dbe182d ui:typingTime 0 .
+nl:id_d80f80881fb07d5a2f8a6dc658cfdf209dbe182d oa:annotatedAt "2016-08-02T13:07:41+02:00"^^xsd:dateTime .
+nl:id_d80f80881fb07d5a2f8a6dc658cfdf209dbe182d oa:annotatedBy user:everhoeff .
+nl:id_d80f80881fb07d5a2f8a6dc658cfdf209dbe182d oa:hasBody <http://iconclass.org/71F622> .
+nl:id_d80f80881fb07d5a2f8a6dc658cfdf209dbe182d oa:hasTarget ubvu:print-218010002011 .
+nl:id_d80f80881fb07d5a2f8a6dc658cfdf209dbe182d oa:motivatedBy oa:tagging .
