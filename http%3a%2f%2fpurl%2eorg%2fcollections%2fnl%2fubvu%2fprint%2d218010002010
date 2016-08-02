@@ -322,6 +322,16 @@ nl:id_d8991a2ecefddeb9b086a9cee5822abfdda28122 oa:hasTarget target:target_f6ecec
 nl:id_d8991a2ecefddeb9b086a9cee5822abfdda28122 oa:hasTarget ubvu:print-218010002010 .
 nl:id_d8991a2ecefddeb9b086a9cee5822abfdda28122 oa:motivatedBy oa:tagging .
 
+nl:id_dab051f950189ceef5f8c1b0935bf11264d8f444 a oa:Annotation .
+nl:id_dab051f950189ceef5f8c1b0935bf11264d8f444 terms:title "The Philistines put out Samson's eyes" .
+nl:id_dab051f950189ceef5f8c1b0935bf11264d8f444 ui:annotationField bible:ICBibleTheme .
+nl:id_dab051f950189ceef5f8c1b0935bf11264d8f444 ui:typingTime 0 .
+nl:id_dab051f950189ceef5f8c1b0935bf11264d8f444 oa:annotatedAt "2016-08-02T12:57:34+02:00"^^xsd:dateTime .
+nl:id_dab051f950189ceef5f8c1b0935bf11264d8f444 oa:annotatedBy user:everhoeff .
+nl:id_dab051f950189ceef5f8c1b0935bf11264d8f444 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The Philistines put out Samson's eyes" ] .
+nl:id_dab051f950189ceef5f8c1b0935bf11264d8f444 oa:hasTarget ubvu:print-218010002010 .
+nl:id_dab051f950189ceef5f8c1b0935bf11264d8f444 oa:motivatedBy oa:tagging .
+
 nl:id_dfb9bc59174ba22a88e8bb089c883d7459fe380e a oa:Annotation .
 nl:id_dfb9bc59174ba22a88e8bb089c883d7459fe380e terms:title "Samson takes the doors of the city-gate" .
 nl:id_dfb9bc59174ba22a88e8bb089c883d7459fe380e ui:annotationField bible:ICBibleTheme .
