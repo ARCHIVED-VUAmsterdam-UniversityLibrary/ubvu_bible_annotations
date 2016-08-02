@@ -120,6 +120,16 @@ nl:id_987a1b50bcb34c8798bdcc316fde6e9c23be084b oa:hasBody [ a content:ContentAsT
 nl:id_987a1b50bcb34c8798bdcc316fde6e9c23be084b oa:hasTarget ubvu:print-218010002011 .
 nl:id_987a1b50bcb34c8798bdcc316fde6e9c23be084b oa:motivatedBy oa:tagging .
 
+nl:id_9945d3f6a341b7f9a871322bae63434bf2feb34d a oa:Annotation .
+nl:id_9945d3f6a341b7f9a871322bae63434bf2feb34d terms:title "Dead of Eli" .
+nl:id_9945d3f6a341b7f9a871322bae63434bf2feb34d ui:annotationField bible:ICBibleTheme .
+nl:id_9945d3f6a341b7f9a871322bae63434bf2feb34d ui:typingTime 0 .
+nl:id_9945d3f6a341b7f9a871322bae63434bf2feb34d oa:annotatedAt "2016-08-02T14:12:46+02:00"^^xsd:dateTime .
+nl:id_9945d3f6a341b7f9a871322bae63434bf2feb34d oa:annotatedBy user:everhoeff .
+nl:id_9945d3f6a341b7f9a871322bae63434bf2feb34d oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Dead of Eli" ] .
+nl:id_9945d3f6a341b7f9a871322bae63434bf2feb34d oa:hasTarget ubvu:print-218010002011 .
+nl:id_9945d3f6a341b7f9a871322bae63434bf2feb34d oa:motivatedBy oa:tagging .
+
 nl:id_a17abc11032f6e329ed130ad54d3fef832993cef a oa:Annotation .
 nl:id_a17abc11032f6e329ed130ad54d3fef832993cef terms:title "Ruth Naomi complains her situation" .
 nl:id_a17abc11032f6e329ed130ad54d3fef832993cef ui:annotationField bible:ICBibleTheme .
