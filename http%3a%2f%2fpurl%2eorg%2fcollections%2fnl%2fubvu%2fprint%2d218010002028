@@ -30,6 +30,16 @@ nl:id_53ec23eff48e6529276c4b4e5b71ae7e1781a9b0 oa:hasBody <http://iconclass.org/
 nl:id_53ec23eff48e6529276c4b4e5b71ae7e1781a9b0 oa:hasTarget ubvu:print-218010002028 .
 nl:id_53ec23eff48e6529276c4b4e5b71ae7e1781a9b0 oa:motivatedBy oa:tagging .
 
+nl:id_9432aba7112edc7071166e3ed20ce7f552a0e344 a oa:Annotation .
+nl:id_9432aba7112edc7071166e3ed20ce7f552a0e344 terms:title "Daniel's vision of the ram and the he goat" .
+nl:id_9432aba7112edc7071166e3ed20ce7f552a0e344 ui:annotationField bible:ICBibleTheme .
+nl:id_9432aba7112edc7071166e3ed20ce7f552a0e344 ui:typingTime 0 .
+nl:id_9432aba7112edc7071166e3ed20ce7f552a0e344 oa:annotatedAt "2016-08-02T14:30:08+02:00"^^xsd:dateTime .
+nl:id_9432aba7112edc7071166e3ed20ce7f552a0e344 oa:annotatedBy user:everhoeff .
+nl:id_9432aba7112edc7071166e3ed20ce7f552a0e344 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Daniel's vision of the ram and the he goat" ] .
+nl:id_9432aba7112edc7071166e3ed20ce7f552a0e344 oa:hasTarget ubvu:print-218010002028 .
+nl:id_9432aba7112edc7071166e3ed20ce7f552a0e344 oa:motivatedBy oa:tagging .
+
 nl:id_ae8f2645995dfbf9d149dbbc834df57d10c711f2 a oa:Annotation .
 nl:id_ae8f2645995dfbf9d149dbbc834df57d10c711f2 terms:title "Daniel's vision of the lion, leopard, a bear and a terrible forth beast" .
 nl:id_ae8f2645995dfbf9d149dbbc834df57d10c711f2 ui:annotationField bible:ICBibleTheme .
