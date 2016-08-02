@@ -100,6 +100,16 @@ nl:id_a17abc11032f6e329ed130ad54d3fef832993cef oa:hasBody [ a content:ContentAsT
 nl:id_a17abc11032f6e329ed130ad54d3fef832993cef oa:hasTarget ubvu:print-218010002011 .
 nl:id_a17abc11032f6e329ed130ad54d3fef832993cef oa:motivatedBy oa:tagging .
 
+nl:id_ac0c6bd7471ea2b38f145482e269e032f73adc93 a oa:Annotation .
+nl:id_ac0c6bd7471ea2b38f145482e269e032f73adc93 terms:title "Ruth on the floor uncovered the feet of Boaz and layed down." .
+nl:id_ac0c6bd7471ea2b38f145482e269e032f73adc93 ui:annotationField bible:ICBibleTheme .
+nl:id_ac0c6bd7471ea2b38f145482e269e032f73adc93 ui:typingTime 0 .
+nl:id_ac0c6bd7471ea2b38f145482e269e032f73adc93 oa:annotatedAt "2016-08-02T13:18:17+02:00"^^xsd:dateTime .
+nl:id_ac0c6bd7471ea2b38f145482e269e032f73adc93 oa:annotatedBy user:everhoeff .
+nl:id_ac0c6bd7471ea2b38f145482e269e032f73adc93 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Ruth on the floor uncovered the feet of Boaz and layed down." ] .
+nl:id_ac0c6bd7471ea2b38f145482e269e032f73adc93 oa:hasTarget ubvu:print-218010002011 .
+nl:id_ac0c6bd7471ea2b38f145482e269e032f73adc93 oa:motivatedBy oa:tagging .
+
 nl:id_c2d3b3980627325d38ff29342f000b5f9b6ce042 a oa:Annotation .
 nl:id_c2d3b3980627325d38ff29342f000b5f9b6ce042 terms:title "Ruth Boaz acting with the shoe" .
 nl:id_c2d3b3980627325d38ff29342f000b5f9b6ce042 ui:annotationField bible:ICBibleTheme .
