@@ -128,6 +128,16 @@ nl:id_408adab3a6d00833accb3b4ec779200fafcdc8a9 oa:hasBody [ a content:ContentAsT
 nl:id_408adab3a6d00833accb3b4ec779200fafcdc8a9 oa:hasTarget ubvu:print-218010002010 .
 nl:id_408adab3a6d00833accb3b4ec779200fafcdc8a9 oa:motivatedBy oa:tagging .
 
+nl:id_4508c588db5266cf4abcd0ba835d3b7a419231a0 a oa:Annotation .
+nl:id_4508c588db5266cf4abcd0ba835d3b7a419231a0 terms:title "Samson grinds in the prison house" .
+nl:id_4508c588db5266cf4abcd0ba835d3b7a419231a0 ui:annotationField bible:ICBibleTheme .
+nl:id_4508c588db5266cf4abcd0ba835d3b7a419231a0 ui:typingTime 0 .
+nl:id_4508c588db5266cf4abcd0ba835d3b7a419231a0 oa:annotatedAt "2016-08-02T12:57:53+02:00"^^xsd:dateTime .
+nl:id_4508c588db5266cf4abcd0ba835d3b7a419231a0 oa:annotatedBy user:everhoeff .
+nl:id_4508c588db5266cf4abcd0ba835d3b7a419231a0 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Samson grinds in the prison house" ] .
+nl:id_4508c588db5266cf4abcd0ba835d3b7a419231a0 oa:hasTarget ubvu:print-218010002010 .
+nl:id_4508c588db5266cf4abcd0ba835d3b7a419231a0 oa:motivatedBy oa:tagging .
+
 nl:id_5316dd9c2257d9e202bd2d9ad75d705a3d1afeab a oa:Annotation .
 nl:id_5316dd9c2257d9e202bd2d9ad75d705a3d1afeab terms:title "Simson " .
 nl:id_5316dd9c2257d9e202bd2d9ad75d705a3d1afeab ui:annotationField bible:BibleCharacter .
