@@ -23,6 +23,17 @@ nl:id_7761ecc7cd4ca6f82da62db612aa62bf2611907b oa:hasTarget target:target_de0d99
 nl:id_7761ecc7cd4ca6f82da62db612aa62bf2611907b oa:hasTarget ubvu:print-218010001913 .
 nl:id_7761ecc7cd4ca6f82da62db612aa62bf2611907b oa:motivatedBy oa:tagging .
 
+nl:id_807e4893d6eee63ed2172dcd46a7e706b491fa42 a oa:Annotation .
+nl:id_807e4893d6eee63ed2172dcd46a7e706b491fa42 terms:title "Stefanus" .
+nl:id_807e4893d6eee63ed2172dcd46a7e706b491fa42 ui:annotationField bible:BibleCharacter .
+nl:id_807e4893d6eee63ed2172dcd46a7e706b491fa42 ui:typingTime 0 .
+nl:id_807e4893d6eee63ed2172dcd46a7e706b491fa42 oa:annotatedAt "2016-08-03T16:48:52+02:00"^^xsd:dateTime .
+nl:id_807e4893d6eee63ed2172dcd46a7e706b491fa42 oa:annotatedBy user:paulinevandijk .
+nl:id_807e4893d6eee63ed2172dcd46a7e706b491fa42 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Stefanus" ] .
+nl:id_807e4893d6eee63ed2172dcd46a7e706b491fa42 oa:hasTarget target:target_869884e03494298a07316aaa51e696535bf3c5fc .
+nl:id_807e4893d6eee63ed2172dcd46a7e706b491fa42 oa:hasTarget ubvu:print-218010001913 .
+nl:id_807e4893d6eee63ed2172dcd46a7e706b491fa42 oa:motivatedBy oa:tagging .
+
 nl:id_e660e9f8dd78fe88bd9b3f6a124f8e07189b399c a oa:Annotation .
 nl:id_e660e9f8dd78fe88bd9b3f6a124f8e07189b399c terms:title "Stephen stoned" .
 nl:id_e660e9f8dd78fe88bd9b3f6a124f8e07189b399c ui:annotationField bible:ICBibleTheme .
@@ -62,6 +73,14 @@ target:selector_42b31c8844de31649f7a2f27fdb6fcf4f282363e ui:x "0.222666666666666
 target:selector_42b31c8844de31649f7a2f27fdb6fcf4f282363e ui:y "0.5085034013605442"^^xsd:float .
 target:selector_42b31c8844de31649f7a2f27fdb6fcf4f282363e rdf:value "#xywh=percent:22,51,22,14" .
 
+target:selector_869884e03494298a07316aaa51e696535bf3c5fc a oa:FragmentSelector .
+target:selector_869884e03494298a07316aaa51e696535bf3c5fc terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_869884e03494298a07316aaa51e696535bf3c5fc ui:h "0.11613958560523446"^^xsd:float .
+target:selector_869884e03494298a07316aaa51e696535bf3c5fc ui:w "0.2777777777777778"^^xsd:float .
+target:selector_869884e03494298a07316aaa51e696535bf3c5fc ui:x "0.21367521367521367"^^xsd:float .
+target:selector_869884e03494298a07316aaa51e696535bf3c5fc ui:y "0.5087241003271538"^^xsd:float .
+target:selector_869884e03494298a07316aaa51e696535bf3c5fc rdf:value "#xywh=percent:21,51,28,12" .
+
 target:selector_de0d992cf791628942353618bc48613d238268d1 a oa:FragmentSelector .
 target:selector_de0d992cf791628942353618bc48613d238268d1 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_de0d992cf791628942353618bc48613d238268d1 ui:h "0.25627044711014174"^^xsd:float .
@@ -73,6 +92,10 @@ target:selector_de0d992cf791628942353618bc48613d238268d1 rdf:value "#xywh=percen
 target:target_42b31c8844de31649f7a2f27fdb6fcf4f282363e a oa:SpecificResource .
 target:target_42b31c8844de31649f7a2f27fdb6fcf4f282363e oa:hasSelector target:selector_42b31c8844de31649f7a2f27fdb6fcf4f282363e .
 target:target_42b31c8844de31649f7a2f27fdb6fcf4f282363e oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/952> .
+
+target:target_869884e03494298a07316aaa51e696535bf3c5fc a oa:SpecificResource .
+target:target_869884e03494298a07316aaa51e696535bf3c5fc oa:hasSelector target:selector_869884e03494298a07316aaa51e696535bf3c5fc .
+target:target_869884e03494298a07316aaa51e696535bf3c5fc oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/952> .
 
 target:target_de0d992cf791628942353618bc48613d238268d1 a oa:SpecificResource .
 target:target_de0d992cf791628942353618bc48613d238268d1 oa:hasSelector target:selector_de0d992cf791628942353618bc48613d238268d1 .
