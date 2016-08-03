@@ -22,6 +22,16 @@ nl:id_6452b58726b0e742fe32eea02f8685de2d8f4486 oa:hasBody [ a content:ContentAsT
 nl:id_6452b58726b0e742fe32eea02f8685de2d8f4486 oa:hasTarget ubvu:print-218010001813 .
 nl:id_6452b58726b0e742fe32eea02f8685de2d8f4486 oa:motivatedBy oa:tagging .
 
+nl:id_8f5bb532a8d48520b5c49692ebca31195d86dc81 a oa:Annotation .
+nl:id_8f5bb532a8d48520b5c49692ebca31195d86dc81 terms:title "De intocht in Jeruzalem." .
+nl:id_8f5bb532a8d48520b5c49692ebca31195d86dc81 ui:annotationField bible:ICBibleTheme .
+nl:id_8f5bb532a8d48520b5c49692ebca31195d86dc81 ui:typingTime 0 .
+nl:id_8f5bb532a8d48520b5c49692ebca31195d86dc81 oa:annotatedAt "2016-08-03T16:53:21+02:00"^^xsd:dateTime .
+nl:id_8f5bb532a8d48520b5c49692ebca31195d86dc81 oa:annotatedBy user:paulinevandijk .
+nl:id_8f5bb532a8d48520b5c49692ebca31195d86dc81 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "De intocht in Jeruzalem." ] .
+nl:id_8f5bb532a8d48520b5c49692ebca31195d86dc81 oa:hasTarget ubvu:print-218010001813 .
+nl:id_8f5bb532a8d48520b5c49692ebca31195d86dc81 oa:motivatedBy oa:tagging .
+
 nl:id_b91cc407900c10f1f7375667702f9c4b1191a438 a oa:Annotation .
 nl:id_b91cc407900c10f1f7375667702f9c4b1191a438 terms:title "Jesus" .
 nl:id_b91cc407900c10f1f7375667702f9c4b1191a438 ui:annotationField bible:BibleCharacter .
