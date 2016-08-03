@@ -34,6 +34,16 @@ nl:id_807e4893d6eee63ed2172dcd46a7e706b491fa42 oa:hasTarget target:target_869884
 nl:id_807e4893d6eee63ed2172dcd46a7e706b491fa42 oa:hasTarget ubvu:print-218010001913 .
 nl:id_807e4893d6eee63ed2172dcd46a7e706b491fa42 oa:motivatedBy oa:tagging .
 
+nl:id_dbcaeef0773f0d83527573dfae37fe519f950e27 a oa:Annotation .
+nl:id_dbcaeef0773f0d83527573dfae37fe519f950e27 terms:title "De steniging van Stefanus." .
+nl:id_dbcaeef0773f0d83527573dfae37fe519f950e27 ui:annotationField bible:ICBibleTheme .
+nl:id_dbcaeef0773f0d83527573dfae37fe519f950e27 ui:typingTime 0 .
+nl:id_dbcaeef0773f0d83527573dfae37fe519f950e27 oa:annotatedAt "2016-08-03T16:49:23+02:00"^^xsd:dateTime .
+nl:id_dbcaeef0773f0d83527573dfae37fe519f950e27 oa:annotatedBy user:paulinevandijk .
+nl:id_dbcaeef0773f0d83527573dfae37fe519f950e27 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "De steniging van Stefanus." ] .
+nl:id_dbcaeef0773f0d83527573dfae37fe519f950e27 oa:hasTarget ubvu:print-218010001913 .
+nl:id_dbcaeef0773f0d83527573dfae37fe519f950e27 oa:motivatedBy oa:tagging .
+
 nl:id_e660e9f8dd78fe88bd9b3f6a124f8e07189b399c a oa:Annotation .
 nl:id_e660e9f8dd78fe88bd9b3f6a124f8e07189b399c terms:title "Stephen stoned" .
 nl:id_e660e9f8dd78fe88bd9b3f6a124f8e07189b399c ui:annotationField bible:ICBibleTheme .
