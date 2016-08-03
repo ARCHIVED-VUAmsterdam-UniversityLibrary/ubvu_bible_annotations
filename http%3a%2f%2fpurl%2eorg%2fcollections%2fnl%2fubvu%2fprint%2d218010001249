@@ -20,6 +20,16 @@ nl:id_75c2042d0dfc2dcc5cdba24a8810c6d4d326971f oa:hasBody [ a content:ContentAsT
 nl:id_75c2042d0dfc2dcc5cdba24a8810c6d4d326971f oa:hasTarget ubvu:print-218010001249 .
 nl:id_75c2042d0dfc2dcc5cdba24a8810c6d4d326971f oa:motivatedBy oa:tagging .
 
+nl:id_b08c71eb98161f185779e4aee5a5a9c16c0bcddb a oa:Annotation .
+nl:id_b08c71eb98161f185779e4aee5a5a9c16c0bcddb terms:title "De tabernakel opgebouwd en ingericht." .
+nl:id_b08c71eb98161f185779e4aee5a5a9c16c0bcddb ui:annotationField bible:ICBibleTheme .
+nl:id_b08c71eb98161f185779e4aee5a5a9c16c0bcddb ui:typingTime 0 .
+nl:id_b08c71eb98161f185779e4aee5a5a9c16c0bcddb oa:annotatedAt "2016-08-03T16:55:57+02:00"^^xsd:dateTime .
+nl:id_b08c71eb98161f185779e4aee5a5a9c16c0bcddb oa:annotatedBy user:paulinevandijk .
+nl:id_b08c71eb98161f185779e4aee5a5a9c16c0bcddb oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "De tabernakel opgebouwd en ingericht." ] .
+nl:id_b08c71eb98161f185779e4aee5a5a9c16c0bcddb oa:hasTarget ubvu:print-218010001249 .
+nl:id_b08c71eb98161f185779e4aee5a5a9c16c0bcddb oa:motivatedBy oa:tagging .
+
 nl:id_b906e9e2c3b61d35024fa12e8dccaed0092f8dee a oa:Annotation .
 nl:id_b906e9e2c3b61d35024fa12e8dccaed0092f8dee terms:title "Het maken van de Ark en de heilige voorwerpen voor de Tabernakel (Exodus 25:10-22)" .
 nl:id_b906e9e2c3b61d35024fa12e8dccaed0092f8dee ui:annotationField bible:ICBibleTheme .
