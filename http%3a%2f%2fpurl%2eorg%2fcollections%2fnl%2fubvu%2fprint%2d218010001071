@@ -23,6 +23,16 @@ nl:id_33dedc1c67c0197ade2401ef843cfea05b5fc3ae oa:hasBody <http://iconclass.org/
 nl:id_33dedc1c67c0197ade2401ef843cfea05b5fc3ae oa:hasTarget ubvu:print-218010001071 .
 nl:id_33dedc1c67c0197ade2401ef843cfea05b5fc3ae oa:motivatedBy oa:tagging .
 
+nl:id_915664cfec2de9e61be349f88574bc4402a43753 a oa:Annotation .
+nl:id_915664cfec2de9e61be349f88574bc4402a43753 terms:title "Melchisedek, koning van Salem, zegent Abraham" .
+nl:id_915664cfec2de9e61be349f88574bc4402a43753 ui:annotationField bible:ICBibleTheme .
+nl:id_915664cfec2de9e61be349f88574bc4402a43753 ui:typingTime 0 .
+nl:id_915664cfec2de9e61be349f88574bc4402a43753 oa:annotatedAt "2016-08-22T13:56:51+02:00"^^xsd:dateTime .
+nl:id_915664cfec2de9e61be349f88574bc4402a43753 oa:annotatedBy user:paulinevandijk .
+nl:id_915664cfec2de9e61be349f88574bc4402a43753 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Melchisedek, koning van Salem, zegent Abraham" ] .
+nl:id_915664cfec2de9e61be349f88574bc4402a43753 oa:hasTarget ubvu:print-218010001071 .
+nl:id_915664cfec2de9e61be349f88574bc4402a43753 oa:motivatedBy oa:tagging .
+
 nl:id_abf7fea3f9563679d3e7ab762a7b4074c5a7774a a oa:Annotation .
 nl:id_abf7fea3f9563679d3e7ab762a7b4074c5a7774a terms:title "Melchisedek" .
 nl:id_abf7fea3f9563679d3e7ab762a7b4074c5a7774a ui:annotationField bible:BibleCharacter .
