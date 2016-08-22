@@ -20,6 +20,16 @@ nl:id_177ef031cbd8f6220efa50cc6b3a97e19ae8202c oa:hasBody [ a content:ContentAsT
 nl:id_177ef031cbd8f6220efa50cc6b3a97e19ae8202c oa:hasTarget ubvu:print-218010001385 .
 nl:id_177ef031cbd8f6220efa50cc6b3a97e19ae8202c oa:motivatedBy oa:tagging .
 
+nl:id_82b2f473b92821b387f4f00190a7d54ee97f60b0 a oa:Annotation .
+nl:id_82b2f473b92821b387f4f00190a7d54ee97f60b0 terms:title "Abimelech door een molensteen vanaf de toren gedood" .
+nl:id_82b2f473b92821b387f4f00190a7d54ee97f60b0 ui:annotationField bible:ICBibleTheme .
+nl:id_82b2f473b92821b387f4f00190a7d54ee97f60b0 ui:typingTime 0 .
+nl:id_82b2f473b92821b387f4f00190a7d54ee97f60b0 oa:annotatedAt "2016-08-22T14:13:26+02:00"^^xsd:dateTime .
+nl:id_82b2f473b92821b387f4f00190a7d54ee97f60b0 oa:annotatedBy user:paulinevandijk .
+nl:id_82b2f473b92821b387f4f00190a7d54ee97f60b0 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Abimelech door een molensteen vanaf de toren gedood" ] .
+nl:id_82b2f473b92821b387f4f00190a7d54ee97f60b0 oa:hasTarget ubvu:print-218010001385 .
+nl:id_82b2f473b92821b387f4f00190a7d54ee97f60b0 oa:motivatedBy oa:tagging .
+
 nl:id_9f859c757b5fc14ef281225635f5bc119262c558 a oa:Annotation .
 nl:id_9f859c757b5fc14ef281225635f5bc119262c558 terms:title "Abimelech killed by a millstone" .
 nl:id_9f859c757b5fc14ef281225635f5bc119262c558 ui:annotationField bible:ICBibleTheme .
