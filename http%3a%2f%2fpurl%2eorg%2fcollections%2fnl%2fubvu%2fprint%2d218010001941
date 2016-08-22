@@ -66,6 +66,16 @@ nl:id_b606d22c1ea6936890b73d91c720f516dde4b9a0 oa:hasTarget target:target_5d3ac5
 nl:id_b606d22c1ea6936890b73d91c720f516dde4b9a0 oa:hasTarget ubvu:print-218010001941 .
 nl:id_b606d22c1ea6936890b73d91c720f516dde4b9a0 oa:motivatedBy oa:tagging .
 
+nl:id_ca532f151370a89cdb2687073b121ec26a798c8d a oa:Annotation .
+nl:id_ca532f151370a89cdb2687073b121ec26a798c8d terms:title "Agabus voorspelt Paulus dat hij gevangen genomen zal worden in Jeruzalem" .
+nl:id_ca532f151370a89cdb2687073b121ec26a798c8d ui:annotationField bible:ICBibleTheme .
+nl:id_ca532f151370a89cdb2687073b121ec26a798c8d ui:typingTime 0 .
+nl:id_ca532f151370a89cdb2687073b121ec26a798c8d oa:annotatedAt "2016-08-22T14:07:57+02:00"^^xsd:dateTime .
+nl:id_ca532f151370a89cdb2687073b121ec26a798c8d oa:annotatedBy user:paulinevandijk .
+nl:id_ca532f151370a89cdb2687073b121ec26a798c8d oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Agabus voorspelt Paulus dat hij gevangen genomen zal worden in Jeruzalem" ] .
+nl:id_ca532f151370a89cdb2687073b121ec26a798c8d oa:hasTarget ubvu:print-218010001941 .
+nl:id_ca532f151370a89cdb2687073b121ec26a798c8d oa:motivatedBy oa:tagging .
+
 nl:id_f35981a658f62a90b2001d094d3b1b8ab9e63b0b a oa:Annotation .
 nl:id_f35981a658f62a90b2001d094d3b1b8ab9e63b0b terms:title "Paulus" .
 nl:id_f35981a658f62a90b2001d094d3b1b8ab9e63b0b ui:annotationField bible:BibleCharacter .
