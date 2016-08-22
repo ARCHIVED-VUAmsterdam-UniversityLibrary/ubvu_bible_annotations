@@ -30,6 +30,16 @@ nl:id_4c362605a65fd527e05e13464cc9bba31c4602ae oa:hasBody [ a content:ContentAsT
 nl:id_4c362605a65fd527e05e13464cc9bba31c4602ae oa:hasTarget ubvu:print-218010002017 .
 nl:id_4c362605a65fd527e05e13464cc9bba31c4602ae oa:motivatedBy oa:tagging .
 
+nl:id_57e09ad54c0032dd9c404aaecdbef203d024e9f8 a oa:Annotation .
+nl:id_57e09ad54c0032dd9c404aaecdbef203d024e9f8 terms:title "Beroving van de tempelschatten en het in brand steken ervan door de koning van de Chaldeeën." .
+nl:id_57e09ad54c0032dd9c404aaecdbef203d024e9f8 ui:annotationField bible:ICBibleTheme .
+nl:id_57e09ad54c0032dd9c404aaecdbef203d024e9f8 ui:typingTime 0 .
+nl:id_57e09ad54c0032dd9c404aaecdbef203d024e9f8 oa:annotatedAt "2016-08-22T14:11:24+02:00"^^xsd:dateTime .
+nl:id_57e09ad54c0032dd9c404aaecdbef203d024e9f8 oa:annotatedBy user:paulinevandijk .
+nl:id_57e09ad54c0032dd9c404aaecdbef203d024e9f8 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Beroving van de tempelschatten en het in brand steken ervan door de koning van de Chaldeeën." ] .
+nl:id_57e09ad54c0032dd9c404aaecdbef203d024e9f8 oa:hasTarget ubvu:print-218010002017 .
+nl:id_57e09ad54c0032dd9c404aaecdbef203d024e9f8 oa:motivatedBy oa:tagging .
+
 nl:id_5d343ef8d0dc4f9722704acdc305f4d1c670041d a oa:Annotation .
 nl:id_5d343ef8d0dc4f9722704acdc305f4d1c670041d terms:title "burning and plundering of the temple" .
 nl:id_5d343ef8d0dc4f9722704acdc305f4d1c670041d ui:annotationField bible:ICBibleTheme .
