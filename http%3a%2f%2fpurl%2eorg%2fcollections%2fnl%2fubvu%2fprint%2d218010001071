@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -7,6 +8,7 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
@@ -20,6 +22,17 @@ nl:id_33dedc1c67c0197ade2401ef843cfea05b5fc3ae oa:annotatedBy user:joan .
 nl:id_33dedc1c67c0197ade2401ef843cfea05b5fc3ae oa:hasBody <http://iconclass.org/71C117> .
 nl:id_33dedc1c67c0197ade2401ef843cfea05b5fc3ae oa:hasTarget ubvu:print-218010001071 .
 nl:id_33dedc1c67c0197ade2401ef843cfea05b5fc3ae oa:motivatedBy oa:tagging .
+
+nl:id_abf7fea3f9563679d3e7ab762a7b4074c5a7774a a oa:Annotation .
+nl:id_abf7fea3f9563679d3e7ab762a7b4074c5a7774a terms:title "Melchisedek" .
+nl:id_abf7fea3f9563679d3e7ab762a7b4074c5a7774a ui:annotationField bible:BibleCharacter .
+nl:id_abf7fea3f9563679d3e7ab762a7b4074c5a7774a ui:typingTime 0 .
+nl:id_abf7fea3f9563679d3e7ab762a7b4074c5a7774a oa:annotatedAt "2016-08-22T13:55:55+02:00"^^xsd:dateTime .
+nl:id_abf7fea3f9563679d3e7ab762a7b4074c5a7774a oa:annotatedBy user:paulinevandijk .
+nl:id_abf7fea3f9563679d3e7ab762a7b4074c5a7774a oa:hasBody resource:Melchizedek .
+nl:id_abf7fea3f9563679d3e7ab762a7b4074c5a7774a oa:hasTarget target:target_39d91b796381cc63bdfba6f0a2b4ec6d3031d894 .
+nl:id_abf7fea3f9563679d3e7ab762a7b4074c5a7774a oa:hasTarget ubvu:print-218010001071 .
+nl:id_abf7fea3f9563679d3e7ab762a7b4074c5a7774a oa:motivatedBy oa:tagging .
 
 nl:id_e29a4f052cada87899bd18987a7a957da691193c a oa:Annotation .
 nl:id_e29a4f052cada87899bd18987a7a957da691193c terms:title "Abram" .
@@ -50,6 +63,18 @@ target:selector_0129eeca5ca86806e6fd6a362a17e7db7895190f ui:x "0.473195876288659
 target:selector_0129eeca5ca86806e6fd6a362a17e7db7895190f ui:y "0.4193962748876044"^^xsd:float .
 target:selector_0129eeca5ca86806e6fd6a362a17e7db7895190f rdf:value "#xywh=percent:47,42,24,20" .
 
+target:selector_39d91b796381cc63bdfba6f0a2b4ec6d3031d894 a oa:FragmentSelector .
+target:selector_39d91b796381cc63bdfba6f0a2b4ec6d3031d894 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_39d91b796381cc63bdfba6f0a2b4ec6d3031d894 ui:h "0.18114011720831114"^^xsd:float .
+target:selector_39d91b796381cc63bdfba6f0a2b4ec6d3031d894 ui:w "0.27350427350427353"^^xsd:float .
+target:selector_39d91b796381cc63bdfba6f0a2b4ec6d3031d894 ui:x "0.45555555555555555"^^xsd:float .
+target:selector_39d91b796381cc63bdfba6f0a2b4ec6d3031d894 ui:y "0.42354821523708047"^^xsd:float .
+target:selector_39d91b796381cc63bdfba6f0a2b4ec6d3031d894 rdf:value "#xywh=percent:46,42,27,18" .
+
 target:target_0129eeca5ca86806e6fd6a362a17e7db7895190f a oa:SpecificResource .
 target:target_0129eeca5ca86806e6fd6a362a17e7db7895190f oa:hasSelector target:selector_0129eeca5ca86806e6fd6a362a17e7db7895190f .
 target:target_0129eeca5ca86806e6fd6a362a17e7db7895190f oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/112> .
+
+target:target_39d91b796381cc63bdfba6f0a2b4ec6d3031d894 a oa:SpecificResource .
+target:target_39d91b796381cc63bdfba6f0a2b4ec6d3031d894 oa:hasSelector target:selector_39d91b796381cc63bdfba6f0a2b4ec6d3031d894 .
+target:target_39d91b796381cc63bdfba6f0a2b4ec6d3031d894 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/112> .
