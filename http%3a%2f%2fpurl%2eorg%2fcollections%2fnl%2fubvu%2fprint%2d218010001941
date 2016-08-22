@@ -12,6 +12,17 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_80d1359ebdf999c735c40f2170835ed559306d2f a oa:Annotation .
+nl:id_80d1359ebdf999c735c40f2170835ed559306d2f terms:title "Agabus" .
+nl:id_80d1359ebdf999c735c40f2170835ed559306d2f ui:annotationField bible:BibleCharacter .
+nl:id_80d1359ebdf999c735c40f2170835ed559306d2f ui:typingTime 0 .
+nl:id_80d1359ebdf999c735c40f2170835ed559306d2f oa:annotatedAt "2016-08-22T14:05:58+02:00"^^xsd:dateTime .
+nl:id_80d1359ebdf999c735c40f2170835ed559306d2f oa:annotatedBy user:paulinevandijk .
+nl:id_80d1359ebdf999c735c40f2170835ed559306d2f oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Agabus" ] .
+nl:id_80d1359ebdf999c735c40f2170835ed559306d2f oa:hasTarget target:target_f9b597ae28366005679b0b1b16fb4c8cf511363c .
+nl:id_80d1359ebdf999c735c40f2170835ed559306d2f oa:hasTarget ubvu:print-218010001941 .
+nl:id_80d1359ebdf999c735c40f2170835ed559306d2f oa:motivatedBy oa:tagging .
+
 nl:id_8e924ec458bfd20b1dba1a5ac3656da7124fdf4f a oa:Annotation .
 nl:id_8e924ec458bfd20b1dba1a5ac3656da7124fdf4f terms:title "the arrest of Paul in Jerusalem is foretold by Agabus, who binds his own hands and feet with Paul's girdle" .
 nl:id_8e924ec458bfd20b1dba1a5ac3656da7124fdf4f ui:annotationField bible:ICBibleTheme .
@@ -79,6 +90,14 @@ target:selector_da7a389e94bf1e7f5b507ca176ec2c9749677683 ui:x "0.112"^^xsd:float
 target:selector_da7a389e94bf1e7f5b507ca176ec2c9749677683 ui:y "0.5046413502109705"^^xsd:float .
 target:selector_da7a389e94bf1e7f5b507ca176ec2c9749677683 rdf:value "#xywh=percent:11,50,42,26" .
 
+target:selector_f9b597ae28366005679b0b1b16fb4c8cf511363c a oa:FragmentSelector .
+target:selector_f9b597ae28366005679b0b1b16fb4c8cf511363c terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_f9b597ae28366005679b0b1b16fb4c8cf511363c ui:h "0.17783783783783783"^^xsd:float .
+target:selector_f9b597ae28366005679b0b1b16fb4c8cf511363c ui:w "0.2982905982905983"^^xsd:float .
+target:selector_f9b597ae28366005679b0b1b16fb4c8cf511363c ui:x "0.1282051282051282"^^xsd:float .
+target:selector_f9b597ae28366005679b0b1b16fb4c8cf511363c ui:y "0.49675675675675673"^^xsd:float .
+target:selector_f9b597ae28366005679b0b1b16fb4c8cf511363c rdf:value "#xywh=percent:13,50,30,18" .
+
 target:target_18ab362dd8f6b543d6e59625ff125b1075dc886e a oa:SpecificResource .
 target:target_18ab362dd8f6b543d6e59625ff125b1075dc886e oa:hasSelector target:selector_18ab362dd8f6b543d6e59625ff125b1075dc886e .
 target:target_18ab362dd8f6b543d6e59625ff125b1075dc886e oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/980> .
@@ -90,3 +109,7 @@ target:target_5d3ac51347287f077410eddbebc7e753443d42bc oa:hasSource <http://imag
 target:target_da7a389e94bf1e7f5b507ca176ec2c9749677683 a oa:SpecificResource .
 target:target_da7a389e94bf1e7f5b507ca176ec2c9749677683 oa:hasSelector target:selector_da7a389e94bf1e7f5b507ca176ec2c9749677683 .
 target:target_da7a389e94bf1e7f5b507ca176ec2c9749677683 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/980> .
+
+target:target_f9b597ae28366005679b0b1b16fb4c8cf511363c a oa:SpecificResource .
+target:target_f9b597ae28366005679b0b1b16fb4c8cf511363c oa:hasSelector target:selector_f9b597ae28366005679b0b1b16fb4c8cf511363c .
+target:target_f9b597ae28366005679b0b1b16fb4c8cf511363c oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/980> .
