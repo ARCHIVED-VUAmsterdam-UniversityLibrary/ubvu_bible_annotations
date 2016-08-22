@@ -59,3 +59,13 @@ nl:id_d7c60eadcffb3abfd650166d22a7bcf2f3e8f56f oa:annotatedBy user:jbn415 .
 nl:id_d7c60eadcffb3abfd650166d22a7bcf2f3e8f56f oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Solomon builds the temple" ] .
 nl:id_d7c60eadcffb3abfd650166d22a7bcf2f3e8f56f oa:hasTarget ubvu:print-218010002017 .
 nl:id_d7c60eadcffb3abfd650166d22a7bcf2f3e8f56f oa:motivatedBy oa:tagging .
+
+nl:id_f5bbf6498fb40e73fc7e2807173ed81ae0b774f3 a oa:Annotation .
+nl:id_f5bbf6498fb40e73fc7e2807173ed81ae0b774f3 terms:title "De bouw en inwijding van de tempel" .
+nl:id_f5bbf6498fb40e73fc7e2807173ed81ae0b774f3 ui:annotationField bible:ICBibleTheme .
+nl:id_f5bbf6498fb40e73fc7e2807173ed81ae0b774f3 ui:typingTime 0 .
+nl:id_f5bbf6498fb40e73fc7e2807173ed81ae0b774f3 oa:annotatedAt "2016-08-22T14:10:13+02:00"^^xsd:dateTime .
+nl:id_f5bbf6498fb40e73fc7e2807173ed81ae0b774f3 oa:annotatedBy user:paulinevandijk .
+nl:id_f5bbf6498fb40e73fc7e2807173ed81ae0b774f3 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "De bouw en inwijding van de tempel" ] .
+nl:id_f5bbf6498fb40e73fc7e2807173ed81ae0b774f3 oa:hasTarget ubvu:print-218010002017 .
+nl:id_f5bbf6498fb40e73fc7e2807173ed81ae0b774f3 oa:motivatedBy oa:tagging .
