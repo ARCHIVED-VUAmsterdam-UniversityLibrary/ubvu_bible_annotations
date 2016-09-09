@@ -67,6 +67,16 @@ nl:id_1305ce985fd8eeb6f645bd213395fef95daf1026 oa:hasBody [ a content:ContentAsT
 nl:id_1305ce985fd8eeb6f645bd213395fef95daf1026 oa:hasTarget ubvu:print-218010002033 .
 nl:id_1305ce985fd8eeb6f645bd213395fef95daf1026 oa:motivatedBy oa:tagging .
 
+nl:id_1570d9b751e59006f0a6d0d080ed7cecec53b99e a oa:Annotation .
+nl:id_1570d9b751e59006f0a6d0d080ed7cecec53b99e terms:title "John Baptist beheaded in the prison" .
+nl:id_1570d9b751e59006f0a6d0d080ed7cecec53b99e ui:annotationField bible:ICBibleTheme .
+nl:id_1570d9b751e59006f0a6d0d080ed7cecec53b99e ui:typingTime 0 .
+nl:id_1570d9b751e59006f0a6d0d080ed7cecec53b99e oa:annotatedAt "2016-09-09T20:51:21+02:00"^^xsd:dateTime .
+nl:id_1570d9b751e59006f0a6d0d080ed7cecec53b99e oa:annotatedBy user:everhoeff .
+nl:id_1570d9b751e59006f0a6d0d080ed7cecec53b99e oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "John Baptist beheaded in the prison" ] .
+nl:id_1570d9b751e59006f0a6d0d080ed7cecec53b99e oa:hasTarget ubvu:print-218010002033 .
+nl:id_1570d9b751e59006f0a6d0d080ed7cecec53b99e oa:motivatedBy oa:tagging .
+
 nl:id_1c385082e14eeef6bb311b583e884ac389b56632 a oa:Annotation .
 nl:id_1c385082e14eeef6bb311b583e884ac389b56632 terms:title "Petrus" .
 nl:id_1c385082e14eeef6bb311b583e884ac389b56632 ui:annotationField bible:BibleCharacter .
