@@ -213,6 +213,16 @@ nl:id_64ca2b3e5f814e742f514747c2a6d266f59dcf1c oa:hasBody [ a content:ContentAsT
 nl:id_64ca2b3e5f814e742f514747c2a6d266f59dcf1c oa:hasTarget ubvu:print-218010002033 .
 nl:id_64ca2b3e5f814e742f514747c2a6d266f59dcf1c oa:motivatedBy oa:tagging .
 
+nl:id_6847ffa10da335d1764d20ac39804427cdd418be a oa:Annotation .
+nl:id_6847ffa10da335d1764d20ac39804427cdd418be terms:title "Peter saved by Jesus while sinking in the sea" .
+nl:id_6847ffa10da335d1764d20ac39804427cdd418be ui:annotationField bible:ICBibleTheme .
+nl:id_6847ffa10da335d1764d20ac39804427cdd418be ui:typingTime 0 .
+nl:id_6847ffa10da335d1764d20ac39804427cdd418be oa:annotatedAt "2016-09-09T20:57:05+02:00"^^xsd:dateTime .
+nl:id_6847ffa10da335d1764d20ac39804427cdd418be oa:annotatedBy user:everhoeff .
+nl:id_6847ffa10da335d1764d20ac39804427cdd418be oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Peter saved by Jesus while sinking in the sea" ] .
+nl:id_6847ffa10da335d1764d20ac39804427cdd418be oa:hasTarget ubvu:print-218010002033 .
+nl:id_6847ffa10da335d1764d20ac39804427cdd418be oa:motivatedBy oa:tagging .
+
 nl:id_6abca23a0de2145edd4eb8f51c6bb8641fa282ff a oa:Annotation .
 nl:id_6abca23a0de2145edd4eb8f51c6bb8641fa282ff terms:title "Jezus verheerlijkt op de berg" .
 nl:id_6abca23a0de2145edd4eb8f51c6bb8641fa282ff ui:annotationField bible:ICBibleTheme .
