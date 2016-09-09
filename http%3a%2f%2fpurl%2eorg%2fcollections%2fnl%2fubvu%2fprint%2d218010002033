@@ -330,6 +330,16 @@ nl:id_a3f88c8db4a07e257273923fd2ae2b503aa56abe oa:hasTarget target:target_b2e51c
 nl:id_a3f88c8db4a07e257273923fd2ae2b503aa56abe oa:hasTarget ubvu:print-218010002033 .
 nl:id_a3f88c8db4a07e257273923fd2ae2b503aa56abe oa:motivatedBy oa:tagging .
 
+nl:id_aa1f989464fcbc1d660042793fd4d6cdd1186d81 a oa:Annotation .
+nl:id_aa1f989464fcbc1d660042793fd4d6cdd1186d81 terms:title "Feeding of five thousend" .
+nl:id_aa1f989464fcbc1d660042793fd4d6cdd1186d81 ui:annotationField bible:ICBibleTheme .
+nl:id_aa1f989464fcbc1d660042793fd4d6cdd1186d81 ui:typingTime 0 .
+nl:id_aa1f989464fcbc1d660042793fd4d6cdd1186d81 oa:annotatedAt "2016-09-09T21:00:25+02:00"^^xsd:dateTime .
+nl:id_aa1f989464fcbc1d660042793fd4d6cdd1186d81 oa:annotatedBy user:everhoeff .
+nl:id_aa1f989464fcbc1d660042793fd4d6cdd1186d81 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Feeding of five thousend" ] .
+nl:id_aa1f989464fcbc1d660042793fd4d6cdd1186d81 oa:hasTarget ubvu:print-218010002033 .
+nl:id_aa1f989464fcbc1d660042793fd4d6cdd1186d81 oa:motivatedBy oa:tagging .
+
 nl:id_ada1276a4adb8945ecd6fa5b7fca1b3fed887a6c a oa:Annotation .
 nl:id_ada1276a4adb8945ecd6fa5b7fca1b3fed887a6c terms:title "Salome is given the head of John the Baptist by the executioner" .
 nl:id_ada1276a4adb8945ecd6fa5b7fca1b3fed887a6c ui:annotationField bible:ICBibleTheme .
