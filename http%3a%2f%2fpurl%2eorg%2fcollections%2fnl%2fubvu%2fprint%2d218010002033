@@ -233,6 +233,17 @@ nl:id_6abca23a0de2145edd4eb8f51c6bb8641fa282ff oa:hasBody [ a content:ContentAsT
 nl:id_6abca23a0de2145edd4eb8f51c6bb8641fa282ff oa:hasTarget ubvu:print-218010002033 .
 nl:id_6abca23a0de2145edd4eb8f51c6bb8641fa282ff oa:motivatedBy oa:tagging .
 
+nl:id_75f9daed6a05d6be991eb07588ad82b4900d84c4 a oa:Annotation .
+nl:id_75f9daed6a05d6be991eb07588ad82b4900d84c4 terms:title "John the Baptist" .
+nl:id_75f9daed6a05d6be991eb07588ad82b4900d84c4 ui:annotationField bible:BibleCharacter .
+nl:id_75f9daed6a05d6be991eb07588ad82b4900d84c4 ui:typingTime 0 .
+nl:id_75f9daed6a05d6be991eb07588ad82b4900d84c4 oa:annotatedAt "2016-09-09T20:59:09+02:00"^^xsd:dateTime .
+nl:id_75f9daed6a05d6be991eb07588ad82b4900d84c4 oa:annotatedBy user:everhoeff .
+nl:id_75f9daed6a05d6be991eb07588ad82b4900d84c4 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "John the Baptist" ] .
+nl:id_75f9daed6a05d6be991eb07588ad82b4900d84c4 oa:hasTarget target:target_4bd67fc49c5724368a8ddafbbd1705ba3f4df9c9 .
+nl:id_75f9daed6a05d6be991eb07588ad82b4900d84c4 oa:hasTarget ubvu:print-218010002033 .
+nl:id_75f9daed6a05d6be991eb07588ad82b4900d84c4 oa:motivatedBy oa:tagging .
+
 nl:id_7cf4004fddf10527ae6b1fd19be226cd4f118182 a oa:Annotation .
 nl:id_7cf4004fddf10527ae6b1fd19be226cd4f118182 terms:title "the Transfiguration: Moses and Elijah appear on either side of Christ on Mount Tabor (Matthew 17:1-13; Mark 9:2-13; Luke 9:28-36)" .
 nl:id_7cf4004fddf10527ae6b1fd19be226cd4f118182 ui:annotationField bible:ICBibleTheme .
@@ -513,6 +524,14 @@ target:selector_3689b00de3d324313325cf7440233524a21c5e13 ui:x "0.356410256410256
 target:selector_3689b00de3d324313325cf7440233524a21c5e13 ui:y "0.6993047508690614"^^xsd:float .
 target:selector_3689b00de3d324313325cf7440233524a21c5e13 rdf:value "#xywh=percent:36,70,12,12" .
 
+target:selector_4bd67fc49c5724368a8ddafbbd1705ba3f4df9c9 a oa:FragmentSelector .
+target:selector_4bd67fc49c5724368a8ddafbbd1705ba3f4df9c9 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_4bd67fc49c5724368a8ddafbbd1705ba3f4df9c9 ui:h "0.09494949494949495"^^xsd:float .
+target:selector_4bd67fc49c5724368a8ddafbbd1705ba3f4df9c9 ui:w "0.04769001490312966"^^xsd:float .
+target:selector_4bd67fc49c5724368a8ddafbbd1705ba3f4df9c9 ui:x "0.5573770491803278"^^xsd:float .
+target:selector_4bd67fc49c5724368a8ddafbbd1705ba3f4df9c9 ui:y "0.12828282828282828"^^xsd:float .
+target:selector_4bd67fc49c5724368a8ddafbbd1705ba3f4df9c9 rdf:value "#xywh=percent:56,13,5,9" .
+
 target:selector_51196c1a3e779e8b3aabd8deba9c710791549c57 a oa:FragmentSelector .
 target:selector_51196c1a3e779e8b3aabd8deba9c710791549c57 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_51196c1a3e779e8b3aabd8deba9c710791549c57 ui:h "0.06488991888760139"^^xsd:float .
@@ -676,6 +695,10 @@ target:target_35ef46b86750701d6151287f2fcc66c9fed37218 oa:hasSource <http://imag
 target:target_3689b00de3d324313325cf7440233524a21c5e13 a oa:SpecificResource .
 target:target_3689b00de3d324313325cf7440233524a21c5e13 oa:hasSelector target:selector_3689b00de3d324313325cf7440233524a21c5e13 .
 target:target_3689b00de3d324313325cf7440233524a21c5e13 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/32> .
+
+target:target_4bd67fc49c5724368a8ddafbbd1705ba3f4df9c9 a oa:SpecificResource .
+target:target_4bd67fc49c5724368a8ddafbbd1705ba3f4df9c9 oa:hasSelector target:selector_4bd67fc49c5724368a8ddafbbd1705ba3f4df9c9 .
+target:target_4bd67fc49c5724368a8ddafbbd1705ba3f4df9c9 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/32> .
 
 target:target_51196c1a3e779e8b3aabd8deba9c710791549c57 a oa:SpecificResource .
 target:target_51196c1a3e779e8b3aabd8deba9c710791549c57 oa:hasSelector target:selector_51196c1a3e779e8b3aabd8deba9c710791549c57 .
