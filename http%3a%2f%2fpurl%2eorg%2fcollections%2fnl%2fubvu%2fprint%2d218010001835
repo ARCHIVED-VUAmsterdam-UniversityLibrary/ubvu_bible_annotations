@@ -13,6 +13,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_12d621134cbca6a5bdbe31d6cf66409f99f36cc8 a oa:Annotation .
+nl:id_12d621134cbca6a5bdbe31d6cf66409f99f36cc8 terms:title "Jezus vindt zijn leerlingen slapende" .
+nl:id_12d621134cbca6a5bdbe31d6cf66409f99f36cc8 ui:annotationField bible:ICBibleTheme .
+nl:id_12d621134cbca6a5bdbe31d6cf66409f99f36cc8 ui:typingTime 0 .
+nl:id_12d621134cbca6a5bdbe31d6cf66409f99f36cc8 oa:annotatedAt "2016-09-10T18:57:44+02:00"^^xsd:dateTime .
+nl:id_12d621134cbca6a5bdbe31d6cf66409f99f36cc8 oa:annotatedBy user:paulinevandijk .
+nl:id_12d621134cbca6a5bdbe31d6cf66409f99f36cc8 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jezus vindt zijn leerlingen slapende" ] .
+nl:id_12d621134cbca6a5bdbe31d6cf66409f99f36cc8 oa:hasTarget ubvu:print-218010001835 .
+nl:id_12d621134cbca6a5bdbe31d6cf66409f99f36cc8 oa:motivatedBy oa:tagging .
+
 nl:id_3693550727cfa53b5b268ea3c07dc1107974befc a oa:Annotation .
 nl:id_3693550727cfa53b5b268ea3c07dc1107974befc terms:title "Jesus finds his disciples sleeping" .
 nl:id_3693550727cfa53b5b268ea3c07dc1107974befc ui:annotationField bible:ICBibleTheme .
