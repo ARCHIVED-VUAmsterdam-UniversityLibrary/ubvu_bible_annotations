@@ -13,6 +13,17 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_10a25d3b64b42c99e9d465838355517f04b3ed61 a oa:Annotation .
+nl:id_10a25d3b64b42c99e9d465838355517f04b3ed61 terms:title "hoveling uit Kafarnaüm" .
+nl:id_10a25d3b64b42c99e9d465838355517f04b3ed61 ui:annotationField bible:BibleCharacter .
+nl:id_10a25d3b64b42c99e9d465838355517f04b3ed61 ui:typingTime 0 .
+nl:id_10a25d3b64b42c99e9d465838355517f04b3ed61 oa:annotatedAt "2016-09-10T19:00:01+02:00"^^xsd:dateTime .
+nl:id_10a25d3b64b42c99e9d465838355517f04b3ed61 oa:annotatedBy user:paulinevandijk .
+nl:id_10a25d3b64b42c99e9d465838355517f04b3ed61 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "hoveling uit Kafarnaüm" ] .
+nl:id_10a25d3b64b42c99e9d465838355517f04b3ed61 oa:hasTarget target:target_a70bdf5b2a833d7eae69e887da33e64eacee6653 .
+nl:id_10a25d3b64b42c99e9d465838355517f04b3ed61 oa:hasTarget ubvu:print-218010001750 .
+nl:id_10a25d3b64b42c99e9d465838355517f04b3ed61 oa:motivatedBy oa:tagging .
+
 nl:id_4fcb541c9ff7d83411536bc0cf3e97f861554636 a oa:Annotation .
 nl:id_4fcb541c9ff7d83411536bc0cf3e97f861554636 terms:title "A nobleman came to Jesus and besought him to heal his son" .
 nl:id_4fcb541c9ff7d83411536bc0cf3e97f861554636 ui:annotationField bible:ICBibleTheme .
@@ -82,6 +93,14 @@ target:selector_59c4d800e91a35f07f4af435c542533baec5f2df ui:x "0.706666666666666
 target:selector_59c4d800e91a35f07f4af435c542533baec5f2df ui:y "0.504725897920605"^^xsd:float .
 target:selector_59c4d800e91a35f07f4af435c542533baec5f2df rdf:value "#xywh=percent:71,50,15,22" .
 
+target:selector_a70bdf5b2a833d7eae69e887da33e64eacee6653 a oa:FragmentSelector .
+target:selector_a70bdf5b2a833d7eae69e887da33e64eacee6653 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_a70bdf5b2a833d7eae69e887da33e64eacee6653 ui:h "0.2033898305084746"^^xsd:float .
+target:selector_a70bdf5b2a833d7eae69e887da33e64eacee6653 ui:w "0.1735042735042735"^^xsd:float .
+target:selector_a70bdf5b2a833d7eae69e887da33e64eacee6653 ui:x "0.5111111111111111"^^xsd:float .
+target:selector_a70bdf5b2a833d7eae69e887da33e64eacee6653 ui:y "0.5151331719128329"^^xsd:float .
+target:selector_a70bdf5b2a833d7eae69e887da33e64eacee6653 rdf:value "#xywh=percent:51,52,17,20" .
+
 target:selector_b65cd27e0f0b607ac99c50a1de80748db7de6222 a oa:FragmentSelector .
 target:selector_b65cd27e0f0b607ac99c50a1de80748db7de6222 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_b65cd27e0f0b607ac99c50a1de80748db7de6222 ui:h "0.2148910411622276"^^xsd:float .
@@ -97,6 +116,10 @@ target:target_1c589ddbb04282020dc2d7b2197ebd8526e0e052 oa:hasSource <http://imag
 target:target_59c4d800e91a35f07f4af435c542533baec5f2df a oa:SpecificResource .
 target:target_59c4d800e91a35f07f4af435c542533baec5f2df oa:hasSelector target:selector_59c4d800e91a35f07f4af435c542533baec5f2df .
 target:target_59c4d800e91a35f07f4af435c542533baec5f2df oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/789> .
+
+target:target_a70bdf5b2a833d7eae69e887da33e64eacee6653 a oa:SpecificResource .
+target:target_a70bdf5b2a833d7eae69e887da33e64eacee6653 oa:hasSelector target:selector_a70bdf5b2a833d7eae69e887da33e64eacee6653 .
+target:target_a70bdf5b2a833d7eae69e887da33e64eacee6653 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/789> .
 
 target:target_b65cd27e0f0b607ac99c50a1de80748db7de6222 a oa:SpecificResource .
 target:target_b65cd27e0f0b607ac99c50a1de80748db7de6222 oa:hasSelector target:selector_b65cd27e0f0b607ac99c50a1de80748db7de6222 .
