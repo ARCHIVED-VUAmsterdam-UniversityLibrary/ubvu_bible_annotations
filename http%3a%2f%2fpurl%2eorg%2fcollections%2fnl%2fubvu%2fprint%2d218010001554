@@ -66,6 +66,16 @@ nl:id_675afee64308357732f8b287a796bb463f133c19 oa:hasTarget target:target_d0f605
 nl:id_675afee64308357732f8b287a796bb463f133c19 oa:hasTarget ubvu:print-218010001554 .
 nl:id_675afee64308357732f8b287a796bb463f133c19 oa:motivatedBy oa:tagging .
 
+nl:id_948c329baa6ff97ffd9a7ba106449697d14fddfb a oa:Annotation .
+nl:id_948c329baa6ff97ffd9a7ba106449697d14fddfb terms:title "Manasse" .
+nl:id_948c329baa6ff97ffd9a7ba106449697d14fddfb ui:annotationField bible:ICBibleTheme .
+nl:id_948c329baa6ff97ffd9a7ba106449697d14fddfb ui:typingTime 0 .
+nl:id_948c329baa6ff97ffd9a7ba106449697d14fddfb oa:annotatedAt "2016-09-16T13:26:34+02:00"^^xsd:dateTime .
+nl:id_948c329baa6ff97ffd9a7ba106449697d14fddfb oa:annotatedBy user:everhoeff .
+nl:id_948c329baa6ff97ffd9a7ba106449697d14fddfb oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Manasse" ] .
+nl:id_948c329baa6ff97ffd9a7ba106449697d14fddfb oa:hasTarget ubvu:print-218010001554 .
+nl:id_948c329baa6ff97ffd9a7ba106449697d14fddfb oa:motivatedBy oa:tagging .
+
 target:selector_04a0c608bb66153e49e9e71d35726406534b8d5a a oa:FragmentSelector .
 target:selector_04a0c608bb66153e49e9e71d35726406534b8d5a terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_04a0c608bb66153e49e9e71d35726406534b8d5a ui:h "0.18419144307469182"^^xsd:float .
