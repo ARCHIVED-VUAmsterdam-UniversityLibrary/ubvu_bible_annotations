@@ -46,6 +46,16 @@ nl:id_87265c9675761ddf5e8134062659a299f4905248 oa:hasTarget target:target_b75cc4
 nl:id_87265c9675761ddf5e8134062659a299f4905248 oa:hasTarget ubvu:print-218010001437 .
 nl:id_87265c9675761ddf5e8134062659a299f4905248 oa:motivatedBy oa:tagging .
 
+nl:id_96652c663dfa87765c2e6bb124f2a39180b173da a oa:Annotation .
+nl:id_96652c663dfa87765c2e6bb124f2a39180b173da terms:title "Saul's heart is changed" .
+nl:id_96652c663dfa87765c2e6bb124f2a39180b173da ui:annotationField bible:ICBibleTheme .
+nl:id_96652c663dfa87765c2e6bb124f2a39180b173da ui:typingTime 0 .
+nl:id_96652c663dfa87765c2e6bb124f2a39180b173da oa:annotatedAt "2016-10-04T21:50:50+02:00"^^xsd:dateTime .
+nl:id_96652c663dfa87765c2e6bb124f2a39180b173da oa:annotatedBy user:hogguer .
+nl:id_96652c663dfa87765c2e6bb124f2a39180b173da oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Saul's heart is changed" ] .
+nl:id_96652c663dfa87765c2e6bb124f2a39180b173da oa:hasTarget ubvu:print-218010001437 .
+nl:id_96652c663dfa87765c2e6bb124f2a39180b173da oa:motivatedBy oa:tagging .
+
 nl:id_cb5923d47c663fd69aa080582cea404a4992e85b a oa:Annotation .
 nl:id_cb5923d47c663fd69aa080582cea404a4992e85b terms:title "Saul onder de profeten" .
 nl:id_cb5923d47c663fd69aa080582cea404a4992e85b ui:annotationField bible:ICBibleTheme .
