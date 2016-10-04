@@ -6,9 +6,22 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
+
+nl:id_0315576fd556214e015f5c62a9e11b8d70ecf3ca a oa:Annotation .
+nl:id_0315576fd556214e015f5c62a9e11b8d70ecf3ca terms:title "Mozes" .
+nl:id_0315576fd556214e015f5c62a9e11b8d70ecf3ca ui:annotationField bible:BibleCharacter .
+nl:id_0315576fd556214e015f5c62a9e11b8d70ecf3ca ui:typingTime 0 .
+nl:id_0315576fd556214e015f5c62a9e11b8d70ecf3ca oa:annotatedAt "2016-10-04T21:44:47+02:00"^^xsd:dateTime .
+nl:id_0315576fd556214e015f5c62a9e11b8d70ecf3ca oa:annotatedBy user:hogguer .
+nl:id_0315576fd556214e015f5c62a9e11b8d70ecf3ca oa:hasBody resource:Moses .
+nl:id_0315576fd556214e015f5c62a9e11b8d70ecf3ca oa:hasTarget target:target_1142562e3bcde5cce5a1b270ccba3b5549e59916 .
+nl:id_0315576fd556214e015f5c62a9e11b8d70ecf3ca oa:hasTarget ubvu:print-218010001224 .
+nl:id_0315576fd556214e015f5c62a9e11b8d70ecf3ca oa:motivatedBy oa:tagging .
 
 nl:id_03205cdf5b6944b178e130ff40715d3fdf511d24 a oa:Annotation .
 nl:id_03205cdf5b6944b178e130ff40715d3fdf511d24 terms:title "Pharao and his army engulfed in the Red Sea " .
@@ -39,3 +52,15 @@ nl:id_bff66e72b2550cde3d099ad4218db2cc42519212 oa:annotatedBy user:everhoeff .
 nl:id_bff66e72b2550cde3d099ad4218db2cc42519212 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Pharaoh and his army drowned in the Red Sea" ] .
 nl:id_bff66e72b2550cde3d099ad4218db2cc42519212 oa:hasTarget ubvu:print-218010001224 .
 nl:id_bff66e72b2550cde3d099ad4218db2cc42519212 oa:motivatedBy oa:tagging .
+
+target:selector_1142562e3bcde5cce5a1b270ccba3b5549e59916 a oa:FragmentSelector .
+target:selector_1142562e3bcde5cce5a1b270ccba3b5549e59916 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_1142562e3bcde5cce5a1b270ccba3b5549e59916 ui:h "0.11489607390300231"^^xsd:float .
+target:selector_1142562e3bcde5cce5a1b270ccba3b5549e59916 ui:w "0.06837606837606838"^^xsd:float .
+target:selector_1142562e3bcde5cce5a1b270ccba3b5549e59916 ui:x "0.29572649572649573"^^xsd:float .
+target:selector_1142562e3bcde5cce5a1b270ccba3b5549e59916 ui:y "0.28752886836027713"^^xsd:float .
+target:selector_1142562e3bcde5cce5a1b270ccba3b5549e59916 rdf:value "#xywh=percent:30,29,7,11" .
+
+target:target_1142562e3bcde5cce5a1b270ccba3b5549e59916 a oa:SpecificResource .
+target:target_1142562e3bcde5cce5a1b270ccba3b5549e59916 oa:hasSelector target:selector_1142562e3bcde5cce5a1b270ccba3b5549e59916 .
+target:target_1142562e3bcde5cce5a1b270ccba3b5549e59916 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/265> .
