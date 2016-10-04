@@ -35,6 +35,17 @@ nl:id_75e6d10484941d75d873f2253d754983bbb937cd oa:hasTarget target:target_3a06da
 nl:id_75e6d10484941d75d873f2253d754983bbb937cd oa:hasTarget ubvu:print-218010001437 .
 nl:id_75e6d10484941d75d873f2253d754983bbb937cd oa:motivatedBy oa:tagging .
 
+nl:id_87265c9675761ddf5e8134062659a299f4905248 a oa:Annotation .
+nl:id_87265c9675761ddf5e8134062659a299f4905248 terms:title "Saul" .
+nl:id_87265c9675761ddf5e8134062659a299f4905248 ui:annotationField bible:BibleCharacter .
+nl:id_87265c9675761ddf5e8134062659a299f4905248 ui:typingTime 0 .
+nl:id_87265c9675761ddf5e8134062659a299f4905248 oa:annotatedAt "2016-10-04T21:49:09+02:00"^^xsd:dateTime .
+nl:id_87265c9675761ddf5e8134062659a299f4905248 oa:annotatedBy user:hogguer .
+nl:id_87265c9675761ddf5e8134062659a299f4905248 oa:hasBody resource:Saul .
+nl:id_87265c9675761ddf5e8134062659a299f4905248 oa:hasTarget target:target_b75cc4aee5e58950d39826d4c2ab26fe6b949e3b .
+nl:id_87265c9675761ddf5e8134062659a299f4905248 oa:hasTarget ubvu:print-218010001437 .
+nl:id_87265c9675761ddf5e8134062659a299f4905248 oa:motivatedBy oa:tagging .
+
 nl:id_cb5923d47c663fd69aa080582cea404a4992e85b a oa:Annotation .
 nl:id_cb5923d47c663fd69aa080582cea404a4992e85b terms:title "Saul onder de profeten" .
 nl:id_cb5923d47c663fd69aa080582cea404a4992e85b ui:annotationField bible:ICBibleTheme .
@@ -71,6 +82,14 @@ target:selector_3a06dadb3c98183923388a9adf90e74e32b43d4b ui:x "0.164948453608247
 target:selector_3a06dadb3c98183923388a9adf90e74e32b43d4b ui:y "0.40743388134381703"^^xsd:float .
 target:selector_3a06dadb3c98183923388a9adf90e74e32b43d4b rdf:value "#xywh=percent:16,41,24,39" .
 
+target:selector_b75cc4aee5e58950d39826d4c2ab26fe6b949e3b a oa:FragmentSelector .
+target:selector_b75cc4aee5e58950d39826d4c2ab26fe6b949e3b terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_b75cc4aee5e58950d39826d4c2ab26fe6b949e3b ui:h "0.4928909952606635"^^xsd:float .
+target:selector_b75cc4aee5e58950d39826d4c2ab26fe6b949e3b ui:w "0.25982905982905985"^^xsd:float .
+target:selector_b75cc4aee5e58950d39826d4c2ab26fe6b949e3b ui:x "0.12307692307692308"^^xsd:float .
+target:selector_b75cc4aee5e58950d39826d4c2ab26fe6b949e3b ui:y "0.34419431279620855"^^xsd:float .
+target:selector_b75cc4aee5e58950d39826d4c2ab26fe6b949e3b rdf:value "#xywh=percent:12,34,26,49" .
+
 target:target_14ba03dfdce233ead6534aec193e2cf813edbbe4 a oa:SpecificResource .
 target:target_14ba03dfdce233ead6534aec193e2cf813edbbe4 oa:hasSelector target:selector_14ba03dfdce233ead6534aec193e2cf813edbbe4 .
 target:target_14ba03dfdce233ead6534aec193e2cf813edbbe4 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/478> .
@@ -78,3 +97,7 @@ target:target_14ba03dfdce233ead6534aec193e2cf813edbbe4 oa:hasSource <http://imag
 target:target_3a06dadb3c98183923388a9adf90e74e32b43d4b a oa:SpecificResource .
 target:target_3a06dadb3c98183923388a9adf90e74e32b43d4b oa:hasSelector target:selector_3a06dadb3c98183923388a9adf90e74e32b43d4b .
 target:target_3a06dadb3c98183923388a9adf90e74e32b43d4b oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/478> .
+
+target:target_b75cc4aee5e58950d39826d4c2ab26fe6b949e3b a oa:SpecificResource .
+target:target_b75cc4aee5e58950d39826d4c2ab26fe6b949e3b oa:hasSelector target:selector_b75cc4aee5e58950d39826d4c2ab26fe6b949e3b .
+target:target_b75cc4aee5e58950d39826d4c2ab26fe6b949e3b oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/478> .
