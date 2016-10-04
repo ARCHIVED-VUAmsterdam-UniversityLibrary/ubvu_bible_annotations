@@ -45,6 +45,16 @@ nl:id_70cc3231f580b9d446c520074c736c186f5289de oa:hasTarget target:target_efe571
 nl:id_70cc3231f580b9d446c520074c736c186f5289de oa:hasTarget ubvu:print-218010001243 .
 nl:id_70cc3231f580b9d446c520074c736c186f5289de oa:motivatedBy oa:tagging .
 
+nl:id_b6cbffc2421a2d091d68c5ac97293eeb3d7580a7 a oa:Annotation .
+nl:id_b6cbffc2421a2d091d68c5ac97293eeb3d7580a7 terms:title "Worshipping the golden calf" .
+nl:id_b6cbffc2421a2d091d68c5ac97293eeb3d7580a7 ui:annotationField bible:ICBibleTheme .
+nl:id_b6cbffc2421a2d091d68c5ac97293eeb3d7580a7 ui:typingTime 0 .
+nl:id_b6cbffc2421a2d091d68c5ac97293eeb3d7580a7 oa:annotatedAt "2016-10-04T21:56:05+02:00"^^xsd:dateTime .
+nl:id_b6cbffc2421a2d091d68c5ac97293eeb3d7580a7 oa:annotatedBy user:hogguer .
+nl:id_b6cbffc2421a2d091d68c5ac97293eeb3d7580a7 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Worshipping the golden calf" ] .
+nl:id_b6cbffc2421a2d091d68c5ac97293eeb3d7580a7 oa:hasTarget ubvu:print-218010001243 .
+nl:id_b6cbffc2421a2d091d68c5ac97293eeb3d7580a7 oa:motivatedBy oa:tagging .
+
 nl:id_cae873c75bb2eef3976e9fdd7f064128db7e5136 a oa:Annotation .
 nl:id_cae873c75bb2eef3976e9fdd7f064128db7e5136 terms:title "Aaron builds an altar and offers a sacrifice to the golden calf" .
 nl:id_cae873c75bb2eef3976e9fdd7f064128db7e5136 ui:annotationField bible:ICBibleTheme .
