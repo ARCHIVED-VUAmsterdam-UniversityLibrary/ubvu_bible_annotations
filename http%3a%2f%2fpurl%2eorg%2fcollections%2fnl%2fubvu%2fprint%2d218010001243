@@ -6,9 +6,21 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
+
+nl:id_70cc3231f580b9d446c520074c736c186f5289de a oa:Annotation .
+nl:id_70cc3231f580b9d446c520074c736c186f5289de terms:title "Aaron" .
+nl:id_70cc3231f580b9d446c520074c736c186f5289de ui:annotationField bible:BibleCharacter .
+nl:id_70cc3231f580b9d446c520074c736c186f5289de ui:typingTime 0 .
+nl:id_70cc3231f580b9d446c520074c736c186f5289de oa:annotatedAt "2016-10-04T21:54:11+02:00"^^xsd:dateTime .
+nl:id_70cc3231f580b9d446c520074c736c186f5289de oa:annotatedBy user:hogguer .
+nl:id_70cc3231f580b9d446c520074c736c186f5289de oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Aaron" ] .
+nl:id_70cc3231f580b9d446c520074c736c186f5289de oa:hasTarget target:target_efe5712f4a41fc36fb3043506a1fd93f6b20460e .
+nl:id_70cc3231f580b9d446c520074c736c186f5289de oa:hasTarget ubvu:print-218010001243 .
+nl:id_70cc3231f580b9d446c520074c736c186f5289de oa:motivatedBy oa:tagging .
 
 nl:id_cae873c75bb2eef3976e9fdd7f064128db7e5136 a oa:Annotation .
 nl:id_cae873c75bb2eef3976e9fdd7f064128db7e5136 terms:title "Aaron builds an altar and offers a sacrifice to the golden calf" .
@@ -29,3 +41,15 @@ nl:id_e426da1cb81a4b8f551a9fa2fc1118db42e343b3 oa:annotatedBy user:everhoeff .
 nl:id_e426da1cb81a4b8f551a9fa2fc1118db42e343b3 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The Israelites worship the Golden Calf                                             " ] .
 nl:id_e426da1cb81a4b8f551a9fa2fc1118db42e343b3 oa:hasTarget ubvu:print-218010001243 .
 nl:id_e426da1cb81a4b8f551a9fa2fc1118db42e343b3 oa:motivatedBy oa:tagging .
+
+target:selector_efe5712f4a41fc36fb3043506a1fd93f6b20460e a oa:FragmentSelector .
+target:selector_efe5712f4a41fc36fb3043506a1fd93f6b20460e terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_efe5712f4a41fc36fb3043506a1fd93f6b20460e ui:h "0.2915942028985507"^^xsd:float .
+target:selector_efe5712f4a41fc36fb3043506a1fd93f6b20460e ui:w "0.2205128205128205"^^xsd:float .
+target:selector_efe5712f4a41fc36fb3043506a1fd93f6b20460e ui:x "0.36923076923076925"^^xsd:float .
+target:selector_efe5712f4a41fc36fb3043506a1fd93f6b20460e ui:y "0.3356521739130435"^^xsd:float .
+target:selector_efe5712f4a41fc36fb3043506a1fd93f6b20460e rdf:value "#xywh=percent:37,34,22,29" .
+
+target:target_efe5712f4a41fc36fb3043506a1fd93f6b20460e a oa:SpecificResource .
+target:target_efe5712f4a41fc36fb3043506a1fd93f6b20460e oa:hasSelector target:selector_efe5712f4a41fc36fb3043506a1fd93f6b20460e .
+target:target_efe5712f4a41fc36fb3043506a1fd93f6b20460e oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/284> .
