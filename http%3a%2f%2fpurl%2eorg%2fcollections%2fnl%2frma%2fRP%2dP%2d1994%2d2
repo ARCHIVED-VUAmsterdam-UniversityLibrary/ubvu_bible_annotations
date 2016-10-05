@@ -12,6 +12,17 @@
 @prefix generic: <http://accurator.nl/ui/annotation/generic#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_2d79ad3beff1f75a18b79d30554fedb3bb6fd94e a oa:Annotation .
+nl:id_2d79ad3beff1f75a18b79d30554fedb3bb6fd94e terms:title "Vulkaan" .
+nl:id_2d79ad3beff1f75a18b79d30554fedb3bb6fd94e ui:annotationField generic:textFragment .
+nl:id_2d79ad3beff1f75a18b79d30554fedb3bb6fd94e ui:typingTime 0 .
+nl:id_2d79ad3beff1f75a18b79d30554fedb3bb6fd94e oa:annotatedAt "2016-10-05T12:32:45+02:00"^^xsd:dateTime .
+nl:id_2d79ad3beff1f75a18b79d30554fedb3bb6fd94e oa:annotatedBy user:maurice_ .
+nl:id_2d79ad3beff1f75a18b79d30554fedb3bb6fd94e oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Vulkaan" ] .
+nl:id_2d79ad3beff1f75a18b79d30554fedb3bb6fd94e oa:hasTarget target:target_d4f00c8265c0717e6d200cb85e044efb4ec66806 .
+nl:id_2d79ad3beff1f75a18b79d30554fedb3bb6fd94e oa:hasTarget rma:RP-P-1994-2 .
+nl:id_2d79ad3beff1f75a18b79d30554fedb3bb6fd94e oa:motivatedBy oa:tagging .
+
 nl:id_6d201da4c000fc0d6b1e0ee3760158158f2256c1 a oa:Annotation .
 nl:id_6d201da4c000fc0d6b1e0ee3760158158f2256c1 terms:title "Skyline" .
 nl:id_6d201da4c000fc0d6b1e0ee3760158158f2256c1 ui:annotationField generic:textFragment .
@@ -50,6 +61,14 @@ target:selector_8f2e7d98ae2f453d1e8e5b83387e2a9e3c8ffd26 ui:x "0.036752136752136
 target:selector_8f2e7d98ae2f453d1e8e5b83387e2a9e3c8ffd26 ui:y "0.55875"^^xsd:float .
 target:selector_8f2e7d98ae2f453d1e8e5b83387e2a9e3c8ffd26 rdf:value "#xywh=percent:4,56,92,8" .
 
+target:selector_d4f00c8265c0717e6d200cb85e044efb4ec66806 a oa:FragmentSelector .
+target:selector_d4f00c8265c0717e6d200cb85e044efb4ec66806 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_d4f00c8265c0717e6d200cb85e044efb4ec66806 ui:h "0.35875"^^xsd:float .
+target:selector_d4f00c8265c0717e6d200cb85e044efb4ec66806 ui:w "0.4982905982905983"^^xsd:float .
+target:selector_d4f00c8265c0717e6d200cb85e044efb4ec66806 ui:x "0.21452991452991452"^^xsd:float .
+target:selector_d4f00c8265c0717e6d200cb85e044efb4ec66806 ui:y "0.2"^^xsd:float .
+target:selector_d4f00c8265c0717e6d200cb85e044efb4ec66806 rdf:value "#xywh=percent:21,20,50,36" .
+
 target:target_346546f3b815ba84895b7d76f6ddfef2d424af83 a oa:SpecificResource .
 target:target_346546f3b815ba84895b7d76f6ddfef2d424af83 oa:hasSelector target:selector_346546f3b815ba84895b7d76f6ddfef2d424af83 .
 target:target_346546f3b815ba84895b7d76f6ddfef2d424af83 oa:hasSource <http://lh4.ggpht.com/tClRkdXlR5cKdaE94TKHqcDxZE3CPRCftnDLKeJ9NnN3IVrv8Q8Drgxf-b58tCbqANZMi6BlOWG2_n-5HJJ4T9WXt1aG=s0> .
@@ -57,3 +76,7 @@ target:target_346546f3b815ba84895b7d76f6ddfef2d424af83 oa:hasSource <http://lh4.
 target:target_8f2e7d98ae2f453d1e8e5b83387e2a9e3c8ffd26 a oa:SpecificResource .
 target:target_8f2e7d98ae2f453d1e8e5b83387e2a9e3c8ffd26 oa:hasSelector target:selector_8f2e7d98ae2f453d1e8e5b83387e2a9e3c8ffd26 .
 target:target_8f2e7d98ae2f453d1e8e5b83387e2a9e3c8ffd26 oa:hasSource <http://lh4.ggpht.com/tClRkdXlR5cKdaE94TKHqcDxZE3CPRCftnDLKeJ9NnN3IVrv8Q8Drgxf-b58tCbqANZMi6BlOWG2_n-5HJJ4T9WXt1aG=s0> .
+
+target:target_d4f00c8265c0717e6d200cb85e044efb4ec66806 a oa:SpecificResource .
+target:target_d4f00c8265c0717e6d200cb85e044efb4ec66806 oa:hasSelector target:selector_d4f00c8265c0717e6d200cb85e044efb4ec66806 .
+target:target_d4f00c8265c0717e6d200cb85e044efb4ec66806 oa:hasSource <http://lh4.ggpht.com/tClRkdXlR5cKdaE94TKHqcDxZE3CPRCftnDLKeJ9NnN3IVrv8Q8Drgxf-b58tCbqANZMi6BlOWG2_n-5HJJ4T9WXt1aG=s0> .
