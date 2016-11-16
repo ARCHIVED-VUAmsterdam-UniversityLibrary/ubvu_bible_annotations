@@ -13,6 +13,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_0823a88de1c7898e7648be678f9d36ef35272b98 a oa:Annotation .
+nl:id_0823a88de1c7898e7648be678f9d36ef35272b98 terms:title "two sons of Aaron, Nadab and Abihu, offer incense in their censers to God, who punishes them for this by sending a fire that kills them" .
+nl:id_0823a88de1c7898e7648be678f9d36ef35272b98 ui:annotationField bible:ICBibleTheme .
+nl:id_0823a88de1c7898e7648be678f9d36ef35272b98 ui:typingTime 0 .
+nl:id_0823a88de1c7898e7648be678f9d36ef35272b98 oa:annotatedAt "2016-05-22T14:04:33+02:00"^^xsd:dateTime .
+nl:id_0823a88de1c7898e7648be678f9d36ef35272b98 oa:annotatedBy user:everhoeff .
+nl:id_0823a88de1c7898e7648be678f9d36ef35272b98 oa:hasBody <http://iconclass.org/71E231> .
+nl:id_0823a88de1c7898e7648be678f9d36ef35272b98 oa:hasTarget ubvu:print-218010002006 .
+nl:id_0823a88de1c7898e7648be678f9d36ef35272b98 oa:motivatedBy oa:tagging .
+
 nl:id_482d9b321d7599363092bb39d363d57ff8d96402 a oa:Annotation .
 nl:id_482d9b321d7599363092bb39d363d57ff8d96402 terms:title "Aäron" .
 nl:id_482d9b321d7599363092bb39d363d57ff8d96402 ui:annotationField bible:BibleCharacter .
@@ -23,6 +33,16 @@ nl:id_482d9b321d7599363092bb39d363d57ff8d96402 oa:hasBody [ a content:ContentAsT
 nl:id_482d9b321d7599363092bb39d363d57ff8d96402 oa:hasTarget target:target_0b0025591d2d7588394f35a2f1ef94fb0065f948 .
 nl:id_482d9b321d7599363092bb39d363d57ff8d96402 oa:hasTarget ubvu:print-218010002006 .
 nl:id_482d9b321d7599363092bb39d363d57ff8d96402 oa:motivatedBy oa:tagging .
+
+nl:id_712066055259f18fab2bac7f715e53e67d8b8abc a oa:Annotation .
+nl:id_712066055259f18fab2bac7f715e53e67d8b8abc terms:title "the sin of Nadab and Abihu (Leviticus 10:1-7)" .
+nl:id_712066055259f18fab2bac7f715e53e67d8b8abc ui:annotationField bible:ICBibleTheme .
+nl:id_712066055259f18fab2bac7f715e53e67d8b8abc ui:typingTime 0 .
+nl:id_712066055259f18fab2bac7f715e53e67d8b8abc oa:annotatedAt "2016-05-22T14:05:09+02:00"^^xsd:dateTime .
+nl:id_712066055259f18fab2bac7f715e53e67d8b8abc oa:annotatedBy user:everhoeff .
+nl:id_712066055259f18fab2bac7f715e53e67d8b8abc oa:hasBody <http://iconclass.org/71E23> .
+nl:id_712066055259f18fab2bac7f715e53e67d8b8abc oa:hasTarget ubvu:print-218010002006 .
+nl:id_712066055259f18fab2bac7f715e53e67d8b8abc oa:motivatedBy oa:tagging .
 
 nl:id_ccedbd19cd03714dc9017c7c94c93b8b3d46ec9d a oa:Annotation .
 nl:id_ccedbd19cd03714dc9017c7c94c93b8b3d46ec9d terms:title "Zalving van Aäron - Inwijding van het altaar" .

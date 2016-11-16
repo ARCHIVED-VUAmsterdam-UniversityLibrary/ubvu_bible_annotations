@@ -31,6 +31,16 @@ nl:id_1943c0e3524ac3cd586d1ee04b585e142837068d oa:hasBody [ a content:ContentAsT
 nl:id_1943c0e3524ac3cd586d1ee04b585e142837068d oa:hasTarget ubvu:print-218010001507 .
 nl:id_1943c0e3524ac3cd586d1ee04b585e142837068d oa:motivatedBy oa:tagging .
 
+nl:id_542ca91cb6915f025717f875a94a9aac049ac1e5 a oa:Annotation .
+nl:id_542ca91cb6915f025717f875a94a9aac049ac1e5 terms:title "The man of God slain by a Lion for his disobedience" .
+nl:id_542ca91cb6915f025717f875a94a9aac049ac1e5 ui:annotationField bible:ICBibleTheme .
+nl:id_542ca91cb6915f025717f875a94a9aac049ac1e5 ui:typingTime 0 .
+nl:id_542ca91cb6915f025717f875a94a9aac049ac1e5 oa:annotatedAt "2016-06-08T22:04:58+02:00"^^xsd:dateTime .
+nl:id_542ca91cb6915f025717f875a94a9aac049ac1e5 oa:annotatedBy user:everhoeff .
+nl:id_542ca91cb6915f025717f875a94a9aac049ac1e5 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The man of God slain by a Lion for his disobedience" ] .
+nl:id_542ca91cb6915f025717f875a94a9aac049ac1e5 oa:hasTarget ubvu:print-218010001507 .
+nl:id_542ca91cb6915f025717f875a94a9aac049ac1e5 oa:motivatedBy oa:tagging .
+
 nl:id_bb8d82e9a86f1da148e8f84c034697d00d3f20ab a oa:Annotation .
 nl:id_bb8d82e9a86f1da148e8f84c034697d00d3f20ab terms:title "Ongehoorzame profeet" .
 nl:id_bb8d82e9a86f1da148e8f84c034697d00d3f20ab ui:annotationField bible:BibleCharacter .

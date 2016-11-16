@@ -22,6 +22,16 @@ nl:id_8838f6c141e74aae5b607b7a1608f5b3897c69f6 oa:hasTarget target:target_022a86
 nl:id_8838f6c141e74aae5b607b7a1608f5b3897c69f6 oa:hasTarget ubvu:print-218010001186 .
 nl:id_8838f6c141e74aae5b607b7a1608f5b3897c69f6 oa:motivatedBy oa:tagging .
 
+nl:id_974d8d2739704ec374ed688b5ee9d2f39ac86dbb a oa:Annotation .
+nl:id_974d8d2739704ec374ed688b5ee9d2f39ac86dbb terms:title "-" .
+nl:id_974d8d2739704ec374ed688b5ee9d2f39ac86dbb ui:annotationField bible:ICBibleTheme .
+nl:id_974d8d2739704ec374ed688b5ee9d2f39ac86dbb ui:typingTime 0 .
+nl:id_974d8d2739704ec374ed688b5ee9d2f39ac86dbb oa:annotatedAt "2016-06-13T21:16:52+02:00"^^xsd:dateTime .
+nl:id_974d8d2739704ec374ed688b5ee9d2f39ac86dbb oa:annotatedBy user:everhoeff .
+nl:id_974d8d2739704ec374ed688b5ee9d2f39ac86dbb oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "-" ] .
+nl:id_974d8d2739704ec374ed688b5ee9d2f39ac86dbb oa:hasTarget ubvu:print-218010001186 .
+nl:id_974d8d2739704ec374ed688b5ee9d2f39ac86dbb oa:motivatedBy oa:tagging .
+
 nl:id_f250294ff4b7fa773df58b2c30f5aecbf42d75f5 a oa:Annotation .
 nl:id_f250294ff4b7fa773df58b2c30f5aecbf42d75f5 terms:title "devil" .
 nl:id_f250294ff4b7fa773df58b2c30f5aecbf42d75f5 ui:annotationField bible:BibleCharacter .

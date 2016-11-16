@@ -7,40 +7,39 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
-@prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
-nl:id_0ed4cc55cc4af073a1affc97c3bf4296568dedcd a oa:Annotation .
-nl:id_0ed4cc55cc4af073a1affc97c3bf4296568dedcd terms:title "Wederopstanding van Jezus" .
-nl:id_0ed4cc55cc4af073a1affc97c3bf4296568dedcd ui:annotationField bible:ICBibleTheme .
-nl:id_0ed4cc55cc4af073a1affc97c3bf4296568dedcd ui:typingTime 0 .
-nl:id_0ed4cc55cc4af073a1affc97c3bf4296568dedcd oa:annotatedAt "2016-04-23T16:18:13+02:00"^^xsd:dateTime .
-nl:id_0ed4cc55cc4af073a1affc97c3bf4296568dedcd oa:annotatedBy user:paulinevandijk .
-nl:id_0ed4cc55cc4af073a1affc97c3bf4296568dedcd oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Wederopstanding van Jezus" ] .
-nl:id_0ed4cc55cc4af073a1affc97c3bf4296568dedcd oa:hasTarget ubvu:print-218010001878 .
-nl:id_0ed4cc55cc4af073a1affc97c3bf4296568dedcd oa:motivatedBy oa:tagging .
+nl:id_707d125d7ff26d1c2b825c030b2bf0b59f27451b a oa:Annotation .
+nl:id_707d125d7ff26d1c2b825c030b2bf0b59f27451b terms:title "christ" .
+nl:id_707d125d7ff26d1c2b825c030b2bf0b59f27451b ui:annotationField bible:BibleCharacter .
+nl:id_707d125d7ff26d1c2b825c030b2bf0b59f27451b ui:typingTime 0 .
+nl:id_707d125d7ff26d1c2b825c030b2bf0b59f27451b oa:annotatedAt "2016-05-05T11:11:24+02:00"^^xsd:dateTime .
+nl:id_707d125d7ff26d1c2b825c030b2bf0b59f27451b oa:annotatedBy user:everhoeff .
+nl:id_707d125d7ff26d1c2b825c030b2bf0b59f27451b oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "christ" ] .
+nl:id_707d125d7ff26d1c2b825c030b2bf0b59f27451b oa:hasTarget target:target_a1c7a55420ef60fb9b81702dc67e9caf9d35662b .
+nl:id_707d125d7ff26d1c2b825c030b2bf0b59f27451b oa:hasTarget ubvu:print-218010001878 .
+nl:id_707d125d7ff26d1c2b825c030b2bf0b59f27451b oa:motivatedBy oa:tagging .
 
-nl:id_685269cdecf6f8e5340c23e78d74093da0c8455c a oa:Annotation .
-nl:id_685269cdecf6f8e5340c23e78d74093da0c8455c terms:title "Jezus Christus" .
-nl:id_685269cdecf6f8e5340c23e78d74093da0c8455c ui:annotationField bible:BibleCharacter .
-nl:id_685269cdecf6f8e5340c23e78d74093da0c8455c ui:typingTime 0 .
-nl:id_685269cdecf6f8e5340c23e78d74093da0c8455c oa:annotatedAt "2016-04-23T16:17:56+02:00"^^xsd:dateTime .
-nl:id_685269cdecf6f8e5340c23e78d74093da0c8455c oa:annotatedBy user:paulinevandijk .
-nl:id_685269cdecf6f8e5340c23e78d74093da0c8455c oa:hasBody resource:Jesus .
-nl:id_685269cdecf6f8e5340c23e78d74093da0c8455c oa:hasTarget target:target_8fbcd30b3fc176cfc0349b64b03795f8e09188d1 .
-nl:id_685269cdecf6f8e5340c23e78d74093da0c8455c oa:hasTarget ubvu:print-218010001878 .
-nl:id_685269cdecf6f8e5340c23e78d74093da0c8455c oa:motivatedBy oa:tagging .
+nl:id_712cf9c7425a7b009b5eb0ec4e8d8da40d0bd66b a oa:Annotation .
+nl:id_712cf9c7425a7b009b5eb0ec4e8d8da40d0bd66b terms:title "The resurrection of Christ" .
+nl:id_712cf9c7425a7b009b5eb0ec4e8d8da40d0bd66b ui:annotationField bible:ICBibleTheme .
+nl:id_712cf9c7425a7b009b5eb0ec4e8d8da40d0bd66b ui:typingTime 0 .
+nl:id_712cf9c7425a7b009b5eb0ec4e8d8da40d0bd66b oa:annotatedAt "2016-05-05T11:12:06+02:00"^^xsd:dateTime .
+nl:id_712cf9c7425a7b009b5eb0ec4e8d8da40d0bd66b oa:annotatedBy user:everhoeff .
+nl:id_712cf9c7425a7b009b5eb0ec4e8d8da40d0bd66b oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The resurrection of Christ" ] .
+nl:id_712cf9c7425a7b009b5eb0ec4e8d8da40d0bd66b oa:hasTarget ubvu:print-218010001878 .
+nl:id_712cf9c7425a7b009b5eb0ec4e8d8da40d0bd66b oa:motivatedBy oa:tagging .
 
-target:selector_8fbcd30b3fc176cfc0349b64b03795f8e09188d1 a oa:FragmentSelector .
-target:selector_8fbcd30b3fc176cfc0349b64b03795f8e09188d1 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
-target:selector_8fbcd30b3fc176cfc0349b64b03795f8e09188d1 ui:h "0.29814814814814816"^^xsd:float .
-target:selector_8fbcd30b3fc176cfc0349b64b03795f8e09188d1 ui:w "0.23066666666666666"^^xsd:float .
-target:selector_8fbcd30b3fc176cfc0349b64b03795f8e09188d1 ui:x "0.7"^^xsd:float .
-target:selector_8fbcd30b3fc176cfc0349b64b03795f8e09188d1 ui:y "0.1962962962962963"^^xsd:float .
-target:selector_8fbcd30b3fc176cfc0349b64b03795f8e09188d1 rdf:value "#xywh=percent:70,20,23,30" .
+target:selector_a1c7a55420ef60fb9b81702dc67e9caf9d35662b a oa:FragmentSelector .
+target:selector_a1c7a55420ef60fb9b81702dc67e9caf9d35662b terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_a1c7a55420ef60fb9b81702dc67e9caf9d35662b ui:h "0.3972222222222222"^^xsd:float .
+target:selector_a1c7a55420ef60fb9b81702dc67e9caf9d35662b ui:w "0.244"^^xsd:float .
+target:selector_a1c7a55420ef60fb9b81702dc67e9caf9d35662b ui:x "0.7013333333333334"^^xsd:float .
+target:selector_a1c7a55420ef60fb9b81702dc67e9caf9d35662b ui:y "0.20555555555555555"^^xsd:float .
+target:selector_a1c7a55420ef60fb9b81702dc67e9caf9d35662b rdf:value "#xywh=percent:70,21,24,40" .
 
-target:target_8fbcd30b3fc176cfc0349b64b03795f8e09188d1 a oa:SpecificResource .
-target:target_8fbcd30b3fc176cfc0349b64b03795f8e09188d1 oa:hasSelector target:selector_8fbcd30b3fc176cfc0349b64b03795f8e09188d1 .
-target:target_8fbcd30b3fc176cfc0349b64b03795f8e09188d1 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/917> .
+target:target_a1c7a55420ef60fb9b81702dc67e9caf9d35662b a oa:SpecificResource .
+target:target_a1c7a55420ef60fb9b81702dc67e9caf9d35662b oa:hasSelector target:selector_a1c7a55420ef60fb9b81702dc67e9caf9d35662b .
+target:target_a1c7a55420ef60fb9b81702dc67e9caf9d35662b oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/917> .

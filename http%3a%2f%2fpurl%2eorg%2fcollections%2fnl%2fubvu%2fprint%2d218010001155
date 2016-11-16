@@ -1,8 +1,11 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix resource: <http://bibleontology.com/resource/> .
@@ -10,35 +13,81 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
-nl:id_71a65cd4da19570f157a669976e267be55977302 a oa:Annotation .
-nl:id_71a65cd4da19570f157a669976e267be55977302 terms:title "the ark ~ story of Noah" .
-nl:id_71a65cd4da19570f157a669976e267be55977302 ui:annotationField bible:ICBibleTheme .
-nl:id_71a65cd4da19570f157a669976e267be55977302 ui:typingTime 0 .
-nl:id_71a65cd4da19570f157a669976e267be55977302 oa:annotatedAt "2016-04-04T13:29:45+02:00"^^xsd:dateTime .
-nl:id_71a65cd4da19570f157a669976e267be55977302 oa:annotatedBy user:beer .
-nl:id_71a65cd4da19570f157a669976e267be55977302 oa:hasBody <http://iconclass.org/71B33111> .
-nl:id_71a65cd4da19570f157a669976e267be55977302 oa:hasTarget ubvu:print-218010001155 .
-nl:id_71a65cd4da19570f157a669976e267be55977302 oa:motivatedBy oa:tagging .
+nl:id_1b1706574fcdf6d9257dfaa8cb92dffab4f933ac a oa:Annotation .
+nl:id_1b1706574fcdf6d9257dfaa8cb92dffab4f933ac terms:title "Joseph" .
+nl:id_1b1706574fcdf6d9257dfaa8cb92dffab4f933ac ui:annotationField bible:BibleCharacter .
+nl:id_1b1706574fcdf6d9257dfaa8cb92dffab4f933ac ui:typingTime 0 .
+nl:id_1b1706574fcdf6d9257dfaa8cb92dffab4f933ac oa:annotatedAt "2016-05-16T14:02:22+02:00"^^xsd:dateTime .
+nl:id_1b1706574fcdf6d9257dfaa8cb92dffab4f933ac oa:annotatedBy user:everhoeff .
+nl:id_1b1706574fcdf6d9257dfaa8cb92dffab4f933ac oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Joseph" ] .
+nl:id_1b1706574fcdf6d9257dfaa8cb92dffab4f933ac oa:hasTarget target:target_af955d951db858ca8e80443d129561d0ef6fab4e .
+nl:id_1b1706574fcdf6d9257dfaa8cb92dffab4f933ac oa:hasTarget ubvu:print-218010001155 .
+nl:id_1b1706574fcdf6d9257dfaa8cb92dffab4f933ac oa:motivatedBy oa:tagging .
 
-nl:id_f696c6a62e886632c5601116bca661da160ac110 a oa:Annotation .
-nl:id_f696c6a62e886632c5601116bca661da160ac110 terms:title "Josech" .
-nl:id_f696c6a62e886632c5601116bca661da160ac110 ui:annotationField bible:BibleCharacter .
-nl:id_f696c6a62e886632c5601116bca661da160ac110 ui:typingTime 0 .
-nl:id_f696c6a62e886632c5601116bca661da160ac110 oa:annotatedAt "2016-04-04T13:21:52+02:00"^^xsd:dateTime .
-nl:id_f696c6a62e886632c5601116bca661da160ac110 oa:annotatedBy user:beer .
-nl:id_f696c6a62e886632c5601116bca661da160ac110 oa:hasBody resource:Josech .
-nl:id_f696c6a62e886632c5601116bca661da160ac110 oa:hasTarget target:target_d912b3c14a97db236aa981f9ca244ae5a30beab2 .
-nl:id_f696c6a62e886632c5601116bca661da160ac110 oa:hasTarget ubvu:print-218010001155 .
-nl:id_f696c6a62e886632c5601116bca661da160ac110 oa:motivatedBy oa:tagging .
+nl:id_426f8aadca562340521e6434051281654dfbe12f a oa:Annotation .
+nl:id_426f8aadca562340521e6434051281654dfbe12f terms:title "Juda" .
+nl:id_426f8aadca562340521e6434051281654dfbe12f ui:annotationField bible:BibleCharacter .
+nl:id_426f8aadca562340521e6434051281654dfbe12f ui:typingTime 0 .
+nl:id_426f8aadca562340521e6434051281654dfbe12f oa:annotatedAt "2016-06-22T20:46:52+02:00"^^xsd:dateTime .
+nl:id_426f8aadca562340521e6434051281654dfbe12f oa:annotatedBy user:paulinevandijk .
+nl:id_426f8aadca562340521e6434051281654dfbe12f oa:hasBody resource:Judah .
+nl:id_426f8aadca562340521e6434051281654dfbe12f oa:hasTarget target:target_5299005fd392ee8012e9c2e01f8eb016e228b651 .
+nl:id_426f8aadca562340521e6434051281654dfbe12f oa:hasTarget ubvu:print-218010001155 .
+nl:id_426f8aadca562340521e6434051281654dfbe12f oa:motivatedBy oa:tagging .
 
-target:selector_d912b3c14a97db236aa981f9ca244ae5a30beab2 a oa:FragmentSelector .
-target:selector_d912b3c14a97db236aa981f9ca244ae5a30beab2 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
-target:selector_d912b3c14a97db236aa981f9ca244ae5a30beab2 ui:h "0.34236307721316644"^^xsd:float .
-target:selector_d912b3c14a97db236aa981f9ca244ae5a30beab2 ui:w "0.3076923076923077"^^xsd:float .
-target:selector_d912b3c14a97db236aa981f9ca244ae5a30beab2 ui:x "0.2863247863247863"^^xsd:float .
-target:selector_d912b3c14a97db236aa981f9ca244ae5a30beab2 ui:y "0.44564842202134364"^^xsd:float .
-target:selector_d912b3c14a97db236aa981f9ca244ae5a30beab2 rdf:value "#xywh=percent:29,45,31,34" .
+nl:id_6fc92c4a4fd8d89f5142f260d9a59a7997759092 a oa:Annotation .
+nl:id_6fc92c4a4fd8d89f5142f260d9a59a7997759092 terms:title "Jozef" .
+nl:id_6fc92c4a4fd8d89f5142f260d9a59a7997759092 ui:annotationField bible:BibleCharacter .
+nl:id_6fc92c4a4fd8d89f5142f260d9a59a7997759092 ui:typingTime 0 .
+nl:id_6fc92c4a4fd8d89f5142f260d9a59a7997759092 oa:annotatedAt "2016-06-22T20:45:27+02:00"^^xsd:dateTime .
+nl:id_6fc92c4a4fd8d89f5142f260d9a59a7997759092 oa:annotatedBy user:paulinevandijk .
+nl:id_6fc92c4a4fd8d89f5142f260d9a59a7997759092 oa:hasBody resource:Joseph .
+nl:id_6fc92c4a4fd8d89f5142f260d9a59a7997759092 oa:hasTarget target:target_209c0fecb1a5a4a6c62a45609130b856afc8f17d .
+nl:id_6fc92c4a4fd8d89f5142f260d9a59a7997759092 oa:hasTarget ubvu:print-218010001155 .
+nl:id_6fc92c4a4fd8d89f5142f260d9a59a7997759092 oa:motivatedBy oa:tagging .
 
-target:target_d912b3c14a97db236aa981f9ca244ae5a30beab2 a oa:SpecificResource .
-target:target_d912b3c14a97db236aa981f9ca244ae5a30beab2 oa:hasSelector target:selector_d912b3c14a97db236aa981f9ca244ae5a30beab2 .
-target:target_d912b3c14a97db236aa981f9ca244ae5a30beab2 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/196> .
+nl:id_97efbfb74a6d1a99b2048004426dd36bc0f08d0e a oa:Annotation .
+nl:id_97efbfb74a6d1a99b2048004426dd36bc0f08d0e terms:title "Jozefs broers verkopen hem aan de Ismaëlieten." .
+nl:id_97efbfb74a6d1a99b2048004426dd36bc0f08d0e ui:annotationField bible:ICBibleTheme .
+nl:id_97efbfb74a6d1a99b2048004426dd36bc0f08d0e ui:typingTime 0 .
+nl:id_97efbfb74a6d1a99b2048004426dd36bc0f08d0e oa:annotatedAt "2016-06-22T20:47:36+02:00"^^xsd:dateTime .
+nl:id_97efbfb74a6d1a99b2048004426dd36bc0f08d0e oa:annotatedBy user:paulinevandijk .
+nl:id_97efbfb74a6d1a99b2048004426dd36bc0f08d0e oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jozefs broers verkopen hem aan de Ismaëlieten." ] .
+nl:id_97efbfb74a6d1a99b2048004426dd36bc0f08d0e oa:hasTarget ubvu:print-218010001155 .
+nl:id_97efbfb74a6d1a99b2048004426dd36bc0f08d0e oa:motivatedBy oa:tagging .
+
+target:selector_209c0fecb1a5a4a6c62a45609130b856afc8f17d a oa:FragmentSelector .
+target:selector_209c0fecb1a5a4a6c62a45609130b856afc8f17d terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_209c0fecb1a5a4a6c62a45609130b856afc8f17d ui:h "0.2414985590778098"^^xsd:float .
+target:selector_209c0fecb1a5a4a6c62a45609130b856afc8f17d ui:w "0.1683760683760684"^^xsd:float .
+target:selector_209c0fecb1a5a4a6c62a45609130b856afc8f17d ui:x "0.5888888888888889"^^xsd:float .
+target:selector_209c0fecb1a5a4a6c62a45609130b856afc8f17d ui:y "0.4789625360230548"^^xsd:float .
+target:selector_209c0fecb1a5a4a6c62a45609130b856afc8f17d rdf:value "#xywh=percent:59,48,17,24" .
+
+target:selector_5299005fd392ee8012e9c2e01f8eb016e228b651 a oa:FragmentSelector .
+target:selector_5299005fd392ee8012e9c2e01f8eb016e228b651 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_5299005fd392ee8012e9c2e01f8eb016e228b651 ui:h "0.13025936599423632"^^xsd:float .
+target:selector_5299005fd392ee8012e9c2e01f8eb016e228b651 ui:w "0.18376068376068377"^^xsd:float .
+target:selector_5299005fd392ee8012e9c2e01f8eb016e228b651 ui:x "0.3162393162393162"^^xsd:float .
+target:selector_5299005fd392ee8012e9c2e01f8eb016e228b651 ui:y "0.439193083573487"^^xsd:float .
+target:selector_5299005fd392ee8012e9c2e01f8eb016e228b651 rdf:value "#xywh=percent:32,44,18,13" .
+
+target:selector_af955d951db858ca8e80443d129561d0ef6fab4e a oa:FragmentSelector .
+target:selector_af955d951db858ca8e80443d129561d0ef6fab4e terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_af955d951db858ca8e80443d129561d0ef6fab4e ui:h "0.30485611510791366"^^xsd:float .
+target:selector_af955d951db858ca8e80443d129561d0ef6fab4e ui:w "0.204"^^xsd:float .
+target:selector_af955d951db858ca8e80443d129561d0ef6fab4e ui:x "0.5586666666666666"^^xsd:float .
+target:selector_af955d951db858ca8e80443d129561d0ef6fab4e ui:y "0.48741007194244607"^^xsd:float .
+target:selector_af955d951db858ca8e80443d129561d0ef6fab4e rdf:value "#xywh=percent:56,49,20,30" .
+
+target:target_209c0fecb1a5a4a6c62a45609130b856afc8f17d a oa:SpecificResource .
+target:target_209c0fecb1a5a4a6c62a45609130b856afc8f17d oa:hasSelector target:selector_209c0fecb1a5a4a6c62a45609130b856afc8f17d .
+target:target_209c0fecb1a5a4a6c62a45609130b856afc8f17d oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/196> .
+
+target:target_5299005fd392ee8012e9c2e01f8eb016e228b651 a oa:SpecificResource .
+target:target_5299005fd392ee8012e9c2e01f8eb016e228b651 oa:hasSelector target:selector_5299005fd392ee8012e9c2e01f8eb016e228b651 .
+target:target_5299005fd392ee8012e9c2e01f8eb016e228b651 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/196> .
+
+target:target_af955d951db858ca8e80443d129561d0ef6fab4e a oa:SpecificResource .
+target:target_af955d951db858ca8e80443d129561d0ef6fab4e oa:hasSelector target:selector_af955d951db858ca8e80443d129561d0ef6fab4e .
+target:target_af955d951db858ca8e80443d129561d0ef6fab4e oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/196> .

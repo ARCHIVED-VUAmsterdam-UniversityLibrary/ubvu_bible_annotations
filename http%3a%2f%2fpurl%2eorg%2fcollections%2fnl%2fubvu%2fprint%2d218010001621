@@ -1,0 +1,19 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix user: <http://accurator.nl/user#> .
+
+<http://accurator.nl/id_11a9309358af33d7864a66da2695a99fd8945345> a oa:Annotation .
+<http://accurator.nl/id_11a9309358af33d7864a66da2695a99fd8945345> terms:title "the courage of Eleaz" .
+<http://accurator.nl/id_11a9309358af33d7864a66da2695a99fd8945345> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
+<http://accurator.nl/id_11a9309358af33d7864a66da2695a99fd8945345> ui:typingTime 0 .
+<http://accurator.nl/id_11a9309358af33d7864a66da2695a99fd8945345> oa:annotatedAt "2016-05-05T11:14:50+02:00"^^xsd:dateTime .
+<http://accurator.nl/id_11a9309358af33d7864a66da2695a99fd8945345> oa:annotatedBy user:everhoeff .
+<http://accurator.nl/id_11a9309358af33d7864a66da2695a99fd8945345> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "the courage of Eleaz" ] .
+<http://accurator.nl/id_11a9309358af33d7864a66da2695a99fd8945345> oa:hasTarget ubvu:print-218010001621 .
+<http://accurator.nl/id_11a9309358af33d7864a66da2695a99fd8945345> oa:motivatedBy oa:tagging .

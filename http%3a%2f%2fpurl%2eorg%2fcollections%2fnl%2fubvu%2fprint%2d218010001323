@@ -7,13 +7,25 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_9f4557cdeefe47ad4d9dc32f56aa74e9709c9a4c> a oa:Annotation .
-<http://accurator.nl/id_9f4557cdeefe47ad4d9dc32f56aa74e9709c9a4c> terms:title "Overtocht door de Jordaan" .
-<http://accurator.nl/id_9f4557cdeefe47ad4d9dc32f56aa74e9709c9a4c> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
-<http://accurator.nl/id_9f4557cdeefe47ad4d9dc32f56aa74e9709c9a4c> ui:typingTime 0 .
-<http://accurator.nl/id_9f4557cdeefe47ad4d9dc32f56aa74e9709c9a4c> oa:annotatedAt "2016-04-25T16:58:11+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_9f4557cdeefe47ad4d9dc32f56aa74e9709c9a4c> oa:annotatedBy user:paulinevandijk .
-<http://accurator.nl/id_9f4557cdeefe47ad4d9dc32f56aa74e9709c9a4c> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Overtocht door de Jordaan" ] .
-<http://accurator.nl/id_9f4557cdeefe47ad4d9dc32f56aa74e9709c9a4c> oa:hasTarget ubvu:print-218010001323 .
-<http://accurator.nl/id_9f4557cdeefe47ad4d9dc32f56aa74e9709c9a4c> oa:motivatedBy oa:tagging .
+nl:id_46d0916dc0f0209d87c1349038d748019f01a067 a oa:Annotation .
+nl:id_46d0916dc0f0209d87c1349038d748019f01a067 terms:title "The Israelites pass over the river Jordan" .
+nl:id_46d0916dc0f0209d87c1349038d748019f01a067 ui:annotationField bible:ICBibleTheme .
+nl:id_46d0916dc0f0209d87c1349038d748019f01a067 ui:typingTime 0 .
+nl:id_46d0916dc0f0209d87c1349038d748019f01a067 oa:annotatedAt "2016-05-05T11:09:37+02:00"^^xsd:dateTime .
+nl:id_46d0916dc0f0209d87c1349038d748019f01a067 oa:annotatedBy user:everhoeff .
+nl:id_46d0916dc0f0209d87c1349038d748019f01a067 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The Israelites pass over the river Jordan" ] .
+nl:id_46d0916dc0f0209d87c1349038d748019f01a067 oa:hasTarget ubvu:print-218010001323 .
+nl:id_46d0916dc0f0209d87c1349038d748019f01a067 oa:motivatedBy oa:tagging .
+
+nl:id_c93085dcc3760081c0e0f263d16a20c638a75f9e a oa:Annotation .
+nl:id_c93085dcc3760081c0e0f263d16a20c638a75f9e terms:title "De doortocht door de Jordaan." .
+nl:id_c93085dcc3760081c0e0f263d16a20c638a75f9e ui:annotationField bible:ICBibleTheme .
+nl:id_c93085dcc3760081c0e0f263d16a20c638a75f9e ui:typingTime 0 .
+nl:id_c93085dcc3760081c0e0f263d16a20c638a75f9e oa:annotatedAt "2016-08-03T16:53:45+02:00"^^xsd:dateTime .
+nl:id_c93085dcc3760081c0e0f263d16a20c638a75f9e oa:annotatedBy user:paulinevandijk .
+nl:id_c93085dcc3760081c0e0f263d16a20c638a75f9e oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "De doortocht door de Jordaan." ] .
+nl:id_c93085dcc3760081c0e0f263d16a20c638a75f9e oa:hasTarget ubvu:print-218010001323 .
+nl:id_c93085dcc3760081c0e0f263d16a20c638a75f9e oa:motivatedBy oa:tagging .

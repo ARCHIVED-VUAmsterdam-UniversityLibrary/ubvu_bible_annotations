@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -6,9 +7,32 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
+
+nl:id_5a9cdfd3fda29787216c9b65ffc2c74843dd32da a oa:Annotation .
+nl:id_5a9cdfd3fda29787216c9b65ffc2c74843dd32da terms:title "Moses" .
+nl:id_5a9cdfd3fda29787216c9b65ffc2c74843dd32da ui:annotationField bible:BibleCharacter .
+nl:id_5a9cdfd3fda29787216c9b65ffc2c74843dd32da ui:typingTime 0 .
+nl:id_5a9cdfd3fda29787216c9b65ffc2c74843dd32da oa:annotatedAt "2016-05-27T09:50:29+02:00"^^xsd:dateTime .
+nl:id_5a9cdfd3fda29787216c9b65ffc2c74843dd32da oa:annotatedBy user:everhoeff .
+nl:id_5a9cdfd3fda29787216c9b65ffc2c74843dd32da oa:hasBody resource:Moses .
+nl:id_5a9cdfd3fda29787216c9b65ffc2c74843dd32da oa:hasTarget target:target_e8bc4aa7c400cff6a6d5f6070a056119a00cbf1a .
+nl:id_5a9cdfd3fda29787216c9b65ffc2c74843dd32da oa:hasTarget ubvu:print-218010001195 .
+nl:id_5a9cdfd3fda29787216c9b65ffc2c74843dd32da oa:motivatedBy oa:tagging .
+
+nl:id_62cf9016f90d7246b5e83a62a3afb2d6b3830871 a oa:Annotation .
+nl:id_62cf9016f90d7246b5e83a62a3afb2d6b3830871 terms:title "Moses drawn out of the water" .
+nl:id_62cf9016f90d7246b5e83a62a3afb2d6b3830871 ui:annotationField bible:ICBibleTheme .
+nl:id_62cf9016f90d7246b5e83a62a3afb2d6b3830871 ui:typingTime 0 .
+nl:id_62cf9016f90d7246b5e83a62a3afb2d6b3830871 oa:annotatedAt "2016-05-27T09:50:06+02:00"^^xsd:dateTime .
+nl:id_62cf9016f90d7246b5e83a62a3afb2d6b3830871 oa:annotatedBy user:everhoeff .
+nl:id_62cf9016f90d7246b5e83a62a3afb2d6b3830871 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Moses drawn out of the water" ] .
+nl:id_62cf9016f90d7246b5e83a62a3afb2d6b3830871 oa:hasTarget ubvu:print-218010001195 .
+nl:id_62cf9016f90d7246b5e83a62a3afb2d6b3830871 oa:motivatedBy oa:tagging .
 
 nl:id_7d8f4c0bcc75ac9a260d94db88337250d7006b86 a oa:Annotation .
 nl:id_7d8f4c0bcc75ac9a260d94db88337250d7006b86 terms:title "Exodus 2: 3-6" .
@@ -29,3 +53,48 @@ nl:id_adf0a76637b6215b80bea2193b9f4cf1ab69bac5 oa:annotatedBy user:joan .
 nl:id_adf0a76637b6215b80bea2193b9f4cf1ab69bac5 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Moses drawn from the water" ] .
 nl:id_adf0a76637b6215b80bea2193b9f4cf1ab69bac5 oa:hasTarget ubvu:print-218010001195 .
 nl:id_adf0a76637b6215b80bea2193b9f4cf1ab69bac5 oa:motivatedBy oa:tagging .
+
+nl:id_b63b1f72a7f87cb378e9170431c777eac7882247 a oa:Annotation .
+nl:id_b63b1f72a7f87cb378e9170431c777eac7882247 terms:title "Mozes" .
+nl:id_b63b1f72a7f87cb378e9170431c777eac7882247 ui:annotationField bible:BibleCharacter .
+nl:id_b63b1f72a7f87cb378e9170431c777eac7882247 ui:typingTime 0 .
+nl:id_b63b1f72a7f87cb378e9170431c777eac7882247 oa:annotatedAt "2016-06-07T14:12:47+02:00"^^xsd:dateTime .
+nl:id_b63b1f72a7f87cb378e9170431c777eac7882247 oa:annotatedBy user:paulinevandijk .
+nl:id_b63b1f72a7f87cb378e9170431c777eac7882247 oa:hasBody resource:Moses .
+nl:id_b63b1f72a7f87cb378e9170431c777eac7882247 oa:hasTarget target:target_9e524dae9e73f43579b64cd59c6bc3eee458e924 .
+nl:id_b63b1f72a7f87cb378e9170431c777eac7882247 oa:hasTarget ubvu:print-218010001195 .
+nl:id_b63b1f72a7f87cb378e9170431c777eac7882247 oa:motivatedBy oa:tagging .
+
+nl:id_f35bb2a7025bb5250f27a650d621618e4b25694f a oa:Annotation .
+nl:id_f35bb2a7025bb5250f27a650d621618e4b25694f terms:title "Mozes uit het water gehaald." .
+nl:id_f35bb2a7025bb5250f27a650d621618e4b25694f ui:annotationField bible:ICBibleTheme .
+nl:id_f35bb2a7025bb5250f27a650d621618e4b25694f ui:typingTime 0 .
+nl:id_f35bb2a7025bb5250f27a650d621618e4b25694f oa:annotatedAt "2016-06-07T14:13:20+02:00"^^xsd:dateTime .
+nl:id_f35bb2a7025bb5250f27a650d621618e4b25694f oa:annotatedBy user:paulinevandijk .
+nl:id_f35bb2a7025bb5250f27a650d621618e4b25694f oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Mozes uit het water gehaald." ] .
+nl:id_f35bb2a7025bb5250f27a650d621618e4b25694f oa:hasTarget ubvu:print-218010001195 .
+nl:id_f35bb2a7025bb5250f27a650d621618e4b25694f oa:motivatedBy oa:tagging .
+
+target:selector_9e524dae9e73f43579b64cd59c6bc3eee458e924 a oa:FragmentSelector .
+target:selector_9e524dae9e73f43579b64cd59c6bc3eee458e924 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_9e524dae9e73f43579b64cd59c6bc3eee458e924 ui:h "0.06236860546601261"^^xsd:float .
+target:selector_9e524dae9e73f43579b64cd59c6bc3eee458e924 ui:w "0.21649484536082475"^^xsd:float .
+target:selector_9e524dae9e73f43579b64cd59c6bc3eee458e924 ui:x "0.20721649484536084"^^xsd:float .
+target:selector_9e524dae9e73f43579b64cd59c6bc3eee458e924 ui:y "0.5746320953048353"^^xsd:float .
+target:selector_9e524dae9e73f43579b64cd59c6bc3eee458e924 rdf:value "#xywh=percent:21,57,22,6" .
+
+target:selector_e8bc4aa7c400cff6a6d5f6070a056119a00cbf1a a oa:FragmentSelector .
+target:selector_e8bc4aa7c400cff6a6d5f6070a056119a00cbf1a terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_e8bc4aa7c400cff6a6d5f6070a056119a00cbf1a ui:h "0.07071622846781506"^^xsd:float .
+target:selector_e8bc4aa7c400cff6a6d5f6070a056119a00cbf1a ui:w "0.24666666666666667"^^xsd:float .
+target:selector_e8bc4aa7c400cff6a6d5f6070a056119a00cbf1a ui:x "0.2"^^xsd:float .
+target:selector_e8bc4aa7c400cff6a6d5f6070a056119a00cbf1a ui:y "0.5648232094288305"^^xsd:float .
+target:selector_e8bc4aa7c400cff6a6d5f6070a056119a00cbf1a rdf:value "#xywh=percent:20,56,25,7" .
+
+target:target_9e524dae9e73f43579b64cd59c6bc3eee458e924 a oa:SpecificResource .
+target:target_9e524dae9e73f43579b64cd59c6bc3eee458e924 oa:hasSelector target:selector_9e524dae9e73f43579b64cd59c6bc3eee458e924 .
+target:target_9e524dae9e73f43579b64cd59c6bc3eee458e924 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/236> .
+
+target:target_e8bc4aa7c400cff6a6d5f6070a056119a00cbf1a a oa:SpecificResource .
+target:target_e8bc4aa7c400cff6a6d5f6070a056119a00cbf1a oa:hasSelector target:selector_e8bc4aa7c400cff6a6d5f6070a056119a00cbf1a .
+target:target_e8bc4aa7c400cff6a6d5f6070a056119a00cbf1a oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/236> .

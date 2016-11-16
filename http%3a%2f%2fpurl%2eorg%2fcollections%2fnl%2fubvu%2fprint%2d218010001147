@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -6,14 +7,73 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_d14ea51086b2755e9b61e213ae5de589ee563959> a oa:Annotation .
-<http://accurator.nl/id_d14ea51086b2755e9b61e213ae5de589ee563959> terms:title "Ontmoeting Jacob en Esau omringd door familie en leger (Genesis 33:4)" .
-<http://accurator.nl/id_d14ea51086b2755e9b61e213ae5de589ee563959> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
-<http://accurator.nl/id_d14ea51086b2755e9b61e213ae5de589ee563959> ui:typingTime 0 .
-<http://accurator.nl/id_d14ea51086b2755e9b61e213ae5de589ee563959> oa:annotatedAt "2016-04-04T15:48:44+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_d14ea51086b2755e9b61e213ae5de589ee563959> oa:annotatedBy user:hrmurris .
-<http://accurator.nl/id_d14ea51086b2755e9b61e213ae5de589ee563959> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Ontmoeting Jacob en Esau omringd door familie en leger (Genesis 33:4)" ] .
-<http://accurator.nl/id_d14ea51086b2755e9b61e213ae5de589ee563959> oa:hasTarget ubvu:print-218010001147 .
-<http://accurator.nl/id_d14ea51086b2755e9b61e213ae5de589ee563959> oa:motivatedBy oa:tagging .
+nl:id_d14ea51086b2755e9b61e213ae5de589ee563959 a oa:Annotation .
+nl:id_d14ea51086b2755e9b61e213ae5de589ee563959 terms:title "Ontmoeting Jacob en Esau omringd door familie en leger (Genesis 33:4)" .
+nl:id_d14ea51086b2755e9b61e213ae5de589ee563959 ui:annotationField bible:ICBibleTheme .
+nl:id_d14ea51086b2755e9b61e213ae5de589ee563959 ui:typingTime 0 .
+nl:id_d14ea51086b2755e9b61e213ae5de589ee563959 oa:annotatedAt "2016-04-04T15:48:44+02:00"^^xsd:dateTime .
+nl:id_d14ea51086b2755e9b61e213ae5de589ee563959 oa:annotatedBy user:hrmurris .
+nl:id_d14ea51086b2755e9b61e213ae5de589ee563959 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Ontmoeting Jacob en Esau omringd door familie en leger (Genesis 33:4)" ] .
+nl:id_d14ea51086b2755e9b61e213ae5de589ee563959 oa:hasTarget ubvu:print-218010001147 .
+nl:id_d14ea51086b2755e9b61e213ae5de589ee563959 oa:motivatedBy oa:tagging .
+
+nl:id_db745c46ce88c998bb77718b302879ba993c5cd1 a oa:Annotation .
+nl:id_db745c46ce88c998bb77718b302879ba993c5cd1 terms:title "Esau ran to meet Jacob and fell on his neck and kissed him" .
+nl:id_db745c46ce88c998bb77718b302879ba993c5cd1 ui:annotationField bible:ICBibleTheme .
+nl:id_db745c46ce88c998bb77718b302879ba993c5cd1 ui:typingTime 0 .
+nl:id_db745c46ce88c998bb77718b302879ba993c5cd1 oa:annotatedAt "2016-06-08T21:53:21+02:00"^^xsd:dateTime .
+nl:id_db745c46ce88c998bb77718b302879ba993c5cd1 oa:annotatedBy user:everhoeff .
+nl:id_db745c46ce88c998bb77718b302879ba993c5cd1 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Esau ran to meet Jacob and fell on his neck and kissed him" ] .
+nl:id_db745c46ce88c998bb77718b302879ba993c5cd1 oa:hasTarget ubvu:print-218010001147 .
+nl:id_db745c46ce88c998bb77718b302879ba993c5cd1 oa:motivatedBy oa:tagging .
+
+nl:id_dd00c168d510cda4f1be832b4303f4f53a13c869 a oa:Annotation .
+nl:id_dd00c168d510cda4f1be832b4303f4f53a13c869 terms:title "jacob" .
+nl:id_dd00c168d510cda4f1be832b4303f4f53a13c869 ui:annotationField bible:BibleCharacter .
+nl:id_dd00c168d510cda4f1be832b4303f4f53a13c869 ui:typingTime 0 .
+nl:id_dd00c168d510cda4f1be832b4303f4f53a13c869 oa:annotatedAt "2016-06-08T21:56:27+02:00"^^xsd:dateTime .
+nl:id_dd00c168d510cda4f1be832b4303f4f53a13c869 oa:annotatedBy user:everhoeff .
+nl:id_dd00c168d510cda4f1be832b4303f4f53a13c869 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "jacob" ] .
+nl:id_dd00c168d510cda4f1be832b4303f4f53a13c869 oa:hasTarget target:target_255b58887dacb5228c630985869a1f055bea74d7 .
+nl:id_dd00c168d510cda4f1be832b4303f4f53a13c869 oa:hasTarget ubvu:print-218010001147 .
+nl:id_dd00c168d510cda4f1be832b4303f4f53a13c869 oa:motivatedBy oa:tagging .
+
+nl:id_f873a53e3ddb43a08205b602ab537793e71e5ee1 a oa:Annotation .
+nl:id_f873a53e3ddb43a08205b602ab537793e71e5ee1 terms:title "Esau" .
+nl:id_f873a53e3ddb43a08205b602ab537793e71e5ee1 ui:annotationField bible:BibleCharacter .
+nl:id_f873a53e3ddb43a08205b602ab537793e71e5ee1 ui:typingTime 0 .
+nl:id_f873a53e3ddb43a08205b602ab537793e71e5ee1 oa:annotatedAt "2016-06-08T21:56:46+02:00"^^xsd:dateTime .
+nl:id_f873a53e3ddb43a08205b602ab537793e71e5ee1 oa:annotatedBy user:everhoeff .
+nl:id_f873a53e3ddb43a08205b602ab537793e71e5ee1 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Esau" ] .
+nl:id_f873a53e3ddb43a08205b602ab537793e71e5ee1 oa:hasTarget target:target_1876436fe01c77b418b792e9e3f45717ae84d1d6 .
+nl:id_f873a53e3ddb43a08205b602ab537793e71e5ee1 oa:hasTarget ubvu:print-218010001147 .
+nl:id_f873a53e3ddb43a08205b602ab537793e71e5ee1 oa:motivatedBy oa:tagging .
+
+target:selector_1876436fe01c77b418b792e9e3f45717ae84d1d6 a oa:FragmentSelector .
+target:selector_1876436fe01c77b418b792e9e3f45717ae84d1d6 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_1876436fe01c77b418b792e9e3f45717ae84d1d6 ui:h "0.3384338433843384"^^xsd:float .
+target:selector_1876436fe01c77b418b792e9e3f45717ae84d1d6 ui:w "0.2826666666666667"^^xsd:float .
+target:selector_1876436fe01c77b418b792e9e3f45717ae84d1d6 ui:x "0.416"^^xsd:float .
+target:selector_1876436fe01c77b418b792e9e3f45717ae84d1d6 ui:y "0.4977497749774977"^^xsd:float .
+target:selector_1876436fe01c77b418b792e9e3f45717ae84d1d6 rdf:value "#xywh=percent:42,50,28,34" .
+
+target:selector_255b58887dacb5228c630985869a1f055bea74d7 a oa:FragmentSelector .
+target:selector_255b58887dacb5228c630985869a1f055bea74d7 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_255b58887dacb5228c630985869a1f055bea74d7 ui:h "0.2934293429342934"^^xsd:float .
+target:selector_255b58887dacb5228c630985869a1f055bea74d7 ui:w "0.2"^^xsd:float .
+target:selector_255b58887dacb5228c630985869a1f055bea74d7 ui:x "0.3253333333333333"^^xsd:float .
+target:selector_255b58887dacb5228c630985869a1f055bea74d7 ui:y "0.558055805580558"^^xsd:float .
+target:selector_255b58887dacb5228c630985869a1f055bea74d7 rdf:value "#xywh=percent:33,56,20,29" .
+
+target:target_1876436fe01c77b418b792e9e3f45717ae84d1d6 a oa:SpecificResource .
+target:target_1876436fe01c77b418b792e9e3f45717ae84d1d6 oa:hasSelector target:selector_1876436fe01c77b418b792e9e3f45717ae84d1d6 .
+target:target_1876436fe01c77b418b792e9e3f45717ae84d1d6 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/188> .
+
+target:target_255b58887dacb5228c630985869a1f055bea74d7 a oa:SpecificResource .
+target:target_255b58887dacb5228c630985869a1f055bea74d7 oa:hasSelector target:selector_255b58887dacb5228c630985869a1f055bea74d7 .
+target:target_255b58887dacb5228c630985869a1f055bea74d7 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/188> .

@@ -12,6 +12,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_2830108e07a36817a6565b7cd2137fb98f7db9bb a oa:Annotation .
+nl:id_2830108e07a36817a6565b7cd2137fb98f7db9bb terms:title "The circumcision of Ismael and all the males born in Abram's house" .
+nl:id_2830108e07a36817a6565b7cd2137fb98f7db9bb ui:annotationField bible:ICBibleTheme .
+nl:id_2830108e07a36817a6565b7cd2137fb98f7db9bb ui:typingTime 0 .
+nl:id_2830108e07a36817a6565b7cd2137fb98f7db9bb oa:annotatedAt "2016-05-22T14:46:02+02:00"^^xsd:dateTime .
+nl:id_2830108e07a36817a6565b7cd2137fb98f7db9bb oa:annotatedBy user:everhoeff .
+nl:id_2830108e07a36817a6565b7cd2137fb98f7db9bb oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The circumcision of Ismael and all the males born in Abram's house" ] .
+nl:id_2830108e07a36817a6565b7cd2137fb98f7db9bb oa:hasTarget ubvu:print-218010001079 .
+nl:id_2830108e07a36817a6565b7cd2137fb98f7db9bb oa:motivatedBy oa:tagging .
+
 nl:id_5834d073e0dd62af3226a730d0b639ed9ca79288 a oa:Annotation .
 nl:id_5834d073e0dd62af3226a730d0b639ed9ca79288 terms:title "Ismaël" .
 nl:id_5834d073e0dd62af3226a730d0b639ed9ca79288 ui:annotationField bible:BibleCharacter .

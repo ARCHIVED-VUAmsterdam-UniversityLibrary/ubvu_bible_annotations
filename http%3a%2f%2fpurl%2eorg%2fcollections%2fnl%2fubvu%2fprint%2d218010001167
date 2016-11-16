@@ -8,9 +8,20 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
+
+nl:id_50ba68997400194b8797035f2d58d6c939aa05c4 a oa:Annotation .
+nl:id_50ba68997400194b8797035f2d58d6c939aa05c4 terms:title "De droom van de farao door Jozef uitgelegd." .
+nl:id_50ba68997400194b8797035f2d58d6c939aa05c4 ui:annotationField bible:ICBibleTheme .
+nl:id_50ba68997400194b8797035f2d58d6c939aa05c4 ui:typingTime 0 .
+nl:id_50ba68997400194b8797035f2d58d6c939aa05c4 oa:annotatedAt "2016-06-07T14:29:55+02:00"^^xsd:dateTime .
+nl:id_50ba68997400194b8797035f2d58d6c939aa05c4 oa:annotatedBy user:paulinevandijk .
+nl:id_50ba68997400194b8797035f2d58d6c939aa05c4 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "De droom van de farao door Jozef uitgelegd." ] .
+nl:id_50ba68997400194b8797035f2d58d6c939aa05c4 oa:hasTarget ubvu:print-218010001167 .
+nl:id_50ba68997400194b8797035f2d58d6c939aa05c4 oa:motivatedBy oa:tagging .
 
 nl:id_5385951dc22f5116bef2b17a6db25e637c2276b6 a oa:Annotation .
 nl:id_5385951dc22f5116bef2b17a6db25e637c2276b6 terms:title "pharao king of Egypt" .
@@ -23,6 +34,17 @@ nl:id_5385951dc22f5116bef2b17a6db25e637c2276b6 oa:hasTarget target:target_584515
 nl:id_5385951dc22f5116bef2b17a6db25e637c2276b6 oa:hasTarget ubvu:print-218010001167 .
 nl:id_5385951dc22f5116bef2b17a6db25e637c2276b6 oa:motivatedBy oa:tagging .
 
+nl:id_79cff296a14514e28053653afcd5e191cc494b71 a oa:Annotation .
+nl:id_79cff296a14514e28053653afcd5e191cc494b71 terms:title "Jozef" .
+nl:id_79cff296a14514e28053653afcd5e191cc494b71 ui:annotationField bible:BibleCharacter .
+nl:id_79cff296a14514e28053653afcd5e191cc494b71 ui:typingTime 0 .
+nl:id_79cff296a14514e28053653afcd5e191cc494b71 oa:annotatedAt "2016-06-07T14:29:24+02:00"^^xsd:dateTime .
+nl:id_79cff296a14514e28053653afcd5e191cc494b71 oa:annotatedBy user:paulinevandijk .
+nl:id_79cff296a14514e28053653afcd5e191cc494b71 oa:hasBody resource:Joseph .
+nl:id_79cff296a14514e28053653afcd5e191cc494b71 oa:hasTarget target:target_383b20b2e551fad6fa3d041a93d741d1a5389c68 .
+nl:id_79cff296a14514e28053653afcd5e191cc494b71 oa:hasTarget ubvu:print-218010001167 .
+nl:id_79cff296a14514e28053653afcd5e191cc494b71 oa:motivatedBy oa:tagging .
+
 nl:id_7e0160314e6418bcc99f514235f8f7e18172524e a oa:Annotation .
 nl:id_7e0160314e6418bcc99f514235f8f7e18172524e terms:title "josef son of Isaac" .
 nl:id_7e0160314e6418bcc99f514235f8f7e18172524e ui:annotationField bible:BibleCharacter .
@@ -33,6 +55,14 @@ nl:id_7e0160314e6418bcc99f514235f8f7e18172524e oa:hasBody [ a content:ContentAsT
 nl:id_7e0160314e6418bcc99f514235f8f7e18172524e oa:hasTarget target:target_3ad151ad200e34c42770a8edaa52492c7a195aaf .
 nl:id_7e0160314e6418bcc99f514235f8f7e18172524e oa:hasTarget ubvu:print-218010001167 .
 nl:id_7e0160314e6418bcc99f514235f8f7e18172524e oa:motivatedBy oa:tagging .
+
+target:selector_383b20b2e551fad6fa3d041a93d741d1a5389c68 a oa:FragmentSelector .
+target:selector_383b20b2e551fad6fa3d041a93d741d1a5389c68 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_383b20b2e551fad6fa3d041a93d741d1a5389c68 ui:h "0.22260748959778087"^^xsd:float .
+target:selector_383b20b2e551fad6fa3d041a93d741d1a5389c68 ui:w "0.17938144329896907"^^xsd:float .
+target:selector_383b20b2e551fad6fa3d041a93d741d1a5389c68 ui:x "0.07216494845360824"^^xsd:float .
+target:selector_383b20b2e551fad6fa3d041a93d741d1a5389c68 ui:y "0.38210818307905686"^^xsd:float .
+target:selector_383b20b2e551fad6fa3d041a93d741d1a5389c68 rdf:value "#xywh=percent:7,38,18,22" .
 
 target:selector_3ad151ad200e34c42770a8edaa52492c7a195aaf a oa:FragmentSelector .
 target:selector_3ad151ad200e34c42770a8edaa52492c7a195aaf terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -49,6 +79,10 @@ target:selector_58451562aa610011f0ddc075f4d3262330816642 ui:w "0.222032450896669
 target:selector_58451562aa610011f0ddc075f4d3262330816642 ui:x "0.5414175918018788"^^xsd:float .
 target:selector_58451562aa610011f0ddc075f4d3262330816642 ui:y "0.3482758620689655"^^xsd:float .
 target:selector_58451562aa610011f0ddc075f4d3262330816642 rdf:value "#xywh=percent:54,35,22,26" .
+
+target:target_383b20b2e551fad6fa3d041a93d741d1a5389c68 a oa:SpecificResource .
+target:target_383b20b2e551fad6fa3d041a93d741d1a5389c68 oa:hasSelector target:selector_383b20b2e551fad6fa3d041a93d741d1a5389c68 .
+target:target_383b20b2e551fad6fa3d041a93d741d1a5389c68 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/208> .
 
 target:target_3ad151ad200e34c42770a8edaa52492c7a195aaf a oa:SpecificResource .
 target:target_3ad151ad200e34c42770a8edaa52492c7a195aaf oa:hasSelector target:selector_3ad151ad200e34c42770a8edaa52492c7a195aaf .

@@ -12,6 +12,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_0ca16c974850eeec2f9cf9a28b2fcbd4d1477841 a oa:Annotation .
+nl:id_0ca16c974850eeec2f9cf9a28b2fcbd4d1477841 terms:title "Simeon and Levi kill the Sichemites" .
+nl:id_0ca16c974850eeec2f9cf9a28b2fcbd4d1477841 ui:annotationField bible:ICBibleTheme .
+nl:id_0ca16c974850eeec2f9cf9a28b2fcbd4d1477841 ui:typingTime 0 .
+nl:id_0ca16c974850eeec2f9cf9a28b2fcbd4d1477841 oa:annotatedAt "2016-05-16T14:08:31+02:00"^^xsd:dateTime .
+nl:id_0ca16c974850eeec2f9cf9a28b2fcbd4d1477841 oa:annotatedBy user:everhoeff .
+nl:id_0ca16c974850eeec2f9cf9a28b2fcbd4d1477841 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Simeon and Levi kill the Sichemites" ] .
+nl:id_0ca16c974850eeec2f9cf9a28b2fcbd4d1477841 oa:hasTarget ubvu:print-218010001151 .
+nl:id_0ca16c974850eeec2f9cf9a28b2fcbd4d1477841 oa:motivatedBy oa:tagging .
+
 nl:id_347881639ad743751cf70be64b93e9610fa79d28 a oa:Annotation .
 nl:id_347881639ad743751cf70be64b93e9610fa79d28 terms:title "Simeon en Levi (zoons van Lea en Jacob)" .
 nl:id_347881639ad743751cf70be64b93e9610fa79d28 ui:annotationField bible:BibleCharacter .

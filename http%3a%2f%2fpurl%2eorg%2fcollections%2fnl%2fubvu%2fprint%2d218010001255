@@ -67,6 +67,16 @@ nl:id_d321d563e29a2e070ff03edea744d3c3e2925932 oa:hasBody [ a content:ContentAsT
 nl:id_d321d563e29a2e070ff03edea744d3c3e2925932 oa:hasTarget ubvu:print-218010001255 .
 nl:id_d321d563e29a2e070ff03edea744d3c3e2925932 oa:motivatedBy oa:tagging .
 
+nl:id_f17cc0c234f0fdf6a474a0f26a7bd3d4fbffc917 a oa:Annotation .
+nl:id_f17cc0c234f0fdf6a474a0f26a7bd3d4fbffc917 terms:title "Nadab and Abihu consumed by fire from the Lord" .
+nl:id_f17cc0c234f0fdf6a474a0f26a7bd3d4fbffc917 ui:annotationField bible:ICBibleTheme .
+nl:id_f17cc0c234f0fdf6a474a0f26a7bd3d4fbffc917 ui:typingTime 0 .
+nl:id_f17cc0c234f0fdf6a474a0f26a7bd3d4fbffc917 oa:annotatedAt "2016-05-16T14:07:08+02:00"^^xsd:dateTime .
+nl:id_f17cc0c234f0fdf6a474a0f26a7bd3d4fbffc917 oa:annotatedBy user:everhoeff .
+nl:id_f17cc0c234f0fdf6a474a0f26a7bd3d4fbffc917 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Nadab and Abihu consumed by fire from the Lord" ] .
+nl:id_f17cc0c234f0fdf6a474a0f26a7bd3d4fbffc917 oa:hasTarget ubvu:print-218010001255 .
+nl:id_f17cc0c234f0fdf6a474a0f26a7bd3d4fbffc917 oa:motivatedBy oa:tagging .
+
 nl:id_fe9ed2bc01c2ac49098ebed739688c4833cc1714 a oa:Annotation .
 nl:id_fe9ed2bc01c2ac49098ebed739688c4833cc1714 terms:title "Nadab (zoon van Aäron)" .
 nl:id_fe9ed2bc01c2ac49098ebed739688c4833cc1714 ui:annotationField bible:BibleCharacter .

@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -33,6 +34,35 @@ nl:id_1ceb07dbfd54381bbaf185edc5aff89de2c64857 oa:hasBody [ a content:ContentAsT
 nl:id_1ceb07dbfd54381bbaf185edc5aff89de2c64857 oa:hasTarget ubvu:print-218010001713 .
 nl:id_1ceb07dbfd54381bbaf185edc5aff89de2c64857 oa:motivatedBy oa:tagging .
 
+nl:id_5c634508911fd7970af6fece96c730a011ffeb71 a oa:Annotation .
+nl:id_5c634508911fd7970af6fece96c730a011ffeb71 terms:title "Jesus" .
+nl:id_5c634508911fd7970af6fece96c730a011ffeb71 ui:annotationField bible:BibleCharacter .
+nl:id_5c634508911fd7970af6fece96c730a011ffeb71 ui:typingTime 0 .
+nl:id_5c634508911fd7970af6fece96c730a011ffeb71 oa:annotatedAt "2016-05-23T14:49:19+02:00"^^xsd:dateTime .
+nl:id_5c634508911fd7970af6fece96c730a011ffeb71 oa:annotatedBy user:everhoeff .
+nl:id_5c634508911fd7970af6fece96c730a011ffeb71 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jesus" ] .
+nl:id_5c634508911fd7970af6fece96c730a011ffeb71 oa:hasTarget target:target_1ec3b6c99e9dd467093e6f01ba43d9a20dc0c70a .
+nl:id_5c634508911fd7970af6fece96c730a011ffeb71 oa:hasTarget ubvu:print-218010001713 .
+nl:id_5c634508911fd7970af6fece96c730a011ffeb71 oa:motivatedBy oa:tagging .
+
+nl:id_e8cfcc966f29f684284883420e3a352f9bb57aaf a oa:Annotation .
+nl:id_e8cfcc966f29f684284883420e3a352f9bb57aaf terms:title "Jesus in the Mount" .
+nl:id_e8cfcc966f29f684284883420e3a352f9bb57aaf ui:annotationField bible:ICBibleTheme .
+nl:id_e8cfcc966f29f684284883420e3a352f9bb57aaf ui:typingTime 0 .
+nl:id_e8cfcc966f29f684284883420e3a352f9bb57aaf oa:annotatedAt "2016-05-23T14:48:57+02:00"^^xsd:dateTime .
+nl:id_e8cfcc966f29f684284883420e3a352f9bb57aaf oa:annotatedBy user:everhoeff .
+nl:id_e8cfcc966f29f684284883420e3a352f9bb57aaf oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jesus in the Mount" ] .
+nl:id_e8cfcc966f29f684284883420e3a352f9bb57aaf oa:hasTarget ubvu:print-218010001713 .
+nl:id_e8cfcc966f29f684284883420e3a352f9bb57aaf oa:motivatedBy oa:tagging .
+
+target:selector_1ec3b6c99e9dd467093e6f01ba43d9a20dc0c70a a oa:FragmentSelector .
+target:selector_1ec3b6c99e9dd467093e6f01ba43d9a20dc0c70a terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_1ec3b6c99e9dd467093e6f01ba43d9a20dc0c70a ui:h "0.20195729537366547"^^xsd:float .
+target:selector_1ec3b6c99e9dd467093e6f01ba43d9a20dc0c70a ui:w "0.27066666666666667"^^xsd:float .
+target:selector_1ec3b6c99e9dd467093e6f01ba43d9a20dc0c70a ui:x "0.20266666666666666"^^xsd:float .
+target:selector_1ec3b6c99e9dd467093e6f01ba43d9a20dc0c70a ui:y "0.25"^^xsd:float .
+target:selector_1ec3b6c99e9dd467093e6f01ba43d9a20dc0c70a rdf:value "#xywh=percent:20,25,27,20" .
+
 target:selector_c95b1a4ce566b86a7e982f0473d0eba09dbdf63e a oa:FragmentSelector .
 target:selector_c95b1a4ce566b86a7e982f0473d0eba09dbdf63e terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_c95b1a4ce566b86a7e982f0473d0eba09dbdf63e ui:h "0.2606761565836299"^^xsd:float .
@@ -40,6 +70,10 @@ target:selector_c95b1a4ce566b86a7e982f0473d0eba09dbdf63e ui:w "0.236"^^xsd:float
 target:selector_c95b1a4ce566b86a7e982f0473d0eba09dbdf63e ui:x "0.212"^^xsd:float .
 target:selector_c95b1a4ce566b86a7e982f0473d0eba09dbdf63e ui:y "0.24733096085409254"^^xsd:float .
 target:selector_c95b1a4ce566b86a7e982f0473d0eba09dbdf63e rdf:value "#xywh=percent:21,25,24,26" .
+
+target:target_1ec3b6c99e9dd467093e6f01ba43d9a20dc0c70a a oa:SpecificResource .
+target:target_1ec3b6c99e9dd467093e6f01ba43d9a20dc0c70a oa:hasSelector target:selector_1ec3b6c99e9dd467093e6f01ba43d9a20dc0c70a .
+target:target_1ec3b6c99e9dd467093e6f01ba43d9a20dc0c70a oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/752> .
 
 target:target_c95b1a4ce566b86a7e982f0473d0eba09dbdf63e a oa:SpecificResource .
 target:target_c95b1a4ce566b86a7e982f0473d0eba09dbdf63e oa:hasSelector target:selector_c95b1a4ce566b86a7e982f0473d0eba09dbdf63e .

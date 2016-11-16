@@ -24,6 +24,27 @@ nl:id_376f2fb3d356ed37654d97877be7ac3da5ddce2c oa:hasTarget target:target_3446b9
 nl:id_376f2fb3d356ed37654d97877be7ac3da5ddce2c oa:hasTarget ubvu:print-218010001951 .
 nl:id_376f2fb3d356ed37654d97877be7ac3da5ddce2c oa:motivatedBy oa:tagging .
 
+nl:id_3a7a5098be545e319aaf5dac376bb332409b05bf a oa:Annotation .
+nl:id_3a7a5098be545e319aaf5dac376bb332409b05bf terms:title "Johannes (apostel)" .
+nl:id_3a7a5098be545e319aaf5dac376bb332409b05bf ui:annotationField bible:BibleCharacter .
+nl:id_3a7a5098be545e319aaf5dac376bb332409b05bf ui:typingTime 0 .
+nl:id_3a7a5098be545e319aaf5dac376bb332409b05bf oa:annotatedAt "2016-05-20T10:34:23+02:00"^^xsd:dateTime .
+nl:id_3a7a5098be545e319aaf5dac376bb332409b05bf oa:annotatedBy user:hogguer .
+nl:id_3a7a5098be545e319aaf5dac376bb332409b05bf oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Johannes (apostel)" ] .
+nl:id_3a7a5098be545e319aaf5dac376bb332409b05bf oa:hasTarget target:target_a3a256b966fd5adb9bcd3835114419f349eab903 .
+nl:id_3a7a5098be545e319aaf5dac376bb332409b05bf oa:hasTarget ubvu:print-218010001951 .
+nl:id_3a7a5098be545e319aaf5dac376bb332409b05bf oa:motivatedBy oa:tagging .
+
+nl:id_561df5f681242d05bf0c947e5edcbea80973a7d9 a oa:Annotation .
+nl:id_561df5f681242d05bf0c947e5edcbea80973a7d9 terms:title "The vision of John seeing Jezus Christ standing between seven candle holders en with seven stars in his right hand" .
+nl:id_561df5f681242d05bf0c947e5edcbea80973a7d9 ui:annotationField bible:ICBibleTheme .
+nl:id_561df5f681242d05bf0c947e5edcbea80973a7d9 ui:typingTime 0 .
+nl:id_561df5f681242d05bf0c947e5edcbea80973a7d9 oa:annotatedAt "2016-05-20T10:42:53+02:00"^^xsd:dateTime .
+nl:id_561df5f681242d05bf0c947e5edcbea80973a7d9 oa:annotatedBy user:hogguer .
+nl:id_561df5f681242d05bf0c947e5edcbea80973a7d9 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The vision of John seeing Jezus Christ standing between seven candle holders en with seven stars in his right hand" ] .
+nl:id_561df5f681242d05bf0c947e5edcbea80973a7d9 oa:hasTarget ubvu:print-218010001951 .
+nl:id_561df5f681242d05bf0c947e5edcbea80973a7d9 oa:motivatedBy oa:tagging .
+
 nl:id_69158d346fe186f7a7d46236db6e7c9ef1942067 a oa:Annotation .
 nl:id_69158d346fe186f7a7d46236db6e7c9ef1942067 terms:title "Johannes, evangelist" .
 nl:id_69158d346fe186f7a7d46236db6e7c9ef1942067 ui:annotationField bible:BibleCharacter .
@@ -34,6 +55,27 @@ nl:id_69158d346fe186f7a7d46236db6e7c9ef1942067 oa:hasBody [ a content:ContentAsT
 nl:id_69158d346fe186f7a7d46236db6e7c9ef1942067 oa:hasTarget target:target_3cf227404fbdfd0a2404bfdff79615be605d86a4 .
 nl:id_69158d346fe186f7a7d46236db6e7c9ef1942067 oa:hasTarget ubvu:print-218010001951 .
 nl:id_69158d346fe186f7a7d46236db6e7c9ef1942067 oa:motivatedBy oa:tagging .
+
+nl:id_6b476b814be1c62012d70e8d9b79e0f714844176 a oa:Annotation .
+nl:id_6b476b814be1c62012d70e8d9b79e0f714844176 terms:title "Jezus Christus" .
+nl:id_6b476b814be1c62012d70e8d9b79e0f714844176 ui:annotationField bible:BibleCharacter .
+nl:id_6b476b814be1c62012d70e8d9b79e0f714844176 ui:typingTime 0 .
+nl:id_6b476b814be1c62012d70e8d9b79e0f714844176 oa:annotatedAt "2016-05-20T10:34:36+02:00"^^xsd:dateTime .
+nl:id_6b476b814be1c62012d70e8d9b79e0f714844176 oa:annotatedBy user:hogguer .
+nl:id_6b476b814be1c62012d70e8d9b79e0f714844176 oa:hasBody resource:Jesus .
+nl:id_6b476b814be1c62012d70e8d9b79e0f714844176 oa:hasTarget target:target_978ccaa1fadccc94ff6612150650f894b377d273 .
+nl:id_6b476b814be1c62012d70e8d9b79e0f714844176 oa:hasTarget ubvu:print-218010001951 .
+nl:id_6b476b814be1c62012d70e8d9b79e0f714844176 oa:motivatedBy oa:tagging .
+
+nl:id_71dfc8636f1a2b00d5105194b2bf0bea2134eddc a oa:Annotation .
+nl:id_71dfc8636f1a2b00d5105194b2bf0bea2134eddc terms:title "The vision of the seven candle sticks" .
+nl:id_71dfc8636f1a2b00d5105194b2bf0bea2134eddc ui:annotationField bible:ICBibleTheme .
+nl:id_71dfc8636f1a2b00d5105194b2bf0bea2134eddc ui:typingTime 0 .
+nl:id_71dfc8636f1a2b00d5105194b2bf0bea2134eddc oa:annotatedAt "2016-05-22T14:26:11+02:00"^^xsd:dateTime .
+nl:id_71dfc8636f1a2b00d5105194b2bf0bea2134eddc oa:annotatedBy user:everhoeff .
+nl:id_71dfc8636f1a2b00d5105194b2bf0bea2134eddc oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The vision of the seven candle sticks" ] .
+nl:id_71dfc8636f1a2b00d5105194b2bf0bea2134eddc oa:hasTarget ubvu:print-218010001951 .
+nl:id_71dfc8636f1a2b00d5105194b2bf0bea2134eddc oa:motivatedBy oa:tagging .
 
 nl:id_f06ec126bb9d9d579a16e4a06b0d26a13a5e73cf a oa:Annotation .
 nl:id_f06ec126bb9d9d579a16e4a06b0d26a13a5e73cf terms:title "Visioen van de zeven kandelaren" .
@@ -61,6 +103,22 @@ target:selector_3cf227404fbdfd0a2404bfdff79615be605d86a4 ui:x "0.369333333333333
 target:selector_3cf227404fbdfd0a2404bfdff79615be605d86a4 ui:y "0.43791946308724833"^^xsd:float .
 target:selector_3cf227404fbdfd0a2404bfdff79615be605d86a4 rdf:value "#xywh=percent:37,44,40,40" .
 
+target:selector_978ccaa1fadccc94ff6612150650f894b377d273 a oa:FragmentSelector .
+target:selector_978ccaa1fadccc94ff6612150650f894b377d273 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_978ccaa1fadccc94ff6612150650f894b377d273 ui:h "0.2870967741935484"^^xsd:float .
+target:selector_978ccaa1fadccc94ff6612150650f894b377d273 ui:w "0.3618477331052181"^^xsd:float .
+target:selector_978ccaa1fadccc94ff6612150650f894b377d273 ui:x "0.13344739093242086"^^xsd:float .
+target:selector_978ccaa1fadccc94ff6612150650f894b377d273 ui:y "0.23010752688172043"^^xsd:float .
+target:selector_978ccaa1fadccc94ff6612150650f894b377d273 rdf:value "#xywh=percent:13,23,36,29" .
+
+target:selector_a3a256b966fd5adb9bcd3835114419f349eab903 a oa:FragmentSelector .
+target:selector_a3a256b966fd5adb9bcd3835114419f349eab903 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_a3a256b966fd5adb9bcd3835114419f349eab903 ui:h "0.3580645161290323"^^xsd:float .
+target:selector_a3a256b966fd5adb9bcd3835114419f349eab903 ui:w "0.4833190761334474"^^xsd:float .
+target:selector_a3a256b966fd5adb9bcd3835114419f349eab903 ui:x "0.2994011976047904"^^xsd:float .
+target:selector_a3a256b966fd5adb9bcd3835114419f349eab903 ui:y "0.45483870967741935"^^xsd:float .
+target:selector_a3a256b966fd5adb9bcd3835114419f349eab903 rdf:value "#xywh=percent:30,45,48,36" .
+
 target:target_3446b9833e0c839d82e00e97d6f1a4706da9fee2 a oa:SpecificResource .
 target:target_3446b9833e0c839d82e00e97d6f1a4706da9fee2 oa:hasSelector target:selector_3446b9833e0c839d82e00e97d6f1a4706da9fee2 .
 target:target_3446b9833e0c839d82e00e97d6f1a4706da9fee2 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/990> .
@@ -68,3 +126,11 @@ target:target_3446b9833e0c839d82e00e97d6f1a4706da9fee2 oa:hasSource <http://imag
 target:target_3cf227404fbdfd0a2404bfdff79615be605d86a4 a oa:SpecificResource .
 target:target_3cf227404fbdfd0a2404bfdff79615be605d86a4 oa:hasSelector target:selector_3cf227404fbdfd0a2404bfdff79615be605d86a4 .
 target:target_3cf227404fbdfd0a2404bfdff79615be605d86a4 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/990> .
+
+target:target_978ccaa1fadccc94ff6612150650f894b377d273 a oa:SpecificResource .
+target:target_978ccaa1fadccc94ff6612150650f894b377d273 oa:hasSelector target:selector_978ccaa1fadccc94ff6612150650f894b377d273 .
+target:target_978ccaa1fadccc94ff6612150650f894b377d273 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/990> .
+
+target:target_a3a256b966fd5adb9bcd3835114419f349eab903 a oa:SpecificResource .
+target:target_a3a256b966fd5adb9bcd3835114419f349eab903 oa:hasSelector target:selector_a3a256b966fd5adb9bcd3835114419f349eab903 .
+target:target_a3a256b966fd5adb9bcd3835114419f349eab903 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/990> .

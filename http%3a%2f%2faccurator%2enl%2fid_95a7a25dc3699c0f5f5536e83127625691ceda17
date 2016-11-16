@@ -1,0 +1,19 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix user: <http://accurator.nl/user#> .
+@prefix nl: <http://accurator.nl/> .
+
+nl:id_4dfa44a474092cafacdfad8c5a33ff78e21fb01d a oa:Annotation .
+nl:id_4dfa44a474092cafacdfad8c5a33ff78e21fb01d terms:title "disagree" .
+nl:id_4dfa44a474092cafacdfad8c5a33ff78e21fb01d ui:annotationField <http://accurator.nl/ui/annotation/review#Buttons> .
+nl:id_4dfa44a474092cafacdfad8c5a33ff78e21fb01d ui:typingTime 0 .
+nl:id_4dfa44a474092cafacdfad8c5a33ff78e21fb01d oa:annotatedAt "2016-07-01T13:50:15+02:00"^^xsd:dateTime .
+nl:id_4dfa44a474092cafacdfad8c5a33ff78e21fb01d oa:annotatedBy user:spv .
+nl:id_4dfa44a474092cafacdfad8c5a33ff78e21fb01d oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "disagree" ] .
+nl:id_4dfa44a474092cafacdfad8c5a33ff78e21fb01d oa:hasTarget nl:id_95a7a25dc3699c0f5f5536e83127625691ceda17 .
+nl:id_4dfa44a474092cafacdfad8c5a33ff78e21fb01d oa:motivatedBy oa:moderating .

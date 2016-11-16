@@ -33,6 +33,16 @@ nl:id_e676a224a3964d2d6a523a1762badcd33b64f823 oa:hasBody [ a content:ContentAsT
 nl:id_e676a224a3964d2d6a523a1762badcd33b64f823 oa:hasTarget ubvu:print-218010001586 .
 nl:id_e676a224a3964d2d6a523a1762badcd33b64f823 oa:motivatedBy oa:tagging .
 
+nl:id_fedb5f362a45228044dbdb2d98e4705a405ff7f3 a oa:Annotation .
+nl:id_fedb5f362a45228044dbdb2d98e4705a405ff7f3 terms:title "The three man burning in the fiery furnace" .
+nl:id_fedb5f362a45228044dbdb2d98e4705a405ff7f3 ui:annotationField bible:ICBibleTheme .
+nl:id_fedb5f362a45228044dbdb2d98e4705a405ff7f3 ui:typingTime 0 .
+nl:id_fedb5f362a45228044dbdb2d98e4705a405ff7f3 oa:annotatedAt "2016-06-15T16:51:59+02:00"^^xsd:dateTime .
+nl:id_fedb5f362a45228044dbdb2d98e4705a405ff7f3 oa:annotatedBy user:everhoeff .
+nl:id_fedb5f362a45228044dbdb2d98e4705a405ff7f3 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The three man burning in the fiery furnace" ] .
+nl:id_fedb5f362a45228044dbdb2d98e4705a405ff7f3 oa:hasTarget ubvu:print-218010001586 .
+nl:id_fedb5f362a45228044dbdb2d98e4705a405ff7f3 oa:motivatedBy oa:tagging .
+
 target:selector_81553ed6128cfb95a31d3910494b51b197766be8 a oa:FragmentSelector .
 target:selector_81553ed6128cfb95a31d3910494b51b197766be8 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_81553ed6128cfb95a31d3910494b51b197766be8 ui:h "0.343311506080449"^^xsd:float .

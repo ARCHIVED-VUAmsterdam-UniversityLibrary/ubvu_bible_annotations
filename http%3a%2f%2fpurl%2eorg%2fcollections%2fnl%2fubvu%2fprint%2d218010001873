@@ -13,6 +13,27 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_16175de1cb3b6d8909c7dc47e12de52c09f6eab4 a oa:Annotation .
+nl:id_16175de1cb3b6d8909c7dc47e12de52c09f6eab4 terms:title "Christ" .
+nl:id_16175de1cb3b6d8909c7dc47e12de52c09f6eab4 ui:annotationField bible:BibleCharacter .
+nl:id_16175de1cb3b6d8909c7dc47e12de52c09f6eab4 ui:typingTime 0 .
+nl:id_16175de1cb3b6d8909c7dc47e12de52c09f6eab4 oa:annotatedAt "2016-05-22T14:25:01+02:00"^^xsd:dateTime .
+nl:id_16175de1cb3b6d8909c7dc47e12de52c09f6eab4 oa:annotatedBy user:everhoeff .
+nl:id_16175de1cb3b6d8909c7dc47e12de52c09f6eab4 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Christ" ] .
+nl:id_16175de1cb3b6d8909c7dc47e12de52c09f6eab4 oa:hasTarget target:target_8c7256a5bc38d0ad456eaec69ac3f63e35f39ee9 .
+nl:id_16175de1cb3b6d8909c7dc47e12de52c09f6eab4 oa:hasTarget ubvu:print-218010001873 .
+nl:id_16175de1cb3b6d8909c7dc47e12de52c09f6eab4 oa:motivatedBy oa:tagging .
+
+nl:id_39460dba43ed5da1309ad447a22f0679de3b522b a oa:Annotation .
+nl:id_39460dba43ed5da1309ad447a22f0679de3b522b terms:title "Chris buried" .
+nl:id_39460dba43ed5da1309ad447a22f0679de3b522b ui:annotationField bible:ICBibleTheme .
+nl:id_39460dba43ed5da1309ad447a22f0679de3b522b ui:typingTime 0 .
+nl:id_39460dba43ed5da1309ad447a22f0679de3b522b oa:annotatedAt "2016-05-22T14:24:40+02:00"^^xsd:dateTime .
+nl:id_39460dba43ed5da1309ad447a22f0679de3b522b oa:annotatedBy user:everhoeff .
+nl:id_39460dba43ed5da1309ad447a22f0679de3b522b oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Chris buried" ] .
+nl:id_39460dba43ed5da1309ad447a22f0679de3b522b oa:hasTarget ubvu:print-218010001873 .
+nl:id_39460dba43ed5da1309ad447a22f0679de3b522b oa:motivatedBy oa:tagging .
+
 nl:id_3a61f00cb419a12a336e686f1cdcd0e571cf47bd a oa:Annotation .
 nl:id_3a61f00cb419a12a336e686f1cdcd0e571cf47bd terms:title "Jezus Christus" .
 nl:id_3a61f00cb419a12a336e686f1cdcd0e571cf47bd ui:annotationField bible:BibleCharacter .
@@ -23,6 +44,17 @@ nl:id_3a61f00cb419a12a336e686f1cdcd0e571cf47bd oa:hasBody resource:Jesus .
 nl:id_3a61f00cb419a12a336e686f1cdcd0e571cf47bd oa:hasTarget target:target_0a172c8f945e4720a7d30f598431e51d4728b9b0 .
 nl:id_3a61f00cb419a12a336e686f1cdcd0e571cf47bd oa:hasTarget ubvu:print-218010001873 .
 nl:id_3a61f00cb419a12a336e686f1cdcd0e571cf47bd oa:motivatedBy oa:tagging .
+
+nl:id_48fc2b59fd7f052990c7b92cde457de097319740 a oa:Annotation .
+nl:id_48fc2b59fd7f052990c7b92cde457de097319740 terms:title "Josef uit Arimatea" .
+nl:id_48fc2b59fd7f052990c7b92cde457de097319740 ui:annotationField bible:BibleCharacter .
+nl:id_48fc2b59fd7f052990c7b92cde457de097319740 ui:typingTime 0 .
+nl:id_48fc2b59fd7f052990c7b92cde457de097319740 oa:annotatedAt "2016-06-15T19:06:30+02:00"^^xsd:dateTime .
+nl:id_48fc2b59fd7f052990c7b92cde457de097319740 oa:annotatedBy user:paulinevandijk .
+nl:id_48fc2b59fd7f052990c7b92cde457de097319740 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Josef uit Arimatea" ] .
+nl:id_48fc2b59fd7f052990c7b92cde457de097319740 oa:hasTarget target:target_3a26bc3c2a73acbc0e475354c07ff43968d7f6fa .
+nl:id_48fc2b59fd7f052990c7b92cde457de097319740 oa:hasTarget ubvu:print-218010001873 .
+nl:id_48fc2b59fd7f052990c7b92cde457de097319740 oa:motivatedBy oa:tagging .
 
 nl:id_65b01fa5a8c0bc15eba5edc9a3e6baec62a49db3 a oa:Annotation .
 nl:id_65b01fa5a8c0bc15eba5edc9a3e6baec62a49db3 terms:title "Jezus Christus" .
@@ -45,6 +77,16 @@ nl:id_7fd2a88be91acaf5f8ef04fd03c19425fb185b4b oa:hasBody [ a content:ContentAsT
 nl:id_7fd2a88be91acaf5f8ef04fd03c19425fb185b4b oa:hasTarget ubvu:print-218010001873 .
 nl:id_7fd2a88be91acaf5f8ef04fd03c19425fb185b4b oa:motivatedBy oa:tagging .
 
+nl:id_8f2f41fbc56f6f21d149f33f894c67eb1b3eb286 a oa:Annotation .
+nl:id_8f2f41fbc56f6f21d149f33f894c67eb1b3eb286 terms:title "Josef van Arimatea legt het lichaam van Jezus in het nieuwe rotsgraf." .
+nl:id_8f2f41fbc56f6f21d149f33f894c67eb1b3eb286 ui:annotationField bible:ICBibleTheme .
+nl:id_8f2f41fbc56f6f21d149f33f894c67eb1b3eb286 ui:typingTime 0 .
+nl:id_8f2f41fbc56f6f21d149f33f894c67eb1b3eb286 oa:annotatedAt "2016-06-15T19:07:15+02:00"^^xsd:dateTime .
+nl:id_8f2f41fbc56f6f21d149f33f894c67eb1b3eb286 oa:annotatedBy user:paulinevandijk .
+nl:id_8f2f41fbc56f6f21d149f33f894c67eb1b3eb286 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Josef van Arimatea legt het lichaam van Jezus in het nieuwe rotsgraf." ] .
+nl:id_8f2f41fbc56f6f21d149f33f894c67eb1b3eb286 oa:hasTarget ubvu:print-218010001873 .
+nl:id_8f2f41fbc56f6f21d149f33f894c67eb1b3eb286 oa:motivatedBy oa:tagging .
+
 nl:id_acc1a9cea6f0bf5aefa8d09739d238dc2b8151e0 a oa:Annotation .
 nl:id_acc1a9cea6f0bf5aefa8d09739d238dc2b8151e0 terms:title "Jezus Christus" .
 nl:id_acc1a9cea6f0bf5aefa8d09739d238dc2b8151e0 ui:annotationField bible:BibleCharacter .
@@ -65,6 +107,17 @@ nl:id_c094403c2b25b536eb74113193a3578573ad0667 oa:annotatedBy user:hogguer .
 nl:id_c094403c2b25b536eb74113193a3578573ad0667 oa:hasBody <http://iconclass.org/73D74> .
 nl:id_c094403c2b25b536eb74113193a3578573ad0667 oa:hasTarget ubvu:print-218010001873 .
 nl:id_c094403c2b25b536eb74113193a3578573ad0667 oa:motivatedBy oa:tagging .
+
+nl:id_c5cdc98cfe178324723ea5030fb556f37b2a1129 a oa:Annotation .
+nl:id_c5cdc98cfe178324723ea5030fb556f37b2a1129 terms:title "Jezus Christus" .
+nl:id_c5cdc98cfe178324723ea5030fb556f37b2a1129 ui:annotationField bible:BibleCharacter .
+nl:id_c5cdc98cfe178324723ea5030fb556f37b2a1129 ui:typingTime 0 .
+nl:id_c5cdc98cfe178324723ea5030fb556f37b2a1129 oa:annotatedAt "2016-06-15T19:05:56+02:00"^^xsd:dateTime .
+nl:id_c5cdc98cfe178324723ea5030fb556f37b2a1129 oa:annotatedBy user:paulinevandijk .
+nl:id_c5cdc98cfe178324723ea5030fb556f37b2a1129 oa:hasBody resource:Jesus .
+nl:id_c5cdc98cfe178324723ea5030fb556f37b2a1129 oa:hasTarget target:target_43fa3e49fe0f3d5baa4905c06b0b34c0e387215c .
+nl:id_c5cdc98cfe178324723ea5030fb556f37b2a1129 oa:hasTarget ubvu:print-218010001873 .
+nl:id_c5cdc98cfe178324723ea5030fb556f37b2a1129 oa:motivatedBy oa:tagging .
 
 nl:id_ca11825017f76c23eb6c07964488f2ac85f6939a a oa:Annotation .
 nl:id_ca11825017f76c23eb6c07964488f2ac85f6939a terms:title "Jesus Christ buried" .
@@ -106,6 +159,22 @@ target:selector_0a172c8f945e4720a7d30f598431e51d4728b9b0 ui:x "0.252991452991453
 target:selector_0a172c8f945e4720a7d30f598431e51d4728b9b0 ui:y "0.42560707075443227"^^xsd:float .
 target:selector_0a172c8f945e4720a7d30f598431e51d4728b9b0 rdf:value "#xywh=percent:25,43,50,23" .
 
+target:selector_3a26bc3c2a73acbc0e475354c07ff43968d7f6fa a oa:FragmentSelector .
+target:selector_3a26bc3c2a73acbc0e475354c07ff43968d7f6fa terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_3a26bc3c2a73acbc0e475354c07ff43968d7f6fa ui:h "0.2196467991169978"^^xsd:float .
+target:selector_3a26bc3c2a73acbc0e475354c07ff43968d7f6fa ui:w "0.14871794871794872"^^xsd:float .
+target:selector_3a26bc3c2a73acbc0e475354c07ff43968d7f6fa ui:x "0.12991452991452992"^^xsd:float .
+target:selector_3a26bc3c2a73acbc0e475354c07ff43968d7f6fa ui:y "0.42218543046357615"^^xsd:float .
+target:selector_3a26bc3c2a73acbc0e475354c07ff43968d7f6fa rdf:value "#xywh=percent:13,42,15,22" .
+
+target:selector_43fa3e49fe0f3d5baa4905c06b0b34c0e387215c a oa:FragmentSelector .
+target:selector_43fa3e49fe0f3d5baa4905c06b0b34c0e387215c terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_43fa3e49fe0f3d5baa4905c06b0b34c0e387215c ui:h "0.1870860927152318"^^xsd:float .
+target:selector_43fa3e49fe0f3d5baa4905c06b0b34c0e387215c ui:w "0.25811965811965815"^^xsd:float .
+target:selector_43fa3e49fe0f3d5baa4905c06b0b34c0e387215c ui:x "0.3367521367521368"^^xsd:float .
+target:selector_43fa3e49fe0f3d5baa4905c06b0b34c0e387215c ui:y "0.4442604856512141"^^xsd:float .
+target:selector_43fa3e49fe0f3d5baa4905c06b0b34c0e387215c rdf:value "#xywh=percent:34,44,26,19" .
+
 target:selector_6200d9aab8ef4a53ac9778763124d4812b196478 a oa:FragmentSelector .
 target:selector_6200d9aab8ef4a53ac9778763124d4812b196478 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_6200d9aab8ef4a53ac9778763124d4812b196478 ui:h "0.15157835162501723"^^xsd:float .
@@ -113,6 +182,14 @@ target:selector_6200d9aab8ef4a53ac9778763124d4812b196478 ui:w "0.190316224709535
 target:selector_6200d9aab8ef4a53ac9778763124d4812b196478 ui:x "0.5474358974358975"^^xsd:float .
 target:selector_6200d9aab8ef4a53ac9778763124d4812b196478 ui:y "0.3147019813655491"^^xsd:float .
 target:selector_6200d9aab8ef4a53ac9778763124d4812b196478 rdf:value "#xywh=percent:55,31,19,15" .
+
+target:selector_8c7256a5bc38d0ad456eaec69ac3f63e35f39ee9 a oa:FragmentSelector .
+target:selector_8c7256a5bc38d0ad456eaec69ac3f63e35f39ee9 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_8c7256a5bc38d0ad456eaec69ac3f63e35f39ee9 ui:h "0.21791559000861327"^^xsd:float .
+target:selector_8c7256a5bc38d0ad456eaec69ac3f63e35f39ee9 ui:w "0.152"^^xsd:float .
+target:selector_8c7256a5bc38d0ad456eaec69ac3f63e35f39ee9 ui:x "0.324"^^xsd:float .
+target:selector_8c7256a5bc38d0ad456eaec69ac3f63e35f39ee9 ui:y "0.4418604651162791"^^xsd:float .
+target:selector_8c7256a5bc38d0ad456eaec69ac3f63e35f39ee9 rdf:value "#xywh=percent:32,44,15,22" .
 
 target:selector_ad7c32c79f5ce81caa34eec7627e971adf12e8c9 a oa:FragmentSelector .
 target:selector_ad7c32c79f5ce81caa34eec7627e971adf12e8c9 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -142,9 +219,21 @@ target:target_0a172c8f945e4720a7d30f598431e51d4728b9b0 a oa:SpecificResource .
 target:target_0a172c8f945e4720a7d30f598431e51d4728b9b0 oa:hasSelector target:selector_0a172c8f945e4720a7d30f598431e51d4728b9b0 .
 target:target_0a172c8f945e4720a7d30f598431e51d4728b9b0 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/912> .
 
+target:target_3a26bc3c2a73acbc0e475354c07ff43968d7f6fa a oa:SpecificResource .
+target:target_3a26bc3c2a73acbc0e475354c07ff43968d7f6fa oa:hasSelector target:selector_3a26bc3c2a73acbc0e475354c07ff43968d7f6fa .
+target:target_3a26bc3c2a73acbc0e475354c07ff43968d7f6fa oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/912> .
+
+target:target_43fa3e49fe0f3d5baa4905c06b0b34c0e387215c a oa:SpecificResource .
+target:target_43fa3e49fe0f3d5baa4905c06b0b34c0e387215c oa:hasSelector target:selector_43fa3e49fe0f3d5baa4905c06b0b34c0e387215c .
+target:target_43fa3e49fe0f3d5baa4905c06b0b34c0e387215c oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/912> .
+
 target:target_6200d9aab8ef4a53ac9778763124d4812b196478 a oa:SpecificResource .
 target:target_6200d9aab8ef4a53ac9778763124d4812b196478 oa:hasSelector target:selector_6200d9aab8ef4a53ac9778763124d4812b196478 .
 target:target_6200d9aab8ef4a53ac9778763124d4812b196478 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/912> .
+
+target:target_8c7256a5bc38d0ad456eaec69ac3f63e35f39ee9 a oa:SpecificResource .
+target:target_8c7256a5bc38d0ad456eaec69ac3f63e35f39ee9 oa:hasSelector target:selector_8c7256a5bc38d0ad456eaec69ac3f63e35f39ee9 .
+target:target_8c7256a5bc38d0ad456eaec69ac3f63e35f39ee9 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/912> .
 
 target:target_ad7c32c79f5ce81caa34eec7627e971adf12e8c9 a oa:SpecificResource .
 target:target_ad7c32c79f5ce81caa34eec7627e971adf12e8c9 oa:hasSelector target:selector_ad7c32c79f5ce81caa34eec7627e971adf12e8c9 .

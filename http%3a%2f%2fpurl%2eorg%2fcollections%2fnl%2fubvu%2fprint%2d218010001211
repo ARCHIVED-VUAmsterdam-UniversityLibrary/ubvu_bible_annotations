@@ -1,14 +1,39 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
+
+nl:id_09ed658124598e663187d3ce04105c58d665edfa a oa:Annotation .
+nl:id_09ed658124598e663187d3ce04105c58d665edfa terms:title "Aäron" .
+nl:id_09ed658124598e663187d3ce04105c58d665edfa ui:annotationField bible:BibleCharacter .
+nl:id_09ed658124598e663187d3ce04105c58d665edfa ui:typingTime 0 .
+nl:id_09ed658124598e663187d3ce04105c58d665edfa oa:annotatedAt "2016-06-04T16:21:59+02:00"^^xsd:dateTime .
+nl:id_09ed658124598e663187d3ce04105c58d665edfa oa:annotatedBy user:paulinevandijk .
+nl:id_09ed658124598e663187d3ce04105c58d665edfa oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Aäron" ] .
+nl:id_09ed658124598e663187d3ce04105c58d665edfa oa:hasTarget target:target_cf15df6745953704d17874ec25325880fae65e50 .
+nl:id_09ed658124598e663187d3ce04105c58d665edfa oa:hasTarget ubvu:print-218010001211 .
+nl:id_09ed658124598e663187d3ce04105c58d665edfa oa:motivatedBy oa:tagging .
+
+nl:id_1acb7086c0a6db3acabe654709e51170f21daa72 a oa:Annotation .
+nl:id_1acb7086c0a6db3acabe654709e51170f21daa72 terms:title "Mozes" .
+nl:id_1acb7086c0a6db3acabe654709e51170f21daa72 ui:annotationField bible:BibleCharacter .
+nl:id_1acb7086c0a6db3acabe654709e51170f21daa72 ui:typingTime 0 .
+nl:id_1acb7086c0a6db3acabe654709e51170f21daa72 oa:annotatedAt "2016-06-04T16:21:44+02:00"^^xsd:dateTime .
+nl:id_1acb7086c0a6db3acabe654709e51170f21daa72 oa:annotatedBy user:paulinevandijk .
+nl:id_1acb7086c0a6db3acabe654709e51170f21daa72 oa:hasBody resource:Moses .
+nl:id_1acb7086c0a6db3acabe654709e51170f21daa72 oa:hasTarget target:target_2f42045a68f12efb29e868a5b014d224fb426dd0 .
+nl:id_1acb7086c0a6db3acabe654709e51170f21daa72 oa:hasTarget ubvu:print-218010001211 .
+nl:id_1acb7086c0a6db3acabe654709e51170f21daa72 oa:motivatedBy oa:tagging .
 
 nl:id_710c3918fd812da681f4aba269f24dd19308e237 a oa:Annotation .
 nl:id_710c3918fd812da681f4aba269f24dd19308e237 terms:title "Mozes" .
@@ -21,6 +46,17 @@ nl:id_710c3918fd812da681f4aba269f24dd19308e237 oa:hasTarget target:target_1f9574
 nl:id_710c3918fd812da681f4aba269f24dd19308e237 oa:hasTarget ubvu:print-218010001211 .
 nl:id_710c3918fd812da681f4aba269f24dd19308e237 oa:motivatedBy oa:tagging .
 
+nl:id_cbb5b90b7feb116f595d686952906618089a3bfd a oa:Annotation .
+nl:id_cbb5b90b7feb116f595d686952906618089a3bfd terms:title "Pharaoh" .
+nl:id_cbb5b90b7feb116f595d686952906618089a3bfd ui:annotationField bible:BibleCharacter .
+nl:id_cbb5b90b7feb116f595d686952906618089a3bfd ui:typingTime 0 .
+nl:id_cbb5b90b7feb116f595d686952906618089a3bfd oa:annotatedAt "2016-06-12T11:19:38+02:00"^^xsd:dateTime .
+nl:id_cbb5b90b7feb116f595d686952906618089a3bfd oa:annotatedBy user:everhoeff .
+nl:id_cbb5b90b7feb116f595d686952906618089a3bfd oa:hasBody resource:Pharaoh .
+nl:id_cbb5b90b7feb116f595d686952906618089a3bfd oa:hasTarget target:target_7fff00f6541ada5edd7410e81cd0ab11f721c989 .
+nl:id_cbb5b90b7feb116f595d686952906618089a3bfd oa:hasTarget ubvu:print-218010001211 .
+nl:id_cbb5b90b7feb116f595d686952906618089a3bfd oa:motivatedBy oa:tagging .
+
 nl:id_d5dfac533d17a17751747100b801d016dfcb7aaf a oa:Annotation .
 nl:id_d5dfac533d17a17751747100b801d016dfcb7aaf terms:title "miracle of the rod changed into a serpent ; Moses may be shown fleeing from the serpent" .
 nl:id_d5dfac533d17a17751747100b801d016dfcb7aaf ui:annotationField bible:ICBibleTheme .
@@ -31,6 +67,16 @@ nl:id_d5dfac533d17a17751747100b801d016dfcb7aaf oa:hasBody <http://iconclass.org/
 nl:id_d5dfac533d17a17751747100b801d016dfcb7aaf oa:hasTarget ubvu:print-218010001211 .
 nl:id_d5dfac533d17a17751747100b801d016dfcb7aaf oa:motivatedBy oa:tagging .
 
+nl:id_ebbaa96a54fa14486aece6f699babeccb39512d6 a oa:Annotation .
+nl:id_ebbaa96a54fa14486aece6f699babeccb39512d6 terms:title "The rods of Moses and the Magitians turned into serpents" .
+nl:id_ebbaa96a54fa14486aece6f699babeccb39512d6 ui:annotationField bible:ICBibleTheme .
+nl:id_ebbaa96a54fa14486aece6f699babeccb39512d6 ui:typingTime 0 .
+nl:id_ebbaa96a54fa14486aece6f699babeccb39512d6 oa:annotatedAt "2016-06-12T11:18:02+02:00"^^xsd:dateTime .
+nl:id_ebbaa96a54fa14486aece6f699babeccb39512d6 oa:annotatedBy user:everhoeff .
+nl:id_ebbaa96a54fa14486aece6f699babeccb39512d6 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The rods of Moses and the Magitians turned into serpents" ] .
+nl:id_ebbaa96a54fa14486aece6f699babeccb39512d6 oa:hasTarget ubvu:print-218010001211 .
+nl:id_ebbaa96a54fa14486aece6f699babeccb39512d6 oa:motivatedBy oa:tagging .
+
 target:selector_1f9574170822d9e25a498a9524bf7ccf8060c17c a oa:FragmentSelector .
 target:selector_1f9574170822d9e25a498a9524bf7ccf8060c17c terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_1f9574170822d9e25a498a9524bf7ccf8060c17c ui:h "0.16917728852838934"^^xsd:float .
@@ -39,6 +85,42 @@ target:selector_1f9574170822d9e25a498a9524bf7ccf8060c17c ui:x "0.110256410256410
 target:selector_1f9574170822d9e25a498a9524bf7ccf8060c17c ui:y "0.23754345307068367"^^xsd:float .
 target:selector_1f9574170822d9e25a498a9524bf7ccf8060c17c rdf:value "#xywh=percent:11,24,20,17" .
 
+target:selector_2f42045a68f12efb29e868a5b014d224fb426dd0 a oa:FragmentSelector .
+target:selector_2f42045a68f12efb29e868a5b014d224fb426dd0 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_2f42045a68f12efb29e868a5b014d224fb426dd0 ui:h "0.24855156431054462"^^xsd:float .
+target:selector_2f42045a68f12efb29e868a5b014d224fb426dd0 ui:w "0.16495726495726495"^^xsd:float .
+target:selector_2f42045a68f12efb29e868a5b014d224fb426dd0 ui:x "0.03076923076923077"^^xsd:float .
+target:selector_2f42045a68f12efb29e868a5b014d224fb426dd0 ui:y "0.4246813441483198"^^xsd:float .
+target:selector_2f42045a68f12efb29e868a5b014d224fb426dd0 rdf:value "#xywh=percent:3,42,16,25" .
+
+target:selector_7fff00f6541ada5edd7410e81cd0ab11f721c989 a oa:FragmentSelector .
+target:selector_7fff00f6541ada5edd7410e81cd0ab11f721c989 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_7fff00f6541ada5edd7410e81cd0ab11f721c989 ui:h "0.23869801084990958"^^xsd:float .
+target:selector_7fff00f6541ada5edd7410e81cd0ab11f721c989 ui:w "0.25733333333333336"^^xsd:float .
+target:selector_7fff00f6541ada5edd7410e81cd0ab11f721c989 ui:x "0.12"^^xsd:float .
+target:selector_7fff00f6541ada5edd7410e81cd0ab11f721c989 ui:y "0.23960216998191683"^^xsd:float .
+target:selector_7fff00f6541ada5edd7410e81cd0ab11f721c989 rdf:value "#xywh=percent:12,24,26,24" .
+
+target:selector_cf15df6745953704d17874ec25325880fae65e50 a oa:FragmentSelector .
+target:selector_cf15df6745953704d17874ec25325880fae65e50 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_cf15df6745953704d17874ec25325880fae65e50 ui:h "0.29200463499420626"^^xsd:float .
+target:selector_cf15df6745953704d17874ec25325880fae65e50 ui:w "0.19914529914529913"^^xsd:float .
+target:selector_cf15df6745953704d17874ec25325880fae65e50 ui:x "0.25384615384615383"^^xsd:float .
+target:selector_cf15df6745953704d17874ec25325880fae65e50 ui:y "0.4281575898030128"^^xsd:float .
+target:selector_cf15df6745953704d17874ec25325880fae65e50 rdf:value "#xywh=percent:25,43,20,29" .
+
 target:target_1f9574170822d9e25a498a9524bf7ccf8060c17c a oa:SpecificResource .
 target:target_1f9574170822d9e25a498a9524bf7ccf8060c17c oa:hasSelector target:selector_1f9574170822d9e25a498a9524bf7ccf8060c17c .
 target:target_1f9574170822d9e25a498a9524bf7ccf8060c17c oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/252> .
+
+target:target_2f42045a68f12efb29e868a5b014d224fb426dd0 a oa:SpecificResource .
+target:target_2f42045a68f12efb29e868a5b014d224fb426dd0 oa:hasSelector target:selector_2f42045a68f12efb29e868a5b014d224fb426dd0 .
+target:target_2f42045a68f12efb29e868a5b014d224fb426dd0 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/252> .
+
+target:target_7fff00f6541ada5edd7410e81cd0ab11f721c989 a oa:SpecificResource .
+target:target_7fff00f6541ada5edd7410e81cd0ab11f721c989 oa:hasSelector target:selector_7fff00f6541ada5edd7410e81cd0ab11f721c989 .
+target:target_7fff00f6541ada5edd7410e81cd0ab11f721c989 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/252> .
+
+target:target_cf15df6745953704d17874ec25325880fae65e50 a oa:SpecificResource .
+target:target_cf15df6745953704d17874ec25325880fae65e50 oa:hasSelector target:selector_cf15df6745953704d17874ec25325880fae65e50 .
+target:target_cf15df6745953704d17874ec25325880fae65e50 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/252> .

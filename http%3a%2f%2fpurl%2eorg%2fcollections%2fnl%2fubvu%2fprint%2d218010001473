@@ -12,58 +12,58 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
-nl:id_2ab8b8aff255518a8a88822ffafdf3b959c83c36 a oa:Annotation .
-nl:id_2ab8b8aff255518a8a88822ffafdf3b959c83c36 terms:title "Abigaïl reist naar David" .
-nl:id_2ab8b8aff255518a8a88822ffafdf3b959c83c36 ui:annotationField bible:ICBibleTheme .
-nl:id_2ab8b8aff255518a8a88822ffafdf3b959c83c36 ui:typingTime 0 .
-nl:id_2ab8b8aff255518a8a88822ffafdf3b959c83c36 oa:annotatedAt "2016-04-23T16:20:56+02:00"^^xsd:dateTime .
-nl:id_2ab8b8aff255518a8a88822ffafdf3b959c83c36 oa:annotatedBy user:paulinevandijk .
-nl:id_2ab8b8aff255518a8a88822ffafdf3b959c83c36 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Abigaïl reist naar David" ] .
-nl:id_2ab8b8aff255518a8a88822ffafdf3b959c83c36 oa:hasTarget ubvu:print-218010001473 .
-nl:id_2ab8b8aff255518a8a88822ffafdf3b959c83c36 oa:motivatedBy oa:tagging .
+nl:id_44cbe71210354c8ffba4900afe00e34c14866706 a oa:Annotation .
+nl:id_44cbe71210354c8ffba4900afe00e34c14866706 terms:title "meeting of David and Abigail, who kneels before him" .
+nl:id_44cbe71210354c8ffba4900afe00e34c14866706 ui:annotationField bible:ICBibleTheme .
+nl:id_44cbe71210354c8ffba4900afe00e34c14866706 ui:typingTime 0 .
+nl:id_44cbe71210354c8ffba4900afe00e34c14866706 oa:annotatedAt "2016-05-05T12:10:56+02:00"^^xsd:dateTime .
+nl:id_44cbe71210354c8ffba4900afe00e34c14866706 oa:annotatedBy user:everhoeff .
+nl:id_44cbe71210354c8ffba4900afe00e34c14866706 oa:hasBody <http://iconclass.org/71H2442> .
+nl:id_44cbe71210354c8ffba4900afe00e34c14866706 oa:hasTarget ubvu:print-218010001473 .
+nl:id_44cbe71210354c8ffba4900afe00e34c14866706 oa:motivatedBy oa:tagging .
 
-nl:id_5df35e0c0d2a6b91ce66f84cc469078068a73142 a oa:Annotation .
-nl:id_5df35e0c0d2a6b91ce66f84cc469078068a73142 terms:title "David" .
-nl:id_5df35e0c0d2a6b91ce66f84cc469078068a73142 ui:annotationField bible:BibleCharacter .
-nl:id_5df35e0c0d2a6b91ce66f84cc469078068a73142 ui:typingTime 0 .
-nl:id_5df35e0c0d2a6b91ce66f84cc469078068a73142 oa:annotatedAt "2016-04-23T16:20:37+02:00"^^xsd:dateTime .
-nl:id_5df35e0c0d2a6b91ce66f84cc469078068a73142 oa:annotatedBy user:paulinevandijk .
-nl:id_5df35e0c0d2a6b91ce66f84cc469078068a73142 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "David" ] .
-nl:id_5df35e0c0d2a6b91ce66f84cc469078068a73142 oa:hasTarget target:target_1a57840aa2982f67c3d7ffd70fe7acabc9613ec2 .
-nl:id_5df35e0c0d2a6b91ce66f84cc469078068a73142 oa:hasTarget ubvu:print-218010001473 .
-nl:id_5df35e0c0d2a6b91ce66f84cc469078068a73142 oa:motivatedBy oa:tagging .
+nl:id_e01c5b34be38f7f6e0826ebed1b7005c5a81c08e a oa:Annotation .
+nl:id_e01c5b34be38f7f6e0826ebed1b7005c5a81c08e terms:title "David" .
+nl:id_e01c5b34be38f7f6e0826ebed1b7005c5a81c08e ui:annotationField bible:BibleCharacter .
+nl:id_e01c5b34be38f7f6e0826ebed1b7005c5a81c08e ui:typingTime 0 .
+nl:id_e01c5b34be38f7f6e0826ebed1b7005c5a81c08e oa:annotatedAt "2016-05-05T12:12:12+02:00"^^xsd:dateTime .
+nl:id_e01c5b34be38f7f6e0826ebed1b7005c5a81c08e oa:annotatedBy user:everhoeff .
+nl:id_e01c5b34be38f7f6e0826ebed1b7005c5a81c08e oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "David" ] .
+nl:id_e01c5b34be38f7f6e0826ebed1b7005c5a81c08e oa:hasTarget target:target_8fcf30c7735ed0ee561fbf58326e4f0ab86ce0aa .
+nl:id_e01c5b34be38f7f6e0826ebed1b7005c5a81c08e oa:hasTarget ubvu:print-218010001473 .
+nl:id_e01c5b34be38f7f6e0826ebed1b7005c5a81c08e oa:motivatedBy oa:tagging .
 
-nl:id_6e89b403482a659e8d1b6825ea0dd58d602f32bb a oa:Annotation .
-nl:id_6e89b403482a659e8d1b6825ea0dd58d602f32bb terms:title "Abigaïl" .
-nl:id_6e89b403482a659e8d1b6825ea0dd58d602f32bb ui:annotationField bible:BibleCharacter .
-nl:id_6e89b403482a659e8d1b6825ea0dd58d602f32bb ui:typingTime 0 .
-nl:id_6e89b403482a659e8d1b6825ea0dd58d602f32bb oa:annotatedAt "2016-04-23T16:20:11+02:00"^^xsd:dateTime .
-nl:id_6e89b403482a659e8d1b6825ea0dd58d602f32bb oa:annotatedBy user:paulinevandijk .
-nl:id_6e89b403482a659e8d1b6825ea0dd58d602f32bb oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Abigaïl" ] .
-nl:id_6e89b403482a659e8d1b6825ea0dd58d602f32bb oa:hasTarget target:target_8ddf4ecab6faf842d529f71e980d0ade19595a5e .
-nl:id_6e89b403482a659e8d1b6825ea0dd58d602f32bb oa:hasTarget ubvu:print-218010001473 .
-nl:id_6e89b403482a659e8d1b6825ea0dd58d602f32bb oa:motivatedBy oa:tagging .
+nl:id_f728463e0a4c3848ffbcb1b0d8eca422ede611fa a oa:Annotation .
+nl:id_f728463e0a4c3848ffbcb1b0d8eca422ede611fa terms:title "Abigael" .
+nl:id_f728463e0a4c3848ffbcb1b0d8eca422ede611fa ui:annotationField bible:BibleCharacter .
+nl:id_f728463e0a4c3848ffbcb1b0d8eca422ede611fa ui:typingTime 0 .
+nl:id_f728463e0a4c3848ffbcb1b0d8eca422ede611fa oa:annotatedAt "2016-05-05T12:13:08+02:00"^^xsd:dateTime .
+nl:id_f728463e0a4c3848ffbcb1b0d8eca422ede611fa oa:annotatedBy user:everhoeff .
+nl:id_f728463e0a4c3848ffbcb1b0d8eca422ede611fa oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Abigael" ] .
+nl:id_f728463e0a4c3848ffbcb1b0d8eca422ede611fa oa:hasTarget target:target_32a56eaa66018f73f79de7c470a31f551c9aee93 .
+nl:id_f728463e0a4c3848ffbcb1b0d8eca422ede611fa oa:hasTarget ubvu:print-218010001473 .
+nl:id_f728463e0a4c3848ffbcb1b0d8eca422ede611fa oa:motivatedBy oa:tagging .
 
-target:selector_1a57840aa2982f67c3d7ffd70fe7acabc9613ec2 a oa:FragmentSelector .
-target:selector_1a57840aa2982f67c3d7ffd70fe7acabc9613ec2 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
-target:selector_1a57840aa2982f67c3d7ffd70fe7acabc9613ec2 ui:h "0.46328195829555757"^^xsd:float .
-target:selector_1a57840aa2982f67c3d7ffd70fe7acabc9613ec2 ui:w "0.23733333333333334"^^xsd:float .
-target:selector_1a57840aa2982f67c3d7ffd70fe7acabc9613ec2 ui:x "0.10933333333333334"^^xsd:float .
-target:selector_1a57840aa2982f67c3d7ffd70fe7acabc9613ec2 ui:y "0.4016319129646419"^^xsd:float .
-target:selector_1a57840aa2982f67c3d7ffd70fe7acabc9613ec2 rdf:value "#xywh=percent:11,40,24,46" .
+target:selector_32a56eaa66018f73f79de7c470a31f551c9aee93 a oa:FragmentSelector .
+target:selector_32a56eaa66018f73f79de7c470a31f551c9aee93 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_32a56eaa66018f73f79de7c470a31f551c9aee93 ui:h "0.2629193109700816"^^xsd:float .
+target:selector_32a56eaa66018f73f79de7c470a31f551c9aee93 ui:w "0.32266666666666666"^^xsd:float .
+target:selector_32a56eaa66018f73f79de7c470a31f551c9aee93 ui:x "0.36666666666666664"^^xsd:float .
+target:selector_32a56eaa66018f73f79de7c470a31f551c9aee93 ui:y "0.5611967361740707"^^xsd:float .
+target:selector_32a56eaa66018f73f79de7c470a31f551c9aee93 rdf:value "#xywh=percent:37,56,32,26" .
 
-target:selector_8ddf4ecab6faf842d529f71e980d0ade19595a5e a oa:FragmentSelector .
-target:selector_8ddf4ecab6faf842d529f71e980d0ade19595a5e terms:conformsTo <http://www.w3.org/TR/media-frags/> .
-target:selector_8ddf4ecab6faf842d529f71e980d0ade19595a5e ui:h "0.24388032638259294"^^xsd:float .
-target:selector_8ddf4ecab6faf842d529f71e980d0ade19595a5e ui:w "0.392"^^xsd:float .
-target:selector_8ddf4ecab6faf842d529f71e980d0ade19595a5e ui:x "0.348"^^xsd:float .
-target:selector_8ddf4ecab6faf842d529f71e980d0ade19595a5e ui:y "0.5630099728014506"^^xsd:float .
-target:selector_8ddf4ecab6faf842d529f71e980d0ade19595a5e rdf:value "#xywh=percent:35,56,39,24" .
+target:selector_8fcf30c7735ed0ee561fbf58326e4f0ab86ce0aa a oa:FragmentSelector .
+target:selector_8fcf30c7735ed0ee561fbf58326e4f0ab86ce0aa terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_8fcf30c7735ed0ee561fbf58326e4f0ab86ce0aa ui:h "0.42792384406165007"^^xsd:float .
+target:selector_8fcf30c7735ed0ee561fbf58326e4f0ab86ce0aa ui:w "0.20666666666666667"^^xsd:float .
+target:selector_8fcf30c7735ed0ee561fbf58326e4f0ab86ce0aa ui:x "0.12266666666666666"^^xsd:float .
+target:selector_8fcf30c7735ed0ee561fbf58326e4f0ab86ce0aa ui:y "0.4016319129646419"^^xsd:float .
+target:selector_8fcf30c7735ed0ee561fbf58326e4f0ab86ce0aa rdf:value "#xywh=percent:12,40,21,43" .
 
-target:target_1a57840aa2982f67c3d7ffd70fe7acabc9613ec2 a oa:SpecificResource .
-target:target_1a57840aa2982f67c3d7ffd70fe7acabc9613ec2 oa:hasSelector target:selector_1a57840aa2982f67c3d7ffd70fe7acabc9613ec2 .
-target:target_1a57840aa2982f67c3d7ffd70fe7acabc9613ec2 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/514> .
+target:target_32a56eaa66018f73f79de7c470a31f551c9aee93 a oa:SpecificResource .
+target:target_32a56eaa66018f73f79de7c470a31f551c9aee93 oa:hasSelector target:selector_32a56eaa66018f73f79de7c470a31f551c9aee93 .
+target:target_32a56eaa66018f73f79de7c470a31f551c9aee93 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/514> .
 
-target:target_8ddf4ecab6faf842d529f71e980d0ade19595a5e a oa:SpecificResource .
-target:target_8ddf4ecab6faf842d529f71e980d0ade19595a5e oa:hasSelector target:selector_8ddf4ecab6faf842d529f71e980d0ade19595a5e .
-target:target_8ddf4ecab6faf842d529f71e980d0ade19595a5e oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/514> .
+target:target_8fcf30c7735ed0ee561fbf58326e4f0ab86ce0aa a oa:SpecificResource .
+target:target_8fcf30c7735ed0ee561fbf58326e4f0ab86ce0aa oa:hasSelector target:selector_8fcf30c7735ed0ee561fbf58326e4f0ab86ce0aa .
+target:target_8fcf30c7735ed0ee561fbf58326e4f0ab86ce0aa oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/514> .

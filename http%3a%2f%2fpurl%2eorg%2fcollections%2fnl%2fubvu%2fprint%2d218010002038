@@ -24,6 +24,16 @@ nl:id_0c08c7261d07384f2bacbc00298f8a4bfc37410c oa:hasTarget target:target_6749c9
 nl:id_0c08c7261d07384f2bacbc00298f8a4bfc37410c oa:hasTarget ubvu:print-218010002038 .
 nl:id_0c08c7261d07384f2bacbc00298f8a4bfc37410c oa:motivatedBy oa:tagging .
 
+nl:id_2f4bed334305a299e6a2599905f85c2df1bc2642 a oa:Annotation .
+nl:id_2f4bed334305a299e6a2599905f85c2df1bc2642 terms:title "multiplication of loaves and fishes for a multitude of four or five thousand people (Matthew 14:13-21, 15:32-39; Mark 6:32-44, 8:1-10; Luke 9:10-17; John 6:1-14)" .
+nl:id_2f4bed334305a299e6a2599905f85c2df1bc2642 ui:annotationField bible:ICBibleTheme .
+nl:id_2f4bed334305a299e6a2599905f85c2df1bc2642 ui:typingTime 0 .
+nl:id_2f4bed334305a299e6a2599905f85c2df1bc2642 oa:annotatedAt "2016-05-27T10:14:13+02:00"^^xsd:dateTime .
+nl:id_2f4bed334305a299e6a2599905f85c2df1bc2642 oa:annotatedBy user:everhoeff .
+nl:id_2f4bed334305a299e6a2599905f85c2df1bc2642 oa:hasBody <http://iconclass.org/73C612> .
+nl:id_2f4bed334305a299e6a2599905f85c2df1bc2642 oa:hasTarget ubvu:print-218010002038 .
+nl:id_2f4bed334305a299e6a2599905f85c2df1bc2642 oa:motivatedBy oa:tagging .
+
 nl:id_4ad4df1feb6557c86497f63da97944d455bc8890 a oa:Annotation .
 nl:id_4ad4df1feb6557c86497f63da97944d455bc8890 terms:title "Jezus Christus" .
 nl:id_4ad4df1feb6557c86497f63da97944d455bc8890 ui:annotationField bible:BibleCharacter .
@@ -123,6 +133,26 @@ nl:id_946646aa29fcc3d5c25480661c8ab79c2a26e769 oa:hasTarget target:target_0c44f6
 nl:id_946646aa29fcc3d5c25480661c8ab79c2a26e769 oa:hasTarget ubvu:print-218010002038 .
 nl:id_946646aa29fcc3d5c25480661c8ab79c2a26e769 oa:motivatedBy oa:tagging .
 
+nl:id_9aaf8c0c6c1244db278ad2c6caefb63b10bb9a8a a oa:Annotation .
+nl:id_9aaf8c0c6c1244db278ad2c6caefb63b10bb9a8a terms:title "Christ and the woman of Samaria: sitting at Jacob's well he asks her for a drink from her jug" .
+nl:id_9aaf8c0c6c1244db278ad2c6caefb63b10bb9a8a ui:annotationField bible:ICBibleTheme .
+nl:id_9aaf8c0c6c1244db278ad2c6caefb63b10bb9a8a ui:typingTime 0 .
+nl:id_9aaf8c0c6c1244db278ad2c6caefb63b10bb9a8a oa:annotatedAt "2016-05-27T10:12:58+02:00"^^xsd:dateTime .
+nl:id_9aaf8c0c6c1244db278ad2c6caefb63b10bb9a8a oa:annotatedBy user:everhoeff .
+nl:id_9aaf8c0c6c1244db278ad2c6caefb63b10bb9a8a oa:hasBody <http://iconclass.org/73C72212> .
+nl:id_9aaf8c0c6c1244db278ad2c6caefb63b10bb9a8a oa:hasTarget ubvu:print-218010002038 .
+nl:id_9aaf8c0c6c1244db278ad2c6caefb63b10bb9a8a oa:motivatedBy oa:tagging .
+
+nl:id_a12ac1e61eb16b4950d5b75a0ddc67c98eb60f48 a oa:Annotation .
+nl:id_a12ac1e61eb16b4950d5b75a0ddc67c98eb60f48 terms:title "An angel stirred the water, the first man who stepped in will be cured of his desease" .
+nl:id_a12ac1e61eb16b4950d5b75a0ddc67c98eb60f48 ui:annotationField bible:ICBibleTheme .
+nl:id_a12ac1e61eb16b4950d5b75a0ddc67c98eb60f48 ui:typingTime 0 .
+nl:id_a12ac1e61eb16b4950d5b75a0ddc67c98eb60f48 oa:annotatedAt "2016-05-27T10:18:24+02:00"^^xsd:dateTime .
+nl:id_a12ac1e61eb16b4950d5b75a0ddc67c98eb60f48 oa:annotatedBy user:everhoeff .
+nl:id_a12ac1e61eb16b4950d5b75a0ddc67c98eb60f48 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "An angel stirred the water, the first man who stepped in will be cured of his desease" ] .
+nl:id_a12ac1e61eb16b4950d5b75a0ddc67c98eb60f48 oa:hasTarget ubvu:print-218010002038 .
+nl:id_a12ac1e61eb16b4950d5b75a0ddc67c98eb60f48 oa:motivatedBy oa:tagging .
+
 nl:id_b00b6b05140e9943020c6ca1a47747646b26d5b5 a oa:Annotation .
 nl:id_b00b6b05140e9943020c6ca1a47747646b26d5b5 terms:title "Samaritaanse vrouw" .
 nl:id_b00b6b05140e9943020c6ca1a47747646b26d5b5 ui:annotationField bible:BibleCharacter .
@@ -156,6 +186,16 @@ nl:id_de2c4e79d0af7b1147831b9a769986c712f218dd oa:hasTarget target:target_58fac1
 nl:id_de2c4e79d0af7b1147831b9a769986c712f218dd oa:hasTarget ubvu:print-218010002038 .
 nl:id_de2c4e79d0af7b1147831b9a769986c712f218dd oa:motivatedBy oa:tagging .
 
+nl:id_ea44a0d1c55acaab99983da46b16946339a6fa8b a oa:Annotation .
+nl:id_ea44a0d1c55acaab99983da46b16946339a6fa8b terms:title "Wedding at Cana" .
+nl:id_ea44a0d1c55acaab99983da46b16946339a6fa8b ui:annotationField bible:ICBibleTheme .
+nl:id_ea44a0d1c55acaab99983da46b16946339a6fa8b ui:typingTime 0 .
+nl:id_ea44a0d1c55acaab99983da46b16946339a6fa8b oa:annotatedAt "2016-05-27T10:06:54+02:00"^^xsd:dateTime .
+nl:id_ea44a0d1c55acaab99983da46b16946339a6fa8b oa:annotatedBy user:everhoeff .
+nl:id_ea44a0d1c55acaab99983da46b16946339a6fa8b oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Wedding at Cana" ] .
+nl:id_ea44a0d1c55acaab99983da46b16946339a6fa8b oa:hasTarget ubvu:print-218010002038 .
+nl:id_ea44a0d1c55acaab99983da46b16946339a6fa8b oa:motivatedBy oa:tagging .
+
 nl:id_f33b9e07a873f370982651b1c72099e81f01acc2 a oa:Annotation .
 nl:id_f33b9e07a873f370982651b1c72099e81f01acc2 terms:title "Fillipus" .
 nl:id_f33b9e07a873f370982651b1c72099e81f01acc2 ui:annotationField bible:BibleCharacter .
@@ -167,6 +207,16 @@ nl:id_f33b9e07a873f370982651b1c72099e81f01acc2 oa:hasTarget target:target_430837
 nl:id_f33b9e07a873f370982651b1c72099e81f01acc2 oa:hasTarget ubvu:print-218010002038 .
 nl:id_f33b9e07a873f370982651b1c72099e81f01acc2 oa:motivatedBy oa:tagging .
 
+nl:id_f4e5d876e77f3c3e15b630fec164c29e8cf31bc7 a oa:Annotation .
+nl:id_f4e5d876e77f3c3e15b630fec164c29e8cf31bc7 terms:title "Jesus and the blind man" .
+nl:id_f4e5d876e77f3c3e15b630fec164c29e8cf31bc7 ui:annotationField bible:ICBibleTheme .
+nl:id_f4e5d876e77f3c3e15b630fec164c29e8cf31bc7 ui:typingTime 0 .
+nl:id_f4e5d876e77f3c3e15b630fec164c29e8cf31bc7 oa:annotatedAt "2016-05-27T10:08:25+02:00"^^xsd:dateTime .
+nl:id_f4e5d876e77f3c3e15b630fec164c29e8cf31bc7 oa:annotatedBy user:everhoeff .
+nl:id_f4e5d876e77f3c3e15b630fec164c29e8cf31bc7 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jesus and the blind man" ] .
+nl:id_f4e5d876e77f3c3e15b630fec164c29e8cf31bc7 oa:hasTarget ubvu:print-218010002038 .
+nl:id_f4e5d876e77f3c3e15b630fec164c29e8cf31bc7 oa:motivatedBy oa:tagging .
+
 nl:id_fe6e69bb2c20a04621c4620fcd7ded98e6ca9ef0 a oa:Annotation .
 nl:id_fe6e69bb2c20a04621c4620fcd7ded98e6ca9ef0 terms:title "vrouw uit Samaria" .
 nl:id_fe6e69bb2c20a04621c4620fcd7ded98e6ca9ef0 ui:annotationField bible:BibleCharacter .
@@ -177,6 +227,16 @@ nl:id_fe6e69bb2c20a04621c4620fcd7ded98e6ca9ef0 oa:hasBody [ a content:ContentAsT
 nl:id_fe6e69bb2c20a04621c4620fcd7ded98e6ca9ef0 oa:hasTarget target:target_6b8bce31d3d17f1dcec5fd58638a7699c5ad8fa1 .
 nl:id_fe6e69bb2c20a04621c4620fcd7ded98e6ca9ef0 oa:hasTarget ubvu:print-218010002038 .
 nl:id_fe6e69bb2c20a04621c4620fcd7ded98e6ca9ef0 oa:motivatedBy oa:tagging .
+
+nl:id_fe8e72fffac626d16ff06ae0b4ea4d7c704da2e9 a oa:Annotation .
+nl:id_fe8e72fffac626d16ff06ae0b4ea4d7c704da2e9 terms:title "Nicodemus and Jesus" .
+nl:id_fe8e72fffac626d16ff06ae0b4ea4d7c704da2e9 ui:annotationField bible:ICBibleTheme .
+nl:id_fe8e72fffac626d16ff06ae0b4ea4d7c704da2e9 ui:typingTime 0 .
+nl:id_fe8e72fffac626d16ff06ae0b4ea4d7c704da2e9 oa:annotatedAt "2016-05-27T10:09:54+02:00"^^xsd:dateTime .
+nl:id_fe8e72fffac626d16ff06ae0b4ea4d7c704da2e9 oa:annotatedBy user:everhoeff .
+nl:id_fe8e72fffac626d16ff06ae0b4ea4d7c704da2e9 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Nicodemus and Jesus" ] .
+nl:id_fe8e72fffac626d16ff06ae0b4ea4d7c704da2e9 oa:hasTarget ubvu:print-218010002038 .
+nl:id_fe8e72fffac626d16ff06ae0b4ea4d7c704da2e9 oa:motivatedBy oa:tagging .
 
 target:selector_03da62adff60a788abf048bf6b05126e78a12d6f a oa:FragmentSelector .
 target:selector_03da62adff60a788abf048bf6b05126e78a12d6f terms:conformsTo <http://www.w3.org/TR/media-frags/> .

@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -8,17 +9,70 @@
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_d299d44a400c61e1f5ce821ae3915557fa140913> a oa:Annotation .
-<http://accurator.nl/id_d299d44a400c61e1f5ce821ae3915557fa140913> terms:title "Elymas" .
-<http://accurator.nl/id_d299d44a400c61e1f5ce821ae3915557fa140913> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_d299d44a400c61e1f5ce821ae3915557fa140913> ui:typingTime 0 .
-<http://accurator.nl/id_d299d44a400c61e1f5ce821ae3915557fa140913> oa:annotatedAt "2016-04-08T10:00:19+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_d299d44a400c61e1f5ce821ae3915557fa140913> oa:annotatedBy user:everhoeff .
-<http://accurator.nl/id_d299d44a400c61e1f5ce821ae3915557fa140913> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Elymas" ] .
-<http://accurator.nl/id_d299d44a400c61e1f5ce821ae3915557fa140913> oa:hasTarget target:target_871db4cd6d587663bc8388871431645be0fbbbd6 .
-<http://accurator.nl/id_d299d44a400c61e1f5ce821ae3915557fa140913> oa:hasTarget ubvu:print-218010001925 .
-<http://accurator.nl/id_d299d44a400c61e1f5ce821ae3915557fa140913> oa:motivatedBy oa:tagging .
+nl:id_02c6bd78e27461b178f9f139fbe09f3b595ee5e4 a oa:Annotation .
+nl:id_02c6bd78e27461b178f9f139fbe09f3b595ee5e4 terms:title "Sergius Paulus" .
+nl:id_02c6bd78e27461b178f9f139fbe09f3b595ee5e4 ui:annotationField bible:BibleCharacter .
+nl:id_02c6bd78e27461b178f9f139fbe09f3b595ee5e4 ui:typingTime 0 .
+nl:id_02c6bd78e27461b178f9f139fbe09f3b595ee5e4 oa:annotatedAt "2016-06-12T20:08:51+02:00"^^xsd:dateTime .
+nl:id_02c6bd78e27461b178f9f139fbe09f3b595ee5e4 oa:annotatedBy user:paulinevandijk .
+nl:id_02c6bd78e27461b178f9f139fbe09f3b595ee5e4 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Sergius Paulus" ] .
+nl:id_02c6bd78e27461b178f9f139fbe09f3b595ee5e4 oa:hasTarget target:target_2d09879b4d99b15cbfb6982696215b3740d7e12d .
+nl:id_02c6bd78e27461b178f9f139fbe09f3b595ee5e4 oa:hasTarget ubvu:print-218010001925 .
+nl:id_02c6bd78e27461b178f9f139fbe09f3b595ee5e4 oa:motivatedBy oa:tagging .
+
+nl:id_20878c3b16f9146c1aa7bd7517c0eac505a3ebfc a oa:Annotation .
+nl:id_20878c3b16f9146c1aa7bd7517c0eac505a3ebfc terms:title "Elymas" .
+nl:id_20878c3b16f9146c1aa7bd7517c0eac505a3ebfc ui:annotationField bible:BibleCharacter .
+nl:id_20878c3b16f9146c1aa7bd7517c0eac505a3ebfc ui:typingTime 0 .
+nl:id_20878c3b16f9146c1aa7bd7517c0eac505a3ebfc oa:annotatedAt "2016-06-12T20:07:13+02:00"^^xsd:dateTime .
+nl:id_20878c3b16f9146c1aa7bd7517c0eac505a3ebfc oa:annotatedBy user:paulinevandijk .
+nl:id_20878c3b16f9146c1aa7bd7517c0eac505a3ebfc oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Elymas" ] .
+nl:id_20878c3b16f9146c1aa7bd7517c0eac505a3ebfc oa:hasTarget target:target_89673a9b1e7ffd884c5506b2961369fac130ebe7 .
+nl:id_20878c3b16f9146c1aa7bd7517c0eac505a3ebfc oa:hasTarget ubvu:print-218010001925 .
+nl:id_20878c3b16f9146c1aa7bd7517c0eac505a3ebfc oa:motivatedBy oa:tagging .
+
+nl:id_a3561906dcf043e7c32ec5a4cb92c7bb5fc1c091 a oa:Annotation .
+nl:id_a3561906dcf043e7c32ec5a4cb92c7bb5fc1c091 terms:title "Paulus" .
+nl:id_a3561906dcf043e7c32ec5a4cb92c7bb5fc1c091 ui:annotationField bible:BibleCharacter .
+nl:id_a3561906dcf043e7c32ec5a4cb92c7bb5fc1c091 ui:typingTime 0 .
+nl:id_a3561906dcf043e7c32ec5a4cb92c7bb5fc1c091 oa:annotatedAt "2016-06-12T20:07:36+02:00"^^xsd:dateTime .
+nl:id_a3561906dcf043e7c32ec5a4cb92c7bb5fc1c091 oa:annotatedBy user:paulinevandijk .
+nl:id_a3561906dcf043e7c32ec5a4cb92c7bb5fc1c091 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Paulus" ] .
+nl:id_a3561906dcf043e7c32ec5a4cb92c7bb5fc1c091 oa:hasTarget target:target_90cd8960fe228152a30f0f84dd9f287dfa4ecf5b .
+nl:id_a3561906dcf043e7c32ec5a4cb92c7bb5fc1c091 oa:hasTarget ubvu:print-218010001925 .
+nl:id_a3561906dcf043e7c32ec5a4cb92c7bb5fc1c091 oa:motivatedBy oa:tagging .
+
+nl:id_d299d44a400c61e1f5ce821ae3915557fa140913 a oa:Annotation .
+nl:id_d299d44a400c61e1f5ce821ae3915557fa140913 terms:title "Elymas" .
+nl:id_d299d44a400c61e1f5ce821ae3915557fa140913 ui:annotationField bible:BibleCharacter .
+nl:id_d299d44a400c61e1f5ce821ae3915557fa140913 ui:typingTime 0 .
+nl:id_d299d44a400c61e1f5ce821ae3915557fa140913 oa:annotatedAt "2016-04-08T10:00:19+02:00"^^xsd:dateTime .
+nl:id_d299d44a400c61e1f5ce821ae3915557fa140913 oa:annotatedBy user:everhoeff .
+nl:id_d299d44a400c61e1f5ce821ae3915557fa140913 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Elymas" ] .
+nl:id_d299d44a400c61e1f5ce821ae3915557fa140913 oa:hasTarget target:target_871db4cd6d587663bc8388871431645be0fbbbd6 .
+nl:id_d299d44a400c61e1f5ce821ae3915557fa140913 oa:hasTarget ubvu:print-218010001925 .
+nl:id_d299d44a400c61e1f5ce821ae3915557fa140913 oa:motivatedBy oa:tagging .
+
+nl:id_fa835bfbbdac3a77f73213c9e2618faa9266250a a oa:Annotation .
+nl:id_fa835bfbbdac3a77f73213c9e2618faa9266250a terms:title "De magiër Elymas (ook Barjesus genoemd) door Paulus met blindheid gestraft." .
+nl:id_fa835bfbbdac3a77f73213c9e2618faa9266250a ui:annotationField bible:ICBibleTheme .
+nl:id_fa835bfbbdac3a77f73213c9e2618faa9266250a ui:typingTime 0 .
+nl:id_fa835bfbbdac3a77f73213c9e2618faa9266250a oa:annotatedAt "2016-06-12T20:10:20+02:00"^^xsd:dateTime .
+nl:id_fa835bfbbdac3a77f73213c9e2618faa9266250a oa:annotatedBy user:paulinevandijk .
+nl:id_fa835bfbbdac3a77f73213c9e2618faa9266250a oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "De magiër Elymas (ook Barjesus genoemd) door Paulus met blindheid gestraft." ] .
+nl:id_fa835bfbbdac3a77f73213c9e2618faa9266250a oa:hasTarget ubvu:print-218010001925 .
+nl:id_fa835bfbbdac3a77f73213c9e2618faa9266250a oa:motivatedBy oa:tagging .
+
+target:selector_2d09879b4d99b15cbfb6982696215b3740d7e12d a oa:FragmentSelector .
+target:selector_2d09879b4d99b15cbfb6982696215b3740d7e12d terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_2d09879b4d99b15cbfb6982696215b3740d7e12d ui:h "0.20327868852459016"^^xsd:float .
+target:selector_2d09879b4d99b15cbfb6982696215b3740d7e12d ui:w "0.2175257731958763"^^xsd:float .
+target:selector_2d09879b4d99b15cbfb6982696215b3740d7e12d ui:x "0.565979381443299"^^xsd:float .
+target:selector_2d09879b4d99b15cbfb6982696215b3740d7e12d ui:y "0.37573770491803277"^^xsd:float .
+target:selector_2d09879b4d99b15cbfb6982696215b3740d7e12d rdf:value "#xywh=percent:57,38,22,20" .
 
 target:selector_871db4cd6d587663bc8388871431645be0fbbbd6 a oa:FragmentSelector .
 target:selector_871db4cd6d587663bc8388871431645be0fbbbd6 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -28,6 +82,34 @@ target:selector_871db4cd6d587663bc8388871431645be0fbbbd6 ui:x "0.120618556701030
 target:selector_871db4cd6d587663bc8388871431645be0fbbbd6 ui:y "0.44065573770491806"^^xsd:float .
 target:selector_871db4cd6d587663bc8388871431645be0fbbbd6 rdf:value "#xywh=percent:12,44,11,10" .
 
+target:selector_89673a9b1e7ffd884c5506b2961369fac130ebe7 a oa:FragmentSelector .
+target:selector_89673a9b1e7ffd884c5506b2961369fac130ebe7 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_89673a9b1e7ffd884c5506b2961369fac130ebe7 ui:h "0.13377049180327868"^^xsd:float .
+target:selector_89673a9b1e7ffd884c5506b2961369fac130ebe7 ui:w "0.1618556701030928"^^xsd:float .
+target:selector_89673a9b1e7ffd884c5506b2961369fac130ebe7 ui:x "0.12474226804123711"^^xsd:float .
+target:selector_89673a9b1e7ffd884c5506b2961369fac130ebe7 ui:y "0.44524590163934424"^^xsd:float .
+target:selector_89673a9b1e7ffd884c5506b2961369fac130ebe7 rdf:value "#xywh=percent:12,45,16,13" .
+
+target:selector_90cd8960fe228152a30f0f84dd9f287dfa4ecf5b a oa:FragmentSelector .
+target:selector_90cd8960fe228152a30f0f84dd9f287dfa4ecf5b terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_90cd8960fe228152a30f0f84dd9f287dfa4ecf5b ui:h "0.14426229508196722"^^xsd:float .
+target:selector_90cd8960fe228152a30f0f84dd9f287dfa4ecf5b ui:w "0.17010309278350516"^^xsd:float .
+target:selector_90cd8960fe228152a30f0f84dd9f287dfa4ecf5b ui:x "0.2958762886597938"^^xsd:float .
+target:selector_90cd8960fe228152a30f0f84dd9f287dfa4ecf5b ui:y "0.3960655737704918"^^xsd:float .
+target:selector_90cd8960fe228152a30f0f84dd9f287dfa4ecf5b rdf:value "#xywh=percent:30,40,17,14" .
+
+target:target_2d09879b4d99b15cbfb6982696215b3740d7e12d a oa:SpecificResource .
+target:target_2d09879b4d99b15cbfb6982696215b3740d7e12d oa:hasSelector target:selector_2d09879b4d99b15cbfb6982696215b3740d7e12d .
+target:target_2d09879b4d99b15cbfb6982696215b3740d7e12d oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/964> .
+
 target:target_871db4cd6d587663bc8388871431645be0fbbbd6 a oa:SpecificResource .
 target:target_871db4cd6d587663bc8388871431645be0fbbbd6 oa:hasSelector target:selector_871db4cd6d587663bc8388871431645be0fbbbd6 .
 target:target_871db4cd6d587663bc8388871431645be0fbbbd6 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/964> .
+
+target:target_89673a9b1e7ffd884c5506b2961369fac130ebe7 a oa:SpecificResource .
+target:target_89673a9b1e7ffd884c5506b2961369fac130ebe7 oa:hasSelector target:selector_89673a9b1e7ffd884c5506b2961369fac130ebe7 .
+target:target_89673a9b1e7ffd884c5506b2961369fac130ebe7 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/964> .
+
+target:target_90cd8960fe228152a30f0f84dd9f287dfa4ecf5b a oa:SpecificResource .
+target:target_90cd8960fe228152a30f0f84dd9f287dfa4ecf5b oa:hasSelector target:selector_90cd8960fe228152a30f0f84dd9f287dfa4ecf5b .
+target:target_90cd8960fe228152a30f0f84dd9f287dfa4ecf5b oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/964> .

@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -6,9 +7,44 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
+
+nl:id_002118e82082bfa91053f9481be17876814d2ed6 a oa:Annotation .
+nl:id_002118e82082bfa91053f9481be17876814d2ed6 terms:title "Adam" .
+nl:id_002118e82082bfa91053f9481be17876814d2ed6 ui:annotationField bible:BibleCharacter .
+nl:id_002118e82082bfa91053f9481be17876814d2ed6 ui:typingTime 0 .
+nl:id_002118e82082bfa91053f9481be17876814d2ed6 oa:annotatedAt "2016-05-16T13:51:06+02:00"^^xsd:dateTime .
+nl:id_002118e82082bfa91053f9481be17876814d2ed6 oa:annotatedBy user:everhoeff .
+nl:id_002118e82082bfa91053f9481be17876814d2ed6 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Adam" ] .
+nl:id_002118e82082bfa91053f9481be17876814d2ed6 oa:hasTarget target:target_5bed93cd81fc8785efba9bd7f28c320127562547 .
+nl:id_002118e82082bfa91053f9481be17876814d2ed6 oa:hasTarget ubvu:print-218010001027 .
+nl:id_002118e82082bfa91053f9481be17876814d2ed6 oa:motivatedBy oa:tagging .
+
+nl:id_1baa46f919cfd061025343a296c7927c59a7e2e0 a oa:Annotation .
+nl:id_1baa46f919cfd061025343a296c7927c59a7e2e0 terms:title "Adam" .
+nl:id_1baa46f919cfd061025343a296c7927c59a7e2e0 ui:annotationField bible:BibleCharacter .
+nl:id_1baa46f919cfd061025343a296c7927c59a7e2e0 ui:typingTime 0 .
+nl:id_1baa46f919cfd061025343a296c7927c59a7e2e0 oa:annotatedAt "2016-05-16T13:49:49+02:00"^^xsd:dateTime .
+nl:id_1baa46f919cfd061025343a296c7927c59a7e2e0 oa:annotatedBy user:everhoeff .
+nl:id_1baa46f919cfd061025343a296c7927c59a7e2e0 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Adam" ] .
+nl:id_1baa46f919cfd061025343a296c7927c59a7e2e0 oa:hasTarget target:target_03baf93fe51e163666b8206e3a0a4f6df4b02b2b .
+nl:id_1baa46f919cfd061025343a296c7927c59a7e2e0 oa:hasTarget ubvu:print-218010001027 .
+nl:id_1baa46f919cfd061025343a296c7927c59a7e2e0 oa:motivatedBy oa:tagging .
+
+nl:id_2ccde42d07270b5f7f274a182885062ec6518c57 a oa:Annotation .
+nl:id_2ccde42d07270b5f7f274a182885062ec6518c57 terms:title "Eve" .
+nl:id_2ccde42d07270b5f7f274a182885062ec6518c57 ui:annotationField bible:BibleCharacter .
+nl:id_2ccde42d07270b5f7f274a182885062ec6518c57 ui:typingTime 0 .
+nl:id_2ccde42d07270b5f7f274a182885062ec6518c57 oa:annotatedAt "2016-05-16T13:51:34+02:00"^^xsd:dateTime .
+nl:id_2ccde42d07270b5f7f274a182885062ec6518c57 oa:annotatedBy user:everhoeff .
+nl:id_2ccde42d07270b5f7f274a182885062ec6518c57 oa:hasBody resource:Eve .
+nl:id_2ccde42d07270b5f7f274a182885062ec6518c57 oa:hasTarget target:target_6253c8ec349f4af838c701312ed0532c5be06894 .
+nl:id_2ccde42d07270b5f7f274a182885062ec6518c57 oa:hasTarget ubvu:print-218010001027 .
+nl:id_2ccde42d07270b5f7f274a182885062ec6518c57 oa:motivatedBy oa:tagging .
 
 nl:id_44fec78b5cf6eb5fc41491ca490bdd00dc164440 a oa:Annotation .
 nl:id_44fec78b5cf6eb5fc41491ca490bdd00dc164440 terms:title "God calls " .
@@ -20,6 +56,37 @@ nl:id_44fec78b5cf6eb5fc41491ca490bdd00dc164440 oa:hasBody [ a content:ContentAsT
 nl:id_44fec78b5cf6eb5fc41491ca490bdd00dc164440 oa:hasTarget ubvu:print-218010001027 .
 nl:id_44fec78b5cf6eb5fc41491ca490bdd00dc164440 oa:motivatedBy oa:tagging .
 
+nl:id_59f89227337ae19f27350d68f8d11d8195690c7b a oa:Annotation .
+nl:id_59f89227337ae19f27350d68f8d11d8195690c7b terms:title "Eva" .
+nl:id_59f89227337ae19f27350d68f8d11d8195690c7b ui:annotationField bible:BibleCharacter .
+nl:id_59f89227337ae19f27350d68f8d11d8195690c7b ui:typingTime 0 .
+nl:id_59f89227337ae19f27350d68f8d11d8195690c7b oa:annotatedAt "2016-06-07T14:17:06+02:00"^^xsd:dateTime .
+nl:id_59f89227337ae19f27350d68f8d11d8195690c7b oa:annotatedBy user:paulinevandijk .
+nl:id_59f89227337ae19f27350d68f8d11d8195690c7b oa:hasBody resource:Eve .
+nl:id_59f89227337ae19f27350d68f8d11d8195690c7b oa:hasTarget target:target_a044df9d75f2d0166bb16d37e28daf21c51747e7 .
+nl:id_59f89227337ae19f27350d68f8d11d8195690c7b oa:hasTarget ubvu:print-218010001027 .
+nl:id_59f89227337ae19f27350d68f8d11d8195690c7b oa:motivatedBy oa:tagging .
+
+nl:id_67c56d12b60e4405389c985a78bb626ce6a5ed0c a oa:Annotation .
+nl:id_67c56d12b60e4405389c985a78bb626ce6a5ed0c terms:title "God calls Adam and Eve to account for their deed" .
+nl:id_67c56d12b60e4405389c985a78bb626ce6a5ed0c ui:annotationField bible:ICBibleTheme .
+nl:id_67c56d12b60e4405389c985a78bb626ce6a5ed0c ui:typingTime 0 .
+nl:id_67c56d12b60e4405389c985a78bb626ce6a5ed0c oa:annotatedAt "2016-05-23T14:39:42+02:00"^^xsd:dateTime .
+nl:id_67c56d12b60e4405389c985a78bb626ce6a5ed0c oa:annotatedBy user:everhoeff .
+nl:id_67c56d12b60e4405389c985a78bb626ce6a5ed0c oa:hasBody <http://iconclass.org/71A521> .
+nl:id_67c56d12b60e4405389c985a78bb626ce6a5ed0c oa:hasTarget ubvu:print-218010001027 .
+nl:id_67c56d12b60e4405389c985a78bb626ce6a5ed0c oa:motivatedBy oa:tagging .
+
+nl:id_76cc5049e5bda37738959d3d2a98f600d609ebe9 a oa:Annotation .
+nl:id_76cc5049e5bda37738959d3d2a98f600d609ebe9 terms:title "God calls Adam and said: where are you?" .
+nl:id_76cc5049e5bda37738959d3d2a98f600d609ebe9 ui:annotationField bible:ICBibleTheme .
+nl:id_76cc5049e5bda37738959d3d2a98f600d609ebe9 ui:typingTime 0 .
+nl:id_76cc5049e5bda37738959d3d2a98f600d609ebe9 oa:annotatedAt "2016-05-16T13:48:02+02:00"^^xsd:dateTime .
+nl:id_76cc5049e5bda37738959d3d2a98f600d609ebe9 oa:annotatedBy user:everhoeff .
+nl:id_76cc5049e5bda37738959d3d2a98f600d609ebe9 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "God calls Adam and said: where are you?" ] .
+nl:id_76cc5049e5bda37738959d3d2a98f600d609ebe9 oa:hasTarget ubvu:print-218010001027 .
+nl:id_76cc5049e5bda37738959d3d2a98f600d609ebe9 oa:motivatedBy oa:tagging .
+
 nl:id_773a28264e01deaa09ea609df7d6a62c46b28d76 a oa:Annotation .
 nl:id_773a28264e01deaa09ea609df7d6a62c46b28d76 terms:title "Genesis 3:9" .
 nl:id_773a28264e01deaa09ea609df7d6a62c46b28d76 ui:annotationField bible:ICBibleTheme .
@@ -29,3 +96,74 @@ nl:id_773a28264e01deaa09ea609df7d6a62c46b28d76 oa:annotatedBy user:joan .
 nl:id_773a28264e01deaa09ea609df7d6a62c46b28d76 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Genesis 3:9" ] .
 nl:id_773a28264e01deaa09ea609df7d6a62c46b28d76 oa:hasTarget ubvu:print-218010001027 .
 nl:id_773a28264e01deaa09ea609df7d6a62c46b28d76 oa:motivatedBy oa:tagging .
+
+nl:id_fa724c2ac9d190fda46e0db39b2a4c2ad1c4b7ff a oa:Annotation .
+nl:id_fa724c2ac9d190fda46e0db39b2a4c2ad1c4b7ff terms:title "Adam" .
+nl:id_fa724c2ac9d190fda46e0db39b2a4c2ad1c4b7ff ui:annotationField bible:BibleCharacter .
+nl:id_fa724c2ac9d190fda46e0db39b2a4c2ad1c4b7ff ui:typingTime 0 .
+nl:id_fa724c2ac9d190fda46e0db39b2a4c2ad1c4b7ff oa:annotatedAt "2016-06-07T14:16:50+02:00"^^xsd:dateTime .
+nl:id_fa724c2ac9d190fda46e0db39b2a4c2ad1c4b7ff oa:annotatedBy user:paulinevandijk .
+nl:id_fa724c2ac9d190fda46e0db39b2a4c2ad1c4b7ff oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Adam" ] .
+nl:id_fa724c2ac9d190fda46e0db39b2a4c2ad1c4b7ff oa:hasTarget target:target_b091fbd263519cff29edcf844ea3d20ac93efa3a .
+nl:id_fa724c2ac9d190fda46e0db39b2a4c2ad1c4b7ff oa:hasTarget ubvu:print-218010001027 .
+nl:id_fa724c2ac9d190fda46e0db39b2a4c2ad1c4b7ff oa:motivatedBy oa:tagging .
+
+target:selector_03baf93fe51e163666b8206e3a0a4f6df4b02b2b a oa:FragmentSelector .
+target:selector_03baf93fe51e163666b8206e3a0a4f6df4b02b2b terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_03baf93fe51e163666b8206e3a0a4f6df4b02b2b ui:h "0.2781569965870307"^^xsd:float .
+target:selector_03baf93fe51e163666b8206e3a0a4f6df4b02b2b ui:w "0.25333333333333335"^^xsd:float .
+target:selector_03baf93fe51e163666b8206e3a0a4f6df4b02b2b ui:x "0.10666666666666667"^^xsd:float .
+target:selector_03baf93fe51e163666b8206e3a0a4f6df4b02b2b ui:y "0.4863481228668942"^^xsd:float .
+target:selector_03baf93fe51e163666b8206e3a0a4f6df4b02b2b rdf:value "#xywh=percent:11,49,25,28" .
+
+target:selector_5bed93cd81fc8785efba9bd7f28c320127562547 a oa:FragmentSelector .
+target:selector_5bed93cd81fc8785efba9bd7f28c320127562547 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_5bed93cd81fc8785efba9bd7f28c320127562547 ui:h "0.2773037542662116"^^xsd:float .
+target:selector_5bed93cd81fc8785efba9bd7f28c320127562547 ui:w "0.23466666666666666"^^xsd:float .
+target:selector_5bed93cd81fc8785efba9bd7f28c320127562547 ui:x "0.10266666666666667"^^xsd:float .
+target:selector_5bed93cd81fc8785efba9bd7f28c320127562547 ui:y "0.4880546075085324"^^xsd:float .
+target:selector_5bed93cd81fc8785efba9bd7f28c320127562547 rdf:value "#xywh=percent:10,49,23,28" .
+
+target:selector_6253c8ec349f4af838c701312ed0532c5be06894 a oa:FragmentSelector .
+target:selector_6253c8ec349f4af838c701312ed0532c5be06894 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_6253c8ec349f4af838c701312ed0532c5be06894 ui:h "0.19795221843003413"^^xsd:float .
+target:selector_6253c8ec349f4af838c701312ed0532c5be06894 ui:w "0.24933333333333332"^^xsd:float .
+target:selector_6253c8ec349f4af838c701312ed0532c5be06894 ui:x "0.316"^^xsd:float .
+target:selector_6253c8ec349f4af838c701312ed0532c5be06894 ui:y "0.5588737201365188"^^xsd:float .
+target:selector_6253c8ec349f4af838c701312ed0532c5be06894 rdf:value "#xywh=percent:32,56,25,20" .
+
+target:selector_a044df9d75f2d0166bb16d37e28daf21c51747e7 a oa:FragmentSelector .
+target:selector_a044df9d75f2d0166bb16d37e28daf21c51747e7 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_a044df9d75f2d0166bb16d37e28daf21c51747e7 ui:h "0.18151815181518152"^^xsd:float .
+target:selector_a044df9d75f2d0166bb16d37e28daf21c51747e7 ui:w "0.2134020618556701"^^xsd:float .
+target:selector_a044df9d75f2d0166bb16d37e28daf21c51747e7 ui:x "0.32577319587628867"^^xsd:float .
+target:selector_a044df9d75f2d0166bb16d37e28daf21c51747e7 ui:y "0.5577557755775577"^^xsd:float .
+target:selector_a044df9d75f2d0166bb16d37e28daf21c51747e7 rdf:value "#xywh=percent:33,56,21,18" .
+
+target:selector_b091fbd263519cff29edcf844ea3d20ac93efa3a a oa:FragmentSelector .
+target:selector_b091fbd263519cff29edcf844ea3d20ac93efa3a terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_b091fbd263519cff29edcf844ea3d20ac93efa3a ui:h "0.2085808580858086"^^xsd:float .
+target:selector_b091fbd263519cff29edcf844ea3d20ac93efa3a ui:w "0.20927835051546392"^^xsd:float .
+target:selector_b091fbd263519cff29edcf844ea3d20ac93efa3a ui:x "0.12164948453608247"^^xsd:float .
+target:selector_b091fbd263519cff29edcf844ea3d20ac93efa3a ui:y "0.49504950495049505"^^xsd:float .
+target:selector_b091fbd263519cff29edcf844ea3d20ac93efa3a rdf:value "#xywh=percent:12,50,21,21" .
+
+target:target_03baf93fe51e163666b8206e3a0a4f6df4b02b2b a oa:SpecificResource .
+target:target_03baf93fe51e163666b8206e3a0a4f6df4b02b2b oa:hasSelector target:selector_03baf93fe51e163666b8206e3a0a4f6df4b02b2b .
+target:target_03baf93fe51e163666b8206e3a0a4f6df4b02b2b oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/68> .
+
+target:target_5bed93cd81fc8785efba9bd7f28c320127562547 a oa:SpecificResource .
+target:target_5bed93cd81fc8785efba9bd7f28c320127562547 oa:hasSelector target:selector_5bed93cd81fc8785efba9bd7f28c320127562547 .
+target:target_5bed93cd81fc8785efba9bd7f28c320127562547 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/68> .
+
+target:target_6253c8ec349f4af838c701312ed0532c5be06894 a oa:SpecificResource .
+target:target_6253c8ec349f4af838c701312ed0532c5be06894 oa:hasSelector target:selector_6253c8ec349f4af838c701312ed0532c5be06894 .
+target:target_6253c8ec349f4af838c701312ed0532c5be06894 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/68> .
+
+target:target_a044df9d75f2d0166bb16d37e28daf21c51747e7 a oa:SpecificResource .
+target:target_a044df9d75f2d0166bb16d37e28daf21c51747e7 oa:hasSelector target:selector_a044df9d75f2d0166bb16d37e28daf21c51747e7 .
+target:target_a044df9d75f2d0166bb16d37e28daf21c51747e7 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/68> .
+
+target:target_b091fbd263519cff29edcf844ea3d20ac93efa3a a oa:SpecificResource .
+target:target_b091fbd263519cff29edcf844ea3d20ac93efa3a oa:hasSelector target:selector_b091fbd263519cff29edcf844ea3d20ac93efa3a .
+target:target_b091fbd263519cff29edcf844ea3d20ac93efa3a oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/68> .

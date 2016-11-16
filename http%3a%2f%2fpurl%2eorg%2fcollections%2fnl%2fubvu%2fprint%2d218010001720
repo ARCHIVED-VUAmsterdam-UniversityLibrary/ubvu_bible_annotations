@@ -7,13 +7,25 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_288681ec186b5cba6e3d44b0282e36291017c4b6> a oa:Annotation .
-<http://accurator.nl/id_288681ec186b5cba6e3d44b0282e36291017c4b6> terms:title "De bruiloft in Kana" .
-<http://accurator.nl/id_288681ec186b5cba6e3d44b0282e36291017c4b6> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
-<http://accurator.nl/id_288681ec186b5cba6e3d44b0282e36291017c4b6> ui:typingTime 0 .
-<http://accurator.nl/id_288681ec186b5cba6e3d44b0282e36291017c4b6> oa:annotatedAt "2016-04-23T16:17:14+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_288681ec186b5cba6e3d44b0282e36291017c4b6> oa:annotatedBy user:paulinevandijk .
-<http://accurator.nl/id_288681ec186b5cba6e3d44b0282e36291017c4b6> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "De bruiloft in Kana" ] .
-<http://accurator.nl/id_288681ec186b5cba6e3d44b0282e36291017c4b6> oa:hasTarget ubvu:print-218010001720 .
-<http://accurator.nl/id_288681ec186b5cba6e3d44b0282e36291017c4b6> oa:motivatedBy oa:tagging .
+nl:id_6d639f1e7734150db1ccb0c8614851ae2fa41780 a oa:Annotation .
+nl:id_6d639f1e7734150db1ccb0c8614851ae2fa41780 terms:title "De bruiloft te Kana" .
+nl:id_6d639f1e7734150db1ccb0c8614851ae2fa41780 ui:annotationField bible:ICBibleTheme .
+nl:id_6d639f1e7734150db1ccb0c8614851ae2fa41780 ui:typingTime 0 .
+nl:id_6d639f1e7734150db1ccb0c8614851ae2fa41780 oa:annotatedAt "2016-06-08T14:00:47+02:00"^^xsd:dateTime .
+nl:id_6d639f1e7734150db1ccb0c8614851ae2fa41780 oa:annotatedBy user:paulinevandijk .
+nl:id_6d639f1e7734150db1ccb0c8614851ae2fa41780 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "De bruiloft te Kana" ] .
+nl:id_6d639f1e7734150db1ccb0c8614851ae2fa41780 oa:hasTarget ubvu:print-218010001720 .
+nl:id_6d639f1e7734150db1ccb0c8614851ae2fa41780 oa:motivatedBy oa:tagging .
+
+nl:id_87a535ff0a05e2d667b94ce23fb63001e45fe9a5 a oa:Annotation .
+nl:id_87a535ff0a05e2d667b94ce23fb63001e45fe9a5 terms:title "Marriage in Cana of Galilee" .
+nl:id_87a535ff0a05e2d667b94ce23fb63001e45fe9a5 ui:annotationField bible:ICBibleTheme .
+nl:id_87a535ff0a05e2d667b94ce23fb63001e45fe9a5 ui:typingTime 0 .
+nl:id_87a535ff0a05e2d667b94ce23fb63001e45fe9a5 oa:annotatedAt "2016-05-05T12:38:52+02:00"^^xsd:dateTime .
+nl:id_87a535ff0a05e2d667b94ce23fb63001e45fe9a5 oa:annotatedBy user:everhoeff .
+nl:id_87a535ff0a05e2d667b94ce23fb63001e45fe9a5 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Marriage in Cana of Galilee" ] .
+nl:id_87a535ff0a05e2d667b94ce23fb63001e45fe9a5 oa:hasTarget ubvu:print-218010001720 .
+nl:id_87a535ff0a05e2d667b94ce23fb63001e45fe9a5 oa:motivatedBy oa:tagging .

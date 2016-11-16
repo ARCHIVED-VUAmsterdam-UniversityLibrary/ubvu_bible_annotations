@@ -1,23 +1,57 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_7836002c5eebdf6767877f071eac861a91ab717a> a oa:Annotation .
-<http://accurator.nl/id_7836002c5eebdf6767877f071eac861a91ab717a> terms:title "Nebuchadnezzar" .
-<http://accurator.nl/id_7836002c5eebdf6767877f071eac861a91ab717a> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_7836002c5eebdf6767877f071eac861a91ab717a> ui:typingTime 0 .
-<http://accurator.nl/id_7836002c5eebdf6767877f071eac861a91ab717a> oa:annotatedAt "2016-04-09T17:24:33+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_7836002c5eebdf6767877f071eac861a91ab717a> oa:annotatedBy user:everhoeff .
-<http://accurator.nl/id_7836002c5eebdf6767877f071eac861a91ab717a> oa:hasBody resource:Nebuchadnezzar .
-<http://accurator.nl/id_7836002c5eebdf6767877f071eac861a91ab717a> oa:hasTarget target:target_d59aa98c3f138846af7b495e31ea7cc73f192f08 .
-<http://accurator.nl/id_7836002c5eebdf6767877f071eac861a91ab717a> oa:hasTarget ubvu:print-218010001581 .
-<http://accurator.nl/id_7836002c5eebdf6767877f071eac861a91ab717a> oa:motivatedBy oa:tagging .
+nl:id_73c37168ef0020ca00c3d052c0c2142600bc79d6 a oa:Annotation .
+nl:id_73c37168ef0020ca00c3d052c0c2142600bc79d6 terms:title "De droom van Nebukadnezar" .
+nl:id_73c37168ef0020ca00c3d052c0c2142600bc79d6 ui:annotationField bible:ICBibleTheme .
+nl:id_73c37168ef0020ca00c3d052c0c2142600bc79d6 ui:typingTime 0 .
+nl:id_73c37168ef0020ca00c3d052c0c2142600bc79d6 oa:annotatedAt "2016-06-12T20:16:49+02:00"^^xsd:dateTime .
+nl:id_73c37168ef0020ca00c3d052c0c2142600bc79d6 oa:annotatedBy user:paulinevandijk .
+nl:id_73c37168ef0020ca00c3d052c0c2142600bc79d6 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "De droom van Nebukadnezar" ] .
+nl:id_73c37168ef0020ca00c3d052c0c2142600bc79d6 oa:hasTarget ubvu:print-218010001581 .
+nl:id_73c37168ef0020ca00c3d052c0c2142600bc79d6 oa:motivatedBy oa:tagging .
+
+nl:id_7836002c5eebdf6767877f071eac861a91ab717a a oa:Annotation .
+nl:id_7836002c5eebdf6767877f071eac861a91ab717a terms:title "Nebuchadnezzar" .
+nl:id_7836002c5eebdf6767877f071eac861a91ab717a ui:annotationField bible:BibleCharacter .
+nl:id_7836002c5eebdf6767877f071eac861a91ab717a ui:typingTime 0 .
+nl:id_7836002c5eebdf6767877f071eac861a91ab717a oa:annotatedAt "2016-04-09T17:24:33+02:00"^^xsd:dateTime .
+nl:id_7836002c5eebdf6767877f071eac861a91ab717a oa:annotatedBy user:everhoeff .
+nl:id_7836002c5eebdf6767877f071eac861a91ab717a oa:hasBody resource:Nebuchadnezzar .
+nl:id_7836002c5eebdf6767877f071eac861a91ab717a oa:hasTarget target:target_d59aa98c3f138846af7b495e31ea7cc73f192f08 .
+nl:id_7836002c5eebdf6767877f071eac861a91ab717a oa:hasTarget ubvu:print-218010001581 .
+nl:id_7836002c5eebdf6767877f071eac861a91ab717a oa:motivatedBy oa:tagging .
+
+nl:id_dfabcd8c4eacc824be34307adc40a8e0a404ee82 a oa:Annotation .
+nl:id_dfabcd8c4eacc824be34307adc40a8e0a404ee82 terms:title "Nebukadnessar" .
+nl:id_dfabcd8c4eacc824be34307adc40a8e0a404ee82 ui:annotationField bible:BibleCharacter .
+nl:id_dfabcd8c4eacc824be34307adc40a8e0a404ee82 ui:typingTime 0 .
+nl:id_dfabcd8c4eacc824be34307adc40a8e0a404ee82 oa:annotatedAt "2016-06-12T20:16:22+02:00"^^xsd:dateTime .
+nl:id_dfabcd8c4eacc824be34307adc40a8e0a404ee82 oa:annotatedBy user:paulinevandijk .
+nl:id_dfabcd8c4eacc824be34307adc40a8e0a404ee82 oa:hasBody resource:Nebuchadnezzar .
+nl:id_dfabcd8c4eacc824be34307adc40a8e0a404ee82 oa:hasTarget target:target_bf7032cf2da568e3f6bc63bae394ece004372743 .
+nl:id_dfabcd8c4eacc824be34307adc40a8e0a404ee82 oa:hasTarget ubvu:print-218010001581 .
+nl:id_dfabcd8c4eacc824be34307adc40a8e0a404ee82 oa:motivatedBy oa:tagging .
+
+target:selector_bf7032cf2da568e3f6bc63bae394ece004372743 a oa:FragmentSelector .
+target:selector_bf7032cf2da568e3f6bc63bae394ece004372743 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_bf7032cf2da568e3f6bc63bae394ece004372743 ui:h "0.12491325468424705"^^xsd:float .
+target:selector_bf7032cf2da568e3f6bc63bae394ece004372743 ui:w "0.24123711340206186"^^xsd:float .
+target:selector_bf7032cf2da568e3f6bc63bae394ece004372743 ui:x "0.44329896907216493"^^xsd:float .
+target:selector_bf7032cf2da568e3f6bc63bae394ece004372743 ui:y "0.3844552394170715"^^xsd:float .
+target:selector_bf7032cf2da568e3f6bc63bae394ece004372743 rdf:value "#xywh=percent:44,38,24,12" .
 
 target:selector_d59aa98c3f138846af7b495e31ea7cc73f192f08 a oa:FragmentSelector .
 target:selector_d59aa98c3f138846af7b495e31ea7cc73f192f08 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -26,6 +60,10 @@ target:selector_d59aa98c3f138846af7b495e31ea7cc73f192f08 ui:w "0.258753202391118
 target:selector_d59aa98c3f138846af7b495e31ea7cc73f192f08 ui:x "0.4816396242527754"^^xsd:float .
 target:selector_d59aa98c3f138846af7b495e31ea7cc73f192f08 ui:y "0.3672999424294761"^^xsd:float .
 target:selector_d59aa98c3f138846af7b495e31ea7cc73f192f08 rdf:value "#xywh=percent:48,37,26,25" .
+
+target:target_bf7032cf2da568e3f6bc63bae394ece004372743 a oa:SpecificResource .
+target:target_bf7032cf2da568e3f6bc63bae394ece004372743 oa:hasSelector target:selector_bf7032cf2da568e3f6bc63bae394ece004372743 .
+target:target_bf7032cf2da568e3f6bc63bae394ece004372743 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/622> .
 
 target:target_d59aa98c3f138846af7b495e31ea7cc73f192f08 a oa:SpecificResource .
 target:target_d59aa98c3f138846af7b495e31ea7cc73f192f08 oa:hasSelector target:selector_d59aa98c3f138846af7b495e31ea7cc73f192f08 .

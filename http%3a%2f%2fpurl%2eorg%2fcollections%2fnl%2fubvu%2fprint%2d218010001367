@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -10,6 +11,17 @@
 @prefix user: <http://accurator.nl/user#> .
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
+
+nl:id_3b6e654432b3f6d23a495903ab85221da4ad949e a oa:Annotation .
+nl:id_3b6e654432b3f6d23a495903ab85221da4ad949e terms:title "Eglon" .
+nl:id_3b6e654432b3f6d23a495903ab85221da4ad949e ui:annotationField bible:BibleCharacter .
+nl:id_3b6e654432b3f6d23a495903ab85221da4ad949e ui:typingTime 0 .
+nl:id_3b6e654432b3f6d23a495903ab85221da4ad949e oa:annotatedAt "2016-06-01T15:15:20+02:00"^^xsd:dateTime .
+nl:id_3b6e654432b3f6d23a495903ab85221da4ad949e oa:annotatedBy user:everhoeff .
+nl:id_3b6e654432b3f6d23a495903ab85221da4ad949e oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Eglon" ] .
+nl:id_3b6e654432b3f6d23a495903ab85221da4ad949e oa:hasTarget target:target_10f109de4d258fce89970867bd66fed1b6c70ef1 .
+nl:id_3b6e654432b3f6d23a495903ab85221da4ad949e oa:hasTarget ubvu:print-218010001367 .
+nl:id_3b6e654432b3f6d23a495903ab85221da4ad949e oa:motivatedBy oa:tagging .
 
 nl:id_8b650dd41b0ca4ca59ea75249ea572eb6a95dd5a a oa:Annotation .
 nl:id_8b650dd41b0ca4ca59ea75249ea572eb6a95dd5a terms:title "Eglon, de koning van de Moabieten, gedood door Ehud" .
@@ -32,6 +44,24 @@ nl:id_b0e97680871c5a4feedeb9691589e935db212874 oa:hasTarget target:target_4f7809
 nl:id_b0e97680871c5a4feedeb9691589e935db212874 oa:hasTarget ubvu:print-218010001367 .
 nl:id_b0e97680871c5a4feedeb9691589e935db212874 oa:motivatedBy oa:tagging .
 
+nl:id_b8f5f79ccff3ca8cf453ef38509df6cbe04c1b5c a oa:Annotation .
+nl:id_b8f5f79ccff3ca8cf453ef38509df6cbe04c1b5c terms:title "Eglon king of the Moabites killed" .
+nl:id_b8f5f79ccff3ca8cf453ef38509df6cbe04c1b5c ui:annotationField bible:ICBibleTheme .
+nl:id_b8f5f79ccff3ca8cf453ef38509df6cbe04c1b5c ui:typingTime 0 .
+nl:id_b8f5f79ccff3ca8cf453ef38509df6cbe04c1b5c oa:annotatedAt "2016-06-01T15:14:24+02:00"^^xsd:dateTime .
+nl:id_b8f5f79ccff3ca8cf453ef38509df6cbe04c1b5c oa:annotatedBy user:everhoeff .
+nl:id_b8f5f79ccff3ca8cf453ef38509df6cbe04c1b5c oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Eglon king of the Moabites killed" ] .
+nl:id_b8f5f79ccff3ca8cf453ef38509df6cbe04c1b5c oa:hasTarget ubvu:print-218010001367 .
+nl:id_b8f5f79ccff3ca8cf453ef38509df6cbe04c1b5c oa:motivatedBy oa:tagging .
+
+target:selector_10f109de4d258fce89970867bd66fed1b6c70ef1 a oa:FragmentSelector .
+target:selector_10f109de4d258fce89970867bd66fed1b6c70ef1 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_10f109de4d258fce89970867bd66fed1b6c70ef1 ui:h "0.14575866188769415"^^xsd:float .
+target:selector_10f109de4d258fce89970867bd66fed1b6c70ef1 ui:w "0.4017391304347826"^^xsd:float .
+target:selector_10f109de4d258fce89970867bd66fed1b6c70ef1 ui:x "0.34782608695652173"^^xsd:float .
+target:selector_10f109de4d258fce89970867bd66fed1b6c70ef1 ui:y "0.6714456391875747"^^xsd:float .
+target:selector_10f109de4d258fce89970867bd66fed1b6c70ef1 rdf:value "#xywh=percent:35,67,40,15" .
+
 target:selector_4f78094c520aad48dd801eb77060cbf2ff4c7692 a oa:FragmentSelector .
 target:selector_4f78094c520aad48dd801eb77060cbf2ff4c7692 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_4f78094c520aad48dd801eb77060cbf2ff4c7692 ui:h "0.21559633027522937"^^xsd:float .
@@ -39,6 +69,10 @@ target:selector_4f78094c520aad48dd801eb77060cbf2ff4c7692 ui:w "0.409333333333333
 target:selector_4f78094c520aad48dd801eb77060cbf2ff4c7692 ui:x "0.3426666666666667"^^xsd:float .
 target:selector_4f78094c520aad48dd801eb77060cbf2ff4c7692 ui:y "0.6440366972477064"^^xsd:float .
 target:selector_4f78094c520aad48dd801eb77060cbf2ff4c7692 rdf:value "#xywh=percent:34,64,41,22" .
+
+target:target_10f109de4d258fce89970867bd66fed1b6c70ef1 a oa:SpecificResource .
+target:target_10f109de4d258fce89970867bd66fed1b6c70ef1 oa:hasSelector target:selector_10f109de4d258fce89970867bd66fed1b6c70ef1 .
+target:target_10f109de4d258fce89970867bd66fed1b6c70ef1 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/408> .
 
 target:target_4f78094c520aad48dd801eb77060cbf2ff4c7692 a oa:SpecificResource .
 target:target_4f78094c520aad48dd801eb77060cbf2ff4c7692 oa:hasSelector target:selector_4f78094c520aad48dd801eb77060cbf2ff4c7692 .

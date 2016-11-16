@@ -13,6 +13,37 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_5433afde3de287ba8511e4a5310e7e00681fbacc a oa:Annotation .
+nl:id_5433afde3de287ba8511e4a5310e7e00681fbacc terms:title "Nicodemus" .
+nl:id_5433afde3de287ba8511e4a5310e7e00681fbacc ui:annotationField bible:BibleCharacter .
+nl:id_5433afde3de287ba8511e4a5310e7e00681fbacc ui:typingTime 0 .
+nl:id_5433afde3de287ba8511e4a5310e7e00681fbacc oa:annotatedAt "2016-05-23T14:56:42+02:00"^^xsd:dateTime .
+nl:id_5433afde3de287ba8511e4a5310e7e00681fbacc oa:annotatedBy user:everhoeff .
+nl:id_5433afde3de287ba8511e4a5310e7e00681fbacc oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Nicodemus" ] .
+nl:id_5433afde3de287ba8511e4a5310e7e00681fbacc oa:hasTarget target:target_bc9a2d328c7f6bbbd9d95b13c0427119c882af35 .
+nl:id_5433afde3de287ba8511e4a5310e7e00681fbacc oa:hasTarget ubvu:print-218010001735 .
+nl:id_5433afde3de287ba8511e4a5310e7e00681fbacc oa:motivatedBy oa:tagging .
+
+nl:id_5ce0ee2b42b205bae87053f1ad0c3ce0f9b79a57 a oa:Annotation .
+nl:id_5ce0ee2b42b205bae87053f1ad0c3ce0f9b79a57 terms:title "Jezus in gesprek met Nicodemus" .
+nl:id_5ce0ee2b42b205bae87053f1ad0c3ce0f9b79a57 ui:annotationField bible:ICBibleTheme .
+nl:id_5ce0ee2b42b205bae87053f1ad0c3ce0f9b79a57 ui:typingTime 0 .
+nl:id_5ce0ee2b42b205bae87053f1ad0c3ce0f9b79a57 oa:annotatedAt "2016-06-22T20:44:52+02:00"^^xsd:dateTime .
+nl:id_5ce0ee2b42b205bae87053f1ad0c3ce0f9b79a57 oa:annotatedBy user:paulinevandijk .
+nl:id_5ce0ee2b42b205bae87053f1ad0c3ce0f9b79a57 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jezus in gesprek met Nicodemus" ] .
+nl:id_5ce0ee2b42b205bae87053f1ad0c3ce0f9b79a57 oa:hasTarget ubvu:print-218010001735 .
+nl:id_5ce0ee2b42b205bae87053f1ad0c3ce0f9b79a57 oa:motivatedBy oa:tagging .
+
+nl:id_60d0731ba868d889db766824e535f94c4392179a a oa:Annotation .
+nl:id_60d0731ba868d889db766824e535f94c4392179a terms:title "Christ talking with Nicodemus at night (John 3:1-21)" .
+nl:id_60d0731ba868d889db766824e535f94c4392179a ui:annotationField bible:ICBibleTheme .
+nl:id_60d0731ba868d889db766824e535f94c4392179a ui:typingTime 0 .
+nl:id_60d0731ba868d889db766824e535f94c4392179a oa:annotatedAt "2016-05-23T14:56:19+02:00"^^xsd:dateTime .
+nl:id_60d0731ba868d889db766824e535f94c4392179a oa:annotatedBy user:everhoeff .
+nl:id_60d0731ba868d889db766824e535f94c4392179a oa:hasBody <http://iconclass.org/73C7216> .
+nl:id_60d0731ba868d889db766824e535f94c4392179a oa:hasTarget ubvu:print-218010001735 .
+nl:id_60d0731ba868d889db766824e535f94c4392179a oa:motivatedBy oa:tagging .
+
 nl:id_64654ebd067f2d5311259796c41f054e79395761 a oa:Annotation .
 nl:id_64654ebd067f2d5311259796c41f054e79395761 terms:title "Christ talking with Nicodemus at night (John 3:1-21)" .
 nl:id_64654ebd067f2d5311259796c41f054e79395761 ui:annotationField bible:ICBibleTheme .
@@ -56,6 +87,47 @@ nl:id_ae583e49d7cdeb68b9288dfdc1cf6b7c0825aff4 oa:hasTarget target:target_ac68ab
 nl:id_ae583e49d7cdeb68b9288dfdc1cf6b7c0825aff4 oa:hasTarget ubvu:print-218010001735 .
 nl:id_ae583e49d7cdeb68b9288dfdc1cf6b7c0825aff4 oa:motivatedBy oa:tagging .
 
+nl:id_c01a44aede71233f68abeb6c2d464135f86308e4 a oa:Annotation .
+nl:id_c01a44aede71233f68abeb6c2d464135f86308e4 terms:title "Christ" .
+nl:id_c01a44aede71233f68abeb6c2d464135f86308e4 ui:annotationField bible:BibleCharacter .
+nl:id_c01a44aede71233f68abeb6c2d464135f86308e4 ui:typingTime 0 .
+nl:id_c01a44aede71233f68abeb6c2d464135f86308e4 oa:annotatedAt "2016-05-23T14:56:59+02:00"^^xsd:dateTime .
+nl:id_c01a44aede71233f68abeb6c2d464135f86308e4 oa:annotatedBy user:everhoeff .
+nl:id_c01a44aede71233f68abeb6c2d464135f86308e4 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Christ" ] .
+nl:id_c01a44aede71233f68abeb6c2d464135f86308e4 oa:hasTarget target:target_b71fb8b0a5359d8cb66a772991f13931f7b3333a .
+nl:id_c01a44aede71233f68abeb6c2d464135f86308e4 oa:hasTarget ubvu:print-218010001735 .
+nl:id_c01a44aede71233f68abeb6c2d464135f86308e4 oa:motivatedBy oa:tagging .
+
+nl:id_d968c145594ee63df13f5a4791b28b5b15b294b8 a oa:Annotation .
+nl:id_d968c145594ee63df13f5a4791b28b5b15b294b8 terms:title "Jezus" .
+nl:id_d968c145594ee63df13f5a4791b28b5b15b294b8 ui:annotationField bible:BibleCharacter .
+nl:id_d968c145594ee63df13f5a4791b28b5b15b294b8 ui:typingTime 0 .
+nl:id_d968c145594ee63df13f5a4791b28b5b15b294b8 oa:annotatedAt "2016-06-22T20:44:25+02:00"^^xsd:dateTime .
+nl:id_d968c145594ee63df13f5a4791b28b5b15b294b8 oa:annotatedBy user:paulinevandijk .
+nl:id_d968c145594ee63df13f5a4791b28b5b15b294b8 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jezus" ] .
+nl:id_d968c145594ee63df13f5a4791b28b5b15b294b8 oa:hasTarget target:target_c3f8b68ff8055570d4112d53e9877a8685e9fbb1 .
+nl:id_d968c145594ee63df13f5a4791b28b5b15b294b8 oa:hasTarget ubvu:print-218010001735 .
+nl:id_d968c145594ee63df13f5a4791b28b5b15b294b8 oa:motivatedBy oa:tagging .
+
+nl:id_f275e967da5108dd7fd8ca1883165570746ef6a7 a oa:Annotation .
+nl:id_f275e967da5108dd7fd8ca1883165570746ef6a7 terms:title "Nicodemus" .
+nl:id_f275e967da5108dd7fd8ca1883165570746ef6a7 ui:annotationField bible:BibleCharacter .
+nl:id_f275e967da5108dd7fd8ca1883165570746ef6a7 ui:typingTime 0 .
+nl:id_f275e967da5108dd7fd8ca1883165570746ef6a7 oa:annotatedAt "2016-06-22T20:44:41+02:00"^^xsd:dateTime .
+nl:id_f275e967da5108dd7fd8ca1883165570746ef6a7 oa:annotatedBy user:paulinevandijk .
+nl:id_f275e967da5108dd7fd8ca1883165570746ef6a7 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Nicodemus" ] .
+nl:id_f275e967da5108dd7fd8ca1883165570746ef6a7 oa:hasTarget target:target_8dd2c3a4434e4687e6c06fcfb181fd59114a6563 .
+nl:id_f275e967da5108dd7fd8ca1883165570746ef6a7 oa:hasTarget ubvu:print-218010001735 .
+nl:id_f275e967da5108dd7fd8ca1883165570746ef6a7 oa:motivatedBy oa:tagging .
+
+target:selector_8dd2c3a4434e4687e6c06fcfb181fd59114a6563 a oa:FragmentSelector .
+target:selector_8dd2c3a4434e4687e6c06fcfb181fd59114a6563 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_8dd2c3a4434e4687e6c06fcfb181fd59114a6563 ui:h "0.34934991520633124"^^xsd:float .
+target:selector_8dd2c3a4434e4687e6c06fcfb181fd59114a6563 ui:w "0.28717948717948716"^^xsd:float .
+target:selector_8dd2c3a4434e4687e6c06fcfb181fd59114a6563 ui:x "0.3564102564102564"^^xsd:float .
+target:selector_8dd2c3a4434e4687e6c06fcfb181fd59114a6563 ui:y "0.3691351045788581"^^xsd:float .
+target:selector_8dd2c3a4434e4687e6c06fcfb181fd59114a6563 rdf:value "#xywh=percent:36,37,29,35" .
+
 target:selector_ac68ab0d5021401d1803bc7b8cf99a93df7f84dd a oa:FragmentSelector .
 target:selector_ac68ab0d5021401d1803bc7b8cf99a93df7f84dd terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_ac68ab0d5021401d1803bc7b8cf99a93df7f84dd ui:h "0.12040697510731699"^^xsd:float .
@@ -63,6 +135,30 @@ target:selector_ac68ab0d5021401d1803bc7b8cf99a93df7f84dd ui:w "0.201709401709401
 target:selector_ac68ab0d5021401d1803bc7b8cf99a93df7f84dd ui:x "0.13333333333333333"^^xsd:float .
 target:selector_ac68ab0d5021401d1803bc7b8cf99a93df7f84dd ui:y "0.4047201877936864"^^xsd:float .
 target:selector_ac68ab0d5021401d1803bc7b8cf99a93df7f84dd rdf:value "#xywh=percent:13,40,20,12" .
+
+target:selector_b71fb8b0a5359d8cb66a772991f13931f7b3333a a oa:FragmentSelector .
+target:selector_b71fb8b0a5359d8cb66a772991f13931f7b3333a terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_b71fb8b0a5359d8cb66a772991f13931f7b3333a ui:h "0.24942528735632183"^^xsd:float .
+target:selector_b71fb8b0a5359d8cb66a772991f13931f7b3333a ui:w "0.23130434782608697"^^xsd:float .
+target:selector_b71fb8b0a5359d8cb66a772991f13931f7b3333a ui:x "0.11826086956521739"^^xsd:float .
+target:selector_b71fb8b0a5359d8cb66a772991f13931f7b3333a ui:y "0.40229885057471265"^^xsd:float .
+target:selector_b71fb8b0a5359d8cb66a772991f13931f7b3333a rdf:value "#xywh=percent:12,40,23,25" .
+
+target:selector_bc9a2d328c7f6bbbd9d95b13c0427119c882af35 a oa:FragmentSelector .
+target:selector_bc9a2d328c7f6bbbd9d95b13c0427119c882af35 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_bc9a2d328c7f6bbbd9d95b13c0427119c882af35 ui:h "0.2655172413793103"^^xsd:float .
+target:selector_bc9a2d328c7f6bbbd9d95b13c0427119c882af35 ui:w "0.4121739130434783"^^xsd:float .
+target:selector_bc9a2d328c7f6bbbd9d95b13c0427119c882af35 ui:x "0.3391304347826087"^^xsd:float .
+target:selector_bc9a2d328c7f6bbbd9d95b13c0427119c882af35 ui:y "0.37471264367816093"^^xsd:float .
+target:selector_bc9a2d328c7f6bbbd9d95b13c0427119c882af35 rdf:value "#xywh=percent:34,37,41,27" .
+
+target:selector_c3f8b68ff8055570d4112d53e9877a8685e9fbb1 a oa:FragmentSelector .
+target:selector_c3f8b68ff8055570d4112d53e9877a8685e9fbb1 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_c3f8b68ff8055570d4112d53e9877a8685e9fbb1 ui:h "0.23007348784624082"^^xsd:float .
+target:selector_c3f8b68ff8055570d4112d53e9877a8685e9fbb1 ui:w "0.2247863247863248"^^xsd:float .
+target:selector_c3f8b68ff8055570d4112d53e9877a8685e9fbb1 ui:x "0.10854700854700855"^^xsd:float .
+target:selector_c3f8b68ff8055570d4112d53e9877a8685e9fbb1 ui:y "0.40079140757490106"^^xsd:float .
+target:selector_c3f8b68ff8055570d4112d53e9877a8685e9fbb1 rdf:value "#xywh=percent:11,40,22,23" .
 
 target:selector_caf430080ab5c7d6a65cf291fa39e95713e3c677 a oa:FragmentSelector .
 target:selector_caf430080ab5c7d6a65cf291fa39e95713e3c677 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -72,9 +168,25 @@ target:selector_caf430080ab5c7d6a65cf291fa39e95713e3c677 ui:x "0.344444444444444
 target:selector_caf430080ab5c7d6a65cf291fa39e95713e3c677 ui:y "0.36910684692313805"^^xsd:float .
 target:selector_caf430080ab5c7d6a65cf291fa39e95713e3c677 rdf:value "#xywh=percent:34,37,16,9" .
 
+target:target_8dd2c3a4434e4687e6c06fcfb181fd59114a6563 a oa:SpecificResource .
+target:target_8dd2c3a4434e4687e6c06fcfb181fd59114a6563 oa:hasSelector target:selector_8dd2c3a4434e4687e6c06fcfb181fd59114a6563 .
+target:target_8dd2c3a4434e4687e6c06fcfb181fd59114a6563 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/774> .
+
 target:target_ac68ab0d5021401d1803bc7b8cf99a93df7f84dd a oa:SpecificResource .
 target:target_ac68ab0d5021401d1803bc7b8cf99a93df7f84dd oa:hasSelector target:selector_ac68ab0d5021401d1803bc7b8cf99a93df7f84dd .
 target:target_ac68ab0d5021401d1803bc7b8cf99a93df7f84dd oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/774> .
+
+target:target_b71fb8b0a5359d8cb66a772991f13931f7b3333a a oa:SpecificResource .
+target:target_b71fb8b0a5359d8cb66a772991f13931f7b3333a oa:hasSelector target:selector_b71fb8b0a5359d8cb66a772991f13931f7b3333a .
+target:target_b71fb8b0a5359d8cb66a772991f13931f7b3333a oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/774> .
+
+target:target_bc9a2d328c7f6bbbd9d95b13c0427119c882af35 a oa:SpecificResource .
+target:target_bc9a2d328c7f6bbbd9d95b13c0427119c882af35 oa:hasSelector target:selector_bc9a2d328c7f6bbbd9d95b13c0427119c882af35 .
+target:target_bc9a2d328c7f6bbbd9d95b13c0427119c882af35 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/774> .
+
+target:target_c3f8b68ff8055570d4112d53e9877a8685e9fbb1 a oa:SpecificResource .
+target:target_c3f8b68ff8055570d4112d53e9877a8685e9fbb1 oa:hasSelector target:selector_c3f8b68ff8055570d4112d53e9877a8685e9fbb1 .
+target:target_c3f8b68ff8055570d4112d53e9877a8685e9fbb1 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/774> .
 
 target:target_caf430080ab5c7d6a65cf291fa39e95713e3c677 a oa:SpecificResource .
 target:target_caf430080ab5c7d6a65cf291fa39e95713e3c677 oa:hasSelector target:selector_caf430080ab5c7d6a65cf291fa39e95713e3c677 .

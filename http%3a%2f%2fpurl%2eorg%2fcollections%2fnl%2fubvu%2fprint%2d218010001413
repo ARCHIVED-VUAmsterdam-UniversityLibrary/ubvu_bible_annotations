@@ -24,6 +24,16 @@ nl:id_18839b2c963da34896c67be62a7f22b604a8d0ba oa:hasTarget target:target_8669ae
 nl:id_18839b2c963da34896c67be62a7f22b604a8d0ba oa:hasTarget ubvu:print-218010001413 .
 nl:id_18839b2c963da34896c67be62a7f22b604a8d0ba oa:motivatedBy oa:tagging .
 
+nl:id_4b9e1d55bd85e5aa90ff9b21b5ea131ef9a15316 a oa:Annotation .
+nl:id_4b9e1d55bd85e5aa90ff9b21b5ea131ef9a15316 terms:title "Ruth gleans in the fields of Boaz" .
+nl:id_4b9e1d55bd85e5aa90ff9b21b5ea131ef9a15316 ui:annotationField bible:ICBibleTheme .
+nl:id_4b9e1d55bd85e5aa90ff9b21b5ea131ef9a15316 ui:typingTime 0 .
+nl:id_4b9e1d55bd85e5aa90ff9b21b5ea131ef9a15316 oa:annotatedAt "2016-06-13T21:16:19+02:00"^^xsd:dateTime .
+nl:id_4b9e1d55bd85e5aa90ff9b21b5ea131ef9a15316 oa:annotatedBy user:everhoeff .
+nl:id_4b9e1d55bd85e5aa90ff9b21b5ea131ef9a15316 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Ruth gleans in the fields of Boaz" ] .
+nl:id_4b9e1d55bd85e5aa90ff9b21b5ea131ef9a15316 oa:hasTarget ubvu:print-218010001413 .
+nl:id_4b9e1d55bd85e5aa90ff9b21b5ea131ef9a15316 oa:motivatedBy oa:tagging .
+
 nl:id_7ff145d1bb2fd661dd57fd668d864b509123c6f1 a oa:Annotation .
 nl:id_7ff145d1bb2fd661dd57fd668d864b509123c6f1 terms:title "Ruth gleaning" .
 nl:id_7ff145d1bb2fd661dd57fd668d864b509123c6f1 ui:annotationField bible:ICBibleTheme .
@@ -45,6 +55,46 @@ nl:id_c5ca3ddc43afb4b52fd85c96a5e81720995727dd oa:hasTarget target:target_ad0830
 nl:id_c5ca3ddc43afb4b52fd85c96a5e81720995727dd oa:hasTarget ubvu:print-218010001413 .
 nl:id_c5ca3ddc43afb4b52fd85c96a5e81720995727dd oa:motivatedBy oa:tagging .
 
+nl:id_d43f6350b125a8f1d5df7426cb12b3d9bef622e3 a oa:Annotation .
+nl:id_d43f6350b125a8f1d5df7426cb12b3d9bef622e3 terms:title "Ruth" .
+nl:id_d43f6350b125a8f1d5df7426cb12b3d9bef622e3 ui:annotationField bible:BibleCharacter .
+nl:id_d43f6350b125a8f1d5df7426cb12b3d9bef622e3 ui:typingTime 0 .
+nl:id_d43f6350b125a8f1d5df7426cb12b3d9bef622e3 oa:annotatedAt "2016-06-16T19:24:14+02:00"^^xsd:dateTime .
+nl:id_d43f6350b125a8f1d5df7426cb12b3d9bef622e3 oa:annotatedBy user:paulinevandijk .
+nl:id_d43f6350b125a8f1d5df7426cb12b3d9bef622e3 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Ruth" ] .
+nl:id_d43f6350b125a8f1d5df7426cb12b3d9bef622e3 oa:hasTarget target:target_b14daf0bdf935c6eabaff9982121c3a84823c17a .
+nl:id_d43f6350b125a8f1d5df7426cb12b3d9bef622e3 oa:hasTarget ubvu:print-218010001413 .
+nl:id_d43f6350b125a8f1d5df7426cb12b3d9bef622e3 oa:motivatedBy oa:tagging .
+
+nl:id_e139b5052fbee08007f956f99fbefed4f2930683 a oa:Annotation .
+nl:id_e139b5052fbee08007f956f99fbefed4f2930683 terms:title "Ruth leest aren op het land van Boaz." .
+nl:id_e139b5052fbee08007f956f99fbefed4f2930683 ui:annotationField bible:ICBibleTheme .
+nl:id_e139b5052fbee08007f956f99fbefed4f2930683 ui:typingTime 0 .
+nl:id_e139b5052fbee08007f956f99fbefed4f2930683 oa:annotatedAt "2016-06-16T19:26:43+02:00"^^xsd:dateTime .
+nl:id_e139b5052fbee08007f956f99fbefed4f2930683 oa:annotatedBy user:paulinevandijk .
+nl:id_e139b5052fbee08007f956f99fbefed4f2930683 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Ruth leest aren op het land van Boaz." ] .
+nl:id_e139b5052fbee08007f956f99fbefed4f2930683 oa:hasTarget ubvu:print-218010001413 .
+nl:id_e139b5052fbee08007f956f99fbefed4f2930683 oa:motivatedBy oa:tagging .
+
+nl:id_e26ebc830ec58ba542f2c5a2c88b2d835f509aff a oa:Annotation .
+nl:id_e26ebc830ec58ba542f2c5a2c88b2d835f509aff terms:title "Ruth" .
+nl:id_e26ebc830ec58ba542f2c5a2c88b2d835f509aff ui:annotationField bible:BibleCharacter .
+nl:id_e26ebc830ec58ba542f2c5a2c88b2d835f509aff ui:typingTime 0 .
+nl:id_e26ebc830ec58ba542f2c5a2c88b2d835f509aff oa:annotatedAt "2016-06-13T21:16:37+02:00"^^xsd:dateTime .
+nl:id_e26ebc830ec58ba542f2c5a2c88b2d835f509aff oa:annotatedBy user:everhoeff .
+nl:id_e26ebc830ec58ba542f2c5a2c88b2d835f509aff oa:hasBody resource:Ruth .
+nl:id_e26ebc830ec58ba542f2c5a2c88b2d835f509aff oa:hasTarget target:target_408f0352c0d97416db6066b500bf70c9a9581ab0 .
+nl:id_e26ebc830ec58ba542f2c5a2c88b2d835f509aff oa:hasTarget ubvu:print-218010001413 .
+nl:id_e26ebc830ec58ba542f2c5a2c88b2d835f509aff oa:motivatedBy oa:tagging .
+
+target:selector_408f0352c0d97416db6066b500bf70c9a9581ab0 a oa:FragmentSelector .
+target:selector_408f0352c0d97416db6066b500bf70c9a9581ab0 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_408f0352c0d97416db6066b500bf70c9a9581ab0 ui:h "0.12365204888569374"^^xsd:float .
+target:selector_408f0352c0d97416db6066b500bf70c9a9581ab0 ui:w "0.2639175257731959"^^xsd:float .
+target:selector_408f0352c0d97416db6066b500bf70c9a9581ab0 ui:x "0.43195876288659796"^^xsd:float .
+target:selector_408f0352c0d97416db6066b500bf70c9a9581ab0 ui:y "0.5283968368080517"^^xsd:float .
+target:selector_408f0352c0d97416db6066b500bf70c9a9581ab0 rdf:value "#xywh=percent:43,53,26,12" .
+
 target:selector_8669ae472467c0913b4d8e10facf6582c5de1f74 a oa:FragmentSelector .
 target:selector_8669ae472467c0913b4d8e10facf6582c5de1f74 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_8669ae472467c0913b4d8e10facf6582c5de1f74 ui:h "0.39094156076569947"^^xsd:float .
@@ -61,6 +111,18 @@ target:selector_ad083029120b55d3be8006e45ec07d90604b9cfb ui:x "0.476068376068376
 target:selector_ad083029120b55d3be8006e45ec07d90604b9cfb ui:y "0.5174195354402562"^^xsd:float .
 target:selector_ad083029120b55d3be8006e45ec07d90604b9cfb rdf:value "#xywh=percent:48,52,23,14" .
 
+target:selector_b14daf0bdf935c6eabaff9982121c3a84823c17a a oa:FragmentSelector .
+target:selector_b14daf0bdf935c6eabaff9982121c3a84823c17a terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_b14daf0bdf935c6eabaff9982121c3a84823c17a ui:h "0.14898688915375446"^^xsd:float .
+target:selector_b14daf0bdf935c6eabaff9982121c3a84823c17a ui:w "0.24871794871794872"^^xsd:float .
+target:selector_b14daf0bdf935c6eabaff9982121c3a84823c17a ui:x "0.47094017094017093"^^xsd:float .
+target:selector_b14daf0bdf935c6eabaff9982121c3a84823c17a ui:y "0.5071513706793802"^^xsd:float .
+target:selector_b14daf0bdf935c6eabaff9982121c3a84823c17a rdf:value "#xywh=percent:47,51,25,15" .
+
+target:target_408f0352c0d97416db6066b500bf70c9a9581ab0 a oa:SpecificResource .
+target:target_408f0352c0d97416db6066b500bf70c9a9581ab0 oa:hasSelector target:selector_408f0352c0d97416db6066b500bf70c9a9581ab0 .
+target:target_408f0352c0d97416db6066b500bf70c9a9581ab0 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/454> .
+
 target:target_8669ae472467c0913b4d8e10facf6582c5de1f74 a oa:SpecificResource .
 target:target_8669ae472467c0913b4d8e10facf6582c5de1f74 oa:hasSelector target:selector_8669ae472467c0913b4d8e10facf6582c5de1f74 .
 target:target_8669ae472467c0913b4d8e10facf6582c5de1f74 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/454> .
@@ -68,3 +130,7 @@ target:target_8669ae472467c0913b4d8e10facf6582c5de1f74 oa:hasSource <http://imag
 target:target_ad083029120b55d3be8006e45ec07d90604b9cfb a oa:SpecificResource .
 target:target_ad083029120b55d3be8006e45ec07d90604b9cfb oa:hasSelector target:selector_ad083029120b55d3be8006e45ec07d90604b9cfb .
 target:target_ad083029120b55d3be8006e45ec07d90604b9cfb oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/454> .
+
+target:target_b14daf0bdf935c6eabaff9982121c3a84823c17a a oa:SpecificResource .
+target:target_b14daf0bdf935c6eabaff9982121c3a84823c17a oa:hasSelector target:selector_b14daf0bdf935c6eabaff9982121c3a84823c17a .
+target:target_b14daf0bdf935c6eabaff9982121c3a84823c17a oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/454> .

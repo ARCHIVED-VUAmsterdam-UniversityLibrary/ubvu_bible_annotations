@@ -1,0 +1,30 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix user: <http://accurator.nl/user#> .
+@prefix review: <http://accurator.nl/ui/annotation/review#> .
+@prefix nl: <http://accurator.nl/> .
+
+nl:id_9150f18c957b89e19632d2d788d7275678b32764 a oa:Annotation .
+nl:id_9150f18c957b89e19632d2d788d7275678b32764 terms:title "agree" .
+nl:id_9150f18c957b89e19632d2d788d7275678b32764 ui:annotationField review:Buttons .
+nl:id_9150f18c957b89e19632d2d788d7275678b32764 ui:typingTime 0 .
+nl:id_9150f18c957b89e19632d2d788d7275678b32764 oa:annotatedAt "2016-07-01T14:49:32+02:00"^^xsd:dateTime .
+nl:id_9150f18c957b89e19632d2d788d7275678b32764 oa:annotatedBy user:spv .
+nl:id_9150f18c957b89e19632d2d788d7275678b32764 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "agree" ] .
+nl:id_9150f18c957b89e19632d2d788d7275678b32764 oa:hasTarget nl:id_9ab3d69daf846034bd8c0a0cc48f68dbf9b757d9 .
+nl:id_9150f18c957b89e19632d2d788d7275678b32764 oa:motivatedBy oa:moderating .
+
+nl:id_ded0ad294c681fcf7d941ea13d1cd9ac1bff2488 a oa:Annotation .
+nl:id_ded0ad294c681fcf7d941ea13d1cd9ac1bff2488 terms:title "agree" .
+nl:id_ded0ad294c681fcf7d941ea13d1cd9ac1bff2488 ui:annotationField review:Buttons .
+nl:id_ded0ad294c681fcf7d941ea13d1cd9ac1bff2488 ui:typingTime 0 .
+nl:id_ded0ad294c681fcf7d941ea13d1cd9ac1bff2488 oa:annotatedAt "2016-07-01T14:50:02+02:00"^^xsd:dateTime .
+nl:id_ded0ad294c681fcf7d941ea13d1cd9ac1bff2488 oa:annotatedBy user:cristina .
+nl:id_ded0ad294c681fcf7d941ea13d1cd9ac1bff2488 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "agree" ] .
+nl:id_ded0ad294c681fcf7d941ea13d1cd9ac1bff2488 oa:hasTarget nl:id_9ab3d69daf846034bd8c0a0cc48f68dbf9b757d9 .
+nl:id_ded0ad294c681fcf7d941ea13d1cd9ac1bff2488 oa:motivatedBy oa:moderating .

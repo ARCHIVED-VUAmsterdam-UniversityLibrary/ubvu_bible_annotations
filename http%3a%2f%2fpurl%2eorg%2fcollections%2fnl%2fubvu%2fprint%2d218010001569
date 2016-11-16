@@ -22,6 +22,16 @@ nl:id_46c43726e8f8b2f3a5621524cf95fc7d0ccf6511 oa:hasTarget target:target_8a9719
 nl:id_46c43726e8f8b2f3a5621524cf95fc7d0ccf6511 oa:hasTarget ubvu:print-218010001569 .
 nl:id_46c43726e8f8b2f3a5621524cf95fc7d0ccf6511 oa:motivatedBy oa:tagging .
 
+nl:id_4f45cfce47e85abcf2357af95e40bcc7ae55a613 a oa:Annotation .
+nl:id_4f45cfce47e85abcf2357af95e40bcc7ae55a613 terms:title "De roeping van Jesaja" .
+nl:id_4f45cfce47e85abcf2357af95e40bcc7ae55a613 ui:annotationField bible:ICBibleTheme .
+nl:id_4f45cfce47e85abcf2357af95e40bcc7ae55a613 ui:typingTime 0 .
+nl:id_4f45cfce47e85abcf2357af95e40bcc7ae55a613 oa:annotatedAt "2016-08-03T16:52:29+02:00"^^xsd:dateTime .
+nl:id_4f45cfce47e85abcf2357af95e40bcc7ae55a613 oa:annotatedBy user:paulinevandijk .
+nl:id_4f45cfce47e85abcf2357af95e40bcc7ae55a613 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "De roeping van Jesaja" ] .
+nl:id_4f45cfce47e85abcf2357af95e40bcc7ae55a613 oa:hasTarget ubvu:print-218010001569 .
+nl:id_4f45cfce47e85abcf2357af95e40bcc7ae55a613 oa:motivatedBy oa:tagging .
+
 nl:id_cf57ff6db2ef8d15da2232434abc3243a0a26e73 a oa:Annotation .
 nl:id_cf57ff6db2ef8d15da2232434abc3243a0a26e73 terms:title "Isaiah saw the Lord sitting on the trone" .
 nl:id_cf57ff6db2ef8d15da2232434abc3243a0a26e73 ui:annotationField bible:ICBibleTheme .

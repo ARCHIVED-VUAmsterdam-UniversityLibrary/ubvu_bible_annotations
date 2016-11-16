@@ -13,6 +13,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_39243c38df2d7cc2b1c1fe0eed865e00efafd8ea a oa:Annotation .
+nl:id_39243c38df2d7cc2b1c1fe0eed865e00efafd8ea terms:title "Ten commands given to Moses" .
+nl:id_39243c38df2d7cc2b1c1fe0eed865e00efafd8ea ui:annotationField bible:ICBibleTheme .
+nl:id_39243c38df2d7cc2b1c1fe0eed865e00efafd8ea ui:typingTime 0 .
+nl:id_39243c38df2d7cc2b1c1fe0eed865e00efafd8ea oa:annotatedAt "2016-05-22T14:54:39+02:00"^^xsd:dateTime .
+nl:id_39243c38df2d7cc2b1c1fe0eed865e00efafd8ea oa:annotatedBy user:everhoeff .
+nl:id_39243c38df2d7cc2b1c1fe0eed865e00efafd8ea oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Ten commands given to Moses" ] .
+nl:id_39243c38df2d7cc2b1c1fe0eed865e00efafd8ea oa:hasTarget ubvu:print-218010002004 .
+nl:id_39243c38df2d7cc2b1c1fe0eed865e00efafd8ea oa:motivatedBy oa:tagging .
+
 nl:id_501f7c41dca97ee57f7cf6f177bf79dc220af731 a oa:Annotation .
 nl:id_501f7c41dca97ee57f7cf6f177bf79dc220af731 terms:title "Mozes" .
 nl:id_501f7c41dca97ee57f7cf6f177bf79dc220af731 ui:annotationField bible:BibleCharacter .
@@ -68,6 +78,26 @@ nl:id_7485d3bb92c4623b190c903d6dda1ec15a61360d oa:hasTarget target:target_4c087e
 nl:id_7485d3bb92c4623b190c903d6dda1ec15a61360d oa:hasTarget ubvu:print-218010002004 .
 nl:id_7485d3bb92c4623b190c903d6dda1ec15a61360d oa:motivatedBy oa:tagging .
 
+nl:id_7b02a9e193edc475b08fbea19c1a04decb5db2d3 a oa:Annotation .
+nl:id_7b02a9e193edc475b08fbea19c1a04decb5db2d3 terms:title "The Israelites go out of Egypt, passage of the Red Sea" .
+nl:id_7b02a9e193edc475b08fbea19c1a04decb5db2d3 ui:annotationField bible:ICBibleTheme .
+nl:id_7b02a9e193edc475b08fbea19c1a04decb5db2d3 ui:typingTime 0 .
+nl:id_7b02a9e193edc475b08fbea19c1a04decb5db2d3 oa:annotatedAt "2016-05-22T14:50:17+02:00"^^xsd:dateTime .
+nl:id_7b02a9e193edc475b08fbea19c1a04decb5db2d3 oa:annotatedBy user:everhoeff .
+nl:id_7b02a9e193edc475b08fbea19c1a04decb5db2d3 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The Israelites go out of Egypt, passage of the Red Sea" ] .
+nl:id_7b02a9e193edc475b08fbea19c1a04decb5db2d3 oa:hasTarget ubvu:print-218010002004 .
+nl:id_7b02a9e193edc475b08fbea19c1a04decb5db2d3 oa:motivatedBy oa:tagging .
+
+nl:id_7c72b6ffa129ae4fcbff3ec7ab62e2e3e6208d09 a oa:Annotation .
+nl:id_7c72b6ffa129ae4fcbff3ec7ab62e2e3e6208d09 terms:title "Amelekis overcome" .
+nl:id_7c72b6ffa129ae4fcbff3ec7ab62e2e3e6208d09 ui:annotationField bible:ICBibleTheme .
+nl:id_7c72b6ffa129ae4fcbff3ec7ab62e2e3e6208d09 ui:typingTime 0 .
+nl:id_7c72b6ffa129ae4fcbff3ec7ab62e2e3e6208d09 oa:annotatedAt "2016-05-22T14:55:05+02:00"^^xsd:dateTime .
+nl:id_7c72b6ffa129ae4fcbff3ec7ab62e2e3e6208d09 oa:annotatedBy user:everhoeff .
+nl:id_7c72b6ffa129ae4fcbff3ec7ab62e2e3e6208d09 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Amelekis overcome" ] .
+nl:id_7c72b6ffa129ae4fcbff3ec7ab62e2e3e6208d09 oa:hasTarget ubvu:print-218010002004 .
+nl:id_7c72b6ffa129ae4fcbff3ec7ab62e2e3e6208d09 oa:motivatedBy oa:tagging .
+
 nl:id_810a44c1e8e6aed36f698651b56553dd309b190c a oa:Annotation .
 nl:id_810a44c1e8e6aed36f698651b56553dd309b190c terms:title "God" .
 nl:id_810a44c1e8e6aed36f698651b56553dd309b190c ui:annotationField bible:BibleCharacter .
@@ -78,6 +108,16 @@ nl:id_810a44c1e8e6aed36f698651b56553dd309b190c oa:hasBody [ a content:ContentAsT
 nl:id_810a44c1e8e6aed36f698651b56553dd309b190c oa:hasTarget target:target_4c087e7a47d90825808b7cdc437a784697e8a598 .
 nl:id_810a44c1e8e6aed36f698651b56553dd309b190c oa:hasTarget ubvu:print-218010002004 .
 nl:id_810a44c1e8e6aed36f698651b56553dd309b190c oa:motivatedBy oa:tagging .
+
+nl:id_817072e1ea10a0e3afd7ccc94b41b9c2c6df1b5b a oa:Annotation .
+nl:id_817072e1ea10a0e3afd7ccc94b41b9c2c6df1b5b terms:title "The Israelites go out of Egypt " .
+nl:id_817072e1ea10a0e3afd7ccc94b41b9c2c6df1b5b ui:annotationField bible:ICBibleTheme .
+nl:id_817072e1ea10a0e3afd7ccc94b41b9c2c6df1b5b ui:typingTime 0 .
+nl:id_817072e1ea10a0e3afd7ccc94b41b9c2c6df1b5b oa:annotatedAt "2016-05-22T14:48:26+02:00"^^xsd:dateTime .
+nl:id_817072e1ea10a0e3afd7ccc94b41b9c2c6df1b5b oa:annotatedBy user:everhoeff .
+nl:id_817072e1ea10a0e3afd7ccc94b41b9c2c6df1b5b oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The Israelites go out of Egypt " ] .
+nl:id_817072e1ea10a0e3afd7ccc94b41b9c2c6df1b5b oa:hasTarget ubvu:print-218010002004 .
+nl:id_817072e1ea10a0e3afd7ccc94b41b9c2c6df1b5b oa:motivatedBy oa:tagging .
 
 nl:id_988fd254064698e6c074b43a7779cc60927d6fe8 a oa:Annotation .
 nl:id_988fd254064698e6c074b43a7779cc60927d6fe8 terms:title "Mozes" .

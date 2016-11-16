@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -22,6 +23,48 @@ nl:id_4eb8f310d754bd53baa67dedb62eeb6151441d9b oa:hasBody [ a content:ContentAsT
 nl:id_4eb8f310d754bd53baa67dedb62eeb6151441d9b oa:hasTarget ubvu:print-218010001543 .
 nl:id_4eb8f310d754bd53baa67dedb62eeb6151441d9b oa:motivatedBy oa:tagging .
 
+nl:id_7dec24e1ab652e74aec157913847122a3c1225c2 a oa:Annotation .
+nl:id_7dec24e1ab652e74aec157913847122a3c1225c2 terms:title "Chanun (zoon van Nachas), koning van de Ammonieten" .
+nl:id_7dec24e1ab652e74aec157913847122a3c1225c2 ui:annotationField bible:BibleCharacter .
+nl:id_7dec24e1ab652e74aec157913847122a3c1225c2 ui:typingTime 0 .
+nl:id_7dec24e1ab652e74aec157913847122a3c1225c2 oa:annotatedAt "2016-06-08T11:17:30+02:00"^^xsd:dateTime .
+nl:id_7dec24e1ab652e74aec157913847122a3c1225c2 oa:annotatedBy user:hogguer .
+nl:id_7dec24e1ab652e74aec157913847122a3c1225c2 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Chanun (zoon van Nachas), koning van de Ammonieten" ] .
+nl:id_7dec24e1ab652e74aec157913847122a3c1225c2 oa:hasTarget target:target_f765996de68eaeb2adb2fabe2c1334fa68f71f99 .
+nl:id_7dec24e1ab652e74aec157913847122a3c1225c2 oa:hasTarget ubvu:print-218010001543 .
+nl:id_7dec24e1ab652e74aec157913847122a3c1225c2 oa:motivatedBy oa:tagging .
+
+nl:id_a807bfc6b4f96d03683ae03abd0bf9e2411b7c62 a oa:Annotation .
+nl:id_a807bfc6b4f96d03683ae03abd0bf9e2411b7c62 terms:title "Dienaar van David" .
+nl:id_a807bfc6b4f96d03683ae03abd0bf9e2411b7c62 ui:annotationField bible:BibleCharacter .
+nl:id_a807bfc6b4f96d03683ae03abd0bf9e2411b7c62 ui:typingTime 0 .
+nl:id_a807bfc6b4f96d03683ae03abd0bf9e2411b7c62 oa:annotatedAt "2016-06-08T11:09:40+02:00"^^xsd:dateTime .
+nl:id_a807bfc6b4f96d03683ae03abd0bf9e2411b7c62 oa:annotatedBy user:hogguer .
+nl:id_a807bfc6b4f96d03683ae03abd0bf9e2411b7c62 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Dienaar van David" ] .
+nl:id_a807bfc6b4f96d03683ae03abd0bf9e2411b7c62 oa:hasTarget target:target_e3c66ea97bbb5336ba43948e3ec810ddb3b9efef .
+nl:id_a807bfc6b4f96d03683ae03abd0bf9e2411b7c62 oa:hasTarget ubvu:print-218010001543 .
+nl:id_a807bfc6b4f96d03683ae03abd0bf9e2411b7c62 oa:motivatedBy oa:tagging .
+
+nl:id_c194920f1f59ddf9244c88d7cd88aceb06b98841 a oa:Annotation .
+nl:id_c194920f1f59ddf9244c88d7cd88aceb06b98841 terms:title "Shaving and cutting off the garments of David's servants by Hanun, king of the Ammonites" .
+nl:id_c194920f1f59ddf9244c88d7cd88aceb06b98841 ui:annotationField bible:ICBibleTheme .
+nl:id_c194920f1f59ddf9244c88d7cd88aceb06b98841 ui:typingTime 0 .
+nl:id_c194920f1f59ddf9244c88d7cd88aceb06b98841 oa:annotatedAt "2016-06-08T11:16:55+02:00"^^xsd:dateTime .
+nl:id_c194920f1f59ddf9244c88d7cd88aceb06b98841 oa:annotatedBy user:hogguer .
+nl:id_c194920f1f59ddf9244c88d7cd88aceb06b98841 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Shaving and cutting off the garments of David's servants by Hanun, king of the Ammonites" ] .
+nl:id_c194920f1f59ddf9244c88d7cd88aceb06b98841 oa:hasTarget ubvu:print-218010001543 .
+nl:id_c194920f1f59ddf9244c88d7cd88aceb06b98841 oa:motivatedBy oa:tagging .
+
+nl:id_cc6339d8c09466f540f633f56a415595afcb78f5 a oa:Annotation .
+nl:id_cc6339d8c09466f540f633f56a415595afcb78f5 terms:title "David's messengers shaved by Hanun" .
+nl:id_cc6339d8c09466f540f633f56a415595afcb78f5 ui:annotationField bible:ICBibleTheme .
+nl:id_cc6339d8c09466f540f633f56a415595afcb78f5 ui:typingTime 0 .
+nl:id_cc6339d8c09466f540f633f56a415595afcb78f5 oa:annotatedAt "2016-06-01T15:16:27+02:00"^^xsd:dateTime .
+nl:id_cc6339d8c09466f540f633f56a415595afcb78f5 oa:annotatedBy user:everhoeff .
+nl:id_cc6339d8c09466f540f633f56a415595afcb78f5 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "David's messengers shaved by Hanun" ] .
+nl:id_cc6339d8c09466f540f633f56a415595afcb78f5 oa:hasTarget ubvu:print-218010001543 .
+nl:id_cc6339d8c09466f540f633f56a415595afcb78f5 oa:motivatedBy oa:tagging .
+
 nl:id_d2d25f3800fe0c5e483377afa7ef00060b8cedd8 a oa:Annotation .
 nl:id_d2d25f3800fe0c5e483377afa7ef00060b8cedd8 terms:title "Chanun" .
 nl:id_d2d25f3800fe0c5e483377afa7ef00060b8cedd8 ui:annotationField bible:BibleCharacter .
@@ -33,6 +76,25 @@ nl:id_d2d25f3800fe0c5e483377afa7ef00060b8cedd8 oa:hasTarget target:target_82e591
 nl:id_d2d25f3800fe0c5e483377afa7ef00060b8cedd8 oa:hasTarget ubvu:print-218010001543 .
 nl:id_d2d25f3800fe0c5e483377afa7ef00060b8cedd8 oa:motivatedBy oa:tagging .
 
+nl:id_f3deb495fc337d5820c06b88943f66af2f1c5444 a oa:Annotation .
+nl:id_f3deb495fc337d5820c06b88943f66af2f1c5444 terms:title "Chanun (zoon van Nachas), koning van de Ammonieten" .
+nl:id_f3deb495fc337d5820c06b88943f66af2f1c5444 ui:annotationField bible:BibleCharacter .
+nl:id_f3deb495fc337d5820c06b88943f66af2f1c5444 ui:typingTime 0 .
+nl:id_f3deb495fc337d5820c06b88943f66af2f1c5444 oa:annotatedAt "2016-06-08T11:11:05+02:00"^^xsd:dateTime .
+nl:id_f3deb495fc337d5820c06b88943f66af2f1c5444 oa:annotatedBy user:hogguer .
+nl:id_f3deb495fc337d5820c06b88943f66af2f1c5444 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Chanun (zoon van Nachas), koning van de Ammonieten" ] .
+nl:id_f3deb495fc337d5820c06b88943f66af2f1c5444 oa:hasTarget target:target_4b53a5bfb8eeb693b253245bbda7ecd9317851f9 .
+nl:id_f3deb495fc337d5820c06b88943f66af2f1c5444 oa:hasTarget ubvu:print-218010001543 .
+nl:id_f3deb495fc337d5820c06b88943f66af2f1c5444 oa:motivatedBy oa:tagging .
+
+target:selector_4b53a5bfb8eeb693b253245bbda7ecd9317851f9 a oa:FragmentSelector .
+target:selector_4b53a5bfb8eeb693b253245bbda7ecd9317851f9 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_4b53a5bfb8eeb693b253245bbda7ecd9317851f9 ui:h "0.2074159907300116"^^xsd:float .
+target:selector_4b53a5bfb8eeb693b253245bbda7ecd9317851f9 ui:w "0.12564102564102564"^^xsd:float .
+target:selector_4b53a5bfb8eeb693b253245bbda7ecd9317851f9 ui:x "0.47094017094017093"^^xsd:float .
+target:selector_4b53a5bfb8eeb693b253245bbda7ecd9317851f9 ui:y "0.25434530706836617"^^xsd:float .
+target:selector_4b53a5bfb8eeb693b253245bbda7ecd9317851f9 rdf:value "#xywh=percent:47,25,13,21" .
+
 target:selector_82e5910eb0ce317402dd3f8a1acfea04cae898dd a oa:FragmentSelector .
 target:selector_82e5910eb0ce317402dd3f8a1acfea04cae898dd terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_82e5910eb0ce317402dd3f8a1acfea04cae898dd ui:h "0.2115732368896926"^^xsd:float .
@@ -41,6 +103,34 @@ target:selector_82e5910eb0ce317402dd3f8a1acfea04cae898dd ui:x "0.485333333333333
 target:selector_82e5910eb0ce317402dd3f8a1acfea04cae898dd ui:y "0.2613019891500904"^^xsd:float .
 target:selector_82e5910eb0ce317402dd3f8a1acfea04cae898dd rdf:value "#xywh=percent:49,26,8,21" .
 
+target:selector_e3c66ea97bbb5336ba43948e3ec810ddb3b9efef a oa:FragmentSelector .
+target:selector_e3c66ea97bbb5336ba43948e3ec810ddb3b9efef terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_e3c66ea97bbb5336ba43948e3ec810ddb3b9efef ui:h "0.41888760139049824"^^xsd:float .
+target:selector_e3c66ea97bbb5336ba43948e3ec810ddb3b9efef ui:w "0.18888888888888888"^^xsd:float .
+target:selector_e3c66ea97bbb5336ba43948e3ec810ddb3b9efef ui:x "0.3299145299145299"^^xsd:float .
+target:selector_e3c66ea97bbb5336ba43948e3ec810ddb3b9efef ui:y "0.41541135573580534"^^xsd:float .
+target:selector_e3c66ea97bbb5336ba43948e3ec810ddb3b9efef rdf:value "#xywh=percent:33,42,19,42" .
+
+target:selector_f765996de68eaeb2adb2fabe2c1334fa68f71f99 a oa:FragmentSelector .
+target:selector_f765996de68eaeb2adb2fabe2c1334fa68f71f99 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_f765996de68eaeb2adb2fabe2c1334fa68f71f99 ui:h "0.2137891077636153"^^xsd:float .
+target:selector_f765996de68eaeb2adb2fabe2c1334fa68f71f99 ui:w "0.14957264957264957"^^xsd:float .
+target:selector_f765996de68eaeb2adb2fabe2c1334fa68f71f99 ui:x "0.4675213675213675"^^xsd:float .
+target:selector_f765996de68eaeb2adb2fabe2c1334fa68f71f99 ui:y "0.25318655851680183"^^xsd:float .
+target:selector_f765996de68eaeb2adb2fabe2c1334fa68f71f99 rdf:value "#xywh=percent:47,25,15,21" .
+
+target:target_4b53a5bfb8eeb693b253245bbda7ecd9317851f9 a oa:SpecificResource .
+target:target_4b53a5bfb8eeb693b253245bbda7ecd9317851f9 oa:hasSelector target:selector_4b53a5bfb8eeb693b253245bbda7ecd9317851f9 .
+target:target_4b53a5bfb8eeb693b253245bbda7ecd9317851f9 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/584> .
+
 target:target_82e5910eb0ce317402dd3f8a1acfea04cae898dd a oa:SpecificResource .
 target:target_82e5910eb0ce317402dd3f8a1acfea04cae898dd oa:hasSelector target:selector_82e5910eb0ce317402dd3f8a1acfea04cae898dd .
 target:target_82e5910eb0ce317402dd3f8a1acfea04cae898dd oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/584> .
+
+target:target_e3c66ea97bbb5336ba43948e3ec810ddb3b9efef a oa:SpecificResource .
+target:target_e3c66ea97bbb5336ba43948e3ec810ddb3b9efef oa:hasSelector target:selector_e3c66ea97bbb5336ba43948e3ec810ddb3b9efef .
+target:target_e3c66ea97bbb5336ba43948e3ec810ddb3b9efef oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/584> .
+
+target:target_f765996de68eaeb2adb2fabe2c1334fa68f71f99 a oa:SpecificResource .
+target:target_f765996de68eaeb2adb2fabe2c1334fa68f71f99 oa:hasSelector target:selector_f765996de68eaeb2adb2fabe2c1334fa68f71f99 .
+target:target_f765996de68eaeb2adb2fabe2c1334fa68f71f99 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/584> .

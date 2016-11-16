@@ -13,6 +13,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_2f462316a7ed1abdff224ebeaaa3075cf4afdb39 a oa:Annotation .
+nl:id_2f462316a7ed1abdff224ebeaaa3075cf4afdb39 terms:title "Cyrus let the Jewish people go up to Jerusalem" .
+nl:id_2f462316a7ed1abdff224ebeaaa3075cf4afdb39 ui:annotationField bible:ICBibleTheme .
+nl:id_2f462316a7ed1abdff224ebeaaa3075cf4afdb39 ui:typingTime 0 .
+nl:id_2f462316a7ed1abdff224ebeaaa3075cf4afdb39 oa:annotatedAt "2016-07-05T18:35:47+02:00"^^xsd:dateTime .
+nl:id_2f462316a7ed1abdff224ebeaaa3075cf4afdb39 oa:annotatedBy user:everhoeff .
+nl:id_2f462316a7ed1abdff224ebeaaa3075cf4afdb39 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Cyrus let the Jewish people go up to Jerusalem" ] .
+nl:id_2f462316a7ed1abdff224ebeaaa3075cf4afdb39 oa:hasTarget ubvu:print-218010002022 .
+nl:id_2f462316a7ed1abdff224ebeaaa3075cf4afdb39 oa:motivatedBy oa:tagging .
+
 nl:id_39a91b02ffea015318d6de7d680ecccd82fae9bf a oa:Annotation .
 nl:id_39a91b02ffea015318d6de7d680ecccd82fae9bf terms:title "Ezra" .
 nl:id_39a91b02ffea015318d6de7d680ecccd82fae9bf ui:annotationField bible:BibleCharacter .
@@ -24,6 +34,16 @@ nl:id_39a91b02ffea015318d6de7d680ecccd82fae9bf oa:hasTarget target:target_b4854f
 nl:id_39a91b02ffea015318d6de7d680ecccd82fae9bf oa:hasTarget ubvu:print-218010002022 .
 nl:id_39a91b02ffea015318d6de7d680ecccd82fae9bf oa:motivatedBy oa:tagging .
 
+nl:id_688b0fe432cd8df394e7630e1a8922d95de25684 a oa:Annotation .
+nl:id_688b0fe432cd8df394e7630e1a8922d95de25684 terms:title "The foundation of the temple laid" .
+nl:id_688b0fe432cd8df394e7630e1a8922d95de25684 ui:annotationField bible:ICBibleTheme .
+nl:id_688b0fe432cd8df394e7630e1a8922d95de25684 ui:typingTime 0 .
+nl:id_688b0fe432cd8df394e7630e1a8922d95de25684 oa:annotatedAt "2016-07-05T18:27:23+02:00"^^xsd:dateTime .
+nl:id_688b0fe432cd8df394e7630e1a8922d95de25684 oa:annotatedBy user:everhoeff .
+nl:id_688b0fe432cd8df394e7630e1a8922d95de25684 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The foundation of the temple laid" ] .
+nl:id_688b0fe432cd8df394e7630e1a8922d95de25684 oa:hasTarget ubvu:print-218010002022 .
+nl:id_688b0fe432cd8df394e7630e1a8922d95de25684 oa:motivatedBy oa:tagging .
+
 nl:id_692cba96296764c1cb0b22150d1fa8cea6ef6fe0 a oa:Annotation .
 nl:id_692cba96296764c1cb0b22150d1fa8cea6ef6fe0 terms:title "Artaxerxes" .
 nl:id_692cba96296764c1cb0b22150d1fa8cea6ef6fe0 ui:annotationField bible:BibleCharacter .
@@ -34,6 +54,16 @@ nl:id_692cba96296764c1cb0b22150d1fa8cea6ef6fe0 oa:hasBody [ a content:ContentAsT
 nl:id_692cba96296764c1cb0b22150d1fa8cea6ef6fe0 oa:hasTarget target:target_80f0962f5ab4ccb17faf29d27dccc5e4aade16d8 .
 nl:id_692cba96296764c1cb0b22150d1fa8cea6ef6fe0 oa:hasTarget ubvu:print-218010002022 .
 nl:id_692cba96296764c1cb0b22150d1fa8cea6ef6fe0 oa:motivatedBy oa:tagging .
+
+nl:id_7ff8b983f5e48e42385a940887e264f40afcc173 a oa:Annotation .
+nl:id_7ff8b983f5e48e42385a940887e264f40afcc173 terms:title "Builders of the wall, in one hand a burden , in the other hand a weapon" .
+nl:id_7ff8b983f5e48e42385a940887e264f40afcc173 ui:annotationField bible:ICBibleTheme .
+nl:id_7ff8b983f5e48e42385a940887e264f40afcc173 ui:typingTime 0 .
+nl:id_7ff8b983f5e48e42385a940887e264f40afcc173 oa:annotatedAt "2016-07-05T18:36:43+02:00"^^xsd:dateTime .
+nl:id_7ff8b983f5e48e42385a940887e264f40afcc173 oa:annotatedBy user:everhoeff .
+nl:id_7ff8b983f5e48e42385a940887e264f40afcc173 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Builders of the wall, in one hand a burden , in the other hand a weapon" ] .
+nl:id_7ff8b983f5e48e42385a940887e264f40afcc173 oa:hasTarget ubvu:print-218010002022 .
+nl:id_7ff8b983f5e48e42385a940887e264f40afcc173 oa:motivatedBy oa:tagging .
 
 nl:id_9b49dea979446cb07922c3978c8be62b4f5a269a a oa:Annotation .
 nl:id_9b49dea979446cb07922c3978c8be62b4f5a269a terms:title "Cyrus" .

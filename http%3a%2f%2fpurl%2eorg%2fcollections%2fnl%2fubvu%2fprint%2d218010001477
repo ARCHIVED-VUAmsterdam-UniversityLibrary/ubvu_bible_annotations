@@ -1,8 +1,11 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix resource: <http://bibleontology.com/resource/> .
@@ -10,35 +13,58 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
-nl:id_b1cd3e807f5c9d50ade3fbafd153c1a2e8f34fd4 a oa:Annotation .
-nl:id_b1cd3e807f5c9d50ade3fbafd153c1a2e8f34fd4 terms:title "Saul choosing an army" .
-nl:id_b1cd3e807f5c9d50ade3fbafd153c1a2e8f34fd4 ui:annotationField bible:ICBibleTheme .
-nl:id_b1cd3e807f5c9d50ade3fbafd153c1a2e8f34fd4 ui:typingTime 0 .
-nl:id_b1cd3e807f5c9d50ade3fbafd153c1a2e8f34fd4 oa:annotatedAt "2016-04-04T13:30:38+02:00"^^xsd:dateTime .
-nl:id_b1cd3e807f5c9d50ade3fbafd153c1a2e8f34fd4 oa:annotatedBy user:test .
-nl:id_b1cd3e807f5c9d50ade3fbafd153c1a2e8f34fd4 oa:hasBody <http://iconclass.org/71G211> .
-nl:id_b1cd3e807f5c9d50ade3fbafd153c1a2e8f34fd4 oa:hasTarget ubvu:print-218010001477 .
-nl:id_b1cd3e807f5c9d50ade3fbafd153c1a2e8f34fd4 oa:motivatedBy oa:tagging .
+nl:id_5af422fd3140a56b306f7c228003b302c1e4558e a oa:Annotation .
+nl:id_5af422fd3140a56b306f7c228003b302c1e4558e terms:title "Saul with the witch of Endor" .
+nl:id_5af422fd3140a56b306f7c228003b302c1e4558e ui:annotationField bible:ICBibleTheme .
+nl:id_5af422fd3140a56b306f7c228003b302c1e4558e ui:typingTime 0 .
+nl:id_5af422fd3140a56b306f7c228003b302c1e4558e oa:annotatedAt "2016-05-22T14:22:49+02:00"^^xsd:dateTime .
+nl:id_5af422fd3140a56b306f7c228003b302c1e4558e oa:annotatedBy user:everhoeff .
+nl:id_5af422fd3140a56b306f7c228003b302c1e4558e oa:hasBody <http://iconclass.org/71H315> .
+nl:id_5af422fd3140a56b306f7c228003b302c1e4558e oa:hasTarget ubvu:print-218010001477 .
+nl:id_5af422fd3140a56b306f7c228003b302c1e4558e oa:motivatedBy oa:tagging .
 
-nl:id_dce50d3c783fdbcacb3f422abfffc369540215ea a oa:Annotation .
-nl:id_dce50d3c783fdbcacb3f422abfffc369540215ea terms:title "Matthan" .
-nl:id_dce50d3c783fdbcacb3f422abfffc369540215ea ui:annotationField bible:BibleCharacter .
-nl:id_dce50d3c783fdbcacb3f422abfffc369540215ea ui:typingTime 0 .
-nl:id_dce50d3c783fdbcacb3f422abfffc369540215ea oa:annotatedAt "2016-04-04T13:30:28+02:00"^^xsd:dateTime .
-nl:id_dce50d3c783fdbcacb3f422abfffc369540215ea oa:annotatedBy user:test .
-nl:id_dce50d3c783fdbcacb3f422abfffc369540215ea oa:hasBody resource:Matthan .
-nl:id_dce50d3c783fdbcacb3f422abfffc369540215ea oa:hasTarget target:target_b14567f37b6f97b5cbd6a48dacc277f57abc018c .
-nl:id_dce50d3c783fdbcacb3f422abfffc369540215ea oa:hasTarget ubvu:print-218010001477 .
-nl:id_dce50d3c783fdbcacb3f422abfffc369540215ea oa:motivatedBy oa:tagging .
+nl:id_b20e0a0e47d1f8082056b1edb30117c4d37e871e a oa:Annotation .
+nl:id_b20e0a0e47d1f8082056b1edb30117c4d37e871e terms:title "Saul" .
+nl:id_b20e0a0e47d1f8082056b1edb30117c4d37e871e ui:annotationField bible:BibleCharacter .
+nl:id_b20e0a0e47d1f8082056b1edb30117c4d37e871e ui:typingTime 0 .
+nl:id_b20e0a0e47d1f8082056b1edb30117c4d37e871e oa:annotatedAt "2016-05-22T14:23:17+02:00"^^xsd:dateTime .
+nl:id_b20e0a0e47d1f8082056b1edb30117c4d37e871e oa:annotatedBy user:everhoeff .
+nl:id_b20e0a0e47d1f8082056b1edb30117c4d37e871e oa:hasBody resource:Saul .
+nl:id_b20e0a0e47d1f8082056b1edb30117c4d37e871e oa:hasTarget target:target_ac32ebdf3bccf1854d7c59a21b33b24bf1c67434 .
+nl:id_b20e0a0e47d1f8082056b1edb30117c4d37e871e oa:hasTarget ubvu:print-218010001477 .
+nl:id_b20e0a0e47d1f8082056b1edb30117c4d37e871e oa:motivatedBy oa:tagging .
 
-target:selector_b14567f37b6f97b5cbd6a48dacc277f57abc018c a oa:FragmentSelector .
-target:selector_b14567f37b6f97b5cbd6a48dacc277f57abc018c terms:conformsTo <http://www.w3.org/TR/media-frags/> .
-target:selector_b14567f37b6f97b5cbd6a48dacc277f57abc018c ui:h "0.08858499969228412"^^xsd:float .
-target:selector_b14567f37b6f97b5cbd6a48dacc277f57abc018c ui:w "0.1188034188034188"^^xsd:float .
-target:selector_b14567f37b6f97b5cbd6a48dacc277f57abc018c ui:x "0.2829059829059829"^^xsd:float .
-target:selector_b14567f37b6f97b5cbd6a48dacc277f57abc018c ui:y "0.24533293335106088"^^xsd:float .
-target:selector_b14567f37b6f97b5cbd6a48dacc277f57abc018c rdf:value "#xywh=percent:28,25,12,9" .
+nl:id_d7e36866eb19050bc4679572783c75d2a60b915d a oa:Annotation .
+nl:id_d7e36866eb19050bc4679572783c75d2a60b915d terms:title "The witch of Endor" .
+nl:id_d7e36866eb19050bc4679572783c75d2a60b915d ui:annotationField bible:BibleCharacter .
+nl:id_d7e36866eb19050bc4679572783c75d2a60b915d ui:typingTime 0 .
+nl:id_d7e36866eb19050bc4679572783c75d2a60b915d oa:annotatedAt "2016-05-22T14:23:50+02:00"^^xsd:dateTime .
+nl:id_d7e36866eb19050bc4679572783c75d2a60b915d oa:annotatedBy user:everhoeff .
+nl:id_d7e36866eb19050bc4679572783c75d2a60b915d oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The witch of Endor" ] .
+nl:id_d7e36866eb19050bc4679572783c75d2a60b915d oa:hasTarget target:target_dbd379f00ca9b1502aa9e258a3d26a7bfe1b3d42 .
+nl:id_d7e36866eb19050bc4679572783c75d2a60b915d oa:hasTarget ubvu:print-218010001477 .
+nl:id_d7e36866eb19050bc4679572783c75d2a60b915d oa:motivatedBy oa:tagging .
 
-target:target_b14567f37b6f97b5cbd6a48dacc277f57abc018c a oa:SpecificResource .
-target:target_b14567f37b6f97b5cbd6a48dacc277f57abc018c oa:hasSelector target:selector_b14567f37b6f97b5cbd6a48dacc277f57abc018c .
-target:target_b14567f37b6f97b5cbd6a48dacc277f57abc018c oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/518> .
+target:selector_ac32ebdf3bccf1854d7c59a21b33b24bf1c67434 a oa:FragmentSelector .
+target:selector_ac32ebdf3bccf1854d7c59a21b33b24bf1c67434 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_ac32ebdf3bccf1854d7c59a21b33b24bf1c67434 ui:h "0.23654916512059368"^^xsd:float .
+target:selector_ac32ebdf3bccf1854d7c59a21b33b24bf1c67434 ui:w "0.236"^^xsd:float .
+target:selector_ac32ebdf3bccf1854d7c59a21b33b24bf1c67434 ui:x "0.25733333333333336"^^xsd:float .
+target:selector_ac32ebdf3bccf1854d7c59a21b33b24bf1c67434 ui:y "0.5231910946196661"^^xsd:float .
+target:selector_ac32ebdf3bccf1854d7c59a21b33b24bf1c67434 rdf:value "#xywh=percent:26,52,24,24" .
+
+target:selector_dbd379f00ca9b1502aa9e258a3d26a7bfe1b3d42 a oa:FragmentSelector .
+target:selector_dbd379f00ca9b1502aa9e258a3d26a7bfe1b3d42 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_dbd379f00ca9b1502aa9e258a3d26a7bfe1b3d42 ui:h "0.2764378478664193"^^xsd:float .
+target:selector_dbd379f00ca9b1502aa9e258a3d26a7bfe1b3d42 ui:w "0.31733333333333336"^^xsd:float .
+target:selector_dbd379f00ca9b1502aa9e258a3d26a7bfe1b3d42 ui:x "0.23733333333333334"^^xsd:float .
+target:selector_dbd379f00ca9b1502aa9e258a3d26a7bfe1b3d42 ui:y "0.24211502782931354"^^xsd:float .
+target:selector_dbd379f00ca9b1502aa9e258a3d26a7bfe1b3d42 rdf:value "#xywh=percent:24,24,32,28" .
+
+target:target_ac32ebdf3bccf1854d7c59a21b33b24bf1c67434 a oa:SpecificResource .
+target:target_ac32ebdf3bccf1854d7c59a21b33b24bf1c67434 oa:hasSelector target:selector_ac32ebdf3bccf1854d7c59a21b33b24bf1c67434 .
+target:target_ac32ebdf3bccf1854d7c59a21b33b24bf1c67434 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/518> .
+
+target:target_dbd379f00ca9b1502aa9e258a3d26a7bfe1b3d42 a oa:SpecificResource .
+target:target_dbd379f00ca9b1502aa9e258a3d26a7bfe1b3d42 oa:hasSelector target:selector_dbd379f00ca9b1502aa9e258a3d26a7bfe1b3d42 .
+target:target_dbd379f00ca9b1502aa9e258a3d26a7bfe1b3d42 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/518> .

@@ -1,17 +1,51 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_53ec23eff48e6529276c4b4e5b71ae7e1781a9b0> a oa:Annotation .
-<http://accurator.nl/id_53ec23eff48e6529276c4b4e5b71ae7e1781a9b0> terms:title "Daniel's first vision (Daniel 7)" .
-<http://accurator.nl/id_53ec23eff48e6529276c4b4e5b71ae7e1781a9b0> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
-<http://accurator.nl/id_53ec23eff48e6529276c4b4e5b71ae7e1781a9b0> ui:typingTime 0 .
-<http://accurator.nl/id_53ec23eff48e6529276c4b4e5b71ae7e1781a9b0> oa:annotatedAt "2016-04-04T16:02:56+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_53ec23eff48e6529276c4b4e5b71ae7e1781a9b0> oa:annotatedBy user:joan .
-<http://accurator.nl/id_53ec23eff48e6529276c4b4e5b71ae7e1781a9b0> oa:hasBody <http://iconclass.org/71P51> .
-<http://accurator.nl/id_53ec23eff48e6529276c4b4e5b71ae7e1781a9b0> oa:hasTarget ubvu:print-218010002028 .
-<http://accurator.nl/id_53ec23eff48e6529276c4b4e5b71ae7e1781a9b0> oa:motivatedBy oa:tagging .
+nl:id_33225a0b7aa094b68ff253d91a8f7fea71561d02 a oa:Annotation .
+nl:id_33225a0b7aa094b68ff253d91a8f7fea71561d02 terms:title "Daniel's enemies torn apart by the lions" .
+nl:id_33225a0b7aa094b68ff253d91a8f7fea71561d02 ui:annotationField bible:ICBibleTheme .
+nl:id_33225a0b7aa094b68ff253d91a8f7fea71561d02 ui:typingTime 0 .
+nl:id_33225a0b7aa094b68ff253d91a8f7fea71561d02 oa:annotatedAt "2016-08-02T14:21:05+02:00"^^xsd:dateTime .
+nl:id_33225a0b7aa094b68ff253d91a8f7fea71561d02 oa:annotatedBy user:everhoeff .
+nl:id_33225a0b7aa094b68ff253d91a8f7fea71561d02 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Daniel's enemies torn apart by the lions" ] .
+nl:id_33225a0b7aa094b68ff253d91a8f7fea71561d02 oa:hasTarget ubvu:print-218010002028 .
+nl:id_33225a0b7aa094b68ff253d91a8f7fea71561d02 oa:motivatedBy oa:tagging .
+
+nl:id_53ec23eff48e6529276c4b4e5b71ae7e1781a9b0 a oa:Annotation .
+nl:id_53ec23eff48e6529276c4b4e5b71ae7e1781a9b0 terms:title "Daniel's first vision (Daniel 7)" .
+nl:id_53ec23eff48e6529276c4b4e5b71ae7e1781a9b0 ui:annotationField bible:ICBibleTheme .
+nl:id_53ec23eff48e6529276c4b4e5b71ae7e1781a9b0 ui:typingTime 0 .
+nl:id_53ec23eff48e6529276c4b4e5b71ae7e1781a9b0 oa:annotatedAt "2016-04-04T16:02:56+02:00"^^xsd:dateTime .
+nl:id_53ec23eff48e6529276c4b4e5b71ae7e1781a9b0 oa:annotatedBy user:joan .
+nl:id_53ec23eff48e6529276c4b4e5b71ae7e1781a9b0 oa:hasBody <http://iconclass.org/71P51> .
+nl:id_53ec23eff48e6529276c4b4e5b71ae7e1781a9b0 oa:hasTarget ubvu:print-218010002028 .
+nl:id_53ec23eff48e6529276c4b4e5b71ae7e1781a9b0 oa:motivatedBy oa:tagging .
+
+nl:id_9432aba7112edc7071166e3ed20ce7f552a0e344 a oa:Annotation .
+nl:id_9432aba7112edc7071166e3ed20ce7f552a0e344 terms:title "Daniel's vision of the ram and the he goat" .
+nl:id_9432aba7112edc7071166e3ed20ce7f552a0e344 ui:annotationField bible:ICBibleTheme .
+nl:id_9432aba7112edc7071166e3ed20ce7f552a0e344 ui:typingTime 0 .
+nl:id_9432aba7112edc7071166e3ed20ce7f552a0e344 oa:annotatedAt "2016-08-02T14:30:08+02:00"^^xsd:dateTime .
+nl:id_9432aba7112edc7071166e3ed20ce7f552a0e344 oa:annotatedBy user:everhoeff .
+nl:id_9432aba7112edc7071166e3ed20ce7f552a0e344 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Daniel's vision of the ram and the he goat" ] .
+nl:id_9432aba7112edc7071166e3ed20ce7f552a0e344 oa:hasTarget ubvu:print-218010002028 .
+nl:id_9432aba7112edc7071166e3ed20ce7f552a0e344 oa:motivatedBy oa:tagging .
+
+nl:id_ae8f2645995dfbf9d149dbbc834df57d10c711f2 a oa:Annotation .
+nl:id_ae8f2645995dfbf9d149dbbc834df57d10c711f2 terms:title "Daniel's vision of the lion, leopard, a bear and a terrible forth beast" .
+nl:id_ae8f2645995dfbf9d149dbbc834df57d10c711f2 ui:annotationField bible:ICBibleTheme .
+nl:id_ae8f2645995dfbf9d149dbbc834df57d10c711f2 ui:typingTime 0 .
+nl:id_ae8f2645995dfbf9d149dbbc834df57d10c711f2 oa:annotatedAt "2016-08-02T14:17:23+02:00"^^xsd:dateTime .
+nl:id_ae8f2645995dfbf9d149dbbc834df57d10c711f2 oa:annotatedBy user:everhoeff .
+nl:id_ae8f2645995dfbf9d149dbbc834df57d10c711f2 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Daniel's vision of the lion, leopard, a bear and a terrible forth beast" ] .
+nl:id_ae8f2645995dfbf9d149dbbc834df57d10c711f2 oa:hasTarget ubvu:print-218010002028 .
+nl:id_ae8f2645995dfbf9d149dbbc834df57d10c711f2 oa:motivatedBy oa:tagging .

@@ -1,14 +1,27 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
+
+nl:id_073b2426525a3a02f2b55c90bbae63841f3f8c47 a oa:Annotation .
+nl:id_073b2426525a3a02f2b55c90bbae63841f3f8c47 terms:title "Jesus casts out devils into a herd of swine" .
+nl:id_073b2426525a3a02f2b55c90bbae63841f3f8c47 ui:annotationField bible:ICBibleTheme .
+nl:id_073b2426525a3a02f2b55c90bbae63841f3f8c47 ui:typingTime 0 .
+nl:id_073b2426525a3a02f2b55c90bbae63841f3f8c47 oa:annotatedAt "2016-07-05T18:09:11+02:00"^^xsd:dateTime .
+nl:id_073b2426525a3a02f2b55c90bbae63841f3f8c47 oa:annotatedBy user:everhoeff .
+nl:id_073b2426525a3a02f2b55c90bbae63841f3f8c47 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jesus casts out devils into a herd of swine" ] .
+nl:id_073b2426525a3a02f2b55c90bbae63841f3f8c47 oa:hasTarget ubvu:print-218010001746 .
+nl:id_073b2426525a3a02f2b55c90bbae63841f3f8c47 oa:motivatedBy oa:tagging .
 
 nl:id_10d74971a3320637f8640654f9659c9064b4aa57 a oa:Annotation .
 nl:id_10d74971a3320637f8640654f9659c9064b4aa57 terms:title "Christ healing possessed people" .
@@ -31,6 +44,35 @@ nl:id_3152f3086a2213ef245e6a0490081db625604cdc oa:hasTarget target:target_612ce8
 nl:id_3152f3086a2213ef245e6a0490081db625604cdc oa:hasTarget ubvu:print-218010001746 .
 nl:id_3152f3086a2213ef245e6a0490081db625604cdc oa:motivatedBy oa:tagging .
 
+nl:id_51beab732687122ccc1fa4857abfa5ff2d07f00f a oa:Annotation .
+nl:id_51beab732687122ccc1fa4857abfa5ff2d07f00f terms:title "Jezus Christus" .
+nl:id_51beab732687122ccc1fa4857abfa5ff2d07f00f ui:annotationField bible:BibleCharacter .
+nl:id_51beab732687122ccc1fa4857abfa5ff2d07f00f ui:typingTime 0 .
+nl:id_51beab732687122ccc1fa4857abfa5ff2d07f00f oa:annotatedAt "2016-06-08T14:02:20+02:00"^^xsd:dateTime .
+nl:id_51beab732687122ccc1fa4857abfa5ff2d07f00f oa:annotatedBy user:paulinevandijk .
+nl:id_51beab732687122ccc1fa4857abfa5ff2d07f00f oa:hasBody resource:Jesus .
+nl:id_51beab732687122ccc1fa4857abfa5ff2d07f00f oa:hasTarget target:target_2bad4dfcddda07cbae7a70df6ae9d3a2daf15d7e .
+nl:id_51beab732687122ccc1fa4857abfa5ff2d07f00f oa:hasTarget ubvu:print-218010001746 .
+nl:id_51beab732687122ccc1fa4857abfa5ff2d07f00f oa:motivatedBy oa:tagging .
+
+nl:id_b5f88ba57795361e4b14673e062f6fc897a737fc a oa:Annotation .
+nl:id_b5f88ba57795361e4b14673e062f6fc897a737fc terms:title "Jezus verdrijft demonen." .
+nl:id_b5f88ba57795361e4b14673e062f6fc897a737fc ui:annotationField bible:ICBibleTheme .
+nl:id_b5f88ba57795361e4b14673e062f6fc897a737fc ui:typingTime 0 .
+nl:id_b5f88ba57795361e4b14673e062f6fc897a737fc oa:annotatedAt "2016-06-08T14:02:41+02:00"^^xsd:dateTime .
+nl:id_b5f88ba57795361e4b14673e062f6fc897a737fc oa:annotatedBy user:paulinevandijk .
+nl:id_b5f88ba57795361e4b14673e062f6fc897a737fc oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jezus verdrijft demonen." ] .
+nl:id_b5f88ba57795361e4b14673e062f6fc897a737fc oa:hasTarget ubvu:print-218010001746 .
+nl:id_b5f88ba57795361e4b14673e062f6fc897a737fc oa:motivatedBy oa:tagging .
+
+target:selector_2bad4dfcddda07cbae7a70df6ae9d3a2daf15d7e a oa:FragmentSelector .
+target:selector_2bad4dfcddda07cbae7a70df6ae9d3a2daf15d7e terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_2bad4dfcddda07cbae7a70df6ae9d3a2daf15d7e ui:h "0.14817518248175182"^^xsd:float .
+target:selector_2bad4dfcddda07cbae7a70df6ae9d3a2daf15d7e ui:w "0.08453608247422681"^^xsd:float .
+target:selector_2bad4dfcddda07cbae7a70df6ae9d3a2daf15d7e ui:x "0.4979381443298969"^^xsd:float .
+target:selector_2bad4dfcddda07cbae7a70df6ae9d3a2daf15d7e ui:y "0.5912408759124088"^^xsd:float .
+target:selector_2bad4dfcddda07cbae7a70df6ae9d3a2daf15d7e rdf:value "#xywh=percent:50,59,8,15" .
+
 target:selector_612ce8ec3221fd5151752e8a9b9fa8691ccf1593 a oa:FragmentSelector .
 target:selector_612ce8ec3221fd5151752e8a9b9fa8691ccf1593 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_612ce8ec3221fd5151752e8a9b9fa8691ccf1593 ui:h "0.17275256960592483"^^xsd:float .
@@ -38,6 +80,10 @@ target:selector_612ce8ec3221fd5151752e8a9b9fa8691ccf1593 ui:w "0.137700842180822
 target:selector_612ce8ec3221fd5151752e8a9b9fa8691ccf1593 ui:x "0.4631025787092682"^^xsd:float .
 target:selector_612ce8ec3221fd5151752e8a9b9fa8691ccf1593 ui:y "0.5828433166614678"^^xsd:float .
 target:selector_612ce8ec3221fd5151752e8a9b9fa8691ccf1593 rdf:value "#xywh=percent:46,58,14,17" .
+
+target:target_2bad4dfcddda07cbae7a70df6ae9d3a2daf15d7e a oa:SpecificResource .
+target:target_2bad4dfcddda07cbae7a70df6ae9d3a2daf15d7e oa:hasSelector target:selector_2bad4dfcddda07cbae7a70df6ae9d3a2daf15d7e .
+target:target_2bad4dfcddda07cbae7a70df6ae9d3a2daf15d7e oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/785> .
 
 target:target_612ce8ec3221fd5151752e8a9b9fa8691ccf1593 a oa:SpecificResource .
 target:target_612ce8ec3221fd5151752e8a9b9fa8691ccf1593 oa:hasSelector target:selector_612ce8ec3221fd5151752e8a9b9fa8691ccf1593 .

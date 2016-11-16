@@ -1,0 +1,82 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
+@prefix content: <http://www.w3.org/2011/content#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix rma: <http://purl.org/collections/nl/rma/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix user: <http://accurator.nl/user#> .
+@prefix generic: <http://accurator.nl/ui/annotation/generic#> .
+@prefix nl: <http://accurator.nl/> .
+
+nl:id_2d79ad3beff1f75a18b79d30554fedb3bb6fd94e a oa:Annotation .
+nl:id_2d79ad3beff1f75a18b79d30554fedb3bb6fd94e terms:title "Vulkaan" .
+nl:id_2d79ad3beff1f75a18b79d30554fedb3bb6fd94e ui:annotationField generic:textFragment .
+nl:id_2d79ad3beff1f75a18b79d30554fedb3bb6fd94e ui:typingTime 0 .
+nl:id_2d79ad3beff1f75a18b79d30554fedb3bb6fd94e oa:annotatedAt "2016-10-05T12:32:45+02:00"^^xsd:dateTime .
+nl:id_2d79ad3beff1f75a18b79d30554fedb3bb6fd94e oa:annotatedBy user:maurice_ .
+nl:id_2d79ad3beff1f75a18b79d30554fedb3bb6fd94e oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Vulkaan" ] .
+nl:id_2d79ad3beff1f75a18b79d30554fedb3bb6fd94e oa:hasTarget target:target_d4f00c8265c0717e6d200cb85e044efb4ec66806 .
+nl:id_2d79ad3beff1f75a18b79d30554fedb3bb6fd94e oa:hasTarget rma:RP-P-1994-2 .
+nl:id_2d79ad3beff1f75a18b79d30554fedb3bb6fd94e oa:motivatedBy oa:tagging .
+
+nl:id_6d201da4c000fc0d6b1e0ee3760158158f2256c1 a oa:Annotation .
+nl:id_6d201da4c000fc0d6b1e0ee3760158158f2256c1 terms:title "Skyline" .
+nl:id_6d201da4c000fc0d6b1e0ee3760158158f2256c1 ui:annotationField generic:textFragment .
+nl:id_6d201da4c000fc0d6b1e0ee3760158158f2256c1 ui:typingTime 0 .
+nl:id_6d201da4c000fc0d6b1e0ee3760158158f2256c1 oa:annotatedAt "2016-10-05T12:32:31+02:00"^^xsd:dateTime .
+nl:id_6d201da4c000fc0d6b1e0ee3760158158f2256c1 oa:annotatedBy user:maurice_ .
+nl:id_6d201da4c000fc0d6b1e0ee3760158158f2256c1 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Skyline" ] .
+nl:id_6d201da4c000fc0d6b1e0ee3760158158f2256c1 oa:hasTarget target:target_8f2e7d98ae2f453d1e8e5b83387e2a9e3c8ffd26 .
+nl:id_6d201da4c000fc0d6b1e0ee3760158158f2256c1 oa:hasTarget rma:RP-P-1994-2 .
+nl:id_6d201da4c000fc0d6b1e0ee3760158158f2256c1 oa:motivatedBy oa:tagging .
+
+nl:id_b9adcec6927ccd4ef1fca367073e7f653dc64915 a oa:Annotation .
+nl:id_b9adcec6927ccd4ef1fca367073e7f653dc64915 terms:title "Meer" .
+nl:id_b9adcec6927ccd4ef1fca367073e7f653dc64915 ui:annotationField generic:textFragment .
+nl:id_b9adcec6927ccd4ef1fca367073e7f653dc64915 ui:typingTime 0 .
+nl:id_b9adcec6927ccd4ef1fca367073e7f653dc64915 oa:annotatedAt "2016-10-05T12:31:44+02:00"^^xsd:dateTime .
+nl:id_b9adcec6927ccd4ef1fca367073e7f653dc64915 oa:annotatedBy user:maurice_ .
+nl:id_b9adcec6927ccd4ef1fca367073e7f653dc64915 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Meer" ] .
+nl:id_b9adcec6927ccd4ef1fca367073e7f653dc64915 oa:hasTarget target:target_346546f3b815ba84895b7d76f6ddfef2d424af83 .
+nl:id_b9adcec6927ccd4ef1fca367073e7f653dc64915 oa:hasTarget rma:RP-P-1994-2 .
+nl:id_b9adcec6927ccd4ef1fca367073e7f653dc64915 oa:motivatedBy oa:tagging .
+
+target:selector_346546f3b815ba84895b7d76f6ddfef2d424af83 a oa:FragmentSelector .
+target:selector_346546f3b815ba84895b7d76f6ddfef2d424af83 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_346546f3b815ba84895b7d76f6ddfef2d424af83 ui:h "0.32125"^^xsd:float .
+target:selector_346546f3b815ba84895b7d76f6ddfef2d424af83 ui:w "0.9102564102564102"^^xsd:float .
+target:selector_346546f3b815ba84895b7d76f6ddfef2d424af83 ui:x "0.046153846153846156"^^xsd:float .
+target:selector_346546f3b815ba84895b7d76f6ddfef2d424af83 ui:y "0.64"^^xsd:float .
+target:selector_346546f3b815ba84895b7d76f6ddfef2d424af83 rdf:value "#xywh=percent:5,64,91,32" .
+
+target:selector_8f2e7d98ae2f453d1e8e5b83387e2a9e3c8ffd26 a oa:FragmentSelector .
+target:selector_8f2e7d98ae2f453d1e8e5b83387e2a9e3c8ffd26 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_8f2e7d98ae2f453d1e8e5b83387e2a9e3c8ffd26 ui:h "0.07875"^^xsd:float .
+target:selector_8f2e7d98ae2f453d1e8e5b83387e2a9e3c8ffd26 ui:w "0.923931623931624"^^xsd:float .
+target:selector_8f2e7d98ae2f453d1e8e5b83387e2a9e3c8ffd26 ui:x "0.03675213675213675"^^xsd:float .
+target:selector_8f2e7d98ae2f453d1e8e5b83387e2a9e3c8ffd26 ui:y "0.55875"^^xsd:float .
+target:selector_8f2e7d98ae2f453d1e8e5b83387e2a9e3c8ffd26 rdf:value "#xywh=percent:4,56,92,8" .
+
+target:selector_d4f00c8265c0717e6d200cb85e044efb4ec66806 a oa:FragmentSelector .
+target:selector_d4f00c8265c0717e6d200cb85e044efb4ec66806 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_d4f00c8265c0717e6d200cb85e044efb4ec66806 ui:h "0.35875"^^xsd:float .
+target:selector_d4f00c8265c0717e6d200cb85e044efb4ec66806 ui:w "0.4982905982905983"^^xsd:float .
+target:selector_d4f00c8265c0717e6d200cb85e044efb4ec66806 ui:x "0.21452991452991452"^^xsd:float .
+target:selector_d4f00c8265c0717e6d200cb85e044efb4ec66806 ui:y "0.2"^^xsd:float .
+target:selector_d4f00c8265c0717e6d200cb85e044efb4ec66806 rdf:value "#xywh=percent:21,20,50,36" .
+
+target:target_346546f3b815ba84895b7d76f6ddfef2d424af83 a oa:SpecificResource .
+target:target_346546f3b815ba84895b7d76f6ddfef2d424af83 oa:hasSelector target:selector_346546f3b815ba84895b7d76f6ddfef2d424af83 .
+target:target_346546f3b815ba84895b7d76f6ddfef2d424af83 oa:hasSource <http://lh4.ggpht.com/tClRkdXlR5cKdaE94TKHqcDxZE3CPRCftnDLKeJ9NnN3IVrv8Q8Drgxf-b58tCbqANZMi6BlOWG2_n-5HJJ4T9WXt1aG=s0> .
+
+target:target_8f2e7d98ae2f453d1e8e5b83387e2a9e3c8ffd26 a oa:SpecificResource .
+target:target_8f2e7d98ae2f453d1e8e5b83387e2a9e3c8ffd26 oa:hasSelector target:selector_8f2e7d98ae2f453d1e8e5b83387e2a9e3c8ffd26 .
+target:target_8f2e7d98ae2f453d1e8e5b83387e2a9e3c8ffd26 oa:hasSource <http://lh4.ggpht.com/tClRkdXlR5cKdaE94TKHqcDxZE3CPRCftnDLKeJ9NnN3IVrv8Q8Drgxf-b58tCbqANZMi6BlOWG2_n-5HJJ4T9WXt1aG=s0> .
+
+target:target_d4f00c8265c0717e6d200cb85e044efb4ec66806 a oa:SpecificResource .
+target:target_d4f00c8265c0717e6d200cb85e044efb4ec66806 oa:hasSelector target:selector_d4f00c8265c0717e6d200cb85e044efb4ec66806 .
+target:target_d4f00c8265c0717e6d200cb85e044efb4ec66806 oa:hasSource <http://lh4.ggpht.com/tClRkdXlR5cKdaE94TKHqcDxZE3CPRCftnDLKeJ9NnN3IVrv8Q8Drgxf-b58tCbqANZMi6BlOWG2_n-5HJJ4T9WXt1aG=s0> .

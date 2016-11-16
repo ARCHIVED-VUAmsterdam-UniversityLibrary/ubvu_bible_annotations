@@ -7,13 +7,25 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_2a020651c289774f57f8877cbeeb6d71047a2687> a oa:Annotation .
-<http://accurator.nl/id_2a020651c289774f57f8877cbeeb6d71047a2687> terms:title "Vernietiging van Jericho" .
-<http://accurator.nl/id_2a020651c289774f57f8877cbeeb6d71047a2687> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
-<http://accurator.nl/id_2a020651c289774f57f8877cbeeb6d71047a2687> ui:typingTime 0 .
-<http://accurator.nl/id_2a020651c289774f57f8877cbeeb6d71047a2687> oa:annotatedAt "2016-04-23T16:46:23+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_2a020651c289774f57f8877cbeeb6d71047a2687> oa:annotatedBy user:paulinevandijk .
-<http://accurator.nl/id_2a020651c289774f57f8877cbeeb6d71047a2687> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Vernietiging van Jericho" ] .
-<http://accurator.nl/id_2a020651c289774f57f8877cbeeb6d71047a2687> oa:hasTarget ubvu:print-218010001329 .
-<http://accurator.nl/id_2a020651c289774f57f8877cbeeb6d71047a2687> oa:motivatedBy oa:tagging .
+nl:id_172381ddb335ac5fdd7ceef016aaed99fe6b20bb a oa:Annotation .
+nl:id_172381ddb335ac5fdd7ceef016aaed99fe6b20bb terms:title "Vernietiging van Jericho" .
+nl:id_172381ddb335ac5fdd7ceef016aaed99fe6b20bb ui:annotationField bible:ICBibleTheme .
+nl:id_172381ddb335ac5fdd7ceef016aaed99fe6b20bb ui:typingTime 0 .
+nl:id_172381ddb335ac5fdd7ceef016aaed99fe6b20bb oa:annotatedAt "2016-06-22T20:37:51+02:00"^^xsd:dateTime .
+nl:id_172381ddb335ac5fdd7ceef016aaed99fe6b20bb oa:annotatedBy user:paulinevandijk .
+nl:id_172381ddb335ac5fdd7ceef016aaed99fe6b20bb oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Vernietiging van Jericho" ] .
+nl:id_172381ddb335ac5fdd7ceef016aaed99fe6b20bb oa:hasTarget ubvu:print-218010001329 .
+nl:id_172381ddb335ac5fdd7ceef016aaed99fe6b20bb oa:motivatedBy oa:tagging .
+
+nl:id_aec45a914d01d771fa9fec0ae37c93e3fbcf474c a oa:Annotation .
+nl:id_aec45a914d01d771fa9fec0ae37c93e3fbcf474c terms:title "the fall of Jericho (Joshua 6)" .
+nl:id_aec45a914d01d771fa9fec0ae37c93e3fbcf474c ui:annotationField bible:ICBibleTheme .
+nl:id_aec45a914d01d771fa9fec0ae37c93e3fbcf474c ui:typingTime 0 .
+nl:id_aec45a914d01d771fa9fec0ae37c93e3fbcf474c oa:annotatedAt "2016-05-05T12:10:01+02:00"^^xsd:dateTime .
+nl:id_aec45a914d01d771fa9fec0ae37c93e3fbcf474c oa:annotatedBy user:everhoeff .
+nl:id_aec45a914d01d771fa9fec0ae37c93e3fbcf474c oa:hasBody <http://iconclass.org/71E524> .
+nl:id_aec45a914d01d771fa9fec0ae37c93e3fbcf474c oa:hasTarget ubvu:print-218010001329 .
+nl:id_aec45a914d01d771fa9fec0ae37c93e3fbcf474c oa:motivatedBy oa:tagging .

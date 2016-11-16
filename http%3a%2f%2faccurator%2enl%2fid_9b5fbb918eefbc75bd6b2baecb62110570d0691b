@@ -1,0 +1,30 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix user: <http://accurator.nl/user#> .
+@prefix review: <http://accurator.nl/ui/annotation/review#> .
+@prefix nl: <http://accurator.nl/> .
+
+nl:id_52b6320f5585898cbfdd96e7cd5afa8a9a851c2c a oa:Annotation .
+nl:id_52b6320f5585898cbfdd96e7cd5afa8a9a851c2c terms:title "disagree" .
+nl:id_52b6320f5585898cbfdd96e7cd5afa8a9a851c2c ui:annotationField review:Buttons .
+nl:id_52b6320f5585898cbfdd96e7cd5afa8a9a851c2c ui:typingTime 0 .
+nl:id_52b6320f5585898cbfdd96e7cd5afa8a9a851c2c oa:annotatedAt "2016-07-01T14:12:26+02:00"^^xsd:dateTime .
+nl:id_52b6320f5585898cbfdd96e7cd5afa8a9a851c2c oa:annotatedBy user:spv .
+nl:id_52b6320f5585898cbfdd96e7cd5afa8a9a851c2c oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "disagree" ] .
+nl:id_52b6320f5585898cbfdd96e7cd5afa8a9a851c2c oa:hasTarget nl:id_9b5fbb918eefbc75bd6b2baecb62110570d0691b .
+nl:id_52b6320f5585898cbfdd96e7cd5afa8a9a851c2c oa:motivatedBy oa:moderating .
+
+nl:id_da7bb91d7df4c4a43f8a08b25e0e841f94b735ef a oa:Annotation .
+nl:id_da7bb91d7df4c4a43f8a08b25e0e841f94b735ef terms:title "agree" .
+nl:id_da7bb91d7df4c4a43f8a08b25e0e841f94b735ef ui:annotationField review:Buttons .
+nl:id_da7bb91d7df4c4a43f8a08b25e0e841f94b735ef ui:typingTime 0 .
+nl:id_da7bb91d7df4c4a43f8a08b25e0e841f94b735ef oa:annotatedAt "2016-07-01T14:12:25+02:00"^^xsd:dateTime .
+nl:id_da7bb91d7df4c4a43f8a08b25e0e841f94b735ef oa:annotatedBy user:spv .
+nl:id_da7bb91d7df4c4a43f8a08b25e0e841f94b735ef oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "agree" ] .
+nl:id_da7bb91d7df4c4a43f8a08b25e0e841f94b735ef oa:hasTarget nl:id_9b5fbb918eefbc75bd6b2baecb62110570d0691b .
+nl:id_da7bb91d7df4c4a43f8a08b25e0e841f94b735ef oa:motivatedBy oa:moderating .

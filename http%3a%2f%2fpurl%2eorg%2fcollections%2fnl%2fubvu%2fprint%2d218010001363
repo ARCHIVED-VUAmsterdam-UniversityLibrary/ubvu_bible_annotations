@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -21,6 +22,16 @@ nl:id_59dd62569ca11cd5651af1be569d1aa05febcdda oa:hasBody <http://iconclass.org/
 nl:id_59dd62569ca11cd5651af1be569d1aa05febcdda oa:hasTarget ubvu:print-218010001363 .
 nl:id_59dd62569ca11cd5651af1be569d1aa05febcdda oa:motivatedBy oa:tagging .
 
+nl:id_6bfb26392abca445bb2b8eec44802e06336e97a7 a oa:Annotation .
+nl:id_6bfb26392abca445bb2b8eec44802e06336e97a7 terms:title "Judeeërs hakken de duimen en zijn grote tenen af bij Abinobezek." .
+nl:id_6bfb26392abca445bb2b8eec44802e06336e97a7 ui:annotationField bible:ICBibleTheme .
+nl:id_6bfb26392abca445bb2b8eec44802e06336e97a7 ui:typingTime 0 .
+nl:id_6bfb26392abca445bb2b8eec44802e06336e97a7 oa:annotatedAt "2016-06-15T18:51:24+02:00"^^xsd:dateTime .
+nl:id_6bfb26392abca445bb2b8eec44802e06336e97a7 oa:annotatedBy user:paulinevandijk .
+nl:id_6bfb26392abca445bb2b8eec44802e06336e97a7 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Judeeërs hakken de duimen en zijn grote tenen af bij Abinobezek." ] .
+nl:id_6bfb26392abca445bb2b8eec44802e06336e97a7 oa:hasTarget ubvu:print-218010001363 .
+nl:id_6bfb26392abca445bb2b8eec44802e06336e97a7 oa:motivatedBy oa:tagging .
+
 nl:id_e0897bb228b447880d0334a9ab72b9d4db83a058 a oa:Annotation .
 nl:id_e0897bb228b447880d0334a9ab72b9d4db83a058 terms:title "Adoni-Bezek" .
 nl:id_e0897bb228b447880d0334a9ab72b9d4db83a058 ui:annotationField bible:BibleCharacter .
@@ -42,6 +53,17 @@ nl:id_e5434b020ad42e87f140f67587142af8f525db75 oa:hasBody <http://iconclass.org/
 nl:id_e5434b020ad42e87f140f67587142af8f525db75 oa:hasTarget ubvu:print-218010001363 .
 nl:id_e5434b020ad42e87f140f67587142af8f525db75 oa:motivatedBy oa:tagging .
 
+nl:id_f7cadbf250b342a3f8b92fba92141dd49c400301 a oa:Annotation .
+nl:id_f7cadbf250b342a3f8b92fba92141dd49c400301 terms:title "Adonibezek" .
+nl:id_f7cadbf250b342a3f8b92fba92141dd49c400301 ui:annotationField bible:BibleCharacter .
+nl:id_f7cadbf250b342a3f8b92fba92141dd49c400301 ui:typingTime 0 .
+nl:id_f7cadbf250b342a3f8b92fba92141dd49c400301 oa:annotatedAt "2016-06-15T18:49:04+02:00"^^xsd:dateTime .
+nl:id_f7cadbf250b342a3f8b92fba92141dd49c400301 oa:annotatedBy user:paulinevandijk .
+nl:id_f7cadbf250b342a3f8b92fba92141dd49c400301 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Adonibezek" ] .
+nl:id_f7cadbf250b342a3f8b92fba92141dd49c400301 oa:hasTarget target:target_928447b65b620ef1d2a7959c606fa036190e17ea .
+nl:id_f7cadbf250b342a3f8b92fba92141dd49c400301 oa:hasTarget ubvu:print-218010001363 .
+nl:id_f7cadbf250b342a3f8b92fba92141dd49c400301 oa:motivatedBy oa:tagging .
+
 target:selector_56d9fb288bc0cd924c5278da2d8af54cef5f1da8 a oa:FragmentSelector .
 target:selector_56d9fb288bc0cd924c5278da2d8af54cef5f1da8 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_56d9fb288bc0cd924c5278da2d8af54cef5f1da8 ui:h "0.3558823170381434"^^xsd:float .
@@ -50,6 +72,18 @@ target:selector_56d9fb288bc0cd924c5278da2d8af54cef5f1da8 ui:x "0.059829059829059
 target:selector_56d9fb288bc0cd924c5278da2d8af54cef5f1da8 ui:y "0.44835294835707723"^^xsd:float .
 target:selector_56d9fb288bc0cd924c5278da2d8af54cef5f1da8 rdf:value "#xywh=percent:6,45,54,36" .
 
+target:selector_928447b65b620ef1d2a7959c606fa036190e17ea a oa:FragmentSelector .
+target:selector_928447b65b620ef1d2a7959c606fa036190e17ea terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_928447b65b620ef1d2a7959c606fa036190e17ea ui:h "0.23058823529411765"^^xsd:float .
+target:selector_928447b65b620ef1d2a7959c606fa036190e17ea ui:w "0.18547008547008548"^^xsd:float .
+target:selector_928447b65b620ef1d2a7959c606fa036190e17ea ui:x "0.1735042735042735"^^xsd:float .
+target:selector_928447b65b620ef1d2a7959c606fa036190e17ea ui:y "0.4511764705882353"^^xsd:float .
+target:selector_928447b65b620ef1d2a7959c606fa036190e17ea rdf:value "#xywh=percent:17,45,19,23" .
+
 target:target_56d9fb288bc0cd924c5278da2d8af54cef5f1da8 a oa:SpecificResource .
 target:target_56d9fb288bc0cd924c5278da2d8af54cef5f1da8 oa:hasSelector target:selector_56d9fb288bc0cd924c5278da2d8af54cef5f1da8 .
 target:target_56d9fb288bc0cd924c5278da2d8af54cef5f1da8 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/404> .
+
+target:target_928447b65b620ef1d2a7959c606fa036190e17ea a oa:SpecificResource .
+target:target_928447b65b620ef1d2a7959c606fa036190e17ea oa:hasSelector target:selector_928447b65b620ef1d2a7959c606fa036190e17ea .
+target:target_928447b65b620ef1d2a7959c606fa036190e17ea oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/404> .

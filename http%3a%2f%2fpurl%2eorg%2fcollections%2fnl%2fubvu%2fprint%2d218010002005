@@ -34,6 +34,17 @@ nl:id_30b680d41727747f54dda3a554022a96417d5883 oa:hasBody <http://iconclass.org/
 nl:id_30b680d41727747f54dda3a554022a96417d5883 oa:hasTarget ubvu:print-218010002005 .
 nl:id_30b680d41727747f54dda3a554022a96417d5883 oa:motivatedBy oa:tagging .
 
+nl:id_4a1891d7d768b24fbe4479f3eaf613aa0ba016c4 a oa:Annotation .
+nl:id_4a1891d7d768b24fbe4479f3eaf613aa0ba016c4 terms:title "Mozes" .
+nl:id_4a1891d7d768b24fbe4479f3eaf613aa0ba016c4 ui:annotationField bible:BibleCharacter .
+nl:id_4a1891d7d768b24fbe4479f3eaf613aa0ba016c4 ui:typingTime 0 .
+nl:id_4a1891d7d768b24fbe4479f3eaf613aa0ba016c4 oa:annotatedAt "2016-06-09T15:04:16+02:00"^^xsd:dateTime .
+nl:id_4a1891d7d768b24fbe4479f3eaf613aa0ba016c4 oa:annotatedBy user:paulinevandijk .
+nl:id_4a1891d7d768b24fbe4479f3eaf613aa0ba016c4 oa:hasBody resource:Moses .
+nl:id_4a1891d7d768b24fbe4479f3eaf613aa0ba016c4 oa:hasTarget target:target_a1e297872b2f56153dc6d0b05d5fa2e22e59ca6f .
+nl:id_4a1891d7d768b24fbe4479f3eaf613aa0ba016c4 oa:hasTarget ubvu:print-218010002005 .
+nl:id_4a1891d7d768b24fbe4479f3eaf613aa0ba016c4 oa:motivatedBy oa:tagging .
+
 nl:id_569a71855b53a3d586ae787d569b95981c152179 a oa:Annotation .
 nl:id_569a71855b53a3d586ae787d569b95981c152179 terms:title "the people bring their golden ear-rings to Aaron" .
 nl:id_569a71855b53a3d586ae787d569b95981c152179 ui:annotationField bible:ICBibleTheme .
@@ -55,6 +66,27 @@ nl:id_64f6b8d9b070723225b7e8c9060b1dee1a96e7fa oa:hasTarget target:target_5a981b
 nl:id_64f6b8d9b070723225b7e8c9060b1dee1a96e7fa oa:hasTarget ubvu:print-218010002005 .
 nl:id_64f6b8d9b070723225b7e8c9060b1dee1a96e7fa oa:motivatedBy oa:tagging .
 
+nl:id_7098fe730f29f8a8925cf6b27ba44334b756c123 a oa:Annotation .
+nl:id_7098fe730f29f8a8925cf6b27ba44334b756c123 terms:title "God gives Moses two stone tables" .
+nl:id_7098fe730f29f8a8925cf6b27ba44334b756c123 ui:annotationField bible:ICBibleTheme .
+nl:id_7098fe730f29f8a8925cf6b27ba44334b756c123 ui:typingTime 0 .
+nl:id_7098fe730f29f8a8925cf6b27ba44334b756c123 oa:annotatedAt "2016-07-05T17:36:49+02:00"^^xsd:dateTime .
+nl:id_7098fe730f29f8a8925cf6b27ba44334b756c123 oa:annotatedBy user:everhoeff .
+nl:id_7098fe730f29f8a8925cf6b27ba44334b756c123 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "God gives Moses two stone tables" ] .
+nl:id_7098fe730f29f8a8925cf6b27ba44334b756c123 oa:hasTarget ubvu:print-218010002005 .
+nl:id_7098fe730f29f8a8925cf6b27ba44334b756c123 oa:motivatedBy oa:tagging .
+
+nl:id_76c66b00c7c5cddf7add2f3345dc0ec2aaec2442 a oa:Annotation .
+nl:id_76c66b00c7c5cddf7add2f3345dc0ec2aaec2442 terms:title "Mozes" .
+nl:id_76c66b00c7c5cddf7add2f3345dc0ec2aaec2442 ui:annotationField bible:BibleCharacter .
+nl:id_76c66b00c7c5cddf7add2f3345dc0ec2aaec2442 ui:typingTime 0 .
+nl:id_76c66b00c7c5cddf7add2f3345dc0ec2aaec2442 oa:annotatedAt "2016-06-09T15:08:09+02:00"^^xsd:dateTime .
+nl:id_76c66b00c7c5cddf7add2f3345dc0ec2aaec2442 oa:annotatedBy user:paulinevandijk .
+nl:id_76c66b00c7c5cddf7add2f3345dc0ec2aaec2442 oa:hasBody resource:Moses .
+nl:id_76c66b00c7c5cddf7add2f3345dc0ec2aaec2442 oa:hasTarget target:target_cd0914c0575584149357eda69794807953de885c .
+nl:id_76c66b00c7c5cddf7add2f3345dc0ec2aaec2442 oa:hasTarget ubvu:print-218010002005 .
+nl:id_76c66b00c7c5cddf7add2f3345dc0ec2aaec2442 oa:motivatedBy oa:tagging .
+
 nl:id_7a12bb7b6b2a8218e99281ec0ed42e6a4ef74b82 a oa:Annotation .
 nl:id_7a12bb7b6b2a8218e99281ec0ed42e6a4ef74b82 terms:title "Moses receives the tables of the law from God" .
 nl:id_7a12bb7b6b2a8218e99281ec0ed42e6a4ef74b82 ui:annotationField bible:ICBibleTheme .
@@ -64,6 +96,17 @@ nl:id_7a12bb7b6b2a8218e99281ec0ed42e6a4ef74b82 oa:annotatedBy user:ek .
 nl:id_7a12bb7b6b2a8218e99281ec0ed42e6a4ef74b82 oa:hasBody <http://iconclass.org/71E1343> .
 nl:id_7a12bb7b6b2a8218e99281ec0ed42e6a4ef74b82 oa:hasTarget ubvu:print-218010002005 .
 nl:id_7a12bb7b6b2a8218e99281ec0ed42e6a4ef74b82 oa:motivatedBy oa:tagging .
+
+nl:id_7c7e80554051868964b313c1be2dba50527332dd a oa:Annotation .
+nl:id_7c7e80554051868964b313c1be2dba50527332dd terms:title "Aäron" .
+nl:id_7c7e80554051868964b313c1be2dba50527332dd ui:annotationField bible:BibleCharacter .
+nl:id_7c7e80554051868964b313c1be2dba50527332dd ui:typingTime 0 .
+nl:id_7c7e80554051868964b313c1be2dba50527332dd oa:annotatedAt "2016-06-09T15:06:26+02:00"^^xsd:dateTime .
+nl:id_7c7e80554051868964b313c1be2dba50527332dd oa:annotatedBy user:paulinevandijk .
+nl:id_7c7e80554051868964b313c1be2dba50527332dd oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Aäron" ] .
+nl:id_7c7e80554051868964b313c1be2dba50527332dd oa:hasTarget target:target_fbb41adbf55b668a4b82d627fae91dd16bfffc0f .
+nl:id_7c7e80554051868964b313c1be2dba50527332dd oa:hasTarget ubvu:print-218010002005 .
+nl:id_7c7e80554051868964b313c1be2dba50527332dd oa:motivatedBy oa:tagging .
 
 nl:id_948da0c3cabb8971be2e24fcf8443307cc3f83c1 a oa:Annotation .
 nl:id_948da0c3cabb8971be2e24fcf8443307cc3f83c1 terms:title "Aäron" .
@@ -86,6 +129,26 @@ nl:id_98cc40d47e7360b5d589efce5f591b711cbc3ed1 oa:hasBody <http://iconclass.org/
 nl:id_98cc40d47e7360b5d589efce5f591b711cbc3ed1 oa:hasTarget ubvu:print-218010002005 .
 nl:id_98cc40d47e7360b5d589efce5f591b711cbc3ed1 oa:motivatedBy oa:tagging .
 
+nl:id_a0a92632247ccf1ccb6382fab5caf7458988b6f0 a oa:Annotation .
+nl:id_a0a92632247ccf1ccb6382fab5caf7458988b6f0 terms:title "De stenen platen geschonken. Het gouden stierkalf. Mozes brengt twee nieuwe stenen platen. Vaklieden aan het werk." .
+nl:id_a0a92632247ccf1ccb6382fab5caf7458988b6f0 ui:annotationField bible:ICBibleTheme .
+nl:id_a0a92632247ccf1ccb6382fab5caf7458988b6f0 ui:typingTime 0 .
+nl:id_a0a92632247ccf1ccb6382fab5caf7458988b6f0 oa:annotatedAt "2016-06-09T15:10:33+02:00"^^xsd:dateTime .
+nl:id_a0a92632247ccf1ccb6382fab5caf7458988b6f0 oa:annotatedBy user:paulinevandijk .
+nl:id_a0a92632247ccf1ccb6382fab5caf7458988b6f0 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "De stenen platen geschonken. Het gouden stierkalf. Mozes brengt twee nieuwe stenen platen. Vaklieden aan het werk." ] .
+nl:id_a0a92632247ccf1ccb6382fab5caf7458988b6f0 oa:hasTarget ubvu:print-218010002005 .
+nl:id_a0a92632247ccf1ccb6382fab5caf7458988b6f0 oa:motivatedBy oa:tagging .
+
+nl:id_d7da064a0af7fe9a68499f70e8edf25047cec9c9 a oa:Annotation .
+nl:id_d7da064a0af7fe9a68499f70e8edf25047cec9c9 terms:title "Moses comes downfrom the Mount Sinai with the two tables" .
+nl:id_d7da064a0af7fe9a68499f70e8edf25047cec9c9 ui:annotationField bible:ICBibleTheme .
+nl:id_d7da064a0af7fe9a68499f70e8edf25047cec9c9 ui:typingTime 0 .
+nl:id_d7da064a0af7fe9a68499f70e8edf25047cec9c9 oa:annotatedAt "2016-07-05T17:37:52+02:00"^^xsd:dateTime .
+nl:id_d7da064a0af7fe9a68499f70e8edf25047cec9c9 oa:annotatedBy user:everhoeff .
+nl:id_d7da064a0af7fe9a68499f70e8edf25047cec9c9 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Moses comes downfrom the Mount Sinai with the two tables" ] .
+nl:id_d7da064a0af7fe9a68499f70e8edf25047cec9c9 oa:hasTarget ubvu:print-218010002005 .
+nl:id_d7da064a0af7fe9a68499f70e8edf25047cec9c9 oa:motivatedBy oa:tagging .
+
 nl:id_d9114a7d69079ed0fa76e3265fcf44a660dc8acf a oa:Annotation .
 nl:id_d9114a7d69079ed0fa76e3265fcf44a660dc8acf terms:title "Mozes" .
 nl:id_d9114a7d69079ed0fa76e3265fcf44a660dc8acf ui:annotationField bible:BibleCharacter .
@@ -97,6 +160,17 @@ nl:id_d9114a7d69079ed0fa76e3265fcf44a660dc8acf oa:hasTarget target:target_1ae951
 nl:id_d9114a7d69079ed0fa76e3265fcf44a660dc8acf oa:hasTarget ubvu:print-218010002005 .
 nl:id_d9114a7d69079ed0fa76e3265fcf44a660dc8acf oa:motivatedBy oa:tagging .
 
+nl:id_f189897c6fd3b28d453af7ae89d68dc08053c47f a oa:Annotation .
+nl:id_f189897c6fd3b28d453af7ae89d68dc08053c47f terms:title "Mozes" .
+nl:id_f189897c6fd3b28d453af7ae89d68dc08053c47f ui:annotationField bible:BibleCharacter .
+nl:id_f189897c6fd3b28d453af7ae89d68dc08053c47f ui:typingTime 0 .
+nl:id_f189897c6fd3b28d453af7ae89d68dc08053c47f oa:annotatedAt "2016-06-09T15:05:26+02:00"^^xsd:dateTime .
+nl:id_f189897c6fd3b28d453af7ae89d68dc08053c47f oa:annotatedBy user:paulinevandijk .
+nl:id_f189897c6fd3b28d453af7ae89d68dc08053c47f oa:hasBody resource:Moses .
+nl:id_f189897c6fd3b28d453af7ae89d68dc08053c47f oa:hasTarget target:target_b46e984e6159bc2c5858e027ae0004831f985846 .
+nl:id_f189897c6fd3b28d453af7ae89d68dc08053c47f oa:hasTarget ubvu:print-218010002005 .
+nl:id_f189897c6fd3b28d453af7ae89d68dc08053c47f oa:motivatedBy oa:tagging .
+
 nl:id_f2473447c9d176861ee92f166402bb052549f8f8 a oa:Annotation .
 nl:id_f2473447c9d176861ee92f166402bb052549f8f8 terms:title "Mozes" .
 nl:id_f2473447c9d176861ee92f166402bb052549f8f8 ui:annotationField bible:BibleCharacter .
@@ -107,6 +181,17 @@ nl:id_f2473447c9d176861ee92f166402bb052549f8f8 oa:hasBody resource:Moses .
 nl:id_f2473447c9d176861ee92f166402bb052549f8f8 oa:hasTarget target:target_f23ab3e9be3da4a55a4a67bd23d6754d119dbec3 .
 nl:id_f2473447c9d176861ee92f166402bb052549f8f8 oa:hasTarget ubvu:print-218010002005 .
 nl:id_f2473447c9d176861ee92f166402bb052549f8f8 oa:motivatedBy oa:tagging .
+
+nl:id_f7bd57d7da020270a85bbaca6b67ac6feb2baad6 a oa:Annotation .
+nl:id_f7bd57d7da020270a85bbaca6b67ac6feb2baad6 terms:title "Mozes" .
+nl:id_f7bd57d7da020270a85bbaca6b67ac6feb2baad6 ui:annotationField bible:BibleCharacter .
+nl:id_f7bd57d7da020270a85bbaca6b67ac6feb2baad6 ui:typingTime 0 .
+nl:id_f7bd57d7da020270a85bbaca6b67ac6feb2baad6 oa:annotatedAt "2016-06-09T15:08:57+02:00"^^xsd:dateTime .
+nl:id_f7bd57d7da020270a85bbaca6b67ac6feb2baad6 oa:annotatedBy user:paulinevandijk .
+nl:id_f7bd57d7da020270a85bbaca6b67ac6feb2baad6 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Mozes" ] .
+nl:id_f7bd57d7da020270a85bbaca6b67ac6feb2baad6 oa:hasTarget target:target_a1c8876689b9120a5dca7f7fbe8090d1715307ea .
+nl:id_f7bd57d7da020270a85bbaca6b67ac6feb2baad6 oa:hasTarget ubvu:print-218010002005 .
+nl:id_f7bd57d7da020270a85bbaca6b67ac6feb2baad6 oa:motivatedBy oa:tagging .
 
 target:selector_1ae9511ec06f390b38bcd217b64e6ca92fb24e97 a oa:FragmentSelector .
 target:selector_1ae9511ec06f390b38bcd217b64e6ca92fb24e97 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -132,6 +217,30 @@ target:selector_5a981b7e66d2acc06d0efd93cbe318f3596ff9ca ui:x "0.517948717948718
 target:selector_5a981b7e66d2acc06d0efd93cbe318f3596ff9ca ui:y "0.48169668797210924"^^xsd:float .
 target:selector_5a981b7e66d2acc06d0efd93cbe318f3596ff9ca rdf:value "#xywh=percent:52,48,11,11" .
 
+target:selector_a1c8876689b9120a5dca7f7fbe8090d1715307ea a oa:FragmentSelector .
+target:selector_a1c8876689b9120a5dca7f7fbe8090d1715307ea terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_a1c8876689b9120a5dca7f7fbe8090d1715307ea ui:h "0.11352487736510161"^^xsd:float .
+target:selector_a1c8876689b9120a5dca7f7fbe8090d1715307ea ui:w "0.06701030927835051"^^xsd:float .
+target:selector_a1c8876689b9120a5dca7f7fbe8090d1715307ea ui:x "0.5391752577319587"^^xsd:float .
+target:selector_a1c8876689b9120a5dca7f7fbe8090d1715307ea ui:y "0.4793272599859846"^^xsd:float .
+target:selector_a1c8876689b9120a5dca7f7fbe8090d1715307ea rdf:value "#xywh=percent:54,48,7,11" .
+
+target:selector_a1e297872b2f56153dc6d0b05d5fa2e22e59ca6f a oa:FragmentSelector .
+target:selector_a1e297872b2f56153dc6d0b05d5fa2e22e59ca6f terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_a1e297872b2f56153dc6d0b05d5fa2e22e59ca6f ui:h "0.09320252277505256"^^xsd:float .
+target:selector_a1e297872b2f56153dc6d0b05d5fa2e22e59ca6f ui:w "0.1309278350515464"^^xsd:float .
+target:selector_a1e297872b2f56153dc6d0b05d5fa2e22e59ca6f ui:x "0.10824742268041238"^^xsd:float .
+target:selector_a1e297872b2f56153dc6d0b05d5fa2e22e59ca6f ui:y "0.08759635599159075"^^xsd:float .
+target:selector_a1e297872b2f56153dc6d0b05d5fa2e22e59ca6f rdf:value "#xywh=percent:11,9,13,9" .
+
+target:selector_b46e984e6159bc2c5858e027ae0004831f985846 a oa:FragmentSelector .
+target:selector_b46e984e6159bc2c5858e027ae0004831f985846 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_b46e984e6159bc2c5858e027ae0004831f985846 ui:h "0.10932025227750526"^^xsd:float .
+target:selector_b46e984e6159bc2c5858e027ae0004831f985846 ui:w "0.088659793814433"^^xsd:float .
+target:selector_b46e984e6159bc2c5858e027ae0004831f985846 ui:x "0.622680412371134"^^xsd:float .
+target:selector_b46e984e6159bc2c5858e027ae0004831f985846 ui:y "0.0861948142957253"^^xsd:float .
+target:selector_b46e984e6159bc2c5858e027ae0004831f985846 rdf:value "#xywh=percent:62,9,9,11" .
+
 target:selector_b57cc5dc1d9db8203d4fc77ea5ff529a26722f31 a oa:FragmentSelector .
 target:selector_b57cc5dc1d9db8203d4fc77ea5ff529a26722f31 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_b57cc5dc1d9db8203d4fc77ea5ff529a26722f31 ui:h "0.10981987216734457"^^xsd:float .
@@ -140,6 +249,14 @@ target:selector_b57cc5dc1d9db8203d4fc77ea5ff529a26722f31 ui:x "0.186324786324786
 target:selector_b57cc5dc1d9db8203d4fc77ea5ff529a26722f31 ui:y "0.18477629285299244"^^xsd:float .
 target:selector_b57cc5dc1d9db8203d4fc77ea5ff529a26722f31 rdf:value "#xywh=percent:19,18,14,11" .
 
+target:selector_cd0914c0575584149357eda69794807953de885c a oa:FragmentSelector .
+target:selector_cd0914c0575584149357eda69794807953de885c terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_cd0914c0575584149357eda69794807953de885c ui:h "0.10161177295024527"^^xsd:float .
+target:selector_cd0914c0575584149357eda69794807953de885c ui:w "0.0731958762886598"^^xsd:float .
+target:selector_cd0914c0575584149357eda69794807953de885c ui:x "0.1670103092783505"^^xsd:float .
+target:selector_cd0914c0575584149357eda69794807953de885c ui:y "0.4793272599859846"^^xsd:float .
+target:selector_cd0914c0575584149357eda69794807953de885c rdf:value "#xywh=percent:17,48,7,10" .
+
 target:selector_f23ab3e9be3da4a55a4a67bd23d6754d119dbec3 a oa:FragmentSelector .
 target:selector_f23ab3e9be3da4a55a4a67bd23d6754d119dbec3 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_f23ab3e9be3da4a55a4a67bd23d6754d119dbec3 ui:h "0.09936083672283556"^^xsd:float .
@@ -147,6 +264,14 @@ target:selector_f23ab3e9be3da4a55a4a67bd23d6754d119dbec3 ui:w "0.151282051282051
 target:selector_f23ab3e9be3da4a55a4a67bd23d6754d119dbec3 ui:x "0.09658119658119659"^^xsd:float .
 target:selector_f23ab3e9be3da4a55a4a67bd23d6754d119dbec3 ui:y "0.08832074375363161"^^xsd:float .
 target:selector_f23ab3e9be3da4a55a4a67bd23d6754d119dbec3 rdf:value "#xywh=percent:10,9,15,10" .
+
+target:selector_fbb41adbf55b668a4b82d627fae91dd16bfffc0f a oa:FragmentSelector .
+target:selector_fbb41adbf55b668a4b82d627fae91dd16bfffc0f terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_fbb41adbf55b668a4b82d627fae91dd16bfffc0f ui:h "0.11002102312543798"^^xsd:float .
+target:selector_fbb41adbf55b668a4b82d627fae91dd16bfffc0f ui:w "0.058762886597938144"^^xsd:float .
+target:selector_fbb41adbf55b668a4b82d627fae91dd16bfffc0f ui:x "0.22783505154639175"^^xsd:float .
+target:selector_fbb41adbf55b668a4b82d627fae91dd16bfffc0f ui:y "0.18920812894183603"^^xsd:float .
+target:selector_fbb41adbf55b668a4b82d627fae91dd16bfffc0f rdf:value "#xywh=percent:23,19,6,11" .
 
 target:target_1ae9511ec06f390b38bcd217b64e6ca92fb24e97 a oa:SpecificResource .
 target:target_1ae9511ec06f390b38bcd217b64e6ca92fb24e97 oa:hasSelector target:selector_1ae9511ec06f390b38bcd217b64e6ca92fb24e97 .
@@ -160,10 +285,30 @@ target:target_5a981b7e66d2acc06d0efd93cbe318f3596ff9ca a oa:SpecificResource .
 target:target_5a981b7e66d2acc06d0efd93cbe318f3596ff9ca oa:hasSelector target:selector_5a981b7e66d2acc06d0efd93cbe318f3596ff9ca .
 target:target_5a981b7e66d2acc06d0efd93cbe318f3596ff9ca oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/4> .
 
+target:target_a1c8876689b9120a5dca7f7fbe8090d1715307ea a oa:SpecificResource .
+target:target_a1c8876689b9120a5dca7f7fbe8090d1715307ea oa:hasSelector target:selector_a1c8876689b9120a5dca7f7fbe8090d1715307ea .
+target:target_a1c8876689b9120a5dca7f7fbe8090d1715307ea oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/4> .
+
+target:target_a1e297872b2f56153dc6d0b05d5fa2e22e59ca6f a oa:SpecificResource .
+target:target_a1e297872b2f56153dc6d0b05d5fa2e22e59ca6f oa:hasSelector target:selector_a1e297872b2f56153dc6d0b05d5fa2e22e59ca6f .
+target:target_a1e297872b2f56153dc6d0b05d5fa2e22e59ca6f oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/4> .
+
+target:target_b46e984e6159bc2c5858e027ae0004831f985846 a oa:SpecificResource .
+target:target_b46e984e6159bc2c5858e027ae0004831f985846 oa:hasSelector target:selector_b46e984e6159bc2c5858e027ae0004831f985846 .
+target:target_b46e984e6159bc2c5858e027ae0004831f985846 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/4> .
+
 target:target_b57cc5dc1d9db8203d4fc77ea5ff529a26722f31 a oa:SpecificResource .
 target:target_b57cc5dc1d9db8203d4fc77ea5ff529a26722f31 oa:hasSelector target:selector_b57cc5dc1d9db8203d4fc77ea5ff529a26722f31 .
 target:target_b57cc5dc1d9db8203d4fc77ea5ff529a26722f31 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/4> .
 
+target:target_cd0914c0575584149357eda69794807953de885c a oa:SpecificResource .
+target:target_cd0914c0575584149357eda69794807953de885c oa:hasSelector target:selector_cd0914c0575584149357eda69794807953de885c .
+target:target_cd0914c0575584149357eda69794807953de885c oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/4> .
+
 target:target_f23ab3e9be3da4a55a4a67bd23d6754d119dbec3 a oa:SpecificResource .
 target:target_f23ab3e9be3da4a55a4a67bd23d6754d119dbec3 oa:hasSelector target:selector_f23ab3e9be3da4a55a4a67bd23d6754d119dbec3 .
 target:target_f23ab3e9be3da4a55a4a67bd23d6754d119dbec3 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/4> .
+
+target:target_fbb41adbf55b668a4b82d627fae91dd16bfffc0f a oa:SpecificResource .
+target:target_fbb41adbf55b668a4b82d627fae91dd16bfffc0f oa:hasSelector target:selector_fbb41adbf55b668a4b82d627fae91dd16bfffc0f .
+target:target_fbb41adbf55b668a4b82d627fae91dd16bfffc0f oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/4> .

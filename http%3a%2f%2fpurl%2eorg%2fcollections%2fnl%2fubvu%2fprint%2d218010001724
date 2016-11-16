@@ -24,6 +24,17 @@ nl:id_0242f9895bfdf29c4f2b329d4063af50d77a3f87 oa:hasTarget target:target_0a3541
 nl:id_0242f9895bfdf29c4f2b329d4063af50d77a3f87 oa:hasTarget ubvu:print-218010001724 .
 nl:id_0242f9895bfdf29c4f2b329d4063af50d77a3f87 oa:motivatedBy oa:tagging .
 
+nl:id_14a215190d04c57a8ec9f04fa95ef46c2996043e a oa:Annotation .
+nl:id_14a215190d04c57a8ec9f04fa95ef46c2996043e terms:title "Jesus" .
+nl:id_14a215190d04c57a8ec9f04fa95ef46c2996043e ui:annotationField bible:BibleCharacter .
+nl:id_14a215190d04c57a8ec9f04fa95ef46c2996043e ui:typingTime 0 .
+nl:id_14a215190d04c57a8ec9f04fa95ef46c2996043e oa:annotatedAt "2016-06-21T17:42:27+02:00"^^xsd:dateTime .
+nl:id_14a215190d04c57a8ec9f04fa95ef46c2996043e oa:annotatedBy user:everhoeff .
+nl:id_14a215190d04c57a8ec9f04fa95ef46c2996043e oa:hasBody resource:Jesus .
+nl:id_14a215190d04c57a8ec9f04fa95ef46c2996043e oa:hasTarget target:target_0e7986aa0cdd99a454ecffefc9cbed23aa711867 .
+nl:id_14a215190d04c57a8ec9f04fa95ef46c2996043e oa:hasTarget ubvu:print-218010001724 .
+nl:id_14a215190d04c57a8ec9f04fa95ef46c2996043e oa:motivatedBy oa:tagging .
+
 nl:id_1cdd68ecdc10ebac84a589adc856bdbc0b2a5489 a oa:Annotation .
 nl:id_1cdd68ecdc10ebac84a589adc856bdbc0b2a5489 terms:title "Genezing van de man met huidvraat." .
 nl:id_1cdd68ecdc10ebac84a589adc856bdbc0b2a5489 ui:annotationField bible:ICBibleTheme .
@@ -33,6 +44,17 @@ nl:id_1cdd68ecdc10ebac84a589adc856bdbc0b2a5489 oa:annotatedBy user:paulinevandij
 nl:id_1cdd68ecdc10ebac84a589adc856bdbc0b2a5489 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Genezing van de man met huidvraat." ] .
 nl:id_1cdd68ecdc10ebac84a589adc856bdbc0b2a5489 oa:hasTarget ubvu:print-218010001724 .
 nl:id_1cdd68ecdc10ebac84a589adc856bdbc0b2a5489 oa:motivatedBy oa:tagging .
+
+nl:id_ac78161d6d5cde49eedc4da39323773020e57d0b a oa:Annotation .
+nl:id_ac78161d6d5cde49eedc4da39323773020e57d0b terms:title "leper" .
+nl:id_ac78161d6d5cde49eedc4da39323773020e57d0b ui:annotationField bible:BibleCharacter .
+nl:id_ac78161d6d5cde49eedc4da39323773020e57d0b ui:typingTime 0 .
+nl:id_ac78161d6d5cde49eedc4da39323773020e57d0b oa:annotatedAt "2016-06-21T17:42:49+02:00"^^xsd:dateTime .
+nl:id_ac78161d6d5cde49eedc4da39323773020e57d0b oa:annotatedBy user:everhoeff .
+nl:id_ac78161d6d5cde49eedc4da39323773020e57d0b oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "leper" ] .
+nl:id_ac78161d6d5cde49eedc4da39323773020e57d0b oa:hasTarget target:target_7751b130d7ef9e77ff2dbb2b0e3a645d87a762b4 .
+nl:id_ac78161d6d5cde49eedc4da39323773020e57d0b oa:hasTarget ubvu:print-218010001724 .
+nl:id_ac78161d6d5cde49eedc4da39323773020e57d0b oa:motivatedBy oa:tagging .
 
 nl:id_acd0fb5975e1c4f95b0d7da0bbca754299819187 a oa:Annotation .
 nl:id_acd0fb5975e1c4f95b0d7da0bbca754299819187 terms:title "Jezus Christus" .
@@ -45,6 +67,16 @@ nl:id_acd0fb5975e1c4f95b0d7da0bbca754299819187 oa:hasTarget target:target_60f72a
 nl:id_acd0fb5975e1c4f95b0d7da0bbca754299819187 oa:hasTarget ubvu:print-218010001724 .
 nl:id_acd0fb5975e1c4f95b0d7da0bbca754299819187 oa:motivatedBy oa:tagging .
 
+nl:id_c7a6123193911f9345d26cee87e0228eda8515c8 a oa:Annotation .
+nl:id_c7a6123193911f9345d26cee87e0228eda8515c8 terms:title "Jesus cleans a leper of his leprosy" .
+nl:id_c7a6123193911f9345d26cee87e0228eda8515c8 ui:annotationField bible:ICBibleTheme .
+nl:id_c7a6123193911f9345d26cee87e0228eda8515c8 ui:typingTime 0 .
+nl:id_c7a6123193911f9345d26cee87e0228eda8515c8 oa:annotatedAt "2016-06-21T17:42:09+02:00"^^xsd:dateTime .
+nl:id_c7a6123193911f9345d26cee87e0228eda8515c8 oa:annotatedBy user:everhoeff .
+nl:id_c7a6123193911f9345d26cee87e0228eda8515c8 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jesus cleans a leper of his leprosy" ] .
+nl:id_c7a6123193911f9345d26cee87e0228eda8515c8 oa:hasTarget ubvu:print-218010001724 .
+nl:id_c7a6123193911f9345d26cee87e0228eda8515c8 oa:motivatedBy oa:tagging .
+
 target:selector_0a3541456b6471d66de769874475166ab84e2971 a oa:FragmentSelector .
 target:selector_0a3541456b6471d66de769874475166ab84e2971 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_0a3541456b6471d66de769874475166ab84e2971 ui:h "0.14018691588785046"^^xsd:float .
@@ -52,6 +84,14 @@ target:selector_0a3541456b6471d66de769874475166ab84e2971 ui:w "0.106666666666666
 target:selector_0a3541456b6471d66de769874475166ab84e2971 ui:x "0.49466666666666664"^^xsd:float .
 target:selector_0a3541456b6471d66de769874475166ab84e2971 ui:y "0.5214953271028038"^^xsd:float .
 target:selector_0a3541456b6471d66de769874475166ab84e2971 rdf:value "#xywh=percent:49,52,11,14" .
+
+target:selector_0e7986aa0cdd99a454ecffefc9cbed23aa711867 a oa:FragmentSelector .
+target:selector_0e7986aa0cdd99a454ecffefc9cbed23aa711867 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_0e7986aa0cdd99a454ecffefc9cbed23aa711867 ui:h "0.18037383177570093"^^xsd:float .
+target:selector_0e7986aa0cdd99a454ecffefc9cbed23aa711867 ui:w "0.136"^^xsd:float .
+target:selector_0e7986aa0cdd99a454ecffefc9cbed23aa711867 ui:x "0.6133333333333333"^^xsd:float .
+target:selector_0e7986aa0cdd99a454ecffefc9cbed23aa711867 ui:y "0.4747663551401869"^^xsd:float .
+target:selector_0e7986aa0cdd99a454ecffefc9cbed23aa711867 rdf:value "#xywh=percent:61,47,14,18" .
 
 target:selector_60f72ab8ece87a0692c1c83a5c6f82166a20fb82 a oa:FragmentSelector .
 target:selector_60f72ab8ece87a0692c1c83a5c6f82166a20fb82 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -61,10 +101,26 @@ target:selector_60f72ab8ece87a0692c1c83a5c6f82166a20fb82 ui:x "0.612"^^xsd:float
 target:selector_60f72ab8ece87a0692c1c83a5c6f82166a20fb82 ui:y "0.4532710280373832"^^xsd:float .
 target:selector_60f72ab8ece87a0692c1c83a5c6f82166a20fb82 rdf:value "#xywh=percent:61,45,12,20" .
 
+target:selector_7751b130d7ef9e77ff2dbb2b0e3a645d87a762b4 a oa:FragmentSelector .
+target:selector_7751b130d7ef9e77ff2dbb2b0e3a645d87a762b4 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_7751b130d7ef9e77ff2dbb2b0e3a645d87a762b4 ui:h "0.11682242990654206"^^xsd:float .
+target:selector_7751b130d7ef9e77ff2dbb2b0e3a645d87a762b4 ui:w "0.14"^^xsd:float .
+target:selector_7751b130d7ef9e77ff2dbb2b0e3a645d87a762b4 ui:x "0.49866666666666665"^^xsd:float .
+target:selector_7751b130d7ef9e77ff2dbb2b0e3a645d87a762b4 ui:y "0.5355140186915888"^^xsd:float .
+target:selector_7751b130d7ef9e77ff2dbb2b0e3a645d87a762b4 rdf:value "#xywh=percent:50,54,14,12" .
+
 target:target_0a3541456b6471d66de769874475166ab84e2971 a oa:SpecificResource .
 target:target_0a3541456b6471d66de769874475166ab84e2971 oa:hasSelector target:selector_0a3541456b6471d66de769874475166ab84e2971 .
 target:target_0a3541456b6471d66de769874475166ab84e2971 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/763> .
 
+target:target_0e7986aa0cdd99a454ecffefc9cbed23aa711867 a oa:SpecificResource .
+target:target_0e7986aa0cdd99a454ecffefc9cbed23aa711867 oa:hasSelector target:selector_0e7986aa0cdd99a454ecffefc9cbed23aa711867 .
+target:target_0e7986aa0cdd99a454ecffefc9cbed23aa711867 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/763> .
+
 target:target_60f72ab8ece87a0692c1c83a5c6f82166a20fb82 a oa:SpecificResource .
 target:target_60f72ab8ece87a0692c1c83a5c6f82166a20fb82 oa:hasSelector target:selector_60f72ab8ece87a0692c1c83a5c6f82166a20fb82 .
 target:target_60f72ab8ece87a0692c1c83a5c6f82166a20fb82 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/763> .
+
+target:target_7751b130d7ef9e77ff2dbb2b0e3a645d87a762b4 a oa:SpecificResource .
+target:target_7751b130d7ef9e77ff2dbb2b0e3a645d87a762b4 oa:hasSelector target:selector_7751b130d7ef9e77ff2dbb2b0e3a645d87a762b4 .
+target:target_7751b130d7ef9e77ff2dbb2b0e3a645d87a762b4 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/763> .

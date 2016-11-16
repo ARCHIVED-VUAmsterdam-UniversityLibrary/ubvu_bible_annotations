@@ -12,6 +12,17 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_12768c07fd35ac283f183a73e1ff78f2a2493dcf a oa:Annotation .
+nl:id_12768c07fd35ac283f183a73e1ff78f2a2493dcf terms:title "Cain" .
+nl:id_12768c07fd35ac283f183a73e1ff78f2a2493dcf ui:annotationField bible:BibleCharacter .
+nl:id_12768c07fd35ac283f183a73e1ff78f2a2493dcf ui:typingTime 0 .
+nl:id_12768c07fd35ac283f183a73e1ff78f2a2493dcf oa:annotatedAt "2016-05-23T14:51:24+02:00"^^xsd:dateTime .
+nl:id_12768c07fd35ac283f183a73e1ff78f2a2493dcf oa:annotatedBy user:everhoeff .
+nl:id_12768c07fd35ac283f183a73e1ff78f2a2493dcf oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Cain" ] .
+nl:id_12768c07fd35ac283f183a73e1ff78f2a2493dcf oa:hasTarget target:target_712264ffeebef0dbf143190e8cd2523f23712cee .
+nl:id_12768c07fd35ac283f183a73e1ff78f2a2493dcf oa:hasTarget ubvu:print-218010001033 .
+nl:id_12768c07fd35ac283f183a73e1ff78f2a2493dcf oa:motivatedBy oa:tagging .
+
 nl:id_3e955389b5edb18897c432fb7a6e072013f33db1 a oa:Annotation .
 nl:id_3e955389b5edb18897c432fb7a6e072013f33db1 terms:title "Kaïn" .
 nl:id_3e955389b5edb18897c432fb7a6e072013f33db1 ui:annotationField bible:BibleCharacter .
@@ -22,6 +33,17 @@ nl:id_3e955389b5edb18897c432fb7a6e072013f33db1 oa:hasBody [ a content:ContentAsT
 nl:id_3e955389b5edb18897c432fb7a6e072013f33db1 oa:hasTarget target:target_de8bbd6432ae013e8e8b8a05091704ba9bc1f0af .
 nl:id_3e955389b5edb18897c432fb7a6e072013f33db1 oa:hasTarget ubvu:print-218010001033 .
 nl:id_3e955389b5edb18897c432fb7a6e072013f33db1 oa:motivatedBy oa:tagging .
+
+nl:id_50e6168e1629fe2c9aa0b4136e47ad00bb676518 a oa:Annotation .
+nl:id_50e6168e1629fe2c9aa0b4136e47ad00bb676518 terms:title "Abel" .
+nl:id_50e6168e1629fe2c9aa0b4136e47ad00bb676518 ui:annotationField bible:BibleCharacter .
+nl:id_50e6168e1629fe2c9aa0b4136e47ad00bb676518 ui:typingTime 0 .
+nl:id_50e6168e1629fe2c9aa0b4136e47ad00bb676518 oa:annotatedAt "2016-05-23T14:51:37+02:00"^^xsd:dateTime .
+nl:id_50e6168e1629fe2c9aa0b4136e47ad00bb676518 oa:annotatedBy user:everhoeff .
+nl:id_50e6168e1629fe2c9aa0b4136e47ad00bb676518 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Abel" ] .
+nl:id_50e6168e1629fe2c9aa0b4136e47ad00bb676518 oa:hasTarget target:target_2025e092fc953e81065c5120d82178bde31592bc .
+nl:id_50e6168e1629fe2c9aa0b4136e47ad00bb676518 oa:hasTarget ubvu:print-218010001033 .
+nl:id_50e6168e1629fe2c9aa0b4136e47ad00bb676518 oa:motivatedBy oa:tagging .
 
 nl:id_545a8af110a0421c95c258900a6c0c9db364dd6e a oa:Annotation .
 nl:id_545a8af110a0421c95c258900a6c0c9db364dd6e terms:title "Abel" .
@@ -34,6 +56,49 @@ nl:id_545a8af110a0421c95c258900a6c0c9db364dd6e oa:hasTarget target:target_f726a0
 nl:id_545a8af110a0421c95c258900a6c0c9db364dd6e oa:hasTarget ubvu:print-218010001033 .
 nl:id_545a8af110a0421c95c258900a6c0c9db364dd6e oa:motivatedBy oa:tagging .
 
+nl:id_a3e42ab05ecbac759fe0504cd47d30c2bf0141b3 a oa:Annotation .
+nl:id_a3e42ab05ecbac759fe0504cd47d30c2bf0141b3 terms:title " " .
+nl:id_a3e42ab05ecbac759fe0504cd47d30c2bf0141b3 ui:annotationField bible:BibleCharacter .
+nl:id_a3e42ab05ecbac759fe0504cd47d30c2bf0141b3 ui:typingTime 0 .
+nl:id_a3e42ab05ecbac759fe0504cd47d30c2bf0141b3 oa:annotatedAt "2016-05-23T14:51:27+02:00"^^xsd:dateTime .
+nl:id_a3e42ab05ecbac759fe0504cd47d30c2bf0141b3 oa:annotatedBy user:everhoeff .
+nl:id_a3e42ab05ecbac759fe0504cd47d30c2bf0141b3 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars " " ] .
+nl:id_a3e42ab05ecbac759fe0504cd47d30c2bf0141b3 oa:hasTarget target:target_712264ffeebef0dbf143190e8cd2523f23712cee .
+nl:id_a3e42ab05ecbac759fe0504cd47d30c2bf0141b3 oa:hasTarget ubvu:print-218010001033 .
+nl:id_a3e42ab05ecbac759fe0504cd47d30c2bf0141b3 oa:motivatedBy oa:tagging .
+
+nl:id_af0c665f6cb512d4bff6f5500be127f218ef4eb3 a oa:Annotation .
+nl:id_af0c665f6cb512d4bff6f5500be127f218ef4eb3 terms:title "Abel" .
+nl:id_af0c665f6cb512d4bff6f5500be127f218ef4eb3 ui:annotationField bible:BibleCharacter .
+nl:id_af0c665f6cb512d4bff6f5500be127f218ef4eb3 ui:typingTime 0 .
+nl:id_af0c665f6cb512d4bff6f5500be127f218ef4eb3 oa:annotatedAt "2016-06-16T19:10:18+02:00"^^xsd:dateTime .
+nl:id_af0c665f6cb512d4bff6f5500be127f218ef4eb3 oa:annotatedBy user:paulinevandijk .
+nl:id_af0c665f6cb512d4bff6f5500be127f218ef4eb3 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Abel" ] .
+nl:id_af0c665f6cb512d4bff6f5500be127f218ef4eb3 oa:hasTarget target:target_5f956516357ec4b6489e8ffb36b238c6c1e15e71 .
+nl:id_af0c665f6cb512d4bff6f5500be127f218ef4eb3 oa:hasTarget ubvu:print-218010001033 .
+nl:id_af0c665f6cb512d4bff6f5500be127f218ef4eb3 oa:motivatedBy oa:tagging .
+
+nl:id_bddf28b95426add0db7c578db00f5d13b2723735 a oa:Annotation .
+nl:id_bddf28b95426add0db7c578db00f5d13b2723735 terms:title "Kaïn" .
+nl:id_bddf28b95426add0db7c578db00f5d13b2723735 ui:annotationField bible:BibleCharacter .
+nl:id_bddf28b95426add0db7c578db00f5d13b2723735 ui:typingTime 0 .
+nl:id_bddf28b95426add0db7c578db00f5d13b2723735 oa:annotatedAt "2016-06-16T19:10:06+02:00"^^xsd:dateTime .
+nl:id_bddf28b95426add0db7c578db00f5d13b2723735 oa:annotatedBy user:paulinevandijk .
+nl:id_bddf28b95426add0db7c578db00f5d13b2723735 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Kaïn" ] .
+nl:id_bddf28b95426add0db7c578db00f5d13b2723735 oa:hasTarget target:target_3c61481367d69da67f3625d38f639bbb216b10c2 .
+nl:id_bddf28b95426add0db7c578db00f5d13b2723735 oa:hasTarget ubvu:print-218010001033 .
+nl:id_bddf28b95426add0db7c578db00f5d13b2723735 oa:motivatedBy oa:tagging .
+
+nl:id_c7149a4a5c31f88ea395a27280b2b76c710d4e84 a oa:Annotation .
+nl:id_c7149a4a5c31f88ea395a27280b2b76c710d4e84 terms:title "Cain rises up against his brother Abel and kills him" .
+nl:id_c7149a4a5c31f88ea395a27280b2b76c710d4e84 ui:annotationField bible:ICBibleTheme .
+nl:id_c7149a4a5c31f88ea395a27280b2b76c710d4e84 ui:typingTime 0 .
+nl:id_c7149a4a5c31f88ea395a27280b2b76c710d4e84 oa:annotatedAt "2016-05-23T14:51:03+02:00"^^xsd:dateTime .
+nl:id_c7149a4a5c31f88ea395a27280b2b76c710d4e84 oa:annotatedBy user:everhoeff .
+nl:id_c7149a4a5c31f88ea395a27280b2b76c710d4e84 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Cain rises up against his brother Abel and kills him" ] .
+nl:id_c7149a4a5c31f88ea395a27280b2b76c710d4e84 oa:hasTarget ubvu:print-218010001033 .
+nl:id_c7149a4a5c31f88ea395a27280b2b76c710d4e84 oa:motivatedBy oa:tagging .
+
 nl:id_f34bfa70c9744b274a378ad02975ed988a86c27f a oa:Annotation .
 nl:id_f34bfa70c9744b274a378ad02975ed988a86c27f terms:title "Kain kills Abel" .
 nl:id_f34bfa70c9744b274a378ad02975ed988a86c27f ui:annotationField bible:ICBibleTheme .
@@ -43,6 +108,38 @@ nl:id_f34bfa70c9744b274a378ad02975ed988a86c27f oa:annotatedBy user:jbn415 .
 nl:id_f34bfa70c9744b274a378ad02975ed988a86c27f oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Kain kills Abel" ] .
 nl:id_f34bfa70c9744b274a378ad02975ed988a86c27f oa:hasTarget ubvu:print-218010001033 .
 nl:id_f34bfa70c9744b274a378ad02975ed988a86c27f oa:motivatedBy oa:tagging .
+
+target:selector_2025e092fc953e81065c5120d82178bde31592bc a oa:FragmentSelector .
+target:selector_2025e092fc953e81065c5120d82178bde31592bc terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_2025e092fc953e81065c5120d82178bde31592bc ui:h "0.15938303341902313"^^xsd:float .
+target:selector_2025e092fc953e81065c5120d82178bde31592bc ui:w "0.26266666666666666"^^xsd:float .
+target:selector_2025e092fc953e81065c5120d82178bde31592bc ui:x "0.5213333333333333"^^xsd:float .
+target:selector_2025e092fc953e81065c5120d82178bde31592bc ui:y "0.5595544130248501"^^xsd:float .
+target:selector_2025e092fc953e81065c5120d82178bde31592bc rdf:value "#xywh=percent:52,56,26,16" .
+
+target:selector_3c61481367d69da67f3625d38f639bbb216b10c2 a oa:FragmentSelector .
+target:selector_3c61481367d69da67f3625d38f639bbb216b10c2 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_3c61481367d69da67f3625d38f639bbb216b10c2 ui:h "0.17792421746293247"^^xsd:float .
+target:selector_3c61481367d69da67f3625d38f639bbb216b10c2 ui:w "0.2709401709401709"^^xsd:float .
+target:selector_3c61481367d69da67f3625d38f639bbb216b10c2 ui:x "0.3803418803418803"^^xsd:float .
+target:selector_3c61481367d69da67f3625d38f639bbb216b10c2 ui:y "0.41790225151015925"^^xsd:float .
+target:selector_3c61481367d69da67f3625d38f639bbb216b10c2 rdf:value "#xywh=percent:38,42,27,18" .
+
+target:selector_5f956516357ec4b6489e8ffb36b238c6c1e15e71 a oa:FragmentSelector .
+target:selector_5f956516357ec4b6489e8ffb36b238c6c1e15e71 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_5f956516357ec4b6489e8ffb36b238c6c1e15e71 ui:h "0.15815485996705106"^^xsd:float .
+target:selector_5f956516357ec4b6489e8ffb36b238c6c1e15e71 ui:w "0.28376068376068375"^^xsd:float .
+target:selector_5f956516357ec4b6489e8ffb36b238c6c1e15e71 ui:x "0.5333333333333333"^^xsd:float .
+target:selector_5f956516357ec4b6489e8ffb36b238c6c1e15e71 ui:y "0.5875892366831411"^^xsd:float .
+target:selector_5f956516357ec4b6489e8ffb36b238c6c1e15e71 rdf:value "#xywh=percent:53,59,28,16" .
+
+target:selector_712264ffeebef0dbf143190e8cd2523f23712cee a oa:FragmentSelector .
+target:selector_712264ffeebef0dbf143190e8cd2523f23712cee terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_712264ffeebef0dbf143190e8cd2523f23712cee ui:h "0.15938303341902313"^^xsd:float .
+target:selector_712264ffeebef0dbf143190e8cd2523f23712cee ui:w "0.2853333333333333"^^xsd:float .
+target:selector_712264ffeebef0dbf143190e8cd2523f23712cee ui:x "0.36933333333333335"^^xsd:float .
+target:selector_712264ffeebef0dbf143190e8cd2523f23712cee ui:y "0.442159383033419"^^xsd:float .
+target:selector_712264ffeebef0dbf143190e8cd2523f23712cee rdf:value "#xywh=percent:37,44,29,16" .
 
 target:selector_de8bbd6432ae013e8e8b8a05091704ba9bc1f0af a oa:FragmentSelector .
 target:selector_de8bbd6432ae013e8e8b8a05091704ba9bc1f0af terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -59,6 +156,22 @@ target:selector_f726a0599423dc40ec3632413edee10d410e9771 ui:w "0.487179487179487
 target:selector_f726a0599423dc40ec3632413edee10d410e9771 ui:x "0.40897435897435896"^^xsd:float .
 target:selector_f726a0599423dc40ec3632413edee10d410e9771 ui:y "0.5119878945934583"^^xsd:float .
 target:selector_f726a0599423dc40ec3632413edee10d410e9771 rdf:value "#xywh=percent:41,51,49,31" .
+
+target:target_2025e092fc953e81065c5120d82178bde31592bc a oa:SpecificResource .
+target:target_2025e092fc953e81065c5120d82178bde31592bc oa:hasSelector target:selector_2025e092fc953e81065c5120d82178bde31592bc .
+target:target_2025e092fc953e81065c5120d82178bde31592bc oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/74> .
+
+target:target_3c61481367d69da67f3625d38f639bbb216b10c2 a oa:SpecificResource .
+target:target_3c61481367d69da67f3625d38f639bbb216b10c2 oa:hasSelector target:selector_3c61481367d69da67f3625d38f639bbb216b10c2 .
+target:target_3c61481367d69da67f3625d38f639bbb216b10c2 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/74> .
+
+target:target_5f956516357ec4b6489e8ffb36b238c6c1e15e71 a oa:SpecificResource .
+target:target_5f956516357ec4b6489e8ffb36b238c6c1e15e71 oa:hasSelector target:selector_5f956516357ec4b6489e8ffb36b238c6c1e15e71 .
+target:target_5f956516357ec4b6489e8ffb36b238c6c1e15e71 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/74> .
+
+target:target_712264ffeebef0dbf143190e8cd2523f23712cee a oa:SpecificResource .
+target:target_712264ffeebef0dbf143190e8cd2523f23712cee oa:hasSelector target:selector_712264ffeebef0dbf143190e8cd2523f23712cee .
+target:target_712264ffeebef0dbf143190e8cd2523f23712cee oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/74> .
 
 target:target_de8bbd6432ae013e8e8b8a05091704ba9bc1f0af a oa:SpecificResource .
 target:target_de8bbd6432ae013e8e8b8a05091704ba9bc1f0af oa:hasSelector target:selector_de8bbd6432ae013e8e8b8a05091704ba9bc1f0af .

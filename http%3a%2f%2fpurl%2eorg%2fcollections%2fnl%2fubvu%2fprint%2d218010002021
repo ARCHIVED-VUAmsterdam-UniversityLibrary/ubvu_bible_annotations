@@ -12,6 +12,26 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_2b5db39492c52dda3fbba57ac174c026cea3ec97 a oa:Annotation .
+nl:id_2b5db39492c52dda3fbba57ac174c026cea3ec97 terms:title "Jerusalem and the temple burnt by Nebuchadnezzar" .
+nl:id_2b5db39492c52dda3fbba57ac174c026cea3ec97 ui:annotationField bible:ICBibleTheme .
+nl:id_2b5db39492c52dda3fbba57ac174c026cea3ec97 ui:typingTime 0 .
+nl:id_2b5db39492c52dda3fbba57ac174c026cea3ec97 oa:annotatedAt "2016-05-23T14:55:13+02:00"^^xsd:dateTime .
+nl:id_2b5db39492c52dda3fbba57ac174c026cea3ec97 oa:annotatedBy user:everhoeff .
+nl:id_2b5db39492c52dda3fbba57ac174c026cea3ec97 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jerusalem and the temple burnt by Nebuchadnezzar" ] .
+nl:id_2b5db39492c52dda3fbba57ac174c026cea3ec97 oa:hasTarget ubvu:print-218010002021 .
+nl:id_2b5db39492c52dda3fbba57ac174c026cea3ec97 oa:motivatedBy oa:tagging .
+
+nl:id_2dc1d0354d5aacaf8837ab7f3002999f454f121c a oa:Annotation .
+nl:id_2dc1d0354d5aacaf8837ab7f3002999f454f121c terms:title "NEbukadnessar haalt de tempel in Jeruzalem leeg en verwoest deze." .
+nl:id_2dc1d0354d5aacaf8837ab7f3002999f454f121c ui:annotationField bible:ICBibleTheme .
+nl:id_2dc1d0354d5aacaf8837ab7f3002999f454f121c ui:typingTime 0 .
+nl:id_2dc1d0354d5aacaf8837ab7f3002999f454f121c oa:annotatedAt "2016-06-15T18:57:26+02:00"^^xsd:dateTime .
+nl:id_2dc1d0354d5aacaf8837ab7f3002999f454f121c oa:annotatedBy user:paulinevandijk .
+nl:id_2dc1d0354d5aacaf8837ab7f3002999f454f121c oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "NEbukadnessar haalt de tempel in Jeruzalem leeg en verwoest deze." ] .
+nl:id_2dc1d0354d5aacaf8837ab7f3002999f454f121c oa:hasTarget ubvu:print-218010002021 .
+nl:id_2dc1d0354d5aacaf8837ab7f3002999f454f121c oa:motivatedBy oa:tagging .
+
 nl:id_37f252d9512877b98ed33046d0fb24418cb68991 a oa:Annotation .
 nl:id_37f252d9512877b98ed33046d0fb24418cb68991 terms:title "Cyrus" .
 nl:id_37f252d9512877b98ed33046d0fb24418cb68991 ui:annotationField bible:BibleCharacter .
@@ -23,6 +43,16 @@ nl:id_37f252d9512877b98ed33046d0fb24418cb68991 oa:hasTarget target:target_bccbbc
 nl:id_37f252d9512877b98ed33046d0fb24418cb68991 oa:hasTarget ubvu:print-218010002021 .
 nl:id_37f252d9512877b98ed33046d0fb24418cb68991 oa:motivatedBy oa:tagging .
 
+nl:id_535662dd3803926a2dd52076431ec1671c91bc45 a oa:Annotation .
+nl:id_535662dd3803926a2dd52076431ec1671c91bc45 terms:title "Cyrus proclaims the end of the Babylonian Captivity and orders a temple to be built in Jerusalem" .
+nl:id_535662dd3803926a2dd52076431ec1671c91bc45 ui:annotationField bible:ICBibleTheme .
+nl:id_535662dd3803926a2dd52076431ec1671c91bc45 ui:typingTime 0 .
+nl:id_535662dd3803926a2dd52076431ec1671c91bc45 oa:annotatedAt "2016-05-23T14:55:43+02:00"^^xsd:dateTime .
+nl:id_535662dd3803926a2dd52076431ec1671c91bc45 oa:annotatedBy user:everhoeff .
+nl:id_535662dd3803926a2dd52076431ec1671c91bc45 oa:hasBody <http://iconclass.org/71R112> .
+nl:id_535662dd3803926a2dd52076431ec1671c91bc45 oa:hasTarget ubvu:print-218010002021 .
+nl:id_535662dd3803926a2dd52076431ec1671c91bc45 oa:motivatedBy oa:tagging .
+
 nl:id_71330d8f1086827888fa4ba9f4617735519d309b a oa:Annotation .
 nl:id_71330d8f1086827888fa4ba9f4617735519d309b terms:title "destruction of the temple by Nebucadnezar (2Chron.36,17)" .
 nl:id_71330d8f1086827888fa4ba9f4617735519d309b ui:annotationField bible:ICBibleTheme .
@@ -32,6 +62,17 @@ nl:id_71330d8f1086827888fa4ba9f4617735519d309b oa:annotatedBy user:spaapen1 .
 nl:id_71330d8f1086827888fa4ba9f4617735519d309b oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "destruction of the temple by Nebucadnezar (2Chron.36,17)" ] .
 nl:id_71330d8f1086827888fa4ba9f4617735519d309b oa:hasTarget ubvu:print-218010002021 .
 nl:id_71330d8f1086827888fa4ba9f4617735519d309b oa:motivatedBy oa:tagging .
+
+nl:id_7cb21cd58421e27b34fcca4197386781040e63ed a oa:Annotation .
+nl:id_7cb21cd58421e27b34fcca4197386781040e63ed terms:title "Cyrus" .
+nl:id_7cb21cd58421e27b34fcca4197386781040e63ed ui:annotationField bible:BibleCharacter .
+nl:id_7cb21cd58421e27b34fcca4197386781040e63ed ui:typingTime 0 .
+nl:id_7cb21cd58421e27b34fcca4197386781040e63ed oa:annotatedAt "2016-06-15T18:59:32+02:00"^^xsd:dateTime .
+nl:id_7cb21cd58421e27b34fcca4197386781040e63ed oa:annotatedBy user:paulinevandijk .
+nl:id_7cb21cd58421e27b34fcca4197386781040e63ed oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Cyrus" ] .
+nl:id_7cb21cd58421e27b34fcca4197386781040e63ed oa:hasTarget target:target_7acde0077f96bfc99ba741576164d6e5553b69a3 .
+nl:id_7cb21cd58421e27b34fcca4197386781040e63ed oa:hasTarget ubvu:print-218010002021 .
+nl:id_7cb21cd58421e27b34fcca4197386781040e63ed oa:motivatedBy oa:tagging .
 
 nl:id_8241d29bc5559bcaedf2a9bfcddd99582cb647b9 a oa:Annotation .
 nl:id_8241d29bc5559bcaedf2a9bfcddd99582cb647b9 terms:title "God speaks to Cyrus" .
@@ -53,6 +94,27 @@ nl:id_c165348bc65779889ef7b9623b01bd6410b4bcf8 oa:hasBody [ a content:ContentAsT
 nl:id_c165348bc65779889ef7b9623b01bd6410b4bcf8 oa:hasTarget target:target_28f4f50d879f4ac1559984041edcfca292877bf2 .
 nl:id_c165348bc65779889ef7b9623b01bd6410b4bcf8 oa:hasTarget ubvu:print-218010002021 .
 nl:id_c165348bc65779889ef7b9623b01bd6410b4bcf8 oa:motivatedBy oa:tagging .
+
+nl:id_c6e86d2eafdc5819b6d6baff5a7bdb66d92c7f00 a oa:Annotation .
+nl:id_c6e86d2eafdc5819b6d6baff5a7bdb66d92c7f00 terms:title "Cyrus geeft opdracht om de tempel in Jeruzalem te herbouwen." .
+nl:id_c6e86d2eafdc5819b6d6baff5a7bdb66d92c7f00 ui:annotationField bible:ICBibleTheme .
+nl:id_c6e86d2eafdc5819b6d6baff5a7bdb66d92c7f00 ui:typingTime 0 .
+nl:id_c6e86d2eafdc5819b6d6baff5a7bdb66d92c7f00 oa:annotatedAt "2016-06-15T19:00:17+02:00"^^xsd:dateTime .
+nl:id_c6e86d2eafdc5819b6d6baff5a7bdb66d92c7f00 oa:annotatedBy user:paulinevandijk .
+nl:id_c6e86d2eafdc5819b6d6baff5a7bdb66d92c7f00 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Cyrus geeft opdracht om de tempel in Jeruzalem te herbouwen." ] .
+nl:id_c6e86d2eafdc5819b6d6baff5a7bdb66d92c7f00 oa:hasTarget ubvu:print-218010002021 .
+nl:id_c6e86d2eafdc5819b6d6baff5a7bdb66d92c7f00 oa:motivatedBy oa:tagging .
+
+nl:id_eb7010aa515dc8e58343e97ff5f3bf88ad36c238 a oa:Annotation .
+nl:id_eb7010aa515dc8e58343e97ff5f3bf88ad36c238 terms:title "Cyrus" .
+nl:id_eb7010aa515dc8e58343e97ff5f3bf88ad36c238 ui:annotationField bible:BibleCharacter .
+nl:id_eb7010aa515dc8e58343e97ff5f3bf88ad36c238 ui:typingTime 0 .
+nl:id_eb7010aa515dc8e58343e97ff5f3bf88ad36c238 oa:annotatedAt "2016-06-15T18:58:04+02:00"^^xsd:dateTime .
+nl:id_eb7010aa515dc8e58343e97ff5f3bf88ad36c238 oa:annotatedBy user:paulinevandijk .
+nl:id_eb7010aa515dc8e58343e97ff5f3bf88ad36c238 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Cyrus" ] .
+nl:id_eb7010aa515dc8e58343e97ff5f3bf88ad36c238 oa:hasTarget target:target_9c21a6a640622f1f85e1a53a4d6a9105280abe8f .
+nl:id_eb7010aa515dc8e58343e97ff5f3bf88ad36c238 oa:hasTarget ubvu:print-218010002021 .
+nl:id_eb7010aa515dc8e58343e97ff5f3bf88ad36c238 oa:motivatedBy oa:tagging .
 
 nl:id_ebfab7ffefa5494c7649187f83b644f94dacdb83 a oa:Annotation .
 nl:id_ebfab7ffefa5494c7649187f83b644f94dacdb83 terms:title "Cyrus proclaims the end of the Babylonian Captivity and orders a temple to be built in Jerusalem" .
@@ -82,6 +144,22 @@ target:selector_28f4f50d879f4ac1559984041edcfca292877bf2 ui:x "0.435726485293135
 target:selector_28f4f50d879f4ac1559984041edcfca292877bf2 ui:y "0.5968919660790397"^^xsd:float .
 target:selector_28f4f50d879f4ac1559984041edcfca292877bf2 rdf:value "#xywh=percent:44,60,10,13" .
 
+target:selector_7acde0077f96bfc99ba741576164d6e5553b69a3 a oa:FragmentSelector .
+target:selector_7acde0077f96bfc99ba741576164d6e5553b69a3 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_7acde0077f96bfc99ba741576164d6e5553b69a3 ui:h "0.12371756185878093"^^xsd:float .
+target:selector_7acde0077f96bfc99ba741576164d6e5553b69a3 ui:w "0.04871794871794872"^^xsd:float .
+target:selector_7acde0077f96bfc99ba741576164d6e5553b69a3 ui:x "0.07692307692307693"^^xsd:float .
+target:selector_7acde0077f96bfc99ba741576164d6e5553b69a3 ui:y "0.6753168376584189"^^xsd:float .
+target:selector_7acde0077f96bfc99ba741576164d6e5553b69a3 rdf:value "#xywh=percent:8,68,5,12" .
+
+target:selector_9c21a6a640622f1f85e1a53a4d6a9105280abe8f a oa:FragmentSelector .
+target:selector_9c21a6a640622f1f85e1a53a4d6a9105280abe8f terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_9c21a6a640622f1f85e1a53a4d6a9105280abe8f ui:h "0.12673506336753168"^^xsd:float .
+target:selector_9c21a6a640622f1f85e1a53a4d6a9105280abe8f ui:w "0.09914529914529914"^^xsd:float .
+target:selector_9c21a6a640622f1f85e1a53a4d6a9105280abe8f ui:x "0.08888888888888889"^^xsd:float .
+target:selector_9c21a6a640622f1f85e1a53a4d6a9105280abe8f ui:y "0.4767652383826192"^^xsd:float .
+target:selector_9c21a6a640622f1f85e1a53a4d6a9105280abe8f rdf:value "#xywh=percent:9,48,10,13" .
+
 target:selector_bccbbcc11d2c5c608f35c6db4874c19791427315 a oa:FragmentSelector .
 target:selector_bccbbcc11d2c5c608f35c6db4874c19791427315 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_bccbbcc11d2c5c608f35c6db4874c19791427315 ui:h "0.12649364851293754"^^xsd:float .
@@ -93,6 +171,14 @@ target:selector_bccbbcc11d2c5c608f35c6db4874c19791427315 rdf:value "#xywh=percen
 target:target_28f4f50d879f4ac1559984041edcfca292877bf2 a oa:SpecificResource .
 target:target_28f4f50d879f4ac1559984041edcfca292877bf2 oa:hasSelector target:selector_28f4f50d879f4ac1559984041edcfca292877bf2 .
 target:target_28f4f50d879f4ac1559984041edcfca292877bf2 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/20> .
+
+target:target_7acde0077f96bfc99ba741576164d6e5553b69a3 a oa:SpecificResource .
+target:target_7acde0077f96bfc99ba741576164d6e5553b69a3 oa:hasSelector target:selector_7acde0077f96bfc99ba741576164d6e5553b69a3 .
+target:target_7acde0077f96bfc99ba741576164d6e5553b69a3 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/20> .
+
+target:target_9c21a6a640622f1f85e1a53a4d6a9105280abe8f a oa:SpecificResource .
+target:target_9c21a6a640622f1f85e1a53a4d6a9105280abe8f oa:hasSelector target:selector_9c21a6a640622f1f85e1a53a4d6a9105280abe8f .
+target:target_9c21a6a640622f1f85e1a53a4d6a9105280abe8f oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/20> .
 
 target:target_bccbbcc11d2c5c608f35c6db4874c19791427315 a oa:SpecificResource .
 target:target_bccbbcc11d2c5c608f35c6db4874c19791427315 oa:hasSelector target:selector_bccbbcc11d2c5c608f35c6db4874c19791427315 .

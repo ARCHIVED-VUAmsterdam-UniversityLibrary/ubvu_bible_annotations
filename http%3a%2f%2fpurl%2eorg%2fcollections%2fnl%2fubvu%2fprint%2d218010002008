@@ -13,6 +13,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_3de4a518f8f6c1d11aab43e26a4f0e176d0e28cb a oa:Annotation .
+nl:id_3de4a518f8f6c1d11aab43e26a4f0e176d0e28cb terms:title "Rahab and the spies" .
+nl:id_3de4a518f8f6c1d11aab43e26a4f0e176d0e28cb ui:annotationField bible:ICBibleTheme .
+nl:id_3de4a518f8f6c1d11aab43e26a4f0e176d0e28cb ui:typingTime 0 .
+nl:id_3de4a518f8f6c1d11aab43e26a4f0e176d0e28cb oa:annotatedAt "2016-06-01T15:02:54+02:00"^^xsd:dateTime .
+nl:id_3de4a518f8f6c1d11aab43e26a4f0e176d0e28cb oa:annotatedBy user:everhoeff .
+nl:id_3de4a518f8f6c1d11aab43e26a4f0e176d0e28cb oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Rahab and the spies" ] .
+nl:id_3de4a518f8f6c1d11aab43e26a4f0e176d0e28cb oa:hasTarget ubvu:print-218010002008 .
+nl:id_3de4a518f8f6c1d11aab43e26a4f0e176d0e28cb oa:motivatedBy oa:tagging .
+
 nl:id_41ddfdab0c72e7a99c2d28f3f8483cf1b36f2447 a oa:Annotation .
 nl:id_41ddfdab0c72e7a99c2d28f3f8483cf1b36f2447 terms:title "Josua" .
 nl:id_41ddfdab0c72e7a99c2d28f3f8483cf1b36f2447 ui:annotationField bible:BibleCharacter .
@@ -88,6 +98,16 @@ nl:id_7d83a0cc6f3c82d14e448321998467321fce4937 oa:hasBody [ a content:ContentAsT
 nl:id_7d83a0cc6f3c82d14e448321998467321fce4937 oa:hasTarget ubvu:print-218010002008 .
 nl:id_7d83a0cc6f3c82d14e448321998467321fce4937 oa:motivatedBy oa:tagging .
 
+nl:id_ab538881c0b125dbb1f6cba58e53b6e3ec276967 a oa:Annotation .
+nl:id_ab538881c0b125dbb1f6cba58e53b6e3ec276967 terms:title "Jerich compassed" .
+nl:id_ab538881c0b125dbb1f6cba58e53b6e3ec276967 ui:annotationField bible:ICBibleTheme .
+nl:id_ab538881c0b125dbb1f6cba58e53b6e3ec276967 ui:typingTime 0 .
+nl:id_ab538881c0b125dbb1f6cba58e53b6e3ec276967 oa:annotatedAt "2016-06-01T15:05:51+02:00"^^xsd:dateTime .
+nl:id_ab538881c0b125dbb1f6cba58e53b6e3ec276967 oa:annotatedBy user:everhoeff .
+nl:id_ab538881c0b125dbb1f6cba58e53b6e3ec276967 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jerich compassed" ] .
+nl:id_ab538881c0b125dbb1f6cba58e53b6e3ec276967 oa:hasTarget ubvu:print-218010002008 .
+nl:id_ab538881c0b125dbb1f6cba58e53b6e3ec276967 oa:motivatedBy oa:tagging .
+
 nl:id_d7e82b450bda2bb95f770cb136f6d190e7528ef5 a oa:Annotation .
 nl:id_d7e82b450bda2bb95f770cb136f6d190e7528ef5 terms:title "Josua" .
 nl:id_d7e82b450bda2bb95f770cb136f6d190e7528ef5 ui:annotationField bible:BibleCharacter .
@@ -98,6 +118,26 @@ nl:id_d7e82b450bda2bb95f770cb136f6d190e7528ef5 oa:hasBody [ a content:ContentAsT
 nl:id_d7e82b450bda2bb95f770cb136f6d190e7528ef5 oa:hasTarget target:target_5e08d025f788cfcc31d19600f6e73d20ed1e237b .
 nl:id_d7e82b450bda2bb95f770cb136f6d190e7528ef5 oa:hasTarget ubvu:print-218010002008 .
 nl:id_d7e82b450bda2bb95f770cb136f6d190e7528ef5 oa:motivatedBy oa:tagging .
+
+nl:id_ec8005d32323ac0bb0c7e20e948aa29f0b7e6dd3 a oa:Annotation .
+nl:id_ec8005d32323ac0bb0c7e20e948aa29f0b7e6dd3 terms:title "The waters of Jordan are divided" .
+nl:id_ec8005d32323ac0bb0c7e20e948aa29f0b7e6dd3 ui:annotationField bible:ICBibleTheme .
+nl:id_ec8005d32323ac0bb0c7e20e948aa29f0b7e6dd3 ui:typingTime 0 .
+nl:id_ec8005d32323ac0bb0c7e20e948aa29f0b7e6dd3 oa:annotatedAt "2016-06-01T15:04:00+02:00"^^xsd:dateTime .
+nl:id_ec8005d32323ac0bb0c7e20e948aa29f0b7e6dd3 oa:annotatedBy user:everhoeff .
+nl:id_ec8005d32323ac0bb0c7e20e948aa29f0b7e6dd3 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The waters of Jordan are divided" ] .
+nl:id_ec8005d32323ac0bb0c7e20e948aa29f0b7e6dd3 oa:hasTarget ubvu:print-218010002008 .
+nl:id_ec8005d32323ac0bb0c7e20e948aa29f0b7e6dd3 oa:motivatedBy oa:tagging .
+
+nl:id_f5bce6a7e820e3019b0a00a38a4dbd5f75737080 a oa:Annotation .
+nl:id_f5bce6a7e820e3019b0a00a38a4dbd5f75737080 terms:title "Death of Achan" .
+nl:id_f5bce6a7e820e3019b0a00a38a4dbd5f75737080 ui:annotationField bible:ICBibleTheme .
+nl:id_f5bce6a7e820e3019b0a00a38a4dbd5f75737080 ui:typingTime 0 .
+nl:id_f5bce6a7e820e3019b0a00a38a4dbd5f75737080 oa:annotatedAt "2016-06-01T15:07:28+02:00"^^xsd:dateTime .
+nl:id_f5bce6a7e820e3019b0a00a38a4dbd5f75737080 oa:annotatedBy user:everhoeff .
+nl:id_f5bce6a7e820e3019b0a00a38a4dbd5f75737080 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Death of Achan" ] .
+nl:id_f5bce6a7e820e3019b0a00a38a4dbd5f75737080 oa:hasTarget ubvu:print-218010002008 .
+nl:id_f5bce6a7e820e3019b0a00a38a4dbd5f75737080 oa:motivatedBy oa:tagging .
 
 nl:id_fd0cf699f2570f37334bac919be49aecf3d48e60 a oa:Annotation .
 nl:id_fd0cf699f2570f37334bac919be49aecf3d48e60 terms:title "Rachab" .

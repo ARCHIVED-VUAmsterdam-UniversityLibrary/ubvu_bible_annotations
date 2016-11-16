@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -6,9 +7,21 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
+
+nl:id_09489516664e4682b3919ef7a227033c3429aba1 a oa:Annotation .
+nl:id_09489516664e4682b3919ef7a227033c3429aba1 terms:title "Offerings made by the wise men of the East" .
+nl:id_09489516664e4682b3919ef7a227033c3429aba1 ui:annotationField bible:ICBibleTheme .
+nl:id_09489516664e4682b3919ef7a227033c3429aba1 ui:typingTime 0 .
+nl:id_09489516664e4682b3919ef7a227033c3429aba1 oa:annotatedAt "2016-06-29T18:43:42+02:00"^^xsd:dateTime .
+nl:id_09489516664e4682b3919ef7a227033c3429aba1 oa:annotatedBy user:everhoeff .
+nl:id_09489516664e4682b3919ef7a227033c3429aba1 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Offerings made by the wise men of the East" ] .
+nl:id_09489516664e4682b3919ef7a227033c3429aba1 oa:hasTarget ubvu:print-218010001683 .
+nl:id_09489516664e4682b3919ef7a227033c3429aba1 oa:motivatedBy oa:tagging .
 
 nl:id_1ff437c199f4366dc235f311227217ccefc3f3c9 a oa:Annotation .
 nl:id_1ff437c199f4366dc235f311227217ccefc3f3c9 terms:title "adoration of the kings: the Wise Men present their gifts to the Christ-child (gold, frankincense and myrrh)" .
@@ -20,6 +33,60 @@ nl:id_1ff437c199f4366dc235f311227217ccefc3f3c9 oa:hasBody <http://iconclass.org/
 nl:id_1ff437c199f4366dc235f311227217ccefc3f3c9 oa:hasTarget ubvu:print-218010001683 .
 nl:id_1ff437c199f4366dc235f311227217ccefc3f3c9 oa:motivatedBy oa:tagging .
 
+nl:id_276b59d27ac1ccc43f06e35ebdb7c22d40b035ae a oa:Annotation .
+nl:id_276b59d27ac1ccc43f06e35ebdb7c22d40b035ae terms:title "Magiërs uit het Oosten bieden Maria en het kind geschenken aan." .
+nl:id_276b59d27ac1ccc43f06e35ebdb7c22d40b035ae ui:annotationField bible:ICBibleTheme .
+nl:id_276b59d27ac1ccc43f06e35ebdb7c22d40b035ae ui:typingTime 0 .
+nl:id_276b59d27ac1ccc43f06e35ebdb7c22d40b035ae oa:annotatedAt "2016-06-18T14:24:04+02:00"^^xsd:dateTime .
+nl:id_276b59d27ac1ccc43f06e35ebdb7c22d40b035ae oa:annotatedBy user:paulinevandijk .
+nl:id_276b59d27ac1ccc43f06e35ebdb7c22d40b035ae oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Magiërs uit het Oosten bieden Maria en het kind geschenken aan." ] .
+nl:id_276b59d27ac1ccc43f06e35ebdb7c22d40b035ae oa:hasTarget ubvu:print-218010001683 .
+nl:id_276b59d27ac1ccc43f06e35ebdb7c22d40b035ae oa:motivatedBy oa:tagging .
+
+nl:id_319960f036e84808a69458cd5e49aab1ce6be69c a oa:Annotation .
+nl:id_319960f036e84808a69458cd5e49aab1ce6be69c terms:title "Jesus" .
+nl:id_319960f036e84808a69458cd5e49aab1ce6be69c ui:annotationField bible:BibleCharacter .
+nl:id_319960f036e84808a69458cd5e49aab1ce6be69c ui:typingTime 0 .
+nl:id_319960f036e84808a69458cd5e49aab1ce6be69c oa:annotatedAt "2016-06-29T18:44:20+02:00"^^xsd:dateTime .
+nl:id_319960f036e84808a69458cd5e49aab1ce6be69c oa:annotatedBy user:everhoeff .
+nl:id_319960f036e84808a69458cd5e49aab1ce6be69c oa:hasBody resource:Jesus .
+nl:id_319960f036e84808a69458cd5e49aab1ce6be69c oa:hasTarget target:target_53db97b58fe33936f83fcd3c95c47e4c63068d69 .
+nl:id_319960f036e84808a69458cd5e49aab1ce6be69c oa:hasTarget ubvu:print-218010001683 .
+nl:id_319960f036e84808a69458cd5e49aab1ce6be69c oa:motivatedBy oa:tagging .
+
+nl:id_381c9d9d72bb47414b270e2fc7dbe0346ef0a3a2 a oa:Annotation .
+nl:id_381c9d9d72bb47414b270e2fc7dbe0346ef0a3a2 terms:title "Jezus Christus" .
+nl:id_381c9d9d72bb47414b270e2fc7dbe0346ef0a3a2 ui:annotationField bible:BibleCharacter .
+nl:id_381c9d9d72bb47414b270e2fc7dbe0346ef0a3a2 ui:typingTime 0 .
+nl:id_381c9d9d72bb47414b270e2fc7dbe0346ef0a3a2 oa:annotatedAt "2016-06-18T14:22:44+02:00"^^xsd:dateTime .
+nl:id_381c9d9d72bb47414b270e2fc7dbe0346ef0a3a2 oa:annotatedBy user:paulinevandijk .
+nl:id_381c9d9d72bb47414b270e2fc7dbe0346ef0a3a2 oa:hasBody resource:Jesus .
+nl:id_381c9d9d72bb47414b270e2fc7dbe0346ef0a3a2 oa:hasTarget target:target_dddabf7c6dc0707c8e06a51dcd21bf81fa69a2ad .
+nl:id_381c9d9d72bb47414b270e2fc7dbe0346ef0a3a2 oa:hasTarget ubvu:print-218010001683 .
+nl:id_381c9d9d72bb47414b270e2fc7dbe0346ef0a3a2 oa:motivatedBy oa:tagging .
+
+nl:id_3842422918a5cc86410d2799c42afc449b0b3454 a oa:Annotation .
+nl:id_3842422918a5cc86410d2799c42afc449b0b3454 terms:title "Maria" .
+nl:id_3842422918a5cc86410d2799c42afc449b0b3454 ui:annotationField bible:BibleCharacter .
+nl:id_3842422918a5cc86410d2799c42afc449b0b3454 ui:typingTime 0 .
+nl:id_3842422918a5cc86410d2799c42afc449b0b3454 oa:annotatedAt "2016-06-29T18:44:04+02:00"^^xsd:dateTime .
+nl:id_3842422918a5cc86410d2799c42afc449b0b3454 oa:annotatedBy user:everhoeff .
+nl:id_3842422918a5cc86410d2799c42afc449b0b3454 oa:hasBody resource:Maria .
+nl:id_3842422918a5cc86410d2799c42afc449b0b3454 oa:hasTarget target:target_47b11263017b3c8ded3410b316cea74bf9b03a3f .
+nl:id_3842422918a5cc86410d2799c42afc449b0b3454 oa:hasTarget ubvu:print-218010001683 .
+nl:id_3842422918a5cc86410d2799c42afc449b0b3454 oa:motivatedBy oa:tagging .
+
+nl:id_528016d69ae59f6c090e44859b1dc4a766ab5c10 a oa:Annotation .
+nl:id_528016d69ae59f6c090e44859b1dc4a766ab5c10 terms:title "Maria (moeder van Jezus Christus))" .
+nl:id_528016d69ae59f6c090e44859b1dc4a766ab5c10 ui:annotationField bible:BibleCharacter .
+nl:id_528016d69ae59f6c090e44859b1dc4a766ab5c10 ui:typingTime 0 .
+nl:id_528016d69ae59f6c090e44859b1dc4a766ab5c10 oa:annotatedAt "2016-06-18T14:22:32+02:00"^^xsd:dateTime .
+nl:id_528016d69ae59f6c090e44859b1dc4a766ab5c10 oa:annotatedBy user:paulinevandijk .
+nl:id_528016d69ae59f6c090e44859b1dc4a766ab5c10 oa:hasBody resource:Mary_Mother_of_Jesus .
+nl:id_528016d69ae59f6c090e44859b1dc4a766ab5c10 oa:hasTarget target:target_10ef3d227fe81ac304d0c3df27c67ca4423c4222 .
+nl:id_528016d69ae59f6c090e44859b1dc4a766ab5c10 oa:hasTarget ubvu:print-218010001683 .
+nl:id_528016d69ae59f6c090e44859b1dc4a766ab5c10 oa:motivatedBy oa:tagging .
+
 nl:id_580fc9f85833df1f1beef13cd7892682bed28399 a oa:Annotation .
 nl:id_580fc9f85833df1f1beef13cd7892682bed28399 terms:title "Matthew 2: 11" .
 nl:id_580fc9f85833df1f1beef13cd7892682bed28399 ui:annotationField bible:ICBibleTheme .
@@ -29,6 +96,17 @@ nl:id_580fc9f85833df1f1beef13cd7892682bed28399 oa:annotatedBy user:joan .
 nl:id_580fc9f85833df1f1beef13cd7892682bed28399 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Matthew 2: 11" ] .
 nl:id_580fc9f85833df1f1beef13cd7892682bed28399 oa:hasTarget ubvu:print-218010001683 .
 nl:id_580fc9f85833df1f1beef13cd7892682bed28399 oa:motivatedBy oa:tagging .
+
+nl:id_65e4f771f5b1925d1c36c07ce48d39b80f5ece9f a oa:Annotation .
+nl:id_65e4f771f5b1925d1c36c07ce48d39b80f5ece9f terms:title "Jozef (man van Maria)" .
+nl:id_65e4f771f5b1925d1c36c07ce48d39b80f5ece9f ui:annotationField bible:BibleCharacter .
+nl:id_65e4f771f5b1925d1c36c07ce48d39b80f5ece9f ui:typingTime 0 .
+nl:id_65e4f771f5b1925d1c36c07ce48d39b80f5ece9f oa:annotatedAt "2016-06-18T14:23:13+02:00"^^xsd:dateTime .
+nl:id_65e4f771f5b1925d1c36c07ce48d39b80f5ece9f oa:annotatedBy user:paulinevandijk .
+nl:id_65e4f771f5b1925d1c36c07ce48d39b80f5ece9f oa:hasBody resource:Joseph_Husband_of_Maria .
+nl:id_65e4f771f5b1925d1c36c07ce48d39b80f5ece9f oa:hasTarget target:target_0e98645c194bb67164889613e48c4852e11fb73a .
+nl:id_65e4f771f5b1925d1c36c07ce48d39b80f5ece9f oa:hasTarget ubvu:print-218010001683 .
+nl:id_65e4f771f5b1925d1c36c07ce48d39b80f5ece9f oa:motivatedBy oa:tagging .
 
 nl:id_8b13dd3bb32dec0bb0c6f4092821c26565cf918f a oa:Annotation .
 nl:id_8b13dd3bb32dec0bb0c6f4092821c26565cf918f terms:title "adoration of the kings: the Wise Men present their gifts to the Christ-child (gold, frankincense and myrrh)" .
@@ -40,12 +118,62 @@ nl:id_8b13dd3bb32dec0bb0c6f4092821c26565cf918f oa:hasBody <http://iconclass.org/
 nl:id_8b13dd3bb32dec0bb0c6f4092821c26565cf918f oa:hasTarget ubvu:print-218010001683 .
 nl:id_8b13dd3bb32dec0bb0c6f4092821c26565cf918f oa:motivatedBy oa:tagging .
 
-nl:id_bd9abfd37dbcefebec5f8acbe6a3563e7137cfc1 a oa:Annotation .
-nl:id_bd9abfd37dbcefebec5f8acbe6a3563e7137cfc1 terms:title "adoration of the kings: the Wise Men present their gifts to the Christ-child (gold, frankincense and myrrh)" .
-nl:id_bd9abfd37dbcefebec5f8acbe6a3563e7137cfc1 ui:annotationField bible:ICBibleTheme .
-nl:id_bd9abfd37dbcefebec5f8acbe6a3563e7137cfc1 ui:typingTime 0 .
-nl:id_bd9abfd37dbcefebec5f8acbe6a3563e7137cfc1 oa:annotatedAt "2016-04-04T15:01:01+02:00"^^xsd:dateTime .
-nl:id_bd9abfd37dbcefebec5f8acbe6a3563e7137cfc1 oa:annotatedBy user:joan .
-nl:id_bd9abfd37dbcefebec5f8acbe6a3563e7137cfc1 oa:hasBody <http://iconclass.org/73B57> .
-nl:id_bd9abfd37dbcefebec5f8acbe6a3563e7137cfc1 oa:hasTarget ubvu:print-218010001683 .
-nl:id_bd9abfd37dbcefebec5f8acbe6a3563e7137cfc1 oa:motivatedBy oa:tagging .
+target:selector_0e98645c194bb67164889613e48c4852e11fb73a a oa:FragmentSelector .
+target:selector_0e98645c194bb67164889613e48c4852e11fb73a terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_0e98645c194bb67164889613e48c4852e11fb73a ui:h "0.10080183276059565"^^xsd:float .
+target:selector_0e98645c194bb67164889613e48c4852e11fb73a ui:w "0.19145299145299147"^^xsd:float .
+target:selector_0e98645c194bb67164889613e48c4852e11fb73a ui:x "0.5"^^xsd:float .
+target:selector_0e98645c194bb67164889613e48c4852e11fb73a ui:y "0.3465063001145475"^^xsd:float .
+target:selector_0e98645c194bb67164889613e48c4852e11fb73a rdf:value "#xywh=percent:50,35,19,10" .
+
+target:selector_10ef3d227fe81ac304d0c3df27c67ca4423c4222 a oa:FragmentSelector .
+target:selector_10ef3d227fe81ac304d0c3df27c67ca4423c4222 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_10ef3d227fe81ac304d0c3df27c67ca4423c4222 ui:h "0.11053837342497136"^^xsd:float .
+target:selector_10ef3d227fe81ac304d0c3df27c67ca4423c4222 ui:w "0.14615384615384616"^^xsd:float .
+target:selector_10ef3d227fe81ac304d0c3df27c67ca4423c4222 ui:x "0.3333333333333333"^^xsd:float .
+target:selector_10ef3d227fe81ac304d0c3df27c67ca4423c4222 ui:y "0.40263459335624285"^^xsd:float .
+target:selector_10ef3d227fe81ac304d0c3df27c67ca4423c4222 rdf:value "#xywh=percent:33,40,15,11" .
+
+target:selector_47b11263017b3c8ded3410b316cea74bf9b03a3f a oa:FragmentSelector .
+target:selector_47b11263017b3c8ded3410b316cea74bf9b03a3f terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_47b11263017b3c8ded3410b316cea74bf9b03a3f ui:h "0.2797140303842717"^^xsd:float .
+target:selector_47b11263017b3c8ded3410b316cea74bf9b03a3f ui:w "0.25866666666666666"^^xsd:float .
+target:selector_47b11263017b3c8ded3410b316cea74bf9b03a3f ui:x "0.3373333333333333"^^xsd:float .
+target:selector_47b11263017b3c8ded3410b316cea74bf9b03a3f ui:y "0.4101876675603217"^^xsd:float .
+target:selector_47b11263017b3c8ded3410b316cea74bf9b03a3f rdf:value "#xywh=percent:34,41,26,28" .
+
+target:selector_53db97b58fe33936f83fcd3c95c47e4c63068d69 a oa:FragmentSelector .
+target:selector_53db97b58fe33936f83fcd3c95c47e4c63068d69 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_53db97b58fe33936f83fcd3c95c47e4c63068d69 ui:h "0.11528150134048257"^^xsd:float .
+target:selector_53db97b58fe33936f83fcd3c95c47e4c63068d69 ui:w "0.13866666666666666"^^xsd:float .
+target:selector_53db97b58fe33936f83fcd3c95c47e4c63068d69 ui:x "0.448"^^xsd:float .
+target:selector_53db97b58fe33936f83fcd3c95c47e4c63068d69 ui:y "0.4941912421805183"^^xsd:float .
+target:selector_53db97b58fe33936f83fcd3c95c47e4c63068d69 rdf:value "#xywh=percent:45,49,14,12" .
+
+target:selector_dddabf7c6dc0707c8e06a51dcd21bf81fa69a2ad a oa:FragmentSelector .
+target:selector_dddabf7c6dc0707c8e06a51dcd21bf81fa69a2ad terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_dddabf7c6dc0707c8e06a51dcd21bf81fa69a2ad ui:h "0.07331042382588775"^^xsd:float .
+target:selector_dddabf7c6dc0707c8e06a51dcd21bf81fa69a2ad ui:w "0.10512820512820513"^^xsd:float .
+target:selector_dddabf7c6dc0707c8e06a51dcd21bf81fa69a2ad ui:x "0.47692307692307695"^^xsd:float .
+target:selector_dddabf7c6dc0707c8e06a51dcd21bf81fa69a2ad ui:y "0.49427262313860254"^^xsd:float .
+target:selector_dddabf7c6dc0707c8e06a51dcd21bf81fa69a2ad rdf:value "#xywh=percent:48,49,11,7" .
+
+target:target_0e98645c194bb67164889613e48c4852e11fb73a a oa:SpecificResource .
+target:target_0e98645c194bb67164889613e48c4852e11fb73a oa:hasSelector target:selector_0e98645c194bb67164889613e48c4852e11fb73a .
+target:target_0e98645c194bb67164889613e48c4852e11fb73a oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/722> .
+
+target:target_10ef3d227fe81ac304d0c3df27c67ca4423c4222 a oa:SpecificResource .
+target:target_10ef3d227fe81ac304d0c3df27c67ca4423c4222 oa:hasSelector target:selector_10ef3d227fe81ac304d0c3df27c67ca4423c4222 .
+target:target_10ef3d227fe81ac304d0c3df27c67ca4423c4222 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/722> .
+
+target:target_47b11263017b3c8ded3410b316cea74bf9b03a3f a oa:SpecificResource .
+target:target_47b11263017b3c8ded3410b316cea74bf9b03a3f oa:hasSelector target:selector_47b11263017b3c8ded3410b316cea74bf9b03a3f .
+target:target_47b11263017b3c8ded3410b316cea74bf9b03a3f oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/722> .
+
+target:target_53db97b58fe33936f83fcd3c95c47e4c63068d69 a oa:SpecificResource .
+target:target_53db97b58fe33936f83fcd3c95c47e4c63068d69 oa:hasSelector target:selector_53db97b58fe33936f83fcd3c95c47e4c63068d69 .
+target:target_53db97b58fe33936f83fcd3c95c47e4c63068d69 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/722> .
+
+target:target_dddabf7c6dc0707c8e06a51dcd21bf81fa69a2ad a oa:SpecificResource .
+target:target_dddabf7c6dc0707c8e06a51dcd21bf81fa69a2ad oa:hasSelector target:selector_dddabf7c6dc0707c8e06a51dcd21bf81fa69a2ad .
+target:target_dddabf7c6dc0707c8e06a51dcd21bf81fa69a2ad oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/722> .

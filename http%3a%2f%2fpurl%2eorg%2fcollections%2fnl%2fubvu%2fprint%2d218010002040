@@ -6,6 +6,7 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
@@ -20,6 +21,17 @@ nl:id_1608b5f8fead13ffc3bb6c5fc5fb6f3e92973dc8 oa:hasBody [ a content:ContentAsT
 nl:id_1608b5f8fead13ffc3bb6c5fc5fb6f3e92973dc8 oa:hasTarget ubvu:print-218010002040 .
 nl:id_1608b5f8fead13ffc3bb6c5fc5fb6f3e92973dc8 oa:motivatedBy oa:tagging .
 
+nl:id_62d6912c57baf86426333538c18191454ca7add2 a oa:Annotation .
+nl:id_62d6912c57baf86426333538c18191454ca7add2 terms:title "Johannes" .
+nl:id_62d6912c57baf86426333538c18191454ca7add2 ui:annotationField bible:BibleCharacter .
+nl:id_62d6912c57baf86426333538c18191454ca7add2 ui:typingTime 0 .
+nl:id_62d6912c57baf86426333538c18191454ca7add2 oa:annotatedAt "2016-06-06T14:06:09+02:00"^^xsd:dateTime .
+nl:id_62d6912c57baf86426333538c18191454ca7add2 oa:annotatedBy user:paulinevandijk .
+nl:id_62d6912c57baf86426333538c18191454ca7add2 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Johannes" ] .
+nl:id_62d6912c57baf86426333538c18191454ca7add2 oa:hasTarget target:target_59a6946da1864b5a34aa0ccd52146f06c85baafc .
+nl:id_62d6912c57baf86426333538c18191454ca7add2 oa:hasTarget ubvu:print-218010002040 .
+nl:id_62d6912c57baf86426333538c18191454ca7add2 oa:motivatedBy oa:tagging .
+
 nl:id_d9a1ba8af481eb9b570be5d3f4d30d14f98676b5 a oa:Annotation .
 nl:id_d9a1ba8af481eb9b570be5d3f4d30d14f98676b5 terms:title "epistle of Paul, Peter, Jon and Jude" .
 nl:id_d9a1ba8af481eb9b570be5d3f4d30d14f98676b5 ui:annotationField bible:ICBibleTheme .
@@ -29,3 +41,15 @@ nl:id_d9a1ba8af481eb9b570be5d3f4d30d14f98676b5 oa:annotatedBy user:everhoeff .
 nl:id_d9a1ba8af481eb9b570be5d3f4d30d14f98676b5 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "epistle of Paul, Peter, Jon and Jude" ] .
 nl:id_d9a1ba8af481eb9b570be5d3f4d30d14f98676b5 oa:hasTarget ubvu:print-218010002040 .
 nl:id_d9a1ba8af481eb9b570be5d3f4d30d14f98676b5 oa:motivatedBy oa:tagging .
+
+target:selector_59a6946da1864b5a34aa0ccd52146f06c85baafc a oa:FragmentSelector .
+target:selector_59a6946da1864b5a34aa0ccd52146f06c85baafc terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_59a6946da1864b5a34aa0ccd52146f06c85baafc ui:h "0.19246615656268393"^^xsd:float .
+target:selector_59a6946da1864b5a34aa0ccd52146f06c85baafc ui:w "0.1905982905982906"^^xsd:float .
+target:selector_59a6946da1864b5a34aa0ccd52146f06c85baafc ui:x "0.41794871794871796"^^xsd:float .
+target:selector_59a6946da1864b5a34aa0ccd52146f06c85baafc ui:y "0.5779870512065921"^^xsd:float .
+target:selector_59a6946da1864b5a34aa0ccd52146f06c85baafc rdf:value "#xywh=percent:42,58,19,19" .
+
+target:target_59a6946da1864b5a34aa0ccd52146f06c85baafc a oa:SpecificResource .
+target:target_59a6946da1864b5a34aa0ccd52146f06c85baafc oa:hasSelector target:selector_59a6946da1864b5a34aa0ccd52146f06c85baafc .
+target:target_59a6946da1864b5a34aa0ccd52146f06c85baafc oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/39> .

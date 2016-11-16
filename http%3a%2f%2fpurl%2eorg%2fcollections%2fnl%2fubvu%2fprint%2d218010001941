@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -8,17 +9,99 @@
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_b526784e63f7eff214a22671dd4ff2708afbaced> a oa:Annotation .
-<http://accurator.nl/id_b526784e63f7eff214a22671dd4ff2708afbaced> terms:title "prophet Agabus" .
-<http://accurator.nl/id_b526784e63f7eff214a22671dd4ff2708afbaced> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_b526784e63f7eff214a22671dd4ff2708afbaced> ui:typingTime 0 .
-<http://accurator.nl/id_b526784e63f7eff214a22671dd4ff2708afbaced> oa:annotatedAt "2016-04-08T17:19:37+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_b526784e63f7eff214a22671dd4ff2708afbaced> oa:annotatedBy user:everhoeff .
-<http://accurator.nl/id_b526784e63f7eff214a22671dd4ff2708afbaced> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "prophet Agabus" ] .
-<http://accurator.nl/id_b526784e63f7eff214a22671dd4ff2708afbaced> oa:hasTarget target:target_da7a389e94bf1e7f5b507ca176ec2c9749677683 .
-<http://accurator.nl/id_b526784e63f7eff214a22671dd4ff2708afbaced> oa:hasTarget ubvu:print-218010001941 .
-<http://accurator.nl/id_b526784e63f7eff214a22671dd4ff2708afbaced> oa:motivatedBy oa:tagging .
+nl:id_80d1359ebdf999c735c40f2170835ed559306d2f a oa:Annotation .
+nl:id_80d1359ebdf999c735c40f2170835ed559306d2f terms:title "Agabus" .
+nl:id_80d1359ebdf999c735c40f2170835ed559306d2f ui:annotationField bible:BibleCharacter .
+nl:id_80d1359ebdf999c735c40f2170835ed559306d2f ui:typingTime 0 .
+nl:id_80d1359ebdf999c735c40f2170835ed559306d2f oa:annotatedAt "2016-08-22T14:05:58+02:00"^^xsd:dateTime .
+nl:id_80d1359ebdf999c735c40f2170835ed559306d2f oa:annotatedBy user:paulinevandijk .
+nl:id_80d1359ebdf999c735c40f2170835ed559306d2f oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Agabus" ] .
+nl:id_80d1359ebdf999c735c40f2170835ed559306d2f oa:hasTarget target:target_f9b597ae28366005679b0b1b16fb4c8cf511363c .
+nl:id_80d1359ebdf999c735c40f2170835ed559306d2f oa:hasTarget ubvu:print-218010001941 .
+nl:id_80d1359ebdf999c735c40f2170835ed559306d2f oa:motivatedBy oa:tagging .
+
+nl:id_8e924ec458bfd20b1dba1a5ac3656da7124fdf4f a oa:Annotation .
+nl:id_8e924ec458bfd20b1dba1a5ac3656da7124fdf4f terms:title "the arrest of Paul in Jerusalem is foretold by Agabus, who binds his own hands and feet with Paul's girdle" .
+nl:id_8e924ec458bfd20b1dba1a5ac3656da7124fdf4f ui:annotationField bible:ICBibleTheme .
+nl:id_8e924ec458bfd20b1dba1a5ac3656da7124fdf4f ui:typingTime 0 .
+nl:id_8e924ec458bfd20b1dba1a5ac3656da7124fdf4f oa:annotatedAt "2016-05-20T10:25:41+02:00"^^xsd:dateTime .
+nl:id_8e924ec458bfd20b1dba1a5ac3656da7124fdf4f oa:annotatedBy user:hogguer .
+nl:id_8e924ec458bfd20b1dba1a5ac3656da7124fdf4f oa:hasBody <http://iconclass.org/73F223541> .
+nl:id_8e924ec458bfd20b1dba1a5ac3656da7124fdf4f oa:hasTarget ubvu:print-218010001941 .
+nl:id_8e924ec458bfd20b1dba1a5ac3656da7124fdf4f oa:motivatedBy oa:tagging .
+
+nl:id_ab5c934e0423ec80edccf2940d1b4ce0500fc048 a oa:Annotation .
+nl:id_ab5c934e0423ec80edccf2940d1b4ce0500fc048 terms:title "Agabus (profeet uit Juda)" .
+nl:id_ab5c934e0423ec80edccf2940d1b4ce0500fc048 ui:annotationField bible:BibleCharacter .
+nl:id_ab5c934e0423ec80edccf2940d1b4ce0500fc048 ui:typingTime 0 .
+nl:id_ab5c934e0423ec80edccf2940d1b4ce0500fc048 oa:annotatedAt "2016-05-20T10:24:12+02:00"^^xsd:dateTime .
+nl:id_ab5c934e0423ec80edccf2940d1b4ce0500fc048 oa:annotatedBy user:hogguer .
+nl:id_ab5c934e0423ec80edccf2940d1b4ce0500fc048 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Agabus (profeet uit Juda)" ] .
+nl:id_ab5c934e0423ec80edccf2940d1b4ce0500fc048 oa:hasTarget target:target_18ab362dd8f6b543d6e59625ff125b1075dc886e .
+nl:id_ab5c934e0423ec80edccf2940d1b4ce0500fc048 oa:hasTarget ubvu:print-218010001941 .
+nl:id_ab5c934e0423ec80edccf2940d1b4ce0500fc048 oa:motivatedBy oa:tagging .
+
+nl:id_b526784e63f7eff214a22671dd4ff2708afbaced a oa:Annotation .
+nl:id_b526784e63f7eff214a22671dd4ff2708afbaced terms:title "prophet Agabus" .
+nl:id_b526784e63f7eff214a22671dd4ff2708afbaced ui:annotationField bible:BibleCharacter .
+nl:id_b526784e63f7eff214a22671dd4ff2708afbaced ui:typingTime 0 .
+nl:id_b526784e63f7eff214a22671dd4ff2708afbaced oa:annotatedAt "2016-04-08T17:19:37+02:00"^^xsd:dateTime .
+nl:id_b526784e63f7eff214a22671dd4ff2708afbaced oa:annotatedBy user:everhoeff .
+nl:id_b526784e63f7eff214a22671dd4ff2708afbaced oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "prophet Agabus" ] .
+nl:id_b526784e63f7eff214a22671dd4ff2708afbaced oa:hasTarget target:target_da7a389e94bf1e7f5b507ca176ec2c9749677683 .
+nl:id_b526784e63f7eff214a22671dd4ff2708afbaced oa:hasTarget ubvu:print-218010001941 .
+nl:id_b526784e63f7eff214a22671dd4ff2708afbaced oa:motivatedBy oa:tagging .
+
+nl:id_b606d22c1ea6936890b73d91c720f516dde4b9a0 a oa:Annotation .
+nl:id_b606d22c1ea6936890b73d91c720f516dde4b9a0 terms:title "Paulus (apostel)" .
+nl:id_b606d22c1ea6936890b73d91c720f516dde4b9a0 ui:annotationField bible:BibleCharacter .
+nl:id_b606d22c1ea6936890b73d91c720f516dde4b9a0 ui:typingTime 0 .
+nl:id_b606d22c1ea6936890b73d91c720f516dde4b9a0 oa:annotatedAt "2016-05-20T10:25:19+02:00"^^xsd:dateTime .
+nl:id_b606d22c1ea6936890b73d91c720f516dde4b9a0 oa:annotatedBy user:hogguer .
+nl:id_b606d22c1ea6936890b73d91c720f516dde4b9a0 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Paulus (apostel)" ] .
+nl:id_b606d22c1ea6936890b73d91c720f516dde4b9a0 oa:hasTarget target:target_5d3ac51347287f077410eddbebc7e753443d42bc .
+nl:id_b606d22c1ea6936890b73d91c720f516dde4b9a0 oa:hasTarget ubvu:print-218010001941 .
+nl:id_b606d22c1ea6936890b73d91c720f516dde4b9a0 oa:motivatedBy oa:tagging .
+
+nl:id_ca532f151370a89cdb2687073b121ec26a798c8d a oa:Annotation .
+nl:id_ca532f151370a89cdb2687073b121ec26a798c8d terms:title "Agabus voorspelt Paulus dat hij gevangen genomen zal worden in Jeruzalem" .
+nl:id_ca532f151370a89cdb2687073b121ec26a798c8d ui:annotationField bible:ICBibleTheme .
+nl:id_ca532f151370a89cdb2687073b121ec26a798c8d ui:typingTime 0 .
+nl:id_ca532f151370a89cdb2687073b121ec26a798c8d oa:annotatedAt "2016-08-22T14:07:57+02:00"^^xsd:dateTime .
+nl:id_ca532f151370a89cdb2687073b121ec26a798c8d oa:annotatedBy user:paulinevandijk .
+nl:id_ca532f151370a89cdb2687073b121ec26a798c8d oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Agabus voorspelt Paulus dat hij gevangen genomen zal worden in Jeruzalem" ] .
+nl:id_ca532f151370a89cdb2687073b121ec26a798c8d oa:hasTarget ubvu:print-218010001941 .
+nl:id_ca532f151370a89cdb2687073b121ec26a798c8d oa:motivatedBy oa:tagging .
+
+nl:id_f35981a658f62a90b2001d094d3b1b8ab9e63b0b a oa:Annotation .
+nl:id_f35981a658f62a90b2001d094d3b1b8ab9e63b0b terms:title "Paulus" .
+nl:id_f35981a658f62a90b2001d094d3b1b8ab9e63b0b ui:annotationField bible:BibleCharacter .
+nl:id_f35981a658f62a90b2001d094d3b1b8ab9e63b0b ui:typingTime 0 .
+nl:id_f35981a658f62a90b2001d094d3b1b8ab9e63b0b oa:annotatedAt "2016-08-22T14:06:22+02:00"^^xsd:dateTime .
+nl:id_f35981a658f62a90b2001d094d3b1b8ab9e63b0b oa:annotatedBy user:paulinevandijk .
+nl:id_f35981a658f62a90b2001d094d3b1b8ab9e63b0b oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Paulus" ] .
+nl:id_f35981a658f62a90b2001d094d3b1b8ab9e63b0b oa:hasTarget target:target_ff9c3124f77ff6c942ee6b48f50951700662ddc7 .
+nl:id_f35981a658f62a90b2001d094d3b1b8ab9e63b0b oa:hasTarget ubvu:print-218010001941 .
+nl:id_f35981a658f62a90b2001d094d3b1b8ab9e63b0b oa:motivatedBy oa:tagging .
+
+target:selector_18ab362dd8f6b543d6e59625ff125b1075dc886e a oa:FragmentSelector .
+target:selector_18ab362dd8f6b543d6e59625ff125b1075dc886e terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_18ab362dd8f6b543d6e59625ff125b1075dc886e ui:h "0.3023255813953488"^^xsd:float .
+target:selector_18ab362dd8f6b543d6e59625ff125b1075dc886e ui:w "0.3094017094017094"^^xsd:float .
+target:selector_18ab362dd8f6b543d6e59625ff125b1075dc886e ui:x "0.0829059829059829"^^xsd:float .
+target:selector_18ab362dd8f6b543d6e59625ff125b1075dc886e ui:y "0.4797187669010276"^^xsd:float .
+target:selector_18ab362dd8f6b543d6e59625ff125b1075dc886e rdf:value "#xywh=percent:8,48,31,30" .
+
+target:selector_5d3ac51347287f077410eddbebc7e753443d42bc a oa:FragmentSelector .
+target:selector_5d3ac51347287f077410eddbebc7e753443d42bc terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_5d3ac51347287f077410eddbebc7e753443d42bc ui:h "0.280151433207139"^^xsd:float .
+target:selector_5d3ac51347287f077410eddbebc7e753443d42bc ui:w "0.14358974358974358"^^xsd:float .
+target:selector_5d3ac51347287f077410eddbebc7e753443d42bc ui:x "0.4897435897435897"^^xsd:float .
+target:selector_5d3ac51347287f077410eddbebc7e753443d42bc ui:y "0.3493780421849648"^^xsd:float .
+target:selector_5d3ac51347287f077410eddbebc7e753443d42bc rdf:value "#xywh=percent:49,35,14,28" .
 
 target:selector_da7a389e94bf1e7f5b507ca176ec2c9749677683 a oa:FragmentSelector .
 target:selector_da7a389e94bf1e7f5b507ca176ec2c9749677683 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -28,6 +111,38 @@ target:selector_da7a389e94bf1e7f5b507ca176ec2c9749677683 ui:x "0.112"^^xsd:float
 target:selector_da7a389e94bf1e7f5b507ca176ec2c9749677683 ui:y "0.5046413502109705"^^xsd:float .
 target:selector_da7a389e94bf1e7f5b507ca176ec2c9749677683 rdf:value "#xywh=percent:11,50,42,26" .
 
+target:selector_f9b597ae28366005679b0b1b16fb4c8cf511363c a oa:FragmentSelector .
+target:selector_f9b597ae28366005679b0b1b16fb4c8cf511363c terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_f9b597ae28366005679b0b1b16fb4c8cf511363c ui:h "0.17783783783783783"^^xsd:float .
+target:selector_f9b597ae28366005679b0b1b16fb4c8cf511363c ui:w "0.2982905982905983"^^xsd:float .
+target:selector_f9b597ae28366005679b0b1b16fb4c8cf511363c ui:x "0.1282051282051282"^^xsd:float .
+target:selector_f9b597ae28366005679b0b1b16fb4c8cf511363c ui:y "0.49675675675675673"^^xsd:float .
+target:selector_f9b597ae28366005679b0b1b16fb4c8cf511363c rdf:value "#xywh=percent:13,50,30,18" .
+
+target:selector_ff9c3124f77ff6c942ee6b48f50951700662ddc7 a oa:FragmentSelector .
+target:selector_ff9c3124f77ff6c942ee6b48f50951700662ddc7 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_ff9c3124f77ff6c942ee6b48f50951700662ddc7 ui:h "0.22972972972972974"^^xsd:float .
+target:selector_ff9c3124f77ff6c942ee6b48f50951700662ddc7 ui:w "0.1076923076923077"^^xsd:float .
+target:selector_ff9c3124f77ff6c942ee6b48f50951700662ddc7 ui:x "0.5145299145299145"^^xsd:float .
+target:selector_ff9c3124f77ff6c942ee6b48f50951700662ddc7 ui:y "0.3491891891891892"^^xsd:float .
+target:selector_ff9c3124f77ff6c942ee6b48f50951700662ddc7 rdf:value "#xywh=percent:51,35,11,23" .
+
+target:target_18ab362dd8f6b543d6e59625ff125b1075dc886e a oa:SpecificResource .
+target:target_18ab362dd8f6b543d6e59625ff125b1075dc886e oa:hasSelector target:selector_18ab362dd8f6b543d6e59625ff125b1075dc886e .
+target:target_18ab362dd8f6b543d6e59625ff125b1075dc886e oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/980> .
+
+target:target_5d3ac51347287f077410eddbebc7e753443d42bc a oa:SpecificResource .
+target:target_5d3ac51347287f077410eddbebc7e753443d42bc oa:hasSelector target:selector_5d3ac51347287f077410eddbebc7e753443d42bc .
+target:target_5d3ac51347287f077410eddbebc7e753443d42bc oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/980> .
+
 target:target_da7a389e94bf1e7f5b507ca176ec2c9749677683 a oa:SpecificResource .
 target:target_da7a389e94bf1e7f5b507ca176ec2c9749677683 oa:hasSelector target:selector_da7a389e94bf1e7f5b507ca176ec2c9749677683 .
 target:target_da7a389e94bf1e7f5b507ca176ec2c9749677683 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/980> .
+
+target:target_f9b597ae28366005679b0b1b16fb4c8cf511363c a oa:SpecificResource .
+target:target_f9b597ae28366005679b0b1b16fb4c8cf511363c oa:hasSelector target:selector_f9b597ae28366005679b0b1b16fb4c8cf511363c .
+target:target_f9b597ae28366005679b0b1b16fb4c8cf511363c oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/980> .
+
+target:target_ff9c3124f77ff6c942ee6b48f50951700662ddc7 a oa:SpecificResource .
+target:target_ff9c3124f77ff6c942ee6b48f50951700662ddc7 oa:hasSelector target:selector_ff9c3124f77ff6c942ee6b48f50951700662ddc7 .
+target:target_ff9c3124f77ff6c942ee6b48f50951700662ddc7 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/980> .

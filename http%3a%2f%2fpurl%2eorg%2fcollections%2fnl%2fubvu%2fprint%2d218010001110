@@ -1,15 +1,49 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
 @prefix media-frags: <http://www.w3.org/TR/media-frags/> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
+
+nl:id_0c07603c368f381df5b7744010f28a4204a8e5e8 a oa:Annotation .
+nl:id_0c07603c368f381df5b7744010f28a4204a8e5e8 terms:title "Rebekka" .
+nl:id_0c07603c368f381df5b7744010f28a4204a8e5e8 ui:annotationField bible:BibleCharacter .
+nl:id_0c07603c368f381df5b7744010f28a4204a8e5e8 ui:typingTime 0 .
+nl:id_0c07603c368f381df5b7744010f28a4204a8e5e8 oa:annotatedAt "2016-06-15T16:48:43+02:00"^^xsd:dateTime .
+nl:id_0c07603c368f381df5b7744010f28a4204a8e5e8 oa:annotatedBy user:everhoeff .
+nl:id_0c07603c368f381df5b7744010f28a4204a8e5e8 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Rebekka" ] .
+nl:id_0c07603c368f381df5b7744010f28a4204a8e5e8 oa:hasTarget target:target_075d0ec8b3dd3b45e78b89b32bb380f75760bba0 .
+nl:id_0c07603c368f381df5b7744010f28a4204a8e5e8 oa:hasTarget ubvu:print-218010001110 .
+nl:id_0c07603c368f381df5b7744010f28a4204a8e5e8 oa:motivatedBy oa:tagging .
+
+nl:id_3615508451e5f325ca1459862c9b318381e1aa9b a oa:Annotation .
+nl:id_3615508451e5f325ca1459862c9b318381e1aa9b terms:title "De knecht van Abraham ontmoet Rebekka bij de put." .
+nl:id_3615508451e5f325ca1459862c9b318381e1aa9b ui:annotationField bible:ICBibleTheme .
+nl:id_3615508451e5f325ca1459862c9b318381e1aa9b ui:typingTime 0 .
+nl:id_3615508451e5f325ca1459862c9b318381e1aa9b oa:annotatedAt "2016-06-16T19:20:09+02:00"^^xsd:dateTime .
+nl:id_3615508451e5f325ca1459862c9b318381e1aa9b oa:annotatedBy user:paulinevandijk .
+nl:id_3615508451e5f325ca1459862c9b318381e1aa9b oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "De knecht van Abraham ontmoet Rebekka bij de put." ] .
+nl:id_3615508451e5f325ca1459862c9b318381e1aa9b oa:hasTarget ubvu:print-218010001110 .
+nl:id_3615508451e5f325ca1459862c9b318381e1aa9b oa:motivatedBy oa:tagging .
+
+nl:id_712b71a0217ef4e1a446b65a21367931107847a5 a oa:Annotation .
+nl:id_712b71a0217ef4e1a446b65a21367931107847a5 terms:title "The servant of Abraham" .
+nl:id_712b71a0217ef4e1a446b65a21367931107847a5 ui:annotationField bible:BibleCharacter .
+nl:id_712b71a0217ef4e1a446b65a21367931107847a5 ui:typingTime 0 .
+nl:id_712b71a0217ef4e1a446b65a21367931107847a5 oa:annotatedAt "2016-06-15T16:49:08+02:00"^^xsd:dateTime .
+nl:id_712b71a0217ef4e1a446b65a21367931107847a5 oa:annotatedBy user:everhoeff .
+nl:id_712b71a0217ef4e1a446b65a21367931107847a5 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The servant of Abraham" ] .
+nl:id_712b71a0217ef4e1a446b65a21367931107847a5 oa:hasTarget target:target_bc12175293f8caf0a6748b7dfd56a67d41b19b9d .
+nl:id_712b71a0217ef4e1a446b65a21367931107847a5 oa:hasTarget ubvu:print-218010001110 .
+nl:id_712b71a0217ef4e1a446b65a21367931107847a5 oa:motivatedBy oa:tagging .
 
 nl:id_7f20d75094753ae62e82e25bf6b419448af91022 a oa:Annotation .
 nl:id_7f20d75094753ae62e82e25bf6b419448af91022 terms:title "Eliëzer (zoon van Jorim)" .
@@ -32,6 +66,27 @@ nl:id_a15c53f9422f37a8b6e80fd7fb987f8c9f5ca221 oa:hasBody <http://iconclass.org/
 nl:id_a15c53f9422f37a8b6e80fd7fb987f8c9f5ca221 oa:hasTarget ubvu:print-218010001110 .
 nl:id_a15c53f9422f37a8b6e80fd7fb987f8c9f5ca221 oa:motivatedBy oa:tagging .
 
+nl:id_d055b951a79fbe9cb5c0e7076af6f6acd503eed9 a oa:Annotation .
+nl:id_d055b951a79fbe9cb5c0e7076af6f6acd503eed9 terms:title "Rebekka" .
+nl:id_d055b951a79fbe9cb5c0e7076af6f6acd503eed9 ui:annotationField bible:BibleCharacter .
+nl:id_d055b951a79fbe9cb5c0e7076af6f6acd503eed9 ui:typingTime 0 .
+nl:id_d055b951a79fbe9cb5c0e7076af6f6acd503eed9 oa:annotatedAt "2016-06-16T19:17:15+02:00"^^xsd:dateTime .
+nl:id_d055b951a79fbe9cb5c0e7076af6f6acd503eed9 oa:annotatedBy user:paulinevandijk .
+nl:id_d055b951a79fbe9cb5c0e7076af6f6acd503eed9 oa:hasBody resource:Rebekah .
+nl:id_d055b951a79fbe9cb5c0e7076af6f6acd503eed9 oa:hasTarget target:target_0d4f616061c34bfbde183a3a2797230470e1c9b9 .
+nl:id_d055b951a79fbe9cb5c0e7076af6f6acd503eed9 oa:hasTarget ubvu:print-218010001110 .
+nl:id_d055b951a79fbe9cb5c0e7076af6f6acd503eed9 oa:motivatedBy oa:tagging .
+
+nl:id_d82dbbb8a7f6d1dc54464c65caf0d6a445334416 a oa:Annotation .
+nl:id_d82dbbb8a7f6d1dc54464c65caf0d6a445334416 terms:title "Rebekka gives the servant of Abraham drink" .
+nl:id_d82dbbb8a7f6d1dc54464c65caf0d6a445334416 ui:annotationField bible:ICBibleTheme .
+nl:id_d82dbbb8a7f6d1dc54464c65caf0d6a445334416 ui:typingTime 0 .
+nl:id_d82dbbb8a7f6d1dc54464c65caf0d6a445334416 oa:annotatedAt "2016-06-15T16:49:15+02:00"^^xsd:dateTime .
+nl:id_d82dbbb8a7f6d1dc54464c65caf0d6a445334416 oa:annotatedBy user:everhoeff .
+nl:id_d82dbbb8a7f6d1dc54464c65caf0d6a445334416 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Rebekka gives the servant of Abraham drink" ] .
+nl:id_d82dbbb8a7f6d1dc54464c65caf0d6a445334416 oa:hasTarget ubvu:print-218010001110 .
+nl:id_d82dbbb8a7f6d1dc54464c65caf0d6a445334416 oa:motivatedBy oa:tagging .
+
 nl:id_ee095a534dea047e7c936e08b78e88367d377fbc a oa:Annotation .
 nl:id_ee095a534dea047e7c936e08b78e88367d377fbc terms:title "Rebekka" .
 nl:id_ee095a534dea047e7c936e08b78e88367d377fbc ui:annotationField bible:BibleCharacter .
@@ -53,6 +108,22 @@ nl:id_fa241b8b5b6b0cffd00e9690f0bddfa8a2266d71 oa:hasBody resource:Eliezer_Son_o
 nl:id_fa241b8b5b6b0cffd00e9690f0bddfa8a2266d71 oa:hasTarget target:target_4851d0f2ff936fc8d13ed48ba99cb0735f1cfcb3 .
 nl:id_fa241b8b5b6b0cffd00e9690f0bddfa8a2266d71 oa:hasTarget ubvu:print-218010001110 .
 nl:id_fa241b8b5b6b0cffd00e9690f0bddfa8a2266d71 oa:motivatedBy oa:tagging .
+
+target:selector_075d0ec8b3dd3b45e78b89b32bb380f75760bba0 a oa:FragmentSelector .
+target:selector_075d0ec8b3dd3b45e78b89b32bb380f75760bba0 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_075d0ec8b3dd3b45e78b89b32bb380f75760bba0 ui:h "0.13070976809557272"^^xsd:float .
+target:selector_075d0ec8b3dd3b45e78b89b32bb380f75760bba0 ui:w "0.07010309278350516"^^xsd:float .
+target:selector_075d0ec8b3dd3b45e78b89b32bb380f75760bba0 ui:x "0.5670103092783505"^^xsd:float .
+target:selector_075d0ec8b3dd3b45e78b89b32bb380f75760bba0 ui:y "0.5769501054111033"^^xsd:float .
+target:selector_075d0ec8b3dd3b45e78b89b32bb380f75760bba0 rdf:value "#xywh=percent:57,58,7,13" .
+
+target:selector_0d4f616061c34bfbde183a3a2797230470e1c9b9 a oa:FragmentSelector .
+target:selector_0d4f616061c34bfbde183a3a2797230470e1c9b9 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_0d4f616061c34bfbde183a3a2797230470e1c9b9 ui:h "0.1322073383808969"^^xsd:float .
+target:selector_0d4f616061c34bfbde183a3a2797230470e1c9b9 ui:w "0.07264957264957266"^^xsd:float .
+target:selector_0d4f616061c34bfbde183a3a2797230470e1c9b9 ui:x "0.5675213675213675"^^xsd:float .
+target:selector_0d4f616061c34bfbde183a3a2797230470e1c9b9 ui:y "0.5730926033779848"^^xsd:float .
+target:selector_0d4f616061c34bfbde183a3a2797230470e1c9b9 rdf:value "#xywh=percent:57,57,7,13" .
 
 target:selector_34e73b417b83f622528af068b74566b7822312ca a oa:FragmentSelector .
 target:selector_34e73b417b83f622528af068b74566b7822312ca terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -78,6 +149,22 @@ target:selector_7161343fce7645e7e7eb54e14e69711eecb1075c ui:x "0.558068378155048
 target:selector_7161343fce7645e7e7eb54e14e69711eecb1075c ui:y "0.5760046592894583"^^xsd:float .
 target:selector_7161343fce7645e7e7eb54e14e69711eecb1075c rdf:value "#xywh=percent:56,58,11,13" .
 
+target:selector_bc12175293f8caf0a6748b7dfd56a67d41b19b9d a oa:FragmentSelector .
+target:selector_bc12175293f8caf0a6748b7dfd56a67d41b19b9d terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_bc12175293f8caf0a6748b7dfd56a67d41b19b9d ui:h "0.12719606465214336"^^xsd:float .
+target:selector_bc12175293f8caf0a6748b7dfd56a67d41b19b9d ui:w "0.07731958762886598"^^xsd:float .
+target:selector_bc12175293f8caf0a6748b7dfd56a67d41b19b9d ui:x "0.4948453608247423"^^xsd:float .
+target:selector_bc12175293f8caf0a6748b7dfd56a67d41b19b9d ui:y "0.5783555867884751"^^xsd:float .
+target:selector_bc12175293f8caf0a6748b7dfd56a67d41b19b9d rdf:value "#xywh=percent:49,58,8,13" .
+
+target:target_075d0ec8b3dd3b45e78b89b32bb380f75760bba0 a oa:SpecificResource .
+target:target_075d0ec8b3dd3b45e78b89b32bb380f75760bba0 oa:hasSelector target:selector_075d0ec8b3dd3b45e78b89b32bb380f75760bba0 .
+target:target_075d0ec8b3dd3b45e78b89b32bb380f75760bba0 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/151> .
+
+target:target_0d4f616061c34bfbde183a3a2797230470e1c9b9 a oa:SpecificResource .
+target:target_0d4f616061c34bfbde183a3a2797230470e1c9b9 oa:hasSelector target:selector_0d4f616061c34bfbde183a3a2797230470e1c9b9 .
+target:target_0d4f616061c34bfbde183a3a2797230470e1c9b9 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/151> .
+
 target:target_34e73b417b83f622528af068b74566b7822312ca a oa:SpecificResource .
 target:target_34e73b417b83f622528af068b74566b7822312ca oa:hasSelector target:selector_34e73b417b83f622528af068b74566b7822312ca .
 target:target_34e73b417b83f622528af068b74566b7822312ca oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/151> .
@@ -89,3 +176,7 @@ target:target_4851d0f2ff936fc8d13ed48ba99cb0735f1cfcb3 oa:hasSource <http://imag
 target:target_7161343fce7645e7e7eb54e14e69711eecb1075c a oa:SpecificResource .
 target:target_7161343fce7645e7e7eb54e14e69711eecb1075c oa:hasSelector target:selector_7161343fce7645e7e7eb54e14e69711eecb1075c .
 target:target_7161343fce7645e7e7eb54e14e69711eecb1075c oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/151> .
+
+target:target_bc12175293f8caf0a6748b7dfd56a67d41b19b9d a oa:SpecificResource .
+target:target_bc12175293f8caf0a6748b7dfd56a67d41b19b9d oa:hasSelector target:selector_bc12175293f8caf0a6748b7dfd56a67d41b19b9d .
+target:target_bc12175293f8caf0a6748b7dfd56a67d41b19b9d oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/151> .

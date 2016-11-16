@@ -6,14 +6,51 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_12a2def26fe737f6c19ae33c4266e300a549964a> a oa:Annotation .
-<http://accurator.nl/id_12a2def26fe737f6c19ae33c4266e300a549964a> terms:title "Intocht in Jeruzalem" .
-<http://accurator.nl/id_12a2def26fe737f6c19ae33c4266e300a549964a> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
-<http://accurator.nl/id_12a2def26fe737f6c19ae33c4266e300a549964a> ui:typingTime 0 .
-<http://accurator.nl/id_12a2def26fe737f6c19ae33c4266e300a549964a> oa:annotatedAt "2016-04-25T16:30:22+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_12a2def26fe737f6c19ae33c4266e300a549964a> oa:annotatedBy user:paulinevandijk .
-<http://accurator.nl/id_12a2def26fe737f6c19ae33c4266e300a549964a> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Intocht in Jeruzalem" ] .
-<http://accurator.nl/id_12a2def26fe737f6c19ae33c4266e300a549964a> oa:hasTarget ubvu:print-218010001813 .
-<http://accurator.nl/id_12a2def26fe737f6c19ae33c4266e300a549964a> oa:motivatedBy oa:tagging .
+nl:id_6452b58726b0e742fe32eea02f8685de2d8f4486 a oa:Annotation .
+nl:id_6452b58726b0e742fe32eea02f8685de2d8f4486 terms:title "Jesus enters Jerusalem" .
+nl:id_6452b58726b0e742fe32eea02f8685de2d8f4486 ui:annotationField bible:ICBibleTheme .
+nl:id_6452b58726b0e742fe32eea02f8685de2d8f4486 ui:typingTime 0 .
+nl:id_6452b58726b0e742fe32eea02f8685de2d8f4486 oa:annotatedAt "2016-05-05T12:14:35+02:00"^^xsd:dateTime .
+nl:id_6452b58726b0e742fe32eea02f8685de2d8f4486 oa:annotatedBy user:everhoeff .
+nl:id_6452b58726b0e742fe32eea02f8685de2d8f4486 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jesus enters Jerusalem" ] .
+nl:id_6452b58726b0e742fe32eea02f8685de2d8f4486 oa:hasTarget ubvu:print-218010001813 .
+nl:id_6452b58726b0e742fe32eea02f8685de2d8f4486 oa:motivatedBy oa:tagging .
+
+nl:id_8f5bb532a8d48520b5c49692ebca31195d86dc81 a oa:Annotation .
+nl:id_8f5bb532a8d48520b5c49692ebca31195d86dc81 terms:title "De intocht in Jeruzalem." .
+nl:id_8f5bb532a8d48520b5c49692ebca31195d86dc81 ui:annotationField bible:ICBibleTheme .
+nl:id_8f5bb532a8d48520b5c49692ebca31195d86dc81 ui:typingTime 0 .
+nl:id_8f5bb532a8d48520b5c49692ebca31195d86dc81 oa:annotatedAt "2016-08-03T16:53:21+02:00"^^xsd:dateTime .
+nl:id_8f5bb532a8d48520b5c49692ebca31195d86dc81 oa:annotatedBy user:paulinevandijk .
+nl:id_8f5bb532a8d48520b5c49692ebca31195d86dc81 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "De intocht in Jeruzalem." ] .
+nl:id_8f5bb532a8d48520b5c49692ebca31195d86dc81 oa:hasTarget ubvu:print-218010001813 .
+nl:id_8f5bb532a8d48520b5c49692ebca31195d86dc81 oa:motivatedBy oa:tagging .
+
+nl:id_b91cc407900c10f1f7375667702f9c4b1191a438 a oa:Annotation .
+nl:id_b91cc407900c10f1f7375667702f9c4b1191a438 terms:title "Jesus" .
+nl:id_b91cc407900c10f1f7375667702f9c4b1191a438 ui:annotationField bible:BibleCharacter .
+nl:id_b91cc407900c10f1f7375667702f9c4b1191a438 ui:typingTime 0 .
+nl:id_b91cc407900c10f1f7375667702f9c4b1191a438 oa:annotatedAt "2016-05-05T12:14:27+02:00"^^xsd:dateTime .
+nl:id_b91cc407900c10f1f7375667702f9c4b1191a438 oa:annotatedBy user:everhoeff .
+nl:id_b91cc407900c10f1f7375667702f9c4b1191a438 oa:hasBody resource:Jesus .
+nl:id_b91cc407900c10f1f7375667702f9c4b1191a438 oa:hasTarget target:target_8fe6f769c22cca228d0407b818d049c35fcca334 .
+nl:id_b91cc407900c10f1f7375667702f9c4b1191a438 oa:hasTarget ubvu:print-218010001813 .
+nl:id_b91cc407900c10f1f7375667702f9c4b1191a438 oa:motivatedBy oa:tagging .
+
+target:selector_8fe6f769c22cca228d0407b818d049c35fcca334 a oa:FragmentSelector .
+target:selector_8fe6f769c22cca228d0407b818d049c35fcca334 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_8fe6f769c22cca228d0407b818d049c35fcca334 ui:h "0.158992180712424"^^xsd:float .
+target:selector_8fe6f769c22cca228d0407b818d049c35fcca334 ui:w "0.20933333333333334"^^xsd:float .
+target:selector_8fe6f769c22cca228d0407b818d049c35fcca334 ui:x "0.35733333333333334"^^xsd:float .
+target:selector_8fe6f769c22cca228d0407b818d049c35fcca334 ui:y "0.4309296264118158"^^xsd:float .
+target:selector_8fe6f769c22cca228d0407b818d049c35fcca334 rdf:value "#xywh=percent:36,43,21,16" .
+
+target:target_8fe6f769c22cca228d0407b818d049c35fcca334 a oa:SpecificResource .
+target:target_8fe6f769c22cca228d0407b818d049c35fcca334 oa:hasSelector target:selector_8fe6f769c22cca228d0407b818d049c35fcca334 .
+target:target_8fe6f769c22cca228d0407b818d049c35fcca334 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/852> .

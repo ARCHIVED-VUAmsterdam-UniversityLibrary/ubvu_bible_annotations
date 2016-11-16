@@ -1,17 +1,41 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_2f370f3534c4fbbfaa538aaeed94664bc34b393d> a oa:Annotation .
-<http://accurator.nl/id_2f370f3534c4fbbfaa538aaeed94664bc34b393d> terms:title "annunciation of Christ's birth to the shepherds (and/or shepherdesses) at night; a host of singing angels in the air" .
-<http://accurator.nl/id_2f370f3534c4fbbfaa538aaeed94664bc34b393d> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
-<http://accurator.nl/id_2f370f3534c4fbbfaa538aaeed94664bc34b393d> ui:typingTime 0 .
-<http://accurator.nl/id_2f370f3534c4fbbfaa538aaeed94664bc34b393d> oa:annotatedAt "2016-04-04T16:17:20+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_2f370f3534c4fbbfaa538aaeed94664bc34b393d> oa:annotatedBy user:hrmurris .
-<http://accurator.nl/id_2f370f3534c4fbbfaa538aaeed94664bc34b393d> oa:hasBody <http://iconclass.org/73B14> .
-<http://accurator.nl/id_2f370f3534c4fbbfaa538aaeed94664bc34b393d> oa:hasTarget ubvu:print-218010001664 .
-<http://accurator.nl/id_2f370f3534c4fbbfaa538aaeed94664bc34b393d> oa:motivatedBy oa:tagging .
+nl:id_131fb7a69ee323ca2adf71ad538193015575a192 a oa:Annotation .
+nl:id_131fb7a69ee323ca2adf71ad538193015575a192 terms:title "The annonciation of the birthe of Jesus" .
+nl:id_131fb7a69ee323ca2adf71ad538193015575a192 ui:annotationField bible:ICBibleTheme .
+nl:id_131fb7a69ee323ca2adf71ad538193015575a192 ui:typingTime 0 .
+nl:id_131fb7a69ee323ca2adf71ad538193015575a192 oa:annotatedAt "2016-06-12T11:24:40+02:00"^^xsd:dateTime .
+nl:id_131fb7a69ee323ca2adf71ad538193015575a192 oa:annotatedBy user:everhoeff .
+nl:id_131fb7a69ee323ca2adf71ad538193015575a192 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The annonciation of the birthe of Jesus" ] .
+nl:id_131fb7a69ee323ca2adf71ad538193015575a192 oa:hasTarget ubvu:print-218010001664 .
+nl:id_131fb7a69ee323ca2adf71ad538193015575a192 oa:motivatedBy oa:tagging .
+
+nl:id_2f370f3534c4fbbfaa538aaeed94664bc34b393d a oa:Annotation .
+nl:id_2f370f3534c4fbbfaa538aaeed94664bc34b393d terms:title "annunciation of Christ's birth to the shepherds (and/or shepherdesses) at night; a host of singing angels in the air" .
+nl:id_2f370f3534c4fbbfaa538aaeed94664bc34b393d ui:annotationField bible:ICBibleTheme .
+nl:id_2f370f3534c4fbbfaa538aaeed94664bc34b393d ui:typingTime 0 .
+nl:id_2f370f3534c4fbbfaa538aaeed94664bc34b393d oa:annotatedAt "2016-04-04T16:17:20+02:00"^^xsd:dateTime .
+nl:id_2f370f3534c4fbbfaa538aaeed94664bc34b393d oa:annotatedBy user:hrmurris .
+nl:id_2f370f3534c4fbbfaa538aaeed94664bc34b393d oa:hasBody <http://iconclass.org/73B14> .
+nl:id_2f370f3534c4fbbfaa538aaeed94664bc34b393d oa:hasTarget ubvu:print-218010001664 .
+nl:id_2f370f3534c4fbbfaa538aaeed94664bc34b393d oa:motivatedBy oa:tagging .
+
+nl:id_6f8f9d28406334825b102f5eb1fb17f7ead049a6 a oa:Annotation .
+nl:id_6f8f9d28406334825b102f5eb1fb17f7ead049a6 terms:title "De aankondiging van de geboorte van Jezus aan de herders" .
+nl:id_6f8f9d28406334825b102f5eb1fb17f7ead049a6 ui:annotationField bible:ICBibleTheme .
+nl:id_6f8f9d28406334825b102f5eb1fb17f7ead049a6 ui:typingTime 0 .
+nl:id_6f8f9d28406334825b102f5eb1fb17f7ead049a6 oa:annotatedAt "2016-06-08T13:52:22+02:00"^^xsd:dateTime .
+nl:id_6f8f9d28406334825b102f5eb1fb17f7ead049a6 oa:annotatedBy user:paulinevandijk .
+nl:id_6f8f9d28406334825b102f5eb1fb17f7ead049a6 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "De aankondiging van de geboorte van Jezus aan de herders" ] .
+nl:id_6f8f9d28406334825b102f5eb1fb17f7ead049a6 oa:hasTarget ubvu:print-218010001664 .
+nl:id_6f8f9d28406334825b102f5eb1fb17f7ead049a6 oa:motivatedBy oa:tagging .

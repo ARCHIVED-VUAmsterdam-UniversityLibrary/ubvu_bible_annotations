@@ -7,39 +7,50 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
-nl:id_c77c3252290daa91a35cd164b10854d70f0bf11d a oa:Annotation .
-nl:id_c77c3252290daa91a35cd164b10854d70f0bf11d terms:title "Salomo" .
-nl:id_c77c3252290daa91a35cd164b10854d70f0bf11d ui:annotationField bible:BibleCharacter .
-nl:id_c77c3252290daa91a35cd164b10854d70f0bf11d ui:typingTime 0 .
-nl:id_c77c3252290daa91a35cd164b10854d70f0bf11d oa:annotatedAt "2016-04-24T14:35:15+02:00"^^xsd:dateTime .
-nl:id_c77c3252290daa91a35cd164b10854d70f0bf11d oa:annotatedBy user:paulinevandijk .
-nl:id_c77c3252290daa91a35cd164b10854d70f0bf11d oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Salomo" ] .
-nl:id_c77c3252290daa91a35cd164b10854d70f0bf11d oa:hasTarget target:target_89f2715ebbe4447a84f2717a7da1588cd7ba2f31 .
-nl:id_c77c3252290daa91a35cd164b10854d70f0bf11d oa:hasTarget ubvu:print-218010001501 .
-nl:id_c77c3252290daa91a35cd164b10854d70f0bf11d oa:motivatedBy oa:tagging .
+nl:id_4c9352dd57abcb3db4d8bcd1984c2fcc98f2758a a oa:Annotation .
+nl:id_4c9352dd57abcb3db4d8bcd1984c2fcc98f2758a terms:title "Oordeel van Salomo over het dode kind" .
+nl:id_4c9352dd57abcb3db4d8bcd1984c2fcc98f2758a ui:annotationField bible:ICBibleTheme .
+nl:id_4c9352dd57abcb3db4d8bcd1984c2fcc98f2758a ui:typingTime 0 .
+nl:id_4c9352dd57abcb3db4d8bcd1984c2fcc98f2758a oa:annotatedAt "2016-06-07T14:35:47+02:00"^^xsd:dateTime .
+nl:id_4c9352dd57abcb3db4d8bcd1984c2fcc98f2758a oa:annotatedBy user:paulinevandijk .
+nl:id_4c9352dd57abcb3db4d8bcd1984c2fcc98f2758a oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Oordeel van Salomo over het dode kind" ] .
+nl:id_4c9352dd57abcb3db4d8bcd1984c2fcc98f2758a oa:hasTarget ubvu:print-218010001501 .
+nl:id_4c9352dd57abcb3db4d8bcd1984c2fcc98f2758a oa:motivatedBy oa:tagging .
 
-nl:id_dfbb2c6dd6a90007bc3d123e8f74fcf0f5aae837 a oa:Annotation .
-nl:id_dfbb2c6dd6a90007bc3d123e8f74fcf0f5aae837 terms:title "Salomo geeft opdracht het kind in tweeën te hakken" .
-nl:id_dfbb2c6dd6a90007bc3d123e8f74fcf0f5aae837 ui:annotationField bible:ICBibleTheme .
-nl:id_dfbb2c6dd6a90007bc3d123e8f74fcf0f5aae837 ui:typingTime 0 .
-nl:id_dfbb2c6dd6a90007bc3d123e8f74fcf0f5aae837 oa:annotatedAt "2016-04-24T14:36:08+02:00"^^xsd:dateTime .
-nl:id_dfbb2c6dd6a90007bc3d123e8f74fcf0f5aae837 oa:annotatedBy user:paulinevandijk .
-nl:id_dfbb2c6dd6a90007bc3d123e8f74fcf0f5aae837 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Salomo geeft opdracht het kind in tweeën te hakken" ] .
-nl:id_dfbb2c6dd6a90007bc3d123e8f74fcf0f5aae837 oa:hasTarget ubvu:print-218010001501 .
-nl:id_dfbb2c6dd6a90007bc3d123e8f74fcf0f5aae837 oa:motivatedBy oa:tagging .
+nl:id_a730f4e0ac72ef1ea17a546ca9f4daf68117dea7 a oa:Annotation .
+nl:id_a730f4e0ac72ef1ea17a546ca9f4daf68117dea7 terms:title "-" .
+nl:id_a730f4e0ac72ef1ea17a546ca9f4daf68117dea7 ui:annotationField bible:ICBibleTheme .
+nl:id_a730f4e0ac72ef1ea17a546ca9f4daf68117dea7 ui:typingTime 0 .
+nl:id_a730f4e0ac72ef1ea17a546ca9f4daf68117dea7 oa:annotatedAt "2016-05-05T12:33:45+02:00"^^xsd:dateTime .
+nl:id_a730f4e0ac72ef1ea17a546ca9f4daf68117dea7 oa:annotatedBy user:everhoeff .
+nl:id_a730f4e0ac72ef1ea17a546ca9f4daf68117dea7 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "-" ] .
+nl:id_a730f4e0ac72ef1ea17a546ca9f4daf68117dea7 oa:hasTarget ubvu:print-218010001501 .
+nl:id_a730f4e0ac72ef1ea17a546ca9f4daf68117dea7 oa:motivatedBy oa:tagging .
 
-target:selector_89f2715ebbe4447a84f2717a7da1588cd7ba2f31 a oa:FragmentSelector .
-target:selector_89f2715ebbe4447a84f2717a7da1588cd7ba2f31 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
-target:selector_89f2715ebbe4447a84f2717a7da1588cd7ba2f31 ui:h "0.07457386363636363"^^xsd:float .
-target:selector_89f2715ebbe4447a84f2717a7da1588cd7ba2f31 ui:w "0.058762886597938144"^^xsd:float .
-target:selector_89f2715ebbe4447a84f2717a7da1588cd7ba2f31 ui:x "0.1515463917525773"^^xsd:float .
-target:selector_89f2715ebbe4447a84f2717a7da1588cd7ba2f31 ui:y "0.4609375"^^xsd:float .
-target:selector_89f2715ebbe4447a84f2717a7da1588cd7ba2f31 rdf:value "#xywh=percent:15,46,6,7" .
+nl:id_f2c3ddae3ab41275e3b2ddc3a0fa82f836a24a7f a oa:Annotation .
+nl:id_f2c3ddae3ab41275e3b2ddc3a0fa82f836a24a7f terms:title "Salomo" .
+nl:id_f2c3ddae3ab41275e3b2ddc3a0fa82f836a24a7f ui:annotationField bible:BibleCharacter .
+nl:id_f2c3ddae3ab41275e3b2ddc3a0fa82f836a24a7f ui:typingTime 0 .
+nl:id_f2c3ddae3ab41275e3b2ddc3a0fa82f836a24a7f oa:annotatedAt "2016-06-07T14:35:32+02:00"^^xsd:dateTime .
+nl:id_f2c3ddae3ab41275e3b2ddc3a0fa82f836a24a7f oa:annotatedBy user:paulinevandijk .
+nl:id_f2c3ddae3ab41275e3b2ddc3a0fa82f836a24a7f oa:hasBody resource:Solomon .
+nl:id_f2c3ddae3ab41275e3b2ddc3a0fa82f836a24a7f oa:hasTarget target:target_057e4e2d6cff7f9e929b1abf82df6f5857369579 .
+nl:id_f2c3ddae3ab41275e3b2ddc3a0fa82f836a24a7f oa:hasTarget ubvu:print-218010001501 .
+nl:id_f2c3ddae3ab41275e3b2ddc3a0fa82f836a24a7f oa:motivatedBy oa:tagging .
 
-target:target_89f2715ebbe4447a84f2717a7da1588cd7ba2f31 a oa:SpecificResource .
-target:target_89f2715ebbe4447a84f2717a7da1588cd7ba2f31 oa:hasSelector target:selector_89f2715ebbe4447a84f2717a7da1588cd7ba2f31 .
-target:target_89f2715ebbe4447a84f2717a7da1588cd7ba2f31 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/542> .
+target:selector_057e4e2d6cff7f9e929b1abf82df6f5857369579 a oa:FragmentSelector .
+target:selector_057e4e2d6cff7f9e929b1abf82df6f5857369579 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_057e4e2d6cff7f9e929b1abf82df6f5857369579 ui:h "0.07954545454545454"^^xsd:float .
+target:selector_057e4e2d6cff7f9e929b1abf82df6f5857369579 ui:w "0.05567010309278351"^^xsd:float .
+target:selector_057e4e2d6cff7f9e929b1abf82df6f5857369579 ui:x "0.1515463917525773"^^xsd:float .
+target:selector_057e4e2d6cff7f9e929b1abf82df6f5857369579 ui:y "0.46235795454545453"^^xsd:float .
+target:selector_057e4e2d6cff7f9e929b1abf82df6f5857369579 rdf:value "#xywh=percent:15,46,6,8" .
+
+target:target_057e4e2d6cff7f9e929b1abf82df6f5857369579 a oa:SpecificResource .
+target:target_057e4e2d6cff7f9e929b1abf82df6f5857369579 oa:hasSelector target:selector_057e4e2d6cff7f9e929b1abf82df6f5857369579 .
+target:target_057e4e2d6cff7f9e929b1abf82df6f5857369579 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/542> .

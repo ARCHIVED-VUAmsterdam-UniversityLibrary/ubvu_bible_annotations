@@ -4,14 +4,41 @@
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_ec9a67f4f41edf8d21769e5e4090c9ba9c33dac2> a oa:Annotation .
-<http://accurator.nl/id_ec9a67f4f41edf8d21769e5e4090c9ba9c33dac2> terms:title "Jonah is sent by God to Nineveh to preach to its sinful citizens" .
-<http://accurator.nl/id_ec9a67f4f41edf8d21769e5e4090c9ba9c33dac2> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
-<http://accurator.nl/id_ec9a67f4f41edf8d21769e5e4090c9ba9c33dac2> ui:typingTime 0 .
-<http://accurator.nl/id_ec9a67f4f41edf8d21769e5e4090c9ba9c33dac2> oa:annotatedAt "2016-04-09T17:35:36+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_ec9a67f4f41edf8d21769e5e4090c9ba9c33dac2> oa:annotatedBy user:everhoeff .
-<http://accurator.nl/id_ec9a67f4f41edf8d21769e5e4090c9ba9c33dac2> oa:hasBody <http://iconclass.org/71V11> .
-<http://accurator.nl/id_ec9a67f4f41edf8d21769e5e4090c9ba9c33dac2> oa:hasTarget ubvu:print-218010001597 .
-<http://accurator.nl/id_ec9a67f4f41edf8d21769e5e4090c9ba9c33dac2> oa:motivatedBy oa:tagging .
+nl:id_b6df988350ca2b2ca29c288e510d283bedfcf797 a oa:Annotation .
+nl:id_b6df988350ca2b2ca29c288e510d283bedfcf797 terms:title "Jona" .
+nl:id_b6df988350ca2b2ca29c288e510d283bedfcf797 ui:annotationField bible:BibleCharacter .
+nl:id_b6df988350ca2b2ca29c288e510d283bedfcf797 ui:typingTime 0 .
+nl:id_b6df988350ca2b2ca29c288e510d283bedfcf797 oa:annotatedAt "2016-06-18T14:33:09+02:00"^^xsd:dateTime .
+nl:id_b6df988350ca2b2ca29c288e510d283bedfcf797 oa:annotatedBy user:paulinevandijk .
+nl:id_b6df988350ca2b2ca29c288e510d283bedfcf797 oa:hasBody resource:Jonah .
+nl:id_b6df988350ca2b2ca29c288e510d283bedfcf797 oa:hasTarget target:target_8d42bb0937198125e86905889a4387db83c33cf7 .
+nl:id_b6df988350ca2b2ca29c288e510d283bedfcf797 oa:hasTarget ubvu:print-218010001597 .
+nl:id_b6df988350ca2b2ca29c288e510d283bedfcf797 oa:motivatedBy oa:tagging .
+
+nl:id_ec9a67f4f41edf8d21769e5e4090c9ba9c33dac2 a oa:Annotation .
+nl:id_ec9a67f4f41edf8d21769e5e4090c9ba9c33dac2 terms:title "Jonah is sent by God to Nineveh to preach to its sinful citizens" .
+nl:id_ec9a67f4f41edf8d21769e5e4090c9ba9c33dac2 ui:annotationField bible:ICBibleTheme .
+nl:id_ec9a67f4f41edf8d21769e5e4090c9ba9c33dac2 ui:typingTime 0 .
+nl:id_ec9a67f4f41edf8d21769e5e4090c9ba9c33dac2 oa:annotatedAt "2016-04-09T17:35:36+02:00"^^xsd:dateTime .
+nl:id_ec9a67f4f41edf8d21769e5e4090c9ba9c33dac2 oa:annotatedBy user:everhoeff .
+nl:id_ec9a67f4f41edf8d21769e5e4090c9ba9c33dac2 oa:hasBody <http://iconclass.org/71V11> .
+nl:id_ec9a67f4f41edf8d21769e5e4090c9ba9c33dac2 oa:hasTarget ubvu:print-218010001597 .
+nl:id_ec9a67f4f41edf8d21769e5e4090c9ba9c33dac2 oa:motivatedBy oa:tagging .
+
+target:selector_8d42bb0937198125e86905889a4387db83c33cf7 a oa:FragmentSelector .
+target:selector_8d42bb0937198125e86905889a4387db83c33cf7 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_8d42bb0937198125e86905889a4387db83c33cf7 ui:h "0.13568129330254042"^^xsd:float .
+target:selector_8d42bb0937198125e86905889a4387db83c33cf7 ui:w "0.11623931623931624"^^xsd:float .
+target:selector_8d42bb0937198125e86905889a4387db83c33cf7 ui:x "0.4111111111111111"^^xsd:float .
+target:selector_8d42bb0937198125e86905889a4387db83c33cf7 ui:y "0.14491916859122403"^^xsd:float .
+target:selector_8d42bb0937198125e86905889a4387db83c33cf7 rdf:value "#xywh=percent:41,14,12,14" .
+
+target:target_8d42bb0937198125e86905889a4387db83c33cf7 a oa:SpecificResource .
+target:target_8d42bb0937198125e86905889a4387db83c33cf7 oa:hasSelector target:selector_8d42bb0937198125e86905889a4387db83c33cf7 .
+target:target_8d42bb0937198125e86905889a4387db83c33cf7 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/638> .

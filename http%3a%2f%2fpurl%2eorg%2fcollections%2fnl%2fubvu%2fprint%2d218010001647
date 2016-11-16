@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -6,6 +7,7 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
@@ -20,6 +22,17 @@ nl:id_4115ff888f9ec2c4949e570f4688bf2d840d76a9 oa:hasBody <http://iconclass.org/
 nl:id_4115ff888f9ec2c4949e570f4688bf2d840d76a9 oa:hasTarget ubvu:print-218010001647 .
 nl:id_4115ff888f9ec2c4949e570f4688bf2d840d76a9 oa:motivatedBy oa:tagging .
 
+nl:id_643f3695c9b1304e30b6b5677ed187da324fed6e a oa:Annotation .
+nl:id_643f3695c9b1304e30b6b5677ed187da324fed6e terms:title "Angle" .
+nl:id_643f3695c9b1304e30b6b5677ed187da324fed6e ui:annotationField bible:BibleCharacter .
+nl:id_643f3695c9b1304e30b6b5677ed187da324fed6e ui:typingTime 0 .
+nl:id_643f3695c9b1304e30b6b5677ed187da324fed6e oa:annotatedAt "2016-05-22T14:56:29+02:00"^^xsd:dateTime .
+nl:id_643f3695c9b1304e30b6b5677ed187da324fed6e oa:annotatedBy user:everhoeff .
+nl:id_643f3695c9b1304e30b6b5677ed187da324fed6e oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Angle" ] .
+nl:id_643f3695c9b1304e30b6b5677ed187da324fed6e oa:hasTarget target:target_43db14c7409ca14f7875eb926f4047df1b5dea04 .
+nl:id_643f3695c9b1304e30b6b5677ed187da324fed6e oa:hasTarget ubvu:print-218010001647 .
+nl:id_643f3695c9b1304e30b6b5677ed187da324fed6e oa:motivatedBy oa:tagging .
+
 nl:id_b0ba69330bfe2656e35be82d166fabec81c7d365 a oa:Annotation .
 nl:id_b0ba69330bfe2656e35be82d166fabec81c7d365 terms:title "tempel" .
 nl:id_b0ba69330bfe2656e35be82d166fabec81c7d365 ui:annotationField bible:ICBibleTheme .
@@ -29,3 +42,48 @@ nl:id_b0ba69330bfe2656e35be82d166fabec81c7d365 oa:annotatedBy user:ana240 .
 nl:id_b0ba69330bfe2656e35be82d166fabec81c7d365 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "tempel" ] .
 nl:id_b0ba69330bfe2656e35be82d166fabec81c7d365 oa:hasTarget ubvu:print-218010001647 .
 nl:id_b0ba69330bfe2656e35be82d166fabec81c7d365 oa:motivatedBy oa:tagging .
+
+nl:id_e6648595f0d1c2a10fbfb5ff09824aba664575be a oa:Annotation .
+nl:id_e6648595f0d1c2a10fbfb5ff09824aba664575be terms:title "Zacharias" .
+nl:id_e6648595f0d1c2a10fbfb5ff09824aba664575be ui:annotationField bible:BibleCharacter .
+nl:id_e6648595f0d1c2a10fbfb5ff09824aba664575be ui:typingTime 0 .
+nl:id_e6648595f0d1c2a10fbfb5ff09824aba664575be oa:annotatedAt "2016-05-22T14:55:58+02:00"^^xsd:dateTime .
+nl:id_e6648595f0d1c2a10fbfb5ff09824aba664575be oa:annotatedBy user:everhoeff .
+nl:id_e6648595f0d1c2a10fbfb5ff09824aba664575be oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Zacharias" ] .
+nl:id_e6648595f0d1c2a10fbfb5ff09824aba664575be oa:hasTarget target:target_3fb8a052d9469ad35a0e7872ef4976d27fcdc4e3 .
+nl:id_e6648595f0d1c2a10fbfb5ff09824aba664575be oa:hasTarget ubvu:print-218010001647 .
+nl:id_e6648595f0d1c2a10fbfb5ff09824aba664575be oa:motivatedBy oa:tagging .
+
+nl:id_fd606f753966852e950a1e0e2b5781083c1bc685 a oa:Annotation .
+nl:id_fd606f753966852e950a1e0e2b5781083c1bc685 terms:title "annunciation of the birth of John the Baptist to Zacharias: while he is offering incense in the temple an angel (Gabriel) appears to him" .
+nl:id_fd606f753966852e950a1e0e2b5781083c1bc685 ui:annotationField bible:ICBibleTheme .
+nl:id_fd606f753966852e950a1e0e2b5781083c1bc685 ui:typingTime 0 .
+nl:id_fd606f753966852e950a1e0e2b5781083c1bc685 oa:annotatedAt "2016-05-22T14:55:39+02:00"^^xsd:dateTime .
+nl:id_fd606f753966852e950a1e0e2b5781083c1bc685 oa:annotatedBy user:everhoeff .
+nl:id_fd606f753966852e950a1e0e2b5781083c1bc685 oa:hasBody <http://iconclass.org/73A11> .
+nl:id_fd606f753966852e950a1e0e2b5781083c1bc685 oa:hasTarget ubvu:print-218010001647 .
+nl:id_fd606f753966852e950a1e0e2b5781083c1bc685 oa:motivatedBy oa:tagging .
+
+target:selector_3fb8a052d9469ad35a0e7872ef4976d27fcdc4e3 a oa:FragmentSelector .
+target:selector_3fb8a052d9469ad35a0e7872ef4976d27fcdc4e3 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_3fb8a052d9469ad35a0e7872ef4976d27fcdc4e3 ui:h "0.3487544483985765"^^xsd:float .
+target:selector_3fb8a052d9469ad35a0e7872ef4976d27fcdc4e3 ui:w "0.2613333333333333"^^xsd:float .
+target:selector_3fb8a052d9469ad35a0e7872ef4976d27fcdc4e3 ui:x "0.037333333333333336"^^xsd:float .
+target:selector_3fb8a052d9469ad35a0e7872ef4976d27fcdc4e3 ui:y "0.2998220640569395"^^xsd:float .
+target:selector_3fb8a052d9469ad35a0e7872ef4976d27fcdc4e3 rdf:value "#xywh=percent:4,30,26,35" .
+
+target:selector_43db14c7409ca14f7875eb926f4047df1b5dea04 a oa:FragmentSelector .
+target:selector_43db14c7409ca14f7875eb926f4047df1b5dea04 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_43db14c7409ca14f7875eb926f4047df1b5dea04 ui:h "0.351423487544484"^^xsd:float .
+target:selector_43db14c7409ca14f7875eb926f4047df1b5dea04 ui:w "0.27466666666666667"^^xsd:float .
+target:selector_43db14c7409ca14f7875eb926f4047df1b5dea04 ui:x "0.392"^^xsd:float .
+target:selector_43db14c7409ca14f7875eb926f4047df1b5dea04 ui:y "0.30338078291814946"^^xsd:float .
+target:selector_43db14c7409ca14f7875eb926f4047df1b5dea04 rdf:value "#xywh=percent:39,30,27,35" .
+
+target:target_3fb8a052d9469ad35a0e7872ef4976d27fcdc4e3 a oa:SpecificResource .
+target:target_3fb8a052d9469ad35a0e7872ef4976d27fcdc4e3 oa:hasSelector target:selector_3fb8a052d9469ad35a0e7872ef4976d27fcdc4e3 .
+target:target_3fb8a052d9469ad35a0e7872ef4976d27fcdc4e3 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/686> .
+
+target:target_43db14c7409ca14f7875eb926f4047df1b5dea04 a oa:SpecificResource .
+target:target_43db14c7409ca14f7875eb926f4047df1b5dea04 oa:hasSelector target:selector_43db14c7409ca14f7875eb926f4047df1b5dea04 .
+target:target_43db14c7409ca14f7875eb926f4047df1b5dea04 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/686> .

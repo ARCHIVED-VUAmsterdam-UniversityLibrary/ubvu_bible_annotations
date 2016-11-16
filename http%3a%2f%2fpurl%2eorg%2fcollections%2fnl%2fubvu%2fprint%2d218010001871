@@ -24,6 +24,27 @@ nl:id_32cd19d3743b642e27d4660ec5587574ac163eb2 oa:hasTarget target:target_159a03
 nl:id_32cd19d3743b642e27d4660ec5587574ac163eb2 oa:hasTarget ubvu:print-218010001871 .
 nl:id_32cd19d3743b642e27d4660ec5587574ac163eb2 oa:motivatedBy oa:tagging .
 
+nl:id_33c6d08b17fb5f96f1550fa57349cfcfebb427c0 a oa:Annotation .
+nl:id_33c6d08b17fb5f96f1550fa57349cfcfebb427c0 terms:title "Christ" .
+nl:id_33c6d08b17fb5f96f1550fa57349cfcfebb427c0 ui:annotationField bible:BibleCharacter .
+nl:id_33c6d08b17fb5f96f1550fa57349cfcfebb427c0 ui:typingTime 0 .
+nl:id_33c6d08b17fb5f96f1550fa57349cfcfebb427c0 oa:annotatedAt "2016-05-23T14:52:31+02:00"^^xsd:dateTime .
+nl:id_33c6d08b17fb5f96f1550fa57349cfcfebb427c0 oa:annotatedBy user:everhoeff .
+nl:id_33c6d08b17fb5f96f1550fa57349cfcfebb427c0 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Christ" ] .
+nl:id_33c6d08b17fb5f96f1550fa57349cfcfebb427c0 oa:hasTarget target:target_a0787594e0818b6b97e1bd1f0176f88fc22d581a .
+nl:id_33c6d08b17fb5f96f1550fa57349cfcfebb427c0 oa:hasTarget ubvu:print-218010001871 .
+nl:id_33c6d08b17fb5f96f1550fa57349cfcfebb427c0 oa:motivatedBy oa:tagging .
+
+nl:id_a2326a68b294b2ba35b292cf4667b54298545617 a oa:Annotation .
+nl:id_a2326a68b294b2ba35b292cf4667b54298545617 terms:title "The burial of Christ" .
+nl:id_a2326a68b294b2ba35b292cf4667b54298545617 ui:annotationField bible:ICBibleTheme .
+nl:id_a2326a68b294b2ba35b292cf4667b54298545617 ui:typingTime 0 .
+nl:id_a2326a68b294b2ba35b292cf4667b54298545617 oa:annotatedAt "2016-05-23T14:52:11+02:00"^^xsd:dateTime .
+nl:id_a2326a68b294b2ba35b292cf4667b54298545617 oa:annotatedBy user:everhoeff .
+nl:id_a2326a68b294b2ba35b292cf4667b54298545617 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The burial of Christ" ] .
+nl:id_a2326a68b294b2ba35b292cf4667b54298545617 oa:hasTarget ubvu:print-218010001871 .
+nl:id_a2326a68b294b2ba35b292cf4667b54298545617 oa:motivatedBy oa:tagging .
+
 nl:id_ce4d85c3971681fc5d9d738a2101ab94a673bbf7 a oa:Annotation .
 nl:id_ce4d85c3971681fc5d9d738a2101ab94a673bbf7 terms:title "Jezus Christus" .
 nl:id_ce4d85c3971681fc5d9d738a2101ab94a673bbf7 ui:annotationField bible:BibleCharacter .
@@ -73,6 +94,14 @@ target:selector_4431426afd2c9497102b7b2654f5161a783dfeeb ui:x "0.211965811965811
 target:selector_4431426afd2c9497102b7b2654f5161a783dfeeb ui:y "0.30748896661834046"^^xsd:float .
 target:selector_4431426afd2c9497102b7b2654f5161a783dfeeb rdf:value "#xywh=percent:21,31,43,48" .
 
+target:selector_a0787594e0818b6b97e1bd1f0176f88fc22d581a a oa:FragmentSelector .
+target:selector_a0787594e0818b6b97e1bd1f0176f88fc22d581a terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_a0787594e0818b6b97e1bd1f0176f88fc22d581a ui:h "0.22164948453608246"^^xsd:float .
+target:selector_a0787594e0818b6b97e1bd1f0176f88fc22d581a ui:w "0.26266666666666666"^^xsd:float .
+target:selector_a0787594e0818b6b97e1bd1f0176f88fc22d581a ui:x "0.456"^^xsd:float .
+target:selector_a0787594e0818b6b97e1bd1f0176f88fc22d581a ui:y "0.34106529209621994"^^xsd:float .
+target:selector_a0787594e0818b6b97e1bd1f0176f88fc22d581a rdf:value "#xywh=percent:46,34,26,22" .
+
 target:target_159a031d6db9f90dfe044a2a6e2ea6ec556fceae a oa:SpecificResource .
 target:target_159a031d6db9f90dfe044a2a6e2ea6ec556fceae oa:hasSelector target:selector_159a031d6db9f90dfe044a2a6e2ea6ec556fceae .
 target:target_159a031d6db9f90dfe044a2a6e2ea6ec556fceae oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/910> .
@@ -80,3 +109,7 @@ target:target_159a031d6db9f90dfe044a2a6e2ea6ec556fceae oa:hasSource <http://imag
 target:target_4431426afd2c9497102b7b2654f5161a783dfeeb a oa:SpecificResource .
 target:target_4431426afd2c9497102b7b2654f5161a783dfeeb oa:hasSelector target:selector_4431426afd2c9497102b7b2654f5161a783dfeeb .
 target:target_4431426afd2c9497102b7b2654f5161a783dfeeb oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/910> .
+
+target:target_a0787594e0818b6b97e1bd1f0176f88fc22d581a a oa:SpecificResource .
+target:target_a0787594e0818b6b97e1bd1f0176f88fc22d581a oa:hasSelector target:selector_a0787594e0818b6b97e1bd1f0176f88fc22d581a .
+target:target_a0787594e0818b6b97e1bd1f0176f88fc22d581a oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/910> .

@@ -54,6 +54,17 @@ nl:id_28138b0aa704e1c39cc7ae4922966b601a4cbe0e oa:hasBody <http://iconclass.org/
 nl:id_28138b0aa704e1c39cc7ae4922966b601a4cbe0e oa:hasTarget ubvu:print-218010002023 .
 nl:id_28138b0aa704e1c39cc7ae4922966b601a4cbe0e oa:motivatedBy oa:tagging .
 
+nl:id_3847891787abdd0cbbd6005faad29c5e5aae682c a oa:Annotation .
+nl:id_3847891787abdd0cbbd6005faad29c5e5aae682c terms:title "Esther" .
+nl:id_3847891787abdd0cbbd6005faad29c5e5aae682c ui:annotationField bible:BibleCharacter .
+nl:id_3847891787abdd0cbbd6005faad29c5e5aae682c ui:typingTime 0 .
+nl:id_3847891787abdd0cbbd6005faad29c5e5aae682c oa:annotatedAt "2016-06-13T21:32:31+02:00"^^xsd:dateTime .
+nl:id_3847891787abdd0cbbd6005faad29c5e5aae682c oa:annotatedBy user:everhoeff .
+nl:id_3847891787abdd0cbbd6005faad29c5e5aae682c oa:hasBody resource:Esther .
+nl:id_3847891787abdd0cbbd6005faad29c5e5aae682c oa:hasTarget target:target_a753fae9c472b55a373870303a8ec59a9c62148a .
+nl:id_3847891787abdd0cbbd6005faad29c5e5aae682c oa:hasTarget ubvu:print-218010002023 .
+nl:id_3847891787abdd0cbbd6005faad29c5e5aae682c oa:motivatedBy oa:tagging .
+
 nl:id_428ad72f3b2f38ebdd1c7034874719edbd045157 a oa:Annotation .
 nl:id_428ad72f3b2f38ebdd1c7034874719edbd045157 terms:title "Ester" .
 nl:id_428ad72f3b2f38ebdd1c7034874719edbd045157 ui:annotationField bible:BibleCharacter .
@@ -76,6 +87,16 @@ nl:id_5114740becae5ab17c49a0754bf722781b091a7a oa:hasTarget target:target_a00003
 nl:id_5114740becae5ab17c49a0754bf722781b091a7a oa:hasTarget ubvu:print-218010002023 .
 nl:id_5114740becae5ab17c49a0754bf722781b091a7a oa:motivatedBy oa:tagging .
 
+nl:id_764af5316865f65b478e6956ae34d7396be88ba4 a oa:Annotation .
+nl:id_764af5316865f65b478e6956ae34d7396be88ba4 terms:title "Esther crowned by Ahasuerus" .
+nl:id_764af5316865f65b478e6956ae34d7396be88ba4 ui:annotationField bible:ICBibleTheme .
+nl:id_764af5316865f65b478e6956ae34d7396be88ba4 ui:typingTime 0 .
+nl:id_764af5316865f65b478e6956ae34d7396be88ba4 oa:annotatedAt "2016-06-13T21:30:21+02:00"^^xsd:dateTime .
+nl:id_764af5316865f65b478e6956ae34d7396be88ba4 oa:annotatedBy user:everhoeff .
+nl:id_764af5316865f65b478e6956ae34d7396be88ba4 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Esther crowned by Ahasuerus" ] .
+nl:id_764af5316865f65b478e6956ae34d7396be88ba4 oa:hasTarget ubvu:print-218010002023 .
+nl:id_764af5316865f65b478e6956ae34d7396be88ba4 oa:motivatedBy oa:tagging .
+
 nl:id_787ede9c993887518263a200155f1303c047cabf a oa:Annotation .
 nl:id_787ede9c993887518263a200155f1303c047cabf terms:title "Mordecai rends his clothes, covers himself with sackcloth and ashes, walks through the city wailing bitterly, and stops before the palace entrance" .
 nl:id_787ede9c993887518263a200155f1303c047cabf ui:annotationField bible:ICBibleTheme .
@@ -85,6 +106,17 @@ nl:id_787ede9c993887518263a200155f1303c047cabf oa:annotatedBy user:hogguer .
 nl:id_787ede9c993887518263a200155f1303c047cabf oa:hasBody <http://iconclass.org/71Q51> .
 nl:id_787ede9c993887518263a200155f1303c047cabf oa:hasTarget ubvu:print-218010002023 .
 nl:id_787ede9c993887518263a200155f1303c047cabf oa:motivatedBy oa:tagging .
+
+nl:id_a7ab761f412ac8ff9dd50ec6a6add0236332e8c2 a oa:Annotation .
+nl:id_a7ab761f412ac8ff9dd50ec6a6add0236332e8c2 terms:title "Mordecai" .
+nl:id_a7ab761f412ac8ff9dd50ec6a6add0236332e8c2 ui:annotationField bible:BibleCharacter .
+nl:id_a7ab761f412ac8ff9dd50ec6a6add0236332e8c2 ui:typingTime 0 .
+nl:id_a7ab761f412ac8ff9dd50ec6a6add0236332e8c2 oa:annotatedAt "2016-06-13T21:31:47+02:00"^^xsd:dateTime .
+nl:id_a7ab761f412ac8ff9dd50ec6a6add0236332e8c2 oa:annotatedBy user:everhoeff .
+nl:id_a7ab761f412ac8ff9dd50ec6a6add0236332e8c2 oa:hasBody resource:Mordecai .
+nl:id_a7ab761f412ac8ff9dd50ec6a6add0236332e8c2 oa:hasTarget target:target_2d41044ae14cf759176534addd296d5815f75a83 .
+nl:id_a7ab761f412ac8ff9dd50ec6a6add0236332e8c2 oa:hasTarget ubvu:print-218010002023 .
+nl:id_a7ab761f412ac8ff9dd50ec6a6add0236332e8c2 oa:motivatedBy oa:tagging .
 
 nl:id_b62c7c4f7776b8dd06c4c751c71083b63211ae5b a oa:Annotation .
 nl:id_b62c7c4f7776b8dd06c4c751c71083b63211ae5b terms:title "Ester, Ahasveos en beloning van Mordechai (Esther div teksten)" .
@@ -96,6 +128,17 @@ nl:id_b62c7c4f7776b8dd06c4c751c71083b63211ae5b oa:hasBody [ a content:ContentAsT
 nl:id_b62c7c4f7776b8dd06c4c751c71083b63211ae5b oa:hasTarget ubvu:print-218010002023 .
 nl:id_b62c7c4f7776b8dd06c4c751c71083b63211ae5b oa:motivatedBy oa:tagging .
 
+nl:id_bf52e03e1977bc34b3318068639cc421c2084e48 a oa:Annotation .
+nl:id_bf52e03e1977bc34b3318068639cc421c2084e48 terms:title "Ahasuerus" .
+nl:id_bf52e03e1977bc34b3318068639cc421c2084e48 ui:annotationField bible:BibleCharacter .
+nl:id_bf52e03e1977bc34b3318068639cc421c2084e48 ui:typingTime 0 .
+nl:id_bf52e03e1977bc34b3318068639cc421c2084e48 oa:annotatedAt "2016-06-13T21:32:16+02:00"^^xsd:dateTime .
+nl:id_bf52e03e1977bc34b3318068639cc421c2084e48 oa:annotatedBy user:everhoeff .
+nl:id_bf52e03e1977bc34b3318068639cc421c2084e48 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Ahasuerus" ] .
+nl:id_bf52e03e1977bc34b3318068639cc421c2084e48 oa:hasTarget target:target_facd47b8307c68c20c135bfc2d99ccefbbd72c60 .
+nl:id_bf52e03e1977bc34b3318068639cc421c2084e48 oa:hasTarget ubvu:print-218010002023 .
+nl:id_bf52e03e1977bc34b3318068639cc421c2084e48 oa:motivatedBy oa:tagging .
+
 nl:id_bfcb1b20e17d2269deb400a5e0ba601a8dce229d a oa:Annotation .
 nl:id_bfcb1b20e17d2269deb400a5e0ba601a8dce229d terms:title "Ahasveros (koning van Perzië)" .
 nl:id_bfcb1b20e17d2269deb400a5e0ba601a8dce229d ui:annotationField bible:BibleCharacter .
@@ -106,6 +149,16 @@ nl:id_bfcb1b20e17d2269deb400a5e0ba601a8dce229d oa:hasBody [ a content:ContentAsT
 nl:id_bfcb1b20e17d2269deb400a5e0ba601a8dce229d oa:hasTarget target:target_9d2b914c8aece07b51eab6cfb3531651d5ec9db6 .
 nl:id_bfcb1b20e17d2269deb400a5e0ba601a8dce229d oa:hasTarget ubvu:print-218010002023 .
 nl:id_bfcb1b20e17d2269deb400a5e0ba601a8dce229d oa:motivatedBy oa:tagging .
+
+nl:id_c6518e5559e061ea494eef799b3487db0abf7c9f a oa:Annotation .
+nl:id_c6518e5559e061ea494eef799b3487db0abf7c9f terms:title "Mordecai on a horseback" .
+nl:id_c6518e5559e061ea494eef799b3487db0abf7c9f ui:annotationField bible:ICBibleTheme .
+nl:id_c6518e5559e061ea494eef799b3487db0abf7c9f ui:typingTime 0 .
+nl:id_c6518e5559e061ea494eef799b3487db0abf7c9f oa:annotatedAt "2016-06-13T21:31:09+02:00"^^xsd:dateTime .
+nl:id_c6518e5559e061ea494eef799b3487db0abf7c9f oa:annotatedBy user:everhoeff .
+nl:id_c6518e5559e061ea494eef799b3487db0abf7c9f oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Mordecai on a horseback" ] .
+nl:id_c6518e5559e061ea494eef799b3487db0abf7c9f oa:hasTarget ubvu:print-218010002023 .
+nl:id_c6518e5559e061ea494eef799b3487db0abf7c9f oa:motivatedBy oa:tagging .
 
 nl:id_ccf704b904fe06ec7a542b987ac979fafb1e1115 a oa:Annotation .
 nl:id_ccf704b904fe06ec7a542b987ac979fafb1e1115 terms:title "Ahasuerus has the most attractive maidens of his kingdom put into his harem in order to select a new queen from among them ~ story of Esther" .
@@ -136,6 +189,14 @@ target:selector_0c38b39b365292a8e1fc3ef1f91a87b261168a94 ui:x "0.403418803418803
 target:selector_0c38b39b365292a8e1fc3ef1f91a87b261168a94 ui:y "0.22477770106073094"^^xsd:float .
 target:selector_0c38b39b365292a8e1fc3ef1f91a87b261168a94 rdf:value "#xywh=percent:40,22,10,11" .
 
+target:selector_2d41044ae14cf759176534addd296d5815f75a83 a oa:FragmentSelector .
+target:selector_2d41044ae14cf759176534addd296d5815f75a83 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_2d41044ae14cf759176534addd296d5815f75a83 ui:h "0.17453505007153075"^^xsd:float .
+target:selector_2d41044ae14cf759176534addd296d5815f75a83 ui:w "0.15876288659793814"^^xsd:float .
+target:selector_2d41044ae14cf759176534addd296d5815f75a83 ui:x "0.35051546391752575"^^xsd:float .
+target:selector_2d41044ae14cf759176534addd296d5815f75a83 ui:y "0.5271816881258942"^^xsd:float .
+target:selector_2d41044ae14cf759176534addd296d5815f75a83 rdf:value "#xywh=percent:35,53,16,17" .
+
 target:selector_972dbc5f73cadefeda3a2b52dc1c2b046412576a a oa:FragmentSelector .
 target:selector_972dbc5f73cadefeda3a2b52dc1c2b046412576a terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_972dbc5f73cadefeda3a2b52dc1c2b046412576a ui:h "0.1825726141078838"^^xsd:float .
@@ -160,9 +221,29 @@ target:selector_a000034cb171f1294a907962cc4350cdb433dd9f ui:x "0.218803418803418
 target:selector_a000034cb171f1294a907962cc4350cdb433dd9f ui:y "0.5607587433313574"^^xsd:float .
 target:selector_a000034cb171f1294a907962cc4350cdb433dd9f rdf:value "#xywh=percent:22,56,11,20" .
 
+target:selector_a753fae9c472b55a373870303a8ec59a9c62148a a oa:FragmentSelector .
+target:selector_a753fae9c472b55a373870303a8ec59a9c62148a terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_a753fae9c472b55a373870303a8ec59a9c62148a ui:h "0.08869814020028613"^^xsd:float .
+target:selector_a753fae9c472b55a373870303a8ec59a9c62148a ui:w "0.08041237113402062"^^xsd:float .
+target:selector_a753fae9c472b55a373870303a8ec59a9c62148a ui:x "0.4041237113402062"^^xsd:float .
+target:selector_a753fae9c472b55a373870303a8ec59a9c62148a ui:y "0.2224606580829757"^^xsd:float .
+target:selector_a753fae9c472b55a373870303a8ec59a9c62148a rdf:value "#xywh=percent:40,22,8,9" .
+
+target:selector_facd47b8307c68c20c135bfc2d99ccefbbd72c60 a oa:FragmentSelector .
+target:selector_facd47b8307c68c20c135bfc2d99ccefbbd72c60 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_facd47b8307c68c20c135bfc2d99ccefbbd72c60 ui:h "0.11659513590844063"^^xsd:float .
+target:selector_facd47b8307c68c20c135bfc2d99ccefbbd72c60 ui:w "0.09278350515463918"^^xsd:float .
+target:selector_facd47b8307c68c20c135bfc2d99ccefbbd72c60 ui:x "0.3319587628865979"^^xsd:float .
+target:selector_facd47b8307c68c20c135bfc2d99ccefbbd72c60 ui:y "0.1759656652360515"^^xsd:float .
+target:selector_facd47b8307c68c20c135bfc2d99ccefbbd72c60 rdf:value "#xywh=percent:33,18,9,12" .
+
 target:target_0c38b39b365292a8e1fc3ef1f91a87b261168a94 a oa:SpecificResource .
 target:target_0c38b39b365292a8e1fc3ef1f91a87b261168a94 oa:hasSelector target:selector_0c38b39b365292a8e1fc3ef1f91a87b261168a94 .
 target:target_0c38b39b365292a8e1fc3ef1f91a87b261168a94 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/22> .
+
+target:target_2d41044ae14cf759176534addd296d5815f75a83 a oa:SpecificResource .
+target:target_2d41044ae14cf759176534addd296d5815f75a83 oa:hasSelector target:selector_2d41044ae14cf759176534addd296d5815f75a83 .
+target:target_2d41044ae14cf759176534addd296d5815f75a83 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/22> .
 
 target:target_972dbc5f73cadefeda3a2b52dc1c2b046412576a a oa:SpecificResource .
 target:target_972dbc5f73cadefeda3a2b52dc1c2b046412576a oa:hasSelector target:selector_972dbc5f73cadefeda3a2b52dc1c2b046412576a .
@@ -175,3 +256,11 @@ target:target_9d2b914c8aece07b51eab6cfb3531651d5ec9db6 oa:hasSource <http://imag
 target:target_a000034cb171f1294a907962cc4350cdb433dd9f a oa:SpecificResource .
 target:target_a000034cb171f1294a907962cc4350cdb433dd9f oa:hasSelector target:selector_a000034cb171f1294a907962cc4350cdb433dd9f .
 target:target_a000034cb171f1294a907962cc4350cdb433dd9f oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/22> .
+
+target:target_a753fae9c472b55a373870303a8ec59a9c62148a a oa:SpecificResource .
+target:target_a753fae9c472b55a373870303a8ec59a9c62148a oa:hasSelector target:selector_a753fae9c472b55a373870303a8ec59a9c62148a .
+target:target_a753fae9c472b55a373870303a8ec59a9c62148a oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/22> .
+
+target:target_facd47b8307c68c20c135bfc2d99ccefbbd72c60 a oa:SpecificResource .
+target:target_facd47b8307c68c20c135bfc2d99ccefbbd72c60 oa:hasSelector target:selector_facd47b8307c68c20c135bfc2d99ccefbbd72c60 .
+target:target_facd47b8307c68c20c135bfc2d99ccefbbd72c60 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/22> .

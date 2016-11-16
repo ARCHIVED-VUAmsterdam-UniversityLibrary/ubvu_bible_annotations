@@ -7,13 +7,25 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_42308e25bc87fbeb4ba31d39f691a5085be80e26> a oa:Annotation .
-<http://accurator.nl/id_42308e25bc87fbeb4ba31d39f691a5085be80e26> terms:title "Het leger van koning Sanherib verslagen" .
-<http://accurator.nl/id_42308e25bc87fbeb4ba31d39f691a5085be80e26> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
-<http://accurator.nl/id_42308e25bc87fbeb4ba31d39f691a5085be80e26> ui:typingTime 0 .
-<http://accurator.nl/id_42308e25bc87fbeb4ba31d39f691a5085be80e26> oa:annotatedAt "2016-04-25T17:18:06+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_42308e25bc87fbeb4ba31d39f691a5085be80e26> oa:annotatedBy user:paulinevandijk .
-<http://accurator.nl/id_42308e25bc87fbeb4ba31d39f691a5085be80e26> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Het leger van koning Sanherib verslagen" ] .
-<http://accurator.nl/id_42308e25bc87fbeb4ba31d39f691a5085be80e26> oa:hasTarget ubvu:print-218010001529 .
-<http://accurator.nl/id_42308e25bc87fbeb4ba31d39f691a5085be80e26> oa:motivatedBy oa:tagging .
+nl:id_15f65bcdf783c84d50c151f8bdf4ee8d118a094e a oa:Annotation .
+nl:id_15f65bcdf783c84d50c151f8bdf4ee8d118a094e terms:title "Sennacherib's army slain" .
+nl:id_15f65bcdf783c84d50c151f8bdf4ee8d118a094e ui:annotationField bible:ICBibleTheme .
+nl:id_15f65bcdf783c84d50c151f8bdf4ee8d118a094e ui:typingTime 0 .
+nl:id_15f65bcdf783c84d50c151f8bdf4ee8d118a094e oa:annotatedAt "2016-05-05T10:47:51+02:00"^^xsd:dateTime .
+nl:id_15f65bcdf783c84d50c151f8bdf4ee8d118a094e oa:annotatedBy user:everhoeff .
+nl:id_15f65bcdf783c84d50c151f8bdf4ee8d118a094e oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Sennacherib's army slain" ] .
+nl:id_15f65bcdf783c84d50c151f8bdf4ee8d118a094e oa:hasTarget ubvu:print-218010001529 .
+nl:id_15f65bcdf783c84d50c151f8bdf4ee8d118a094e oa:motivatedBy oa:tagging .
+
+nl:id_4e2b7a65a7f8fe707e6f791fe6ae542f00ee25e9 a oa:Annotation .
+nl:id_4e2b7a65a7f8fe707e6f791fe6ae542f00ee25e9 terms:title "Sanheribs leger verslagen." .
+nl:id_4e2b7a65a7f8fe707e6f791fe6ae542f00ee25e9 ui:annotationField bible:ICBibleTheme .
+nl:id_4e2b7a65a7f8fe707e6f791fe6ae542f00ee25e9 ui:typingTime 0 .
+nl:id_4e2b7a65a7f8fe707e6f791fe6ae542f00ee25e9 oa:annotatedAt "2016-06-09T15:11:39+02:00"^^xsd:dateTime .
+nl:id_4e2b7a65a7f8fe707e6f791fe6ae542f00ee25e9 oa:annotatedBy user:paulinevandijk .
+nl:id_4e2b7a65a7f8fe707e6f791fe6ae542f00ee25e9 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Sanheribs leger verslagen." ] .
+nl:id_4e2b7a65a7f8fe707e6f791fe6ae542f00ee25e9 oa:hasTarget ubvu:print-218010001529 .
+nl:id_4e2b7a65a7f8fe707e6f791fe6ae542f00ee25e9 oa:motivatedBy oa:tagging .

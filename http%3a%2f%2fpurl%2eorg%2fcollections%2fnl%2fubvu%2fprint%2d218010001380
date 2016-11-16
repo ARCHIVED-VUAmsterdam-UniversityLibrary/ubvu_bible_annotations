@@ -1,17 +1,41 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_15d6aa0f963fa9e0b1ff177ead41995ef40306ac> a oa:Annotation .
-<http://accurator.nl/id_15d6aa0f963fa9e0b1ff177ead41995ef40306ac> terms:title "pursuit of the Midianites by Gideon's men" .
-<http://accurator.nl/id_15d6aa0f963fa9e0b1ff177ead41995ef40306ac> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
-<http://accurator.nl/id_15d6aa0f963fa9e0b1ff177ead41995ef40306ac> ui:typingTime 0 .
-<http://accurator.nl/id_15d6aa0f963fa9e0b1ff177ead41995ef40306ac> oa:annotatedAt "2016-04-04T16:06:33+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_15d6aa0f963fa9e0b1ff177ead41995ef40306ac> oa:annotatedBy user:spaapen1 .
-<http://accurator.nl/id_15d6aa0f963fa9e0b1ff177ead41995ef40306ac> oa:hasBody <http://iconclass.org/71F2165> .
-<http://accurator.nl/id_15d6aa0f963fa9e0b1ff177ead41995ef40306ac> oa:hasTarget ubvu:print-218010001380 .
-<http://accurator.nl/id_15d6aa0f963fa9e0b1ff177ead41995ef40306ac> oa:motivatedBy oa:tagging .
+nl:id_15d6aa0f963fa9e0b1ff177ead41995ef40306ac a oa:Annotation .
+nl:id_15d6aa0f963fa9e0b1ff177ead41995ef40306ac terms:title "pursuit of the Midianites by Gideon's men" .
+nl:id_15d6aa0f963fa9e0b1ff177ead41995ef40306ac ui:annotationField bible:ICBibleTheme .
+nl:id_15d6aa0f963fa9e0b1ff177ead41995ef40306ac ui:typingTime 0 .
+nl:id_15d6aa0f963fa9e0b1ff177ead41995ef40306ac oa:annotatedAt "2016-04-04T16:06:33+02:00"^^xsd:dateTime .
+nl:id_15d6aa0f963fa9e0b1ff177ead41995ef40306ac oa:annotatedBy user:spaapen1 .
+nl:id_15d6aa0f963fa9e0b1ff177ead41995ef40306ac oa:hasBody <http://iconclass.org/71F2165> .
+nl:id_15d6aa0f963fa9e0b1ff177ead41995ef40306ac oa:hasTarget ubvu:print-218010001380 .
+nl:id_15d6aa0f963fa9e0b1ff177ead41995ef40306ac oa:motivatedBy oa:tagging .
+
+nl:id_34d29cac5821c4c75f4aa6a763b2170864ea4f8d a oa:Annotation .
+nl:id_34d29cac5821c4c75f4aa6a763b2170864ea4f8d terms:title "Gideon overvalt de Midjanieten" .
+nl:id_34d29cac5821c4c75f4aa6a763b2170864ea4f8d ui:annotationField bible:ICBibleTheme .
+nl:id_34d29cac5821c4c75f4aa6a763b2170864ea4f8d ui:typingTime 0 .
+nl:id_34d29cac5821c4c75f4aa6a763b2170864ea4f8d oa:annotatedAt "2016-06-12T19:43:23+02:00"^^xsd:dateTime .
+nl:id_34d29cac5821c4c75f4aa6a763b2170864ea4f8d oa:annotatedBy user:paulinevandijk .
+nl:id_34d29cac5821c4c75f4aa6a763b2170864ea4f8d oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Gideon overvalt de Midjanieten" ] .
+nl:id_34d29cac5821c4c75f4aa6a763b2170864ea4f8d oa:hasTarget ubvu:print-218010001380 .
+nl:id_34d29cac5821c4c75f4aa6a763b2170864ea4f8d oa:motivatedBy oa:tagging .
+
+nl:id_f05553a50a9b1e7de82511ede08e6e58e4c9713f a oa:Annotation .
+nl:id_f05553a50a9b1e7de82511ede08e6e58e4c9713f terms:title "Gideons battle with the Medianites" .
+nl:id_f05553a50a9b1e7de82511ede08e6e58e4c9713f ui:annotationField bible:ICBibleTheme .
+nl:id_f05553a50a9b1e7de82511ede08e6e58e4c9713f ui:typingTime 0 .
+nl:id_f05553a50a9b1e7de82511ede08e6e58e4c9713f oa:annotatedAt "2016-05-22T14:06:43+02:00"^^xsd:dateTime .
+nl:id_f05553a50a9b1e7de82511ede08e6e58e4c9713f oa:annotatedBy user:everhoeff .
+nl:id_f05553a50a9b1e7de82511ede08e6e58e4c9713f oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Gideons battle with the Medianites" ] .
+nl:id_f05553a50a9b1e7de82511ede08e6e58e4c9713f oa:hasTarget ubvu:print-218010001380 .
+nl:id_f05553a50a9b1e7de82511ede08e6e58e4c9713f oa:motivatedBy oa:tagging .

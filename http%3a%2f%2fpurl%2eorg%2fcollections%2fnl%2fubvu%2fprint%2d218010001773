@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -6,14 +7,106 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_4152f4aa3f7275712acc536418f75f9abbb37e89> a oa:Annotation .
-<http://accurator.nl/id_4152f4aa3f7275712acc536418f75f9abbb37e89> terms:title "showing decapited head of John Baptiste to Herode cs " .
-<http://accurator.nl/id_4152f4aa3f7275712acc536418f75f9abbb37e89> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
-<http://accurator.nl/id_4152f4aa3f7275712acc536418f75f9abbb37e89> ui:typingTime 0 .
-<http://accurator.nl/id_4152f4aa3f7275712acc536418f75f9abbb37e89> oa:annotatedAt "2016-04-04T16:11:04+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_4152f4aa3f7275712acc536418f75f9abbb37e89> oa:annotatedBy user:hrmurris .
-<http://accurator.nl/id_4152f4aa3f7275712acc536418f75f9abbb37e89> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "showing decapited head of John Baptiste to Herode cs " ] .
-<http://accurator.nl/id_4152f4aa3f7275712acc536418f75f9abbb37e89> oa:hasTarget ubvu:print-218010001773 .
-<http://accurator.nl/id_4152f4aa3f7275712acc536418f75f9abbb37e89> oa:motivatedBy oa:tagging .
+nl:id_4152f4aa3f7275712acc536418f75f9abbb37e89 a oa:Annotation .
+nl:id_4152f4aa3f7275712acc536418f75f9abbb37e89 terms:title "showing decapited head of John Baptiste to Herode cs " .
+nl:id_4152f4aa3f7275712acc536418f75f9abbb37e89 ui:annotationField bible:ICBibleTheme .
+nl:id_4152f4aa3f7275712acc536418f75f9abbb37e89 ui:typingTime 0 .
+nl:id_4152f4aa3f7275712acc536418f75f9abbb37e89 oa:annotatedAt "2016-04-04T16:11:04+02:00"^^xsd:dateTime .
+nl:id_4152f4aa3f7275712acc536418f75f9abbb37e89 oa:annotatedBy user:hrmurris .
+nl:id_4152f4aa3f7275712acc536418f75f9abbb37e89 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "showing decapited head of John Baptiste to Herode cs " ] .
+nl:id_4152f4aa3f7275712acc536418f75f9abbb37e89 oa:hasTarget ubvu:print-218010001773 .
+nl:id_4152f4aa3f7275712acc536418f75f9abbb37e89 oa:motivatedBy oa:tagging .
+
+nl:id_4bc3aa7820b2a100f46aa31db38b1ff9ab527926 a oa:Annotation .
+nl:id_4bc3aa7820b2a100f46aa31db38b1ff9ab527926 terms:title "dochter van Herodias" .
+nl:id_4bc3aa7820b2a100f46aa31db38b1ff9ab527926 ui:annotationField bible:BibleCharacter .
+nl:id_4bc3aa7820b2a100f46aa31db38b1ff9ab527926 ui:typingTime 0 .
+nl:id_4bc3aa7820b2a100f46aa31db38b1ff9ab527926 oa:annotatedAt "2016-06-23T10:01:38+02:00"^^xsd:dateTime .
+nl:id_4bc3aa7820b2a100f46aa31db38b1ff9ab527926 oa:annotatedBy user:paulinevandijk .
+nl:id_4bc3aa7820b2a100f46aa31db38b1ff9ab527926 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "dochter van Herodias" ] .
+nl:id_4bc3aa7820b2a100f46aa31db38b1ff9ab527926 oa:hasTarget target:target_c19dfb7d4e24c3fc0ca6836dbb9332adc36911ef .
+nl:id_4bc3aa7820b2a100f46aa31db38b1ff9ab527926 oa:hasTarget ubvu:print-218010001773 .
+nl:id_4bc3aa7820b2a100f46aa31db38b1ff9ab527926 oa:motivatedBy oa:tagging .
+
+nl:id_51001c1e2dca23c0dae0390c75bac676aceea121 a oa:Annotation .
+nl:id_51001c1e2dca23c0dae0390c75bac676aceea121 terms:title "Johannes de Doper" .
+nl:id_51001c1e2dca23c0dae0390c75bac676aceea121 ui:annotationField bible:BibleCharacter .
+nl:id_51001c1e2dca23c0dae0390c75bac676aceea121 ui:typingTime 0 .
+nl:id_51001c1e2dca23c0dae0390c75bac676aceea121 oa:annotatedAt "2016-06-23T10:01:52+02:00"^^xsd:dateTime .
+nl:id_51001c1e2dca23c0dae0390c75bac676aceea121 oa:annotatedBy user:paulinevandijk .
+nl:id_51001c1e2dca23c0dae0390c75bac676aceea121 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Johannes de Doper" ] .
+nl:id_51001c1e2dca23c0dae0390c75bac676aceea121 oa:hasTarget target:target_83fffce138a448fd0aee673a6921591c8b285830 .
+nl:id_51001c1e2dca23c0dae0390c75bac676aceea121 oa:hasTarget ubvu:print-218010001773 .
+nl:id_51001c1e2dca23c0dae0390c75bac676aceea121 oa:motivatedBy oa:tagging .
+
+nl:id_74588d4a72b694b8aeabf91a1b43e07391327a95 a oa:Annotation .
+nl:id_74588d4a72b694b8aeabf91a1b43e07391327a95 terms:title "John the Baptist" .
+nl:id_74588d4a72b694b8aeabf91a1b43e07391327a95 ui:annotationField bible:BibleCharacter .
+nl:id_74588d4a72b694b8aeabf91a1b43e07391327a95 ui:typingTime 0 .
+nl:id_74588d4a72b694b8aeabf91a1b43e07391327a95 oa:annotatedAt "2016-07-05T18:39:27+02:00"^^xsd:dateTime .
+nl:id_74588d4a72b694b8aeabf91a1b43e07391327a95 oa:annotatedBy user:everhoeff .
+nl:id_74588d4a72b694b8aeabf91a1b43e07391327a95 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "John the Baptist" ] .
+nl:id_74588d4a72b694b8aeabf91a1b43e07391327a95 oa:hasTarget target:target_3c39dca423cb1c5a6630730cb51c00b800c00e58 .
+nl:id_74588d4a72b694b8aeabf91a1b43e07391327a95 oa:hasTarget ubvu:print-218010001773 .
+nl:id_74588d4a72b694b8aeabf91a1b43e07391327a95 oa:motivatedBy oa:tagging .
+
+nl:id_85fa3f259b282aa58876e25143874d32a31292f6 a oa:Annotation .
+nl:id_85fa3f259b282aa58876e25143874d32a31292f6 terms:title "Salome is given the head of John the Baptist by the executioner" .
+nl:id_85fa3f259b282aa58876e25143874d32a31292f6 ui:annotationField bible:ICBibleTheme .
+nl:id_85fa3f259b282aa58876e25143874d32a31292f6 ui:typingTime 0 .
+nl:id_85fa3f259b282aa58876e25143874d32a31292f6 oa:annotatedAt "2016-07-05T18:39:00+02:00"^^xsd:dateTime .
+nl:id_85fa3f259b282aa58876e25143874d32a31292f6 oa:annotatedBy user:everhoeff .
+nl:id_85fa3f259b282aa58876e25143874d32a31292f6 oa:hasBody <http://iconclass.org/73C1334> .
+nl:id_85fa3f259b282aa58876e25143874d32a31292f6 oa:hasTarget ubvu:print-218010001773 .
+nl:id_85fa3f259b282aa58876e25143874d32a31292f6 oa:motivatedBy oa:tagging .
+
+nl:id_f508326fdd3702d439fc6f2160db4bc3f6fac780 a oa:Annotation .
+nl:id_f508326fdd3702d439fc6f2160db4bc3f6fac780 terms:title "Het hoofd van Johannes de Doper wordt aan de dochter van Herodias gegeven." .
+nl:id_f508326fdd3702d439fc6f2160db4bc3f6fac780 ui:annotationField bible:ICBibleTheme .
+nl:id_f508326fdd3702d439fc6f2160db4bc3f6fac780 ui:typingTime 0 .
+nl:id_f508326fdd3702d439fc6f2160db4bc3f6fac780 oa:annotatedAt "2016-06-23T10:02:24+02:00"^^xsd:dateTime .
+nl:id_f508326fdd3702d439fc6f2160db4bc3f6fac780 oa:annotatedBy user:paulinevandijk .
+nl:id_f508326fdd3702d439fc6f2160db4bc3f6fac780 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Het hoofd van Johannes de Doper wordt aan de dochter van Herodias gegeven." ] .
+nl:id_f508326fdd3702d439fc6f2160db4bc3f6fac780 oa:hasTarget ubvu:print-218010001773 .
+nl:id_f508326fdd3702d439fc6f2160db4bc3f6fac780 oa:motivatedBy oa:tagging .
+
+target:selector_3c39dca423cb1c5a6630730cb51c00b800c00e58 a oa:FragmentSelector .
+target:selector_3c39dca423cb1c5a6630730cb51c00b800c00e58 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_3c39dca423cb1c5a6630730cb51c00b800c00e58 ui:h "0.1248900615655233"^^xsd:float .
+target:selector_3c39dca423cb1c5a6630730cb51c00b800c00e58 ui:w "0.192"^^xsd:float .
+target:selector_3c39dca423cb1c5a6630730cb51c00b800c00e58 ui:x "0.09066666666666667"^^xsd:float .
+target:selector_3c39dca423cb1c5a6630730cb51c00b800c00e58 ui:y "0.5532102022867195"^^xsd:float .
+target:selector_3c39dca423cb1c5a6630730cb51c00b800c00e58 rdf:value "#xywh=percent:9,55,19,12" .
+
+target:selector_83fffce138a448fd0aee673a6921591c8b285830 a oa:FragmentSelector .
+target:selector_83fffce138a448fd0aee673a6921591c8b285830 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_83fffce138a448fd0aee673a6921591c8b285830 ui:h "0.06429780033840947"^^xsd:float .
+target:selector_83fffce138a448fd0aee673a6921591c8b285830 ui:w "0.06837606837606838"^^xsd:float .
+target:selector_83fffce138a448fd0aee673a6921591c8b285830 ui:x "0.12478632478632479"^^xsd:float .
+target:selector_83fffce138a448fd0aee673a6921591c8b285830 ui:y "0.5747320924985899"^^xsd:float .
+target:selector_83fffce138a448fd0aee673a6921591c8b285830 rdf:value "#xywh=percent:12,57,7,6" .
+
+target:selector_c19dfb7d4e24c3fc0ca6836dbb9332adc36911ef a oa:FragmentSelector .
+target:selector_c19dfb7d4e24c3fc0ca6836dbb9332adc36911ef terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_c19dfb7d4e24c3fc0ca6836dbb9332adc36911ef ui:h "0.19176536943034406"^^xsd:float .
+target:selector_c19dfb7d4e24c3fc0ca6836dbb9332adc36911ef ui:w "0.10854700854700855"^^xsd:float .
+target:selector_c19dfb7d4e24c3fc0ca6836dbb9332adc36911ef ui:x "0.004273504273504274"^^xsd:float .
+target:selector_c19dfb7d4e24c3fc0ca6836dbb9332adc36911ef ui:y "0.4715172024816695"^^xsd:float .
+target:selector_c19dfb7d4e24c3fc0ca6836dbb9332adc36911ef rdf:value "#xywh=percent:0,47,11,19" .
+
+target:target_3c39dca423cb1c5a6630730cb51c00b800c00e58 a oa:SpecificResource .
+target:target_3c39dca423cb1c5a6630730cb51c00b800c00e58 oa:hasSelector target:selector_3c39dca423cb1c5a6630730cb51c00b800c00e58 .
+target:target_3c39dca423cb1c5a6630730cb51c00b800c00e58 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/812> .
+
+target:target_83fffce138a448fd0aee673a6921591c8b285830 a oa:SpecificResource .
+target:target_83fffce138a448fd0aee673a6921591c8b285830 oa:hasSelector target:selector_83fffce138a448fd0aee673a6921591c8b285830 .
+target:target_83fffce138a448fd0aee673a6921591c8b285830 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/812> .
+
+target:target_c19dfb7d4e24c3fc0ca6836dbb9332adc36911ef a oa:SpecificResource .
+target:target_c19dfb7d4e24c3fc0ca6836dbb9332adc36911ef oa:hasSelector target:selector_c19dfb7d4e24c3fc0ca6836dbb9332adc36911ef .
+target:target_c19dfb7d4e24c3fc0ca6836dbb9332adc36911ef oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/812> .

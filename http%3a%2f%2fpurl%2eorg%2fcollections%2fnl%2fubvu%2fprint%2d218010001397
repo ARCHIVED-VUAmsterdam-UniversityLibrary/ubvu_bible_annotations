@@ -8,6 +8,7 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
@@ -34,6 +35,27 @@ nl:id_2f195173013fd6bbc861acd3a4ef4759cd192ae5 oa:hasTarget target:target_4123b7
 nl:id_2f195173013fd6bbc861acd3a4ef4759cd192ae5 oa:hasTarget ubvu:print-218010001397 .
 nl:id_2f195173013fd6bbc861acd3a4ef4759cd192ae5 oa:motivatedBy oa:tagging .
 
+nl:id_3156cf97b47bc1081a6a733caf7e882d532dc34c a oa:Annotation .
+nl:id_3156cf97b47bc1081a6a733caf7e882d532dc34c terms:title "Simson" .
+nl:id_3156cf97b47bc1081a6a733caf7e882d532dc34c ui:annotationField bible:BibleCharacter .
+nl:id_3156cf97b47bc1081a6a733caf7e882d532dc34c ui:typingTime 0 .
+nl:id_3156cf97b47bc1081a6a733caf7e882d532dc34c oa:annotatedAt "2016-06-15T19:01:00+02:00"^^xsd:dateTime .
+nl:id_3156cf97b47bc1081a6a733caf7e882d532dc34c oa:annotatedBy user:paulinevandijk .
+nl:id_3156cf97b47bc1081a6a733caf7e882d532dc34c oa:hasBody resource:Samson .
+nl:id_3156cf97b47bc1081a6a733caf7e882d532dc34c oa:hasTarget target:target_8c30141f77a32225ea2d2ddac5a2b4947b5451db .
+nl:id_3156cf97b47bc1081a6a733caf7e882d532dc34c oa:hasTarget ubvu:print-218010001397 .
+nl:id_3156cf97b47bc1081a6a733caf7e882d532dc34c oa:motivatedBy oa:tagging .
+
+nl:id_edee32d339e1dae0d5512b71492921a6774c376f a oa:Annotation .
+nl:id_edee32d339e1dae0d5512b71492921a6774c376f terms:title "Simson rukt de deuren uit de stadspoort." .
+nl:id_edee32d339e1dae0d5512b71492921a6774c376f ui:annotationField bible:ICBibleTheme .
+nl:id_edee32d339e1dae0d5512b71492921a6774c376f ui:typingTime 0 .
+nl:id_edee32d339e1dae0d5512b71492921a6774c376f oa:annotatedAt "2016-06-15T19:01:24+02:00"^^xsd:dateTime .
+nl:id_edee32d339e1dae0d5512b71492921a6774c376f oa:annotatedBy user:paulinevandijk .
+nl:id_edee32d339e1dae0d5512b71492921a6774c376f oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Simson rukt de deuren uit de stadspoort." ] .
+nl:id_edee32d339e1dae0d5512b71492921a6774c376f oa:hasTarget ubvu:print-218010001397 .
+nl:id_edee32d339e1dae0d5512b71492921a6774c376f oa:motivatedBy oa:tagging .
+
 target:selector_4123b796cf9391226e81acf44c072728729aba0b a oa:FragmentSelector .
 target:selector_4123b796cf9391226e81acf44c072728729aba0b terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_4123b796cf9391226e81acf44c072728729aba0b ui:h "0.11959521619135234"^^xsd:float .
@@ -50,6 +72,14 @@ target:selector_6090e05fdf4aa84651d7238fd57aac396729d253 ui:x "0.541333333333333
 target:selector_6090e05fdf4aa84651d7238fd57aac396729d253 ui:y "0.7525298988040479"^^xsd:float .
 target:selector_6090e05fdf4aa84651d7238fd57aac396729d253 rdf:value "#xywh=percent:54,75,11,13" .
 
+target:selector_8c30141f77a32225ea2d2ddac5a2b4947b5451db a oa:FragmentSelector .
+target:selector_8c30141f77a32225ea2d2ddac5a2b4947b5451db terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_8c30141f77a32225ea2d2ddac5a2b4947b5451db ui:h "0.11379716981132075"^^xsd:float .
+target:selector_8c30141f77a32225ea2d2ddac5a2b4947b5451db ui:w "0.147008547008547"^^xsd:float .
+target:selector_8c30141f77a32225ea2d2ddac5a2b4947b5451db ui:x "0.5427350427350427"^^xsd:float .
+target:selector_8c30141f77a32225ea2d2ddac5a2b4947b5451db ui:y "0.7688679245283019"^^xsd:float .
+target:selector_8c30141f77a32225ea2d2ddac5a2b4947b5451db rdf:value "#xywh=percent:54,77,15,11" .
+
 target:target_4123b796cf9391226e81acf44c072728729aba0b a oa:SpecificResource .
 target:target_4123b796cf9391226e81acf44c072728729aba0b oa:hasSelector target:selector_4123b796cf9391226e81acf44c072728729aba0b .
 target:target_4123b796cf9391226e81acf44c072728729aba0b oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/438> .
@@ -57,3 +87,7 @@ target:target_4123b796cf9391226e81acf44c072728729aba0b oa:hasSource <http://imag
 target:target_6090e05fdf4aa84651d7238fd57aac396729d253 a oa:SpecificResource .
 target:target_6090e05fdf4aa84651d7238fd57aac396729d253 oa:hasSelector target:selector_6090e05fdf4aa84651d7238fd57aac396729d253 .
 target:target_6090e05fdf4aa84651d7238fd57aac396729d253 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/438> .
+
+target:target_8c30141f77a32225ea2d2ddac5a2b4947b5451db a oa:SpecificResource .
+target:target_8c30141f77a32225ea2d2ddac5a2b4947b5451db oa:hasSelector target:selector_8c30141f77a32225ea2d2ddac5a2b4947b5451db .
+target:target_8c30141f77a32225ea2d2ddac5a2b4947b5451db oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/438> .

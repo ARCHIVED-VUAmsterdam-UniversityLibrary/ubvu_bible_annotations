@@ -56,6 +56,16 @@ nl:id_da4117d32a1aff07290addf7afcb38f8b7a16849 oa:hasTarget target:target_fa95af
 nl:id_da4117d32a1aff07290addf7afcb38f8b7a16849 oa:hasTarget ubvu:print-218010001721 .
 nl:id_da4117d32a1aff07290addf7afcb38f8b7a16849 oa:motivatedBy oa:tagging .
 
+nl:id_dc6473036115eb90dee17f6bb25e73c547abaf2b a oa:Annotation .
+nl:id_dc6473036115eb90dee17f6bb25e73c547abaf2b terms:title "The wedding in Cana " .
+nl:id_dc6473036115eb90dee17f6bb25e73c547abaf2b ui:annotationField bible:ICBibleTheme .
+nl:id_dc6473036115eb90dee17f6bb25e73c547abaf2b ui:typingTime 0 .
+nl:id_dc6473036115eb90dee17f6bb25e73c547abaf2b oa:annotatedAt "2016-06-29T18:56:02+02:00"^^xsd:dateTime .
+nl:id_dc6473036115eb90dee17f6bb25e73c547abaf2b oa:annotatedBy user:everhoeff .
+nl:id_dc6473036115eb90dee17f6bb25e73c547abaf2b oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The wedding in Cana " ] .
+nl:id_dc6473036115eb90dee17f6bb25e73c547abaf2b oa:hasTarget ubvu:print-218010001721 .
+nl:id_dc6473036115eb90dee17f6bb25e73c547abaf2b oa:motivatedBy oa:tagging .
+
 target:selector_6145f295df14c1fb9961b2ef0700f74e7fdd6e3a a oa:FragmentSelector .
 target:selector_6145f295df14c1fb9961b2ef0700f74e7fdd6e3a terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_6145f295df14c1fb9961b2ef0700f74e7fdd6e3a ui:h "0.4863325740318907"^^xsd:float .

@@ -45,6 +45,16 @@ nl:id_294e00f2b55f5c82eec08188bd34645c2669a58f oa:hasTarget target:target_cec845
 nl:id_294e00f2b55f5c82eec08188bd34645c2669a58f oa:hasTarget ubvu:print-218010002014 .
 nl:id_294e00f2b55f5c82eec08188bd34645c2669a58f oa:motivatedBy oa:tagging .
 
+nl:id_35013ef6c73a9ba8a99aaf7ece7ab34a1f1a07c1 a oa:Annotation .
+nl:id_35013ef6c73a9ba8a99aaf7ece7ab34a1f1a07c1 terms:title "David's flight" .
+nl:id_35013ef6c73a9ba8a99aaf7ece7ab34a1f1a07c1 ui:annotationField bible:ICBibleTheme .
+nl:id_35013ef6c73a9ba8a99aaf7ece7ab34a1f1a07c1 ui:typingTime 0 .
+nl:id_35013ef6c73a9ba8a99aaf7ece7ab34a1f1a07c1 oa:annotatedAt "2016-06-13T21:36:04+02:00"^^xsd:dateTime .
+nl:id_35013ef6c73a9ba8a99aaf7ece7ab34a1f1a07c1 oa:annotatedBy user:everhoeff .
+nl:id_35013ef6c73a9ba8a99aaf7ece7ab34a1f1a07c1 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "David's flight" ] .
+nl:id_35013ef6c73a9ba8a99aaf7ece7ab34a1f1a07c1 oa:hasTarget ubvu:print-218010002014 .
+nl:id_35013ef6c73a9ba8a99aaf7ece7ab34a1f1a07c1 oa:motivatedBy oa:tagging .
+
 nl:id_44e72a3cd0783e230eca2c29d7e0e6285d5dc6d4 a oa:Annotation .
 nl:id_44e72a3cd0783e230eca2c29d7e0e6285d5dc6d4 terms:title "Saul" .
 nl:id_44e72a3cd0783e230eca2c29d7e0e6285d5dc6d4 ui:annotationField bible:BibleCharacter .
@@ -56,6 +66,26 @@ nl:id_44e72a3cd0783e230eca2c29d7e0e6285d5dc6d4 oa:hasTarget target:target_f760a1
 nl:id_44e72a3cd0783e230eca2c29d7e0e6285d5dc6d4 oa:hasTarget ubvu:print-218010002014 .
 nl:id_44e72a3cd0783e230eca2c29d7e0e6285d5dc6d4 oa:motivatedBy oa:tagging .
 
+nl:id_50993e6e4938722e82bc035bd46ff97e72acde36 a oa:Annotation .
+nl:id_50993e6e4938722e82bc035bd46ff97e72acde36 terms:title "Saul in the cave" .
+nl:id_50993e6e4938722e82bc035bd46ff97e72acde36 ui:annotationField bible:ICBibleTheme .
+nl:id_50993e6e4938722e82bc035bd46ff97e72acde36 ui:typingTime 0 .
+nl:id_50993e6e4938722e82bc035bd46ff97e72acde36 oa:annotatedAt "2016-06-13T21:44:24+02:00"^^xsd:dateTime .
+nl:id_50993e6e4938722e82bc035bd46ff97e72acde36 oa:annotatedBy user:everhoeff .
+nl:id_50993e6e4938722e82bc035bd46ff97e72acde36 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Saul in the cave" ] .
+nl:id_50993e6e4938722e82bc035bd46ff97e72acde36 oa:hasTarget ubvu:print-218010002014 .
+nl:id_50993e6e4938722e82bc035bd46ff97e72acde36 oa:motivatedBy oa:tagging .
+
+nl:id_571dd3d2504d6a4d2cceb2465c7e16e751530a0d a oa:Annotation .
+nl:id_571dd3d2504d6a4d2cceb2465c7e16e751530a0d terms:title "murder of the priests" .
+nl:id_571dd3d2504d6a4d2cceb2465c7e16e751530a0d ui:annotationField bible:ICBibleTheme .
+nl:id_571dd3d2504d6a4d2cceb2465c7e16e751530a0d ui:typingTime 0 .
+nl:id_571dd3d2504d6a4d2cceb2465c7e16e751530a0d oa:annotatedAt "2016-06-13T21:40:41+02:00"^^xsd:dateTime .
+nl:id_571dd3d2504d6a4d2cceb2465c7e16e751530a0d oa:annotatedBy user:everhoeff .
+nl:id_571dd3d2504d6a4d2cceb2465c7e16e751530a0d oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "murder of the priests" ] .
+nl:id_571dd3d2504d6a4d2cceb2465c7e16e751530a0d oa:hasTarget ubvu:print-218010002014 .
+nl:id_571dd3d2504d6a4d2cceb2465c7e16e751530a0d oa:motivatedBy oa:tagging .
+
 nl:id_57f287d1c68ce63738bfc149846aa055b9489a44 a oa:Annotation .
 nl:id_57f287d1c68ce63738bfc149846aa055b9489a44 terms:title "David" .
 nl:id_57f287d1c68ce63738bfc149846aa055b9489a44 ui:annotationField bible:BibleCharacter .
@@ -66,6 +96,26 @@ nl:id_57f287d1c68ce63738bfc149846aa055b9489a44 oa:hasBody [ a content:ContentAsT
 nl:id_57f287d1c68ce63738bfc149846aa055b9489a44 oa:hasTarget target:target_6c41a875f939d4694c022fd0b562929f26c19b4e .
 nl:id_57f287d1c68ce63738bfc149846aa055b9489a44 oa:hasTarget ubvu:print-218010002014 .
 nl:id_57f287d1c68ce63738bfc149846aa055b9489a44 oa:motivatedBy oa:tagging .
+
+nl:id_607c258bfeda56e9bdc09e67faf5a27a5d7b9a4f a oa:Annotation .
+nl:id_607c258bfeda56e9bdc09e67faf5a27a5d7b9a4f terms:title "Jonathan's arrow" .
+nl:id_607c258bfeda56e9bdc09e67faf5a27a5d7b9a4f ui:annotationField bible:ICBibleTheme .
+nl:id_607c258bfeda56e9bdc09e67faf5a27a5d7b9a4f ui:typingTime 0 .
+nl:id_607c258bfeda56e9bdc09e67faf5a27a5d7b9a4f oa:annotatedAt "2016-06-13T21:40:06+02:00"^^xsd:dateTime .
+nl:id_607c258bfeda56e9bdc09e67faf5a27a5d7b9a4f oa:annotatedBy user:everhoeff .
+nl:id_607c258bfeda56e9bdc09e67faf5a27a5d7b9a4f oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jonathan's arrow" ] .
+nl:id_607c258bfeda56e9bdc09e67faf5a27a5d7b9a4f oa:hasTarget ubvu:print-218010002014 .
+nl:id_607c258bfeda56e9bdc09e67faf5a27a5d7b9a4f oa:motivatedBy oa:tagging .
+
+nl:id_677d9291fa366fa040eb5ca9b5419ceb71d73088 a oa:Annotation .
+nl:id_677d9291fa366fa040eb5ca9b5419ceb71d73088 terms:title "David and the priest and the hallowed bread" .
+nl:id_677d9291fa366fa040eb5ca9b5419ceb71d73088 ui:annotationField bible:ICBibleTheme .
+nl:id_677d9291fa366fa040eb5ca9b5419ceb71d73088 ui:typingTime 0 .
+nl:id_677d9291fa366fa040eb5ca9b5419ceb71d73088 oa:annotatedAt "2016-06-13T21:43:11+02:00"^^xsd:dateTime .
+nl:id_677d9291fa366fa040eb5ca9b5419ceb71d73088 oa:annotatedBy user:everhoeff .
+nl:id_677d9291fa366fa040eb5ca9b5419ceb71d73088 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "David and the priest and the hallowed bread" ] .
+nl:id_677d9291fa366fa040eb5ca9b5419ceb71d73088 oa:hasTarget ubvu:print-218010002014 .
+nl:id_677d9291fa366fa040eb5ca9b5419ceb71d73088 oa:motivatedBy oa:tagging .
 
 nl:id_67b2c2aa823bf8ef21243aa22c62318625639489 a oa:Annotation .
 nl:id_67b2c2aa823bf8ef21243aa22c62318625639489 terms:title "Jonathan" .
@@ -132,6 +182,47 @@ nl:id_a92110423e477997a761999b0f1fa10965a85cd6 oa:hasBody [ a content:ContentAsT
 nl:id_a92110423e477997a761999b0f1fa10965a85cd6 oa:hasTarget target:target_97084ca01d8c86598667732b408985a6edb7974a .
 nl:id_a92110423e477997a761999b0f1fa10965a85cd6 oa:hasTarget ubvu:print-218010002014 .
 nl:id_a92110423e477997a761999b0f1fa10965a85cd6 oa:motivatedBy oa:tagging .
+
+nl:id_b22e822a1a427ebbd449a8569c9028fd9b6abe58 a oa:Annotation .
+nl:id_b22e822a1a427ebbd449a8569c9028fd9b6abe58 terms:title "Saul among the prophets" .
+nl:id_b22e822a1a427ebbd449a8569c9028fd9b6abe58 ui:annotationField bible:ICBibleTheme .
+nl:id_b22e822a1a427ebbd449a8569c9028fd9b6abe58 ui:typingTime 0 .
+nl:id_b22e822a1a427ebbd449a8569c9028fd9b6abe58 oa:annotatedAt "2016-06-13T21:38:36+02:00"^^xsd:dateTime .
+nl:id_b22e822a1a427ebbd449a8569c9028fd9b6abe58 oa:annotatedBy user:everhoeff .
+nl:id_b22e822a1a427ebbd449a8569c9028fd9b6abe58 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Saul among the prophets" ] .
+nl:id_b22e822a1a427ebbd449a8569c9028fd9b6abe58 oa:hasTarget ubvu:print-218010002014 .
+nl:id_b22e822a1a427ebbd449a8569c9028fd9b6abe58 oa:motivatedBy oa:tagging .
+
+nl:id_cd30acac745d336db80dbaa118dbd3f47a8f59cc a oa:Annotation .
+nl:id_cd30acac745d336db80dbaa118dbd3f47a8f59cc terms:title "Abjathar and David " .
+nl:id_cd30acac745d336db80dbaa118dbd3f47a8f59cc ui:annotationField bible:ICBibleTheme .
+nl:id_cd30acac745d336db80dbaa118dbd3f47a8f59cc ui:typingTime 0 .
+nl:id_cd30acac745d336db80dbaa118dbd3f47a8f59cc oa:annotatedAt "2016-06-13T21:43:35+02:00"^^xsd:dateTime .
+nl:id_cd30acac745d336db80dbaa118dbd3f47a8f59cc oa:annotatedBy user:everhoeff .
+nl:id_cd30acac745d336db80dbaa118dbd3f47a8f59cc oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Abjathar and David " ] .
+nl:id_cd30acac745d336db80dbaa118dbd3f47a8f59cc oa:hasTarget ubvu:print-218010002014 .
+nl:id_cd30acac745d336db80dbaa118dbd3f47a8f59cc oa:motivatedBy oa:tagging .
+
+nl:id_d104698ab0fb39b5a620325aa307eef47d1ecda3 a oa:Annotation .
+nl:id_d104698ab0fb39b5a620325aa307eef47d1ecda3 terms:title "Amelekites overcome" .
+nl:id_d104698ab0fb39b5a620325aa307eef47d1ecda3 ui:annotationField bible:ICBibleTheme .
+nl:id_d104698ab0fb39b5a620325aa307eef47d1ecda3 ui:typingTime 0 .
+nl:id_d104698ab0fb39b5a620325aa307eef47d1ecda3 oa:annotatedAt "2016-06-13T21:46:51+02:00"^^xsd:dateTime .
+nl:id_d104698ab0fb39b5a620325aa307eef47d1ecda3 oa:annotatedBy user:everhoeff .
+nl:id_d104698ab0fb39b5a620325aa307eef47d1ecda3 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Amelekites overcome" ] .
+nl:id_d104698ab0fb39b5a620325aa307eef47d1ecda3 oa:hasTarget ubvu:print-218010002014 .
+nl:id_d104698ab0fb39b5a620325aa307eef47d1ecda3 oa:motivatedBy oa:tagging .
+
+nl:id_d90f165d03138c944dcea6143c4a1a3ca66831ea a oa:Annotation .
+nl:id_d90f165d03138c944dcea6143c4a1a3ca66831ea terms:title "Jonathan" .
+nl:id_d90f165d03138c944dcea6143c4a1a3ca66831ea ui:annotationField bible:BibleCharacter .
+nl:id_d90f165d03138c944dcea6143c4a1a3ca66831ea ui:typingTime 0 .
+nl:id_d90f165d03138c944dcea6143c4a1a3ca66831ea oa:annotatedAt "2016-06-13T21:36:55+02:00"^^xsd:dateTime .
+nl:id_d90f165d03138c944dcea6143c4a1a3ca66831ea oa:annotatedBy user:everhoeff .
+nl:id_d90f165d03138c944dcea6143c4a1a3ca66831ea oa:hasBody resource:Jonathan .
+nl:id_d90f165d03138c944dcea6143c4a1a3ca66831ea oa:hasTarget target:target_de91a0bc76b4c93688d9bd26d2ed1cbf92f32b5c .
+nl:id_d90f165d03138c944dcea6143c4a1a3ca66831ea oa:hasTarget ubvu:print-218010002014 .
+nl:id_d90f165d03138c944dcea6143c4a1a3ca66831ea oa:motivatedBy oa:tagging .
 
 nl:id_db20948b6d0a6d130e11a382256d2a10ce40f17b a oa:Annotation .
 nl:id_db20948b6d0a6d130e11a382256d2a10ce40f17b terms:title "David" .
@@ -281,6 +372,14 @@ target:selector_cec845315df31edc94e286759f631f2bf133bf74 ui:x "0.104"^^xsd:float
 target:selector_cec845315df31edc94e286759f631f2bf133bf74 ui:y "0.5150339476236664"^^xsd:float .
 target:selector_cec845315df31edc94e286759f631f2bf133bf74 rdf:value "#xywh=percent:10,52,5,9" .
 
+target:selector_de91a0bc76b4c93688d9bd26d2ed1cbf92f32b5c a oa:FragmentSelector .
+target:selector_de91a0bc76b4c93688d9bd26d2ed1cbf92f32b5c terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_de91a0bc76b4c93688d9bd26d2ed1cbf92f32b5c ui:h "0.20930232558139536"^^xsd:float .
+target:selector_de91a0bc76b4c93688d9bd26d2ed1cbf92f32b5c ui:w "0.22268041237113403"^^xsd:float .
+target:selector_de91a0bc76b4c93688d9bd26d2ed1cbf92f32b5c ui:x "0.37216494845360826"^^xsd:float .
+target:selector_de91a0bc76b4c93688d9bd26d2ed1cbf92f32b5c ui:y "0.16729182295573894"^^xsd:float .
+target:selector_de91a0bc76b4c93688d9bd26d2ed1cbf92f32b5c rdf:value "#xywh=percent:37,17,22,21" .
+
 target:selector_f760a10f78bc6c1aac776e24f9b5da0929681558 a oa:FragmentSelector .
 target:selector_f760a10f78bc6c1aac776e24f9b5da0929681558 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_f760a10f78bc6c1aac776e24f9b5da0929681558 ui:h "0.06498545101842872"^^xsd:float .
@@ -340,6 +439,10 @@ target:target_c00e2670e03a0e5d93db4a69b3754870d4bb13eb oa:hasSource <http://imag
 target:target_cec845315df31edc94e286759f631f2bf133bf74 a oa:SpecificResource .
 target:target_cec845315df31edc94e286759f631f2bf133bf74 oa:hasSelector target:selector_cec845315df31edc94e286759f631f2bf133bf74 .
 target:target_cec845315df31edc94e286759f631f2bf133bf74 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/13> .
+
+target:target_de91a0bc76b4c93688d9bd26d2ed1cbf92f32b5c a oa:SpecificResource .
+target:target_de91a0bc76b4c93688d9bd26d2ed1cbf92f32b5c oa:hasSelector target:selector_de91a0bc76b4c93688d9bd26d2ed1cbf92f32b5c .
+target:target_de91a0bc76b4c93688d9bd26d2ed1cbf92f32b5c oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/13> .
 
 target:target_f760a10f78bc6c1aac776e24f9b5da0929681558 a oa:SpecificResource .
 target:target_f760a10f78bc6c1aac776e24f9b5da0929681558 oa:hasSelector target:selector_f760a10f78bc6c1aac776e24f9b5da0929681558 .

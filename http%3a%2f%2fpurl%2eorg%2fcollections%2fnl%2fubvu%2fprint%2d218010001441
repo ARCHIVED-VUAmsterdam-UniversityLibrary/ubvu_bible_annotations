@@ -6,14 +6,50 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_bb88d63b4222354bb7b824ed02927a1ee101445b> a oa:Annotation .
-<http://accurator.nl/id_bb88d63b4222354bb7b824ed02927a1ee101445b> terms:title "The mourning of the Israelites at Gibeah" .
-<http://accurator.nl/id_bb88d63b4222354bb7b824ed02927a1ee101445b> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
-<http://accurator.nl/id_bb88d63b4222354bb7b824ed02927a1ee101445b> ui:typingTime 0 .
-<http://accurator.nl/id_bb88d63b4222354bb7b824ed02927a1ee101445b> oa:annotatedAt "2016-04-05T00:37:47+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_bb88d63b4222354bb7b824ed02927a1ee101445b> oa:annotatedBy user:hogguer .
-<http://accurator.nl/id_bb88d63b4222354bb7b824ed02927a1ee101445b> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The mourning of the Israelites at Gibeah" ] .
-<http://accurator.nl/id_bb88d63b4222354bb7b824ed02927a1ee101445b> oa:hasTarget ubvu:print-218010001441 .
-<http://accurator.nl/id_bb88d63b4222354bb7b824ed02927a1ee101445b> oa:motivatedBy oa:tagging .
+nl:id_42f1d9c7c3cfb11856128e9b75bc87f8d1203270 a oa:Annotation .
+nl:id_42f1d9c7c3cfb11856128e9b75bc87f8d1203270 terms:title "Inwoners van jabes zoeken hulp in Gibea (de stad van Saul)" .
+nl:id_42f1d9c7c3cfb11856128e9b75bc87f8d1203270 ui:annotationField bible:BibleCharacter .
+nl:id_42f1d9c7c3cfb11856128e9b75bc87f8d1203270 ui:typingTime 0 .
+nl:id_42f1d9c7c3cfb11856128e9b75bc87f8d1203270 oa:annotatedAt "2016-05-20T10:06:08+02:00"^^xsd:dateTime .
+nl:id_42f1d9c7c3cfb11856128e9b75bc87f8d1203270 oa:annotatedBy user:hogguer .
+nl:id_42f1d9c7c3cfb11856128e9b75bc87f8d1203270 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Inwoners van jabes zoeken hulp in Gibea (de stad van Saul)" ] .
+nl:id_42f1d9c7c3cfb11856128e9b75bc87f8d1203270 oa:hasTarget target:target_303f2954c80331fe70c0e2d1bed581cf7b508af6 .
+nl:id_42f1d9c7c3cfb11856128e9b75bc87f8d1203270 oa:hasTarget ubvu:print-218010001441 .
+nl:id_42f1d9c7c3cfb11856128e9b75bc87f8d1203270 oa:motivatedBy oa:tagging .
+
+nl:id_bb88d63b4222354bb7b824ed02927a1ee101445b a oa:Annotation .
+nl:id_bb88d63b4222354bb7b824ed02927a1ee101445b terms:title "The mourning of the Israelites at Gibeah" .
+nl:id_bb88d63b4222354bb7b824ed02927a1ee101445b ui:annotationField bible:ICBibleTheme .
+nl:id_bb88d63b4222354bb7b824ed02927a1ee101445b ui:typingTime 0 .
+nl:id_bb88d63b4222354bb7b824ed02927a1ee101445b oa:annotatedAt "2016-04-05T00:37:47+02:00"^^xsd:dateTime .
+nl:id_bb88d63b4222354bb7b824ed02927a1ee101445b oa:annotatedBy user:hogguer .
+nl:id_bb88d63b4222354bb7b824ed02927a1ee101445b oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The mourning of the Israelites at Gibeah" ] .
+nl:id_bb88d63b4222354bb7b824ed02927a1ee101445b oa:hasTarget ubvu:print-218010001441 .
+nl:id_bb88d63b4222354bb7b824ed02927a1ee101445b oa:motivatedBy oa:tagging .
+
+nl:id_d6198b491828921451b2475f2ec87d526d0dcbf3 a oa:Annotation .
+nl:id_d6198b491828921451b2475f2ec87d526d0dcbf3 terms:title "The mourning of the Israelites at Gibeah" .
+nl:id_d6198b491828921451b2475f2ec87d526d0dcbf3 ui:annotationField bible:ICBibleTheme .
+nl:id_d6198b491828921451b2475f2ec87d526d0dcbf3 ui:typingTime 0 .
+nl:id_d6198b491828921451b2475f2ec87d526d0dcbf3 oa:annotatedAt "2016-05-27T10:02:39+02:00"^^xsd:dateTime .
+nl:id_d6198b491828921451b2475f2ec87d526d0dcbf3 oa:annotatedBy user:everhoeff .
+nl:id_d6198b491828921451b2475f2ec87d526d0dcbf3 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The mourning of the Israelites at Gibeah" ] .
+nl:id_d6198b491828921451b2475f2ec87d526d0dcbf3 oa:hasTarget ubvu:print-218010001441 .
+nl:id_d6198b491828921451b2475f2ec87d526d0dcbf3 oa:motivatedBy oa:tagging .
+
+target:selector_303f2954c80331fe70c0e2d1bed581cf7b508af6 a oa:FragmentSelector .
+target:selector_303f2954c80331fe70c0e2d1bed581cf7b508af6 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_303f2954c80331fe70c0e2d1bed581cf7b508af6 ui:h "0.5062093435836783"^^xsd:float .
+target:selector_303f2954c80331fe70c0e2d1bed581cf7b508af6 ui:w "0.6752136752136753"^^xsd:float .
+target:selector_303f2954c80331fe70c0e2d1bed581cf7b508af6 ui:x "0.06837606837606838"^^xsd:float .
+target:selector_303f2954c80331fe70c0e2d1bed581cf7b508af6 ui:y "0.322294500295683"^^xsd:float .
+target:selector_303f2954c80331fe70c0e2d1bed581cf7b508af6 rdf:value "#xywh=percent:7,32,68,51" .
+
+target:target_303f2954c80331fe70c0e2d1bed581cf7b508af6 a oa:SpecificResource .
+target:target_303f2954c80331fe70c0e2d1bed581cf7b508af6 oa:hasSelector target:selector_303f2954c80331fe70c0e2d1bed581cf7b508af6 .
+target:target_303f2954c80331fe70c0e2d1bed581cf7b508af6 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/482> .

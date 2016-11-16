@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -11,6 +12,27 @@
 @prefix user: <http://accurator.nl/user#> .
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
+
+nl:id_1b0bf3311c678c820fa25d0609febc182d473f50 a oa:Annotation .
+nl:id_1b0bf3311c678c820fa25d0609febc182d473f50 terms:title "Simon Petrus" .
+nl:id_1b0bf3311c678c820fa25d0609febc182d473f50 ui:annotationField bible:BibleCharacter .
+nl:id_1b0bf3311c678c820fa25d0609febc182d473f50 ui:typingTime 0 .
+nl:id_1b0bf3311c678c820fa25d0609febc182d473f50 oa:annotatedAt "2016-06-13T21:08:03+02:00"^^xsd:dateTime .
+nl:id_1b0bf3311c678c820fa25d0609febc182d473f50 oa:annotatedBy user:paulinevandijk .
+nl:id_1b0bf3311c678c820fa25d0609febc182d473f50 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Simon Petrus" ] .
+nl:id_1b0bf3311c678c820fa25d0609febc182d473f50 oa:hasTarget target:target_f1be7592939b12d287cffcc8aad5d128b79c2386 .
+nl:id_1b0bf3311c678c820fa25d0609febc182d473f50 oa:hasTarget ubvu:print-218010001727 .
+nl:id_1b0bf3311c678c820fa25d0609febc182d473f50 oa:motivatedBy oa:tagging .
+
+nl:id_4536b0d0f9eaccf8e55ec88365fa830ca0e422fc a oa:Annotation .
+nl:id_4536b0d0f9eaccf8e55ec88365fa830ca0e422fc terms:title "De grote visvangst." .
+nl:id_4536b0d0f9eaccf8e55ec88365fa830ca0e422fc ui:annotationField bible:ICBibleTheme .
+nl:id_4536b0d0f9eaccf8e55ec88365fa830ca0e422fc ui:typingTime 0 .
+nl:id_4536b0d0f9eaccf8e55ec88365fa830ca0e422fc oa:annotatedAt "2016-06-13T21:08:11+02:00"^^xsd:dateTime .
+nl:id_4536b0d0f9eaccf8e55ec88365fa830ca0e422fc oa:annotatedBy user:paulinevandijk .
+nl:id_4536b0d0f9eaccf8e55ec88365fa830ca0e422fc oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "De grote visvangst." ] .
+nl:id_4536b0d0f9eaccf8e55ec88365fa830ca0e422fc oa:hasTarget ubvu:print-218010001727 .
+nl:id_4536b0d0f9eaccf8e55ec88365fa830ca0e422fc oa:motivatedBy oa:tagging .
 
 nl:id_4f74d19fdd44d818d05b13c3082f68d696f5d436 a oa:Annotation .
 nl:id_4f74d19fdd44d818d05b13c3082f68d696f5d436 terms:title "vissers" .
@@ -33,6 +55,17 @@ nl:id_7a991178cc8a792cdaeda9311aae2fdbb14f15b4 oa:hasBody [ a content:ContentAsT
 nl:id_7a991178cc8a792cdaeda9311aae2fdbb14f15b4 oa:hasTarget ubvu:print-218010001727 .
 nl:id_7a991178cc8a792cdaeda9311aae2fdbb14f15b4 oa:motivatedBy oa:tagging .
 
+nl:id_9d36442239cb03ecea980e59fe6b21e8c683d102 a oa:Annotation .
+nl:id_9d36442239cb03ecea980e59fe6b21e8c683d102 terms:title "Jezus Christus" .
+nl:id_9d36442239cb03ecea980e59fe6b21e8c683d102 ui:annotationField bible:BibleCharacter .
+nl:id_9d36442239cb03ecea980e59fe6b21e8c683d102 ui:typingTime 0 .
+nl:id_9d36442239cb03ecea980e59fe6b21e8c683d102 oa:annotatedAt "2016-06-13T21:07:03+02:00"^^xsd:dateTime .
+nl:id_9d36442239cb03ecea980e59fe6b21e8c683d102 oa:annotatedBy user:paulinevandijk .
+nl:id_9d36442239cb03ecea980e59fe6b21e8c683d102 oa:hasBody resource:Jesus .
+nl:id_9d36442239cb03ecea980e59fe6b21e8c683d102 oa:hasTarget target:target_650e0982342675dbb8d12ef5aa82e8b19eb5dfc9 .
+nl:id_9d36442239cb03ecea980e59fe6b21e8c683d102 oa:hasTarget ubvu:print-218010001727 .
+nl:id_9d36442239cb03ecea980e59fe6b21e8c683d102 oa:motivatedBy oa:tagging .
+
 nl:id_b581b68538732f33abaa9126f32d0733fbb7e7b4 a oa:Annotation .
 nl:id_b581b68538732f33abaa9126f32d0733fbb7e7b4 terms:title "Jezus Christus" .
 nl:id_b581b68538732f33abaa9126f32d0733fbb7e7b4 ui:annotationField bible:BibleCharacter .
@@ -44,6 +77,24 @@ nl:id_b581b68538732f33abaa9126f32d0733fbb7e7b4 oa:hasTarget target:target_d880a3
 nl:id_b581b68538732f33abaa9126f32d0733fbb7e7b4 oa:hasTarget ubvu:print-218010001727 .
 nl:id_b581b68538732f33abaa9126f32d0733fbb7e7b4 oa:motivatedBy oa:tagging .
 
+nl:id_d49389009bcb5239eb7fef38aef0b37dd2e8ac06 a oa:Annotation .
+nl:id_d49389009bcb5239eb7fef38aef0b37dd2e8ac06 terms:title "The great fishing" .
+nl:id_d49389009bcb5239eb7fef38aef0b37dd2e8ac06 ui:annotationField bible:ICBibleTheme .
+nl:id_d49389009bcb5239eb7fef38aef0b37dd2e8ac06 ui:typingTime 0 .
+nl:id_d49389009bcb5239eb7fef38aef0b37dd2e8ac06 oa:annotatedAt "2016-05-22T14:42:51+02:00"^^xsd:dateTime .
+nl:id_d49389009bcb5239eb7fef38aef0b37dd2e8ac06 oa:annotatedBy user:everhoeff .
+nl:id_d49389009bcb5239eb7fef38aef0b37dd2e8ac06 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The great fishing" ] .
+nl:id_d49389009bcb5239eb7fef38aef0b37dd2e8ac06 oa:hasTarget ubvu:print-218010001727 .
+nl:id_d49389009bcb5239eb7fef38aef0b37dd2e8ac06 oa:motivatedBy oa:tagging .
+
+target:selector_650e0982342675dbb8d12ef5aa82e8b19eb5dfc9 a oa:FragmentSelector .
+target:selector_650e0982342675dbb8d12ef5aa82e8b19eb5dfc9 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_650e0982342675dbb8d12ef5aa82e8b19eb5dfc9 ui:h "0.11599176389842142"^^xsd:float .
+target:selector_650e0982342675dbb8d12ef5aa82e8b19eb5dfc9 ui:w "0.14123711340206185"^^xsd:float .
+target:selector_650e0982342675dbb8d12ef5aa82e8b19eb5dfc9 ui:x "0.08144329896907217"^^xsd:float .
+target:selector_650e0982342675dbb8d12ef5aa82e8b19eb5dfc9 ui:y "0.29238160603980784"^^xsd:float .
+target:selector_650e0982342675dbb8d12ef5aa82e8b19eb5dfc9 rdf:value "#xywh=percent:8,29,14,12" .
+
 target:selector_d880a327cfd7776e0c093f7758c1cdea9587ec96 a oa:FragmentSelector .
 target:selector_d880a327cfd7776e0c093f7758c1cdea9587ec96 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_d880a327cfd7776e0c093f7758c1cdea9587ec96 ui:h "0.20318725099601595"^^xsd:float .
@@ -52,6 +103,22 @@ target:selector_d880a327cfd7776e0c093f7758c1cdea9587ec96 ui:x "0.009401709401709
 target:selector_d880a327cfd7776e0c093f7758c1cdea9587ec96 ui:y "0.24450766965619664"^^xsd:float .
 target:selector_d880a327cfd7776e0c093f7758c1cdea9587ec96 rdf:value "#xywh=percent:1,24,34,20" .
 
+target:selector_f1be7592939b12d287cffcc8aad5d128b79c2386 a oa:FragmentSelector .
+target:selector_f1be7592939b12d287cffcc8aad5d128b79c2386 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_f1be7592939b12d287cffcc8aad5d128b79c2386 ui:h "0.07687028140013727"^^xsd:float .
+target:selector_f1be7592939b12d287cffcc8aad5d128b79c2386 ui:w "0.09381443298969072"^^xsd:float .
+target:selector_f1be7592939b12d287cffcc8aad5d128b79c2386 ui:x "0.009278350515463918"^^xsd:float .
+target:selector_f1be7592939b12d287cffcc8aad5d128b79c2386 ui:y "0.32463967055593684"^^xsd:float .
+target:selector_f1be7592939b12d287cffcc8aad5d128b79c2386 rdf:value "#xywh=percent:1,32,9,8" .
+
+target:target_650e0982342675dbb8d12ef5aa82e8b19eb5dfc9 a oa:SpecificResource .
+target:target_650e0982342675dbb8d12ef5aa82e8b19eb5dfc9 oa:hasSelector target:selector_650e0982342675dbb8d12ef5aa82e8b19eb5dfc9 .
+target:target_650e0982342675dbb8d12ef5aa82e8b19eb5dfc9 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/766> .
+
 target:target_d880a327cfd7776e0c093f7758c1cdea9587ec96 a oa:SpecificResource .
 target:target_d880a327cfd7776e0c093f7758c1cdea9587ec96 oa:hasSelector target:selector_d880a327cfd7776e0c093f7758c1cdea9587ec96 .
 target:target_d880a327cfd7776e0c093f7758c1cdea9587ec96 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/766> .
+
+target:target_f1be7592939b12d287cffcc8aad5d128b79c2386 a oa:SpecificResource .
+target:target_f1be7592939b12d287cffcc8aad5d128b79c2386 oa:hasSelector target:selector_f1be7592939b12d287cffcc8aad5d128b79c2386 .
+target:target_f1be7592939b12d287cffcc8aad5d128b79c2386 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/766> .

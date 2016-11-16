@@ -6,14 +6,51 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_405bb65ec62f66897cba8f9383a8f3e360fea115> a oa:Annotation .
-<http://accurator.nl/id_405bb65ec62f66897cba8f9383a8f3e360fea115> terms:title "Ascension of Eliah" .
-<http://accurator.nl/id_405bb65ec62f66897cba8f9383a8f3e360fea115> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
-<http://accurator.nl/id_405bb65ec62f66897cba8f9383a8f3e360fea115> ui:typingTime 0 .
-<http://accurator.nl/id_405bb65ec62f66897cba8f9383a8f3e360fea115> oa:annotatedAt "2016-04-09T17:49:31+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_405bb65ec62f66897cba8f9383a8f3e360fea115> oa:annotatedBy user:everhoeff .
-<http://accurator.nl/id_405bb65ec62f66897cba8f9383a8f3e360fea115> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Ascension of Eliah" ] .
-<http://accurator.nl/id_405bb65ec62f66897cba8f9383a8f3e360fea115> oa:hasTarget ubvu:print-218010001517 .
-<http://accurator.nl/id_405bb65ec62f66897cba8f9383a8f3e360fea115> oa:motivatedBy oa:tagging .
+nl:id_1430b98688c7967bfcdc81c112299aedd23542ca a oa:Annotation .
+nl:id_1430b98688c7967bfcdc81c112299aedd23542ca terms:title "Elia" .
+nl:id_1430b98688c7967bfcdc81c112299aedd23542ca ui:annotationField bible:BibleCharacter .
+nl:id_1430b98688c7967bfcdc81c112299aedd23542ca ui:typingTime 0 .
+nl:id_1430b98688c7967bfcdc81c112299aedd23542ca oa:annotatedAt "2016-06-07T14:18:00+02:00"^^xsd:dateTime .
+nl:id_1430b98688c7967bfcdc81c112299aedd23542ca oa:annotatedBy user:paulinevandijk .
+nl:id_1430b98688c7967bfcdc81c112299aedd23542ca oa:hasBody resource:Elijah .
+nl:id_1430b98688c7967bfcdc81c112299aedd23542ca oa:hasTarget target:target_c0a6ff8cb6e436191f9e7349927a5eb406975e63 .
+nl:id_1430b98688c7967bfcdc81c112299aedd23542ca oa:hasTarget ubvu:print-218010001517 .
+nl:id_1430b98688c7967bfcdc81c112299aedd23542ca oa:motivatedBy oa:tagging .
+
+nl:id_405bb65ec62f66897cba8f9383a8f3e360fea115 a oa:Annotation .
+nl:id_405bb65ec62f66897cba8f9383a8f3e360fea115 terms:title "Ascension of Eliah" .
+nl:id_405bb65ec62f66897cba8f9383a8f3e360fea115 ui:annotationField bible:ICBibleTheme .
+nl:id_405bb65ec62f66897cba8f9383a8f3e360fea115 ui:typingTime 0 .
+nl:id_405bb65ec62f66897cba8f9383a8f3e360fea115 oa:annotatedAt "2016-04-09T17:49:31+02:00"^^xsd:dateTime .
+nl:id_405bb65ec62f66897cba8f9383a8f3e360fea115 oa:annotatedBy user:everhoeff .
+nl:id_405bb65ec62f66897cba8f9383a8f3e360fea115 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Ascension of Eliah" ] .
+nl:id_405bb65ec62f66897cba8f9383a8f3e360fea115 oa:hasTarget ubvu:print-218010001517 .
+nl:id_405bb65ec62f66897cba8f9383a8f3e360fea115 oa:motivatedBy oa:tagging .
+
+nl:id_c31e15bcff6a1495354fb811bd697c019d27c5d5 a oa:Annotation .
+nl:id_c31e15bcff6a1495354fb811bd697c019d27c5d5 terms:title "Hemelvaart van Elia" .
+nl:id_c31e15bcff6a1495354fb811bd697c019d27c5d5 ui:annotationField bible:ICBibleTheme .
+nl:id_c31e15bcff6a1495354fb811bd697c019d27c5d5 ui:typingTime 0 .
+nl:id_c31e15bcff6a1495354fb811bd697c019d27c5d5 oa:annotatedAt "2016-06-07T14:18:10+02:00"^^xsd:dateTime .
+nl:id_c31e15bcff6a1495354fb811bd697c019d27c5d5 oa:annotatedBy user:paulinevandijk .
+nl:id_c31e15bcff6a1495354fb811bd697c019d27c5d5 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Hemelvaart van Elia" ] .
+nl:id_c31e15bcff6a1495354fb811bd697c019d27c5d5 oa:hasTarget ubvu:print-218010001517 .
+nl:id_c31e15bcff6a1495354fb811bd697c019d27c5d5 oa:motivatedBy oa:tagging .
+
+target:selector_c0a6ff8cb6e436191f9e7349927a5eb406975e63 a oa:FragmentSelector .
+target:selector_c0a6ff8cb6e436191f9e7349927a5eb406975e63 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_c0a6ff8cb6e436191f9e7349927a5eb406975e63 ui:h "0.2720897615708275"^^xsd:float .
+target:selector_c0a6ff8cb6e436191f9e7349927a5eb406975e63 ui:w "0.24329896907216494"^^xsd:float .
+target:selector_c0a6ff8cb6e436191f9e7349927a5eb406975e63 ui:x "0.01134020618556701"^^xsd:float .
+target:selector_c0a6ff8cb6e436191f9e7349927a5eb406975e63 ui:y "0.15287517531556802"^^xsd:float .
+target:selector_c0a6ff8cb6e436191f9e7349927a5eb406975e63 rdf:value "#xywh=percent:1,15,24,27" .
+
+target:target_c0a6ff8cb6e436191f9e7349927a5eb406975e63 a oa:SpecificResource .
+target:target_c0a6ff8cb6e436191f9e7349927a5eb406975e63 oa:hasSelector target:selector_c0a6ff8cb6e436191f9e7349927a5eb406975e63 .
+target:target_c0a6ff8cb6e436191f9e7349927a5eb406975e63 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/558> .

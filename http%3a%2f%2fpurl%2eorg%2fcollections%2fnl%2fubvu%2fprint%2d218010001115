@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -22,6 +23,37 @@ nl:id_3b038b99a35ef79765cb8f2cdcb94541a8c0c601 oa:hasTarget target:target_c54d1c
 nl:id_3b038b99a35ef79765cb8f2cdcb94541a8c0c601 oa:hasTarget ubvu:print-218010001115 .
 nl:id_3b038b99a35ef79765cb8f2cdcb94541a8c0c601 oa:motivatedBy oa:tagging .
 
+nl:id_4d06ca7ae207e69dfac3a1afbfc979684de3292c a oa:Annotation .
+nl:id_4d06ca7ae207e69dfac3a1afbfc979684de3292c terms:title "Abraham" .
+nl:id_4d06ca7ae207e69dfac3a1afbfc979684de3292c ui:annotationField bible:BibleCharacter .
+nl:id_4d06ca7ae207e69dfac3a1afbfc979684de3292c ui:typingTime 0 .
+nl:id_4d06ca7ae207e69dfac3a1afbfc979684de3292c oa:annotatedAt "2016-06-18T14:19:59+02:00"^^xsd:dateTime .
+nl:id_4d06ca7ae207e69dfac3a1afbfc979684de3292c oa:annotatedBy user:paulinevandijk .
+nl:id_4d06ca7ae207e69dfac3a1afbfc979684de3292c oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Abraham" ] .
+nl:id_4d06ca7ae207e69dfac3a1afbfc979684de3292c oa:hasTarget target:target_f4d1dbba85f5036a0dcc4726e8334f35e808d959 .
+nl:id_4d06ca7ae207e69dfac3a1afbfc979684de3292c oa:hasTarget ubvu:print-218010001115 .
+nl:id_4d06ca7ae207e69dfac3a1afbfc979684de3292c oa:motivatedBy oa:tagging .
+
+nl:id_aa79084332ccb0846e8fd0e50d789d2f027fbdc2 a oa:Annotation .
+nl:id_aa79084332ccb0846e8fd0e50d789d2f027fbdc2 terms:title "Isaak enh Ismaél begraven Abraham in de grot van Machpela." .
+nl:id_aa79084332ccb0846e8fd0e50d789d2f027fbdc2 ui:annotationField bible:ICBibleTheme .
+nl:id_aa79084332ccb0846e8fd0e50d789d2f027fbdc2 ui:typingTime 0 .
+nl:id_aa79084332ccb0846e8fd0e50d789d2f027fbdc2 oa:annotatedAt "2016-06-18T14:20:48+02:00"^^xsd:dateTime .
+nl:id_aa79084332ccb0846e8fd0e50d789d2f027fbdc2 oa:annotatedBy user:paulinevandijk .
+nl:id_aa79084332ccb0846e8fd0e50d789d2f027fbdc2 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Isaak enh Ismaél begraven Abraham in de grot van Machpela." ] .
+nl:id_aa79084332ccb0846e8fd0e50d789d2f027fbdc2 oa:hasTarget ubvu:print-218010001115 .
+nl:id_aa79084332ccb0846e8fd0e50d789d2f027fbdc2 oa:motivatedBy oa:tagging .
+
+nl:id_c2adbad2f476ccbf178f1ebef37d0bce36c5cfc6 a oa:Annotation .
+nl:id_c2adbad2f476ccbf178f1ebef37d0bce36c5cfc6 terms:title "Abraham is buried by Isaac and Ishmael in the cave of Machpelah" .
+nl:id_c2adbad2f476ccbf178f1ebef37d0bce36c5cfc6 ui:annotationField bible:ICBibleTheme .
+nl:id_c2adbad2f476ccbf178f1ebef37d0bce36c5cfc6 ui:typingTime 0 .
+nl:id_c2adbad2f476ccbf178f1ebef37d0bce36c5cfc6 oa:annotatedAt "2016-06-13T21:01:30+02:00"^^xsd:dateTime .
+nl:id_c2adbad2f476ccbf178f1ebef37d0bce36c5cfc6 oa:annotatedBy user:everhoeff .
+nl:id_c2adbad2f476ccbf178f1ebef37d0bce36c5cfc6 oa:hasBody <http://iconclass.org/71C2241> .
+nl:id_c2adbad2f476ccbf178f1ebef37d0bce36c5cfc6 oa:hasTarget ubvu:print-218010001115 .
+nl:id_c2adbad2f476ccbf178f1ebef37d0bce36c5cfc6 oa:motivatedBy oa:tagging .
+
 nl:id_f56b64b52d9a119cea3b7bfb9e3ca950303f6947 a oa:Annotation .
 nl:id_f56b64b52d9a119cea3b7bfb9e3ca950303f6947 terms:title "Isaac and Ismael bury Abraham" .
 nl:id_f56b64b52d9a119cea3b7bfb9e3ca950303f6947 ui:annotationField bible:ICBibleTheme .
@@ -40,6 +72,18 @@ target:selector_c54d1c7a504a0eabb8d1930c3665b6e0bdadc593 ui:x "0.077538462581797
 target:selector_c54d1c7a504a0eabb8d1930c3665b6e0bdadc593 ui:y "0.396057095388866"^^xsd:float .
 target:selector_c54d1c7a504a0eabb8d1930c3665b6e0bdadc593 rdf:value "#xywh=percent:8,40,57,20" .
 
+target:selector_f4d1dbba85f5036a0dcc4726e8334f35e808d959 a oa:FragmentSelector .
+target:selector_f4d1dbba85f5036a0dcc4726e8334f35e808d959 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_f4d1dbba85f5036a0dcc4726e8334f35e808d959 ui:h "0.1015925315760571"^^xsd:float .
+target:selector_f4d1dbba85f5036a0dcc4726e8334f35e808d959 ui:w "0.1829059829059829"^^xsd:float .
+target:selector_f4d1dbba85f5036a0dcc4726e8334f35e808d959 ui:x "0.4700854700854701"^^xsd:float .
+target:selector_f4d1dbba85f5036a0dcc4726e8334f35e808d959 ui:y "0.40197693574958815"^^xsd:float .
+target:selector_f4d1dbba85f5036a0dcc4726e8334f35e808d959 rdf:value "#xywh=percent:47,40,18,10" .
+
 target:target_c54d1c7a504a0eabb8d1930c3665b6e0bdadc593 a oa:SpecificResource .
 target:target_c54d1c7a504a0eabb8d1930c3665b6e0bdadc593 oa:hasSelector target:selector_c54d1c7a504a0eabb8d1930c3665b6e0bdadc593 .
 target:target_c54d1c7a504a0eabb8d1930c3665b6e0bdadc593 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/156> .
+
+target:target_f4d1dbba85f5036a0dcc4726e8334f35e808d959 a oa:SpecificResource .
+target:target_f4d1dbba85f5036a0dcc4726e8334f35e808d959 oa:hasSelector target:selector_f4d1dbba85f5036a0dcc4726e8334f35e808d959 .
+target:target_f4d1dbba85f5036a0dcc4726e8334f35e808d959 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/156> .

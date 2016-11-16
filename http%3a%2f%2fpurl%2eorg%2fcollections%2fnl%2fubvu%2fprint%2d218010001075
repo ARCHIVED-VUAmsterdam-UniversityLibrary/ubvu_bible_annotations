@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -8,17 +9,48 @@
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_307c9942e1c7b172c83d0134ecf78405aed621b5> a oa:Annotation .
-<http://accurator.nl/id_307c9942e1c7b172c83d0134ecf78405aed621b5> terms:title "Abraham" .
-<http://accurator.nl/id_307c9942e1c7b172c83d0134ecf78405aed621b5> ui:annotationField <http://accurator.nl/ui/annotation/bible#BibleCharacter> .
-<http://accurator.nl/id_307c9942e1c7b172c83d0134ecf78405aed621b5> ui:typingTime 0 .
-<http://accurator.nl/id_307c9942e1c7b172c83d0134ecf78405aed621b5> oa:annotatedAt "2016-04-04T15:51:15+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_307c9942e1c7b172c83d0134ecf78405aed621b5> oa:annotatedBy user:dick .
-<http://accurator.nl/id_307c9942e1c7b172c83d0134ecf78405aed621b5> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Abraham" ] .
-<http://accurator.nl/id_307c9942e1c7b172c83d0134ecf78405aed621b5> oa:hasTarget target:target_a282f5db31c1ac10f0ac220dc0e808e0e52911f8 .
-<http://accurator.nl/id_307c9942e1c7b172c83d0134ecf78405aed621b5> oa:hasTarget ubvu:print-218010001075 .
-<http://accurator.nl/id_307c9942e1c7b172c83d0134ecf78405aed621b5> oa:motivatedBy oa:tagging .
+nl:id_307c9942e1c7b172c83d0134ecf78405aed621b5 a oa:Annotation .
+nl:id_307c9942e1c7b172c83d0134ecf78405aed621b5 terms:title "Abraham" .
+nl:id_307c9942e1c7b172c83d0134ecf78405aed621b5 ui:annotationField bible:BibleCharacter .
+nl:id_307c9942e1c7b172c83d0134ecf78405aed621b5 ui:typingTime 0 .
+nl:id_307c9942e1c7b172c83d0134ecf78405aed621b5 oa:annotatedAt "2016-04-04T15:51:15+02:00"^^xsd:dateTime .
+nl:id_307c9942e1c7b172c83d0134ecf78405aed621b5 oa:annotatedBy user:dick .
+nl:id_307c9942e1c7b172c83d0134ecf78405aed621b5 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Abraham" ] .
+nl:id_307c9942e1c7b172c83d0134ecf78405aed621b5 oa:hasTarget target:target_a282f5db31c1ac10f0ac220dc0e808e0e52911f8 .
+nl:id_307c9942e1c7b172c83d0134ecf78405aed621b5 oa:hasTarget ubvu:print-218010001075 .
+nl:id_307c9942e1c7b172c83d0134ecf78405aed621b5 oa:motivatedBy oa:tagging .
+
+nl:id_7eefc2ffba7e95f26d1f97dc85fc557a06421d58 a oa:Annotation .
+nl:id_7eefc2ffba7e95f26d1f97dc85fc557a06421d58 terms:title "Abram" .
+nl:id_7eefc2ffba7e95f26d1f97dc85fc557a06421d58 ui:annotationField bible:BibleCharacter .
+nl:id_7eefc2ffba7e95f26d1f97dc85fc557a06421d58 ui:typingTime 0 .
+nl:id_7eefc2ffba7e95f26d1f97dc85fc557a06421d58 oa:annotatedAt "2016-05-16T14:10:09+02:00"^^xsd:dateTime .
+nl:id_7eefc2ffba7e95f26d1f97dc85fc557a06421d58 oa:annotatedBy user:everhoeff .
+nl:id_7eefc2ffba7e95f26d1f97dc85fc557a06421d58 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Abram" ] .
+nl:id_7eefc2ffba7e95f26d1f97dc85fc557a06421d58 oa:hasTarget target:target_9a1d947028451b9cfdacd43cf18975a8828b9a6e .
+nl:id_7eefc2ffba7e95f26d1f97dc85fc557a06421d58 oa:hasTarget ubvu:print-218010001075 .
+nl:id_7eefc2ffba7e95f26d1f97dc85fc557a06421d58 oa:motivatedBy oa:tagging .
+
+nl:id_a3b9b2ced68c60cdfee7edcec9c0d99806e21518 a oa:Annotation .
+nl:id_a3b9b2ced68c60cdfee7edcec9c0d99806e21518 terms:title "A deep sleep fell upon Abram and an horror seizes him" .
+nl:id_a3b9b2ced68c60cdfee7edcec9c0d99806e21518 ui:annotationField bible:ICBibleTheme .
+nl:id_a3b9b2ced68c60cdfee7edcec9c0d99806e21518 ui:typingTime 0 .
+nl:id_a3b9b2ced68c60cdfee7edcec9c0d99806e21518 oa:annotatedAt "2016-05-16T14:09:47+02:00"^^xsd:dateTime .
+nl:id_a3b9b2ced68c60cdfee7edcec9c0d99806e21518 oa:annotatedBy user:everhoeff .
+nl:id_a3b9b2ced68c60cdfee7edcec9c0d99806e21518 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "A deep sleep fell upon Abram and an horror seizes him" ] .
+nl:id_a3b9b2ced68c60cdfee7edcec9c0d99806e21518 oa:hasTarget ubvu:print-218010001075 .
+nl:id_a3b9b2ced68c60cdfee7edcec9c0d99806e21518 oa:motivatedBy oa:tagging .
+
+target:selector_9a1d947028451b9cfdacd43cf18975a8828b9a6e a oa:FragmentSelector .
+target:selector_9a1d947028451b9cfdacd43cf18975a8828b9a6e terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_9a1d947028451b9cfdacd43cf18975a8828b9a6e ui:h "0.267402376910017"^^xsd:float .
+target:selector_9a1d947028451b9cfdacd43cf18975a8828b9a6e ui:w "0.268"^^xsd:float .
+target:selector_9a1d947028451b9cfdacd43cf18975a8828b9a6e ui:x "0.608"^^xsd:float .
+target:selector_9a1d947028451b9cfdacd43cf18975a8828b9a6e ui:y "0.5458404074702886"^^xsd:float .
+target:selector_9a1d947028451b9cfdacd43cf18975a8828b9a6e rdf:value "#xywh=percent:61,55,27,27" .
 
 target:selector_a282f5db31c1ac10f0ac220dc0e808e0e52911f8 a oa:FragmentSelector .
 target:selector_a282f5db31c1ac10f0ac220dc0e808e0e52911f8 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
@@ -27,6 +59,10 @@ target:selector_a282f5db31c1ac10f0ac220dc0e808e0e52911f8 ui:w "0.409401709401709
 target:selector_a282f5db31c1ac10f0ac220dc0e808e0e52911f8 ui:x "0.4598290598290598"^^xsd:float .
 target:selector_a282f5db31c1ac10f0ac220dc0e808e0e52911f8 ui:y "0.5415669006414071"^^xsd:float .
 target:selector_a282f5db31c1ac10f0ac220dc0e808e0e52911f8 rdf:value "#xywh=percent:46,54,41,32" .
+
+target:target_9a1d947028451b9cfdacd43cf18975a8828b9a6e a oa:SpecificResource .
+target:target_9a1d947028451b9cfdacd43cf18975a8828b9a6e oa:hasSelector target:selector_9a1d947028451b9cfdacd43cf18975a8828b9a6e .
+target:target_9a1d947028451b9cfdacd43cf18975a8828b9a6e oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/116> .
 
 target:target_a282f5db31c1ac10f0ac220dc0e808e0e52911f8 a oa:SpecificResource .
 target:target_a282f5db31c1ac10f0ac220dc0e808e0e52911f8 oa:hasSelector target:selector_a282f5db31c1ac10f0ac220dc0e808e0e52911f8 .

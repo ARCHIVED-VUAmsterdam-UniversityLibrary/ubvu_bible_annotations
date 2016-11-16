@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -6,6 +7,7 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
@@ -29,3 +31,59 @@ nl:id_10804b0018b9fc4e7f0c240f434dae23f2f462da oa:annotatedBy user:joan .
 nl:id_10804b0018b9fc4e7f0c240f434dae23f2f462da oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "David shows Saul the skirt of his robe" ] .
 nl:id_10804b0018b9fc4e7f0c240f434dae23f2f462da oa:hasTarget ubvu:print-218010001469 .
 nl:id_10804b0018b9fc4e7f0c240f434dae23f2f462da oa:motivatedBy oa:tagging .
+
+nl:id_9783bea3890f74bf93ab367256753f540d647bfa a oa:Annotation .
+nl:id_9783bea3890f74bf93ab367256753f540d647bfa terms:title "David shewed Saul the skirt of his robe" .
+nl:id_9783bea3890f74bf93ab367256753f540d647bfa ui:annotationField bible:ICBibleTheme .
+nl:id_9783bea3890f74bf93ab367256753f540d647bfa ui:typingTime 0 .
+nl:id_9783bea3890f74bf93ab367256753f540d647bfa oa:annotatedAt "2016-06-13T21:10:47+02:00"^^xsd:dateTime .
+nl:id_9783bea3890f74bf93ab367256753f540d647bfa oa:annotatedBy user:everhoeff .
+nl:id_9783bea3890f74bf93ab367256753f540d647bfa oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "David shewed Saul the skirt of his robe" ] .
+nl:id_9783bea3890f74bf93ab367256753f540d647bfa oa:hasTarget ubvu:print-218010001469 .
+nl:id_9783bea3890f74bf93ab367256753f540d647bfa oa:motivatedBy oa:tagging .
+
+nl:id_cc214f0771eebd540735e649026436354876f273 a oa:Annotation .
+nl:id_cc214f0771eebd540735e649026436354876f273 terms:title "Saul" .
+nl:id_cc214f0771eebd540735e649026436354876f273 ui:annotationField bible:BibleCharacter .
+nl:id_cc214f0771eebd540735e649026436354876f273 ui:typingTime 0 .
+nl:id_cc214f0771eebd540735e649026436354876f273 oa:annotatedAt "2016-06-13T21:11:42+02:00"^^xsd:dateTime .
+nl:id_cc214f0771eebd540735e649026436354876f273 oa:annotatedBy user:everhoeff .
+nl:id_cc214f0771eebd540735e649026436354876f273 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Saul" ] .
+nl:id_cc214f0771eebd540735e649026436354876f273 oa:hasTarget target:target_5f842b75a925e3f976e1d4042c9d2f8fd69cb333 .
+nl:id_cc214f0771eebd540735e649026436354876f273 oa:hasTarget ubvu:print-218010001469 .
+nl:id_cc214f0771eebd540735e649026436354876f273 oa:motivatedBy oa:tagging .
+
+nl:id_d95efd29919eb46851678d3d0aa87c7ae9315a75 a oa:Annotation .
+nl:id_d95efd29919eb46851678d3d0aa87c7ae9315a75 terms:title "David" .
+nl:id_d95efd29919eb46851678d3d0aa87c7ae9315a75 ui:annotationField bible:BibleCharacter .
+nl:id_d95efd29919eb46851678d3d0aa87c7ae9315a75 ui:typingTime 0 .
+nl:id_d95efd29919eb46851678d3d0aa87c7ae9315a75 oa:annotatedAt "2016-06-13T21:11:23+02:00"^^xsd:dateTime .
+nl:id_d95efd29919eb46851678d3d0aa87c7ae9315a75 oa:annotatedBy user:everhoeff .
+nl:id_d95efd29919eb46851678d3d0aa87c7ae9315a75 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "David" ] .
+nl:id_d95efd29919eb46851678d3d0aa87c7ae9315a75 oa:hasTarget target:target_740f7bf1a6b243325a8f4522100008dcab3db76c .
+nl:id_d95efd29919eb46851678d3d0aa87c7ae9315a75 oa:hasTarget ubvu:print-218010001469 .
+nl:id_d95efd29919eb46851678d3d0aa87c7ae9315a75 oa:motivatedBy oa:tagging .
+
+target:selector_5f842b75a925e3f976e1d4042c9d2f8fd69cb333 a oa:FragmentSelector .
+target:selector_5f842b75a925e3f976e1d4042c9d2f8fd69cb333 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_5f842b75a925e3f976e1d4042c9d2f8fd69cb333 ui:h "0.39536516853932585"^^xsd:float .
+target:selector_5f842b75a925e3f976e1d4042c9d2f8fd69cb333 ui:w "0.2556701030927835"^^xsd:float .
+target:selector_5f842b75a925e3f976e1d4042c9d2f8fd69cb333 ui:x "0.012371134020618556"^^xsd:float .
+target:selector_5f842b75a925e3f976e1d4042c9d2f8fd69cb333 ui:y "0.39115168539325845"^^xsd:float .
+target:selector_5f842b75a925e3f976e1d4042c9d2f8fd69cb333 rdf:value "#xywh=percent:1,39,26,40" .
+
+target:selector_740f7bf1a6b243325a8f4522100008dcab3db76c a oa:FragmentSelector .
+target:selector_740f7bf1a6b243325a8f4522100008dcab3db76c terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_740f7bf1a6b243325a8f4522100008dcab3db76c ui:h "0.27598314606741575"^^xsd:float .
+target:selector_740f7bf1a6b243325a8f4522100008dcab3db76c ui:w "0.30721649484536084"^^xsd:float .
+target:selector_740f7bf1a6b243325a8f4522100008dcab3db76c ui:x "0.3154639175257732"^^xsd:float .
+target:selector_740f7bf1a6b243325a8f4522100008dcab3db76c ui:y "0.2633426966292135"^^xsd:float .
+target:selector_740f7bf1a6b243325a8f4522100008dcab3db76c rdf:value "#xywh=percent:32,26,31,28" .
+
+target:target_5f842b75a925e3f976e1d4042c9d2f8fd69cb333 a oa:SpecificResource .
+target:target_5f842b75a925e3f976e1d4042c9d2f8fd69cb333 oa:hasSelector target:selector_5f842b75a925e3f976e1d4042c9d2f8fd69cb333 .
+target:target_5f842b75a925e3f976e1d4042c9d2f8fd69cb333 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/510> .
+
+target:target_740f7bf1a6b243325a8f4522100008dcab3db76c a oa:SpecificResource .
+target:target_740f7bf1a6b243325a8f4522100008dcab3db76c oa:hasSelector target:selector_740f7bf1a6b243325a8f4522100008dcab3db76c .
+target:target_740f7bf1a6b243325a8f4522100008dcab3db76c oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/510> .

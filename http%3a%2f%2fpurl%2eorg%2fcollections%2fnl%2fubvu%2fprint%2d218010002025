@@ -1,5 +1,4 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
-@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -8,63 +7,49 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
-@prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
-nl:id_05458b05aed9541123535442cf1efc1d830e7e50 a oa:Annotation .
-nl:id_05458b05aed9541123535442cf1efc1d830e7e50 terms:title "David speelt voor koning Saul. Spreuken van Salomo" .
-nl:id_05458b05aed9541123535442cf1efc1d830e7e50 ui:annotationField bible:ICBibleTheme .
-nl:id_05458b05aed9541123535442cf1efc1d830e7e50 ui:typingTime 0 .
-nl:id_05458b05aed9541123535442cf1efc1d830e7e50 oa:annotatedAt "2016-04-25T17:34:55+02:00"^^xsd:dateTime .
-nl:id_05458b05aed9541123535442cf1efc1d830e7e50 oa:annotatedBy user:paulinevandijk .
-nl:id_05458b05aed9541123535442cf1efc1d830e7e50 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "David speelt voor koning Saul. Spreuken van Salomo" ] .
-nl:id_05458b05aed9541123535442cf1efc1d830e7e50 oa:hasTarget ubvu:print-218010002025 .
-nl:id_05458b05aed9541123535442cf1efc1d830e7e50 oa:motivatedBy oa:tagging .
+nl:id_66d14bb0d6c9ec7f2c629a8b8757425bbd63667c a oa:Annotation .
+nl:id_66d14bb0d6c9ec7f2c629a8b8757425bbd63667c terms:title "Solomon" .
+nl:id_66d14bb0d6c9ec7f2c629a8b8757425bbd63667c ui:annotationField bible:BibleCharacter .
+nl:id_66d14bb0d6c9ec7f2c629a8b8757425bbd63667c ui:typingTime 0 .
+nl:id_66d14bb0d6c9ec7f2c629a8b8757425bbd63667c oa:annotatedAt "2016-05-16T13:41:00+02:00"^^xsd:dateTime .
+nl:id_66d14bb0d6c9ec7f2c629a8b8757425bbd63667c oa:annotatedBy user:everhoeff .
+nl:id_66d14bb0d6c9ec7f2c629a8b8757425bbd63667c oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Solomon" ] .
+nl:id_66d14bb0d6c9ec7f2c629a8b8757425bbd63667c oa:hasTarget target:target_19275c2465445a2be6c627c379f0a1d2e39da88b .
+nl:id_66d14bb0d6c9ec7f2c629a8b8757425bbd63667c oa:hasTarget ubvu:print-218010002025 .
+nl:id_66d14bb0d6c9ec7f2c629a8b8757425bbd63667c oa:motivatedBy oa:tagging .
 
-nl:id_1e333551a6e56534ad38a24d5d99d4c7539aa789 a oa:Annotation .
-nl:id_1e333551a6e56534ad38a24d5d99d4c7539aa789 terms:title "Saul" .
-nl:id_1e333551a6e56534ad38a24d5d99d4c7539aa789 ui:annotationField bible:BibleCharacter .
-nl:id_1e333551a6e56534ad38a24d5d99d4c7539aa789 ui:typingTime 0 .
-nl:id_1e333551a6e56534ad38a24d5d99d4c7539aa789 oa:annotatedAt "2016-04-25T17:30:44+02:00"^^xsd:dateTime .
-nl:id_1e333551a6e56534ad38a24d5d99d4c7539aa789 oa:annotatedBy user:paulinevandijk .
-nl:id_1e333551a6e56534ad38a24d5d99d4c7539aa789 oa:hasBody resource:Saul .
-nl:id_1e333551a6e56534ad38a24d5d99d4c7539aa789 oa:hasTarget target:target_54be6ea1e48c53cdefba38a188814afd93f1c212 .
-nl:id_1e333551a6e56534ad38a24d5d99d4c7539aa789 oa:hasTarget ubvu:print-218010002025 .
-nl:id_1e333551a6e56534ad38a24d5d99d4c7539aa789 oa:motivatedBy oa:tagging .
+nl:id_764b267237baf47fcad838766477325a84886c58 a oa:Annotation .
+nl:id_764b267237baf47fcad838766477325a84886c58 terms:title "the book of Proverbs (with BOOK CHAPTER:VERSE)" .
+nl:id_764b267237baf47fcad838766477325a84886c58 ui:annotationField bible:ICBibleTheme .
+nl:id_764b267237baf47fcad838766477325a84886c58 ui:typingTime 0 .
+nl:id_764b267237baf47fcad838766477325a84886c58 oa:annotatedAt "2016-05-16T13:39:38+02:00"^^xsd:dateTime .
+nl:id_764b267237baf47fcad838766477325a84886c58 oa:annotatedBy user:everhoeff .
+nl:id_764b267237baf47fcad838766477325a84886c58 oa:hasBody <http://iconclass.org/71Y1%28...%29> .
+nl:id_764b267237baf47fcad838766477325a84886c58 oa:hasTarget ubvu:print-218010002025 .
+nl:id_764b267237baf47fcad838766477325a84886c58 oa:motivatedBy oa:tagging .
 
-nl:id_a662c0f8461f8ef1185f3fad215c68b091b3682e a oa:Annotation .
-nl:id_a662c0f8461f8ef1185f3fad215c68b091b3682e terms:title "David" .
-nl:id_a662c0f8461f8ef1185f3fad215c68b091b3682e ui:annotationField bible:BibleCharacter .
-nl:id_a662c0f8461f8ef1185f3fad215c68b091b3682e ui:typingTime 0 .
-nl:id_a662c0f8461f8ef1185f3fad215c68b091b3682e oa:annotatedAt "2016-04-25T17:30:32+02:00"^^xsd:dateTime .
-nl:id_a662c0f8461f8ef1185f3fad215c68b091b3682e oa:annotatedBy user:paulinevandijk .
-nl:id_a662c0f8461f8ef1185f3fad215c68b091b3682e oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "David" ] .
-nl:id_a662c0f8461f8ef1185f3fad215c68b091b3682e oa:hasTarget target:target_1be9fc90d483611ec9c092f815ebac765cd115c3 .
-nl:id_a662c0f8461f8ef1185f3fad215c68b091b3682e oa:hasTarget ubvu:print-218010002025 .
-nl:id_a662c0f8461f8ef1185f3fad215c68b091b3682e oa:motivatedBy oa:tagging .
+nl:id_b375e24b2bca7dba2db5a2fdaba1d976fbc4b3bf a oa:Annotation .
+nl:id_b375e24b2bca7dba2db5a2fdaba1d976fbc4b3bf terms:title "the book of Psalms" .
+nl:id_b375e24b2bca7dba2db5a2fdaba1d976fbc4b3bf ui:annotationField bible:ICBibleTheme .
+nl:id_b375e24b2bca7dba2db5a2fdaba1d976fbc4b3bf ui:typingTime 0 .
+nl:id_b375e24b2bca7dba2db5a2fdaba1d976fbc4b3bf oa:annotatedAt "2016-05-16T13:38:59+02:00"^^xsd:dateTime .
+nl:id_b375e24b2bca7dba2db5a2fdaba1d976fbc4b3bf oa:annotatedBy user:everhoeff .
+nl:id_b375e24b2bca7dba2db5a2fdaba1d976fbc4b3bf oa:hasBody <http://iconclass.org/71X1> .
+nl:id_b375e24b2bca7dba2db5a2fdaba1d976fbc4b3bf oa:hasTarget ubvu:print-218010002025 .
+nl:id_b375e24b2bca7dba2db5a2fdaba1d976fbc4b3bf oa:motivatedBy oa:tagging .
 
-target:selector_1be9fc90d483611ec9c092f815ebac765cd115c3 a oa:FragmentSelector .
-target:selector_1be9fc90d483611ec9c092f815ebac765cd115c3 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
-target:selector_1be9fc90d483611ec9c092f815ebac765cd115c3 ui:h "0.11715797430083144"^^xsd:float .
-target:selector_1be9fc90d483611ec9c092f815ebac765cd115c3 ui:w "0.0711340206185567"^^xsd:float .
-target:selector_1be9fc90d483611ec9c092f815ebac765cd115c3 ui:x "0.2979381443298969"^^xsd:float .
-target:selector_1be9fc90d483611ec9c092f815ebac765cd115c3 ui:y "0.2789115646258503"^^xsd:float .
-target:selector_1be9fc90d483611ec9c092f815ebac765cd115c3 rdf:value "#xywh=percent:30,28,7,12" .
+target:selector_19275c2465445a2be6c627c379f0a1d2e39da88b a oa:FragmentSelector .
+target:selector_19275c2465445a2be6c627c379f0a1d2e39da88b terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_19275c2465445a2be6c627c379f0a1d2e39da88b ui:h "0.14012738853503184"^^xsd:float .
+target:selector_19275c2465445a2be6c627c379f0a1d2e39da88b ui:w "0.09739130434782609"^^xsd:float .
+target:selector_19275c2465445a2be6c627c379f0a1d2e39da88b ui:x "0.20173913043478262"^^xsd:float .
+target:selector_19275c2465445a2be6c627c379f0a1d2e39da88b ui:y "0.6203821656050955"^^xsd:float .
+target:selector_19275c2465445a2be6c627c379f0a1d2e39da88b rdf:value "#xywh=percent:20,62,10,14" .
 
-target:selector_54be6ea1e48c53cdefba38a188814afd93f1c212 a oa:FragmentSelector .
-target:selector_54be6ea1e48c53cdefba38a188814afd93f1c212 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
-target:selector_54be6ea1e48c53cdefba38a188814afd93f1c212 ui:h "0.14285714285714285"^^xsd:float .
-target:selector_54be6ea1e48c53cdefba38a188814afd93f1c212 ui:w "0.14536082474226805"^^xsd:float .
-target:selector_54be6ea1e48c53cdefba38a188814afd93f1c212 ui:x "0.3494845360824742"^^xsd:float .
-target:selector_54be6ea1e48c53cdefba38a188814afd93f1c212 ui:y "0.29402872260015117"^^xsd:float .
-target:selector_54be6ea1e48c53cdefba38a188814afd93f1c212 rdf:value "#xywh=percent:35,29,15,14" .
-
-target:target_1be9fc90d483611ec9c092f815ebac765cd115c3 a oa:SpecificResource .
-target:target_1be9fc90d483611ec9c092f815ebac765cd115c3 oa:hasSelector target:selector_1be9fc90d483611ec9c092f815ebac765cd115c3 .
-target:target_1be9fc90d483611ec9c092f815ebac765cd115c3 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/24> .
-
-target:target_54be6ea1e48c53cdefba38a188814afd93f1c212 a oa:SpecificResource .
-target:target_54be6ea1e48c53cdefba38a188814afd93f1c212 oa:hasSelector target:selector_54be6ea1e48c53cdefba38a188814afd93f1c212 .
-target:target_54be6ea1e48c53cdefba38a188814afd93f1c212 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/24> .
+target:target_19275c2465445a2be6c627c379f0a1d2e39da88b a oa:SpecificResource .
+target:target_19275c2465445a2be6c627c379f0a1d2e39da88b oa:hasSelector target:selector_19275c2465445a2be6c627c379f0a1d2e39da88b .
+target:target_19275c2465445a2be6c627c379f0a1d2e39da88b oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/24> .

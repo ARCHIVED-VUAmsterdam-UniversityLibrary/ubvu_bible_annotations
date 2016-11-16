@@ -1,17 +1,67 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_6e30cc1cba4012f963a3782d2085d88b1a9ccf8d> a oa:Annotation .
-<http://accurator.nl/id_6e30cc1cba4012f963a3782d2085d88b1a9ccf8d> terms:title "story of Judah and Tamar (Genesis 38)" .
-<http://accurator.nl/id_6e30cc1cba4012f963a3782d2085d88b1a9ccf8d> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
-<http://accurator.nl/id_6e30cc1cba4012f963a3782d2085d88b1a9ccf8d> ui:typingTime 0 .
-<http://accurator.nl/id_6e30cc1cba4012f963a3782d2085d88b1a9ccf8d> oa:annotatedAt "2016-04-09T17:41:13+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_6e30cc1cba4012f963a3782d2085d88b1a9ccf8d> oa:annotatedBy user:everhoeff .
-<http://accurator.nl/id_6e30cc1cba4012f963a3782d2085d88b1a9ccf8d> oa:hasBody <http://iconclass.org/71C332> .
-<http://accurator.nl/id_6e30cc1cba4012f963a3782d2085d88b1a9ccf8d> oa:hasTarget ubvu:print-218010001162 .
-<http://accurator.nl/id_6e30cc1cba4012f963a3782d2085d88b1a9ccf8d> oa:motivatedBy oa:tagging .
+nl:id_2af0e7ed07b3b1543c3e5388cf930ffec2d76489 a oa:Annotation .
+nl:id_2af0e7ed07b3b1543c3e5388cf930ffec2d76489 terms:title "Tamar" .
+nl:id_2af0e7ed07b3b1543c3e5388cf930ffec2d76489 ui:annotationField bible:BibleCharacter .
+nl:id_2af0e7ed07b3b1543c3e5388cf930ffec2d76489 ui:typingTime 0 .
+nl:id_2af0e7ed07b3b1543c3e5388cf930ffec2d76489 oa:annotatedAt "2016-06-08T14:06:27+02:00"^^xsd:dateTime .
+nl:id_2af0e7ed07b3b1543c3e5388cf930ffec2d76489 oa:annotatedBy user:paulinevandijk .
+nl:id_2af0e7ed07b3b1543c3e5388cf930ffec2d76489 oa:hasBody resource:Tamar .
+nl:id_2af0e7ed07b3b1543c3e5388cf930ffec2d76489 oa:hasTarget target:target_7014c1a576a8c9e751dd7c85fd34062739495724 .
+nl:id_2af0e7ed07b3b1543c3e5388cf930ffec2d76489 oa:hasTarget ubvu:print-218010001162 .
+nl:id_2af0e7ed07b3b1543c3e5388cf930ffec2d76489 oa:motivatedBy oa:tagging .
+
+nl:id_6e30cc1cba4012f963a3782d2085d88b1a9ccf8d a oa:Annotation .
+nl:id_6e30cc1cba4012f963a3782d2085d88b1a9ccf8d terms:title "story of Judah and Tamar (Genesis 38)" .
+nl:id_6e30cc1cba4012f963a3782d2085d88b1a9ccf8d ui:annotationField bible:ICBibleTheme .
+nl:id_6e30cc1cba4012f963a3782d2085d88b1a9ccf8d ui:typingTime 0 .
+nl:id_6e30cc1cba4012f963a3782d2085d88b1a9ccf8d oa:annotatedAt "2016-04-09T17:41:13+02:00"^^xsd:dateTime .
+nl:id_6e30cc1cba4012f963a3782d2085d88b1a9ccf8d oa:annotatedBy user:everhoeff .
+nl:id_6e30cc1cba4012f963a3782d2085d88b1a9ccf8d oa:hasBody <http://iconclass.org/71C332> .
+nl:id_6e30cc1cba4012f963a3782d2085d88b1a9ccf8d oa:hasTarget ubvu:print-218010001162 .
+nl:id_6e30cc1cba4012f963a3782d2085d88b1a9ccf8d oa:motivatedBy oa:tagging .
+
+nl:id_914b6c78f0d018e5f76d5205ee7ddee67662303f a oa:Annotation .
+nl:id_914b6c78f0d018e5f76d5205ee7ddee67662303f terms:title "Tamar is zwanger van haar schoonvader Juda" .
+nl:id_914b6c78f0d018e5f76d5205ee7ddee67662303f ui:annotationField bible:ICBibleTheme .
+nl:id_914b6c78f0d018e5f76d5205ee7ddee67662303f ui:typingTime 0 .
+nl:id_914b6c78f0d018e5f76d5205ee7ddee67662303f oa:annotatedAt "2016-06-08T14:09:21+02:00"^^xsd:dateTime .
+nl:id_914b6c78f0d018e5f76d5205ee7ddee67662303f oa:annotatedBy user:paulinevandijk .
+nl:id_914b6c78f0d018e5f76d5205ee7ddee67662303f oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Tamar is zwanger van haar schoonvader Juda" ] .
+nl:id_914b6c78f0d018e5f76d5205ee7ddee67662303f oa:hasTarget ubvu:print-218010001162 .
+nl:id_914b6c78f0d018e5f76d5205ee7ddee67662303f oa:motivatedBy oa:tagging .
+
+nl:id_e401c48065d649e0387e1abade48f5eddc5fd450 a oa:Annotation .
+nl:id_e401c48065d649e0387e1abade48f5eddc5fd450 terms:title "Tamar (familie van Juda)" .
+nl:id_e401c48065d649e0387e1abade48f5eddc5fd450 ui:annotationField bible:BibleCharacter .
+nl:id_e401c48065d649e0387e1abade48f5eddc5fd450 ui:typingTime 0 .
+nl:id_e401c48065d649e0387e1abade48f5eddc5fd450 oa:annotatedAt "2016-06-08T14:07:39+02:00"^^xsd:dateTime .
+nl:id_e401c48065d649e0387e1abade48f5eddc5fd450 oa:annotatedBy user:paulinevandijk .
+nl:id_e401c48065d649e0387e1abade48f5eddc5fd450 oa:hasBody resource:Tamal_related_with_Judah .
+nl:id_e401c48065d649e0387e1abade48f5eddc5fd450 oa:hasTarget target:target_7014c1a576a8c9e751dd7c85fd34062739495724 .
+nl:id_e401c48065d649e0387e1abade48f5eddc5fd450 oa:hasTarget ubvu:print-218010001162 .
+nl:id_e401c48065d649e0387e1abade48f5eddc5fd450 oa:motivatedBy oa:tagging .
+
+target:selector_7014c1a576a8c9e751dd7c85fd34062739495724 a oa:FragmentSelector .
+target:selector_7014c1a576a8c9e751dd7c85fd34062739495724 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_7014c1a576a8c9e751dd7c85fd34062739495724 ui:h "0.11418685121107267"^^xsd:float .
+target:selector_7014c1a576a8c9e751dd7c85fd34062739495724 ui:w "0.05670103092783505"^^xsd:float .
+target:selector_7014c1a576a8c9e751dd7c85fd34062739495724 ui:x "0.5412371134020618"^^xsd:float .
+target:selector_7014c1a576a8c9e751dd7c85fd34062739495724 ui:y "0.6913494809688582"^^xsd:float .
+target:selector_7014c1a576a8c9e751dd7c85fd34062739495724 rdf:value "#xywh=percent:54,69,6,11" .
+
+target:target_7014c1a576a8c9e751dd7c85fd34062739495724 a oa:SpecificResource .
+target:target_7014c1a576a8c9e751dd7c85fd34062739495724 oa:hasSelector target:selector_7014c1a576a8c9e751dd7c85fd34062739495724 .
+target:target_7014c1a576a8c9e751dd7c85fd34062739495724 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/203> .

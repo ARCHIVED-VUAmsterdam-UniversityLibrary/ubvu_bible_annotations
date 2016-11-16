@@ -1,14 +1,26 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
+
+nl:id_35329d37b869fb4d010c9c7b1059aa60c06feb1b a oa:Annotation .
+nl:id_35329d37b869fb4d010c9c7b1059aa60c06feb1b terms:title "Christ sleeping in the ship was awaked by his disciples" .
+nl:id_35329d37b869fb4d010c9c7b1059aa60c06feb1b ui:annotationField bible:ICBibleTheme .
+nl:id_35329d37b869fb4d010c9c7b1059aa60c06feb1b ui:typingTime 0 .
+nl:id_35329d37b869fb4d010c9c7b1059aa60c06feb1b oa:annotatedAt "2016-06-15T16:58:17+02:00"^^xsd:dateTime .
+nl:id_35329d37b869fb4d010c9c7b1059aa60c06feb1b oa:annotatedBy user:everhoeff .
+nl:id_35329d37b869fb4d010c9c7b1059aa60c06feb1b oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Christ sleeping in the ship was awaked by his disciples" ] .
+nl:id_35329d37b869fb4d010c9c7b1059aa60c06feb1b oa:hasTarget ubvu:print-218010001751 .
+nl:id_35329d37b869fb4d010c9c7b1059aa60c06feb1b oa:motivatedBy oa:tagging .
 
 nl:id_b8ec2655c887ace352da94f05e3708885465a7d9 a oa:Annotation .
 nl:id_b8ec2655c887ace352da94f05e3708885465a7d9 terms:title "Jezus Christus" .

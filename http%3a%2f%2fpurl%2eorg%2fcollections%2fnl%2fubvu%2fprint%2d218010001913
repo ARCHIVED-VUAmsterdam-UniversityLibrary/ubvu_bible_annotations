@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -22,6 +23,48 @@ nl:id_7761ecc7cd4ca6f82da62db612aa62bf2611907b oa:hasTarget target:target_de0d99
 nl:id_7761ecc7cd4ca6f82da62db612aa62bf2611907b oa:hasTarget ubvu:print-218010001913 .
 nl:id_7761ecc7cd4ca6f82da62db612aa62bf2611907b oa:motivatedBy oa:tagging .
 
+nl:id_807e4893d6eee63ed2172dcd46a7e706b491fa42 a oa:Annotation .
+nl:id_807e4893d6eee63ed2172dcd46a7e706b491fa42 terms:title "Stefanus" .
+nl:id_807e4893d6eee63ed2172dcd46a7e706b491fa42 ui:annotationField bible:BibleCharacter .
+nl:id_807e4893d6eee63ed2172dcd46a7e706b491fa42 ui:typingTime 0 .
+nl:id_807e4893d6eee63ed2172dcd46a7e706b491fa42 oa:annotatedAt "2016-08-03T16:48:52+02:00"^^xsd:dateTime .
+nl:id_807e4893d6eee63ed2172dcd46a7e706b491fa42 oa:annotatedBy user:paulinevandijk .
+nl:id_807e4893d6eee63ed2172dcd46a7e706b491fa42 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Stefanus" ] .
+nl:id_807e4893d6eee63ed2172dcd46a7e706b491fa42 oa:hasTarget target:target_869884e03494298a07316aaa51e696535bf3c5fc .
+nl:id_807e4893d6eee63ed2172dcd46a7e706b491fa42 oa:hasTarget ubvu:print-218010001913 .
+nl:id_807e4893d6eee63ed2172dcd46a7e706b491fa42 oa:motivatedBy oa:tagging .
+
+nl:id_dbcaeef0773f0d83527573dfae37fe519f950e27 a oa:Annotation .
+nl:id_dbcaeef0773f0d83527573dfae37fe519f950e27 terms:title "De steniging van Stefanus." .
+nl:id_dbcaeef0773f0d83527573dfae37fe519f950e27 ui:annotationField bible:ICBibleTheme .
+nl:id_dbcaeef0773f0d83527573dfae37fe519f950e27 ui:typingTime 0 .
+nl:id_dbcaeef0773f0d83527573dfae37fe519f950e27 oa:annotatedAt "2016-08-03T16:49:23+02:00"^^xsd:dateTime .
+nl:id_dbcaeef0773f0d83527573dfae37fe519f950e27 oa:annotatedBy user:paulinevandijk .
+nl:id_dbcaeef0773f0d83527573dfae37fe519f950e27 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "De steniging van Stefanus." ] .
+nl:id_dbcaeef0773f0d83527573dfae37fe519f950e27 oa:hasTarget ubvu:print-218010001913 .
+nl:id_dbcaeef0773f0d83527573dfae37fe519f950e27 oa:motivatedBy oa:tagging .
+
+nl:id_e660e9f8dd78fe88bd9b3f6a124f8e07189b399c a oa:Annotation .
+nl:id_e660e9f8dd78fe88bd9b3f6a124f8e07189b399c terms:title "Stephen stoned" .
+nl:id_e660e9f8dd78fe88bd9b3f6a124f8e07189b399c ui:annotationField bible:ICBibleTheme .
+nl:id_e660e9f8dd78fe88bd9b3f6a124f8e07189b399c ui:typingTime 0 .
+nl:id_e660e9f8dd78fe88bd9b3f6a124f8e07189b399c oa:annotatedAt "2016-06-12T11:26:42+02:00"^^xsd:dateTime .
+nl:id_e660e9f8dd78fe88bd9b3f6a124f8e07189b399c oa:annotatedBy user:everhoeff .
+nl:id_e660e9f8dd78fe88bd9b3f6a124f8e07189b399c oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Stephen stoned" ] .
+nl:id_e660e9f8dd78fe88bd9b3f6a124f8e07189b399c oa:hasTarget ubvu:print-218010001913 .
+nl:id_e660e9f8dd78fe88bd9b3f6a124f8e07189b399c oa:motivatedBy oa:tagging .
+
+nl:id_e8f6c9c533859fb3add3db28ef523f370db8958e a oa:Annotation .
+nl:id_e8f6c9c533859fb3add3db28ef523f370db8958e terms:title "Stephen(Stephanus)" .
+nl:id_e8f6c9c533859fb3add3db28ef523f370db8958e ui:annotationField bible:BibleCharacter .
+nl:id_e8f6c9c533859fb3add3db28ef523f370db8958e ui:typingTime 0 .
+nl:id_e8f6c9c533859fb3add3db28ef523f370db8958e oa:annotatedAt "2016-06-12T11:26:34+02:00"^^xsd:dateTime .
+nl:id_e8f6c9c533859fb3add3db28ef523f370db8958e oa:annotatedBy user:everhoeff .
+nl:id_e8f6c9c533859fb3add3db28ef523f370db8958e oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Stephen(Stephanus)" ] .
+nl:id_e8f6c9c533859fb3add3db28ef523f370db8958e oa:hasTarget target:target_42b31c8844de31649f7a2f27fdb6fcf4f282363e .
+nl:id_e8f6c9c533859fb3add3db28ef523f370db8958e oa:hasTarget ubvu:print-218010001913 .
+nl:id_e8f6c9c533859fb3add3db28ef523f370db8958e oa:motivatedBy oa:tagging .
+
 nl:id_ea0efad22343726333bfae87ab8554c14e7736a5 a oa:Annotation .
 nl:id_ea0efad22343726333bfae87ab8554c14e7736a5 terms:title "the stoning of Stephen; the witnesses lay down their clothes at Saul's feet" .
 nl:id_ea0efad22343726333bfae87ab8554c14e7736a5 ui:annotationField bible:ICBibleTheme .
@@ -32,6 +75,22 @@ nl:id_ea0efad22343726333bfae87ab8554c14e7736a5 oa:hasBody <http://iconclass.org/
 nl:id_ea0efad22343726333bfae87ab8554c14e7736a5 oa:hasTarget ubvu:print-218010001913 .
 nl:id_ea0efad22343726333bfae87ab8554c14e7736a5 oa:motivatedBy oa:tagging .
 
+target:selector_42b31c8844de31649f7a2f27fdb6fcf4f282363e a oa:FragmentSelector .
+target:selector_42b31c8844de31649f7a2f27fdb6fcf4f282363e terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_42b31c8844de31649f7a2f27fdb6fcf4f282363e ui:h "0.14370748299319727"^^xsd:float .
+target:selector_42b31c8844de31649f7a2f27fdb6fcf4f282363e ui:w "0.22266666666666668"^^xsd:float .
+target:selector_42b31c8844de31649f7a2f27fdb6fcf4f282363e ui:x "0.22266666666666668"^^xsd:float .
+target:selector_42b31c8844de31649f7a2f27fdb6fcf4f282363e ui:y "0.5085034013605442"^^xsd:float .
+target:selector_42b31c8844de31649f7a2f27fdb6fcf4f282363e rdf:value "#xywh=percent:22,51,22,14" .
+
+target:selector_869884e03494298a07316aaa51e696535bf3c5fc a oa:FragmentSelector .
+target:selector_869884e03494298a07316aaa51e696535bf3c5fc terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_869884e03494298a07316aaa51e696535bf3c5fc ui:h "0.11613958560523446"^^xsd:float .
+target:selector_869884e03494298a07316aaa51e696535bf3c5fc ui:w "0.2777777777777778"^^xsd:float .
+target:selector_869884e03494298a07316aaa51e696535bf3c5fc ui:x "0.21367521367521367"^^xsd:float .
+target:selector_869884e03494298a07316aaa51e696535bf3c5fc ui:y "0.5087241003271538"^^xsd:float .
+target:selector_869884e03494298a07316aaa51e696535bf3c5fc rdf:value "#xywh=percent:21,51,28,12" .
+
 target:selector_de0d992cf791628942353618bc48613d238268d1 a oa:FragmentSelector .
 target:selector_de0d992cf791628942353618bc48613d238268d1 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_de0d992cf791628942353618bc48613d238268d1 ui:h "0.25627044711014174"^^xsd:float .
@@ -39,6 +98,14 @@ target:selector_de0d992cf791628942353618bc48613d238268d1 ui:w "0.526495726495726
 target:selector_de0d992cf791628942353618bc48613d238268d1 ui:x "0.07606837606837606"^^xsd:float .
 target:selector_de0d992cf791628942353618bc48613d238268d1 ui:y "0.49073064340239914"^^xsd:float .
 target:selector_de0d992cf791628942353618bc48613d238268d1 rdf:value "#xywh=percent:8,49,53,26" .
+
+target:target_42b31c8844de31649f7a2f27fdb6fcf4f282363e a oa:SpecificResource .
+target:target_42b31c8844de31649f7a2f27fdb6fcf4f282363e oa:hasSelector target:selector_42b31c8844de31649f7a2f27fdb6fcf4f282363e .
+target:target_42b31c8844de31649f7a2f27fdb6fcf4f282363e oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/952> .
+
+target:target_869884e03494298a07316aaa51e696535bf3c5fc a oa:SpecificResource .
+target:target_869884e03494298a07316aaa51e696535bf3c5fc oa:hasSelector target:selector_869884e03494298a07316aaa51e696535bf3c5fc .
+target:target_869884e03494298a07316aaa51e696535bf3c5fc oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/952> .
 
 target:target_de0d992cf791628942353618bc48613d238268d1 a oa:SpecificResource .
 target:target_de0d992cf791628942353618bc48613d238268d1 oa:hasSelector target:selector_de0d992cf791628942353618bc48613d238268d1 .

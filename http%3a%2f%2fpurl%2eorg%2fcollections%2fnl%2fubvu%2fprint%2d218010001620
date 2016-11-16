@@ -22,6 +22,16 @@ nl:id_7aff5af74730b3c52617b77cefe5173e2fbbc43a oa:hasTarget target:target_50ebaf
 nl:id_7aff5af74730b3c52617b77cefe5173e2fbbc43a oa:hasTarget ubvu:print-218010001620 .
 nl:id_7aff5af74730b3c52617b77cefe5173e2fbbc43a oa:motivatedBy oa:tagging .
 
+nl:id_d6f9bf62096e27d53ab3881c4877461956023b23 a oa:Annotation .
+nl:id_d6f9bf62096e27d53ab3881c4877461956023b23 terms:title "Eliazer's bold interprise" .
+nl:id_d6f9bf62096e27d53ab3881c4877461956023b23 ui:annotationField bible:ICBibleTheme .
+nl:id_d6f9bf62096e27d53ab3881c4877461956023b23 ui:typingTime 0 .
+nl:id_d6f9bf62096e27d53ab3881c4877461956023b23 oa:annotatedAt "2016-06-29T18:42:20+02:00"^^xsd:dateTime .
+nl:id_d6f9bf62096e27d53ab3881c4877461956023b23 oa:annotatedBy user:everhoeff .
+nl:id_d6f9bf62096e27d53ab3881c4877461956023b23 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Eliazer's bold interprise" ] .
+nl:id_d6f9bf62096e27d53ab3881c4877461956023b23 oa:hasTarget ubvu:print-218010001620 .
+nl:id_d6f9bf62096e27d53ab3881c4877461956023b23 oa:motivatedBy oa:tagging .
+
 nl:id_eebbb6705fcbf2ff48e1d5c0c79013a1e2c9074c a oa:Annotation .
 nl:id_eebbb6705fcbf2ff48e1d5c0c79013a1e2c9074c terms:title "Eleazar, brother of Judas Maccabeus, kills an elephant of war and is killed himself when the elephant falls on him" .
 nl:id_eebbb6705fcbf2ff48e1d5c0c79013a1e2c9074c ui:annotationField bible:ICBibleTheme .

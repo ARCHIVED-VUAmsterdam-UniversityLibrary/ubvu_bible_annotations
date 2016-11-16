@@ -34,6 +34,16 @@ nl:id_baae8f18fb0c163a52b38fe9a8a6dde813fee0b0 oa:hasTarget target:target_ae273b
 nl:id_baae8f18fb0c163a52b38fe9a8a6dde813fee0b0 oa:hasTarget ubvu:print-218010001933 .
 nl:id_baae8f18fb0c163a52b38fe9a8a6dde813fee0b0 oa:motivatedBy oa:tagging .
 
+nl:id_bde596d4d342d5de85d1230f2127179bb27eb637 a oa:Annotation .
+nl:id_bde596d4d342d5de85d1230f2127179bb27eb637 terms:title "The convert taylor " .
+nl:id_bde596d4d342d5de85d1230f2127179bb27eb637 ui:annotationField bible:ICBibleTheme .
+nl:id_bde596d4d342d5de85d1230f2127179bb27eb637 ui:typingTime 0 .
+nl:id_bde596d4d342d5de85d1230f2127179bb27eb637 oa:annotatedAt "2016-06-13T21:00:01+02:00"^^xsd:dateTime .
+nl:id_bde596d4d342d5de85d1230f2127179bb27eb637 oa:annotatedBy user:everhoeff .
+nl:id_bde596d4d342d5de85d1230f2127179bb27eb637 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The convert taylor " ] .
+nl:id_bde596d4d342d5de85d1230f2127179bb27eb637 oa:hasTarget ubvu:print-218010001933 .
+nl:id_bde596d4d342d5de85d1230f2127179bb27eb637 oa:motivatedBy oa:tagging .
+
 nl:id_be20de6d048e268c30d0a6970f7b441a771ef2ec a oa:Annotation .
 nl:id_be20de6d048e268c30d0a6970f7b441a771ef2ec terms:title "gevangenbewaarder" .
 nl:id_be20de6d048e268c30d0a6970f7b441a771ef2ec ui:annotationField bible:BibleCharacter .

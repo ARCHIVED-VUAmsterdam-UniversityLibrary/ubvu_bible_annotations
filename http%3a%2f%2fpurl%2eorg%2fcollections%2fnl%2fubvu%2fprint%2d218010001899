@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -6,14 +7,84 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
+@prefix resource: <http://bibleontology.com/resource/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_1861c3da96d63b84e112e5485d7a31335784a846> a oa:Annotation .
-<http://accurator.nl/id_1861c3da96d63b84e112e5485d7a31335784a846> terms:title "christ appeard to his disciples at the Sea of Tiberias (John 21)" .
-<http://accurator.nl/id_1861c3da96d63b84e112e5485d7a31335784a846> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
-<http://accurator.nl/id_1861c3da96d63b84e112e5485d7a31335784a846> ui:typingTime 0 .
-<http://accurator.nl/id_1861c3da96d63b84e112e5485d7a31335784a846> oa:annotatedAt "2016-04-04T15:01:37+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_1861c3da96d63b84e112e5485d7a31335784a846> oa:annotatedBy user:hrmurris .
-<http://accurator.nl/id_1861c3da96d63b84e112e5485d7a31335784a846> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "christ appeard to his disciples at the Sea of Tiberias (John 21)" ] .
-<http://accurator.nl/id_1861c3da96d63b84e112e5485d7a31335784a846> oa:hasTarget ubvu:print-218010001899 .
-<http://accurator.nl/id_1861c3da96d63b84e112e5485d7a31335784a846> oa:motivatedBy oa:tagging .
+nl:id_1861c3da96d63b84e112e5485d7a31335784a846 a oa:Annotation .
+nl:id_1861c3da96d63b84e112e5485d7a31335784a846 terms:title "christ appeard to his disciples at the Sea of Tiberias (John 21)" .
+nl:id_1861c3da96d63b84e112e5485d7a31335784a846 ui:annotationField bible:ICBibleTheme .
+nl:id_1861c3da96d63b84e112e5485d7a31335784a846 ui:typingTime 0 .
+nl:id_1861c3da96d63b84e112e5485d7a31335784a846 oa:annotatedAt "2016-04-04T15:01:37+02:00"^^xsd:dateTime .
+nl:id_1861c3da96d63b84e112e5485d7a31335784a846 oa:annotatedBy user:hrmurris .
+nl:id_1861c3da96d63b84e112e5485d7a31335784a846 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "christ appeard to his disciples at the Sea of Tiberias (John 21)" ] .
+nl:id_1861c3da96d63b84e112e5485d7a31335784a846 oa:hasTarget ubvu:print-218010001899 .
+nl:id_1861c3da96d63b84e112e5485d7a31335784a846 oa:motivatedBy oa:tagging .
+
+nl:id_1dcfb2fe565d6b806ada1bf212124629b04bded7 a oa:Annotation .
+nl:id_1dcfb2fe565d6b806ada1bf212124629b04bded7 terms:title "Jezus verschijnt aan zijn leerlingen bij het meer van Tiberias" .
+nl:id_1dcfb2fe565d6b806ada1bf212124629b04bded7 ui:annotationField bible:ICBibleTheme .
+nl:id_1dcfb2fe565d6b806ada1bf212124629b04bded7 ui:typingTime 0 .
+nl:id_1dcfb2fe565d6b806ada1bf212124629b04bded7 oa:annotatedAt "2016-07-12T17:32:20+02:00"^^xsd:dateTime .
+nl:id_1dcfb2fe565d6b806ada1bf212124629b04bded7 oa:annotatedBy user:paulinevandijk .
+nl:id_1dcfb2fe565d6b806ada1bf212124629b04bded7 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jezus verschijnt aan zijn leerlingen bij het meer van Tiberias" ] .
+nl:id_1dcfb2fe565d6b806ada1bf212124629b04bded7 oa:hasTarget ubvu:print-218010001899 .
+nl:id_1dcfb2fe565d6b806ada1bf212124629b04bded7 oa:motivatedBy oa:tagging .
+
+nl:id_4204d1c39a9aee9f02777a0f1cd3562f6d65e1a5 a oa:Annotation .
+nl:id_4204d1c39a9aee9f02777a0f1cd3562f6d65e1a5 terms:title "Christ appeared to his disciples at the Sea of Tiberias" .
+nl:id_4204d1c39a9aee9f02777a0f1cd3562f6d65e1a5 ui:annotationField bible:ICBibleTheme .
+nl:id_4204d1c39a9aee9f02777a0f1cd3562f6d65e1a5 ui:typingTime 0 .
+nl:id_4204d1c39a9aee9f02777a0f1cd3562f6d65e1a5 oa:annotatedAt "2016-05-16T13:54:25+02:00"^^xsd:dateTime .
+nl:id_4204d1c39a9aee9f02777a0f1cd3562f6d65e1a5 oa:annotatedBy user:everhoeff .
+nl:id_4204d1c39a9aee9f02777a0f1cd3562f6d65e1a5 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Christ appeared to his disciples at the Sea of Tiberias" ] .
+nl:id_4204d1c39a9aee9f02777a0f1cd3562f6d65e1a5 oa:hasTarget ubvu:print-218010001899 .
+nl:id_4204d1c39a9aee9f02777a0f1cd3562f6d65e1a5 oa:motivatedBy oa:tagging .
+
+nl:id_e4d822a43d8aa160c18bdbe88438a2a7d7458ab5 a oa:Annotation .
+nl:id_e4d822a43d8aa160c18bdbe88438a2a7d7458ab5 terms:title "Jezus Christus" .
+nl:id_e4d822a43d8aa160c18bdbe88438a2a7d7458ab5 ui:annotationField bible:BibleCharacter .
+nl:id_e4d822a43d8aa160c18bdbe88438a2a7d7458ab5 ui:typingTime 0 .
+nl:id_e4d822a43d8aa160c18bdbe88438a2a7d7458ab5 oa:annotatedAt "2016-07-12T17:31:51+02:00"^^xsd:dateTime .
+nl:id_e4d822a43d8aa160c18bdbe88438a2a7d7458ab5 oa:annotatedBy user:paulinevandijk .
+nl:id_e4d822a43d8aa160c18bdbe88438a2a7d7458ab5 oa:hasBody resource:Jesus .
+nl:id_e4d822a43d8aa160c18bdbe88438a2a7d7458ab5 oa:hasTarget target:target_cad0c67683e14d2156e42d11e7741739cb5ecd3f .
+nl:id_e4d822a43d8aa160c18bdbe88438a2a7d7458ab5 oa:hasTarget ubvu:print-218010001899 .
+nl:id_e4d822a43d8aa160c18bdbe88438a2a7d7458ab5 oa:motivatedBy oa:tagging .
+
+nl:id_f2c3633623c5c8a2c528344c9d8c9724daf63e72 a oa:Annotation .
+nl:id_f2c3633623c5c8a2c528344c9d8c9724daf63e72 terms:title "Christ" .
+nl:id_f2c3633623c5c8a2c528344c9d8c9724daf63e72 ui:annotationField bible:BibleCharacter .
+nl:id_f2c3633623c5c8a2c528344c9d8c9724daf63e72 ui:typingTime 0 .
+nl:id_f2c3633623c5c8a2c528344c9d8c9724daf63e72 oa:annotatedAt "2016-05-16T13:54:47+02:00"^^xsd:dateTime .
+nl:id_f2c3633623c5c8a2c528344c9d8c9724daf63e72 oa:annotatedBy user:everhoeff .
+nl:id_f2c3633623c5c8a2c528344c9d8c9724daf63e72 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Christ" ] .
+nl:id_f2c3633623c5c8a2c528344c9d8c9724daf63e72 oa:hasTarget target:target_0ba69b71777e9fb7b3a4b3632d23f4d73a6defc7 .
+nl:id_f2c3633623c5c8a2c528344c9d8c9724daf63e72 oa:hasTarget ubvu:print-218010001899 .
+nl:id_f2c3633623c5c8a2c528344c9d8c9724daf63e72 oa:motivatedBy oa:tagging .
+
+target:selector_0ba69b71777e9fb7b3a4b3632d23f4d73a6defc7 a oa:FragmentSelector .
+target:selector_0ba69b71777e9fb7b3a4b3632d23f4d73a6defc7 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_0ba69b71777e9fb7b3a4b3632d23f4d73a6defc7 ui:h "0.19335604770017037"^^xsd:float .
+target:selector_0ba69b71777e9fb7b3a4b3632d23f4d73a6defc7 ui:w "0.18666666666666668"^^xsd:float .
+target:selector_0ba69b71777e9fb7b3a4b3632d23f4d73a6defc7 ui:x "0.176"^^xsd:float .
+target:selector_0ba69b71777e9fb7b3a4b3632d23f4d73a6defc7 ui:y "0.31771720613287907"^^xsd:float .
+target:selector_0ba69b71777e9fb7b3a4b3632d23f4d73a6defc7 rdf:value "#xywh=percent:18,32,19,19" .
+
+target:selector_cad0c67683e14d2156e42d11e7741739cb5ecd3f a oa:FragmentSelector .
+target:selector_cad0c67683e14d2156e42d11e7741739cb5ecd3f terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_cad0c67683e14d2156e42d11e7741739cb5ecd3f ui:h "0.2621518296013108"^^xsd:float .
+target:selector_cad0c67683e14d2156e42d11e7741739cb5ecd3f ui:w "0.2777777777777778"^^xsd:float .
+target:selector_cad0c67683e14d2156e42d11e7741739cb5ecd3f ui:x "0.20341880341880342"^^xsd:float .
+target:selector_cad0c67683e14d2156e42d11e7741739cb5ecd3f ui:y "0.3522665210267613"^^xsd:float .
+target:selector_cad0c67683e14d2156e42d11e7741739cb5ecd3f rdf:value "#xywh=percent:20,35,28,26" .
+
+target:target_0ba69b71777e9fb7b3a4b3632d23f4d73a6defc7 a oa:SpecificResource .
+target:target_0ba69b71777e9fb7b3a4b3632d23f4d73a6defc7 oa:hasSelector target:selector_0ba69b71777e9fb7b3a4b3632d23f4d73a6defc7 .
+target:target_0ba69b71777e9fb7b3a4b3632d23f4d73a6defc7 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/938> .
+
+target:target_cad0c67683e14d2156e42d11e7741739cb5ecd3f a oa:SpecificResource .
+target:target_cad0c67683e14d2156e42d11e7741739cb5ecd3f oa:hasSelector target:selector_cad0c67683e14d2156e42d11e7741739cb5ecd3f .
+target:target_cad0c67683e14d2156e42d11e7741739cb5ecd3f oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/938> .

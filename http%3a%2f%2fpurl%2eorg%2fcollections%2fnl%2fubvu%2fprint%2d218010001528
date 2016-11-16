@@ -32,6 +32,16 @@ nl:id_54cb323c0cd36d275ce3cf1f19f56ac36a2a2714 oa:hasTarget target:target_f11e9c
 nl:id_54cb323c0cd36d275ce3cf1f19f56ac36a2a2714 oa:hasTarget ubvu:print-218010001528 .
 nl:id_54cb323c0cd36d275ce3cf1f19f56ac36a2a2714 oa:motivatedBy oa:tagging .
 
+nl:id_71dcaa63afc2b278cf2e6efd2441a1bf38e79df6 a oa:Annotation .
+nl:id_71dcaa63afc2b278cf2e6efd2441a1bf38e79df6 terms:title "-" .
+nl:id_71dcaa63afc2b278cf2e6efd2441a1bf38e79df6 ui:annotationField bible:ICBibleTheme .
+nl:id_71dcaa63afc2b278cf2e6efd2441a1bf38e79df6 ui:typingTime 0 .
+nl:id_71dcaa63afc2b278cf2e6efd2441a1bf38e79df6 oa:annotatedAt "2016-06-01T15:30:02+02:00"^^xsd:dateTime .
+nl:id_71dcaa63afc2b278cf2e6efd2441a1bf38e79df6 oa:annotatedBy user:everhoeff .
+nl:id_71dcaa63afc2b278cf2e6efd2441a1bf38e79df6 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "-" ] .
+nl:id_71dcaa63afc2b278cf2e6efd2441a1bf38e79df6 oa:hasTarget ubvu:print-218010001528 .
+nl:id_71dcaa63afc2b278cf2e6efd2441a1bf38e79df6 oa:motivatedBy oa:tagging .
+
 target:selector_f11e9c14e9e64ed6650a30624661edc343d0ae3e a oa:FragmentSelector .
 target:selector_f11e9c14e9e64ed6650a30624661edc343d0ae3e terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_f11e9c14e9e64ed6650a30624661edc343d0ae3e ui:h "0.12843488649940263"^^xsd:float .

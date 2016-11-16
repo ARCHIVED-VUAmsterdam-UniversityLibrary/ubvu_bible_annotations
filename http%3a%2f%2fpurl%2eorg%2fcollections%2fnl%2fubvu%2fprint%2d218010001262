@@ -7,13 +7,35 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_1ac691fad61d392234326b6768421299aa365999> a oa:Annotation .
-<http://accurator.nl/id_1ac691fad61d392234326b6768421299aa365999> terms:title "God punishes Israel with fire" .
-<http://accurator.nl/id_1ac691fad61d392234326b6768421299aa365999> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
-<http://accurator.nl/id_1ac691fad61d392234326b6768421299aa365999> ui:typingTime 0 .
-<http://accurator.nl/id_1ac691fad61d392234326b6768421299aa365999> oa:annotatedAt "2016-04-04T16:06:27+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_1ac691fad61d392234326b6768421299aa365999> oa:annotatedBy user:jbn415 .
-<http://accurator.nl/id_1ac691fad61d392234326b6768421299aa365999> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "God punishes Israel with fire" ] .
-<http://accurator.nl/id_1ac691fad61d392234326b6768421299aa365999> oa:hasTarget ubvu:print-218010001262 .
-<http://accurator.nl/id_1ac691fad61d392234326b6768421299aa365999> oa:motivatedBy oa:tagging .
+nl:id_1ac691fad61d392234326b6768421299aa365999 a oa:Annotation .
+nl:id_1ac691fad61d392234326b6768421299aa365999 terms:title "God punishes Israel with fire" .
+nl:id_1ac691fad61d392234326b6768421299aa365999 ui:annotationField bible:ICBibleTheme .
+nl:id_1ac691fad61d392234326b6768421299aa365999 ui:typingTime 0 .
+nl:id_1ac691fad61d392234326b6768421299aa365999 oa:annotatedAt "2016-04-04T16:06:27+02:00"^^xsd:dateTime .
+nl:id_1ac691fad61d392234326b6768421299aa365999 oa:annotatedBy user:jbn415 .
+nl:id_1ac691fad61d392234326b6768421299aa365999 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "God punishes Israel with fire" ] .
+nl:id_1ac691fad61d392234326b6768421299aa365999 oa:hasTarget ubvu:print-218010001262 .
+nl:id_1ac691fad61d392234326b6768421299aa365999 oa:motivatedBy oa:tagging .
+
+nl:id_8c626b8f2c13c4a72c2c719efd1e2f07b8228008 a oa:Annotation .
+nl:id_8c626b8f2c13c4a72c2c719efd1e2f07b8228008 terms:title "-" .
+nl:id_8c626b8f2c13c4a72c2c719efd1e2f07b8228008 ui:annotationField bible:ICBibleTheme .
+nl:id_8c626b8f2c13c4a72c2c719efd1e2f07b8228008 ui:typingTime 0 .
+nl:id_8c626b8f2c13c4a72c2c719efd1e2f07b8228008 oa:annotatedAt "2016-05-22T14:18:53+02:00"^^xsd:dateTime .
+nl:id_8c626b8f2c13c4a72c2c719efd1e2f07b8228008 oa:annotatedBy user:everhoeff .
+nl:id_8c626b8f2c13c4a72c2c719efd1e2f07b8228008 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "-" ] .
+nl:id_8c626b8f2c13c4a72c2c719efd1e2f07b8228008 oa:hasTarget ubvu:print-218010001262 .
+nl:id_8c626b8f2c13c4a72c2c719efd1e2f07b8228008 oa:motivatedBy oa:tagging .
+
+nl:id_c449c0063839551ccf244c8388a9fb9f5221529a a oa:Annotation .
+nl:id_c449c0063839551ccf244c8388a9fb9f5221529a terms:title "De woede van de Heer gaat als vuur rond in het kamp van het klagende volk" .
+nl:id_c449c0063839551ccf244c8388a9fb9f5221529a ui:annotationField bible:ICBibleTheme .
+nl:id_c449c0063839551ccf244c8388a9fb9f5221529a ui:typingTime 0 .
+nl:id_c449c0063839551ccf244c8388a9fb9f5221529a oa:annotatedAt "2016-06-18T14:28:25+02:00"^^xsd:dateTime .
+nl:id_c449c0063839551ccf244c8388a9fb9f5221529a oa:annotatedBy user:paulinevandijk .
+nl:id_c449c0063839551ccf244c8388a9fb9f5221529a oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "De woede van de Heer gaat als vuur rond in het kamp van het klagende volk" ] .
+nl:id_c449c0063839551ccf244c8388a9fb9f5221529a oa:hasTarget ubvu:print-218010001262 .
+nl:id_c449c0063839551ccf244c8388a9fb9f5221529a oa:motivatedBy oa:tagging .

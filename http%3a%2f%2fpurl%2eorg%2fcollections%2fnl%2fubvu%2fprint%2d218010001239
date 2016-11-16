@@ -6,14 +6,60 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
+@prefix target: <http://localhost/.well-known/genid/oa/target/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_06f969907a7a294b3d67e98102aea0e7db01f278> a oa:Annotation .
-<http://accurator.nl/id_06f969907a7a294b3d67e98102aea0e7db01f278> terms:title "the law-making on the Sinaï" .
-<http://accurator.nl/id_06f969907a7a294b3d67e98102aea0e7db01f278> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
-<http://accurator.nl/id_06f969907a7a294b3d67e98102aea0e7db01f278> ui:typingTime 0 .
-<http://accurator.nl/id_06f969907a7a294b3d67e98102aea0e7db01f278> oa:annotatedAt "2016-04-04T16:44:53+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_06f969907a7a294b3d67e98102aea0e7db01f278> oa:annotatedBy user:jbn415 .
-<http://accurator.nl/id_06f969907a7a294b3d67e98102aea0e7db01f278> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "the law-making on the Sinaï" ] .
-<http://accurator.nl/id_06f969907a7a294b3d67e98102aea0e7db01f278> oa:hasTarget ubvu:print-218010001239 .
-<http://accurator.nl/id_06f969907a7a294b3d67e98102aea0e7db01f278> oa:motivatedBy oa:tagging .
+nl:id_06f969907a7a294b3d67e98102aea0e7db01f278 a oa:Annotation .
+nl:id_06f969907a7a294b3d67e98102aea0e7db01f278 terms:title "the law-making on the Sinaï" .
+nl:id_06f969907a7a294b3d67e98102aea0e7db01f278 ui:annotationField bible:ICBibleTheme .
+nl:id_06f969907a7a294b3d67e98102aea0e7db01f278 ui:typingTime 0 .
+nl:id_06f969907a7a294b3d67e98102aea0e7db01f278 oa:annotatedAt "2016-04-04T16:44:53+02:00"^^xsd:dateTime .
+nl:id_06f969907a7a294b3d67e98102aea0e7db01f278 oa:annotatedBy user:jbn415 .
+nl:id_06f969907a7a294b3d67e98102aea0e7db01f278 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "the law-making on the Sinaï" ] .
+nl:id_06f969907a7a294b3d67e98102aea0e7db01f278 oa:hasTarget ubvu:print-218010001239 .
+nl:id_06f969907a7a294b3d67e98102aea0e7db01f278 oa:motivatedBy oa:tagging .
+
+nl:id_286d33de77753dcb13d2206c5e052d7dbb9a88e3 a oa:Annotation .
+nl:id_286d33de77753dcb13d2206c5e052d7dbb9a88e3 terms:title "Mozes ontvangt de tien geboden op de berg Sinaï" .
+nl:id_286d33de77753dcb13d2206c5e052d7dbb9a88e3 ui:annotationField bible:ICBibleTheme .
+nl:id_286d33de77753dcb13d2206c5e052d7dbb9a88e3 ui:typingTime 0 .
+nl:id_286d33de77753dcb13d2206c5e052d7dbb9a88e3 oa:annotatedAt "2016-07-12T17:36:02+02:00"^^xsd:dateTime .
+nl:id_286d33de77753dcb13d2206c5e052d7dbb9a88e3 oa:annotatedBy user:paulinevandijk .
+nl:id_286d33de77753dcb13d2206c5e052d7dbb9a88e3 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Mozes ontvangt de tien geboden op de berg Sinaï" ] .
+nl:id_286d33de77753dcb13d2206c5e052d7dbb9a88e3 oa:hasTarget ubvu:print-218010001239 .
+nl:id_286d33de77753dcb13d2206c5e052d7dbb9a88e3 oa:motivatedBy oa:tagging .
+
+nl:id_5512695221c96a6fc56c76d9f1c45c2ed3efe9e0 a oa:Annotation .
+nl:id_5512695221c96a6fc56c76d9f1c45c2ed3efe9e0 terms:title "Mozes" .
+nl:id_5512695221c96a6fc56c76d9f1c45c2ed3efe9e0 ui:annotationField bible:BibleCharacter .
+nl:id_5512695221c96a6fc56c76d9f1c45c2ed3efe9e0 ui:typingTime 0 .
+nl:id_5512695221c96a6fc56c76d9f1c45c2ed3efe9e0 oa:annotatedAt "2016-07-12T17:34:39+02:00"^^xsd:dateTime .
+nl:id_5512695221c96a6fc56c76d9f1c45c2ed3efe9e0 oa:annotatedBy user:paulinevandijk .
+nl:id_5512695221c96a6fc56c76d9f1c45c2ed3efe9e0 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Mozes" ] .
+nl:id_5512695221c96a6fc56c76d9f1c45c2ed3efe9e0 oa:hasTarget target:target_aa66471e007db31f376fedcdf4ca0fe7ece9d0fc .
+nl:id_5512695221c96a6fc56c76d9f1c45c2ed3efe9e0 oa:hasTarget ubvu:print-218010001239 .
+nl:id_5512695221c96a6fc56c76d9f1c45c2ed3efe9e0 oa:motivatedBy oa:tagging .
+
+nl:id_94ab29bffdaef8754222ec9d771c18893ee2b066 a oa:Annotation .
+nl:id_94ab29bffdaef8754222ec9d771c18893ee2b066 terms:title "The Lord gives The Ten Commandments on the mount of Sinai" .
+nl:id_94ab29bffdaef8754222ec9d771c18893ee2b066 ui:annotationField bible:ICBibleTheme .
+nl:id_94ab29bffdaef8754222ec9d771c18893ee2b066 ui:typingTime 0 .
+nl:id_94ab29bffdaef8754222ec9d771c18893ee2b066 oa:annotatedAt "2016-05-27T10:01:53+02:00"^^xsd:dateTime .
+nl:id_94ab29bffdaef8754222ec9d771c18893ee2b066 oa:annotatedBy user:everhoeff .
+nl:id_94ab29bffdaef8754222ec9d771c18893ee2b066 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The Lord gives The Ten Commandments on the mount of Sinai" ] .
+nl:id_94ab29bffdaef8754222ec9d771c18893ee2b066 oa:hasTarget ubvu:print-218010001239 .
+nl:id_94ab29bffdaef8754222ec9d771c18893ee2b066 oa:motivatedBy oa:tagging .
+
+target:selector_aa66471e007db31f376fedcdf4ca0fe7ece9d0fc a oa:FragmentSelector .
+target:selector_aa66471e007db31f376fedcdf4ca0fe7ece9d0fc terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_aa66471e007db31f376fedcdf4ca0fe7ece9d0fc ui:h "0.06473988439306358"^^xsd:float .
+target:selector_aa66471e007db31f376fedcdf4ca0fe7ece9d0fc ui:w "0.09487179487179487"^^xsd:float .
+target:selector_aa66471e007db31f376fedcdf4ca0fe7ece9d0fc ui:x "0.05213675213675214"^^xsd:float .
+target:selector_aa66471e007db31f376fedcdf4ca0fe7ece9d0fc ui:y "0.21213872832369943"^^xsd:float .
+target:selector_aa66471e007db31f376fedcdf4ca0fe7ece9d0fc rdf:value "#xywh=percent:5,21,9,6" .
+
+target:target_aa66471e007db31f376fedcdf4ca0fe7ece9d0fc a oa:SpecificResource .
+target:target_aa66471e007db31f376fedcdf4ca0fe7ece9d0fc oa:hasSelector target:selector_aa66471e007db31f376fedcdf4ca0fe7ece9d0fc .
+target:target_aa66471e007db31f376fedcdf4ca0fe7ece9d0fc oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/280> .

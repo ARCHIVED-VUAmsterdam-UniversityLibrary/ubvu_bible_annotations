@@ -12,6 +12,16 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_7e7bea61b158d3a508b9de0cf832f1df0e45567f a oa:Annotation .
+nl:id_7e7bea61b158d3a508b9de0cf832f1df0e45567f terms:title "The Egyptian first born destroyed" .
+nl:id_7e7bea61b158d3a508b9de0cf832f1df0e45567f ui:annotationField bible:ICBibleTheme .
+nl:id_7e7bea61b158d3a508b9de0cf832f1df0e45567f ui:typingTime 0 .
+nl:id_7e7bea61b158d3a508b9de0cf832f1df0e45567f oa:annotatedAt "2016-06-12T11:23:11+02:00"^^xsd:dateTime .
+nl:id_7e7bea61b158d3a508b9de0cf832f1df0e45567f oa:annotatedBy user:everhoeff .
+nl:id_7e7bea61b158d3a508b9de0cf832f1df0e45567f oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The Egyptian first born destroyed" ] .
+nl:id_7e7bea61b158d3a508b9de0cf832f1df0e45567f oa:hasTarget ubvu:print-218010001219 .
+nl:id_7e7bea61b158d3a508b9de0cf832f1df0e45567f oa:motivatedBy oa:tagging .
+
 nl:id_ab6ca8e4fcd1a2006c7b3417c05b140664bc6930 a oa:Annotation .
 nl:id_ab6ca8e4fcd1a2006c7b3417c05b140664bc6930 terms:title "De tiende plaag van Egypte" .
 nl:id_ab6ca8e4fcd1a2006c7b3417c05b140664bc6930 ui:annotationField bible:ICBibleTheme .

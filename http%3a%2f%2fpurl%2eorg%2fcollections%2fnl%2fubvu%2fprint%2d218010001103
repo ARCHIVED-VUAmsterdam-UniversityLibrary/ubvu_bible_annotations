@@ -23,6 +23,27 @@ nl:id_4247792d63782aa2281cc05d878c102d73bc3d3b oa:hasTarget target:target_1a0b40
 nl:id_4247792d63782aa2281cc05d878c102d73bc3d3b oa:hasTarget ubvu:print-218010001103 .
 nl:id_4247792d63782aa2281cc05d878c102d73bc3d3b oa:motivatedBy oa:tagging .
 
+nl:id_760e578bc30b9a9a0303173b7da0abc74eda51b9 a oa:Annotation .
+nl:id_760e578bc30b9a9a0303173b7da0abc74eda51b9 terms:title "Abraham" .
+nl:id_760e578bc30b9a9a0303173b7da0abc74eda51b9 ui:annotationField bible:BibleCharacter .
+nl:id_760e578bc30b9a9a0303173b7da0abc74eda51b9 ui:typingTime 0 .
+nl:id_760e578bc30b9a9a0303173b7da0abc74eda51b9 oa:annotatedAt "2016-06-12T19:41:58+02:00"^^xsd:dateTime .
+nl:id_760e578bc30b9a9a0303173b7da0abc74eda51b9 oa:annotatedBy user:paulinevandijk .
+nl:id_760e578bc30b9a9a0303173b7da0abc74eda51b9 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Abraham" ] .
+nl:id_760e578bc30b9a9a0303173b7da0abc74eda51b9 oa:hasTarget target:target_9b870bf0dd0e6e5847c782376292df68a83b264c .
+nl:id_760e578bc30b9a9a0303173b7da0abc74eda51b9 oa:hasTarget ubvu:print-218010001103 .
+nl:id_760e578bc30b9a9a0303173b7da0abc74eda51b9 oa:motivatedBy oa:tagging .
+
+nl:id_a45318bd17354b154be92438b90263330e43b7bd a oa:Annotation .
+nl:id_a45318bd17354b154be92438b90263330e43b7bd terms:title "Abraham koopt de grot van Machpela" .
+nl:id_a45318bd17354b154be92438b90263330e43b7bd ui:annotationField bible:ICBibleTheme .
+nl:id_a45318bd17354b154be92438b90263330e43b7bd ui:typingTime 0 .
+nl:id_a45318bd17354b154be92438b90263330e43b7bd oa:annotatedAt "2016-06-12T19:42:15+02:00"^^xsd:dateTime .
+nl:id_a45318bd17354b154be92438b90263330e43b7bd oa:annotatedBy user:paulinevandijk .
+nl:id_a45318bd17354b154be92438b90263330e43b7bd oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Abraham koopt de grot van Machpela" ] .
+nl:id_a45318bd17354b154be92438b90263330e43b7bd oa:hasTarget ubvu:print-218010001103 .
+nl:id_a45318bd17354b154be92438b90263330e43b7bd oa:motivatedBy oa:tagging .
+
 nl:id_c9d99cae2457da9a11f546a23316af57d6544c69 a oa:Annotation .
 nl:id_c9d99cae2457da9a11f546a23316af57d6544c69 terms:title "Abraham" .
 nl:id_c9d99cae2457da9a11f546a23316af57d6544c69 ui:annotationField bible:BibleCharacter .
@@ -60,6 +81,14 @@ target:selector_93ff722fd5d1d845671f0d7388cbcb0a91d77be8 ui:x "0.158762886597938
 target:selector_93ff722fd5d1d845671f0d7388cbcb0a91d77be8 ui:y "0.5631648936170213"^^xsd:float .
 target:selector_93ff722fd5d1d845671f0d7388cbcb0a91d77be8 rdf:value "#xywh=percent:16,56,30,21" .
 
+target:selector_9b870bf0dd0e6e5847c782376292df68a83b264c a oa:FragmentSelector .
+target:selector_9b870bf0dd0e6e5847c782376292df68a83b264c terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_9b870bf0dd0e6e5847c782376292df68a83b264c ui:h "0.20412234042553193"^^xsd:float .
+target:selector_9b870bf0dd0e6e5847c782376292df68a83b264c ui:w "0.19278350515463918"^^xsd:float .
+target:selector_9b870bf0dd0e6e5847c782376292df68a83b264c ui:x "0.2804123711340206"^^xsd:float .
+target:selector_9b870bf0dd0e6e5847c782376292df68a83b264c ui:y "0.42819148936170215"^^xsd:float .
+target:selector_9b870bf0dd0e6e5847c782376292df68a83b264c rdf:value "#xywh=percent:28,43,19,20" .
+
 target:target_1a0b40138669de95e010a43a6a360fd7876ec8b8 a oa:SpecificResource .
 target:target_1a0b40138669de95e010a43a6a360fd7876ec8b8 oa:hasSelector target:selector_1a0b40138669de95e010a43a6a360fd7876ec8b8 .
 target:target_1a0b40138669de95e010a43a6a360fd7876ec8b8 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/144> .
@@ -67,3 +96,7 @@ target:target_1a0b40138669de95e010a43a6a360fd7876ec8b8 oa:hasSource <http://imag
 target:target_93ff722fd5d1d845671f0d7388cbcb0a91d77be8 a oa:SpecificResource .
 target:target_93ff722fd5d1d845671f0d7388cbcb0a91d77be8 oa:hasSelector target:selector_93ff722fd5d1d845671f0d7388cbcb0a91d77be8 .
 target:target_93ff722fd5d1d845671f0d7388cbcb0a91d77be8 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/144> .
+
+target:target_9b870bf0dd0e6e5847c782376292df68a83b264c a oa:SpecificResource .
+target:target_9b870bf0dd0e6e5847c782376292df68a83b264c oa:hasSelector target:selector_9b870bf0dd0e6e5847c782376292df68a83b264c .
+target:target_9b870bf0dd0e6e5847c782376292df68a83b264c oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/144> .

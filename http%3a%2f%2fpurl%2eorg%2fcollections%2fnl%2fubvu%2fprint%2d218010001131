@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -10,6 +11,37 @@
 @prefix user: <http://accurator.nl/user#> .
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
+
+nl:id_304192ae4ac055570f0ac4adef93f2db4702708c a oa:Annotation .
+nl:id_304192ae4ac055570f0ac4adef93f2db4702708c terms:title "De droom van Jacob in Betel." .
+nl:id_304192ae4ac055570f0ac4adef93f2db4702708c ui:annotationField bible:ICBibleTheme .
+nl:id_304192ae4ac055570f0ac4adef93f2db4702708c ui:typingTime 0 .
+nl:id_304192ae4ac055570f0ac4adef93f2db4702708c oa:annotatedAt "2016-06-16T19:23:41+02:00"^^xsd:dateTime .
+nl:id_304192ae4ac055570f0ac4adef93f2db4702708c oa:annotatedBy user:paulinevandijk .
+nl:id_304192ae4ac055570f0ac4adef93f2db4702708c oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "De droom van Jacob in Betel." ] .
+nl:id_304192ae4ac055570f0ac4adef93f2db4702708c oa:hasTarget ubvu:print-218010001131 .
+nl:id_304192ae4ac055570f0ac4adef93f2db4702708c oa:motivatedBy oa:tagging .
+
+nl:id_6dfdc5b5f501677d04968c92d648cde5e81c4f0d a oa:Annotation .
+nl:id_6dfdc5b5f501677d04968c92d648cde5e81c4f0d terms:title "Jacob's ladder" .
+nl:id_6dfdc5b5f501677d04968c92d648cde5e81c4f0d ui:annotationField bible:ICBibleTheme .
+nl:id_6dfdc5b5f501677d04968c92d648cde5e81c4f0d ui:typingTime 0 .
+nl:id_6dfdc5b5f501677d04968c92d648cde5e81c4f0d oa:annotatedAt "2016-05-25T17:15:36+02:00"^^xsd:dateTime .
+nl:id_6dfdc5b5f501677d04968c92d648cde5e81c4f0d oa:annotatedBy user:everhoeff .
+nl:id_6dfdc5b5f501677d04968c92d648cde5e81c4f0d oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jacob's ladder" ] .
+nl:id_6dfdc5b5f501677d04968c92d648cde5e81c4f0d oa:hasTarget ubvu:print-218010001131 .
+nl:id_6dfdc5b5f501677d04968c92d648cde5e81c4f0d oa:motivatedBy oa:tagging .
+
+nl:id_9f0ef0b55d15dbb34a8f493c191986bf4e11a2a6 a oa:Annotation .
+nl:id_9f0ef0b55d15dbb34a8f493c191986bf4e11a2a6 terms:title "Jacob" .
+nl:id_9f0ef0b55d15dbb34a8f493c191986bf4e11a2a6 ui:annotationField bible:BibleCharacter .
+nl:id_9f0ef0b55d15dbb34a8f493c191986bf4e11a2a6 ui:typingTime 0 .
+nl:id_9f0ef0b55d15dbb34a8f493c191986bf4e11a2a6 oa:annotatedAt "2016-05-25T17:16:17+02:00"^^xsd:dateTime .
+nl:id_9f0ef0b55d15dbb34a8f493c191986bf4e11a2a6 oa:annotatedBy user:everhoeff .
+nl:id_9f0ef0b55d15dbb34a8f493c191986bf4e11a2a6 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jacob" ] .
+nl:id_9f0ef0b55d15dbb34a8f493c191986bf4e11a2a6 oa:hasTarget target:target_dcce1a105ee8cb75ce09cd2f29b8a4214a6f3a7d .
+nl:id_9f0ef0b55d15dbb34a8f493c191986bf4e11a2a6 oa:hasTarget ubvu:print-218010001131 .
+nl:id_9f0ef0b55d15dbb34a8f493c191986bf4e11a2a6 oa:motivatedBy oa:tagging .
 
 nl:id_d2a58b4b5005310e5805a85e6cf7a23020bbd531 a oa:Annotation .
 nl:id_d2a58b4b5005310e5805a85e6cf7a23020bbd531 terms:title "Jakob" .
@@ -32,6 +64,17 @@ nl:id_e27c6f0225c8bc588bad963c80420b01c3726b44 oa:hasBody <http://iconclass.org/
 nl:id_e27c6f0225c8bc588bad963c80420b01c3726b44 oa:hasTarget ubvu:print-218010001131 .
 nl:id_e27c6f0225c8bc588bad963c80420b01c3726b44 oa:motivatedBy oa:tagging .
 
+nl:id_e64237fcf222b15abd4a98a11d69f2e41e7d4fc1 a oa:Annotation .
+nl:id_e64237fcf222b15abd4a98a11d69f2e41e7d4fc1 terms:title "Jacob" .
+nl:id_e64237fcf222b15abd4a98a11d69f2e41e7d4fc1 ui:annotationField bible:BibleCharacter .
+nl:id_e64237fcf222b15abd4a98a11d69f2e41e7d4fc1 ui:typingTime 0 .
+nl:id_e64237fcf222b15abd4a98a11d69f2e41e7d4fc1 oa:annotatedAt "2016-06-16T19:23:01+02:00"^^xsd:dateTime .
+nl:id_e64237fcf222b15abd4a98a11d69f2e41e7d4fc1 oa:annotatedBy user:paulinevandijk .
+nl:id_e64237fcf222b15abd4a98a11d69f2e41e7d4fc1 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jacob" ] .
+nl:id_e64237fcf222b15abd4a98a11d69f2e41e7d4fc1 oa:hasTarget target:target_d4d2b75771ea89287169aa4c34beae184324652f .
+nl:id_e64237fcf222b15abd4a98a11d69f2e41e7d4fc1 oa:hasTarget ubvu:print-218010001131 .
+nl:id_e64237fcf222b15abd4a98a11d69f2e41e7d4fc1 oa:motivatedBy oa:tagging .
+
 target:selector_58cf40a143ed14390c567e7825b15970dca1a898 a oa:FragmentSelector .
 target:selector_58cf40a143ed14390c567e7825b15970dca1a898 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
 target:selector_58cf40a143ed14390c567e7825b15970dca1a898 ui:h "0.2235562558205712"^^xsd:float .
@@ -40,6 +83,30 @@ target:selector_58cf40a143ed14390c567e7825b15970dca1a898 ui:x "0.199907204539505
 target:selector_58cf40a143ed14390c567e7825b15970dca1a898 ui:y "0.6332781456953642"^^xsd:float .
 target:selector_58cf40a143ed14390c567e7825b15970dca1a898 rdf:value "#xywh=percent:20,63,63,22" .
 
+target:selector_d4d2b75771ea89287169aa4c34beae184324652f a oa:FragmentSelector .
+target:selector_d4d2b75771ea89287169aa4c34beae184324652f terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_d4d2b75771ea89287169aa4c34beae184324652f ui:h "0.1801208127402526"^^xsd:float .
+target:selector_d4d2b75771ea89287169aa4c34beae184324652f ui:w "0.3316239316239316"^^xsd:float .
+target:selector_d4d2b75771ea89287169aa4c34beae184324652f ui:x "0.5017094017094017"^^xsd:float .
+target:selector_d4d2b75771ea89287169aa4c34beae184324652f ui:y "0.6265788028555739"^^xsd:float .
+target:selector_d4d2b75771ea89287169aa4c34beae184324652f rdf:value "#xywh=percent:50,63,33,18" .
+
+target:selector_dcce1a105ee8cb75ce09cd2f29b8a4214a6f3a7d a oa:FragmentSelector .
+target:selector_dcce1a105ee8cb75ce09cd2f29b8a4214a6f3a7d terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_dcce1a105ee8cb75ce09cd2f29b8a4214a6f3a7d ui:h "0.22793487574978577"^^xsd:float .
+target:selector_dcce1a105ee8cb75ce09cd2f29b8a4214a6f3a7d ui:w "0.496"^^xsd:float .
+target:selector_dcce1a105ee8cb75ce09cd2f29b8a4214a6f3a7d ui:x "0.36933333333333335"^^xsd:float .
+target:selector_dcce1a105ee8cb75ce09cd2f29b8a4214a6f3a7d ui:y "0.6392459297343616"^^xsd:float .
+target:selector_dcce1a105ee8cb75ce09cd2f29b8a4214a6f3a7d rdf:value "#xywh=percent:37,64,50,23" .
+
 target:target_58cf40a143ed14390c567e7825b15970dca1a898 a oa:SpecificResource .
 target:target_58cf40a143ed14390c567e7825b15970dca1a898 oa:hasSelector target:selector_58cf40a143ed14390c567e7825b15970dca1a898 .
 target:target_58cf40a143ed14390c567e7825b15970dca1a898 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/172> .
+
+target:target_d4d2b75771ea89287169aa4c34beae184324652f a oa:SpecificResource .
+target:target_d4d2b75771ea89287169aa4c34beae184324652f oa:hasSelector target:selector_d4d2b75771ea89287169aa4c34beae184324652f .
+target:target_d4d2b75771ea89287169aa4c34beae184324652f oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/172> .
+
+target:target_dcce1a105ee8cb75ce09cd2f29b8a4214a6f3a7d a oa:SpecificResource .
+target:target_dcce1a105ee8cb75ce09cd2f29b8a4214a6f3a7d oa:hasSelector target:selector_dcce1a105ee8cb75ce09cd2f29b8a4214a6f3a7d .
+target:target_dcce1a105ee8cb75ce09cd2f29b8a4214a6f3a7d oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/172> .

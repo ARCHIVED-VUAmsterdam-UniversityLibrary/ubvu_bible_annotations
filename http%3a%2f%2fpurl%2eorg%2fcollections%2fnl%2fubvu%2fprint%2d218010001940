@@ -1,4 +1,5 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix media-frags: <http://www.w3.org/TR/media-frags/> .
 @prefix content: <http://www.w3.org/2011/content#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -11,35 +12,78 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
-nl:id_14d4a14e509babd3327e9debc8cf54034ca8a767 a oa:Annotation .
-nl:id_14d4a14e509babd3327e9debc8cf54034ca8a767 terms:title "Paulus" .
-nl:id_14d4a14e509babd3327e9debc8cf54034ca8a767 ui:annotationField bible:BibleCharacter .
-nl:id_14d4a14e509babd3327e9debc8cf54034ca8a767 ui:typingTime 0 .
-nl:id_14d4a14e509babd3327e9debc8cf54034ca8a767 oa:annotatedAt "2016-04-23T16:32:54+02:00"^^xsd:dateTime .
-nl:id_14d4a14e509babd3327e9debc8cf54034ca8a767 oa:annotatedBy user:paulinevandijk .
-nl:id_14d4a14e509babd3327e9debc8cf54034ca8a767 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Paulus" ] .
-nl:id_14d4a14e509babd3327e9debc8cf54034ca8a767 oa:hasTarget target:target_7056f898cbbfee798d30e60fe6cb20028e909723 .
-nl:id_14d4a14e509babd3327e9debc8cf54034ca8a767 oa:hasTarget ubvu:print-218010001940 .
-nl:id_14d4a14e509babd3327e9debc8cf54034ca8a767 oa:motivatedBy oa:tagging .
+nl:id_2e230faff693b334a7b0901ff13fb78592bc1b53 a oa:Annotation .
+nl:id_2e230faff693b334a7b0901ff13fb78592bc1b53 terms:title "Petrus" .
+nl:id_2e230faff693b334a7b0901ff13fb78592bc1b53 ui:annotationField bible:BibleCharacter .
+nl:id_2e230faff693b334a7b0901ff13fb78592bc1b53 ui:typingTime 0 .
+nl:id_2e230faff693b334a7b0901ff13fb78592bc1b53 oa:annotatedAt "2016-06-07T14:15:01+02:00"^^xsd:dateTime .
+nl:id_2e230faff693b334a7b0901ff13fb78592bc1b53 oa:annotatedBy user:paulinevandijk .
+nl:id_2e230faff693b334a7b0901ff13fb78592bc1b53 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Petrus" ] .
+nl:id_2e230faff693b334a7b0901ff13fb78592bc1b53 oa:hasTarget target:target_bbaab1cb8fce53a4c8cd9dc6201dda63644d8568 .
+nl:id_2e230faff693b334a7b0901ff13fb78592bc1b53 oa:hasTarget ubvu:print-218010001940 .
+nl:id_2e230faff693b334a7b0901ff13fb78592bc1b53 oa:motivatedBy oa:tagging .
 
-nl:id_2b7a37fdba383e349d73a59651c7d15fc8800c03 a oa:Annotation .
-nl:id_2b7a37fdba383e349d73a59651c7d15fc8800c03 terms:title "Paulus neemt afscheid van de gemeente van Efeze" .
-nl:id_2b7a37fdba383e349d73a59651c7d15fc8800c03 ui:annotationField bible:ICBibleTheme .
-nl:id_2b7a37fdba383e349d73a59651c7d15fc8800c03 ui:typingTime 0 .
-nl:id_2b7a37fdba383e349d73a59651c7d15fc8800c03 oa:annotatedAt "2016-04-23T16:33:34+02:00"^^xsd:dateTime .
-nl:id_2b7a37fdba383e349d73a59651c7d15fc8800c03 oa:annotatedBy user:paulinevandijk .
-nl:id_2b7a37fdba383e349d73a59651c7d15fc8800c03 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Paulus neemt afscheid van de gemeente van Efeze" ] .
-nl:id_2b7a37fdba383e349d73a59651c7d15fc8800c03 oa:hasTarget ubvu:print-218010001940 .
-nl:id_2b7a37fdba383e349d73a59651c7d15fc8800c03 oa:motivatedBy oa:tagging .
+nl:id_494b7bb634f33dae99e5519d6d721a0f6f59c178 a oa:Annotation .
+nl:id_494b7bb634f33dae99e5519d6d721a0f6f59c178 terms:title "Paul se" .
+nl:id_494b7bb634f33dae99e5519d6d721a0f6f59c178 ui:annotationField bible:ICBibleTheme .
+nl:id_494b7bb634f33dae99e5519d6d721a0f6f59c178 ui:typingTime 0 .
+nl:id_494b7bb634f33dae99e5519d6d721a0f6f59c178 oa:annotatedAt "2016-05-05T12:31:11+02:00"^^xsd:dateTime .
+nl:id_494b7bb634f33dae99e5519d6d721a0f6f59c178 oa:annotatedBy user:everhoeff .
+nl:id_494b7bb634f33dae99e5519d6d721a0f6f59c178 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Paul se" ] .
+nl:id_494b7bb634f33dae99e5519d6d721a0f6f59c178 oa:hasTarget ubvu:print-218010001940 .
+nl:id_494b7bb634f33dae99e5519d6d721a0f6f59c178 oa:motivatedBy oa:tagging .
 
-target:selector_7056f898cbbfee798d30e60fe6cb20028e909723 a oa:FragmentSelector .
-target:selector_7056f898cbbfee798d30e60fe6cb20028e909723 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
-target:selector_7056f898cbbfee798d30e60fe6cb20028e909723 ui:h "0.1710914454277286"^^xsd:float .
-target:selector_7056f898cbbfee798d30e60fe6cb20028e909723 ui:w "0.07865168539325842"^^xsd:float .
-target:selector_7056f898cbbfee798d30e60fe6cb20028e909723 ui:x "0.47191011235955055"^^xsd:float .
-target:selector_7056f898cbbfee798d30e60fe6cb20028e909723 ui:y "0.6784660766961652"^^xsd:float .
-target:selector_7056f898cbbfee798d30e60fe6cb20028e909723 rdf:value "#xywh=percent:47,68,8,17" .
+nl:id_7ea693bfab8a203a105c1cd6736c56eb4eebfe49 a oa:Annotation .
+nl:id_7ea693bfab8a203a105c1cd6736c56eb4eebfe49 terms:title "Paulus neemt afscheid van de gemeente Efeze" .
+nl:id_7ea693bfab8a203a105c1cd6736c56eb4eebfe49 ui:annotationField bible:ICBibleTheme .
+nl:id_7ea693bfab8a203a105c1cd6736c56eb4eebfe49 ui:typingTime 0 .
+nl:id_7ea693bfab8a203a105c1cd6736c56eb4eebfe49 oa:annotatedAt "2016-06-07T14:15:49+02:00"^^xsd:dateTime .
+nl:id_7ea693bfab8a203a105c1cd6736c56eb4eebfe49 oa:annotatedBy user:paulinevandijk .
+nl:id_7ea693bfab8a203a105c1cd6736c56eb4eebfe49 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Paulus neemt afscheid van de gemeente Efeze" ] .
+nl:id_7ea693bfab8a203a105c1cd6736c56eb4eebfe49 oa:hasTarget ubvu:print-218010001940 .
+nl:id_7ea693bfab8a203a105c1cd6736c56eb4eebfe49 oa:motivatedBy oa:tagging .
 
-target:target_7056f898cbbfee798d30e60fe6cb20028e909723 a oa:SpecificResource .
-target:target_7056f898cbbfee798d30e60fe6cb20028e909723 oa:hasSelector target:selector_7056f898cbbfee798d30e60fe6cb20028e909723 .
-target:target_7056f898cbbfee798d30e60fe6cb20028e909723 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/979> .
+nl:id_bef5220daf0a08f9555b9cddec3611cc2e8aa988 a oa:Annotation .
+nl:id_bef5220daf0a08f9555b9cddec3611cc2e8aa988 terms:title "Departure of Paul to Rhodes" .
+nl:id_bef5220daf0a08f9555b9cddec3611cc2e8aa988 ui:annotationField bible:ICBibleTheme .
+nl:id_bef5220daf0a08f9555b9cddec3611cc2e8aa988 ui:typingTime 0 .
+nl:id_bef5220daf0a08f9555b9cddec3611cc2e8aa988 oa:annotatedAt "2016-05-05T12:31:55+02:00"^^xsd:dateTime .
+nl:id_bef5220daf0a08f9555b9cddec3611cc2e8aa988 oa:annotatedBy user:everhoeff .
+nl:id_bef5220daf0a08f9555b9cddec3611cc2e8aa988 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Departure of Paul to Rhodes" ] .
+nl:id_bef5220daf0a08f9555b9cddec3611cc2e8aa988 oa:hasTarget ubvu:print-218010001940 .
+nl:id_bef5220daf0a08f9555b9cddec3611cc2e8aa988 oa:motivatedBy oa:tagging .
+
+nl:id_e67307b4bb2b0661d13a02260388e5eb20a9e383 a oa:Annotation .
+nl:id_e67307b4bb2b0661d13a02260388e5eb20a9e383 terms:title "Paulus" .
+nl:id_e67307b4bb2b0661d13a02260388e5eb20a9e383 ui:annotationField bible:BibleCharacter .
+nl:id_e67307b4bb2b0661d13a02260388e5eb20a9e383 ui:typingTime 0 .
+nl:id_e67307b4bb2b0661d13a02260388e5eb20a9e383 oa:annotatedAt "2016-06-07T14:15:35+02:00"^^xsd:dateTime .
+nl:id_e67307b4bb2b0661d13a02260388e5eb20a9e383 oa:annotatedBy user:paulinevandijk .
+nl:id_e67307b4bb2b0661d13a02260388e5eb20a9e383 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Paulus" ] .
+nl:id_e67307b4bb2b0661d13a02260388e5eb20a9e383 oa:hasTarget target:target_b7a5995769eec5e06f050d608e0e15fd55faed3b .
+nl:id_e67307b4bb2b0661d13a02260388e5eb20a9e383 oa:hasTarget ubvu:print-218010001940 .
+nl:id_e67307b4bb2b0661d13a02260388e5eb20a9e383 oa:motivatedBy oa:tagging .
+
+target:selector_b7a5995769eec5e06f050d608e0e15fd55faed3b a oa:FragmentSelector .
+target:selector_b7a5995769eec5e06f050d608e0e15fd55faed3b terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_b7a5995769eec5e06f050d608e0e15fd55faed3b ui:h "0.1855595667870036"^^xsd:float .
+target:selector_b7a5995769eec5e06f050d608e0e15fd55faed3b ui:w "0.1268041237113402"^^xsd:float .
+target:selector_b7a5995769eec5e06f050d608e0e15fd55faed3b ui:x "0.46494845360824744"^^xsd:float .
+target:selector_b7a5995769eec5e06f050d608e0e15fd55faed3b ui:y "0.6714801444043321"^^xsd:float .
+target:selector_b7a5995769eec5e06f050d608e0e15fd55faed3b rdf:value "#xywh=percent:46,67,13,19" .
+
+target:selector_bbaab1cb8fce53a4c8cd9dc6201dda63644d8568 a oa:FragmentSelector .
+target:selector_bbaab1cb8fce53a4c8cd9dc6201dda63644d8568 terms:conformsTo <http://www.w3.org/TR/media-frags/> .
+target:selector_bbaab1cb8fce53a4c8cd9dc6201dda63644d8568 ui:h "0.18267148014440432"^^xsd:float .
+target:selector_bbaab1cb8fce53a4c8cd9dc6201dda63644d8568 ui:w "0.1134020618556701"^^xsd:float .
+target:selector_bbaab1cb8fce53a4c8cd9dc6201dda63644d8568 ui:x "0.4670103092783505"^^xsd:float .
+target:selector_bbaab1cb8fce53a4c8cd9dc6201dda63644d8568 ui:y "0.6729241877256318"^^xsd:float .
+target:selector_bbaab1cb8fce53a4c8cd9dc6201dda63644d8568 rdf:value "#xywh=percent:47,67,11,18" .
+
+target:target_b7a5995769eec5e06f050d608e0e15fd55faed3b a oa:SpecificResource .
+target:target_b7a5995769eec5e06f050d608e0e15fd55faed3b oa:hasSelector target:selector_b7a5995769eec5e06f050d608e0e15fd55faed3b .
+target:target_b7a5995769eec5e06f050d608e0e15fd55faed3b oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/979> .
+
+target:target_bbaab1cb8fce53a4c8cd9dc6201dda63644d8568 a oa:SpecificResource .
+target:target_bbaab1cb8fce53a4c8cd9dc6201dda63644d8568 oa:hasSelector target:selector_bbaab1cb8fce53a4c8cd9dc6201dda63644d8568 .
+target:target_bbaab1cb8fce53a4c8cd9dc6201dda63644d8568 oa:hasSource <http://imagebase.ubvu.vu.nl/utils/getfile/collection/bis/id/979> .

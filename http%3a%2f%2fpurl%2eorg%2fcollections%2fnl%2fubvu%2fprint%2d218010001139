@@ -7,13 +7,25 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix user: <http://accurator.nl/user#> .
+@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
+@prefix nl: <http://accurator.nl/> .
 
-<http://accurator.nl/id_4e3985b26ada6b1b06ba650a106b2c818c1ed8c5> a oa:Annotation .
-<http://accurator.nl/id_4e3985b26ada6b1b06ba650a106b2c818c1ed8c5> terms:title "Laban and Jacob make a covenant together" .
-<http://accurator.nl/id_4e3985b26ada6b1b06ba650a106b2c818c1ed8c5> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
-<http://accurator.nl/id_4e3985b26ada6b1b06ba650a106b2c818c1ed8c5> ui:typingTime 0 .
-<http://accurator.nl/id_4e3985b26ada6b1b06ba650a106b2c818c1ed8c5> oa:annotatedAt "2016-04-05T17:33:18+02:00"^^xsd:dateTime .
-<http://accurator.nl/id_4e3985b26ada6b1b06ba650a106b2c818c1ed8c5> oa:annotatedBy user:everhoeff .
-<http://accurator.nl/id_4e3985b26ada6b1b06ba650a106b2c818c1ed8c5> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Laban and Jacob make a covenant together" ] .
-<http://accurator.nl/id_4e3985b26ada6b1b06ba650a106b2c818c1ed8c5> oa:hasTarget ubvu:print-218010001139 .
-<http://accurator.nl/id_4e3985b26ada6b1b06ba650a106b2c818c1ed8c5> oa:motivatedBy oa:tagging .
+nl:id_41ee266b8d3b652cb164dafe590e950cc7122a04 a oa:Annotation .
+nl:id_41ee266b8d3b652cb164dafe590e950cc7122a04 terms:title "Jakob en Laban sluiten een verbond" .
+nl:id_41ee266b8d3b652cb164dafe590e950cc7122a04 ui:annotationField bible:ICBibleTheme .
+nl:id_41ee266b8d3b652cb164dafe590e950cc7122a04 ui:typingTime 0 .
+nl:id_41ee266b8d3b652cb164dafe590e950cc7122a04 oa:annotatedAt "2016-08-03T16:47:46+02:00"^^xsd:dateTime .
+nl:id_41ee266b8d3b652cb164dafe590e950cc7122a04 oa:annotatedBy user:paulinevandijk .
+nl:id_41ee266b8d3b652cb164dafe590e950cc7122a04 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Jakob en Laban sluiten een verbond" ] .
+nl:id_41ee266b8d3b652cb164dafe590e950cc7122a04 oa:hasTarget ubvu:print-218010001139 .
+nl:id_41ee266b8d3b652cb164dafe590e950cc7122a04 oa:motivatedBy oa:tagging .
+
+nl:id_4e3985b26ada6b1b06ba650a106b2c818c1ed8c5 a oa:Annotation .
+nl:id_4e3985b26ada6b1b06ba650a106b2c818c1ed8c5 terms:title "Laban and Jacob make a covenant together" .
+nl:id_4e3985b26ada6b1b06ba650a106b2c818c1ed8c5 ui:annotationField bible:ICBibleTheme .
+nl:id_4e3985b26ada6b1b06ba650a106b2c818c1ed8c5 ui:typingTime 0 .
+nl:id_4e3985b26ada6b1b06ba650a106b2c818c1ed8c5 oa:annotatedAt "2016-04-05T17:33:18+02:00"^^xsd:dateTime .
+nl:id_4e3985b26ada6b1b06ba650a106b2c818c1ed8c5 oa:annotatedBy user:everhoeff .
+nl:id_4e3985b26ada6b1b06ba650a106b2c818c1ed8c5 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Laban and Jacob make a covenant together" ] .
+nl:id_4e3985b26ada6b1b06ba650a106b2c818c1ed8c5 oa:hasTarget ubvu:print-218010001139 .
+nl:id_4e3985b26ada6b1b06ba650a106b2c818c1ed8c5 oa:motivatedBy oa:tagging .

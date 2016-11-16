@@ -12,6 +12,36 @@
 @prefix bible: <http://accurator.nl/ui/annotation/bible#> .
 @prefix nl: <http://accurator.nl/> .
 
+nl:id_05da49b4de7905a2841d040ff9c571e4d228f1ee a oa:Annotation .
+nl:id_05da49b4de7905a2841d040ff9c571e4d228f1ee terms:title "Aaron died on the top of the mount" .
+nl:id_05da49b4de7905a2841d040ff9c571e4d228f1ee ui:annotationField bible:ICBibleTheme .
+nl:id_05da49b4de7905a2841d040ff9c571e4d228f1ee ui:typingTime 0 .
+nl:id_05da49b4de7905a2841d040ff9c571e4d228f1ee oa:annotatedAt "2016-06-21T17:25:18+02:00"^^xsd:dateTime .
+nl:id_05da49b4de7905a2841d040ff9c571e4d228f1ee oa:annotatedBy user:everhoeff .
+nl:id_05da49b4de7905a2841d040ff9c571e4d228f1ee oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Aaron died on the top of the mount" ] .
+nl:id_05da49b4de7905a2841d040ff9c571e4d228f1ee oa:hasTarget ubvu:print-218010002007 .
+nl:id_05da49b4de7905a2841d040ff9c571e4d228f1ee oa:motivatedBy oa:tagging .
+
+nl:id_11fc968beb8bf6a6d5db88f6b5171f2402bd323b a oa:Annotation .
+nl:id_11fc968beb8bf6a6d5db88f6b5171f2402bd323b terms:title "Balaks presents for Bileam" .
+nl:id_11fc968beb8bf6a6d5db88f6b5171f2402bd323b ui:annotationField bible:ICBibleTheme .
+nl:id_11fc968beb8bf6a6d5db88f6b5171f2402bd323b ui:typingTime 0 .
+nl:id_11fc968beb8bf6a6d5db88f6b5171f2402bd323b oa:annotatedAt "2016-06-21T17:26:40+02:00"^^xsd:dateTime .
+nl:id_11fc968beb8bf6a6d5db88f6b5171f2402bd323b oa:annotatedBy user:everhoeff .
+nl:id_11fc968beb8bf6a6d5db88f6b5171f2402bd323b oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Balaks presents for Bileam" ] .
+nl:id_11fc968beb8bf6a6d5db88f6b5171f2402bd323b oa:hasTarget ubvu:print-218010002007 .
+nl:id_11fc968beb8bf6a6d5db88f6b5171f2402bd323b oa:motivatedBy oa:tagging .
+
+nl:id_3392db800d95352df65a3c15112d2f7cb306578e a oa:Annotation .
+nl:id_3392db800d95352df65a3c15112d2f7cb306578e terms:title "Aaron stripted of his garments and given to his son Eliazar" .
+nl:id_3392db800d95352df65a3c15112d2f7cb306578e ui:annotationField bible:ICBibleTheme .
+nl:id_3392db800d95352df65a3c15112d2f7cb306578e ui:typingTime 0 .
+nl:id_3392db800d95352df65a3c15112d2f7cb306578e oa:annotatedAt "2016-06-21T17:24:20+02:00"^^xsd:dateTime .
+nl:id_3392db800d95352df65a3c15112d2f7cb306578e oa:annotatedBy user:everhoeff .
+nl:id_3392db800d95352df65a3c15112d2f7cb306578e oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "Aaron stripted of his garments and given to his son Eliazar" ] .
+nl:id_3392db800d95352df65a3c15112d2f7cb306578e oa:hasTarget ubvu:print-218010002007 .
+nl:id_3392db800d95352df65a3c15112d2f7cb306578e oa:motivatedBy oa:tagging .
+
 nl:id_4b20c47e1492327a5210e29b7349a1e36ae8bc79 a oa:Annotation .
 nl:id_4b20c47e1492327a5210e29b7349a1e36ae8bc79 terms:title "Aäron" .
 nl:id_4b20c47e1492327a5210e29b7349a1e36ae8bc79 ui:annotationField bible:BibleCharacter .
@@ -120,6 +150,16 @@ nl:id_d2159de66c1df399627dd9d12cf77cfed20f4cf9 oa:hasBody [ a content:ContentAsT
 nl:id_d2159de66c1df399627dd9d12cf77cfed20f4cf9 oa:hasTarget target:target_5f216d2f17afc82e39c6593b6cd02a1b120698e4 .
 nl:id_d2159de66c1df399627dd9d12cf77cfed20f4cf9 oa:hasTarget ubvu:print-218010002007 .
 nl:id_d2159de66c1df399627dd9d12cf77cfed20f4cf9 oa:motivatedBy oa:tagging .
+
+nl:id_d9dc45ff74c0d061b9c8b22d58905419b6836a6f a oa:Annotation .
+nl:id_d9dc45ff74c0d061b9c8b22d58905419b6836a6f terms:title "The serpent upon a pole" .
+nl:id_d9dc45ff74c0d061b9c8b22d58905419b6836a6f ui:annotationField bible:ICBibleTheme .
+nl:id_d9dc45ff74c0d061b9c8b22d58905419b6836a6f ui:typingTime 0 .
+nl:id_d9dc45ff74c0d061b9c8b22d58905419b6836a6f oa:annotatedAt "2016-06-21T17:20:07+02:00"^^xsd:dateTime .
+nl:id_d9dc45ff74c0d061b9c8b22d58905419b6836a6f oa:annotatedBy user:everhoeff .
+nl:id_d9dc45ff74c0d061b9c8b22d58905419b6836a6f oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "The serpent upon a pole" ] .
+nl:id_d9dc45ff74c0d061b9c8b22d58905419b6836a6f oa:hasTarget ubvu:print-218010002007 .
+nl:id_d9dc45ff74c0d061b9c8b22d58905419b6836a6f oa:motivatedBy oa:tagging .
 
 nl:id_e6e4fec12727eb0b9ec351fb8c7ddf1652c8d47d a oa:Annotation .
 nl:id_e6e4fec12727eb0b9ec351fb8c7ddf1652c8d47d terms:title "De dood van Aäron en Mozes met de koperen slang" .
