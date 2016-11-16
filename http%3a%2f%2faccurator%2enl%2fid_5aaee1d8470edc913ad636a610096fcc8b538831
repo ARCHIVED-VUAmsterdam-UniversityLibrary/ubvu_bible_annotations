@@ -5,14 +5,15 @@
 @prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix user: <http://accurator.nl/user#> .
 @prefix nl: <http://accurator.nl/> .
 
-nl:id_50e2f8e17273bfd0310b8e318f687011d1ad53f0 a oa:Annotation .
-nl:id_50e2f8e17273bfd0310b8e318f687011d1ad53f0 terms:title "agree" .
-nl:id_50e2f8e17273bfd0310b8e318f687011d1ad53f0 ui:annotationField <http://accurator.nl/ui/annotation/review#Buttons> .
-nl:id_50e2f8e17273bfd0310b8e318f687011d1ad53f0 ui:typingTime 0 .
-nl:id_50e2f8e17273bfd0310b8e318f687011d1ad53f0 oa:annotatedAt "2016-07-01T14:15:51+02:00"^^xsd:dateTime .
-nl:id_50e2f8e17273bfd0310b8e318f687011d1ad53f0 oa:annotatedBy <http://bijbel.accurator.nl/user/admin> .
-nl:id_50e2f8e17273bfd0310b8e318f687011d1ad53f0 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "agree" ] .
-nl:id_50e2f8e17273bfd0310b8e318f687011d1ad53f0 oa:hasTarget nl:id_5aaee1d8470edc913ad636a610096fcc8b538831 .
-nl:id_50e2f8e17273bfd0310b8e318f687011d1ad53f0 oa:motivatedBy oa:moderating .
+nl:id_513f39f40444c981910f50a9e1ae95520cd517f3 a oa:Annotation .
+nl:id_513f39f40444c981910f50a9e1ae95520cd517f3 terms:title "agree" .
+nl:id_513f39f40444c981910f50a9e1ae95520cd517f3 ui:annotationField <http://accurator.nl/ui/annotation/review#Buttons> .
+nl:id_513f39f40444c981910f50a9e1ae95520cd517f3 ui:typingTime 0 .
+nl:id_513f39f40444c981910f50a9e1ae95520cd517f3 oa:annotatedAt "2016-11-16T13:22:54+01:00"^^xsd:dateTime .
+nl:id_513f39f40444c981910f50a9e1ae95520cd517f3 oa:annotatedBy user:rasvaan .
+nl:id_513f39f40444c981910f50a9e1ae95520cd517f3 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "agree" ] .
+nl:id_513f39f40444c981910f50a9e1ae95520cd517f3 oa:hasTarget nl:id_5aaee1d8470edc913ad636a610096fcc8b538831 .
+nl:id_513f39f40444c981910f50a9e1ae95520cd517f3 oa:motivatedBy oa:moderating .
