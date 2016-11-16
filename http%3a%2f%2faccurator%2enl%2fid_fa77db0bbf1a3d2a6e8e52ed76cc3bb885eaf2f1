@@ -1,0 +1,19 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix content: <http://www.w3.org/2011/content#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://semanticweb.cs.vu.nl/annotate/ui/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix user: <http://accurator.nl/user#> .
+@prefix nl: <http://accurator.nl/> .
+
+nl:id_d4b4e1b027ce87349b5f2d054143e4725ba008cb a oa:Annotation .
+nl:id_d4b4e1b027ce87349b5f2d054143e4725ba008cb terms:title "agree" .
+nl:id_d4b4e1b027ce87349b5f2d054143e4725ba008cb ui:annotationField <http://accurator.nl/ui/annotation/review#Buttons> .
+nl:id_d4b4e1b027ce87349b5f2d054143e4725ba008cb ui:typingTime 0 .
+nl:id_d4b4e1b027ce87349b5f2d054143e4725ba008cb oa:annotatedAt "2016-11-16T13:25:19+01:00"^^xsd:dateTime .
+nl:id_d4b4e1b027ce87349b5f2d054143e4725ba008cb oa:annotatedBy user:rasvaan .
+nl:id_d4b4e1b027ce87349b5f2d054143e4725ba008cb oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "agree" ] .
+nl:id_d4b4e1b027ce87349b5f2d054143e4725ba008cb oa:hasTarget nl:id_fa77db0bbf1a3d2a6e8e52ed76cc3bb885eaf2f1 .
+nl:id_d4b4e1b027ce87349b5f2d054143e4725ba008cb oa:motivatedBy oa:moderating .
