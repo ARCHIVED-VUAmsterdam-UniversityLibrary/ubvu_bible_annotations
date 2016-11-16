@@ -435,16 +435,6 @@ nl:id_e55060a667a79c5896ceb3cd261edab54c9a382a oa:hasTarget target:target_2e411f
 nl:id_e55060a667a79c5896ceb3cd261edab54c9a382a oa:hasTarget ubvu:print-218010002033 .
 nl:id_e55060a667a79c5896ceb3cd261edab54c9a382a oa:motivatedBy oa:tagging .
 
-nl:id_e819d291ba86e74753b7efd50e8fc0ca5260fff7 a oa:Annotation .
-nl:id_e819d291ba86e74753b7efd50e8fc0ca5260fff7 terms:title " " .
-nl:id_e819d291ba86e74753b7efd50e8fc0ca5260fff7 ui:annotationField bible:ICBibleTheme .
-nl:id_e819d291ba86e74753b7efd50e8fc0ca5260fff7 ui:typingTime 0 .
-nl:id_e819d291ba86e74753b7efd50e8fc0ca5260fff7 oa:annotatedAt "2016-09-09T21:08:57+02:00"^^xsd:dateTime .
-nl:id_e819d291ba86e74753b7efd50e8fc0ca5260fff7 oa:annotatedBy user:everhoeff .
-nl:id_e819d291ba86e74753b7efd50e8fc0ca5260fff7 oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars " " ] .
-nl:id_e819d291ba86e74753b7efd50e8fc0ca5260fff7 oa:hasTarget ubvu:print-218010002033 .
-nl:id_e819d291ba86e74753b7efd50e8fc0ca5260fff7 oa:motivatedBy oa:tagging .
-
 nl:id_eb77487685483dd28711b78d87eced7edeacbf9a a oa:Annotation .
 nl:id_eb77487685483dd28711b78d87eced7edeacbf9a terms:title "Johannes de Doper" .
 nl:id_eb77487685483dd28711b78d87eced7edeacbf9a ui:annotationField bible:BibleCharacter .
