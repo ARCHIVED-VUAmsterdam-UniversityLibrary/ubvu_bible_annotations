@@ -7,25 +7,13 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ubvu: <http://purl.org/collections/nl/ubvu/> .
 @prefix user: <http://accurator.nl/user#> .
-@prefix bible: <http://accurator.nl/ui/annotation/bible#> .
-@prefix nl: <http://accurator.nl/> .
 
-nl:id_98c5a7a936e26dffc475ef5c4e22ab01e6dd841d a oa:Annotation .
-nl:id_98c5a7a936e26dffc475ef5c4e22ab01e6dd841d terms:title "-" .
-nl:id_98c5a7a936e26dffc475ef5c4e22ab01e6dd841d ui:annotationField bible:ICBibleTheme .
-nl:id_98c5a7a936e26dffc475ef5c4e22ab01e6dd841d ui:typingTime 0 .
-nl:id_98c5a7a936e26dffc475ef5c4e22ab01e6dd841d oa:annotatedAt "2016-07-01T21:03:16+02:00"^^xsd:dateTime .
-nl:id_98c5a7a936e26dffc475ef5c4e22ab01e6dd841d oa:annotatedBy user:everhoeff .
-nl:id_98c5a7a936e26dffc475ef5c4e22ab01e6dd841d oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "-" ] .
-nl:id_98c5a7a936e26dffc475ef5c4e22ab01e6dd841d oa:hasTarget ubvu:print-218010001690 .
-nl:id_98c5a7a936e26dffc475ef5c4e22ab01e6dd841d oa:motivatedBy oa:tagging .
-
-nl:id_c3258b84bbc583306548d116f4f3b3527f9ce63d a oa:Annotation .
-nl:id_c3258b84bbc583306548d116f4f3b3527f9ce63d terms:title "illustratie" .
-nl:id_c3258b84bbc583306548d116f4f3b3527f9ce63d ui:annotationField bible:ICBibleTheme .
-nl:id_c3258b84bbc583306548d116f4f3b3527f9ce63d ui:typingTime 0 .
-nl:id_c3258b84bbc583306548d116f4f3b3527f9ce63d oa:annotatedAt "2016-04-23T16:50:57+02:00"^^xsd:dateTime .
-nl:id_c3258b84bbc583306548d116f4f3b3527f9ce63d oa:annotatedBy user:paulinevandijk .
-nl:id_c3258b84bbc583306548d116f4f3b3527f9ce63d oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "illustratie" ] .
-nl:id_c3258b84bbc583306548d116f4f3b3527f9ce63d oa:hasTarget ubvu:print-218010001690 .
-nl:id_c3258b84bbc583306548d116f4f3b3527f9ce63d oa:motivatedBy oa:tagging .
+<http://accurator.nl/id_c3258b84bbc583306548d116f4f3b3527f9ce63d> a oa:Annotation .
+<http://accurator.nl/id_c3258b84bbc583306548d116f4f3b3527f9ce63d> terms:title "illustratie" .
+<http://accurator.nl/id_c3258b84bbc583306548d116f4f3b3527f9ce63d> ui:annotationField <http://accurator.nl/ui/annotation/bible#ICBibleTheme> .
+<http://accurator.nl/id_c3258b84bbc583306548d116f4f3b3527f9ce63d> ui:typingTime 0 .
+<http://accurator.nl/id_c3258b84bbc583306548d116f4f3b3527f9ce63d> oa:annotatedAt "2016-04-23T16:50:57+02:00"^^xsd:dateTime .
+<http://accurator.nl/id_c3258b84bbc583306548d116f4f3b3527f9ce63d> oa:annotatedBy user:paulinevandijk .
+<http://accurator.nl/id_c3258b84bbc583306548d116f4f3b3527f9ce63d> oa:hasBody [ a content:ContentAsText ; dc:format "text/plain" ; content:chars "illustratie" ] .
+<http://accurator.nl/id_c3258b84bbc583306548d116f4f3b3527f9ce63d> oa:hasTarget ubvu:print-218010001690 .
+<http://accurator.nl/id_c3258b84bbc583306548d116f4f3b3527f9ce63d> oa:motivatedBy oa:tagging .
